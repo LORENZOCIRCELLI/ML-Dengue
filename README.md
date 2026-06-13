@@ -1,6 +1,8 @@
-# ML-Dengue Global Repository
+# Machine Learning para Predição de Surtos de Arboviroses
 
-Repositório oficial do projeto de doutorado de **Fulano de Tal**, dedicado à aplicação de técnicas de Machine Learning, Inteligência Artificial e Ciência de Dados para análise epidemiológica da dengue.
+Repositório oficial do projeto de doutorado de **Prof. Me. Fernando Perez**, dedicado à aplicação de técnicas de Machine Learning, Inteligência Artificial e Ciência de Dados para análise epidemiológica da dengue.
+
+Além dos modelos preditivos, o projeto possui um aplicativo para facilitar a visualização pelos gestores da saúde e deploy do código em nuvem.
 
 O objetivo deste repositório é centralizar toda a produção científica, técnica e acadêmica desenvolvida ao longo da pesquisa, facilitando o acesso a documentos, códigos, experimentos, conjuntos de dados e resultados obtidos durante o doutorado.
 
@@ -18,6 +20,8 @@ Este projeto investiga a utilização de técnicas modernas de Machine Learning 
 * Apoio à tomada de decisão por órgãos de saúde;
 * Desenvolvimento de modelos preditivos e sistemas inteligentes.
 
+Além disso utiliza tecnologias modernas como React Native para construção de um aplicativo moderno e AWS para deploy, para que gestores da saúde possam ter acesso rápido e multiplataforma aos resultados dos modelos preditivos.
+
 ---
 
 ## Estrutura do Repositório
@@ -32,6 +36,8 @@ ML-Dengue-Global-Repository/
 ├── src/                   # Código-fonte principal
 ├── experiments/           # Experimentos realizados
 ├── website/               # Site oficial do projeto
+├── mobile/                # Código-fonte do aplicativo
+├── scripts/               # Scripts para Nuvem
 └── README.md
 ```
 
@@ -59,6 +65,8 @@ ML-Dengue-Global-Repository/
 * [Código-Fonte](./src/)
 * [Experimentos](./experiments/)
 * [Modelos](./models/)
+* [App Mobile](./mobile/)
+* [Scripts](./scripts/)
 
 ### Site do Projeto
 
