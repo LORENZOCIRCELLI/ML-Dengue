@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-08-03T09:00:00Z",
+  "sourceNotebook": "Notebook_Dengue_Atualizado.ipynb",
+  "region": {
+    "id": "ribeirao_preto_sp",
+    "name": "Ribeirão Preto",
+    "state": "SP",
+    "country": "BR"
+  },
+  "targetVariable": {
+    "column": "n dengue",
+    "label": "Casos semanais de dengue",
+    "unit": "cases/week"
+  },
+  "outbreakLabelDefinition": {
+    "method": "Canal Endêmico (P75 por semana epidemiológica) com checagem de persistência",
+    "horizonWeeks": 16
+  },
+  "dataRange": {
+    "start": "2015-01-04",
+    "end": "2026-07-26"
+  },
+  "riskThresholds": {
+    "low": 0.0,
+    "moderate": 0.33,
+    "high": 0.66
+  },
+  "availableHorizonsWeeks": [
+    4,
+    8,
+    12,
+    16
+  ],
+  "plannedHorizonsWeeks": [
+    4,
+    8,
+    12,
+    16
+  ],
+  "notes": "O notebook original (Notebook_Dengue_Atualizado.ipynb) só produziu resultado real treinado para o horizonte de 16 semanas. Os horizontes de 4, 8 e 12 semanas exibidos neste app usam dados MOCK/fictícios para validar a interface antes que o retraining por horizonte e os endpoints AWS existam — ver README, seção 'Horizontes de previsão'."
+}

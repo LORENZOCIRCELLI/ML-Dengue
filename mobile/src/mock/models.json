@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-03T09:00:00Z",
+  "models": [
+    {
+      "id": "random_forest_baseline",
+      "name": "Random Forest (Base)",
+      "shortName": "RF Base",
+      "type": "classification",
+      "description": "Floresta aleatória com hiperparâmetros fixos, usada como referência.",
+      "isDefault": false,
+      "status": "available",
+      "metrics": {
+        "16": {
+          "accuracy": 0.812,
+          "precision": 0.58,
+          "recall": 0.63,
+          "f1Score": 0.6,
+          "rocAuc": 0.79
+        },
+        "4": {
+          "accuracy": 0.934,
+          "precision": 0.667,
+          "recall": 0.724,
+          "f1Score": 0.69,
+          "rocAuc": 0.908
+        },
+        "8": {
+          "accuracy": 0.877,
+          "precision": 0.626,
+          "recall": 0.68,
+          "f1Score": 0.648,
+          "rocAuc": 0.853
+        },
+        "12": {
+          "accuracy": 0.836,
+          "precision": 0.597,
+          "recall": 0.649,
+          "f1Score": 0.618,
+          "rocAuc": 0.814
+        }
+      }
+    },
+    {
+      "id": "random_forest_optimized",
+      "name": "Random Forest (Otimizado)",
+      "shortName": "Random Forest",
+      "type": "classification",
+      "description": "Hiperparâmetros ajustados por GridSearchCV com validação cruzada temporal. Modelo recomendado.",
+      "isDefault": true,
+      "status": "available",
+      "metrics": {
+        "16": {
+          "accuracy": 0.851,
+          "precision": 0.66,
+          "recall": 0.7,
+          "f1Score": 0.68,
+          "rocAuc": 0.855
+        },
+        "4": {
+          "accuracy": 0.979,
+          "precision": 0.759,
+          "recall": 0.805,
+          "f1Score": 0.782,
+          "rocAuc": 0.983
+        },
+        "8": {
+          "accuracy": 0.919,
+          "precision": 0.713,
+          "recall": 0.756,
+          "f1Score": 0.734,
+          "rocAuc": 0.923
+        },
+        "12": {
+          "accuracy": 0.877,
+          "precision": 0.68,
+          "recall": 0.721,
+          "f1Score": 0.7,
+          "rocAuc": 0.881
+        }
+      }
+    },
+    {
+      "id": "lstm_numpy",
+      "name": "LSTM (Implementação Própria)",
+      "shortName": "LSTM NumPy",
+      "type": "classification",
+      "description": "Rede LSTM implementada do zero, considera 12 semanas de contexto.",
+      "isDefault": false,
+      "status": "available",
+      "metrics": {
+        "16": {
+          "accuracy": 0.799,
+          "precision": 0.55,
+          "recall": 0.61,
+          "f1Score": 0.58,
+          "rocAuc": 0.77
+        },
+        "4": {
+          "accuracy": 0.919,
+          "precision": 0.632,
+          "recall": 0.701,
+          "f1Score": 0.667,
+          "rocAuc": 0.885
+        },
+        "8": {
+          "accuracy": 0.863,
+          "precision": 0.594,
+          "recall": 0.659,
+          "f1Score": 0.626,
+          "rocAuc": 0.832
+        },
+        "12": {
+          "accuracy": 0.823,
+          "precision": 0.567,
+          "recall": 0.628,
+          "f1Score": 0.597,
+          "rocAuc": 0.793
+        }
+      }
+    },
+    {
+      "id": "lstm_pytorch",
+      "name": "LSTM (PyTorch)",
+      "shortName": "LSTM PyTorch",
+      "type": "classification",
+      "description": "LSTM treinada com backpropagation completo (PyTorch), 12 semanas de contexto.",
+      "isDefault": false,
+      "status": "available",
+      "metrics": {
+        "16": {
+          "accuracy": 0.831,
+          "precision": 0.63,
+          "recall": 0.68,
+          "f1Score": 0.655,
+          "rocAuc": 0.83
+        },
+        "4": {
+          "accuracy": 0.956,
+          "precision": 0.724,
+          "recall": 0.782,
+          "f1Score": 0.753,
+          "rocAuc": 0.954
+        },
+        "8": {
+          "accuracy": 0.897,
+          "precision": 0.68,
+          "recall": 0.734,
+          "f1Score": 0.707,
+          "rocAuc": 0.896
+        },
+        "12": {
+          "accuracy": 0.856,
+          "precision": 0.649,
+          "recall": 0.7,
+          "f1Score": 0.675,
+          "rocAuc": 0.855
+        }
+      }
+    },
+    {
+      "id": "random_forest_regression",
+      "name": "Random Forest (Número de Casos)",
+      "shortName": "RF Regressão",
+      "type": "regression",
+      "description": "Estima o número esperado de casos 16 semanas à frente.",
+      "isDefault": false,
+      "status": "available",
+      "metrics": {
+        "16": {
+          "rmse": 14.2,
+          "mae": 9.8,
+          "r2": 0.71
+        },
+        "4": {
+          "rmse": 12.1,
+          "mae": 8.3,
+          "r2": 0.816
+        },
+        "8": {
+          "rmse": 13.1,
+          "mae": 9.0,
+          "r2": 0.767
+        },
+        "12": {
+          "rmse": 13.8,
+          "mae": 9.5,
+          "r2": 0.731
+        }
+      }
+    }
+  ],
+  "bestModelByRocAuc": "random_forest_optimized"
+}

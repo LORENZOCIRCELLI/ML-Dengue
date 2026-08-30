@@ -1,0 +1,218 @@
+{
+  "generatedAt": "2026-08-03T09:00:00Z",
+  "referenceDate": "2026-07-26",
+  "predictions": [
+    {
+      "modelId": "random_forest_baseline",
+      "regionId": "ribeirao_preto_sp",
+      "horizonWeeks": 16,
+      "asOfDate": "2026-07-26",
+      "targetDate": "2026-11-15",
+      "outbreakProbability": 0.42,
+      "riskLevel": "moderate",
+      "predictedOutbreak": false,
+      "confidence": "model_probability"
+    },
+    {
+      "modelId": "random_forest_baseline",
+      "regionId": "ribeirao_preto_sp",
+      "horizonWeeks": 4,
+      "asOfDate": "2026-07-26",
+      "targetDate": "2026-08-23",
+      "outbreakProbability": 0.367,
+      "riskLevel": "moderate",
+      "predictedOutbreak": false,
+      "confidence": "model_probability"
+    },
+    {
+      "modelId": "random_forest_baseline",
+      "regionId": "ribeirao_preto_sp",
+      "horizonWeeks": 8,
+      "asOfDate": "2026-07-26",
+      "targetDate": "2026-09-20",
+      "outbreakProbability": 0.315,
+      "riskLevel": "low",
+      "predictedOutbreak": false,
+      "confidence": "model_probability"
+    },
+    {
+      "modelId": "random_forest_baseline",
+      "regionId": "ribeirao_preto_sp",
+      "horizonWeeks": 12,
+      "asOfDate": "2026-07-26",
+      "targetDate": "2026-10-18",
+      "outbreakProbability": 0.465,
+      "riskLevel": "moderate",
+      "predictedOutbreak": false,
+      "confidence": "model_probability"
+    },
+    {
+      "modelId": "random_forest_optimized",
+      "regionId": "ribeirao_preto_sp",
+      "horizonWeeks": 16,
+      "asOfDate": "2026-07-26",
+      "targetDate": "2026-11-15",
+      "outbreakProbability": 0.71,
+      "riskLevel": "high",
+      "predictedOutbreak": true,
+      "confidence": "model_probability"
+    },
+    {
+      "modelId": "random_forest_optimized",
+      "regionId": "ribeirao_preto_sp",
+      "horizonWeeks": 4,
+      "asOfDate": "2026-07-26",
+      "targetDate": "2026-08-23",
+      "outbreakProbability": 0.582,
+      "riskLevel": "moderate",
+      "predictedOutbreak": false,
+      "confidence": "model_probability"
+    },
+    {
+      "modelId": "random_forest_optimized",
+      "regionId": "ribeirao_preto_sp",
+      "horizonWeeks": 8,
+      "asOfDate": "2026-07-26",
+      "targetDate": "2026-09-20",
+      "outbreakProbability": 0.721,
+      "riskLevel": "high",
+      "predictedOutbreak": true,
+      "confidence": "model_probability"
+    },
+    {
+      "modelId": "random_forest_optimized",
+      "regionId": "ribeirao_preto_sp",
+      "horizonWeeks": 12,
+      "asOfDate": "2026-07-26",
+      "targetDate": "2026-10-18",
+      "outbreakProbability": 0.67,
+      "riskLevel": "high",
+      "predictedOutbreak": true,
+      "confidence": "model_probability"
+    },
+    {
+      "modelId": "lstm_numpy",
+      "regionId": "ribeirao_preto_sp",
+      "horizonWeeks": 16,
+      "asOfDate": "2026-07-26",
+      "targetDate": "2026-11-15",
+      "outbreakProbability": 0.58,
+      "riskLevel": "moderate",
+      "predictedOutbreak": false,
+      "confidence": "model_probability"
+    },
+    {
+      "modelId": "lstm_numpy",
+      "regionId": "ribeirao_preto_sp",
+      "horizonWeeks": 4,
+      "asOfDate": "2026-07-26",
+      "targetDate": "2026-08-23",
+      "outbreakProbability": 0.447,
+      "riskLevel": "moderate",
+      "predictedOutbreak": false,
+      "confidence": "model_probability"
+    },
+    {
+      "modelId": "lstm_numpy",
+      "regionId": "ribeirao_preto_sp",
+      "horizonWeeks": 8,
+      "asOfDate": "2026-07-26",
+      "targetDate": "2026-09-20",
+      "outbreakProbability": 0.582,
+      "riskLevel": "moderate",
+      "predictedOutbreak": false,
+      "confidence": "model_probability"
+    },
+    {
+      "modelId": "lstm_numpy",
+      "regionId": "ribeirao_preto_sp",
+      "horizonWeeks": 12,
+      "asOfDate": "2026-07-26",
+      "targetDate": "2026-10-18",
+      "outbreakProbability": 0.441,
+      "riskLevel": "moderate",
+      "predictedOutbreak": false,
+      "confidence": "model_probability"
+    },
+    {
+      "modelId": "lstm_pytorch",
+      "regionId": "ribeirao_preto_sp",
+      "horizonWeeks": 16,
+      "asOfDate": "2026-07-26",
+      "targetDate": "2026-11-15",
+      "outbreakProbability": 0.68,
+      "riskLevel": "moderate",
+      "predictedOutbreak": false,
+      "confidence": "model_probability"
+    },
+    {
+      "modelId": "lstm_pytorch",
+      "regionId": "ribeirao_preto_sp",
+      "horizonWeeks": 4,
+      "asOfDate": "2026-07-26",
+      "targetDate": "2026-08-23",
+      "outbreakProbability": 0.66,
+      "riskLevel": "high",
+      "predictedOutbreak": true,
+      "confidence": "model_probability"
+    },
+    {
+      "modelId": "lstm_pytorch",
+      "regionId": "ribeirao_preto_sp",
+      "horizonWeeks": 8,
+      "asOfDate": "2026-07-26",
+      "targetDate": "2026-09-20",
+      "outbreakProbability": 0.551,
+      "riskLevel": "moderate",
+      "predictedOutbreak": false,
+      "confidence": "model_probability"
+    },
+    {
+      "modelId": "lstm_pytorch",
+      "regionId": "ribeirao_preto_sp",
+      "horizonWeeks": 12,
+      "asOfDate": "2026-07-26",
+      "targetDate": "2026-10-18",
+      "outbreakProbability": 0.557,
+      "riskLevel": "moderate",
+      "predictedOutbreak": false,
+      "confidence": "model_probability"
+    },
+    {
+      "modelId": "random_forest_regression",
+      "regionId": "ribeirao_preto_sp",
+      "horizonWeeks": 16,
+      "asOfDate": "2026-07-26",
+      "targetDate": "2026-11-15",
+      "expectedCases": 187.0,
+      "confidence": "model_estimate"
+    },
+    {
+      "modelId": "random_forest_regression",
+      "regionId": "ribeirao_preto_sp",
+      "horizonWeeks": 4,
+      "asOfDate": "2026-07-26",
+      "targetDate": "2026-08-23",
+      "expectedCases": 116.9,
+      "confidence": "model_estimate"
+    },
+    {
+      "modelId": "random_forest_regression",
+      "regionId": "ribeirao_preto_sp",
+      "horizonWeeks": 8,
+      "asOfDate": "2026-07-26",
+      "targetDate": "2026-09-20",
+      "expectedCases": 140.2,
+      "confidence": "model_estimate"
+    },
+    {
+      "modelId": "random_forest_regression",
+      "regionId": "ribeirao_preto_sp",
+      "horizonWeeks": 12,
+      "asOfDate": "2026-07-26",
+      "targetDate": "2026-10-18",
+      "expectedCases": 163.6,
+      "confidence": "model_estimate"
+    }
+  ]
+}

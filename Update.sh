@@ -1,0 +1,12 @@
+echo "-------------------------------------------------------------------------------"
+echo " "
+echo "Initiating the Process of Updating the Code from the Stable Github"
+echo "Verifing the Connection"
+echo "Starting..."
+echo " "
+git pull 
+echo " "
+echo "Process Ended Sucessfully"
+echo "Have a great day"
+echo " "
+echo "------------------------------------------------------------------------------"
