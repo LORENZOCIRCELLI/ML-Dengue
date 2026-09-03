@@ -15,9 +15,19 @@ Os dados dos horizontes de 4, 8, 12 e 16 semanas são lidos diretamente dos oito
 
 Não faça commit da chave. Como variáveis `EXPO_PUBLIC_*` ficam acessíveis no aplicativo compilado, use um endpoint intermediário no backend em produção para proteger a cota.
 
+## CORS do S3 para Expo Web
+
+Apps Android/iOS podem ler os objetos públicos diretamente. Navegadores exigem que o bucket autorize a origem do app. Em **S3 → bucket → Permissions → Cross-origin resource sharing (CORS)**, use o conteúdo de `s3-cors.json`. Como esses JSONs já são públicos, o arquivo permite leitura `GET/HEAD` de qualquer origem; restrinja `AllowedOrigins` ao domínio do app se preferir.
+
 ## Verificação
 
 ```bash
 npm run typecheck
 npm run build:web
+```
+
+Depois de substituir uma versão anterior do projeto, limpe o cache do Metro antes de testar:
+
+```bash
+npx expo start --clear
 ```

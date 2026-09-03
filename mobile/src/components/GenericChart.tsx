@@ -2,7 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { LayoutChangeEvent, StyleSheet, Text, View } from 'react-native';
 import Svg, { Circle, G, Line, Path, Rect } from 'react-native-svg';
 import { ChartDefinition } from '../types';
-import { colors, radii, spacing, typography } from '../theme/colors';
+import { cardShadow, colors, radii, spacing, typography } from '../theme/colors';
 
 interface Props {
   chart: ChartDefinition;
@@ -197,15 +197,15 @@ function ChartLegend({ chart }: { chart: ChartDefinition }) {
 
 const styles = StyleSheet.create({
   card: {
+    ...cardShadow,
     backgroundColor: colors.surface,
-    borderRadius: radii.md,
-    padding: spacing.md,
-    borderWidth: 1,
-    borderColor: colors.border,
+    borderRadius: radii.lg,
+    padding: spacing.lg,
+    borderWidth: 0,
     marginBottom: spacing.md,
   },
-  title: { ...typography.h3, color: colors.textPrimary },
-  description: { ...typography.caption, color: colors.textSecondary, marginBottom: spacing.sm },
+  title: { ...typography.h2, color: colors.textPrimary },
+  description: { ...typography.caption, color: colors.textSecondary, marginTop: 2, marginBottom: spacing.sm },
   empty: { ...typography.body, color: colors.muted, textAlign: 'center', marginTop: spacing.lg },
   legend: { flexDirection: 'row', flexWrap: 'wrap', marginTop: spacing.sm, gap: spacing.md },
   legendItem: { flexDirection: 'row', alignItems: 'center' },

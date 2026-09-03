@@ -45,19 +45,18 @@ export default function HorizonTabs({ horizons, availableHorizons, selected, onS
 }
 
 const styles = StyleSheet.create({
-  row: { flexDirection: 'row', paddingHorizontal: spacing.md, gap: spacing.sm },
+  row: { flexDirection: 'row', gap: spacing.sm, backgroundColor: colors.surfaceSoft, padding: 4, borderRadius: radii.md },
   tab: {
     flex: 1,
-    paddingVertical: spacing.sm,
+    paddingVertical: 10,
     alignItems: 'center',
     borderRadius: radii.sm,
-    backgroundColor: colors.surface,
-    borderWidth: 1,
-    borderColor: colors.border,
+    backgroundColor: 'transparent',
+    borderWidth: 0,
   },
-  tabSelected: { backgroundColor: colors.primaryDark, borderColor: colors.primaryDark },
+  tabSelected: { backgroundColor: colors.surface, shadowColor: '#173B42', shadowOffset: { width: 0, height: 2 }, shadowOpacity: 0.1, shadowRadius: 5, elevation: 2 },
   tabDisabled: { backgroundColor: colors.background, borderStyle: 'dashed' },
   tabText: { ...typography.body, fontWeight: '600', color: colors.textPrimary },
-  tabTextSelected: { color: '#fff' },
+  tabTextSelected: { color: colors.primaryDark },
   tabTextDisabled: { color: colors.muted },
 });

@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { Image, Linking, Pressable, RefreshControl, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { getArbovirusNews, NewsArticle } from '../services/news';
-import { colors, radii, spacing, typography } from '../theme/colors';
+import { cardShadow, colors, radii, spacing, typography } from '../theme/colors';
 import LoadingState from '../components/LoadingState';
 import ErrorState from '../components/ErrorState';
 export default function NewsScreen() {
@@ -29,10 +29,10 @@ export default function NewsScreen() {
   </ScrollView>;
 }
 const styles = StyleSheet.create({
-  screen: { flex: 1, backgroundColor: colors.background }, content: { padding: spacing.md, paddingBottom: spacing.xl },
-  title: { ...typography.h1, color: colors.textPrimary }, subtitle: { ...typography.body, color: colors.textSecondary, marginBottom: spacing.md },
-  card: { backgroundColor: colors.surface, borderWidth: 1, borderColor: colors.border, borderRadius: radii.md, overflow: 'hidden', marginBottom: spacing.md },
-  image: { width: '100%', height: 170, backgroundColor: colors.border }, body: { padding: spacing.md }, source: { ...typography.caption, color: colors.primary, fontWeight: '600' },
-  headline: { ...typography.h3, color: colors.textPrimary, marginTop: spacing.xs }, description: { ...typography.body, color: colors.textSecondary, marginTop: spacing.sm },
+  screen: { flex: 1, backgroundColor: colors.background }, content: { paddingHorizontal: 20, paddingTop: spacing.md, paddingBottom: spacing.xxl },
+  title: { ...typography.h1, color: colors.textPrimary }, subtitle: { ...typography.body, color: colors.textSecondary, marginTop: 2, marginBottom: spacing.lg },
+  card: { ...cardShadow, backgroundColor: colors.surface, borderWidth: 0, borderRadius: radii.lg, overflow: 'hidden', marginBottom: spacing.lg },
+  image: { width: '100%', height: 190, backgroundColor: colors.border }, body: { padding: spacing.lg }, source: { ...typography.caption, color: colors.primary, fontWeight: '700' },
+  headline: { ...typography.h3, fontSize: 18, lineHeight: 24, color: colors.textPrimary, marginTop: spacing.sm }, description: { ...typography.body, color: colors.textSecondary, marginTop: spacing.sm },
   link: { ...typography.body, color: colors.primary, fontWeight: '600', marginTop: spacing.sm }, empty: { ...typography.body, color: colors.muted, textAlign: 'center', marginTop: spacing.xl },
 });

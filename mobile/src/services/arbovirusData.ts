@@ -21,8 +21,9 @@ async function json<T>(url: string): Promise<T> {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return await response.json() as T;
   } catch (error) {
-    throw new Error(error instanceof Error && error.name === 'AbortError'
-      ? 'A fonte de dados demorou para responder.' : 'Não foi possível carregar os dados epidemiológicos.');
+    if (error instanceof Error && error.name === 'AbortError') throw new Error('A fonte de dados demorou para responder.');
+    const detail = error instanceof Error ? error.message : 'erro de rede';
+    throw new Error(`Não foi possível carregar os dados epidemiológicos (${detail}). No Expo Web, verifique o CORS do bucket S3.`);
   } finally { clearTimeout(timeout); }
 }
 export const arbovirusData = {

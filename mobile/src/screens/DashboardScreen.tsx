@@ -1,122 +1,90 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { RefreshControl, ScrollView, StyleSheet, Text, View } from 'react-native';
-import { api } from '../services/api';
-import { ChartDefinition, Metadata, ModelInfo, Prediction } from '../types';
-import { colors, spacing, typography } from '../theme/colors';
-import LoadingState from '../components/LoadingState';
 import ErrorState from '../components/ErrorState';
-import PredictionCard from '../components/PredictionCard';
-import GenericChart from '../components/GenericChart';
-import RiskBadge from '../components/RiskBadge';
-import { formatDate } from '../utils/risk';
-import { OFFICIAL_HORIZONS_WEEKS } from '../config/api.config';
+import LoadingState from '../components/LoadingState';
+import { arbovirusData, HorizonData, HorizonMetrics } from '../services/arbovirusData';
+import { cardShadow, colors, radii, spacing, typography } from '../theme/colors';
 
-interface DashboardData {
-  metadata: Metadata;
-  defaultModel: ModelInfo;
-  predictions: Prediction[];
-  trendChart?: ChartDefinition;
+interface DashboardData { data: HorizonData; metrics: HorizonMetrics; }
+type CurrentRisk = 'Baixo' | 'Moderado' | 'Alto';
+
+function calculateCurrentRisk(cases: number, median: number, percentile85: number): CurrentRisk {
+  if (cases >= percentile85) return 'Alto';
+  if (cases >= median) return 'Moderado';
+  return 'Baixo';
+}
+
+function riskColor(risk: CurrentRisk): string {
+  if (risk === 'Alto') return colors.danger;
+  if (risk === 'Moderado') return colors.warning;
+  return colors.success;
 }
 
 export default function DashboardScreen() {
-  const [data, setData] = useState<DashboardData | null>(null);
+  const [result, setResult] = useState<DashboardData | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [refreshing, setRefreshing] = useState(false);
-
   const load = useCallback(async () => {
     setError(null);
     try {
-      const [metadata, modelsRes, predictionsRes, chartsRes] = await Promise.all([
-        api.getMetadata(),
-        api.getModels(),
-        api.getPredictions(),
-        api.getCharts(),
-      ]);
-      const defaultModel = modelsRes.models.find((m) => m.isDefault) ?? modelsRes.models[0];
-      const predictions = predictionsRes.predictions.filter((p) => p.modelId === defaultModel.id);
-      const trendChart = chartsRes.charts.find((c) => c.id === 'historical_cases_trend');
-      setData({ metadata, defaultModel, predictions, trendChart });
-    } catch (err) {
-      setError(err instanceof Error ? err.message : 'Erro inesperado.');
-    }
+      const [data, metrics] = await Promise.all([arbovirusData.getData(16), arbovirusData.getMetrics(16)]);
+      setResult({ data, metrics });
+    } catch (e) { setError(e instanceof Error ? e.message : 'Erro inesperado.'); }
   }, []);
-
-  useEffect(() => {
-    load();
-  }, [load]);
-
-  const onRefresh = async () => {
-    setRefreshing(true);
-    await load();
-    setRefreshing(false);
-  };
-
+  useEffect(() => { load(); }, [load]);
   if (error) return <ErrorState message={error} onRetry={load} />;
-  if (!data) return <LoadingState label="Carregando painel..." />;
+  if (!result) return <LoadingState label="Carregando painel do S3..." />;
 
-  const { metadata, defaultModel, predictions, trendChart } = data;
-  const primaryHorizon = metadata.availableHorizonsWeeks[0];
-  const primaryPrediction = predictions.find((p) => p.horizonWeeks === primaryHorizon);
-
-  return (
-    <ScrollView
-      style={styles.screen}
-      contentContainerStyle={styles.content}
-      refreshControl={<RefreshControl refreshing={refreshing} onRefresh={onRefresh} />}
-    >
-      <Text style={styles.regionLabel}>
-        {metadata.region.name}, {metadata.region.state}
-      </Text>
-      <Text style={styles.title}>Situação atual</Text>
-
-      {/* Overall risk indicator — the single most important thing on screen */}
-      <View style={styles.overallCard}>
-        <Text style={styles.overallLabel}>
-          Risco de surto ({primaryHorizon} semana{primaryHorizon > 1 ? 's' : ''} à frente)
-        </Text>
-        <RiskBadge level={primaryPrediction?.riskLevel} size="lg" />
-        <Text style={styles.overallModel}>Segundo o modelo {defaultModel.shortName}</Text>
-        {metadata.notes && <Text style={styles.notice}>{metadata.notes}</Text>}
-      </View>
-
-      <Text style={styles.sectionTitle}>Previsões por horizonte</Text>
-      <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.horizonRow}>
-        {OFFICIAL_HORIZONS_WEEKS.map((h) => (
-          <PredictionCard
-            key={h}
-            horizonWeeks={h}
-            prediction={predictions.find((p) => p.horizonWeeks === h)}
-          />
-        ))}
-      </ScrollView>
-
-      <Text style={styles.sectionTitle}>Tendência recente</Text>
-      {trendChart && <GenericChart chart={trendChart} />}
-
-      <Text style={styles.footerNote}>
-        Última atualização: {formatDate(metadata.dataRange.end)} · Fonte: {metadata.sourceNotebook}
-      </Text>
-    </ScrollView>
+  const last = result.data.linhaTempo[result.data.linhaTempo.length - 1];
+  const currentRisk = calculateCurrentRisk(
+    last.casos,
+    result.data.metricasDistribuicao.mediana,
+    result.data.metricasDistribuicao.p85
   );
+  const currentRiskColor = riskColor(currentRisk);
+  const best = Object.entries(result.metrics.classificacao).reduce((winner, entry) =>
+    (entry[1]['ROC-AUC'] ?? -1) > (winner[1]['ROC-AUC'] ?? -1) ? entry : winner);
+  return <ScrollView style={styles.screen} contentContainerStyle={styles.content}
+    refreshControl={<RefreshControl refreshing={refreshing} onRefresh={async () => { setRefreshing(true); await load(); setRefreshing(false); }} />}>
+    <Text style={styles.eyebrow}>DADOS REAIS · HORIZONTE DE 16 SEMANAS</Text>
+    <Text style={styles.title}>Situação atual</Text>
+    <View style={[styles.riskCard, { backgroundColor: `${currentRiskColor}12` }]}>
+      <Text style={styles.riskLabel}>Nível epidemiológico atual</Text>
+      <Text style={[styles.riskValue, { color: currentRiskColor }]}>{currentRisk}</Text>
+      <Text style={styles.riskDescription}>{last.casos.toLocaleString('pt-BR')} casos na última semana</Text>
+      <Text style={styles.riskThresholds}>
+        Mediana histórica: {result.data.metricasDistribuicao.mediana.toFixed(1)} · Percentil 85: {result.data.metricasDistribuicao.p85.toFixed(1)}
+      </Text>
+    </View>
+    <View style={styles.hero}>
+      <Text style={styles.heroLabel}>Melhor modelo de classificação</Text>
+      <Text style={styles.model}>{best[0]}</Text>
+      <Text style={styles.auc}>ROC-AUC {best[1]['ROC-AUC'].toFixed(3)}</Text>
+      <Text style={styles.explanation}>Selecionado automaticamente pela maior ROC-AUC no arquivo de métricas de 16 semanas.</Text>
+    </View>
+    <Text style={styles.section}>Último dado epidemiológico</Text>
+    <View style={styles.row}>
+      <Stat label="Casos na semana" value={last.casos.toLocaleString('pt-BR')} />
+      <Stat label="Média móvel 4" value={last.mediaMovel4?.toFixed(1) ?? '—'} />
+      <Stat label="Média móvel 12" value={last.mediaMovel12?.toFixed(1) ?? '—'} />
+    </View>
+    <Text style={styles.footer}>Último registro: {new Date(`${last.data}T12:00:00`).toLocaleDateString('pt-BR')} · Fonte: pipeline S3</Text>
+  </ScrollView>;
 }
-
+function Stat({ label, value }: { label: string; value: string }) {
+  return <View style={styles.stat}><Text style={styles.statValue}>{value}</Text><Text style={styles.statLabel}>{label}</Text></View>;
+}
 const styles = StyleSheet.create({
-  screen: { flex: 1, backgroundColor: colors.background },
-  content: { padding: spacing.md, paddingBottom: spacing.xl },
-  regionLabel: { ...typography.caption, color: colors.textSecondary },
-  title: { ...typography.h1, color: colors.textPrimary, marginBottom: spacing.md },
-  overallCard: {
-    backgroundColor: colors.surface,
-    borderRadius: 16,
-    padding: spacing.lg,
-    borderWidth: 1,
-    borderColor: colors.border,
-    marginBottom: spacing.lg,
-  },
-  overallLabel: { ...typography.body, color: colors.textSecondary, marginBottom: spacing.sm },
-  overallModel: { ...typography.caption, color: colors.muted, marginTop: spacing.sm },
-  notice: { ...typography.caption, color: colors.warning, marginTop: spacing.sm },
-  sectionTitle: { ...typography.h2, color: colors.textPrimary, marginBottom: spacing.sm, marginTop: spacing.sm },
-  horizonRow: { marginBottom: spacing.lg },
-  footerNote: { ...typography.caption, color: colors.muted, textAlign: 'center', marginTop: spacing.lg },
+  screen: { flex: 1, backgroundColor: colors.background }, content: { paddingHorizontal: 20, paddingTop: spacing.md, paddingBottom: spacing.xxl },
+  eyebrow: { ...typography.caption, color: colors.primary, fontWeight: '800', letterSpacing: 0.7 }, title: { ...typography.h1, color: colors.textPrimary, marginTop: 2, marginBottom: spacing.lg },
+  riskCard: { borderWidth: 0, elevation: 0, shadowOpacity: 0, borderRadius: radii.lg, padding: spacing.lg, marginBottom: spacing.md },
+  riskLabel: { ...typography.body, color: colors.textSecondary }, riskValue: { fontSize: 32, fontWeight: '800', marginTop: spacing.xs },
+  riskDescription: { ...typography.h3, color: colors.textPrimary, marginTop: spacing.sm }, riskThresholds: { ...typography.caption, color: colors.muted, marginTop: spacing.sm },
+  hero: { ...cardShadow, backgroundColor: colors.surface, borderWidth: 0, borderRadius: radii.lg, padding: spacing.lg },
+  heroLabel: { ...typography.body, color: colors.textSecondary }, model: { fontSize: 27, fontWeight: '800', color: colors.primaryDark, marginTop: spacing.xs },
+  auc: { ...typography.h3, color: colors.success, marginTop: spacing.sm }, explanation: { ...typography.caption, color: colors.muted, marginTop: spacing.sm },
+  section: { ...typography.h2, color: colors.textPrimary, marginTop: spacing.lg, marginBottom: spacing.sm }, row: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm },
+  stat: { ...cardShadow, flexGrow: 1, minWidth: 100, backgroundColor: colors.surface, borderWidth: 0, borderRadius: radii.md, padding: spacing.md },
+  statValue: { ...typography.h2, color: colors.textPrimary }, statLabel: { ...typography.caption, color: colors.textSecondary },
+  footer: { ...typography.caption, color: colors.muted, textAlign: 'center', marginTop: spacing.lg },
 });

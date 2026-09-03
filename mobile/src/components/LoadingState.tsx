@@ -18,6 +18,6 @@ export default function LoadingState({ label = 'Carregando dados...' }: Props) {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, alignItems: 'center', justifyContent: 'center', padding: spacing.lg },
+  container: { flex: 1, alignItems: 'center', justifyContent: 'center', padding: spacing.lg, backgroundColor: colors.background },
   label: { ...typography.body, color: colors.textSecondary, marginTop: spacing.md },
 });
