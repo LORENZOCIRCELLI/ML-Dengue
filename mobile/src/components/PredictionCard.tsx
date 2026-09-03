@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Prediction } from '../types';
-import { colors, radii, spacing, typography } from '../theme/colors';
+import { cardShadow, colors, radii, spacing, typography } from '../theme/colors';
 import { formatDate, formatPercent, riskDescription } from '../utils/risk';
 import RiskBadge from './RiskBadge';
 
@@ -52,18 +52,18 @@ export default function PredictionCard({ horizonWeeks, prediction }: Props) {
 
 const styles = StyleSheet.create({
   card: {
+    ...cardShadow,
     backgroundColor: colors.surface,
-    borderRadius: radii.md,
-    padding: spacing.md,
-    borderWidth: 1,
-    borderColor: colors.border,
-    width: 220,
+    borderRadius: radii.lg,
+    padding: spacing.lg,
+    borderWidth: 0,
+    width: 250,
     marginRight: spacing.sm,
   },
   cardEmpty: { justifyContent: 'center', alignItems: 'center', minHeight: 140 },
   headerRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: spacing.sm },
   horizon: { ...typography.h3, color: colors.textPrimary },
-  bigNumber: { ...typography.h1, color: colors.textPrimary, marginTop: spacing.xs },
+  bigNumber: { fontSize: 34, lineHeight: 40, fontWeight: '800', color: colors.primaryDark, marginTop: spacing.xs },
   subLabel: { ...typography.caption, color: colors.textSecondary, marginBottom: spacing.xs },
   description: { ...typography.caption, color: colors.textSecondary },
   footerRow: { marginTop: spacing.sm, borderTopWidth: 1, borderTopColor: colors.border, paddingTop: spacing.xs },

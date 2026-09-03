@@ -40,18 +40,18 @@ export default function ModelSelector({ models, selectedModelId, onSelect }: Pro
 }
 
 const styles = StyleSheet.create({
-  label: { ...typography.caption, color: colors.textSecondary, marginBottom: spacing.xs, marginLeft: spacing.md },
-  row: { paddingHorizontal: spacing.md, gap: spacing.sm },
+  label: { ...typography.caption, color: colors.textSecondary, fontWeight: '700', marginBottom: spacing.sm },
+  row: { gap: spacing.sm, paddingRight: spacing.md },
   chip: {
-    paddingVertical: spacing.sm,
+    paddingVertical: 10,
     paddingHorizontal: spacing.md,
     borderRadius: radii.pill,
-    backgroundColor: colors.surface,
+    backgroundColor: colors.surfaceSoft,
     borderWidth: 1,
     borderColor: colors.border,
     marginRight: spacing.sm,
   },
-  chipSelected: { backgroundColor: colors.primary, borderColor: colors.primary },
+  chipSelected: { backgroundColor: colors.primary, borderColor: colors.primary, shadowColor: colors.primaryDark, shadowOffset: { width: 0, height: 3 }, shadowOpacity: 0.15, shadowRadius: 6, elevation: 2 },
   chipText: { ...typography.body, color: colors.textPrimary, fontWeight: '600' },
   chipTextSelected: { color: '#fff' },
   recommended: { ...typography.caption, color: colors.success, marginTop: 2 },

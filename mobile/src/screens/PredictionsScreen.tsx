@@ -105,13 +105,12 @@ export default function PredictionsScreen() {
 
 const styles = StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.background },
-  content: { paddingVertical: spacing.md, paddingBottom: spacing.xl },
-  title: { ...typography.h1, color: colors.textPrimary, marginBottom: spacing.md, marginHorizontal: spacing.md },
-  label: { ...typography.caption, color: colors.textSecondary, marginBottom: spacing.xs, marginLeft: spacing.md },
+  content: { paddingHorizontal: 20, paddingTop: spacing.md, paddingBottom: spacing.xxl },
+  title: { ...typography.h1, color: colors.textPrimary, marginBottom: spacing.lg },
+  label: { ...typography.caption, color: colors.textSecondary, fontWeight: '700', marginBottom: spacing.sm },
   description: {
     ...typography.body,
     color: colors.textSecondary,
-    marginHorizontal: spacing.md,
     marginTop: spacing.md,
     textAlign: 'center',
   },

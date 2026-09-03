@@ -36,10 +36,6 @@ export const API_CONFIG = {
   timeoutMs: 10_000,
 };
 
-// Horizontes oficiais do app — únicos que devem aparecer na UI (abas,
-// seletores, mocks). O notebook, hoje, só tem resultado real treinado para
-// 16 semanas; os demais existem aqui como capacidade da interface e são
-// preenchidos com dados fictícios até que existam modelos/endpoints reais
-// para eles (ver README, seção "Horizontes").
+// Horizontes oficiais com dados e métricas reais publicados no S3.
 export const OFFICIAL_HORIZONS_WEEKS = [4, 8, 12, 16] as const;
 export type OfficialHorizonWeeks = (typeof OFFICIAL_HORIZONS_WEEKS)[number];
