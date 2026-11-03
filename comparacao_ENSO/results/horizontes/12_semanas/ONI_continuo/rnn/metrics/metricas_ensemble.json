@@ -1,0 +1,38 @@
+[
+  {
+    "split": "treino",
+    "f1": 0.712074303405573,
+    "precision": 0.701219512195122,
+    "recall": 0.723270440251572,
+    "roc_auc": 0.874235981929312,
+    "pr_auc": 0.76377713179446,
+    "accuracy": 0.790067720090294,
+    "n_samples": 443,
+    "n_positive": 159,
+    "predicted_positive": 164
+  },
+  {
+    "split": "validacao",
+    "f1": 0.767441860465116,
+    "precision": 0.785714285714286,
+    "recall": 0.75,
+    "roc_auc": 0.894014401440144,
+    "pr_auc": 0.744737153171462,
+    "accuracy": 0.862068965517241,
+    "n_samples": 145,
+    "n_positive": 44,
+    "predicted_positive": 42
+  },
+  {
+    "split": "teste",
+    "f1": 0.788461538461538,
+    "precision": 0.854166666666667,
+    "recall": 0.732142857142857,
+    "roc_auc": 0.926364365971108,
+    "pr_auc": 0.894556393448446,
+    "accuracy": 0.848275862068966,
+    "n_samples": 145,
+    "n_positive": 56,
+    "predicted_positive": 48
+  }
+]

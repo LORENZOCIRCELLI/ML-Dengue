@@ -1,0 +1,6 @@
+seed,selected_step,stopped_epoch,selection,selected_loss
+42,19,39,validation_bce_loss,0.4560353755950928
+123,12,32,validation_bce_loss,0.5053285360336304
+2025,20,40,validation_bce_loss,0.5093444585800171
+7,12,32,validation_bce_loss,0.5229237675666809
+99,15,35,validation_bce_loss,0.49719297885894775

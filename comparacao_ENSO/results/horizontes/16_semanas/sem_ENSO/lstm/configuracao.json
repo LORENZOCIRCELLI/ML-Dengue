@@ -1,0 +1,112 @@
+{
+  "base_protocol": {
+    "version": "v1.0.0",
+    "seeds": [
+      42,
+      123,
+      2025,
+      7,
+      99
+    ],
+    "horizons_weeks": [
+      4,
+      8,
+      12,
+      16
+    ],
+    "sequence_length": 12,
+    "growth_fraction": 0.5,
+    "baseline_weeks": 4,
+    "decision_threshold": 0.5,
+    "features": [
+      "casos_dengue",
+      "temperatura_media",
+      "umidade_media",
+      "chuva_total",
+      "semana_sin",
+      "semana_cos"
+    ],
+    "availability_lag_weeks": 1,
+    "train_end": "2019-12-22",
+    "validation_end": "2022-12-25",
+    "forest_tree_counts": [
+      25,
+      50,
+      100,
+      200
+    ],
+    "forest_max_depth": 6,
+    "forest_min_samples_leaf": 2,
+    "network_hidden_size": 24,
+    "learning_rate": 0.003,
+    "max_epochs": 150,
+    "patience": 20,
+    "network_selection": "menor perda BCE de validação",
+    "forest_selection": "maior F1 de validação",
+    "ensemble": "média das saídas das cinco sementes predefinidas; nenhuma semente é escolhida",
+    "pr_auc_definition": "sklearn.average_precision_score",
+    "target": "casos(t+h) >= 1,5 × média de casos(t−4 ... t−1)",
+    "historical_evaluation": "retrospectiva e exploratória; período já examinado no desenvolvimento",
+    "refit_after_evaluation": false
+  },
+  "variants": {
+    "sem_ENSO": "Sem ENSO",
+    "ONI_continuo": "ONI contínuo",
+    "ENSO_binario": "ENSO binário"
+  },
+  "oni_lag_weeks": 4,
+  "enso_encoding": {
+    "el_nino": "ONI >= +0.5",
+    "la_nina": "ONI <= -0.5",
+    "neutral": "ambos zero"
+  },
+  "primary_metrics": [
+    "f1",
+    "pr_auc"
+  ],
+  "bootstrap": {
+    "repetitions": 1000,
+    "seed": 72841,
+    "block_weeks": "max(12, horizonte)"
+  },
+  "baseline_reused_with_prediction_verification": true,
+  "variants_selected_by_test": false,
+  "source_audit": {
+    "n_weeks": 784,
+    "first_week": "2010-12-26",
+    "last_week": "2025-12-28",
+    "source_sha256": "8f7e34aea861bc12538dd839057211d579398a5723bbe371ad127c386b59a779"
+  },
+  "code_sha256": "98e698f7fa77fc05e4f5f6bf847f550508b4d37a6be3e42dfc7cfbbc882d155a",
+  "v1_code_sha256": "fc7191110b18ef80ca431f16fc8ae6782c46d1c157f2cfa12f725aaedfe352e5",
+  "python": "3.12.13",
+  "versions": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0",
+    "torch": "2.13.0+cu126",
+    "captum": "0.9.0",
+    "shap": "0.54.1",
+    "matplotlib": "3.11.1"
+  },
+  "limitations": [
+    "Um município e uma divisão temporal; teste já examinado no desenvolvimento.",
+    "Resultados retrospectivos e exploratórios; não validação prospectiva independente.",
+    "Ausência de ganho consistente não demonstra equivalência nem ausência de efeito climático.",
+    "ONI histórico da planilha, sem vintages ou datas originais de publicação; atraso de quatro semanas é hipótese.",
+    "ONI usa médias trimestrais e pode sofrer revisões; atraso fixo não garante ausência de informação revisada.",
+    "Indicadores por limiares semanais não identificam episódios ENSO oficiais com persistência.",
+    "Intervalos percentis por blocos são exploratórios, condicionados aos modelos fixos, sem correção por multiplicidade.",
+    "Blocos preservam dependência local, mas não asseguram estacionariedade ou independência entre epidemias.",
+    "DP entre cinco sementes mede instabilidade de treinamento, não incerteza em novos anos.",
+    "Mais entradas mudam a contagem de parâmetros das redes e o número implícito de atributos do RF com sqrt.",
+    "A análise mede ganho condicional às variáveis locais, não efeito causal total de ENSO sobre dengue."
+  ],
+  "model": "lstm",
+  "variant": "sem_ENSO",
+  "horizon_weeks": 16,
+  "input_size": 6,
+  "flattened_size": 72,
+  "parameter_count": 3097,
+  "reference_artifacts": "v1/results/horizontes/16_semanas/lstm"
+}

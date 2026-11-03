@@ -1,44 +1,12 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-set -e
+set -Eeuo pipefail
 
-# Diretório onde este script está localizado
-PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+source "$PROJECT_DIR/scripts/pipeline_runtime.sh"
 
-VENV="$PROJECT_DIR/venv"
-NOTEBOOK_DIR="$PROJECT_DIR/notebooks"
-NOTEBOOK="Notebook_Atualizado.ipynb"
+prepare_runtime "treinamento"
 
-echo "======================================"
-echo "Executando notebook"
-echo "======================================"
-
-# Verifica se o ambiente virtual existe
-if [ ! -d "$VENV" ]; then
-    echo "Erro: venv não encontrado em:"
-    echo "$VENV"
-    exit 1
-fi
-
-# Ativa o ambiente virtual
-source "$VENV/bin/activate"
-
-# Entra na pasta dos notebooks
-cd "$NOTEBOOK_DIR"
-
-echo "Python:"
-which python
-
-echo "Executando: $NOTEBOOK"
-
-jupyter nbconvert \
-    --to notebook \
-    --execute "$NOTEBOOK" \
-    --inplace \
-    --ExecutePreprocessor.timeout=-1
-
-echo "======================================"
-echo "Notebook executado com sucesso."
-echo "======================================"
-
-deactivate
+printf '[%s] Iniciando pipeline completo com %s.\n' "$(date -Is)" "$PIPELINE_PYTHON"
+"$PIPELINE_PYTHON" -u "$PROJECT_DIR/scripts/run_scheduled_pipeline.py"
+printf '[%s] Pipeline concluído; JSONs disponíveis em %s/export.\n' "$(date -Is)" "$PROJECT_DIR"

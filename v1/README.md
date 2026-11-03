@@ -62,3 +62,12 @@ O catálogo aponta para os 12 arquivos novos; `results/retrospectiva/resumo.json
 resume acertos e erros. A célula atualiza o inventário e a pasta `export`, agora
 com 74 JSONs, sem modificar os JSONs anteriores de previsão ou métricas. A tela
 de Retrospectiva do aplicativo será adaptada separadamente a esse formato binário.
+
+## Comparação ONI/ENSO nos quatro horizontes
+
+A seção 7 chama o experimento separado em `comparacao_ENSO/estudo.py`. Compara
+sem ENSO, ONI contínuo e indicadores binários em RF, RNN e LSTM, mantendo amostras,
+alvos, protocolo e sementes. A referência sem ENSO é recarregada da v1 e suas
+previsões são reproduzidas. Os resultados ficam em `comparacao_ENSO/results`,
+sem substituir os arquivos do aplicativo. Veja `comparacao_ENSO/INTERPRETACAO.md`
+para a discussão e `comparacao_ENSO/README.md` para protocolo e limitações.
