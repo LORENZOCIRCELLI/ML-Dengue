@@ -1,0 +1,30 @@
+{
+  "4": {
+    "n_explained": 104,
+    "n_occlusion": 32,
+    "mean_absolute_convergence_delta": 6.375977790185061e-08,
+    "baseline": "vetor zero no espaço padronizado (média do treino)",
+    "interpretation": "atribuição ao logit previsto; não representa causalidade epidemiológica"
+  },
+  "8": {
+    "n_explained": 104,
+    "n_occlusion": 32,
+    "mean_absolute_convergence_delta": 4.3790070236582324e-08,
+    "baseline": "vetor zero no espaço padronizado (média do treino)",
+    "interpretation": "atribuição ao logit previsto; não representa causalidade epidemiológica"
+  },
+  "12": {
+    "n_explained": 104,
+    "n_occlusion": 32,
+    "mean_absolute_convergence_delta": 3.9402110019182146e-08,
+    "baseline": "vetor zero no espaço padronizado (média do treino)",
+    "interpretation": "atribuição ao logit previsto; não representa causalidade epidemiológica"
+  },
+  "16": {
+    "n_explained": 104,
+    "n_occlusion": 32,
+    "mean_absolute_convergence_delta": 4.663776920210694e-08,
+    "baseline": "vetor zero no espaço padronizado (média do treino)",
+    "interpretation": "atribuição ao logit previsto; não representa causalidade epidemiológica"
+  }
+}

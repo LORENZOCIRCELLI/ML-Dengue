@@ -1,0 +1,19 @@
+{
+  "column": "dem",
+  "interpretation_status": "hipótese operacional de população residente; confirmar no dicionário e na fonte da base",
+  "missing": 0,
+  "non_positive": 0,
+  "minimum": 702739.0,
+  "maximum": 711825.0,
+  "n_unique": 2,
+  "changes": [
+    {
+      "date": "2010-12-26",
+      "value": 711825.0
+    },
+    {
+      "date": "2023-02-05",
+      "value": 702739.0
+    }
+  ]
+}

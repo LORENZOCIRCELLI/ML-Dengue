@@ -1,0 +1,38 @@
+{
+  "data_path": "/media/lorenzo/SSD/Projetos/ML-Dengue/data/dataset/processado/base_modelagem_dengue_dataset.xlsx",
+  "output_dir": "/media/lorenzo/SSD/Projetos/ML-Dengue/outputs/revisao_epidemiologica",
+  "horizons": [
+    4,
+    8,
+    12,
+    16
+  ],
+  "target_kinds": [
+    "exact",
+    "window"
+  ],
+  "case_column": "n dengue",
+  "date_column": "dt_pri_sem",
+  "train_end": "2021-12-26",
+  "validation_start": "2022-01-02",
+  "validation_end": "2023-12-31",
+  "test_start": "2024-01-07",
+  "test_end": "2025-12-28",
+  "endemic_quantile": 0.75,
+  "endemic_week_radius": 2,
+  "endemic_lookback_years": 7,
+  "endemic_min_years": 3,
+  "persistence_weeks": 4,
+  "persistence_factor": 1.1,
+  "sequence_length": 12,
+  "target_recall": 0.8,
+  "seed": 42,
+  "numpy_hidden_size": 16,
+  "numpy_epochs": 120,
+  "pytorch_hidden_size": 32,
+  "pytorch_epochs": 150,
+  "early_stopping_patience": 20,
+  "population_column": "dem",
+  "upper_method": "mean_plus_1_96_sd",
+  "upper_z": 1.96
+}

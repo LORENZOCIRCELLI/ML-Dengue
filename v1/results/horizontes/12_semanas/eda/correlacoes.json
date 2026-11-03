@@ -1,0 +1,182 @@
+[
+  {
+    "feature_x": "casos_dengue",
+    "feature_y": "casos_dengue",
+    "correlation": 1.0
+  },
+  {
+    "feature_x": "temperatura_media",
+    "feature_y": "casos_dengue",
+    "correlation": 0.09069680552597
+  },
+  {
+    "feature_x": "umidade_media",
+    "feature_y": "casos_dengue",
+    "correlation": 0.280385021237267
+  },
+  {
+    "feature_x": "chuva_total",
+    "feature_y": "casos_dengue",
+    "correlation": 0.101991596145897
+  },
+  {
+    "feature_x": "semana_sin",
+    "feature_y": "casos_dengue",
+    "correlation": 0.385335269730444
+  },
+  {
+    "feature_x": "semana_cos",
+    "feature_y": "casos_dengue",
+    "correlation": 0.076447267089547
+  },
+  {
+    "feature_x": "casos_dengue",
+    "feature_y": "temperatura_media",
+    "correlation": 0.09069680552597
+  },
+  {
+    "feature_x": "temperatura_media",
+    "feature_y": "temperatura_media",
+    "correlation": 1.0
+  },
+  {
+    "feature_x": "umidade_media",
+    "feature_y": "temperatura_media",
+    "correlation": -0.112439957659798
+  },
+  {
+    "feature_x": "chuva_total",
+    "feature_y": "temperatura_media",
+    "correlation": 0.216981241772826
+  },
+  {
+    "feature_x": "semana_sin",
+    "feature_y": "temperatura_media",
+    "correlation": -0.017182502199595
+  },
+  {
+    "feature_x": "semana_cos",
+    "feature_y": "temperatura_media",
+    "correlation": 0.739982729556963
+  },
+  {
+    "feature_x": "casos_dengue",
+    "feature_y": "umidade_media",
+    "correlation": 0.280385021237267
+  },
+  {
+    "feature_x": "temperatura_media",
+    "feature_y": "umidade_media",
+    "correlation": -0.112439957659798
+  },
+  {
+    "feature_x": "umidade_media",
+    "feature_y": "umidade_media",
+    "correlation": 1.0
+  },
+  {
+    "feature_x": "chuva_total",
+    "feature_y": "umidade_media",
+    "correlation": 0.582863611104625
+  },
+  {
+    "feature_x": "semana_sin",
+    "feature_y": "umidade_media",
+    "correlation": 0.525392606451549
+  },
+  {
+    "feature_x": "semana_cos",
+    "feature_y": "umidade_media",
+    "correlation": 0.242352258327005
+  },
+  {
+    "feature_x": "casos_dengue",
+    "feature_y": "chuva_total",
+    "correlation": 0.101991596145897
+  },
+  {
+    "feature_x": "temperatura_media",
+    "feature_y": "chuva_total",
+    "correlation": 0.216981241772826
+  },
+  {
+    "feature_x": "umidade_media",
+    "feature_y": "chuva_total",
+    "correlation": 0.582863611104625
+  },
+  {
+    "feature_x": "chuva_total",
+    "feature_y": "chuva_total",
+    "correlation": 1.0
+  },
+  {
+    "feature_x": "semana_sin",
+    "feature_y": "chuva_total",
+    "correlation": 0.091027700320481
+  },
+  {
+    "feature_x": "semana_cos",
+    "feature_y": "chuva_total",
+    "correlation": 0.54388216508523
+  },
+  {
+    "feature_x": "casos_dengue",
+    "feature_y": "semana_sin",
+    "correlation": 0.385335269730444
+  },
+  {
+    "feature_x": "temperatura_media",
+    "feature_y": "semana_sin",
+    "correlation": -0.017182502199595
+  },
+  {
+    "feature_x": "umidade_media",
+    "feature_y": "semana_sin",
+    "correlation": 0.525392606451549
+  },
+  {
+    "feature_x": "chuva_total",
+    "feature_y": "semana_sin",
+    "correlation": 0.091027700320481
+  },
+  {
+    "feature_x": "semana_sin",
+    "feature_y": "semana_sin",
+    "correlation": 1.0
+  },
+  {
+    "feature_x": "semana_cos",
+    "feature_y": "semana_sin",
+    "correlation": 0.000401437200794
+  },
+  {
+    "feature_x": "casos_dengue",
+    "feature_y": "semana_cos",
+    "correlation": 0.076447267089547
+  },
+  {
+    "feature_x": "temperatura_media",
+    "feature_y": "semana_cos",
+    "correlation": 0.739982729556963
+  },
+  {
+    "feature_x": "umidade_media",
+    "feature_y": "semana_cos",
+    "correlation": 0.242352258327005
+  },
+  {
+    "feature_x": "chuva_total",
+    "feature_y": "semana_cos",
+    "correlation": 0.54388216508523
+  },
+  {
+    "feature_x": "semana_sin",
+    "feature_y": "semana_cos",
+    "correlation": 0.000401437200794
+  },
+  {
+    "feature_x": "semana_cos",
+    "feature_y": "semana_cos",
+    "correlation": 1.0
+  }
+]

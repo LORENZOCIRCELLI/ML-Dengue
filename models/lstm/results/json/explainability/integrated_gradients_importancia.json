@@ -1,0 +1,152 @@
+[
+  {
+    "feature": "mean texture",
+    "mean_absolute_attribution": 0.0564281,
+    "mean_signed_attribution": -0.014079234
+  },
+  {
+    "feature": "mean radius",
+    "mean_absolute_attribution": 0.052599233,
+    "mean_signed_attribution": 0.0028248043
+  },
+  {
+    "feature": "mean smoothness",
+    "mean_absolute_attribution": 0.045912314,
+    "mean_signed_attribution": 0.0030241222
+  },
+  {
+    "feature": "mean perimeter",
+    "mean_absolute_attribution": 0.04542231,
+    "mean_signed_attribution": -0.008492035
+  },
+  {
+    "feature": "worst perimeter",
+    "mean_absolute_attribution": 0.045300428,
+    "mean_signed_attribution": 0.010544792
+  },
+  {
+    "feature": "mean concave points",
+    "mean_absolute_attribution": 0.0438787,
+    "mean_signed_attribution": -0.00096055097
+  },
+  {
+    "feature": "compactness error",
+    "mean_absolute_attribution": 0.041915387,
+    "mean_signed_attribution": -0.00802221
+  },
+  {
+    "feature": "worst area",
+    "mean_absolute_attribution": 0.0382306,
+    "mean_signed_attribution": -0.00043558155
+  },
+  {
+    "feature": "worst smoothness",
+    "mean_absolute_attribution": 0.03795902,
+    "mean_signed_attribution": 0.008450991
+  },
+  {
+    "feature": "mean compactness",
+    "mean_absolute_attribution": 0.03767793,
+    "mean_signed_attribution": 0.0013428988
+  },
+  {
+    "feature": "worst symmetry",
+    "mean_absolute_attribution": 0.037036244,
+    "mean_signed_attribution": 0.00071191153
+  },
+  {
+    "feature": "worst concavity",
+    "mean_absolute_attribution": 0.035625063,
+    "mean_signed_attribution": -0.006138269
+  },
+  {
+    "feature": "mean area",
+    "mean_absolute_attribution": 0.035616033,
+    "mean_signed_attribution": 0.0032784278
+  },
+  {
+    "feature": "worst fractal dimension",
+    "mean_absolute_attribution": 0.034665022,
+    "mean_signed_attribution": -0.0027735948
+  },
+  {
+    "feature": "worst concave points",
+    "mean_absolute_attribution": 0.034533605,
+    "mean_signed_attribution": -0.0050444445
+  },
+  {
+    "feature": "worst texture",
+    "mean_absolute_attribution": 0.03410383,
+    "mean_signed_attribution": -0.006701278
+  },
+  {
+    "feature": "worst compactness",
+    "mean_absolute_attribution": 0.034015745,
+    "mean_signed_attribution": -0.0013239428
+  },
+  {
+    "feature": "radius error",
+    "mean_absolute_attribution": 0.031025726,
+    "mean_signed_attribution": -0.0029802246
+  },
+  {
+    "feature": "concave points error",
+    "mean_absolute_attribution": 0.030068774,
+    "mean_signed_attribution": -0.0005991117
+  },
+  {
+    "feature": "mean symmetry",
+    "mean_absolute_attribution": 0.028534787,
+    "mean_signed_attribution": 0.0046537127
+  },
+  {
+    "feature": "area error",
+    "mean_absolute_attribution": 0.028265618,
+    "mean_signed_attribution": -0.004254723
+  },
+  {
+    "feature": "mean concavity",
+    "mean_absolute_attribution": 0.023866959,
+    "mean_signed_attribution": -0.0010070346
+  },
+  {
+    "feature": "concavity error",
+    "mean_absolute_attribution": 0.022427281,
+    "mean_signed_attribution": -0.00783914
+  },
+  {
+    "feature": "smoothness error",
+    "mean_absolute_attribution": 0.01921589,
+    "mean_signed_attribution": -0.004706265
+  },
+  {
+    "feature": "perimeter error",
+    "mean_absolute_attribution": 0.018457543,
+    "mean_signed_attribution": -0.006108638
+  },
+  {
+    "feature": "mean fractal dimension",
+    "mean_absolute_attribution": 0.017124787,
+    "mean_signed_attribution": -0.006201924
+  },
+  {
+    "feature": "worst radius",
+    "mean_absolute_attribution": 0.015867734,
+    "mean_signed_attribution": 0.002725512
+  },
+  {
+    "feature": "fractal dimension error",
+    "mean_absolute_attribution": 0.015506568,
+    "mean_signed_attribution": -0.009358492
+  },
+  {
+    "feature": "symmetry error",
+    "mean_absolute_attribution": 0.011275641,
+    "mean_signed_attribution": -0.0005144521
+  },
+  {
+    "feature": "texture error",
+    "mean_absolute_attribution": 0.010149914,
+    "mean_signed_attribution": -0.0036343883
+  }
+]

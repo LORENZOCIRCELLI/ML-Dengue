@@ -1,0 +1,200 @@
+[
+  {
+    "model": "random_forest",
+    "metric": "f1",
+    "n_pairs": 5,
+    "mean_without": 0.716369199631834,
+    "mean_with_binary_enso": 0.339764705882353,
+    "mean_delta": -0.376604493749481,
+    "std_delta": 0.024007438143034,
+    "positive_deltas": 0,
+    "negative_deltas": 5
+  },
+  {
+    "model": "random_forest",
+    "metric": "precision",
+    "n_pairs": 5,
+    "mean_without": 0.659710714267864,
+    "mean_with_binary_enso": 0.682051282051282,
+    "mean_delta": 0.022340567783418,
+    "std_delta": 0.060047183338546,
+    "positive_deltas": 4,
+    "negative_deltas": 1
+  },
+  {
+    "model": "random_forest",
+    "metric": "recall",
+    "n_pairs": 5,
+    "mean_without": 0.78421052631579,
+    "mean_with_binary_enso": 0.226315789473684,
+    "mean_delta": -0.557894736842105,
+    "std_delta": 0.011768778828946,
+    "positive_deltas": 0,
+    "negative_deltas": 5
+  },
+  {
+    "model": "random_forest",
+    "metric": "roc_auc",
+    "n_pairs": 5,
+    "mean_without": 0.902242562929062,
+    "mean_with_binary_enso": 0.703203661327231,
+    "mean_delta": -0.199038901601831,
+    "std_delta": 0.042171016835186,
+    "positive_deltas": 0,
+    "negative_deltas": 5
+  },
+  {
+    "model": "random_forest",
+    "metric": "pr_auc",
+    "n_pairs": 5,
+    "mean_without": 0.768040312648417,
+    "mean_with_binary_enso": 0.50603604807388,
+    "mean_delta": -0.262004264574536,
+    "std_delta": 0.053556518427173,
+    "positive_deltas": 0,
+    "negative_deltas": 5
+  },
+  {
+    "model": "random_forest",
+    "metric": "accuracy",
+    "n_pairs": 5,
+    "mean_without": 0.845751633986928,
+    "mean_with_binary_enso": 0.781699346405229,
+    "mean_delta": -0.064052287581699,
+    "std_delta": 0.010739657990297,
+    "positive_deltas": 0,
+    "negative_deltas": 5
+  },
+  {
+    "model": "rnn",
+    "metric": "f1",
+    "n_pairs": 5,
+    "mean_without": 0.658740883076097,
+    "mean_with_binary_enso": 0.441376587598696,
+    "mean_delta": -0.217364295477401,
+    "std_delta": 0.122545328256572,
+    "positive_deltas": 0,
+    "negative_deltas": 5
+  },
+  {
+    "model": "rnn",
+    "metric": "precision",
+    "n_pairs": 5,
+    "mean_without": 0.654715707178394,
+    "mean_with_binary_enso": 0.543364191661405,
+    "mean_delta": -0.111351515516988,
+    "std_delta": 0.246521919559038,
+    "positive_deltas": 1,
+    "negative_deltas": 4
+  },
+  {
+    "model": "rnn",
+    "metric": "recall",
+    "n_pairs": 5,
+    "mean_without": 0.689473684210526,
+    "mean_with_binary_enso": 0.489473684210526,
+    "mean_delta": -0.2,
+    "std_delta": 0.291618845835686,
+    "positive_deltas": 2,
+    "negative_deltas": 3
+  },
+  {
+    "model": "rnn",
+    "metric": "roc_auc",
+    "n_pairs": 5,
+    "mean_without": 0.880274599542334,
+    "mean_with_binary_enso": 0.718215102974828,
+    "mean_delta": -0.162059496567506,
+    "std_delta": 0.073641096302425,
+    "positive_deltas": 0,
+    "negative_deltas": 5
+  },
+  {
+    "model": "rnn",
+    "metric": "pr_auc",
+    "n_pairs": 5,
+    "mean_without": 0.659830706482283,
+    "mean_with_binary_enso": 0.470443697760745,
+    "mean_delta": -0.189387008721537,
+    "std_delta": 0.091536328132448,
+    "positive_deltas": 0,
+    "negative_deltas": 5
+  },
+  {
+    "model": "rnn",
+    "metric": "accuracy",
+    "n_pairs": 5,
+    "mean_without": 0.823529411764706,
+    "mean_with_binary_enso": 0.716339869281046,
+    "mean_delta": -0.10718954248366,
+    "std_delta": 0.066589728768366,
+    "positive_deltas": 0,
+    "negative_deltas": 5
+  },
+  {
+    "model": "lstm",
+    "metric": "f1",
+    "n_pairs": 5,
+    "mean_without": 0.506093183542074,
+    "mean_with_binary_enso": 0.448317371490052,
+    "mean_delta": -0.057775812052021,
+    "std_delta": 0.413364849432792,
+    "positive_deltas": 1,
+    "negative_deltas": 4
+  },
+  {
+    "model": "lstm",
+    "metric": "precision",
+    "n_pairs": 5,
+    "mean_without": 0.53290060851927,
+    "mean_with_binary_enso": 0.511613598134978,
+    "mean_delta": -0.021287010384292,
+    "std_delta": 0.45283328811904,
+    "positive_deltas": 2,
+    "negative_deltas": 3
+  },
+  {
+    "model": "lstm",
+    "metric": "recall",
+    "n_pairs": 5,
+    "mean_without": 0.5,
+    "mean_with_binary_enso": 0.636842105263158,
+    "mean_delta": 0.136842105263158,
+    "std_delta": 0.451758644163205,
+    "positive_deltas": 3,
+    "negative_deltas": 2
+  },
+  {
+    "model": "lstm",
+    "metric": "roc_auc",
+    "n_pairs": 5,
+    "mean_without": 0.786773455377574,
+    "mean_with_binary_enso": 0.630526315789474,
+    "mean_delta": -0.156247139588101,
+    "std_delta": 0.357436353087645,
+    "positive_deltas": 1,
+    "negative_deltas": 4
+  },
+  {
+    "model": "lstm",
+    "metric": "pr_auc",
+    "n_pairs": 5,
+    "mean_without": 0.562479244717907,
+    "mean_with_binary_enso": 0.463739802607641,
+    "mean_delta": -0.098739442110267,
+    "std_delta": 0.399880921291267,
+    "positive_deltas": 1,
+    "negative_deltas": 4
+  },
+  {
+    "model": "lstm",
+    "metric": "accuracy",
+    "n_pairs": 5,
+    "mean_without": 0.8,
+    "mean_with_binary_enso": 0.606535947712418,
+    "mean_delta": -0.193464052287582,
+    "std_delta": 0.236678931404022,
+    "positive_deltas": 1,
+    "negative_deltas": 4
+  }
+]

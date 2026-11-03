@@ -1,0 +1,72 @@
+{
+  "selection": {
+    "threshold": 0.510231614112854,
+    "method": "maior precisão com recall >= 0.80",
+    "validation_precision": 0.4772727272727273,
+    "validation_recall": 0.9130434782608695
+  },
+  "metrics": {
+    "validation": {
+      "n": 105,
+      "prevalence": 0.21904761904761905,
+      "threshold": 0.510231614112854,
+      "accuracy": 0.7619047619047619,
+      "balanced_accuracy": 0.8162778366914103,
+      "precision": 0.4772727272727273,
+      "recall_sensitivity": 0.9130434782608695,
+      "specificity": 0.7195121951219512,
+      "f1": 0.6268656716417911,
+      "f2": 0.7720588235294118,
+      "pr_auc": 0.40192143846216033,
+      "roc_auc": 0.7985153764581124,
+      "brier": 0.24883568286895752,
+      "tn": 59,
+      "fp": 23,
+      "fn": 2,
+      "tp": 21,
+      "false_alarms_per_year": 11.429357142857144
+    },
+    "test": {
+      "n": 104,
+      "prevalence": 0.18269230769230768,
+      "threshold": 0.510231614112854,
+      "accuracy": 0.5961538461538461,
+      "balanced_accuracy": 0.7529411764705882,
+      "precision": 0.3114754098360656,
+      "recall_sensitivity": 1.0,
+      "specificity": 0.5058823529411764,
+      "f1": 0.475,
+      "f2": 0.6934306569343066,
+      "pr_auc": 0.3586371109751194,
+      "roc_auc": 0.7659442724458205,
+      "brier": 0.25529569387435913,
+      "tn": 43,
+      "fp": 42,
+      "fn": 0,
+      "tp": 19,
+      "false_alarms_per_year": 21.071682692307693,
+      "confidence_intervals": {
+        "pr_auc": {
+          "lower_95": 0.14952790077058958,
+          "upper_95": 0.7122756521297949
+        },
+        "roc_auc": {
+          "lower_95": 0.6200284090909092,
+          "upper_95": 0.9428555253623189
+        },
+        "recall_sensitivity": {
+          "lower_95": 1.0,
+          "upper_95": 1.0
+        },
+        "precision": {
+          "lower_95": 0.07707889125799573,
+          "upper_95": 0.638301043219076
+        },
+        "f2": {
+          "lower_95": 0.29447391688771,
+          "upper_95": 0.8982039465910433
+        }
+      }
+    }
+  }
+}

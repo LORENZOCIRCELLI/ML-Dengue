@@ -1,0 +1,9 @@
+sample_id,data_emissao,data_alvo,data_ultimo_caso,media_casos_referencia,casos_futuros,target,split
+466,2019-12-01,2019-12-29,2019-11-24,84.25,251.0,1,descartado_fronteira
+467,2019-12-08,2020-01-05,2019-12-01,108.25,624.0,1,descartado_fronteira
+468,2019-12-15,2020-01-12,2019-12-08,134.75,948.0,1,descartado_fronteira
+469,2019-12-22,2020-01-19,2019-12-15,148.5,1212.0,1,descartado_fronteira
+623,2022-12-04,2023-01-01,2022-11-27,161.0,220.0,0,descartado_fronteira
+624,2022-12-11,2023-01-08,2022-12-04,142.75,281.0,1,descartado_fronteira
+625,2022-12-18,2023-01-15,2022-12-11,116.75,259.0,1,descartado_fronteira
+626,2022-12-25,2023-01-22,2022-12-18,79.75,375.0,1,descartado_fronteira

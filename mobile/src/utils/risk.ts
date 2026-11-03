@@ -48,5 +48,9 @@ export function formatPercent(value: number | undefined): string {
 export function formatDate(iso: string | undefined): string {
   if (!iso) return '—';
   const d = new Date(iso);
-  return d.toLocaleDateString('pt-BR', { day: '2-digit', month: 'short', year: 'numeric' });
+  return d.toLocaleDateString('pt-BR', {
+    day: '2-digit',
+    month: 'short',
+    year: 'numeric',
+  });
 }

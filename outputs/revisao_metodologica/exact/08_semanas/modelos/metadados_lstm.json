@@ -1,0 +1,23 @@
+{
+  "features": [
+    "log_cases_lag_1",
+    "log_cases_lag_2",
+    "log_cases_lag_4",
+    "log_cases_lag_8",
+    "log_cases_lag_12",
+    "log_cases_lag_52",
+    "cases_mean_4",
+    "cases_mean_12",
+    "cases_std_12",
+    "media_temperatura_semana",
+    "media_umidade_semana",
+    "chuva_total_mm",
+    "ONI",
+    "week_sin",
+    "week_cos"
+  ],
+  "sequence_length": 12,
+  "pytorch_device_during_training": "cpu",
+  "numpy_hidden_size": 16,
+  "pytorch_hidden_size": 32
+}

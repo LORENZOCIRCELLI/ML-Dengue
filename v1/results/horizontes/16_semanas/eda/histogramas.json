@@ -1,0 +1,842 @@
+[
+  {
+    "feature": "casos_dengue",
+    "left": -0.446797251701355,
+    "right": -0.101974129676819,
+    "center": -0.274385690689087,
+    "count": 352
+  },
+  {
+    "feature": "casos_dengue",
+    "left": -0.101974129676819,
+    "right": 0.242848992347717,
+    "center": 0.070437431335449,
+    "count": 27
+  },
+  {
+    "feature": "casos_dengue",
+    "left": 0.242848992347717,
+    "right": 0.587672114372253,
+    "center": 0.415260553359985,
+    "count": 15
+  },
+  {
+    "feature": "casos_dengue",
+    "left": 0.587672114372253,
+    "right": 0.93249523639679,
+    "center": 0.760083675384522,
+    "count": 7
+  },
+  {
+    "feature": "casos_dengue",
+    "left": 0.93249523639679,
+    "right": 1.277318358421326,
+    "center": 1.104906797409058,
+    "count": 5
+  },
+  {
+    "feature": "casos_dengue",
+    "left": 1.277318358421326,
+    "right": 1.622141480445862,
+    "center": 1.449729919433594,
+    "count": 3
+  },
+  {
+    "feature": "casos_dengue",
+    "left": 1.622141480445862,
+    "right": 1.966964602470398,
+    "center": 1.79455304145813,
+    "count": 4
+  },
+  {
+    "feature": "casos_dengue",
+    "left": 1.966964602470398,
+    "right": 2.311787605285644,
+    "center": 2.139376163482666,
+    "count": 3
+  },
+  {
+    "feature": "casos_dengue",
+    "left": 2.311787605285644,
+    "right": 2.65661096572876,
+    "center": 2.484199285507202,
+    "count": 6
+  },
+  {
+    "feature": "casos_dengue",
+    "left": 2.65661096572876,
+    "right": 3.001433849334717,
+    "center": 2.829022407531738,
+    "count": 4
+  },
+  {
+    "feature": "casos_dengue",
+    "left": 3.001433849334717,
+    "right": 3.346257209777832,
+    "center": 3.173845529556274,
+    "count": 2
+  },
+  {
+    "feature": "casos_dengue",
+    "left": 3.346257209777832,
+    "right": 3.691080093383789,
+    "center": 3.518668651580811,
+    "count": 3
+  },
+  {
+    "feature": "casos_dengue",
+    "left": 3.691080093383789,
+    "right": 4.035902976989746,
+    "center": 3.863491535186768,
+    "count": 2
+  },
+  {
+    "feature": "casos_dengue",
+    "left": 4.035902976989746,
+    "right": 4.380726337432861,
+    "center": 4.208314895629883,
+    "count": 1
+  },
+  {
+    "feature": "casos_dengue",
+    "left": 4.380726337432861,
+    "right": 4.725549697875976,
+    "center": 4.55313777923584,
+    "count": 1
+  },
+  {
+    "feature": "casos_dengue",
+    "left": 4.725549697875976,
+    "right": 5.070372581481934,
+    "center": 4.897961139678955,
+    "count": 1
+  },
+  {
+    "feature": "casos_dengue",
+    "left": 5.070372581481934,
+    "right": 5.415195465087891,
+    "center": 5.242784023284912,
+    "count": 0
+  },
+  {
+    "feature": "casos_dengue",
+    "left": 5.415195465087891,
+    "right": 5.760018825531006,
+    "center": 5.587607383728027,
+    "count": 1
+  },
+  {
+    "feature": "casos_dengue",
+    "left": 5.760018825531006,
+    "right": 6.104842185974121,
+    "center": 5.932430267333984,
+    "count": 1
+  },
+  {
+    "feature": "casos_dengue",
+    "left": 6.104842185974121,
+    "right": 6.449665069580078,
+    "center": 6.2772536277771,
+    "count": 1
+  },
+  {
+    "feature": "temperatura_media",
+    "left": -2.760589122772217,
+    "right": -2.483927011489868,
+    "center": -2.622258186340332,
+    "count": 5
+  },
+  {
+    "feature": "temperatura_media",
+    "left": -2.483927011489868,
+    "right": -2.20726490020752,
+    "center": -2.345595836639404,
+    "count": 3
+  },
+  {
+    "feature": "temperatura_media",
+    "left": -2.20726490020752,
+    "right": -1.930602788925171,
+    "center": -2.068933963775635,
+    "count": 8
+  },
+  {
+    "feature": "temperatura_media",
+    "left": -1.930602788925171,
+    "right": -1.653940677642822,
+    "center": -1.792271733283997,
+    "count": 13
+  },
+  {
+    "feature": "temperatura_media",
+    "left": -1.653940677642822,
+    "right": -1.377278566360474,
+    "center": -1.515609622001648,
+    "count": 20
+  },
+  {
+    "feature": "temperatura_media",
+    "left": -1.377278566360474,
+    "right": -1.100616455078125,
+    "center": -1.238947510719299,
+    "count": 29
+  },
+  {
+    "feature": "temperatura_media",
+    "left": -1.100616455078125,
+    "right": -0.823954343795776,
+    "center": -0.962285399436951,
+    "count": 30
+  },
+  {
+    "feature": "temperatura_media",
+    "left": -0.823954343795776,
+    "right": -0.547292232513428,
+    "center": -0.685623288154602,
+    "count": 27
+  },
+  {
+    "feature": "temperatura_media",
+    "left": -0.547292232513428,
+    "right": -0.270630121231079,
+    "center": -0.408961176872253,
+    "count": 30
+  },
+  {
+    "feature": "temperatura_media",
+    "left": -0.270630121231079,
+    "right": 0.00603199005127,
+    "center": -0.132299065589905,
+    "count": 32
+  },
+  {
+    "feature": "temperatura_media",
+    "left": 0.00603199005127,
+    "right": 0.282694101333618,
+    "center": 0.144363045692444,
+    "count": 40
+  },
+  {
+    "feature": "temperatura_media",
+    "left": 0.282694101333618,
+    "right": 0.559356212615967,
+    "center": 0.421025156974792,
+    "count": 59
+  },
+  {
+    "feature": "temperatura_media",
+    "left": 0.559356212615967,
+    "right": 0.836018323898315,
+    "center": 0.697687268257141,
+    "count": 51
+  },
+  {
+    "feature": "temperatura_media",
+    "left": 0.836018323898315,
+    "right": 1.112680435180664,
+    "center": 0.97434937953949,
+    "count": 49
+  },
+  {
+    "feature": "temperatura_media",
+    "left": 1.112680435180664,
+    "right": 1.389342784881592,
+    "center": 1.251011610031128,
+    "count": 23
+  },
+  {
+    "feature": "temperatura_media",
+    "left": 1.389342784881592,
+    "right": 1.666004657745361,
+    "center": 1.527673721313477,
+    "count": 9
+  },
+  {
+    "feature": "temperatura_media",
+    "left": 1.666004657745361,
+    "right": 1.942666530609131,
+    "center": 1.804335594177246,
+    "count": 6
+  },
+  {
+    "feature": "temperatura_media",
+    "left": 1.942666530609131,
+    "right": 2.219328880310059,
+    "center": 2.080997705459595,
+    "count": 3
+  },
+  {
+    "feature": "temperatura_media",
+    "left": 2.219328880310059,
+    "right": 2.495991230010986,
+    "center": 2.357660055160522,
+    "count": 1
+  },
+  {
+    "feature": "temperatura_media",
+    "left": 2.495991230010986,
+    "right": 2.772652864456177,
+    "center": 2.634322166442871,
+    "count": 1
+  },
+  {
+    "feature": "umidade_media",
+    "left": -2.847978830337524,
+    "right": -2.599555969238281,
+    "center": -2.723767280578613,
+    "count": 6
+  },
+  {
+    "feature": "umidade_media",
+    "left": -2.599555969238281,
+    "right": -2.351133346557617,
+    "center": -2.475344657897949,
+    "count": 3
+  },
+  {
+    "feature": "umidade_media",
+    "left": -2.351133346557617,
+    "right": -2.102710485458374,
+    "center": -2.226922035217285,
+    "count": 5
+  },
+  {
+    "feature": "umidade_media",
+    "left": -2.102710485458374,
+    "right": -1.85428774356842,
+    "center": -1.978499174118042,
+    "count": 8
+  },
+  {
+    "feature": "umidade_media",
+    "left": -1.85428774356842,
+    "right": -1.605865001678467,
+    "center": -1.730076313018799,
+    "count": 12
+  },
+  {
+    "feature": "umidade_media",
+    "left": -1.605865001678467,
+    "right": -1.357442140579224,
+    "center": -1.481653571128845,
+    "count": 14
+  },
+  {
+    "feature": "umidade_media",
+    "left": -1.357442140579224,
+    "right": -1.10901939868927,
+    "center": -1.233230829238892,
+    "count": 20
+  },
+  {
+    "feature": "umidade_media",
+    "left": -1.10901939868927,
+    "right": -0.860596656799316,
+    "center": -0.984808027744293,
+    "count": 17
+  },
+  {
+    "feature": "umidade_media",
+    "left": -0.860596656799316,
+    "right": -0.612173795700073,
+    "center": -0.736385226249695,
+    "count": 31
+  },
+  {
+    "feature": "umidade_media",
+    "left": -0.612173795700073,
+    "right": -0.363751173019409,
+    "center": -0.487962484359741,
+    "count": 34
+  },
+  {
+    "feature": "umidade_media",
+    "left": -0.363751173019409,
+    "right": -0.115328311920166,
+    "center": -0.239539742469788,
+    "count": 37
+  },
+  {
+    "feature": "umidade_media",
+    "left": -0.115328311920166,
+    "right": 0.133094549179077,
+    "center": 0.008883118629456,
+    "count": 42
+  },
+  {
+    "feature": "umidade_media",
+    "left": 0.133094549179077,
+    "right": 0.381517171859741,
+    "center": 0.257305860519409,
+    "count": 41
+  },
+  {
+    "feature": "umidade_media",
+    "left": 0.381517171859741,
+    "right": 0.629940032958984,
+    "center": 0.505728602409363,
+    "count": 47
+  },
+  {
+    "feature": "umidade_media",
+    "left": 0.629940032958984,
+    "right": 0.878362655639648,
+    "center": 0.754151344299316,
+    "count": 36
+  },
+  {
+    "feature": "umidade_media",
+    "left": 0.878362655639648,
+    "right": 1.126785516738892,
+    "center": 1.00257408618927,
+    "count": 45
+  },
+  {
+    "feature": "umidade_media",
+    "left": 1.126785516738892,
+    "right": 1.375208139419556,
+    "center": 1.250996828079224,
+    "count": 19
+  },
+  {
+    "feature": "umidade_media",
+    "left": 1.375208139419556,
+    "right": 1.623631238937378,
+    "center": 1.499419689178467,
+    "count": 12
+  },
+  {
+    "feature": "umidade_media",
+    "left": 1.623631238937378,
+    "right": 1.872053861618042,
+    "center": 1.74784255027771,
+    "count": 5
+  },
+  {
+    "feature": "umidade_media",
+    "left": 1.872053861618042,
+    "right": 2.120476245880127,
+    "center": 1.996265053749084,
+    "count": 5
+  },
+  {
+    "feature": "chuva_total",
+    "left": -0.835909605026245,
+    "right": -0.669738054275513,
+    "center": -0.752823829650879,
+    "count": 178
+  },
+  {
+    "feature": "chuva_total",
+    "left": -0.669738054275513,
+    "right": -0.503566563129425,
+    "center": -0.586652278900146,
+    "count": 34
+  },
+  {
+    "feature": "chuva_total",
+    "left": -0.503566563129425,
+    "right": -0.337395042181015,
+    "center": -0.420480787754059,
+    "count": 21
+  },
+  {
+    "feature": "chuva_total",
+    "left": -0.337395042181015,
+    "right": -0.171223521232605,
+    "center": -0.254309296607971,
+    "count": 26
+  },
+  {
+    "feature": "chuva_total",
+    "left": -0.171223521232605,
+    "right": -0.005051970481873,
+    "center": -0.088137745857239,
+    "count": 25
+  },
+  {
+    "feature": "chuva_total",
+    "left": -0.005051970481873,
+    "right": 0.161119520664215,
+    "center": 0.078033775091171,
+    "count": 18
+  },
+  {
+    "feature": "chuva_total",
+    "left": 0.161119520664215,
+    "right": 0.327291011810303,
+    "center": 0.244205266237259,
+    "count": 18
+  },
+  {
+    "feature": "chuva_total",
+    "left": 0.327291011810303,
+    "right": 0.493462562561035,
+    "center": 0.410376787185669,
+    "count": 9
+  },
+  {
+    "feature": "chuva_total",
+    "left": 0.493462562561035,
+    "right": 0.659634113311768,
+    "center": 0.576548337936401,
+    "count": 14
+  },
+  {
+    "feature": "chuva_total",
+    "left": 0.659634113311768,
+    "right": 0.8258056640625,
+    "center": 0.742719888687134,
+    "count": 5
+  },
+  {
+    "feature": "chuva_total",
+    "left": 0.8258056640625,
+    "right": 0.991977095603943,
+    "center": 0.908891379833221,
+    "count": 10
+  },
+  {
+    "feature": "chuva_total",
+    "left": 0.991977095603943,
+    "right": 1.158148646354675,
+    "center": 1.075062870979309,
+    "count": 11
+  },
+  {
+    "feature": "chuva_total",
+    "left": 1.158148646354675,
+    "right": 1.324320077896118,
+    "center": 1.241234302520752,
+    "count": 9
+  },
+  {
+    "feature": "chuva_total",
+    "left": 1.324320077896118,
+    "right": 1.490491628646851,
+    "center": 1.407405853271484,
+    "count": 7
+  },
+  {
+    "feature": "chuva_total",
+    "left": 1.490491628646851,
+    "right": 1.656663179397583,
+    "center": 1.573577404022217,
+    "count": 8
+  },
+  {
+    "feature": "chuva_total",
+    "left": 1.656663179397583,
+    "right": 1.822834730148315,
+    "center": 1.739748954772949,
+    "count": 10
+  },
+  {
+    "feature": "chuva_total",
+    "left": 1.822834730148315,
+    "right": 1.989006280899048,
+    "center": 1.905920505523682,
+    "count": 9
+  },
+  {
+    "feature": "chuva_total",
+    "left": 1.989006280899048,
+    "right": 2.15517783164978,
+    "center": 2.072092056274414,
+    "count": 3
+  },
+  {
+    "feature": "chuva_total",
+    "left": 2.15517783164978,
+    "right": 2.321349382400513,
+    "center": 2.238263607025146,
+    "count": 4
+  },
+  {
+    "feature": "chuva_total",
+    "left": 2.321349382400513,
+    "right": 2.487520694732666,
+    "center": 2.404435157775879,
+    "count": 20
+  },
+  {
+    "feature": "semana_sin",
+    "left": -1.452104806900024,
+    "right": -1.310487031936646,
+    "center": -1.381295919418335,
+    "count": 56
+  },
+  {
+    "feature": "semana_sin",
+    "left": -1.310487031936646,
+    "right": -1.168869256973267,
+    "center": -1.239678144454956,
+    "count": 34
+  },
+  {
+    "feature": "semana_sin",
+    "left": -1.168869256973267,
+    "right": -1.027251362800598,
+    "center": -1.098060369491577,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "left": -1.027251362800598,
+    "right": -0.885633587837219,
+    "center": -0.956442475318909,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "left": -0.885633587837219,
+    "right": -0.74401581287384,
+    "center": -0.81482470035553,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "left": -0.74401581287384,
+    "right": -0.602397978305817,
+    "center": -0.673206925392151,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "left": -0.602397978305817,
+    "right": -0.460780143737793,
+    "center": -0.531589031219482,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "left": -0.460780143737793,
+    "right": -0.319162368774414,
+    "center": -0.389971256256104,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "left": -0.319162368774414,
+    "right": -0.177544593811035,
+    "center": -0.248353481292725,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "left": -0.177544593811035,
+    "right": -0.035926818847656,
+    "center": -0.106735706329346,
+    "count": 0
+  },
+  {
+    "feature": "semana_sin",
+    "left": -0.035926818847656,
+    "right": 0.105691075325012,
+    "center": 0.034882128238678,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "left": 0.105691075325012,
+    "right": 0.247308850288391,
+    "center": 0.176499962806702,
+    "count": 18
+  },
+  {
+    "feature": "semana_sin",
+    "left": 0.247308850288391,
+    "right": 0.38892662525177,
+    "center": 0.318117737770081,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "left": 0.38892662525177,
+    "right": 0.530544519424438,
+    "center": 0.459735572338104,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "left": 0.530544519424438,
+    "right": 0.672162294387817,
+    "center": 0.601353406906128,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "left": 0.672162294387817,
+    "right": 0.813780069351196,
+    "center": 0.742971181869507,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "left": 0.813780069351196,
+    "right": 0.955397844314575,
+    "center": 0.884588956832886,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "left": 0.955397844314575,
+    "right": 1.097015619277954,
+    "center": 1.026206731796265,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "left": 1.097015619277954,
+    "right": 1.238633394241333,
+    "center": 1.167824506759644,
+    "count": 34
+  },
+  {
+    "feature": "semana_sin",
+    "left": 1.238633394241333,
+    "right": 1.380251169204712,
+    "center": 1.309442281723022,
+    "count": 59
+  },
+  {
+    "feature": "semana_cos",
+    "left": -1.385495066642761,
+    "right": -1.244122266769409,
+    "center": -1.31480860710144,
+    "count": 63
+  },
+  {
+    "feature": "semana_cos",
+    "left": -1.244122266769409,
+    "right": -1.102749586105347,
+    "center": -1.173435926437378,
+    "count": 36
+  },
+  {
+    "feature": "semana_cos",
+    "left": -1.102749586105347,
+    "right": -0.961376786231995,
+    "center": -1.032063245773315,
+    "count": 18
+  },
+  {
+    "feature": "semana_cos",
+    "left": -0.961376786231995,
+    "right": -0.820003986358643,
+    "center": -0.890690386295319,
+    "count": 18
+  },
+  {
+    "feature": "semana_cos",
+    "left": -0.820003986358643,
+    "right": -0.67863118648529,
+    "center": -0.749317586421966,
+    "count": 18
+  },
+  {
+    "feature": "semana_cos",
+    "left": -0.67863118648529,
+    "right": -0.537258446216583,
+    "center": -0.607944846153259,
+    "count": 18
+  },
+  {
+    "feature": "semana_cos",
+    "left": -0.537258446216583,
+    "right": -0.395885705947876,
+    "center": -0.46657207608223,
+    "count": 17
+  },
+  {
+    "feature": "semana_cos",
+    "left": -0.395885705947876,
+    "right": -0.254512906074524,
+    "center": -0.3251993060112,
+    "count": 17
+  },
+  {
+    "feature": "semana_cos",
+    "left": -0.254512906074524,
+    "right": -0.113140106201172,
+    "center": -0.183826506137848,
+    "count": 17
+  },
+  {
+    "feature": "semana_cos",
+    "left": -0.113140106201172,
+    "right": 0.02823269367218,
+    "center": -0.042453706264496,
+    "count": 16
+  },
+  {
+    "feature": "semana_cos",
+    "left": 0.02823269367218,
+    "right": 0.169605374336243,
+    "center": 0.098919034004211,
+    "count": 0
+  },
+  {
+    "feature": "semana_cos",
+    "left": 0.169605374336243,
+    "right": 0.310978174209595,
+    "center": 0.240291774272919,
+    "count": 16
+  },
+  {
+    "feature": "semana_cos",
+    "left": 0.310978174209595,
+    "right": 0.452350974082947,
+    "center": 0.381664574146271,
+    "count": 16
+  },
+  {
+    "feature": "semana_cos",
+    "left": 0.452350974082947,
+    "right": 0.593723654747009,
+    "center": 0.523037314414978,
+    "count": 16
+  },
+  {
+    "feature": "semana_cos",
+    "left": 0.593723654747009,
+    "right": 0.735096573829651,
+    "center": 0.66441011428833,
+    "count": 16
+  },
+  {
+    "feature": "semana_cos",
+    "left": 0.735096573829651,
+    "right": 0.876469254493713,
+    "center": 0.805782914161682,
+    "count": 16
+  },
+  {
+    "feature": "semana_cos",
+    "left": 0.876469254493713,
+    "right": 1.017841935157776,
+    "center": 0.947155594825745,
+    "count": 16
+  },
+  {
+    "feature": "semana_cos",
+    "left": 1.017841935157776,
+    "right": 1.159214854240417,
+    "center": 1.088528394699097,
+    "count": 16
+  },
+  {
+    "feature": "semana_cos",
+    "left": 1.159214854240417,
+    "right": 1.30058753490448,
+    "center": 1.229901194572449,
+    "count": 32
+  },
+  {
+    "feature": "semana_cos",
+    "left": 1.30058753490448,
+    "right": 1.441960215568542,
+    "center": 1.371273875236511,
+    "count": 57
+  }
+]

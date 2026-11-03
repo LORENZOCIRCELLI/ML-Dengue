@@ -11,15 +11,9 @@ interface Props {
 
 const CHART_PADDING = { top: 16, right: 12, bottom: 28, left: 36 };
 
-// One component renders every chart in charts.json — line, bar, or area —
-// because it only reads the generic schema (xAxis/yAxis/series), never a
-// variable name. Adding a new chart to the notebook export requires zero
-// frontend changes as long as it fits this schema.
 export default function GenericChart({ chart, height = 220 }: Props) {
   const [width, setWidth] = useState(0);
-
   const onLayout = (e: LayoutChangeEvent) => setWidth(e.nativeEvent.layout.width);
-
   const { allYValues, categories } = useMemo(() => {
     const ys: number[] = [];
     const cats = new Set<string>();
@@ -27,11 +21,10 @@ export default function GenericChart({ chart, height = 220 }: Props) {
       s.data.forEach((p) => {
         if (p.y !== null && p.y !== undefined) ys.push(p.y);
         cats.add(p.x);
-      })
+      }),
     );
     return { allYValues: ys, categories: Array.from(cats) };
   }, [chart]);
-
   if (allYValues.length === 0) {
     return (
       <View style={[styles.card, { height }]}>
@@ -40,19 +33,15 @@ export default function GenericChart({ chart, height = 220 }: Props) {
       </View>
     );
   }
-
   const yMin = chart.yAxis.min ?? Math.min(0, ...allYValues);
   const yMax = chart.yAxis.max ?? Math.max(...allYValues) * 1.1;
   const plotW = Math.max(width - CHART_PADDING.left - CHART_PADDING.right, 1);
   const plotH = height - CHART_PADDING.top - CHART_PADDING.bottom;
-
   const yToPx = (y: number) => {
     const ratio = (y - yMin) / (yMax - yMin || 1);
     return CHART_PADDING.top + plotH - ratio * plotH;
   };
-
   const isBar = chart.type === 'bar';
-
   return (
     <View style={styles.card}>
       <Text style={styles.title}>{chart.title}</Text>
@@ -61,7 +50,6 @@ export default function GenericChart({ chart, height = 220 }: Props) {
       <View onLayout={onLayout} style={{ height }}>
         {width > 0 && (
           <Svg width={width} height={height}>
-            {/* Gridlines */}
             {[0, 0.25, 0.5, 0.75, 1].map((t) => {
               const y = CHART_PADDING.top + t * plotH;
               return (
@@ -81,7 +69,6 @@ export default function GenericChart({ chart, height = 220 }: Props) {
               ? renderBars(chart, categories, plotW, plotH, yToPx)
               : renderLines(chart, categories, plotW, yToPx)}
 
-            {/* Reference lines (e.g. decision threshold) */}
             {chart.referenceLines?.map((ref, i) => (
               <G key={i}>
                 <Line
@@ -108,23 +95,24 @@ function renderLines(
   chart: ChartDefinition,
   categories: string[],
   plotW: number,
-  yToPx: (y: number) => number
+  yToPx: (y: number) => number,
 ) {
   const n = categories.length;
   const xStep = n > 1 ? plotW / (n - 1) : 0;
   const xToPx = (idx: number) => CHART_PADDING.left + idx * xStep;
-
   return chart.series.map((series, si) => {
     const color = colors.chartPalette[si % colors.chartPalette.length];
     let d = '';
-    series.data.forEach((point, i) => {
+    series.data.forEach((point) => {
       if (point.y === null || point.y === undefined) return;
       const idx = categories.indexOf(point.x);
       const x = xToPx(idx);
       const y = yToPx(point.y);
       d += d === '' ? `M ${x} ${y}` : ` L ${x} ${y}`;
     });
-    const lastPoint = [...series.data].reverse().find((p) => p.y !== null && p.y !== undefined);
+    const lastPoint = [...series.data]
+      .reverse()
+      .find((p) => p.y !== null && p.y !== undefined);
     return (
       <G key={series.name}>
         <Path d={d} stroke={color} strokeWidth={2.5} fill="none" />
@@ -146,13 +134,12 @@ function renderBars(
   categories: string[],
   plotW: number,
   plotH: number,
-  yToPx: (y: number) => number
+  yToPx: (y: number) => number,
 ) {
   const groupCount = categories.length;
   const seriesCount = chart.series.length;
   const groupWidth = plotW / Math.max(groupCount, 1);
   const barWidth = Math.max((groupWidth * 0.7) / Math.max(seriesCount, 1), 2);
-
   const bars: React.ReactNode[] = [];
   categories.forEach((cat, gi) => {
     chart.series.forEach((series, si) => {
@@ -172,7 +159,7 @@ function renderBars(
           height={Math.max(barH, 0)}
           fill={color}
           rx={2}
-        />
+        />,
       );
     });
   });
@@ -186,7 +173,10 @@ function ChartLegend({ chart }: { chart: ChartDefinition }) {
       {chart.series.map((s, i) => (
         <View key={s.name} style={styles.legendItem}>
           <View
-            style={[styles.legendDot, { backgroundColor: colors.chartPalette[i % colors.chartPalette.length] }]}
+            style={[
+              styles.legendDot,
+              { backgroundColor: colors.chartPalette[i % colors.chartPalette.length] },
+            ]}
           />
           <Text style={styles.legendText}>{s.name}</Text>
         </View>
@@ -198,17 +188,46 @@ function ChartLegend({ chart }: { chart: ChartDefinition }) {
 const styles = StyleSheet.create({
   card: {
     ...cardShadow,
-    backgroundColor: colors.surface,
+    backgroundColor: colors.surfaceSoft,
     borderRadius: radii.lg,
     padding: spacing.lg,
     borderWidth: 0,
     marginBottom: spacing.md,
   },
-  title: { ...typography.h2, color: colors.textPrimary },
-  description: { ...typography.caption, color: colors.textSecondary, marginTop: 2, marginBottom: spacing.sm },
-  empty: { ...typography.body, color: colors.muted, textAlign: 'center', marginTop: spacing.lg },
-  legend: { flexDirection: 'row', flexWrap: 'wrap', marginTop: spacing.sm, gap: spacing.md },
-  legendItem: { flexDirection: 'row', alignItems: 'center' },
-  legendDot: { width: 8, height: 8, borderRadius: 4, marginRight: 4 },
-  legendText: { ...typography.caption, color: colors.textSecondary },
+  title: {
+    ...typography.h2,
+    color: colors.textPrimary,
+  },
+  description: {
+    ...typography.caption,
+    color: colors.textSecondary,
+    marginTop: 2,
+    marginBottom: spacing.sm,
+  },
+  empty: {
+    ...typography.body,
+    color: colors.muted,
+    textAlign: 'center',
+    marginTop: spacing.lg,
+  },
+  legend: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    marginTop: spacing.sm,
+    gap: spacing.md,
+  },
+  legendItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  legendDot: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+    marginRight: 4,
+  },
+  legendText: {
+    ...typography.caption,
+    color: colors.textSecondary,
+  },
 });

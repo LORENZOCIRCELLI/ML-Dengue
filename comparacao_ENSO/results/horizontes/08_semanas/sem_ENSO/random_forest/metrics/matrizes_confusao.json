@@ -1,0 +1,50 @@
+{
+  "treino": {
+    "rotulos": [
+      "Sem aumento ≥ 50%",
+      "Aumento ≥ 50%"
+    ],
+    "valores": [
+      [
+        274,
+        27
+      ],
+      [
+        0,
+        146
+      ]
+    ]
+  },
+  "validacao": {
+    "rotulos": [
+      "Sem aumento ≥ 50%",
+      "Aumento ≥ 50%"
+    ],
+    "valores": [
+      [
+        101,
+        9
+      ],
+      [
+        7,
+        32
+      ]
+    ]
+  },
+  "teste": {
+    "rotulos": [
+      "Sem aumento ≥ 50%",
+      "Aumento ≥ 50%"
+    ],
+    "valores": [
+      [
+        95,
+        0
+      ],
+      [
+        53,
+        1
+      ]
+    ]
+  }
+}

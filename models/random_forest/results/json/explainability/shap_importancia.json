@@ -1,0 +1,152 @@
+[
+  {
+    "feature": "worst concave points",
+    "mean_absolute_attribution": 0.06688809737696402,
+    "mean_signed_attribution": -0.0192008365101565
+  },
+  {
+    "feature": "worst area",
+    "mean_absolute_attribution": 0.04869944905434924,
+    "mean_signed_attribution": -0.013893281268525707
+  },
+  {
+    "feature": "mean concave points",
+    "mean_absolute_attribution": 0.047837526080610905,
+    "mean_signed_attribution": -0.006367008821724086
+  },
+  {
+    "feature": "worst radius",
+    "mean_absolute_attribution": 0.04289762894473299,
+    "mean_signed_attribution": -0.014674003008328359
+  },
+  {
+    "feature": "mean concavity",
+    "mean_absolute_attribution": 0.04035405112984134,
+    "mean_signed_attribution": -0.006656444519859637
+  },
+  {
+    "feature": "mean perimeter",
+    "mean_absolute_attribution": 0.03659967117632645,
+    "mean_signed_attribution": -0.00986081238551049
+  },
+  {
+    "feature": "worst perimeter",
+    "mean_absolute_attribution": 0.03637908149900659,
+    "mean_signed_attribution": -0.00787531530868913
+  },
+  {
+    "feature": "worst concavity",
+    "mean_absolute_attribution": 0.03419963323029344,
+    "mean_signed_attribution": -0.00013410995793561786
+  },
+  {
+    "feature": "area error",
+    "mean_absolute_attribution": 0.02822141089843833,
+    "mean_signed_attribution": -0.004942025534934176
+  },
+  {
+    "feature": "mean area",
+    "mean_absolute_attribution": 0.020668403674291763,
+    "mean_signed_attribution": -0.005158274700468471
+  },
+  {
+    "feature": "worst texture",
+    "mean_absolute_attribution": 0.018851507587165323,
+    "mean_signed_attribution": -0.005934981501256793
+  },
+  {
+    "feature": "radius error",
+    "mean_absolute_attribution": 0.018016812887506395,
+    "mean_signed_attribution": -0.004897248820190597
+  },
+  {
+    "feature": "mean radius",
+    "mean_absolute_attribution": 0.016752111307667523,
+    "mean_signed_attribution": -0.004757073374754863
+  },
+  {
+    "feature": "perimeter error",
+    "mean_absolute_attribution": 0.013126544251520838,
+    "mean_signed_attribution": -0.005128086021596214
+  },
+  {
+    "feature": "worst compactness",
+    "mean_absolute_attribution": 0.009922715661279002,
+    "mean_signed_attribution": 0.0008884031034229034
+  },
+  {
+    "feature": "worst symmetry",
+    "mean_absolute_attribution": 0.008973794798728535,
+    "mean_signed_attribution": 0.0007270581912239503
+  },
+  {
+    "feature": "mean texture",
+    "mean_absolute_attribution": 0.008773348459824845,
+    "mean_signed_attribution": -0.0018044479571954926
+  },
+  {
+    "feature": "mean compactness",
+    "mean_absolute_attribution": 0.007412801438673689,
+    "mean_signed_attribution": 0.0010772371289131104
+  },
+  {
+    "feature": "worst smoothness",
+    "mean_absolute_attribution": 0.005810801054348437,
+    "mean_signed_attribution": 0.00019431200630644073
+  },
+  {
+    "feature": "fractal dimension error",
+    "mean_absolute_attribution": 0.003794720041879375,
+    "mean_signed_attribution": 0.0009106999543521795
+  },
+  {
+    "feature": "compactness error",
+    "mean_absolute_attribution": 0.0033087903042058444,
+    "mean_signed_attribution": 0.0003126067433025018
+  },
+  {
+    "feature": "symmetry error",
+    "mean_absolute_attribution": 0.0030915839502556252,
+    "mean_signed_attribution": -0.0008610337213271707
+  },
+  {
+    "feature": "mean smoothness",
+    "mean_absolute_attribution": 0.002726250649624131,
+    "mean_signed_attribution": -0.00028013358479633723
+  },
+  {
+    "feature": "mean symmetry",
+    "mean_absolute_attribution": 0.0022925213597814976,
+    "mean_signed_attribution": -0.000766792920096757
+  },
+  {
+    "feature": "concavity error",
+    "mean_absolute_attribution": 0.002035230914826271,
+    "mean_signed_attribution": -0.0007178336570966745
+  },
+  {
+    "feature": "texture error",
+    "mean_absolute_attribution": 0.0017784164540913315,
+    "mean_signed_attribution": 0.0006814791326732532
+  },
+  {
+    "feature": "worst fractal dimension",
+    "mean_absolute_attribution": 0.0014636608044034266,
+    "mean_signed_attribution": -0.0009319411086304269
+  },
+  {
+    "feature": "concave points error",
+    "mean_absolute_attribution": 0.0012858549552585757,
+    "mean_signed_attribution": 0.00045697570667892803
+  },
+  {
+    "feature": "mean fractal dimension",
+    "mean_absolute_attribution": 0.0011826489693493902,
+    "mean_signed_attribution": 0.00019394751028574926
+  },
+  {
+    "feature": "smoothness error",
+    "mean_absolute_attribution": 0.0008923373557511316,
+    "mean_signed_attribution": -0.0005116076518926391
+  }
+]

@@ -1,4 +1,3 @@
-import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { RiskLevel } from '../types';
 import { radii, spacing, typography } from '../theme/colors';
@@ -9,13 +8,10 @@ interface Props {
   size?: 'sm' | 'lg';
 }
 
-// Deliberately text + color, never color alone (accessibility, and Nielsen
-// #2 — match real-world language: "Risco alto", not "P(surto) = 0.71").
 export default function RiskBadge({ level, size = 'sm' }: Props) {
   const color = riskColor(level);
   const label = riskLabel(level);
   const isLarge = size === 'lg';
-
   return (
     <View style={[styles.badge, { backgroundColor: `${color}1A`, borderColor: color }]}>
       <View style={[styles.dot, { backgroundColor: color }]} />
@@ -34,7 +30,17 @@ const styles = StyleSheet.create({
     borderRadius: radii.pill,
     borderWidth: 1,
   },
-  dot: { width: 8, height: 8, borderRadius: 4, marginRight: spacing.xs },
-  text: { ...typography.caption, fontWeight: '700' },
-  textLg: { fontSize: 15 },
+  dot: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+    marginRight: spacing.xs,
+  },
+  text: {
+    ...typography.caption,
+    fontWeight: '700',
+  },
+  textLg: {
+    fontSize: 15,
+  },
 });

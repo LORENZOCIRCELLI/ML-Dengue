@@ -1,117 +1,124 @@
-import React, { useCallback, useEffect, useState } from 'react';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
-import { api } from '../services/api';
-import { ChartDefinition, Metadata, ModelInfo, Prediction } from '../types';
-import { colors, spacing, typography } from '../theme/colors';
+import { useCallback, useState } from 'react';
+import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import LoadingState from '../components/LoadingState';
 import ErrorState from '../components/ErrorState';
 import ModelSelector from '../components/ModelSelector';
 import HorizonTabs from '../components/HorizonTabs';
 import PredictionCard from '../components/PredictionCard';
-import GenericChart from '../components/GenericChart';
-import { OFFICIAL_HORIZONS_WEEKS } from '../config/api.config';
-
-interface ScreenData {
-  metadata: Metadata;
-  models: ModelInfo[];
-  predictions: Prediction[];
-  probabilityChart?: ChartDefinition;
-}
+import ExplanationPanel from '../components/ExplanationPanel';
+import ScreenHeader from '../components/ScreenHeader';
+import { useAsyncResource } from '../hooks/useAsyncResource';
+import { results } from '../services/results';
+import { ResultEntry } from '../types/results';
+import { catalogHorizons, catalogModels } from '../utils/results';
+import { colors, radii, typography } from '../theme/colors';
+import { screenContent } from '../theme/layout';
 
 export default function PredictionsScreen() {
-  const [data, setData] = useState<ScreenData | null>(null);
-  const [error, setError] = useState<string | null>(null);
-  const [selectedModelId, setSelectedModelId] = useState<string | null>(null);
-  const [selectedHorizon, setSelectedHorizon] = useState<number>(OFFICIAL_HORIZONS_WEEKS[0]);
+  const catalog = useAsyncResource('catalogo', results.getCatalog);
+  const [model, setModel] = useState('random_forest');
+  const [horizon, setHorizon] = useState(4);
 
-  const load = useCallback(async () => {
-    setError(null);
-    try {
-      const [metadata, modelsRes, predictionsRes, chartsRes] = await Promise.all([
-        api.getMetadata(),
-        api.getModels(),
-        api.getPredictions(),
-        api.getCharts(),
-      ]);
-      setData({
-        metadata,
-        models: modelsRes.models,
-        predictions: predictionsRes.predictions,
-        probabilityChart: chartsRes.charts.find((c) => c.id === 'outbreak_probability_timeline'),
-      });
-      const defaultModel = modelsRes.models.find((m) => m.isDefault) ?? modelsRes.models[0];
-      setSelectedModelId((prev) => prev ?? defaultModel.id);
-      setSelectedHorizon((prev) => (metadata.availableHorizonsWeeks.includes(prev) ? prev : metadata.availableHorizonsWeeks[0]));
-    } catch (err) {
-      setError(err instanceof Error ? err.message : 'Erro inesperado.');
-    }
-  }, []);
+  if (catalog.error)
+    return <ErrorState message={catalog.error} onRetry={catalog.reload} />;
+  if (!catalog.data) return <LoadingState />;
 
-  useEffect(() => {
-    load();
-  }, [load]);
-
-  if (error) return <ErrorState message={error} onRetry={load} />;
-  if (!data || !selectedModelId) return <LoadingState label="Carregando previsões..." />;
-
-  const { metadata, models, predictions, probabilityChart } = data;
-  const classificationModels = models.filter((m) => m.type === 'classification');
-  const currentModel = models.find((m) => m.id === selectedModelId)!;
-  const currentPrediction = predictions.find(
-    (p) => p.modelId === selectedModelId && p.horizonWeeks === selectedHorizon
-  );
-
-  const modelChart: ChartDefinition | undefined = probabilityChart && {
-    ...probabilityChart,
-    series: probabilityChart.series.filter((s) =>
-      classificationModels.some((m) => m.shortName === s.name && m.id === selectedModelId)
-    ),
-  };
+  const models = catalogModels(catalog.data);
+  const selectedModel = models.some((item) => item.id === model) ? model : models[0].id;
+  const horizons = catalogHorizons(catalog.data, selectedModel);
+  const selectedHorizon = horizons.includes(horizon) ? horizon : horizons[0];
+  const entry = catalog.data.resultados.find(
+    (item) => item.modelo === selectedModel && item.horizonteSemanas === selectedHorizon,
+  )!;
 
   return (
-    <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
-      <Text style={styles.title}>Previsões</Text>
-
-      <ModelSelector
-        models={classificationModels}
-        selectedModelId={selectedModelId}
-        onSelect={setSelectedModelId}
+    <ScrollView style={styles.screen} contentContainerStyle={screenContent}>
+      <ScreenHeader
+        title="Previsões."
+        subtitle="Aumento de casos nas próximas semanas, com o desempenho histórico de cada modelo."
+        icon="analytics-outline"
       />
-
-      <View style={{ marginTop: spacing.md }}>
-        <Text style={styles.label}>Horizonte de previsão</Text>
-        <HorizonTabs
-          horizons={OFFICIAL_HORIZONS_WEEKS as unknown as number[]}
-          availableHorizons={metadata.availableHorizonsWeeks}
-          selected={selectedHorizon}
-          onSelect={setSelectedHorizon}
-        />
-      </View>
-
-      <View style={{ marginTop: spacing.lg, alignItems: 'center' }}>
-        <PredictionCard horizonWeeks={selectedHorizon} prediction={currentPrediction} />
-      </View>
-
-      <Text style={styles.description}>{currentModel.description}</Text>
-
-      {modelChart && modelChart.series.length > 0 && (
-        <View style={{ marginTop: spacing.lg }}>
-          <GenericChart chart={modelChart} />
-        </View>
-      )}
+      <ModelSelector
+        models={models}
+        selectedModelId={selectedModel}
+        onSelect={setModel}
+      />
+      <Text style={styles.label}>Horizonte de previsão</Text>
+      <HorizonTabs
+        horizons={catalogHorizons(catalog.data)}
+        availableHorizons={horizons}
+        selected={selectedHorizon}
+        onSelect={setHorizon}
+      />
+      <ForecastDetails entry={entry} key={`${entry.modelo}/${entry.horizonteSemanas}`} />
     </ScrollView>
+  );
+}
+
+function ForecastDetails({ entry }: { entry: ResultEntry }) {
+  const load = useCallback(() => results.getForecast(entry), [entry]);
+  const forecast = useAsyncResource(entry.previsao, load);
+  const [showConclusion, setShowConclusion] = useState(false);
+
+  if (forecast.error)
+    return <ErrorState message={forecast.error} onRetry={forecast.reload} />;
+  if (!forecast.data) return <LoadingState label="Carregando previsão…" />;
+
+  return (
+    <View style={styles.details}>
+      <PredictionCard prediction={forecast.data} />
+      <Pressable
+        accessibilityRole="button"
+        accessibilityState={{ expanded: showConclusion }}
+        style={styles.button}
+        onPress={() => setShowConclusion((value) => !value)}
+      >
+        <Text style={styles.buttonText}>
+          {showConclusion ? 'Ocultar conclusão' : 'Ver conclusão completa'}
+        </Text>
+      </Pressable>
+      {showConclusion && <Conclusion entry={entry} />}
+      <ExplanationPanel entry={entry} />
+    </View>
+  );
+}
+
+function Conclusion({ entry }: { entry: ResultEntry }) {
+  const load = useCallback(() => results.getConclusion(entry), [entry]);
+  const conclusion = useAsyncResource(entry.conclusao, load);
+  if (conclusion.error)
+    return <ErrorState message={conclusion.error} onRetry={conclusion.reload} />;
+  return (
+    <Text style={styles.conclusion}>
+      {conclusion.data?.texto ?? 'Carregando conclusão…'}
+    </Text>
   );
 }
 
 const styles = StyleSheet.create({
   screen: { flex: 1, backgroundColor: colors.background },
-  content: { paddingHorizontal: 20, paddingTop: spacing.md, paddingBottom: spacing.xxl },
-  title: { ...typography.h1, color: colors.textPrimary, marginBottom: spacing.lg },
-  label: { ...typography.caption, color: colors.textSecondary, fontWeight: '700', marginBottom: spacing.sm },
-  description: {
-    ...typography.body,
+  label: {
+    ...typography.caption,
     color: colors.textSecondary,
-    marginTop: spacing.md,
-    textAlign: 'center',
+    fontWeight: '600',
+    marginTop: 24,
+    marginBottom: 10,
+  },
+  details: { marginTop: 24 },
+  button: {
+    backgroundColor: colors.primary,
+    borderRadius: radii.pill,
+    padding: 18,
+    alignItems: 'center',
+    marginTop: 20,
+  },
+  buttonText: { ...typography.body, color: colors.surface, fontWeight: '600' },
+  conclusion: {
+    ...typography.body,
+    color: colors.textPrimary,
+    backgroundColor: colors.surfaceSoft,
+    padding: 24,
+    borderRadius: radii.md,
+    marginTop: 16,
   },
 });

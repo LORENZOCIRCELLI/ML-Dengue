@@ -1,0 +1,152 @@
+[
+  {
+    "feature": "worst concave points",
+    "importance": 0.1229867982804684,
+    "std_across_trees": 0.220794101902799
+  },
+  {
+    "feature": "mean concave points",
+    "importance": 0.10682772332176407,
+    "std_across_trees": 0.23953030264848318
+  },
+  {
+    "feature": "mean concavity",
+    "importance": 0.10022825640820937,
+    "std_across_trees": 0.21784548467161335
+  },
+  {
+    "feature": "mean perimeter",
+    "importance": 0.0922621852887259,
+    "std_across_trees": 0.21690842945203312
+  },
+  {
+    "feature": "worst area",
+    "importance": 0.08206664638415982,
+    "std_across_trees": 0.1881702666595608
+  },
+  {
+    "feature": "worst radius",
+    "importance": 0.0652100622445135,
+    "std_across_trees": 0.17268441165330944
+  },
+  {
+    "feature": "worst concavity",
+    "importance": 0.06314597134052757,
+    "std_across_trees": 0.14908694389754854
+  },
+  {
+    "feature": "worst perimeter",
+    "importance": 0.0605593102025612,
+    "std_across_trees": 0.15730012168166418
+  },
+  {
+    "feature": "mean radius",
+    "importance": 0.04659635667383241,
+    "std_across_trees": 0.14830978636823672
+  },
+  {
+    "feature": "area error",
+    "importance": 0.042850866802311656,
+    "std_across_trees": 0.108497369749472
+  },
+  {
+    "feature": "mean area",
+    "importance": 0.04001265683495536,
+    "std_across_trees": 0.12986744740894574
+  },
+  {
+    "feature": "radius error",
+    "importance": 0.028090561072003754,
+    "std_across_trees": 0.0832817453055818
+  },
+  {
+    "feature": "worst texture",
+    "importance": 0.018456425376621326,
+    "std_across_trees": 0.027095954578658096
+  },
+  {
+    "feature": "perimeter error",
+    "importance": 0.018194310413080325,
+    "std_across_trees": 0.07723144886568059
+  },
+  {
+    "feature": "worst compactness",
+    "importance": 0.01707885051519484,
+    "std_across_trees": 0.059647952770252255
+  },
+  {
+    "feature": "mean compactness",
+    "importance": 0.01591170238342107,
+    "std_across_trees": 0.06706025535694106
+  },
+  {
+    "feature": "worst smoothness",
+    "importance": 0.011785652056545888,
+    "std_across_trees": 0.024877539074926857
+  },
+  {
+    "feature": "worst symmetry",
+    "importance": 0.01025831499646125,
+    "std_across_trees": 0.021629526100959938
+  },
+  {
+    "feature": "fractal dimension error",
+    "importance": 0.009948282198328079,
+    "std_across_trees": 0.019493771264909764
+  },
+  {
+    "feature": "mean texture",
+    "importance": 0.008326945052608677,
+    "std_across_trees": 0.017279276947445396
+  },
+  {
+    "feature": "mean symmetry",
+    "importance": 0.0058190103080431625,
+    "std_across_trees": 0.01327411828099966
+  },
+  {
+    "feature": "compactness error",
+    "importance": 0.005143164050484266,
+    "std_across_trees": 0.011579916836576673
+  },
+  {
+    "feature": "mean smoothness",
+    "importance": 0.005069009307553092,
+    "std_across_trees": 0.012215241960875308
+  },
+  {
+    "feature": "concavity error",
+    "importance": 0.0044432900308520856,
+    "std_across_trees": 0.009649253943714221
+  },
+  {
+    "feature": "texture error",
+    "importance": 0.004135871589389338,
+    "std_across_trees": 0.008287801886774642
+  },
+  {
+    "feature": "worst fractal dimension",
+    "importance": 0.0036401945366481034,
+    "std_across_trees": 0.009123126580240828
+  },
+  {
+    "feature": "concave points error",
+    "importance": 0.003099602355266429,
+    "std_across_trees": 0.009223107691616978
+  },
+  {
+    "feature": "smoothness error",
+    "importance": 0.0028737498155456684,
+    "std_across_trees": 0.0077336398004018165
+  },
+  {
+    "feature": "symmetry error",
+    "importance": 0.002747695036049067,
+    "std_across_trees": 0.007050518030834551
+  },
+  {
+    "feature": "mean fractal dimension",
+    "importance": 0.002230535123874124,
+    "std_across_trees": 0.005875663871292725
+  }
+]

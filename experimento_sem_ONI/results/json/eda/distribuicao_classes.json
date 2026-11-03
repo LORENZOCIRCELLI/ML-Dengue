@@ -1,0 +1,38 @@
+[
+  {
+    "split": "treino",
+    "class_id": 0,
+    "count": 324,
+    "proportion": 0.71840354767184
+  },
+  {
+    "split": "treino",
+    "class_id": 1,
+    "count": 127,
+    "proportion": 0.28159645232816
+  },
+  {
+    "split": "validacao",
+    "class_id": 0,
+    "count": 115,
+    "proportion": 0.751633986928105
+  },
+  {
+    "split": "validacao",
+    "class_id": 1,
+    "count": 38,
+    "proportion": 0.248366013071895
+  },
+  {
+    "split": "teste",
+    "class_id": 0,
+    "count": 107,
+    "proportion": 0.699346405228758
+  },
+  {
+    "split": "teste",
+    "class_id": 1,
+    "count": 46,
+    "proportion": 0.300653594771242
+  }
+]

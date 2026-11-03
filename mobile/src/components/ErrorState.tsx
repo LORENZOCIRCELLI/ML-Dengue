@@ -1,43 +1,88 @@
-import React from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
-import { cardShadow, colors, radii, spacing, typography } from '../theme/colors';
+import { Ionicons } from '@expo/vector-icons';
+import { colors, radii, typography } from '../theme/colors';
 
 interface Props {
   message?: string;
   onRetry?: () => void;
 }
 
-// Nielsen #9 — Help users recognize, diagnose, and recover from errors.
-// Always plain language, always an explicit way forward (retry).
 export default function ErrorState({
   message = 'Não foi possível carregar os dados agora.',
   onRetry,
 }: Props) {
   return (
-    <View style={styles.container}><View style={styles.card}>
-      <Text style={styles.icon}>!</Text>
-      <Text style={styles.title}>Algo deu errado</Text>
-      <Text style={styles.message}>{message}</Text>
+    <View style={styles.container}>
+      <View style={styles.icon}>
+        <Ionicons name="cloud-offline-outline" size={36} color={colors.textPrimary} />
+      </View>
+      <Text accessibilityRole="header" style={styles.title}>
+        Vamos tentar de novo?
+      </Text>
+      <Text accessibilityRole="alert" style={styles.message}>
+        {message}
+      </Text>
       {onRetry && (
-        <Pressable style={styles.button} onPress={onRetry} accessibilityRole="button">
+        <Pressable
+          style={({ pressed }) => [styles.button, pressed && styles.pressed]}
+          onPress={onRetry}
+          accessibilityRole="button"
+        >
           <Text style={styles.buttonText}>Tentar novamente</Text>
+          <Ionicons name="arrow-forward" size={19} color={colors.surface} />
         </Pressable>
       )}
-    </View></View>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, alignItems: 'center', justifyContent: 'center', padding: spacing.lg, backgroundColor: colors.background },
-  card: { ...cardShadow, width: '100%', maxWidth: 420, alignItems: 'center', backgroundColor: colors.surface, borderRadius: radii.lg, padding: spacing.xl },
-  icon: { width: 44, height: 44, borderRadius: 22, textAlign: 'center', textAlignVertical: 'center', fontSize: 24, fontWeight: '800', color: colors.danger, backgroundColor: `${colors.danger}18`, marginBottom: spacing.md },
-  title: { ...typography.h3, color: colors.textPrimary, marginBottom: spacing.xs },
-  message: { ...typography.body, color: colors.textSecondary, textAlign: 'center', marginBottom: spacing.md },
-  button: {
-    backgroundColor: colors.primary,
-    paddingVertical: 12,
-    paddingHorizontal: spacing.lg,
-    borderRadius: radii.pill,
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 32,
+    backgroundColor: colors.background,
   },
-  buttonText: { color: '#fff', fontWeight: '600' },
+  icon: {
+    width: 96,
+    height: 96,
+    backgroundColor: colors.pink,
+    borderRadius: 32,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 28,
+  },
+  title: {
+    ...typography.h2,
+    color: colors.textPrimary,
+    textAlign: 'center',
+  },
+  message: {
+    ...typography.body,
+    color: colors.textSecondary,
+    textAlign: 'center',
+    maxWidth: 380,
+    marginTop: 12,
+    marginBottom: 28,
+  },
+  button: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 20,
+    backgroundColor: colors.primary,
+    paddingVertical: 18,
+    paddingHorizontal: 28,
+    borderRadius: radii.pill,
+    minHeight: 56,
+  },
+  pressed: {
+    opacity: 0.75,
+  },
+  buttonText: {
+    ...typography.body,
+    color: colors.surface,
+    fontWeight: '600',
+  },
 });

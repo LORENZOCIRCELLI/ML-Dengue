@@ -1,72 +1,87 @@
-import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Prediction } from '../types';
-import { cardShadow, colors, radii, spacing, typography } from '../theme/colors';
-import { formatDate, formatPercent, riskDescription } from '../utils/risk';
-import RiskBadge from './RiskBadge';
+import { ForecastResult } from '../types/results';
+import { colors, radii, typography } from '../theme/colors';
+import { displayDate, percent } from '../utils/results';
 
 interface Props {
-  horizonWeeks: number;
-  prediction?: Prediction;
+  prediction: ForecastResult;
 }
 
-// The single most important widget in the app: answers "is an outbreak
-// expected?" at a glance, with no ML jargon. If there's no prediction for
-// this horizon yet, it says so plainly instead of showing a blank card.
-export default function PredictionCard({ horizonWeeks, prediction }: Props) {
-  if (!prediction) {
-    return (
-      <View style={[styles.card, styles.cardEmpty]}>
-        <Text style={styles.horizon}>{horizonWeeks} semana{horizonWeeks > 1 ? 's' : ''}</Text>
-        <Text style={styles.unavailable}>Previsão ainda não disponível para este horizonte.</Text>
-      </View>
-    );
-  }
-
-  const isRegression = prediction.expectedCases !== undefined;
+export default function PredictionCard({ prediction }: Props) {
+  const historical = prediction.desempenhoHistorico;
 
   return (
-    <View style={styles.card}>
-      <View style={styles.headerRow}>
-        <Text style={styles.horizon}>{horizonWeeks} semana{horizonWeeks > 1 ? 's' : ''}</Text>
-        {!isRegression && <RiskBadge level={prediction.riskLevel} />}
+    <View style={styles.container}>
+      <View
+        style={[
+          styles.card,
+          {
+            backgroundColor: prediction.aumentoCasosPrevisto ? colors.pink : colors.cyan,
+          },
+        ]}
+      >
+        <Text style={styles.eyebrow}>
+          {prediction.nomeModelo} · {prediction.horizonteSemanas} semanas
+        </Text>
+        <Text style={styles.date}>
+          Previsão para a semana de {displayDate(prediction.dataAlvo)}
+        </Text>
+        <Text style={styles.label}>Aumento de casos previsto</Text>
+        <Text style={styles.answer}>
+          {prediction.aumentoCasosPrevisto ? 'Sim.' : 'Não.'}
+        </Text>
+        <Text style={styles.criterion}>Critério: {prediction.criterio}</Text>
       </View>
-
-      {isRegression ? (
-        <Text style={styles.bigNumber}>{Math.round(prediction.expectedCases!)} casos esperados</Text>
-      ) : (
-        <>
-          <Text style={styles.bigNumber}>{formatPercent(prediction.outbreakProbability)}</Text>
-          <Text style={styles.subLabel}>probabilidade de surto</Text>
-          <Text style={styles.description}>{riskDescription(prediction.riskLevel)}</Text>
-        </>
-      )}
-
-      <View style={styles.footerRow}>
-        <Text style={styles.footerText}>Referente a {formatDate(prediction.targetDate)}</Text>
-        <Text style={styles.footerText}>Base: {formatDate(prediction.asOfDate)}</Text>
+      <View style={styles.history}>
+        <Text style={styles.eyebrow}>DESEMPENHO HISTÓRICO DO MODELO</Text>
+        <Text style={styles.accuracy}>
+          {percent(historical.acuracia)} <Text style={styles.unit}>de acerto</Text>
+        </Text>
+        <Text style={styles.body}>
+          Em {historical.semanasAvaliadas} semanas avaliadas.
+        </Text>
+        <Text style={styles.note}>Avaliação {historical.tipoAvaliacao}.</Text>
+        <Text style={styles.note}>{prediction.notaTaxaAcerto}</Text>
+      </View>
+      <View style={styles.notice}>
+        <Text style={styles.noticeTitle}>Modelo experimental.</Text>
+        <Text style={styles.note}>{prediction.aviso}</Text>
       </View>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  card: {
-    ...cardShadow,
-    backgroundColor: colors.surface,
-    borderRadius: radii.lg,
-    padding: spacing.lg,
-    borderWidth: 0,
-    width: 250,
-    marginRight: spacing.sm,
+  container: { gap: 16 },
+  card: { borderRadius: radii.lg, padding: 26 },
+  eyebrow: {
+    ...typography.caption,
+    fontWeight: '600',
+    letterSpacing: 0.8,
+    color: colors.textPrimary,
   },
-  cardEmpty: { justifyContent: 'center', alignItems: 'center', minHeight: 140 },
-  headerRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: spacing.sm },
-  horizon: { ...typography.h3, color: colors.textPrimary },
-  bigNumber: { fontSize: 34, lineHeight: 40, fontWeight: '800', color: colors.primaryDark, marginTop: spacing.xs },
-  subLabel: { ...typography.caption, color: colors.textSecondary, marginBottom: spacing.xs },
-  description: { ...typography.caption, color: colors.textSecondary },
-  footerRow: { marginTop: spacing.sm, borderTopWidth: 1, borderTopColor: colors.border, paddingTop: spacing.xs },
-  footerText: { ...typography.caption, color: colors.muted },
-  unavailable: { ...typography.caption, color: colors.muted, textAlign: 'center', marginTop: spacing.sm },
+  date: { ...typography.h3, marginTop: 18, color: colors.textPrimary },
+  label: { ...typography.body, marginTop: 28, color: colors.textPrimary },
+  answer: {
+    fontSize: 64,
+    lineHeight: 76,
+    fontWeight: '600',
+    letterSpacing: -2,
+    color: colors.textPrimary,
+  },
+  criterion: { ...typography.body, marginTop: 20, color: colors.textPrimary },
+  history: { backgroundColor: colors.surfaceSoft, borderRadius: radii.lg, padding: 26 },
+  accuracy: {
+    fontSize: 42,
+    lineHeight: 54,
+    fontWeight: '600',
+    letterSpacing: -1,
+    color: colors.textPrimary,
+    marginTop: 16,
+  },
+  unit: { ...typography.body, letterSpacing: 0 },
+  body: { ...typography.body, color: colors.textPrimary },
+  note: { ...typography.caption, color: colors.textSecondary, marginTop: 10 },
+  notice: { padding: 8 },
+  noticeTitle: { ...typography.h3, color: colors.textPrimary },
 });

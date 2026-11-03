@@ -1,0 +1,27 @@
+[
+  {
+    "seed": 42,
+    "selected_step": 25,
+    "selection": "validation_f1"
+  },
+  {
+    "seed": 123,
+    "selected_step": 25,
+    "selection": "validation_f1"
+  },
+  {
+    "seed": 2025,
+    "selected_step": 200,
+    "selection": "validation_f1"
+  },
+  {
+    "seed": 7,
+    "selected_step": 100,
+    "selection": "validation_f1"
+  },
+  {
+    "seed": 99,
+    "selected_step": 100,
+    "selection": "validation_f1"
+  }
+]

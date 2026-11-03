@@ -1,0 +1,72 @@
+{
+  "selection": {
+    "threshold": 0.5667296051979065,
+    "method": "maior precisão com recall >= 0.80",
+    "validation_precision": 0.3584905660377358,
+    "validation_recall": 0.8260869565217391
+  },
+  "metrics": {
+    "validation": {
+      "n": 105,
+      "prevalence": 0.21904761904761905,
+      "threshold": 0.5667296051979065,
+      "accuracy": 0.638095238095238,
+      "balanced_accuracy": 0.7057264050901378,
+      "precision": 0.3584905660377358,
+      "recall_sensitivity": 0.8260869565217391,
+      "specificity": 0.5853658536585366,
+      "f1": 0.5,
+      "f2": 0.6551724137931034,
+      "pr_auc": 0.2994445893497525,
+      "roc_auc": 0.6887592788971368,
+      "brier": 0.26604482531547546,
+      "tn": 48,
+      "fp": 34,
+      "fn": 4,
+      "tp": 19,
+      "false_alarms_per_year": 16.89557142857143
+    },
+    "test": {
+      "n": 104,
+      "prevalence": 0.18269230769230768,
+      "threshold": 0.5667296051979065,
+      "accuracy": 0.46153846153846156,
+      "balanced_accuracy": 0.486687306501548,
+      "precision": 0.17543859649122806,
+      "recall_sensitivity": 0.5263157894736842,
+      "specificity": 0.4470588235294118,
+      "f1": 0.2631578947368421,
+      "f2": 0.37593984962406013,
+      "pr_auc": 0.18276841650757655,
+      "roc_auc": 0.5089783281733746,
+      "brier": 0.31631264090538025,
+      "tn": 38,
+      "fp": 47,
+      "fn": 9,
+      "tp": 10,
+      "false_alarms_per_year": 23.580216346153847,
+      "confidence_intervals": {
+        "pr_auc": {
+          "lower_95": 0.05300629964422111,
+          "upper_95": 0.4143349083438311
+        },
+        "roc_auc": {
+          "lower_95": 0.2100274725274726,
+          "upper_95": 0.8173651407693959
+        },
+        "recall_sensitivity": {
+          "lower_95": 0.0,
+          "upper_95": 1.0
+        },
+        "precision": {
+          "lower_95": 0.0,
+          "upper_95": 0.4327439692982452
+        },
+        "f2": {
+          "lower_95": 0.0,
+          "upper_95": 0.6588345864661654
+        }
+      }
+    }
+  }
+}

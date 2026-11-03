@@ -1,0 +1,4802 @@
+[
+  {
+    "feature": "mean radius",
+    "bin_left": -1.8409860134124756,
+    "bin_right": -1.5480756759643555,
+    "bin_center": -1.6945308446884155,
+    "bin_width": 0.2929103374481201,
+    "count": 5
+  },
+  {
+    "feature": "mean radius",
+    "bin_left": -1.5480756759643555,
+    "bin_right": -1.255165457725525,
+    "bin_center": -1.401620626449585,
+    "bin_width": 0.29291021823883057,
+    "count": 17
+  },
+  {
+    "feature": "mean radius",
+    "bin_left": -1.255165457725525,
+    "bin_right": -0.9622551798820496,
+    "bin_center": -1.1087102890014648,
+    "bin_width": 0.29291027784347534,
+    "count": 24
+  },
+  {
+    "feature": "mean radius",
+    "bin_left": -0.9622551798820496,
+    "bin_right": -0.6693449020385742,
+    "bin_center": -0.8158000707626343,
+    "bin_width": 0.29291027784347534,
+    "count": 50
+  },
+  {
+    "feature": "mean radius",
+    "bin_left": -0.6693449020385742,
+    "bin_right": -0.3764345645904541,
+    "bin_center": -0.5228897333145142,
+    "bin_width": 0.2929103374481201,
+    "count": 44
+  },
+  {
+    "feature": "mean radius",
+    "bin_left": -0.3764345645904541,
+    "bin_right": -0.08352434635162354,
+    "bin_center": -0.22997945547103882,
+    "bin_width": 0.29291021823883057,
+    "count": 52
+  },
+  {
+    "feature": "mean radius",
+    "bin_left": -0.08352434635162354,
+    "bin_right": 0.20938587188720703,
+    "bin_center": 0.06293076276779175,
+    "bin_width": 0.29291021823883057,
+    "count": 33
+  },
+  {
+    "feature": "mean radius",
+    "bin_left": 0.20938587188720703,
+    "bin_right": 0.5022962093353271,
+    "bin_center": 0.3558410406112671,
+    "bin_width": 0.2929103374481201,
+    "count": 29
+  },
+  {
+    "feature": "mean radius",
+    "bin_left": 0.5022962093353271,
+    "bin_right": 0.7952065467834473,
+    "bin_center": 0.6487513780593872,
+    "bin_width": 0.2929103374481201,
+    "count": 15
+  },
+  {
+    "feature": "mean radius",
+    "bin_left": 0.7952065467834473,
+    "bin_right": 1.0881168842315674,
+    "bin_center": 0.9416617155075073,
+    "bin_width": 0.2929103374481201,
+    "count": 15
+  },
+  {
+    "feature": "mean radius",
+    "bin_left": 1.0881168842315674,
+    "bin_right": 1.3810269832611084,
+    "bin_center": 1.234571933746338,
+    "bin_width": 0.292910099029541,
+    "count": 19
+  },
+  {
+    "feature": "mean radius",
+    "bin_left": 1.3810269832611084,
+    "bin_right": 1.6739373207092285,
+    "bin_center": 1.5274821519851685,
+    "bin_width": 0.2929103374481201,
+    "count": 10
+  },
+  {
+    "feature": "mean radius",
+    "bin_left": 1.6739373207092285,
+    "bin_right": 1.9668476581573486,
+    "bin_center": 1.8203924894332886,
+    "bin_width": 0.2929103374481201,
+    "count": 14
+  },
+  {
+    "feature": "mean radius",
+    "bin_left": 1.9668476581573486,
+    "bin_right": 2.2597577571868896,
+    "bin_center": 2.113302707672119,
+    "bin_width": 0.292910099029541,
+    "count": 5
+  },
+  {
+    "feature": "mean radius",
+    "bin_left": 2.2597577571868896,
+    "bin_right": 2.552668333053589,
+    "bin_center": 2.4062130451202393,
+    "bin_width": 0.2929105758666992,
+    "count": 2
+  },
+  {
+    "feature": "mean radius",
+    "bin_left": 2.552668333053589,
+    "bin_right": 2.84557843208313,
+    "bin_center": 2.6991233825683594,
+    "bin_width": 0.292910099029541,
+    "count": 3
+  },
+  {
+    "feature": "mean radius",
+    "bin_left": 2.84557843208313,
+    "bin_right": 3.138488531112671,
+    "bin_center": 2.9920334815979004,
+    "bin_width": 0.292910099029541,
+    "count": 2
+  },
+  {
+    "feature": "mean radius",
+    "bin_left": 3.138488531112671,
+    "bin_right": 3.43139910697937,
+    "bin_center": 3.2849438190460205,
+    "bin_width": 0.2929105758666992,
+    "count": 1
+  },
+  {
+    "feature": "mean radius",
+    "bin_left": 3.43139910697937,
+    "bin_right": 3.724309206008911,
+    "bin_center": 3.5778541564941406,
+    "bin_width": 0.292910099029541,
+    "count": 0
+  },
+  {
+    "feature": "mean radius",
+    "bin_left": 3.724309206008911,
+    "bin_right": 4.017219543457031,
+    "bin_center": 3.8707642555236816,
+    "bin_width": 0.2929103374481201,
+    "count": 1
+  },
+  {
+    "feature": "mean texture",
+    "bin_left": -2.2700541019439697,
+    "bin_right": -1.930131196975708,
+    "bin_center": -2.100092649459839,
+    "bin_width": 0.3399229049682617,
+    "count": 4
+  },
+  {
+    "feature": "mean texture",
+    "bin_left": -1.930131196975708,
+    "bin_right": -1.5902082920074463,
+    "bin_center": -1.7601697444915771,
+    "bin_width": 0.3399229049682617,
+    "count": 6
+  },
+  {
+    "feature": "mean texture",
+    "bin_left": -1.5902082920074463,
+    "bin_right": -1.2502853870391846,
+    "bin_center": -1.4202468395233154,
+    "bin_width": 0.3399229049682617,
+    "count": 20
+  },
+  {
+    "feature": "mean texture",
+    "bin_left": -1.2502853870391846,
+    "bin_right": -0.9103624820709229,
+    "bin_center": -1.0803239345550537,
+    "bin_width": 0.3399229049682617,
+    "count": 33
+  },
+  {
+    "feature": "mean texture",
+    "bin_left": -0.9103624820709229,
+    "bin_right": -0.5704395771026611,
+    "bin_center": -0.740401029586792,
+    "bin_width": 0.3399229049682617,
+    "count": 37
+  },
+  {
+    "feature": "mean texture",
+    "bin_left": -0.5704395771026611,
+    "bin_right": -0.23051667213439941,
+    "bin_center": -0.4004781246185303,
+    "bin_width": 0.3399229049682617,
+    "count": 49
+  },
+  {
+    "feature": "mean texture",
+    "bin_left": -0.23051667213439941,
+    "bin_right": 0.1094062328338623,
+    "bin_center": -0.060555219650268555,
+    "bin_width": 0.3399229049682617,
+    "count": 48
+  },
+  {
+    "feature": "mean texture",
+    "bin_left": 0.1094062328338623,
+    "bin_right": 0.449329137802124,
+    "bin_center": 0.27936768531799316,
+    "bin_width": 0.3399229049682617,
+    "count": 42
+  },
+  {
+    "feature": "mean texture",
+    "bin_left": 0.449329137802124,
+    "bin_right": 0.7892520427703857,
+    "bin_center": 0.6192905902862549,
+    "bin_width": 0.3399229049682617,
+    "count": 31
+  },
+  {
+    "feature": "mean texture",
+    "bin_left": 0.7892520427703857,
+    "bin_right": 1.1291749477386475,
+    "bin_center": 0.9592134952545166,
+    "bin_width": 0.3399229049682617,
+    "count": 29
+  },
+  {
+    "feature": "mean texture",
+    "bin_left": 1.1291749477386475,
+    "bin_right": 1.4690978527069092,
+    "bin_center": 1.2991364002227783,
+    "bin_width": 0.3399229049682617,
+    "count": 17
+  },
+  {
+    "feature": "mean texture",
+    "bin_left": 1.4690978527069092,
+    "bin_right": 1.809020757675171,
+    "bin_center": 1.63905930519104,
+    "bin_width": 0.3399229049682617,
+    "count": 7
+  },
+  {
+    "feature": "mean texture",
+    "bin_left": 1.809020757675171,
+    "bin_right": 2.1489436626434326,
+    "bin_center": 1.9789822101593018,
+    "bin_width": 0.3399229049682617,
+    "count": 9
+  },
+  {
+    "feature": "mean texture",
+    "bin_left": 2.1489436626434326,
+    "bin_right": 2.4888665676116943,
+    "bin_center": 2.3189051151275635,
+    "bin_width": 0.3399229049682617,
+    "count": 5
+  },
+  {
+    "feature": "mean texture",
+    "bin_left": 2.4888665676116943,
+    "bin_right": 2.828789472579956,
+    "bin_center": 2.658828020095825,
+    "bin_width": 0.3399229049682617,
+    "count": 1
+  },
+  {
+    "feature": "mean texture",
+    "bin_left": 2.828789472579956,
+    "bin_right": 3.1687123775482178,
+    "bin_center": 2.998750925064087,
+    "bin_width": 0.3399229049682617,
+    "count": 0
+  },
+  {
+    "feature": "mean texture",
+    "bin_left": 3.1687123775482178,
+    "bin_right": 3.5086352825164795,
+    "bin_center": 3.3386738300323486,
+    "bin_width": 0.3399229049682617,
+    "count": 2
+  },
+  {
+    "feature": "mean texture",
+    "bin_left": 3.5086352825164795,
+    "bin_right": 3.848558187484741,
+    "bin_center": 3.6785967350006104,
+    "bin_width": 0.3399229049682617,
+    "count": 0
+  },
+  {
+    "feature": "mean texture",
+    "bin_left": 3.848558187484741,
+    "bin_right": 4.188481330871582,
+    "bin_center": 4.018519878387451,
+    "bin_width": 0.3399231433868408,
+    "count": 0
+  },
+  {
+    "feature": "mean texture",
+    "bin_left": 4.188481330871582,
+    "bin_right": 4.5284037590026855,
+    "bin_center": 4.358442306518555,
+    "bin_width": 0.3399224281311035,
+    "count": 1
+  },
+  {
+    "feature": "mean perimeter",
+    "bin_left": -1.8283987045288086,
+    "bin_right": -1.5347301959991455,
+    "bin_center": -1.681564450263977,
+    "bin_width": 0.2936685085296631,
+    "count": 5
+  },
+  {
+    "feature": "mean perimeter",
+    "bin_left": -1.5347301959991455,
+    "bin_right": -1.2410615682601929,
+    "bin_center": -1.3878958225250244,
+    "bin_width": 0.29366862773895264,
+    "count": 19
+  },
+  {
+    "feature": "mean perimeter",
+    "bin_left": -1.2410615682601929,
+    "bin_right": -0.947393000125885,
+    "bin_center": -1.0942273139953613,
+    "bin_width": 0.29366856813430786,
+    "count": 25
+  },
+  {
+    "feature": "mean perimeter",
+    "bin_left": -0.947393000125885,
+    "bin_right": -0.6537244319915771,
+    "bin_center": -0.8005586862564087,
+    "bin_width": 0.29366856813430786,
+    "count": 46
+  },
+  {
+    "feature": "mean perimeter",
+    "bin_left": -0.6537244319915771,
+    "bin_right": -0.36005592346191406,
+    "bin_center": -0.5068901777267456,
+    "bin_width": 0.2936685085296631,
+    "count": 53
+  },
+  {
+    "feature": "mean perimeter",
+    "bin_left": -0.36005592346191406,
+    "bin_right": -0.06638729572296143,
+    "bin_center": -0.21322160959243774,
+    "bin_width": 0.29366862773895264,
+    "count": 53
+  },
+  {
+    "feature": "mean perimeter",
+    "bin_left": -0.06638729572296143,
+    "bin_right": 0.2272813320159912,
+    "bin_center": 0.08044701814651489,
+    "bin_width": 0.29366862773895264,
+    "count": 29
+  },
+  {
+    "feature": "mean perimeter",
+    "bin_left": 0.2272813320159912,
+    "bin_right": 0.5209498405456543,
+    "bin_center": 0.37411558628082275,
+    "bin_width": 0.2936685085296631,
+    "count": 23
+  },
+  {
+    "feature": "mean perimeter",
+    "bin_left": 0.5209498405456543,
+    "bin_right": 0.8146183490753174,
+    "bin_center": 0.6677840948104858,
+    "bin_width": 0.2936685085296631,
+    "count": 18
+  },
+  {
+    "feature": "mean perimeter",
+    "bin_left": 0.8146183490753174,
+    "bin_right": 1.1082868576049805,
+    "bin_center": 0.9614526033401489,
+    "bin_width": 0.2936685085296631,
+    "count": 18
+  },
+  {
+    "feature": "mean perimeter",
+    "bin_left": 1.1082868576049805,
+    "bin_right": 1.4019556045532227,
+    "bin_center": 1.2551212310791016,
+    "bin_width": 0.2936687469482422,
+    "count": 16
+  },
+  {
+    "feature": "mean perimeter",
+    "bin_left": 1.4019556045532227,
+    "bin_right": 1.6956241130828857,
+    "bin_center": 1.5487898588180542,
+    "bin_width": 0.2936685085296631,
+    "count": 8
+  },
+  {
+    "feature": "mean perimeter",
+    "bin_left": 1.6956241130828857,
+    "bin_right": 1.9892926216125488,
+    "bin_center": 1.8424583673477173,
+    "bin_width": 0.2936685085296631,
+    "count": 14
+  },
+  {
+    "feature": "mean perimeter",
+    "bin_left": 1.9892926216125488,
+    "bin_right": 2.282961368560791,
+    "bin_center": 2.13612699508667,
+    "bin_width": 0.2936687469482422,
+    "count": 5
+  },
+  {
+    "feature": "mean perimeter",
+    "bin_left": 2.282961368560791,
+    "bin_right": 2.576629638671875,
+    "bin_center": 2.429795503616333,
+    "bin_width": 0.293668270111084,
+    "count": 3
+  },
+  {
+    "feature": "mean perimeter",
+    "bin_left": 2.576629638671875,
+    "bin_right": 2.870298385620117,
+    "bin_center": 2.723464012145996,
+    "bin_width": 0.2936687469482422,
+    "count": 2
+  },
+  {
+    "feature": "mean perimeter",
+    "bin_left": 2.870298385620117,
+    "bin_right": 3.1639671325683594,
+    "bin_center": 3.0171327590942383,
+    "bin_width": 0.2936687469482422,
+    "count": 2
+  },
+  {
+    "feature": "mean perimeter",
+    "bin_left": 3.1639671325683594,
+    "bin_right": 3.4576354026794434,
+    "bin_center": 3.3108012676239014,
+    "bin_width": 0.293668270111084,
+    "count": 1
+  },
+  {
+    "feature": "mean perimeter",
+    "bin_left": 3.4576354026794434,
+    "bin_right": 3.7513041496276855,
+    "bin_center": 3.6044697761535645,
+    "bin_width": 0.2936687469482422,
+    "count": 0
+  },
+  {
+    "feature": "mean perimeter",
+    "bin_left": 3.7513041496276855,
+    "bin_right": 4.0449724197387695,
+    "bin_center": 3.8981382846832275,
+    "bin_width": 0.293668270111084,
+    "count": 1
+  },
+  {
+    "feature": "mean area",
+    "bin_left": -1.4002697467803955,
+    "bin_right": -1.061915636062622,
+    "bin_center": -1.2310926914215088,
+    "bin_width": 0.33835411071777344,
+    "count": 19
+  },
+  {
+    "feature": "mean area",
+    "bin_left": -1.061915636062622,
+    "bin_right": -0.7235615253448486,
+    "bin_center": -0.8927385807037354,
+    "bin_width": 0.33835411071777344,
+    "count": 60
+  },
+  {
+    "feature": "mean area",
+    "bin_left": -0.7235615253448486,
+    "bin_right": -0.3852074146270752,
+    "bin_center": -0.5543844699859619,
+    "bin_width": 0.33835411071777344,
+    "count": 75
+  },
+  {
+    "feature": "mean area",
+    "bin_left": -0.3852074146270752,
+    "bin_right": -0.04685330390930176,
+    "bin_center": -0.21603035926818848,
+    "bin_width": 0.33835411071777344,
+    "count": 55
+  },
+  {
+    "feature": "mean area",
+    "bin_left": -0.04685330390930176,
+    "bin_right": 0.2915008068084717,
+    "bin_center": 0.12232375144958496,
+    "bin_width": 0.33835411071777344,
+    "count": 38
+  },
+  {
+    "feature": "mean area",
+    "bin_left": 0.2915008068084717,
+    "bin_right": 0.6298549175262451,
+    "bin_center": 0.4606778621673584,
+    "bin_width": 0.33835411071777344,
+    "count": 19
+  },
+  {
+    "feature": "mean area",
+    "bin_left": 0.6298549175262451,
+    "bin_right": 0.9682090282440186,
+    "bin_center": 0.7990319728851318,
+    "bin_width": 0.33835411071777344,
+    "count": 18
+  },
+  {
+    "feature": "mean area",
+    "bin_left": 0.9682090282440186,
+    "bin_right": 1.306563138961792,
+    "bin_center": 1.1373860836029053,
+    "bin_width": 0.33835411071777344,
+    "count": 20
+  },
+  {
+    "feature": "mean area",
+    "bin_left": 1.306563138961792,
+    "bin_right": 1.6449172496795654,
+    "bin_center": 1.4757401943206787,
+    "bin_width": 0.33835411071777344,
+    "count": 9
+  },
+  {
+    "feature": "mean area",
+    "bin_left": 1.6449172496795654,
+    "bin_right": 1.9832713603973389,
+    "bin_center": 1.8140943050384521,
+    "bin_width": 0.33835411071777344,
+    "count": 12
+  },
+  {
+    "feature": "mean area",
+    "bin_left": 1.9832713603973389,
+    "bin_right": 2.3216254711151123,
+    "bin_center": 2.1524484157562256,
+    "bin_width": 0.33835411071777344,
+    "count": 5
+  },
+  {
+    "feature": "mean area",
+    "bin_left": 2.3216254711151123,
+    "bin_right": 2.6599795818328857,
+    "bin_center": 2.490802526473999,
+    "bin_width": 0.33835411071777344,
+    "count": 4
+  },
+  {
+    "feature": "mean area",
+    "bin_left": 2.6599795818328857,
+    "bin_right": 2.998333692550659,
+    "bin_center": 2.8291566371917725,
+    "bin_width": 0.33835411071777344,
+    "count": 1
+  },
+  {
+    "feature": "mean area",
+    "bin_left": 2.998333692550659,
+    "bin_right": 3.3366878032684326,
+    "bin_center": 3.167510747909546,
+    "bin_width": 0.33835411071777344,
+    "count": 3
+  },
+  {
+    "feature": "mean area",
+    "bin_left": 3.3366878032684326,
+    "bin_right": 3.675041913986206,
+    "bin_center": 3.5058648586273193,
+    "bin_width": 0.33835411071777344,
+    "count": 2
+  },
+  {
+    "feature": "mean area",
+    "bin_left": 3.675041913986206,
+    "bin_right": 4.013396263122559,
+    "bin_center": 3.844219207763672,
+    "bin_width": 0.33835434913635254,
+    "count": 0
+  },
+  {
+    "feature": "mean area",
+    "bin_left": 4.013396263122559,
+    "bin_right": 4.351750373840332,
+    "bin_center": 4.182573318481445,
+    "bin_width": 0.33835411071777344,
+    "count": 0
+  },
+  {
+    "feature": "mean area",
+    "bin_left": 4.351750373840332,
+    "bin_right": 4.6901044845581055,
+    "bin_center": 4.520927429199219,
+    "bin_width": 0.33835411071777344,
+    "count": 0
+  },
+  {
+    "feature": "mean area",
+    "bin_left": 4.6901044845581055,
+    "bin_right": 5.028458595275879,
+    "bin_center": 4.859281539916992,
+    "bin_width": 0.33835411071777344,
+    "count": 0
+  },
+  {
+    "feature": "mean area",
+    "bin_left": 5.028458595275879,
+    "bin_right": 5.366812705993652,
+    "bin_center": 5.197635650634766,
+    "bin_width": 0.33835411071777344,
+    "count": 1
+  },
+  {
+    "feature": "mean smoothness",
+    "bin_left": -2.3084051609039307,
+    "bin_right": -1.9592835903167725,
+    "bin_center": -2.1338443756103516,
+    "bin_width": 0.3491215705871582,
+    "count": 3
+  },
+  {
+    "feature": "mean smoothness",
+    "bin_left": -1.9592835903167725,
+    "bin_right": -1.6101620197296143,
+    "bin_center": -1.7847228050231934,
+    "bin_width": 0.3491215705871582,
+    "count": 5
+  },
+  {
+    "feature": "mean smoothness",
+    "bin_left": -1.6101620197296143,
+    "bin_right": -1.261040449142456,
+    "bin_center": -1.4356012344360352,
+    "bin_width": 0.3491215705871582,
+    "count": 20
+  },
+  {
+    "feature": "mean smoothness",
+    "bin_left": -1.261040449142456,
+    "bin_right": -0.9119188785552979,
+    "bin_center": -1.086479663848877,
+    "bin_width": 0.3491215705871582,
+    "count": 33
+  },
+  {
+    "feature": "mean smoothness",
+    "bin_left": -0.9119188785552979,
+    "bin_right": -0.5627973079681396,
+    "bin_center": -0.7373580932617188,
+    "bin_width": 0.3491215705871582,
+    "count": 47
+  },
+  {
+    "feature": "mean smoothness",
+    "bin_left": -0.5627973079681396,
+    "bin_right": -0.21367573738098145,
+    "bin_center": -0.38823652267456055,
+    "bin_width": 0.3491215705871582,
+    "count": 40
+  },
+  {
+    "feature": "mean smoothness",
+    "bin_left": -0.21367573738098145,
+    "bin_right": 0.13544583320617676,
+    "bin_center": -0.039114952087402344,
+    "bin_width": 0.3491215705871582,
+    "count": 52
+  },
+  {
+    "feature": "mean smoothness",
+    "bin_left": 0.13544583320617676,
+    "bin_right": 0.48456740379333496,
+    "bin_center": 0.31000661849975586,
+    "bin_width": 0.3491215705871582,
+    "count": 42
+  },
+  {
+    "feature": "mean smoothness",
+    "bin_left": 0.48456740379333496,
+    "bin_right": 0.8336889743804932,
+    "bin_center": 0.6591281890869141,
+    "bin_width": 0.3491215705871582,
+    "count": 41
+  },
+  {
+    "feature": "mean smoothness",
+    "bin_left": 0.8336889743804932,
+    "bin_right": 1.1828105449676514,
+    "bin_center": 1.0082497596740723,
+    "bin_width": 0.3491215705871582,
+    "count": 19
+  },
+  {
+    "feature": "mean smoothness",
+    "bin_left": 1.1828105449676514,
+    "bin_right": 1.5319321155548096,
+    "bin_center": 1.3573713302612305,
+    "bin_width": 0.3491215705871582,
+    "count": 17
+  },
+  {
+    "feature": "mean smoothness",
+    "bin_left": 1.5319321155548096,
+    "bin_right": 1.8810536861419678,
+    "bin_center": 1.7064929008483887,
+    "bin_width": 0.3491215705871582,
+    "count": 8
+  },
+  {
+    "feature": "mean smoothness",
+    "bin_left": 1.8810536861419678,
+    "bin_right": 2.230175256729126,
+    "bin_center": 2.055614471435547,
+    "bin_width": 0.3491215705871582,
+    "count": 5
+  },
+  {
+    "feature": "mean smoothness",
+    "bin_left": 2.230175256729126,
+    "bin_right": 2.579296827316284,
+    "bin_center": 2.404736042022705,
+    "bin_width": 0.3491215705871582,
+    "count": 4
+  },
+  {
+    "feature": "mean smoothness",
+    "bin_left": 2.579296827316284,
+    "bin_right": 2.9284183979034424,
+    "bin_center": 2.7538576126098633,
+    "bin_width": 0.3491215705871582,
+    "count": 1
+  },
+  {
+    "feature": "mean smoothness",
+    "bin_left": 2.9284183979034424,
+    "bin_right": 3.2775399684906006,
+    "bin_center": 3.1029791831970215,
+    "bin_width": 0.3491215705871582,
+    "count": 2
+  },
+  {
+    "feature": "mean smoothness",
+    "bin_left": 3.2775399684906006,
+    "bin_right": 3.626661539077759,
+    "bin_center": 3.4521007537841797,
+    "bin_width": 0.3491215705871582,
+    "count": 1
+  },
+  {
+    "feature": "mean smoothness",
+    "bin_left": 3.626661539077759,
+    "bin_right": 3.975783109664917,
+    "bin_center": 3.801222324371338,
+    "bin_width": 0.3491215705871582,
+    "count": 0
+  },
+  {
+    "feature": "mean smoothness",
+    "bin_left": 3.975783109664917,
+    "bin_right": 4.324904441833496,
+    "bin_center": 4.150343894958496,
+    "bin_width": 0.3491213321685791,
+    "count": 0
+  },
+  {
+    "feature": "mean smoothness",
+    "bin_left": 4.324904441833496,
+    "bin_right": 4.674026012420654,
+    "bin_center": 4.499464988708496,
+    "bin_width": 0.3491215705871582,
+    "count": 1
+  },
+  {
+    "feature": "mean compactness",
+    "bin_left": -1.562585473060608,
+    "bin_right": -1.2528200149536133,
+    "bin_center": -1.4077026844024658,
+    "bin_width": 0.30976545810699463,
+    "count": 8
+  },
+  {
+    "feature": "mean compactness",
+    "bin_left": -1.2528200149536133,
+    "bin_right": -0.9430545568466187,
+    "bin_center": -1.0979373455047607,
+    "bin_width": 0.30976545810699463,
+    "count": 36
+  },
+  {
+    "feature": "mean compactness",
+    "bin_left": -0.9430545568466187,
+    "bin_right": -0.633289098739624,
+    "bin_center": -0.7881718277931213,
+    "bin_width": 0.30976545810699463,
+    "count": 60
+  },
+  {
+    "feature": "mean compactness",
+    "bin_left": -0.633289098739624,
+    "bin_right": -0.3235236406326294,
+    "bin_center": -0.4784063696861267,
+    "bin_width": 0.30976545810699463,
+    "count": 50
+  },
+  {
+    "feature": "mean compactness",
+    "bin_left": -0.3235236406326294,
+    "bin_right": -0.013758182525634766,
+    "bin_center": -0.16864091157913208,
+    "bin_width": 0.30976545810699463,
+    "count": 35
+  },
+  {
+    "feature": "mean compactness",
+    "bin_left": -0.013758182525634766,
+    "bin_right": 0.29600727558135986,
+    "bin_center": 0.14112454652786255,
+    "bin_width": 0.30976545810699463,
+    "count": 50
+  },
+  {
+    "feature": "mean compactness",
+    "bin_left": 0.29600727558135986,
+    "bin_right": 0.605772852897644,
+    "bin_center": 0.45089006423950195,
+    "bin_width": 0.3097655773162842,
+    "count": 38
+  },
+  {
+    "feature": "mean compactness",
+    "bin_left": 0.605772852897644,
+    "bin_right": 0.9155381917953491,
+    "bin_center": 0.7606555223464966,
+    "bin_width": 0.3097653388977051,
+    "count": 12
+  },
+  {
+    "feature": "mean compactness",
+    "bin_left": 0.9155381917953491,
+    "bin_right": 1.2253035306930542,
+    "bin_center": 1.0704208612442017,
+    "bin_width": 0.3097653388977051,
+    "count": 14
+  },
+  {
+    "feature": "mean compactness",
+    "bin_left": 1.2253035306930542,
+    "bin_right": 1.5350691080093384,
+    "bin_center": 1.3801863193511963,
+    "bin_width": 0.3097655773162842,
+    "count": 12
+  },
+  {
+    "feature": "mean compactness",
+    "bin_left": 1.5350691080093384,
+    "bin_right": 1.8448346853256226,
+    "bin_center": 1.6899518966674805,
+    "bin_width": 0.3097655773162842,
+    "count": 8
+  },
+  {
+    "feature": "mean compactness",
+    "bin_left": 1.8448346853256226,
+    "bin_right": 2.154600143432617,
+    "bin_center": 1.9997174739837646,
+    "bin_width": 0.30976545810699463,
+    "count": 3
+  },
+  {
+    "feature": "mean compactness",
+    "bin_left": 2.154600143432617,
+    "bin_right": 2.4643654823303223,
+    "bin_center": 2.3094828128814697,
+    "bin_width": 0.3097653388977051,
+    "count": 5
+  },
+  {
+    "feature": "mean compactness",
+    "bin_left": 2.4643654823303223,
+    "bin_right": 2.7741312980651855,
+    "bin_center": 2.619248390197754,
+    "bin_width": 0.3097658157348633,
+    "count": 2
+  },
+  {
+    "feature": "mean compactness",
+    "bin_left": 2.7741312980651855,
+    "bin_right": 3.0838966369628906,
+    "bin_center": 2.929013967514038,
+    "bin_width": 0.3097653388977051,
+    "count": 1
+  },
+  {
+    "feature": "mean compactness",
+    "bin_left": 3.0838966369628906,
+    "bin_right": 3.3936619758605957,
+    "bin_center": 3.238779306411743,
+    "bin_width": 0.3097653388977051,
+    "count": 3
+  },
+  {
+    "feature": "mean compactness",
+    "bin_left": 3.3936619758605957,
+    "bin_right": 3.703427314758301,
+    "bin_center": 3.5485446453094482,
+    "bin_width": 0.3097653388977051,
+    "count": 2
+  },
+  {
+    "feature": "mean compactness",
+    "bin_left": 3.703427314758301,
+    "bin_right": 4.013192653656006,
+    "bin_center": 3.8583099842071533,
+    "bin_width": 0.3097653388977051,
+    "count": 1
+  },
+  {
+    "feature": "mean compactness",
+    "bin_left": 4.013192653656006,
+    "bin_right": 4.322958469390869,
+    "bin_center": 4.1680755615234375,
+    "bin_width": 0.3097658157348633,
+    "count": 0
+  },
+  {
+    "feature": "mean compactness",
+    "bin_left": 4.322958469390869,
+    "bin_right": 4.632723808288574,
+    "bin_center": 4.477841377258301,
+    "bin_width": 0.3097653388977051,
+    "count": 1
+  },
+  {
+    "feature": "mean concavity",
+    "bin_left": -1.0874361991882324,
+    "bin_right": -0.8178435564041138,
+    "bin_center": -0.9526398777961731,
+    "bin_width": 0.26959264278411865,
+    "count": 57
+  },
+  {
+    "feature": "mean concavity",
+    "bin_left": -0.8178435564041138,
+    "bin_right": -0.5482509136199951,
+    "bin_center": -0.6830472350120544,
+    "bin_width": 0.26959264278411865,
+    "count": 77
+  },
+  {
+    "feature": "mean concavity",
+    "bin_left": -0.5482509136199951,
+    "bin_right": -0.27865827083587646,
+    "bin_center": -0.4134545922279358,
+    "bin_width": 0.26959264278411865,
+    "count": 45
+  },
+  {
+    "feature": "mean concavity",
+    "bin_left": -0.27865827083587646,
+    "bin_right": -0.009065628051757812,
+    "bin_center": -0.14386194944381714,
+    "bin_width": 0.26959264278411865,
+    "count": 29
+  },
+  {
+    "feature": "mean concavity",
+    "bin_left": -0.009065628051757812,
+    "bin_right": 0.26052701473236084,
+    "bin_center": 0.1257306933403015,
+    "bin_width": 0.26959264278411865,
+    "count": 27
+  },
+  {
+    "feature": "mean concavity",
+    "bin_left": 0.26052701473236084,
+    "bin_right": 0.5301196575164795,
+    "bin_center": 0.39532333612442017,
+    "bin_width": 0.26959264278411865,
+    "count": 23
+  },
+  {
+    "feature": "mean concavity",
+    "bin_left": 0.5301196575164795,
+    "bin_right": 0.7997123003005981,
+    "bin_center": 0.6649159789085388,
+    "bin_width": 0.26959264278411865,
+    "count": 22
+  },
+  {
+    "feature": "mean concavity",
+    "bin_left": 0.7997123003005981,
+    "bin_right": 1.0693049430847168,
+    "bin_center": 0.9345086216926575,
+    "bin_width": 0.26959264278411865,
+    "count": 18
+  },
+  {
+    "feature": "mean concavity",
+    "bin_left": 1.0693049430847168,
+    "bin_right": 1.338897705078125,
+    "bin_center": 1.204101324081421,
+    "bin_width": 0.2695927619934082,
+    "count": 10
+  },
+  {
+    "feature": "mean concavity",
+    "bin_left": 1.338897705078125,
+    "bin_right": 1.608490228652954,
+    "bin_center": 1.4736939668655396,
+    "bin_width": 0.2695925235748291,
+    "count": 10
+  },
+  {
+    "feature": "mean concavity",
+    "bin_left": 1.608490228652954,
+    "bin_right": 1.8780827522277832,
+    "bin_center": 1.7432864904403687,
+    "bin_width": 0.2695925235748291,
+    "count": 6
+  },
+  {
+    "feature": "mean concavity",
+    "bin_left": 1.8780827522277832,
+    "bin_right": 2.1476755142211914,
+    "bin_center": 2.0128791332244873,
+    "bin_width": 0.2695927619934082,
+    "count": 5
+  },
+  {
+    "feature": "mean concavity",
+    "bin_left": 2.1476755142211914,
+    "bin_right": 2.4172682762145996,
+    "bin_center": 2.2824718952178955,
+    "bin_width": 0.2695927619934082,
+    "count": 1
+  },
+  {
+    "feature": "mean concavity",
+    "bin_left": 2.4172682762145996,
+    "bin_right": 2.6868607997894287,
+    "bin_center": 2.5520644187927246,
+    "bin_width": 0.2695925235748291,
+    "count": 1
+  },
+  {
+    "feature": "mean concavity",
+    "bin_left": 2.6868607997894287,
+    "bin_right": 2.956453323364258,
+    "bin_center": 2.821657180786133,
+    "bin_width": 0.2695925235748291,
+    "count": 3
+  },
+  {
+    "feature": "mean concavity",
+    "bin_left": 2.956453323364258,
+    "bin_right": 3.226046085357666,
+    "bin_center": 3.091249704360962,
+    "bin_width": 0.2695927619934082,
+    "count": 2
+  },
+  {
+    "feature": "mean concavity",
+    "bin_left": 3.226046085357666,
+    "bin_right": 3.495638847351074,
+    "bin_center": 3.36084246635437,
+    "bin_width": 0.2695927619934082,
+    "count": 1
+  },
+  {
+    "feature": "mean concavity",
+    "bin_left": 3.495638847351074,
+    "bin_right": 3.7652316093444824,
+    "bin_center": 3.6304352283477783,
+    "bin_width": 0.2695927619934082,
+    "count": 1
+  },
+  {
+    "feature": "mean concavity",
+    "bin_left": 3.7652316093444824,
+    "bin_right": 4.034823894500732,
+    "bin_center": 3.9000277519226074,
+    "bin_width": 0.26959228515625,
+    "count": 0
+  },
+  {
+    "feature": "mean concavity",
+    "bin_left": 4.034823894500732,
+    "bin_right": 4.304416656494141,
+    "bin_center": 4.169620513916016,
+    "bin_width": 0.2695927619934082,
+    "count": 3
+  },
+  {
+    "feature": "mean concave points",
+    "bin_left": -1.2558417320251465,
+    "bin_right": -0.9923572540283203,
+    "bin_center": -1.1240994930267334,
+    "bin_width": 0.26348447799682617,
+    "count": 30
+  },
+  {
+    "feature": "mean concave points",
+    "bin_left": -0.9923572540283203,
+    "bin_right": -0.7288727164268494,
+    "bin_center": -0.8606150150299072,
+    "bin_width": 0.26348453760147095,
+    "count": 56
+  },
+  {
+    "feature": "mean concave points",
+    "bin_left": -0.7288727164268494,
+    "bin_right": -0.4653881788253784,
+    "bin_center": -0.5971304178237915,
+    "bin_width": 0.26348453760147095,
+    "count": 72
+  },
+  {
+    "feature": "mean concave points",
+    "bin_left": -0.4653881788253784,
+    "bin_right": -0.20190370082855225,
+    "bin_center": -0.33364593982696533,
+    "bin_width": 0.26348447799682617,
+    "count": 30
+  },
+  {
+    "feature": "mean concave points",
+    "bin_left": -0.20190370082855225,
+    "bin_right": 0.061580777168273926,
+    "bin_center": -0.07016146183013916,
+    "bin_width": 0.26348447799682617,
+    "count": 21
+  },
+  {
+    "feature": "mean concave points",
+    "bin_left": 0.061580777168273926,
+    "bin_right": 0.32506537437438965,
+    "bin_center": 0.1933230757713318,
+    "bin_width": 0.2634845972061157,
+    "count": 26
+  },
+  {
+    "feature": "mean concave points",
+    "bin_left": 0.32506537437438965,
+    "bin_right": 0.5885498523712158,
+    "bin_center": 0.45680761337280273,
+    "bin_width": 0.26348447799682617,
+    "count": 23
+  },
+  {
+    "feature": "mean concave points",
+    "bin_left": 0.5885498523712158,
+    "bin_right": 0.852034330368042,
+    "bin_center": 0.7202920913696289,
+    "bin_width": 0.26348447799682617,
+    "count": 11
+  },
+  {
+    "feature": "mean concave points",
+    "bin_left": 0.852034330368042,
+    "bin_right": 1.1155188083648682,
+    "bin_center": 0.9837765693664551,
+    "bin_width": 0.26348447799682617,
+    "count": 25
+  },
+  {
+    "feature": "mean concave points",
+    "bin_left": 1.1155188083648682,
+    "bin_right": 1.3790032863616943,
+    "bin_center": 1.2472610473632812,
+    "bin_width": 0.26348447799682617,
+    "count": 14
+  },
+  {
+    "feature": "mean concave points",
+    "bin_left": 1.3790032863616943,
+    "bin_right": 1.6424877643585205,
+    "bin_center": 1.5107455253601074,
+    "bin_width": 0.26348447799682617,
+    "count": 8
+  },
+  {
+    "feature": "mean concave points",
+    "bin_left": 1.6424877643585205,
+    "bin_right": 1.9059724807739258,
+    "bin_center": 1.7742301225662231,
+    "bin_width": 0.2634847164154053,
+    "count": 4
+  },
+  {
+    "feature": "mean concave points",
+    "bin_left": 1.9059724807739258,
+    "bin_right": 2.169456958770752,
+    "bin_center": 2.037714719772339,
+    "bin_width": 0.26348447799682617,
+    "count": 9
+  },
+  {
+    "feature": "mean concave points",
+    "bin_left": 2.169456958770752,
+    "bin_right": 2.432941436767578,
+    "bin_center": 2.301199197769165,
+    "bin_width": 0.26348447799682617,
+    "count": 3
+  },
+  {
+    "feature": "mean concave points",
+    "bin_left": 2.432941436767578,
+    "bin_right": 2.6964259147644043,
+    "bin_center": 2.564683675765991,
+    "bin_width": 0.26348447799682617,
+    "count": 3
+  },
+  {
+    "feature": "mean concave points",
+    "bin_left": 2.6964259147644043,
+    "bin_right": 2.9599103927612305,
+    "bin_center": 2.8281681537628174,
+    "bin_width": 0.26348447799682617,
+    "count": 3
+  },
+  {
+    "feature": "mean concave points",
+    "bin_left": 2.9599103927612305,
+    "bin_right": 3.2233948707580566,
+    "bin_center": 3.0916526317596436,
+    "bin_width": 0.26348447799682617,
+    "count": 0
+  },
+  {
+    "feature": "mean concave points",
+    "bin_left": 3.2233948707580566,
+    "bin_right": 3.486879348754883,
+    "bin_center": 3.3551371097564697,
+    "bin_width": 0.26348447799682617,
+    "count": 0
+  },
+  {
+    "feature": "mean concave points",
+    "bin_left": 3.486879348754883,
+    "bin_right": 3.750363826751709,
+    "bin_center": 3.618621587753296,
+    "bin_width": 0.26348447799682617,
+    "count": 2
+  },
+  {
+    "feature": "mean concave points",
+    "bin_left": 3.750363826751709,
+    "bin_right": 4.013848304748535,
+    "bin_center": 3.882106065750122,
+    "bin_width": 0.26348447799682617,
+    "count": 1
+  },
+  {
+    "feature": "mean symmetry",
+    "bin_left": -2.745471954345703,
+    "bin_right": -2.410017251968384,
+    "bin_center": -2.577744483947754,
+    "bin_width": 0.33545470237731934,
+    "count": 1
+  },
+  {
+    "feature": "mean symmetry",
+    "bin_left": -2.410017251968384,
+    "bin_right": -2.0745625495910645,
+    "bin_center": -2.2422900199890137,
+    "bin_width": 0.33545470237731934,
+    "count": 2
+  },
+  {
+    "feature": "mean symmetry",
+    "bin_left": -2.0745625495910645,
+    "bin_right": -1.739107608795166,
+    "bin_center": -1.9068350791931152,
+    "bin_width": 0.33545494079589844,
+    "count": 2
+  },
+  {
+    "feature": "mean symmetry",
+    "bin_left": -1.739107608795166,
+    "bin_right": -1.4036529064178467,
+    "bin_center": -1.5713802576065063,
+    "bin_width": 0.33545470237731934,
+    "count": 15
+  },
+  {
+    "feature": "mean symmetry",
+    "bin_left": -1.4036529064178467,
+    "bin_right": -1.0681982040405273,
+    "bin_center": -1.235925555229187,
+    "bin_width": 0.33545470237731934,
+    "count": 23
+  },
+  {
+    "feature": "mean symmetry",
+    "bin_left": -1.0681982040405273,
+    "bin_right": -0.7327432632446289,
+    "bin_center": -0.9004707336425781,
+    "bin_width": 0.33545494079589844,
+    "count": 33
+  },
+  {
+    "feature": "mean symmetry",
+    "bin_left": -0.7327432632446289,
+    "bin_right": -0.39728856086730957,
+    "bin_center": -0.5650159120559692,
+    "bin_width": 0.33545470237731934,
+    "count": 45
+  },
+  {
+    "feature": "mean symmetry",
+    "bin_left": -0.39728856086730957,
+    "bin_right": -0.061833858489990234,
+    "bin_center": -0.2295612096786499,
+    "bin_width": 0.33545470237731934,
+    "count": 50
+  },
+  {
+    "feature": "mean symmetry",
+    "bin_left": -0.061833858489990234,
+    "bin_right": 0.2736208438873291,
+    "bin_center": 0.10589349269866943,
+    "bin_width": 0.33545470237731934,
+    "count": 51
+  },
+  {
+    "feature": "mean symmetry",
+    "bin_left": 0.2736208438873291,
+    "bin_right": 0.6090755462646484,
+    "bin_center": 0.44134819507598877,
+    "bin_width": 0.33545470237731934,
+    "count": 45
+  },
+  {
+    "feature": "mean symmetry",
+    "bin_left": 0.6090755462646484,
+    "bin_right": 0.9445304870605469,
+    "bin_center": 0.7768030166625977,
+    "bin_width": 0.33545494079589844,
+    "count": 21
+  },
+  {
+    "feature": "mean symmetry",
+    "bin_left": 0.9445304870605469,
+    "bin_right": 1.2799854278564453,
+    "bin_center": 1.112257957458496,
+    "bin_width": 0.33545494079589844,
+    "count": 20
+  },
+  {
+    "feature": "mean symmetry",
+    "bin_left": 1.2799854278564453,
+    "bin_right": 1.6154398918151855,
+    "bin_center": 1.4477126598358154,
+    "bin_width": 0.33545446395874023,
+    "count": 12
+  },
+  {
+    "feature": "mean symmetry",
+    "bin_left": 1.6154398918151855,
+    "bin_right": 1.950894832611084,
+    "bin_center": 1.7831673622131348,
+    "bin_width": 0.33545494079589844,
+    "count": 5
+  },
+  {
+    "feature": "mean symmetry",
+    "bin_left": 1.950894832611084,
+    "bin_right": 2.286349296569824,
+    "bin_center": 2.118622064590454,
+    "bin_width": 0.33545446395874023,
+    "count": 6
+  },
+  {
+    "feature": "mean symmetry",
+    "bin_left": 2.286349296569824,
+    "bin_right": 2.6218042373657227,
+    "bin_center": 2.4540767669677734,
+    "bin_width": 0.33545494079589844,
+    "count": 1
+  },
+  {
+    "feature": "mean symmetry",
+    "bin_left": 2.6218042373657227,
+    "bin_right": 2.957259178161621,
+    "bin_center": 2.789531707763672,
+    "bin_width": 0.33545494079589844,
+    "count": 6
+  },
+  {
+    "feature": "mean symmetry",
+    "bin_left": 2.957259178161621,
+    "bin_right": 3.2927136421203613,
+    "bin_center": 3.124986410140991,
+    "bin_width": 0.33545446395874023,
+    "count": 2
+  },
+  {
+    "feature": "mean symmetry",
+    "bin_left": 3.2927136421203613,
+    "bin_right": 3.6281685829162598,
+    "bin_center": 3.4604411125183105,
+    "bin_width": 0.33545494079589844,
+    "count": 0
+  },
+  {
+    "feature": "mean symmetry",
+    "bin_left": 3.6281685829162598,
+    "bin_right": 3.963623523712158,
+    "bin_center": 3.795896053314209,
+    "bin_width": 0.33545494079589844,
+    "count": 1
+  },
+  {
+    "feature": "mean fractal dimension",
+    "bin_left": -1.701645851135254,
+    "bin_right": -1.375712275505066,
+    "bin_center": -1.5386791229248047,
+    "bin_width": 0.325933575630188,
+    "count": 9
+  },
+  {
+    "feature": "mean fractal dimension",
+    "bin_left": -1.375712275505066,
+    "bin_right": -1.049778699874878,
+    "bin_center": -1.2127454280853271,
+    "bin_width": 0.325933575630188,
+    "count": 20
+  },
+  {
+    "feature": "mean fractal dimension",
+    "bin_left": -1.049778699874878,
+    "bin_right": -0.7238450050354004,
+    "bin_center": -0.8868118524551392,
+    "bin_width": 0.32593369483947754,
+    "count": 58
+  },
+  {
+    "feature": "mean fractal dimension",
+    "bin_left": -0.7238450050354004,
+    "bin_right": -0.3979114294052124,
+    "bin_center": -0.5608782172203064,
+    "bin_width": 0.325933575630188,
+    "count": 53
+  },
+  {
+    "feature": "mean fractal dimension",
+    "bin_left": -0.3979114294052124,
+    "bin_right": -0.07197785377502441,
+    "bin_center": -0.2349446415901184,
+    "bin_width": 0.325933575630188,
+    "count": 49
+  },
+  {
+    "feature": "mean fractal dimension",
+    "bin_left": -0.07197785377502441,
+    "bin_right": 0.2539558410644531,
+    "bin_center": 0.09098899364471436,
+    "bin_width": 0.32593369483947754,
+    "count": 44
+  },
+  {
+    "feature": "mean fractal dimension",
+    "bin_left": 0.2539558410644531,
+    "bin_right": 0.5798892974853516,
+    "bin_center": 0.41692256927490234,
+    "bin_width": 0.32593345642089844,
+    "count": 30
+  },
+  {
+    "feature": "mean fractal dimension",
+    "bin_left": 0.5798892974853516,
+    "bin_right": 0.9058229923248291,
+    "bin_center": 0.7428561449050903,
+    "bin_width": 0.32593369483947754,
+    "count": 26
+  },
+  {
+    "feature": "mean fractal dimension",
+    "bin_left": 0.9058229923248291,
+    "bin_right": 1.2317566871643066,
+    "bin_center": 1.0687898397445679,
+    "bin_width": 0.32593369483947754,
+    "count": 17
+  },
+  {
+    "feature": "mean fractal dimension",
+    "bin_left": 1.2317566871643066,
+    "bin_right": 1.557690143585205,
+    "bin_center": 1.3947234153747559,
+    "bin_width": 0.32593345642089844,
+    "count": 10
+  },
+  {
+    "feature": "mean fractal dimension",
+    "bin_left": 1.557690143585205,
+    "bin_right": 1.8836238384246826,
+    "bin_center": 1.7206569910049438,
+    "bin_width": 0.32593369483947754,
+    "count": 7
+  },
+  {
+    "feature": "mean fractal dimension",
+    "bin_left": 1.8836238384246826,
+    "bin_right": 2.20955753326416,
+    "bin_center": 2.046590805053711,
+    "bin_width": 0.32593369483947754,
+    "count": 7
+  },
+  {
+    "feature": "mean fractal dimension",
+    "bin_left": 2.20955753326416,
+    "bin_right": 2.5354909896850586,
+    "bin_center": 2.3725242614746094,
+    "bin_width": 0.32593345642089844,
+    "count": 3
+  },
+  {
+    "feature": "mean fractal dimension",
+    "bin_left": 2.5354909896850586,
+    "bin_right": 2.861424446105957,
+    "bin_center": 2.698457717895508,
+    "bin_width": 0.32593345642089844,
+    "count": 4
+  },
+  {
+    "feature": "mean fractal dimension",
+    "bin_left": 2.861424446105957,
+    "bin_right": 3.1873583793640137,
+    "bin_center": 3.0243914127349854,
+    "bin_width": 0.32593393325805664,
+    "count": 1
+  },
+  {
+    "feature": "mean fractal dimension",
+    "bin_left": 3.1873583793640137,
+    "bin_right": 3.513291835784912,
+    "bin_center": 3.350325107574463,
+    "bin_width": 0.32593345642089844,
+    "count": 0
+  },
+  {
+    "feature": "mean fractal dimension",
+    "bin_left": 3.513291835784912,
+    "bin_right": 3.8392252922058105,
+    "bin_center": 3.6762585639953613,
+    "bin_width": 0.32593345642089844,
+    "count": 0
+  },
+  {
+    "feature": "mean fractal dimension",
+    "bin_left": 3.8392252922058105,
+    "bin_right": 4.165159225463867,
+    "bin_center": 4.002192497253418,
+    "bin_width": 0.32593393325805664,
+    "count": 0
+  },
+  {
+    "feature": "mean fractal dimension",
+    "bin_left": 4.165159225463867,
+    "bin_right": 4.491092681884766,
+    "bin_center": 4.328125953674316,
+    "bin_width": 0.32593345642089844,
+    "count": 2
+  },
+  {
+    "feature": "mean fractal dimension",
+    "bin_left": 4.491092681884766,
+    "bin_right": 4.817026138305664,
+    "bin_center": 4.654059410095215,
+    "bin_width": 0.32593345642089844,
+    "count": 1
+  },
+  {
+    "feature": "radius error",
+    "bin_left": -1.056649923324585,
+    "bin_right": -0.5665081739425659,
+    "bin_center": -0.8115790486335754,
+    "bin_width": 0.49014174938201904,
+    "count": 106
+  },
+  {
+    "feature": "radius error",
+    "bin_left": -0.5665081739425659,
+    "bin_right": -0.0763663649559021,
+    "bin_center": -0.321437269449234,
+    "bin_width": 0.4901418089866638,
+    "count": 102
+  },
+  {
+    "feature": "radius error",
+    "bin_left": -0.0763663649559021,
+    "bin_right": 0.4137754440307617,
+    "bin_center": 0.1687045395374298,
+    "bin_width": 0.4901418089866638,
+    "count": 58
+  },
+  {
+    "feature": "radius error",
+    "bin_left": 0.4137754440307617,
+    "bin_right": 0.9039171934127808,
+    "bin_center": 0.6588463187217712,
+    "bin_width": 0.49014174938201904,
+    "count": 28
+  },
+  {
+    "feature": "radius error",
+    "bin_left": 0.9039171934127808,
+    "bin_right": 1.3940589427947998,
+    "bin_center": 1.1489880084991455,
+    "bin_width": 0.49014174938201904,
+    "count": 16
+  },
+  {
+    "feature": "radius error",
+    "bin_left": 1.3940589427947998,
+    "bin_right": 1.8842008113861084,
+    "bin_center": 1.639129877090454,
+    "bin_width": 0.4901418685913086,
+    "count": 13
+  },
+  {
+    "feature": "radius error",
+    "bin_left": 1.8842008113861084,
+    "bin_right": 2.374342441558838,
+    "bin_center": 2.1292715072631836,
+    "bin_width": 0.4901416301727295,
+    "count": 8
+  },
+  {
+    "feature": "radius error",
+    "bin_left": 2.374342441558838,
+    "bin_right": 2.8644843101501465,
+    "bin_center": 2.619413375854492,
+    "bin_width": 0.4901418685913086,
+    "count": 5
+  },
+  {
+    "feature": "radius error",
+    "bin_left": 2.8644843101501465,
+    "bin_right": 3.354625940322876,
+    "bin_center": 3.109555244445801,
+    "bin_width": 0.4901416301727295,
+    "count": 2
+  },
+  {
+    "feature": "radius error",
+    "bin_left": 3.354625940322876,
+    "bin_right": 3.8447678089141846,
+    "bin_center": 3.5996968746185303,
+    "bin_width": 0.4901418685913086,
+    "count": 1
+  },
+  {
+    "feature": "radius error",
+    "bin_left": 3.8447678089141846,
+    "bin_right": 4.334909439086914,
+    "bin_center": 4.08983850479126,
+    "bin_width": 0.4901416301727295,
+    "count": 1
+  },
+  {
+    "feature": "radius error",
+    "bin_left": 4.334909439086914,
+    "bin_right": 4.825051307678223,
+    "bin_center": 4.579980373382568,
+    "bin_width": 0.4901418685913086,
+    "count": 0
+  },
+  {
+    "feature": "radius error",
+    "bin_left": 4.825051307678223,
+    "bin_right": 5.315193176269531,
+    "bin_center": 5.070122241973877,
+    "bin_width": 0.4901418685913086,
+    "count": 0
+  },
+  {
+    "feature": "radius error",
+    "bin_left": 5.315193176269531,
+    "bin_right": 5.80533504486084,
+    "bin_center": 5.5602641105651855,
+    "bin_width": 0.4901418685913086,
+    "count": 0
+  },
+  {
+    "feature": "radius error",
+    "bin_left": 5.80533504486084,
+    "bin_right": 6.295476913452148,
+    "bin_center": 6.050405979156494,
+    "bin_width": 0.4901418685913086,
+    "count": 0
+  },
+  {
+    "feature": "radius error",
+    "bin_left": 6.295476913452148,
+    "bin_right": 6.785618782043457,
+    "bin_center": 6.540547847747803,
+    "bin_width": 0.4901418685913086,
+    "count": 0
+  },
+  {
+    "feature": "radius error",
+    "bin_left": 6.785618782043457,
+    "bin_right": 7.275759696960449,
+    "bin_center": 7.030689239501953,
+    "bin_width": 0.4901409149169922,
+    "count": 0
+  },
+  {
+    "feature": "radius error",
+    "bin_left": 7.275759696960449,
+    "bin_right": 7.765901565551758,
+    "bin_center": 7.5208306312561035,
+    "bin_width": 0.4901418685913086,
+    "count": 0
+  },
+  {
+    "feature": "radius error",
+    "bin_left": 7.765901565551758,
+    "bin_right": 8.256043434143066,
+    "bin_center": 8.01097297668457,
+    "bin_width": 0.4901418685913086,
+    "count": 0
+  },
+  {
+    "feature": "radius error",
+    "bin_left": 8.256043434143066,
+    "bin_right": 8.746185302734375,
+    "bin_center": 8.501113891601562,
+    "bin_width": 0.4901418685913086,
+    "count": 1
+  },
+  {
+    "feature": "texture error",
+    "bin_left": -1.53803288936615,
+    "bin_right": -1.1423087120056152,
+    "bin_center": -1.3401708602905273,
+    "bin_width": 0.39572417736053467,
+    "count": 22
+  },
+  {
+    "feature": "texture error",
+    "bin_left": -1.1423087120056152,
+    "bin_right": -0.7465845346450806,
+    "bin_center": -0.9444466233253479,
+    "bin_width": 0.39572417736053467,
+    "count": 53
+  },
+  {
+    "feature": "texture error",
+    "bin_left": -0.7465845346450806,
+    "bin_right": -0.3508603572845459,
+    "bin_center": -0.5487224459648132,
+    "bin_width": 0.39572417736053467,
+    "count": 66
+  },
+  {
+    "feature": "texture error",
+    "bin_left": -0.3508603572845459,
+    "bin_right": 0.04486382007598877,
+    "bin_center": -0.15299826860427856,
+    "bin_width": 0.39572417736053467,
+    "count": 64
+  },
+  {
+    "feature": "texture error",
+    "bin_left": 0.04486382007598877,
+    "bin_right": 0.44058799743652344,
+    "bin_center": 0.2427259087562561,
+    "bin_width": 0.39572417736053467,
+    "count": 50
+  },
+  {
+    "feature": "texture error",
+    "bin_left": 0.44058799743652344,
+    "bin_right": 0.8363121747970581,
+    "bin_center": 0.6384500861167908,
+    "bin_width": 0.39572417736053467,
+    "count": 35
+  },
+  {
+    "feature": "texture error",
+    "bin_left": 0.8363121747970581,
+    "bin_right": 1.2320362329483032,
+    "bin_center": 1.0341742038726807,
+    "bin_width": 0.3957240581512451,
+    "count": 21
+  },
+  {
+    "feature": "texture error",
+    "bin_left": 1.2320362329483032,
+    "bin_right": 1.6277605295181274,
+    "bin_center": 1.4298983812332153,
+    "bin_width": 0.3957242965698242,
+    "count": 11
+  },
+  {
+    "feature": "texture error",
+    "bin_left": 1.6277605295181274,
+    "bin_right": 2.023484706878662,
+    "bin_center": 1.82562255859375,
+    "bin_width": 0.39572417736053467,
+    "count": 5
+  },
+  {
+    "feature": "texture error",
+    "bin_left": 2.023484706878662,
+    "bin_right": 2.4192090034484863,
+    "bin_center": 2.221346855163574,
+    "bin_width": 0.3957242965698242,
+    "count": 4
+  },
+  {
+    "feature": "texture error",
+    "bin_left": 2.4192090034484863,
+    "bin_right": 2.8149328231811523,
+    "bin_center": 2.6170709133148193,
+    "bin_width": 0.395723819732666,
+    "count": 3
+  },
+  {
+    "feature": "texture error",
+    "bin_left": 2.8149328231811523,
+    "bin_right": 3.2106571197509766,
+    "bin_center": 3.0127949714660645,
+    "bin_width": 0.3957242965698242,
+    "count": 3
+  },
+  {
+    "feature": "texture error",
+    "bin_left": 3.2106571197509766,
+    "bin_right": 3.606381416320801,
+    "bin_center": 3.4085192680358887,
+    "bin_width": 0.3957242965698242,
+    "count": 1
+  },
+  {
+    "feature": "texture error",
+    "bin_left": 3.606381416320801,
+    "bin_right": 4.002105236053467,
+    "bin_center": 3.804243326187134,
+    "bin_width": 0.395723819732666,
+    "count": 0
+  },
+  {
+    "feature": "texture error",
+    "bin_left": 4.002105236053467,
+    "bin_right": 4.397829532623291,
+    "bin_center": 4.199967384338379,
+    "bin_width": 0.3957242965698242,
+    "count": 1
+  },
+  {
+    "feature": "texture error",
+    "bin_left": 4.397829532623291,
+    "bin_right": 4.793553829193115,
+    "bin_center": 4.595691680908203,
+    "bin_width": 0.3957242965698242,
+    "count": 1
+  },
+  {
+    "feature": "texture error",
+    "bin_left": 4.793553829193115,
+    "bin_right": 5.1892781257629395,
+    "bin_center": 4.991415977478027,
+    "bin_width": 0.3957242965698242,
+    "count": 0
+  },
+  {
+    "feature": "texture error",
+    "bin_left": 5.1892781257629395,
+    "bin_right": 5.585002422332764,
+    "bin_center": 5.387140274047852,
+    "bin_width": 0.3957242965698242,
+    "count": 0
+  },
+  {
+    "feature": "texture error",
+    "bin_left": 5.585002422332764,
+    "bin_right": 5.98072624206543,
+    "bin_center": 5.782864570617676,
+    "bin_width": 0.395723819732666,
+    "count": 0
+  },
+  {
+    "feature": "texture error",
+    "bin_left": 5.98072624206543,
+    "bin_right": 6.376450538635254,
+    "bin_center": 6.178588390350342,
+    "bin_width": 0.3957242965698242,
+    "count": 1
+  },
+  {
+    "feature": "perimeter error",
+    "bin_left": -1.0408071279525757,
+    "bin_right": -0.5200868248939514,
+    "bin_center": -0.7804470062255859,
+    "bin_width": 0.5207203030586243,
+    "count": 112
+  },
+  {
+    "feature": "perimeter error",
+    "bin_left": -0.5200868248939514,
+    "bin_right": 0.0006334781646728516,
+    "bin_center": -0.2597266733646393,
+    "bin_width": 0.5207203030586243,
+    "count": 112
+  },
+  {
+    "feature": "perimeter error",
+    "bin_left": 0.0006334781646728516,
+    "bin_right": 0.5213538408279419,
+    "bin_center": 0.2609936594963074,
+    "bin_width": 0.520720362663269,
+    "count": 53
+  },
+  {
+    "feature": "perimeter error",
+    "bin_left": 0.5213538408279419,
+    "bin_right": 1.0420740842819214,
+    "bin_center": 0.7817139625549316,
+    "bin_width": 0.5207202434539795,
+    "count": 30
+  },
+  {
+    "feature": "perimeter error",
+    "bin_left": 1.0420740842819214,
+    "bin_right": 1.5627943277359009,
+    "bin_center": 1.3024342060089111,
+    "bin_width": 0.5207202434539795,
+    "count": 10
+  },
+  {
+    "feature": "perimeter error",
+    "bin_left": 1.5627943277359009,
+    "bin_right": 2.08351469039917,
+    "bin_center": 1.8231544494628906,
+    "bin_width": 0.520720362663269,
+    "count": 6
+  },
+  {
+    "feature": "perimeter error",
+    "bin_left": 2.08351469039917,
+    "bin_right": 2.6042351722717285,
+    "bin_center": 2.343874931335449,
+    "bin_width": 0.5207204818725586,
+    "count": 10
+  },
+  {
+    "feature": "perimeter error",
+    "bin_left": 2.6042351722717285,
+    "bin_right": 3.124955177307129,
+    "bin_center": 2.8645951747894287,
+    "bin_width": 0.5207200050354004,
+    "count": 3
+  },
+  {
+    "feature": "perimeter error",
+    "bin_left": 3.124955177307129,
+    "bin_right": 3.6456756591796875,
+    "bin_center": 3.385315418243408,
+    "bin_width": 0.5207204818725586,
+    "count": 4
+  },
+  {
+    "feature": "perimeter error",
+    "bin_left": 3.6456756591796875,
+    "bin_right": 4.166395664215088,
+    "bin_center": 3.9060356616973877,
+    "bin_width": 0.5207200050354004,
+    "count": 0
+  },
+  {
+    "feature": "perimeter error",
+    "bin_left": 4.166395664215088,
+    "bin_right": 4.6871161460876465,
+    "bin_center": 4.426755905151367,
+    "bin_width": 0.5207204818725586,
+    "count": 0
+  },
+  {
+    "feature": "perimeter error",
+    "bin_left": 4.6871161460876465,
+    "bin_right": 5.207836627960205,
+    "bin_center": 4.947476387023926,
+    "bin_width": 0.5207204818725586,
+    "count": 0
+  },
+  {
+    "feature": "perimeter error",
+    "bin_left": 5.207836627960205,
+    "bin_right": 5.7285566329956055,
+    "bin_center": 5.468196868896484,
+    "bin_width": 0.5207200050354004,
+    "count": 0
+  },
+  {
+    "feature": "perimeter error",
+    "bin_left": 5.7285566329956055,
+    "bin_right": 6.249277114868164,
+    "bin_center": 5.988916873931885,
+    "bin_width": 0.5207204818725586,
+    "count": 0
+  },
+  {
+    "feature": "perimeter error",
+    "bin_left": 6.249277114868164,
+    "bin_right": 6.7699971199035645,
+    "bin_center": 6.509636878967285,
+    "bin_width": 0.5207200050354004,
+    "count": 0
+  },
+  {
+    "feature": "perimeter error",
+    "bin_left": 6.7699971199035645,
+    "bin_right": 7.290717601776123,
+    "bin_center": 7.030357360839844,
+    "bin_width": 0.5207204818725586,
+    "count": 0
+  },
+  {
+    "feature": "perimeter error",
+    "bin_left": 7.290717601776123,
+    "bin_right": 7.811438083648682,
+    "bin_center": 7.551077842712402,
+    "bin_width": 0.5207204818725586,
+    "count": 0
+  },
+  {
+    "feature": "perimeter error",
+    "bin_left": 7.811438083648682,
+    "bin_right": 8.332159042358398,
+    "bin_center": 8.071798324584961,
+    "bin_width": 0.5207209587097168,
+    "count": 0
+  },
+  {
+    "feature": "perimeter error",
+    "bin_left": 8.332159042358398,
+    "bin_right": 8.85287857055664,
+    "bin_center": 8.59251880645752,
+    "bin_width": 0.5207195281982422,
+    "count": 0
+  },
+  {
+    "feature": "perimeter error",
+    "bin_left": 8.85287857055664,
+    "bin_right": 9.3735990524292,
+    "bin_center": 9.113239288330078,
+    "bin_width": 0.5207204818725586,
+    "count": 1
+  },
+  {
+    "feature": "area error",
+    "bin_left": -0.7578123211860657,
+    "bin_right": -0.17247068881988525,
+    "bin_center": -0.46514150500297546,
+    "bin_width": 0.5853416323661804,
+    "count": 218
+  },
+  {
+    "feature": "area error",
+    "bin_left": -0.17247068881988525,
+    "bin_right": 0.41287094354629517,
+    "bin_center": 0.12020012736320496,
+    "bin_width": 0.5853416323661804,
+    "count": 62
+  },
+  {
+    "feature": "area error",
+    "bin_left": 0.41287094354629517,
+    "bin_right": 0.9982125163078308,
+    "bin_center": 0.705541729927063,
+    "bin_width": 0.5853415727615356,
+    "count": 21
+  },
+  {
+    "feature": "area error",
+    "bin_left": 0.9982125163078308,
+    "bin_right": 1.5835542678833008,
+    "bin_center": 1.2908834218978882,
+    "bin_width": 0.58534175157547,
+    "count": 22
+  },
+  {
+    "feature": "area error",
+    "bin_left": 1.5835542678833008,
+    "bin_right": 2.168895959854126,
+    "bin_center": 1.8762251138687134,
+    "bin_width": 0.5853416919708252,
+    "count": 7
+  },
+  {
+    "feature": "area error",
+    "bin_left": 2.168895959854126,
+    "bin_right": 2.754237413406372,
+    "bin_center": 2.461566686630249,
+    "bin_width": 0.5853414535522461,
+    "count": 4
+  },
+  {
+    "feature": "area error",
+    "bin_left": 2.754237413406372,
+    "bin_right": 3.3395793437957764,
+    "bin_center": 3.046908378601074,
+    "bin_width": 0.5853419303894043,
+    "count": 3
+  },
+  {
+    "feature": "area error",
+    "bin_left": 3.3395793437957764,
+    "bin_right": 3.9249207973480225,
+    "bin_center": 3.6322500705718994,
+    "bin_width": 0.5853414535522461,
+    "count": 1
+  },
+  {
+    "feature": "area error",
+    "bin_left": 3.9249207973480225,
+    "bin_right": 4.5102620124816895,
+    "bin_center": 4.217591285705566,
+    "bin_width": 0.585341215133667,
+    "count": 2
+  },
+  {
+    "feature": "area error",
+    "bin_left": 4.5102620124816895,
+    "bin_right": 5.095603942871094,
+    "bin_center": 4.8029327392578125,
+    "bin_width": 0.5853419303894043,
+    "count": 0
+  },
+  {
+    "feature": "area error",
+    "bin_left": 5.095603942871094,
+    "bin_right": 5.68094539642334,
+    "bin_center": 5.388274669647217,
+    "bin_width": 0.5853414535522461,
+    "count": 0
+  },
+  {
+    "feature": "area error",
+    "bin_left": 5.68094539642334,
+    "bin_right": 6.266286849975586,
+    "bin_center": 5.973616123199463,
+    "bin_width": 0.5853414535522461,
+    "count": 0
+  },
+  {
+    "feature": "area error",
+    "bin_left": 6.266286849975586,
+    "bin_right": 6.85162878036499,
+    "bin_center": 6.558958053588867,
+    "bin_width": 0.5853419303894043,
+    "count": 0
+  },
+  {
+    "feature": "area error",
+    "bin_left": 6.85162878036499,
+    "bin_right": 7.4369707107543945,
+    "bin_center": 7.144299507141113,
+    "bin_width": 0.5853419303894043,
+    "count": 0
+  },
+  {
+    "feature": "area error",
+    "bin_left": 7.4369707107543945,
+    "bin_right": 8.02231216430664,
+    "bin_center": 7.729641437530518,
+    "bin_width": 0.5853414535522461,
+    "count": 0
+  },
+  {
+    "feature": "area error",
+    "bin_left": 8.02231216430664,
+    "bin_right": 8.607653617858887,
+    "bin_center": 8.314983367919922,
+    "bin_width": 0.5853414535522461,
+    "count": 0
+  },
+  {
+    "feature": "area error",
+    "bin_left": 8.607653617858887,
+    "bin_right": 9.192995071411133,
+    "bin_center": 8.900323867797852,
+    "bin_width": 0.5853414535522461,
+    "count": 0
+  },
+  {
+    "feature": "area error",
+    "bin_left": 9.192995071411133,
+    "bin_right": 9.778336524963379,
+    "bin_center": 9.485666275024414,
+    "bin_width": 0.5853414535522461,
+    "count": 0
+  },
+  {
+    "feature": "area error",
+    "bin_left": 9.778336524963379,
+    "bin_right": 10.363678932189941,
+    "bin_center": 10.07100772857666,
+    "bin_width": 0.5853424072265625,
+    "count": 0
+  },
+  {
+    "feature": "area error",
+    "bin_left": 10.363678932189941,
+    "bin_right": 10.949020385742188,
+    "bin_center": 10.656349182128906,
+    "bin_width": 0.5853414535522461,
+    "count": 1
+  },
+  {
+    "feature": "smoothness error",
+    "bin_left": -1.775087594985962,
+    "bin_right": -1.2763077020645142,
+    "bin_center": -1.5256977081298828,
+    "bin_width": 0.49877989292144775,
+    "count": 6
+  },
+  {
+    "feature": "smoothness error",
+    "bin_left": -1.2763077020645142,
+    "bin_right": -0.7775277495384216,
+    "bin_center": -1.0269176959991455,
+    "bin_width": 0.49877995252609253,
+    "count": 53
+  },
+  {
+    "feature": "smoothness error",
+    "bin_left": -0.7775277495384216,
+    "bin_right": -0.2787477970123291,
+    "bin_center": -0.5281378030776978,
+    "bin_width": 0.49877995252609253,
+    "count": 99
+  },
+  {
+    "feature": "smoothness error",
+    "bin_left": -0.2787477970123291,
+    "bin_right": 0.22003209590911865,
+    "bin_center": -0.029357850551605225,
+    "bin_width": 0.49877989292144775,
+    "count": 84
+  },
+  {
+    "feature": "smoothness error",
+    "bin_left": 0.22003209590911865,
+    "bin_right": 0.7188119888305664,
+    "bin_center": 0.46942204236984253,
+    "bin_width": 0.49877989292144775,
+    "count": 39
+  },
+  {
+    "feature": "smoothness error",
+    "bin_left": 0.7188119888305664,
+    "bin_right": 1.2175920009613037,
+    "bin_center": 0.9682019948959351,
+    "bin_width": 0.4987800121307373,
+    "count": 31
+  },
+  {
+    "feature": "smoothness error",
+    "bin_left": 1.2175920009613037,
+    "bin_right": 1.716371774673462,
+    "bin_center": 1.4669818878173828,
+    "bin_width": 0.4987797737121582,
+    "count": 11
+  },
+  {
+    "feature": "smoothness error",
+    "bin_left": 1.716371774673462,
+    "bin_right": 2.215151786804199,
+    "bin_center": 1.9657617807388306,
+    "bin_width": 0.4987800121307373,
+    "count": 9
+  },
+  {
+    "feature": "smoothness error",
+    "bin_left": 2.215151786804199,
+    "bin_right": 2.7139317989349365,
+    "bin_center": 2.4645419120788574,
+    "bin_width": 0.4987800121307373,
+    "count": 3
+  },
+  {
+    "feature": "smoothness error",
+    "bin_left": 2.7139317989349365,
+    "bin_right": 3.2127115726470947,
+    "bin_center": 2.9633216857910156,
+    "bin_width": 0.4987797737121582,
+    "count": 4
+  },
+  {
+    "feature": "smoothness error",
+    "bin_left": 3.2127115726470947,
+    "bin_right": 3.711491346359253,
+    "bin_center": 3.462101459503174,
+    "bin_width": 0.4987797737121582,
+    "count": 0
+  },
+  {
+    "feature": "smoothness error",
+    "bin_left": 3.711491346359253,
+    "bin_right": 4.210271835327148,
+    "bin_center": 3.9608817100524902,
+    "bin_width": 0.4987804889678955,
+    "count": 0
+  },
+  {
+    "feature": "smoothness error",
+    "bin_left": 4.210271835327148,
+    "bin_right": 4.709051132202148,
+    "bin_center": 4.459661483764648,
+    "bin_width": 0.498779296875,
+    "count": 0
+  },
+  {
+    "feature": "smoothness error",
+    "bin_left": 4.709051132202148,
+    "bin_right": 5.207831382751465,
+    "bin_center": 4.958441257476807,
+    "bin_width": 0.4987802505493164,
+    "count": 0
+  },
+  {
+    "feature": "smoothness error",
+    "bin_left": 5.207831382751465,
+    "bin_right": 5.706611633300781,
+    "bin_center": 5.457221508026123,
+    "bin_width": 0.4987802505493164,
+    "count": 1
+  },
+  {
+    "feature": "smoothness error",
+    "bin_left": 5.706611633300781,
+    "bin_right": 6.205390930175781,
+    "bin_center": 5.956001281738281,
+    "bin_width": 0.498779296875,
+    "count": 0
+  },
+  {
+    "feature": "smoothness error",
+    "bin_left": 6.205390930175781,
+    "bin_right": 6.704171180725098,
+    "bin_center": 6.4547810554504395,
+    "bin_width": 0.4987802505493164,
+    "count": 0
+  },
+  {
+    "feature": "smoothness error",
+    "bin_left": 6.704171180725098,
+    "bin_right": 7.202951431274414,
+    "bin_center": 6.953561305999756,
+    "bin_width": 0.4987802505493164,
+    "count": 0
+  },
+  {
+    "feature": "smoothness error",
+    "bin_left": 7.202951431274414,
+    "bin_right": 7.701730728149414,
+    "bin_center": 7.452341079711914,
+    "bin_width": 0.498779296875,
+    "count": 0
+  },
+  {
+    "feature": "smoothness error",
+    "bin_left": 7.701730728149414,
+    "bin_right": 8.20051097869873,
+    "bin_center": 7.951120853424072,
+    "bin_width": 0.4987802505493164,
+    "count": 1
+  },
+  {
+    "feature": "compactness error",
+    "bin_left": -1.2698521614074707,
+    "bin_right": -0.9780199527740479,
+    "bin_center": -1.1239360570907593,
+    "bin_width": 0.29183220863342285,
+    "count": 18
+  },
+  {
+    "feature": "compactness error",
+    "bin_left": -0.9780199527740479,
+    "bin_right": -0.6861878037452698,
+    "bin_center": -0.8321038484573364,
+    "bin_width": 0.2918321490287781,
+    "count": 66
+  },
+  {
+    "feature": "compactness error",
+    "bin_left": -0.6861878037452698,
+    "bin_right": -0.3943556547164917,
+    "bin_center": -0.5402717590332031,
+    "bin_width": 0.2918321490287781,
+    "count": 66
+  },
+  {
+    "feature": "compactness error",
+    "bin_left": -0.3943556547164917,
+    "bin_right": -0.10252344608306885,
+    "bin_center": -0.24843955039978027,
+    "bin_width": 0.29183220863342285,
+    "count": 52
+  },
+  {
+    "feature": "compactness error",
+    "bin_left": -0.10252344608306885,
+    "bin_right": 0.189308762550354,
+    "bin_center": 0.04339265823364258,
+    "bin_width": 0.29183220863342285,
+    "count": 33
+  },
+  {
+    "feature": "compactness error",
+    "bin_left": 0.189308762550354,
+    "bin_right": 0.4811408519744873,
+    "bin_center": 0.33522480726242065,
+    "bin_width": 0.2918320894241333,
+    "count": 32
+  },
+  {
+    "feature": "compactness error",
+    "bin_left": 0.4811408519744873,
+    "bin_right": 0.7729730606079102,
+    "bin_center": 0.6270569562911987,
+    "bin_width": 0.29183220863342285,
+    "count": 21
+  },
+  {
+    "feature": "compactness error",
+    "bin_left": 0.7729730606079102,
+    "bin_right": 1.064805269241333,
+    "bin_center": 0.9188891649246216,
+    "bin_width": 0.29183220863342285,
+    "count": 14
+  },
+  {
+    "feature": "compactness error",
+    "bin_left": 1.064805269241333,
+    "bin_right": 1.3566374778747559,
+    "bin_center": 1.2107213735580444,
+    "bin_width": 0.29183220863342285,
+    "count": 9
+  },
+  {
+    "feature": "compactness error",
+    "bin_left": 1.3566374778747559,
+    "bin_right": 1.6484696865081787,
+    "bin_center": 1.5025535821914673,
+    "bin_width": 0.29183220863342285,
+    "count": 6
+  },
+  {
+    "feature": "compactness error",
+    "bin_left": 1.6484696865081787,
+    "bin_right": 1.9403018951416016,
+    "bin_center": 1.7943857908248901,
+    "bin_width": 0.29183220863342285,
+    "count": 2
+  },
+  {
+    "feature": "compactness error",
+    "bin_left": 1.9403018951416016,
+    "bin_right": 2.2321338653564453,
+    "bin_center": 2.0862178802490234,
+    "bin_width": 0.29183197021484375,
+    "count": 6
+  },
+  {
+    "feature": "compactness error",
+    "bin_left": 2.2321338653564453,
+    "bin_right": 2.523966073989868,
+    "bin_center": 2.378049850463867,
+    "bin_width": 0.29183220863342285,
+    "count": 4
+  },
+  {
+    "feature": "compactness error",
+    "bin_left": 2.523966073989868,
+    "bin_right": 2.815798282623291,
+    "bin_center": 2.669882297515869,
+    "bin_width": 0.29183220863342285,
+    "count": 3
+  },
+  {
+    "feature": "compactness error",
+    "bin_left": 2.815798282623291,
+    "bin_right": 3.107630729675293,
+    "bin_center": 2.961714506149292,
+    "bin_width": 0.29183244705200195,
+    "count": 1
+  },
+  {
+    "feature": "compactness error",
+    "bin_left": 3.107630729675293,
+    "bin_right": 3.3994626998901367,
+    "bin_center": 3.253546714782715,
+    "bin_width": 0.29183197021484375,
+    "count": 2
+  },
+  {
+    "feature": "compactness error",
+    "bin_left": 3.3994626998901367,
+    "bin_right": 3.6912946701049805,
+    "bin_center": 3.5453786849975586,
+    "bin_width": 0.29183197021484375,
+    "count": 2
+  },
+  {
+    "feature": "compactness error",
+    "bin_left": 3.6912946701049805,
+    "bin_right": 3.9831271171569824,
+    "bin_center": 3.8372108936309814,
+    "bin_width": 0.29183244705200195,
+    "count": 1
+  },
+  {
+    "feature": "compactness error",
+    "bin_left": 3.9831271171569824,
+    "bin_right": 4.274959087371826,
+    "bin_center": 4.129043102264404,
+    "bin_width": 0.29183197021484375,
+    "count": 2
+  },
+  {
+    "feature": "compactness error",
+    "bin_left": 4.274959087371826,
+    "bin_right": 4.566791534423828,
+    "bin_center": 4.420875549316406,
+    "bin_width": 0.29183244705200195,
+    "count": 1
+  },
+  {
+    "feature": "concavity error",
+    "bin_left": -0.9404160976409912,
+    "bin_right": -0.3588815927505493,
+    "bin_center": -0.6496488451957703,
+    "bin_width": 0.5815345048904419,
+    "count": 129
+  },
+  {
+    "feature": "concavity error",
+    "bin_left": -0.3588815927505493,
+    "bin_right": 0.22265291213989258,
+    "bin_center": -0.06811434030532837,
+    "bin_width": 0.5815345048904419,
+    "count": 128
+  },
+  {
+    "feature": "concavity error",
+    "bin_left": 0.22265291213989258,
+    "bin_right": 0.8041874170303345,
+    "bin_center": 0.5134201645851135,
+    "bin_width": 0.5815345048904419,
+    "count": 51
+  },
+  {
+    "feature": "concavity error",
+    "bin_left": 0.8041874170303345,
+    "bin_right": 1.3857219219207764,
+    "bin_center": 1.0949547290802002,
+    "bin_width": 0.5815345048904419,
+    "count": 15
+  },
+  {
+    "feature": "concavity error",
+    "bin_left": 1.3857219219207764,
+    "bin_right": 1.9672563076019287,
+    "bin_center": 1.6764891147613525,
+    "bin_width": 0.5815343856811523,
+    "count": 8
+  },
+  {
+    "feature": "concavity error",
+    "bin_left": 1.9672563076019287,
+    "bin_right": 2.54879093170166,
+    "bin_center": 2.258023738861084,
+    "bin_width": 0.5815346240997314,
+    "count": 5
+  },
+  {
+    "feature": "concavity error",
+    "bin_left": 2.54879093170166,
+    "bin_right": 3.1303255558013916,
+    "bin_center": 2.8395581245422363,
+    "bin_width": 0.5815346240997314,
+    "count": 1
+  },
+  {
+    "feature": "concavity error",
+    "bin_left": 3.1303255558013916,
+    "bin_right": 3.711859941482544,
+    "bin_center": 3.4210927486419678,
+    "bin_width": 0.5815343856811523,
+    "count": 2
+  },
+  {
+    "feature": "concavity error",
+    "bin_left": 3.711859941482544,
+    "bin_right": 4.293394088745117,
+    "bin_center": 4.002626895904541,
+    "bin_width": 0.5815341472625732,
+    "count": 0
+  },
+  {
+    "feature": "concavity error",
+    "bin_left": 4.293394088745117,
+    "bin_right": 4.8749284744262695,
+    "bin_center": 4.584161281585693,
+    "bin_width": 0.5815343856811523,
+    "count": 0
+  },
+  {
+    "feature": "concavity error",
+    "bin_left": 4.8749284744262695,
+    "bin_right": 5.456463813781738,
+    "bin_center": 5.165696144104004,
+    "bin_width": 0.5815353393554688,
+    "count": 0
+  },
+  {
+    "feature": "concavity error",
+    "bin_left": 5.456463813781738,
+    "bin_right": 6.037998199462891,
+    "bin_center": 5.7472310066223145,
+    "bin_width": 0.5815343856811523,
+    "count": 0
+  },
+  {
+    "feature": "concavity error",
+    "bin_left": 6.037998199462891,
+    "bin_right": 6.619532585144043,
+    "bin_center": 6.328765392303467,
+    "bin_width": 0.5815343856811523,
+    "count": 0
+  },
+  {
+    "feature": "concavity error",
+    "bin_left": 6.619532585144043,
+    "bin_right": 7.201066970825195,
+    "bin_center": 6.910299777984619,
+    "bin_width": 0.5815343856811523,
+    "count": 0
+  },
+  {
+    "feature": "concavity error",
+    "bin_left": 7.201066970825195,
+    "bin_right": 7.782601356506348,
+    "bin_center": 7.4918341636657715,
+    "bin_width": 0.5815343856811523,
+    "count": 0
+  },
+  {
+    "feature": "concavity error",
+    "bin_left": 7.782601356506348,
+    "bin_right": 8.3641357421875,
+    "bin_center": 8.073368072509766,
+    "bin_width": 0.5815343856811523,
+    "count": 1
+  },
+  {
+    "feature": "concavity error",
+    "bin_left": 8.3641357421875,
+    "bin_right": 8.945670127868652,
+    "bin_center": 8.654903411865234,
+    "bin_width": 0.5815343856811523,
+    "count": 0
+  },
+  {
+    "feature": "concavity error",
+    "bin_left": 8.945670127868652,
+    "bin_right": 9.527204513549805,
+    "bin_center": 9.23643684387207,
+    "bin_width": 0.5815343856811523,
+    "count": 0
+  },
+  {
+    "feature": "concavity error",
+    "bin_left": 9.527204513549805,
+    "bin_right": 10.108738899230957,
+    "bin_center": 9.817972183227539,
+    "bin_width": 0.5815343856811523,
+    "count": 0
+  },
+  {
+    "feature": "concavity error",
+    "bin_left": 10.108738899230957,
+    "bin_right": 10.69027328491211,
+    "bin_center": 10.399505615234375,
+    "bin_width": 0.5815343856811523,
+    "count": 1
+  },
+  {
+    "feature": "concave points error",
+    "bin_left": -1.8212162256240845,
+    "bin_right": -1.409837007522583,
+    "bin_center": -1.6155266761779785,
+    "bin_width": 0.41137921810150146,
+    "count": 12
+  },
+  {
+    "feature": "concave points error",
+    "bin_left": -1.409837007522583,
+    "bin_right": -0.9984577298164368,
+    "bin_center": -1.2041473388671875,
+    "bin_width": 0.41137927770614624,
+    "count": 23
+  },
+  {
+    "feature": "concave points error",
+    "bin_left": -0.9984577298164368,
+    "bin_right": -0.5870784521102905,
+    "bin_center": -0.792768120765686,
+    "bin_width": 0.41137927770614624,
+    "count": 50
+  },
+  {
+    "feature": "concave points error",
+    "bin_left": -0.5870784521102905,
+    "bin_right": -0.17569923400878906,
+    "bin_center": -0.3813888430595398,
+    "bin_width": 0.41137921810150146,
+    "count": 81
+  },
+  {
+    "feature": "concave points error",
+    "bin_left": -0.17569923400878906,
+    "bin_right": 0.2356799840927124,
+    "bin_center": 0.02999037504196167,
+    "bin_width": 0.41137921810150146,
+    "count": 66
+  },
+  {
+    "feature": "concave points error",
+    "bin_left": 0.2356799840927124,
+    "bin_right": 0.6470593214035034,
+    "bin_center": 0.4413696527481079,
+    "bin_width": 0.411379337310791,
+    "count": 49
+  },
+  {
+    "feature": "concave points error",
+    "bin_left": 0.6470593214035034,
+    "bin_right": 1.0584384202957153,
+    "bin_center": 0.8527488708496094,
+    "bin_width": 0.4113790988922119,
+    "count": 24
+  },
+  {
+    "feature": "concave points error",
+    "bin_left": 1.0584384202957153,
+    "bin_right": 1.4698177576065063,
+    "bin_center": 1.2641280889511108,
+    "bin_width": 0.411379337310791,
+    "count": 13
+  },
+  {
+    "feature": "concave points error",
+    "bin_left": 1.4698177576065063,
+    "bin_right": 1.8811970949172974,
+    "bin_center": 1.6755074262619019,
+    "bin_width": 0.411379337310791,
+    "count": 6
+  },
+  {
+    "feature": "concave points error",
+    "bin_left": 1.8811970949172974,
+    "bin_right": 2.292576313018799,
+    "bin_center": 2.0868866443634033,
+    "bin_width": 0.41137921810150146,
+    "count": 5
+  },
+  {
+    "feature": "concave points error",
+    "bin_left": 2.292576313018799,
+    "bin_right": 2.70395565032959,
+    "bin_center": 2.4982659816741943,
+    "bin_width": 0.411379337310791,
+    "count": 5
+  },
+  {
+    "feature": "concave points error",
+    "bin_left": 2.70395565032959,
+    "bin_right": 3.115334987640381,
+    "bin_center": 2.9096453189849854,
+    "bin_width": 0.411379337310791,
+    "count": 2
+  },
+  {
+    "feature": "concave points error",
+    "bin_left": 3.115334987640381,
+    "bin_right": 3.526714324951172,
+    "bin_center": 3.3210246562957764,
+    "bin_width": 0.411379337310791,
+    "count": 1
+  },
+  {
+    "feature": "concave points error",
+    "bin_left": 3.526714324951172,
+    "bin_right": 3.9380931854248047,
+    "bin_center": 3.7324037551879883,
+    "bin_width": 0.4113788604736328,
+    "count": 2
+  },
+  {
+    "feature": "concave points error",
+    "bin_left": 3.9380931854248047,
+    "bin_right": 4.349472522735596,
+    "bin_center": 4.143782615661621,
+    "bin_width": 0.411379337310791,
+    "count": 1
+  },
+  {
+    "feature": "concave points error",
+    "bin_left": 4.349472522735596,
+    "bin_right": 4.760851860046387,
+    "bin_center": 4.55516242980957,
+    "bin_width": 0.411379337310791,
+    "count": 0
+  },
+  {
+    "feature": "concave points error",
+    "bin_left": 4.760851860046387,
+    "bin_right": 5.172231197357178,
+    "bin_center": 4.966541290283203,
+    "bin_width": 0.411379337310791,
+    "count": 0
+  },
+  {
+    "feature": "concave points error",
+    "bin_left": 5.172231197357178,
+    "bin_right": 5.583610534667969,
+    "bin_center": 5.377921104431152,
+    "bin_width": 0.411379337310791,
+    "count": 0
+  },
+  {
+    "feature": "concave points error",
+    "bin_left": 5.583610534667969,
+    "bin_right": 5.994989395141602,
+    "bin_center": 5.789299964904785,
+    "bin_width": 0.4113788604736328,
+    "count": 0
+  },
+  {
+    "feature": "concave points error",
+    "bin_left": 5.994989395141602,
+    "bin_right": 6.406368255615234,
+    "bin_center": 6.200678825378418,
+    "bin_width": 0.4113788604736328,
+    "count": 1
+  },
+  {
+    "feature": "symmetry error",
+    "bin_left": -1.4578801393508911,
+    "bin_right": -1.0496022701263428,
+    "bin_center": -1.2537412643432617,
+    "bin_width": 0.40827786922454834,
+    "count": 14
+  },
+  {
+    "feature": "symmetry error",
+    "bin_left": -1.0496022701263428,
+    "bin_right": -0.6413244605064392,
+    "bin_center": -0.8454633951187134,
+    "bin_width": 0.40827780961990356,
+    "count": 70
+  },
+  {
+    "feature": "symmetry error",
+    "bin_left": -0.6413244605064392,
+    "bin_right": -0.23304665088653564,
+    "bin_center": -0.4371855556964874,
+    "bin_width": 0.40827780961990356,
+    "count": 83
+  },
+  {
+    "feature": "symmetry error",
+    "bin_left": -0.23304665088653564,
+    "bin_right": 0.1752312183380127,
+    "bin_center": -0.028907716274261475,
+    "bin_width": 0.40827786922454834,
+    "count": 75
+  },
+  {
+    "feature": "symmetry error",
+    "bin_left": 0.1752312183380127,
+    "bin_right": 0.583509087562561,
+    "bin_center": 0.37937015295028687,
+    "bin_width": 0.40827786922454834,
+    "count": 31
+  },
+  {
+    "feature": "symmetry error",
+    "bin_left": 0.583509087562561,
+    "bin_right": 0.9917868375778198,
+    "bin_center": 0.7876479625701904,
+    "bin_width": 0.4082777500152588,
+    "count": 26
+  },
+  {
+    "feature": "symmetry error",
+    "bin_left": 0.9917868375778198,
+    "bin_right": 1.4000648260116577,
+    "bin_center": 1.1959258317947388,
+    "bin_width": 0.4082779884338379,
+    "count": 19
+  },
+  {
+    "feature": "symmetry error",
+    "bin_left": 1.4000648260116577,
+    "bin_right": 1.8083425760269165,
+    "bin_center": 1.604203701019287,
+    "bin_width": 0.4082777500152588,
+    "count": 8
+  },
+  {
+    "feature": "symmetry error",
+    "bin_left": 1.8083425760269165,
+    "bin_right": 2.216620445251465,
+    "bin_center": 2.012481451034546,
+    "bin_width": 0.40827786922454834,
+    "count": 2
+  },
+  {
+    "feature": "symmetry error",
+    "bin_left": 2.216620445251465,
+    "bin_right": 2.6248984336853027,
+    "bin_center": 2.420759439468384,
+    "bin_width": 0.4082779884338379,
+    "count": 3
+  },
+  {
+    "feature": "symmetry error",
+    "bin_left": 2.6248984336853027,
+    "bin_right": 3.0331764221191406,
+    "bin_center": 2.8290374279022217,
+    "bin_width": 0.4082779884338379,
+    "count": 2
+  },
+  {
+    "feature": "symmetry error",
+    "bin_left": 3.0331764221191406,
+    "bin_right": 3.4414539337158203,
+    "bin_center": 3.2373151779174805,
+    "bin_width": 0.4082775115966797,
+    "count": 2
+  },
+  {
+    "feature": "symmetry error",
+    "bin_left": 3.4414539337158203,
+    "bin_right": 3.849731922149658,
+    "bin_center": 3.6455929279327393,
+    "bin_width": 0.4082779884338379,
+    "count": 2
+  },
+  {
+    "feature": "symmetry error",
+    "bin_left": 3.849731922149658,
+    "bin_right": 4.258009910583496,
+    "bin_center": 4.053871154785156,
+    "bin_width": 0.4082779884338379,
+    "count": 2
+  },
+  {
+    "feature": "symmetry error",
+    "bin_left": 4.258009910583496,
+    "bin_right": 4.666287422180176,
+    "bin_center": 4.462148666381836,
+    "bin_width": 0.4082775115966797,
+    "count": 1
+  },
+  {
+    "feature": "symmetry error",
+    "bin_left": 4.666287422180176,
+    "bin_right": 5.074565410614014,
+    "bin_center": 4.870426177978516,
+    "bin_width": 0.4082779884338379,
+    "count": 0
+  },
+  {
+    "feature": "symmetry error",
+    "bin_left": 5.074565410614014,
+    "bin_right": 5.482843399047852,
+    "bin_center": 5.278704643249512,
+    "bin_width": 0.4082779884338379,
+    "count": 0
+  },
+  {
+    "feature": "symmetry error",
+    "bin_left": 5.482843399047852,
+    "bin_right": 5.891120910644531,
+    "bin_center": 5.686982154846191,
+    "bin_width": 0.4082775115966797,
+    "count": 0
+  },
+  {
+    "feature": "symmetry error",
+    "bin_left": 5.891120910644531,
+    "bin_right": 6.299398899078369,
+    "bin_center": 6.095259666442871,
+    "bin_width": 0.4082779884338379,
+    "count": 0
+  },
+  {
+    "feature": "symmetry error",
+    "bin_left": 6.299398899078369,
+    "bin_right": 6.707676410675049,
+    "bin_center": 6.503537654876709,
+    "bin_width": 0.4082775115966797,
+    "count": 1
+  },
+  {
+    "feature": "fractal dimension error",
+    "bin_left": -1.0643768310546875,
+    "bin_right": -0.5228774547576904,
+    "bin_center": -0.793627142906189,
+    "bin_width": 0.5414993762969971,
+    "count": 98
+  },
+  {
+    "feature": "fractal dimension error",
+    "bin_left": -0.5228774547576904,
+    "bin_right": 0.01862192153930664,
+    "bin_center": -0.2521277666091919,
+    "bin_width": 0.5414993762969971,
+    "count": 121
+  },
+  {
+    "feature": "fractal dimension error",
+    "bin_left": 0.01862192153930664,
+    "bin_right": 0.5601212978363037,
+    "bin_center": 0.2893716096878052,
+    "bin_width": 0.5414993762969971,
+    "count": 68
+  },
+  {
+    "feature": "fractal dimension error",
+    "bin_left": 0.5601212978363037,
+    "bin_right": 1.1016206741333008,
+    "bin_center": 0.8308709859848022,
+    "bin_width": 0.5414993762969971,
+    "count": 27
+  },
+  {
+    "feature": "fractal dimension error",
+    "bin_left": 1.1016206741333008,
+    "bin_right": 1.6431200504302979,
+    "bin_center": 1.3723703622817993,
+    "bin_width": 0.5414993762969971,
+    "count": 9
+  },
+  {
+    "feature": "fractal dimension error",
+    "bin_left": 1.6431200504302979,
+    "bin_right": 2.184619426727295,
+    "bin_center": 1.9138697385787964,
+    "bin_width": 0.5414993762969971,
+    "count": 8
+  },
+  {
+    "feature": "fractal dimension error",
+    "bin_left": 2.184619426727295,
+    "bin_right": 2.726118803024292,
+    "bin_center": 2.455368995666504,
+    "bin_width": 0.5414993762969971,
+    "count": 4
+  },
+  {
+    "feature": "fractal dimension error",
+    "bin_left": 2.726118803024292,
+    "bin_right": 3.267618179321289,
+    "bin_center": 2.99686861038208,
+    "bin_width": 0.5414993762969971,
+    "count": 3
+  },
+  {
+    "feature": "fractal dimension error",
+    "bin_left": 3.267618179321289,
+    "bin_right": 3.809117317199707,
+    "bin_center": 3.538367748260498,
+    "bin_width": 0.541499137878418,
+    "count": 1
+  },
+  {
+    "feature": "fractal dimension error",
+    "bin_left": 3.809117317199707,
+    "bin_right": 4.350616931915283,
+    "bin_center": 4.079867362976074,
+    "bin_width": 0.5414996147155762,
+    "count": 0
+  },
+  {
+    "feature": "fractal dimension error",
+    "bin_left": 4.350616931915283,
+    "bin_right": 4.892116546630859,
+    "bin_center": 4.621366500854492,
+    "bin_width": 0.5414996147155762,
+    "count": 0
+  },
+  {
+    "feature": "fractal dimension error",
+    "bin_left": 4.892116546630859,
+    "bin_right": 5.433615684509277,
+    "bin_center": 5.162866115570068,
+    "bin_width": 0.541499137878418,
+    "count": 0
+  },
+  {
+    "feature": "fractal dimension error",
+    "bin_left": 5.433615684509277,
+    "bin_right": 5.975114822387695,
+    "bin_center": 5.704365253448486,
+    "bin_width": 0.541499137878418,
+    "count": 0
+  },
+  {
+    "feature": "fractal dimension error",
+    "bin_left": 5.975114822387695,
+    "bin_right": 6.5166144371032715,
+    "bin_center": 6.2458648681640625,
+    "bin_width": 0.5414996147155762,
+    "count": 0
+  },
+  {
+    "feature": "fractal dimension error",
+    "bin_left": 6.5166144371032715,
+    "bin_right": 7.058114051818848,
+    "bin_center": 6.7873640060424805,
+    "bin_width": 0.5414996147155762,
+    "count": 0
+  },
+  {
+    "feature": "fractal dimension error",
+    "bin_left": 7.058114051818848,
+    "bin_right": 7.599613189697266,
+    "bin_center": 7.328863620758057,
+    "bin_width": 0.541499137878418,
+    "count": 1
+  },
+  {
+    "feature": "fractal dimension error",
+    "bin_left": 7.599613189697266,
+    "bin_right": 8.141112327575684,
+    "bin_center": 7.870362758636475,
+    "bin_width": 0.541499137878418,
+    "count": 0
+  },
+  {
+    "feature": "fractal dimension error",
+    "bin_left": 8.141112327575684,
+    "bin_right": 8.682611465454102,
+    "bin_center": 8.411861419677734,
+    "bin_width": 0.541499137878418,
+    "count": 0
+  },
+  {
+    "feature": "fractal dimension error",
+    "bin_left": 8.682611465454102,
+    "bin_right": 9.224111557006836,
+    "bin_center": 8.953361511230469,
+    "bin_width": 0.5415000915527344,
+    "count": 0
+  },
+  {
+    "feature": "fractal dimension error",
+    "bin_left": 9.224111557006836,
+    "bin_right": 9.765610694885254,
+    "bin_center": 9.494861602783203,
+    "bin_width": 0.541499137878418,
+    "count": 1
+  },
+  {
+    "feature": "worst radius",
+    "bin_left": -1.6025408506393433,
+    "bin_right": -1.3500919342041016,
+    "bin_center": -1.4763164520263672,
+    "bin_width": 0.2524489164352417,
+    "count": 6
+  },
+  {
+    "feature": "worst radius",
+    "bin_left": -1.3500919342041016,
+    "bin_right": -1.0976430177688599,
+    "bin_center": -1.223867416381836,
+    "bin_width": 0.2524489164352417,
+    "count": 23
+  },
+  {
+    "feature": "worst radius",
+    "bin_left": -1.0976430177688599,
+    "bin_right": -0.8451941013336182,
+    "bin_center": -0.971418559551239,
+    "bin_width": 0.2524489164352417,
+    "count": 28
+  },
+  {
+    "feature": "worst radius",
+    "bin_left": -0.8451941013336182,
+    "bin_right": -0.5927451848983765,
+    "bin_center": -0.7189696431159973,
+    "bin_width": 0.2524489164352417,
+    "count": 57
+  },
+  {
+    "feature": "worst radius",
+    "bin_left": -0.5927451848983765,
+    "bin_right": -0.34029626846313477,
+    "bin_center": -0.4665207266807556,
+    "bin_width": 0.2524489164352417,
+    "count": 47
+  },
+  {
+    "feature": "worst radius",
+    "bin_left": -0.34029626846313477,
+    "bin_right": -0.08784735202789307,
+    "bin_center": -0.21407181024551392,
+    "bin_width": 0.2524489164352417,
+    "count": 37
+  },
+  {
+    "feature": "worst radius",
+    "bin_left": -0.08784735202789307,
+    "bin_right": 0.16460156440734863,
+    "bin_center": 0.03837710618972778,
+    "bin_width": 0.2524489164352417,
+    "count": 31
+  },
+  {
+    "feature": "worst radius",
+    "bin_left": 0.16460156440734863,
+    "bin_right": 0.41705048084259033,
+    "bin_center": 0.2908260226249695,
+    "bin_width": 0.2524489164352417,
+    "count": 16
+  },
+  {
+    "feature": "worst radius",
+    "bin_left": 0.41705048084259033,
+    "bin_right": 0.6694995164871216,
+    "bin_center": 0.543274998664856,
+    "bin_width": 0.25244903564453125,
+    "count": 15
+  },
+  {
+    "feature": "worst radius",
+    "bin_left": 0.6694995164871216,
+    "bin_right": 0.9219483137130737,
+    "bin_center": 0.7957239151000977,
+    "bin_width": 0.25244879722595215,
+    "count": 18
+  },
+  {
+    "feature": "worst radius",
+    "bin_left": 0.9219483137130737,
+    "bin_right": 1.1743971109390259,
+    "bin_center": 1.0481727123260498,
+    "bin_width": 0.25244879722595215,
+    "count": 13
+  },
+  {
+    "feature": "worst radius",
+    "bin_left": 1.1743971109390259,
+    "bin_right": 1.4268461465835571,
+    "bin_center": 1.3006216287612915,
+    "bin_width": 0.25244903564453125,
+    "count": 14
+  },
+  {
+    "feature": "worst radius",
+    "bin_left": 1.4268461465835571,
+    "bin_right": 1.6792951822280884,
+    "bin_center": 1.5530706644058228,
+    "bin_width": 0.25244903564453125,
+    "count": 9
+  },
+  {
+    "feature": "worst radius",
+    "bin_left": 1.6792951822280884,
+    "bin_right": 1.9317439794540405,
+    "bin_center": 1.8055195808410645,
+    "bin_width": 0.25244879722595215,
+    "count": 9
+  },
+  {
+    "feature": "worst radius",
+    "bin_left": 1.9317439794540405,
+    "bin_right": 2.184192657470703,
+    "bin_center": 2.0579683780670166,
+    "bin_width": 0.2524486780166626,
+    "count": 7
+  },
+  {
+    "feature": "worst radius",
+    "bin_left": 2.184192657470703,
+    "bin_right": 2.4366416931152344,
+    "bin_center": 2.3104171752929688,
+    "bin_width": 0.25244903564453125,
+    "count": 1
+  },
+  {
+    "feature": "worst radius",
+    "bin_left": 2.4366416931152344,
+    "bin_right": 2.6890907287597656,
+    "bin_center": 2.5628662109375,
+    "bin_width": 0.25244903564453125,
+    "count": 3
+  },
+  {
+    "feature": "worst radius",
+    "bin_left": 2.6890907287597656,
+    "bin_right": 2.941539764404297,
+    "bin_center": 2.8153152465820312,
+    "bin_width": 0.25244903564453125,
+    "count": 3
+  },
+  {
+    "feature": "worst radius",
+    "bin_left": 2.941539764404297,
+    "bin_right": 3.19398832321167,
+    "bin_center": 3.0677640438079834,
+    "bin_width": 0.25244855880737305,
+    "count": 3
+  },
+  {
+    "feature": "worst radius",
+    "bin_left": 3.19398832321167,
+    "bin_right": 3.446437358856201,
+    "bin_center": 3.3202128410339355,
+    "bin_width": 0.25244903564453125,
+    "count": 1
+  },
+  {
+    "feature": "worst texture",
+    "bin_left": -2.2821848392486572,
+    "bin_right": -1.9772751331329346,
+    "bin_center": -2.129729986190796,
+    "bin_width": 0.30490970611572266,
+    "count": 3
+  },
+  {
+    "feature": "worst texture",
+    "bin_left": -1.9772751331329346,
+    "bin_right": -1.6723655462265015,
+    "bin_center": -1.8248202800750732,
+    "bin_width": 0.3049095869064331,
+    "count": 5
+  },
+  {
+    "feature": "worst texture",
+    "bin_left": -1.6723655462265015,
+    "bin_right": -1.3674559593200684,
+    "bin_center": -1.5199108123779297,
+    "bin_width": 0.3049095869064331,
+    "count": 15
+  },
+  {
+    "feature": "worst texture",
+    "bin_left": -1.3674559593200684,
+    "bin_right": -1.0625462532043457,
+    "bin_center": -1.215001106262207,
+    "bin_width": 0.30490970611572266,
+    "count": 24
+  },
+  {
+    "feature": "worst texture",
+    "bin_left": -1.0625462532043457,
+    "bin_right": -0.757636547088623,
+    "bin_center": -0.9100914001464844,
+    "bin_width": 0.30490970611572266,
+    "count": 32
+  },
+  {
+    "feature": "worst texture",
+    "bin_left": -0.757636547088623,
+    "bin_right": -0.45272696018218994,
+    "bin_center": -0.6051817536354065,
+    "bin_width": 0.3049095869064331,
+    "count": 47
+  },
+  {
+    "feature": "worst texture",
+    "bin_left": -0.45272696018218994,
+    "bin_right": -0.14781737327575684,
+    "bin_center": -0.3002721667289734,
+    "bin_width": 0.3049095869064331,
+    "count": 33
+  },
+  {
+    "feature": "worst texture",
+    "bin_left": -0.14781737327575684,
+    "bin_right": 0.15709233283996582,
+    "bin_center": 0.004637479782104492,
+    "bin_width": 0.30490970611572266,
+    "count": 43
+  },
+  {
+    "feature": "worst texture",
+    "bin_left": 0.15709233283996582,
+    "bin_right": 0.4620020389556885,
+    "bin_center": 0.30954718589782715,
+    "bin_width": 0.30490970611572266,
+    "count": 36
+  },
+  {
+    "feature": "worst texture",
+    "bin_left": 0.4620020389556885,
+    "bin_right": 0.7669117450714111,
+    "bin_center": 0.6144568920135498,
+    "bin_width": 0.30490970611572266,
+    "count": 22
+  },
+  {
+    "feature": "worst texture",
+    "bin_left": 0.7669117450714111,
+    "bin_right": 1.0718212127685547,
+    "bin_center": 0.9193664789199829,
+    "bin_width": 0.30490946769714355,
+    "count": 31
+  },
+  {
+    "feature": "worst texture",
+    "bin_left": 1.0718212127685547,
+    "bin_right": 1.3767309188842773,
+    "bin_center": 1.224276065826416,
+    "bin_width": 0.30490970611572266,
+    "count": 23
+  },
+  {
+    "feature": "worst texture",
+    "bin_left": 1.3767309188842773,
+    "bin_right": 1.681640625,
+    "bin_center": 1.5291857719421387,
+    "bin_width": 0.30490970611572266,
+    "count": 11
+  },
+  {
+    "feature": "worst texture",
+    "bin_left": 1.681640625,
+    "bin_right": 1.9865500926971436,
+    "bin_center": 1.8340953588485718,
+    "bin_width": 0.30490946769714355,
+    "count": 5
+  },
+  {
+    "feature": "worst texture",
+    "bin_left": 1.9865500926971436,
+    "bin_right": 2.291459798812866,
+    "bin_center": 2.139004945755005,
+    "bin_width": 0.30490970611572266,
+    "count": 4
+  },
+  {
+    "feature": "worst texture",
+    "bin_left": 2.291459798812866,
+    "bin_right": 2.596369504928589,
+    "bin_center": 2.4439146518707275,
+    "bin_width": 0.30490970611572266,
+    "count": 4
+  },
+  {
+    "feature": "worst texture",
+    "bin_left": 2.596369504928589,
+    "bin_right": 2.9012792110443115,
+    "bin_center": 2.74882435798645,
+    "bin_width": 0.30490970611572266,
+    "count": 0
+  },
+  {
+    "feature": "worst texture",
+    "bin_left": 2.9012792110443115,
+    "bin_right": 3.206188917160034,
+    "bin_center": 3.053734064102173,
+    "bin_width": 0.30490970611572266,
+    "count": 1
+  },
+  {
+    "feature": "worst texture",
+    "bin_left": 3.206188917160034,
+    "bin_right": 3.511098623275757,
+    "bin_center": 3.3586437702178955,
+    "bin_width": 0.30490970611572266,
+    "count": 1
+  },
+  {
+    "feature": "worst texture",
+    "bin_left": 3.511098623275757,
+    "bin_right": 3.8160083293914795,
+    "bin_center": 3.663553476333618,
+    "bin_width": 0.30490970611572266,
+    "count": 1
+  },
+  {
+    "feature": "worst perimeter",
+    "bin_left": -1.604276418685913,
+    "bin_right": -1.3596605062484741,
+    "bin_center": -1.4819684028625488,
+    "bin_width": 0.24461591243743896,
+    "count": 5
+  },
+  {
+    "feature": "worst perimeter",
+    "bin_left": -1.3596605062484741,
+    "bin_right": -1.1150444746017456,
+    "bin_center": -1.2373524904251099,
+    "bin_width": 0.24461603164672852,
+    "count": 19
+  },
+  {
+    "feature": "worst perimeter",
+    "bin_left": -1.1150444746017456,
+    "bin_right": -0.8704285621643066,
+    "bin_center": -0.9927365183830261,
+    "bin_width": 0.24461591243743896,
+    "count": 31
+  },
+  {
+    "feature": "worst perimeter",
+    "bin_left": -0.8704285621643066,
+    "bin_right": -0.6258125901222229,
+    "bin_center": -0.7481205463409424,
+    "bin_width": 0.24461597204208374,
+    "count": 55
+  },
+  {
+    "feature": "worst perimeter",
+    "bin_left": -0.6258125901222229,
+    "bin_right": -0.38119661808013916,
+    "bin_center": -0.5035046339035034,
+    "bin_width": 0.24461597204208374,
+    "count": 46
+  },
+  {
+    "feature": "worst perimeter",
+    "bin_left": -0.38119661808013916,
+    "bin_right": -0.1365807056427002,
+    "bin_center": -0.2588886618614197,
+    "bin_width": 0.24461591243743896,
+    "count": 38
+  },
+  {
+    "feature": "worst perimeter",
+    "bin_left": -0.1365807056427002,
+    "bin_right": 0.10803532600402832,
+    "bin_center": -0.014272689819335938,
+    "bin_width": 0.24461603164672852,
+    "count": 22
+  },
+  {
+    "feature": "worst perimeter",
+    "bin_left": 0.10803532600402832,
+    "bin_right": 0.3526512384414673,
+    "bin_center": 0.2303432822227478,
+    "bin_width": 0.24461591243743896,
+    "count": 23
+  },
+  {
+    "feature": "worst perimeter",
+    "bin_left": 0.3526512384414673,
+    "bin_right": 0.5972671508789062,
+    "bin_center": 0.47495919466018677,
+    "bin_width": 0.24461591243743896,
+    "count": 15
+  },
+  {
+    "feature": "worst perimeter",
+    "bin_left": 0.5972671508789062,
+    "bin_right": 0.8418831825256348,
+    "bin_center": 0.7195751667022705,
+    "bin_width": 0.24461603164672852,
+    "count": 19
+  },
+  {
+    "feature": "worst perimeter",
+    "bin_left": 0.8418831825256348,
+    "bin_right": 1.0864992141723633,
+    "bin_center": 0.964191198348999,
+    "bin_width": 0.24461603164672852,
+    "count": 17
+  },
+  {
+    "feature": "worst perimeter",
+    "bin_left": 1.0864992141723633,
+    "bin_right": 1.3311150074005127,
+    "bin_center": 1.208807110786438,
+    "bin_width": 0.24461579322814941,
+    "count": 10
+  },
+  {
+    "feature": "worst perimeter",
+    "bin_left": 1.3311150074005127,
+    "bin_right": 1.5757310390472412,
+    "bin_center": 1.453423023223877,
+    "bin_width": 0.24461603164672852,
+    "count": 10
+  },
+  {
+    "feature": "worst perimeter",
+    "bin_left": 1.5757310390472412,
+    "bin_right": 1.8203470706939697,
+    "bin_center": 1.6980390548706055,
+    "bin_width": 0.24461603164672852,
+    "count": 12
+  },
+  {
+    "feature": "worst perimeter",
+    "bin_left": 1.8203470706939697,
+    "bin_right": 2.064962863922119,
+    "bin_center": 1.9426549673080444,
+    "bin_width": 0.24461579322814941,
+    "count": 4
+  },
+  {
+    "feature": "worst perimeter",
+    "bin_left": 2.064962863922119,
+    "bin_right": 2.3095788955688477,
+    "bin_center": 2.1872708797454834,
+    "bin_width": 0.24461603164672852,
+    "count": 3
+  },
+  {
+    "feature": "worst perimeter",
+    "bin_left": 2.3095788955688477,
+    "bin_right": 2.554194688796997,
+    "bin_center": 2.431886672973633,
+    "bin_width": 0.24461579322814941,
+    "count": 4
+  },
+  {
+    "feature": "worst perimeter",
+    "bin_left": 2.554194688796997,
+    "bin_right": 2.7988107204437256,
+    "bin_center": 2.6765027046203613,
+    "bin_width": 0.24461603164672852,
+    "count": 1
+  },
+  {
+    "feature": "worst perimeter",
+    "bin_left": 2.7988107204437256,
+    "bin_right": 3.043426752090454,
+    "bin_center": 2.92111873626709,
+    "bin_width": 0.24461603164672852,
+    "count": 4
+  },
+  {
+    "feature": "worst perimeter",
+    "bin_left": 3.043426752090454,
+    "bin_right": 3.2880427837371826,
+    "bin_center": 3.1657347679138184,
+    "bin_width": 0.24461603164672852,
+    "count": 3
+  },
+  {
+    "feature": "worst area",
+    "bin_left": -1.1909018754959106,
+    "bin_right": -0.8967843055725098,
+    "bin_center": -1.0438430309295654,
+    "bin_width": 0.2941175699234009,
+    "count": 35
+  },
+  {
+    "feature": "worst area",
+    "bin_left": -0.8967843055725098,
+    "bin_right": -0.6026666760444641,
+    "bin_center": -0.7497254610061646,
+    "bin_width": 0.29411762952804565,
+    "count": 72
+  },
+  {
+    "feature": "worst area",
+    "bin_left": -0.6026666760444641,
+    "bin_right": -0.30854904651641846,
+    "bin_center": -0.4556078612804413,
+    "bin_width": 0.29411762952804565,
+    "count": 71
+  },
+  {
+    "feature": "worst area",
+    "bin_left": -0.30854904651641846,
+    "bin_right": -0.014431476593017578,
+    "bin_center": -0.16149026155471802,
+    "bin_width": 0.2941175699234009,
+    "count": 47
+  },
+  {
+    "feature": "worst area",
+    "bin_left": -0.014431476593017578,
+    "bin_right": 0.2796860933303833,
+    "bin_center": 0.13262730836868286,
+    "bin_width": 0.2941175699234009,
+    "count": 20
+  },
+  {
+    "feature": "worst area",
+    "bin_left": 0.2796860933303833,
+    "bin_right": 0.5738037824630737,
+    "bin_center": 0.4267449378967285,
+    "bin_width": 0.29411768913269043,
+    "count": 16
+  },
+  {
+    "feature": "worst area",
+    "bin_left": 0.5738037824630737,
+    "bin_right": 0.8679212331771851,
+    "bin_center": 0.7208625078201294,
+    "bin_width": 0.29411745071411133,
+    "count": 23
+  },
+  {
+    "feature": "worst area",
+    "bin_left": 0.8679212331771851,
+    "bin_right": 1.1620389223098755,
+    "bin_center": 1.0149800777435303,
+    "bin_width": 0.29411768913269043,
+    "count": 12
+  },
+  {
+    "feature": "worst area",
+    "bin_left": 1.1620389223098755,
+    "bin_right": 1.456156611442566,
+    "bin_center": 1.3090977668762207,
+    "bin_width": 0.29411768913269043,
+    "count": 13
+  },
+  {
+    "feature": "worst area",
+    "bin_left": 1.456156611442566,
+    "bin_right": 1.7502740621566772,
+    "bin_center": 1.6032153367996216,
+    "bin_width": 0.29411745071411133,
+    "count": 11
+  },
+  {
+    "feature": "worst area",
+    "bin_left": 1.7502740621566772,
+    "bin_right": 2.044391632080078,
+    "bin_center": 1.8973329067230225,
+    "bin_width": 0.2941175699234009,
+    "count": 6
+  },
+  {
+    "feature": "worst area",
+    "bin_left": 2.044391632080078,
+    "bin_right": 2.3385095596313477,
+    "bin_center": 2.191450595855713,
+    "bin_width": 0.29411792755126953,
+    "count": 4
+  },
+  {
+    "feature": "worst area",
+    "bin_left": 2.3385095596313477,
+    "bin_right": 2.632627010345459,
+    "bin_center": 2.4855682849884033,
+    "bin_width": 0.29411745071411133,
+    "count": 1
+  },
+  {
+    "feature": "worst area",
+    "bin_left": 2.632627010345459,
+    "bin_right": 2.9267444610595703,
+    "bin_center": 2.7796857357025146,
+    "bin_width": 0.29411745071411133,
+    "count": 2
+  },
+  {
+    "feature": "worst area",
+    "bin_left": 2.9267444610595703,
+    "bin_right": 3.22086238861084,
+    "bin_center": 3.073803424835205,
+    "bin_width": 0.29411792755126953,
+    "count": 3
+  },
+  {
+    "feature": "worst area",
+    "bin_left": 3.22086238861084,
+    "bin_right": 3.514979839324951,
+    "bin_center": 3.3679211139678955,
+    "bin_width": 0.29411745071411133,
+    "count": 1
+  },
+  {
+    "feature": "worst area",
+    "bin_left": 3.514979839324951,
+    "bin_right": 3.8090972900390625,
+    "bin_center": 3.662038564682007,
+    "bin_width": 0.29411745071411133,
+    "count": 2
+  },
+  {
+    "feature": "worst area",
+    "bin_left": 3.8090972900390625,
+    "bin_right": 4.103215217590332,
+    "bin_center": 3.9561562538146973,
+    "bin_width": 0.29411792755126953,
+    "count": 0
+  },
+  {
+    "feature": "worst area",
+    "bin_left": 4.103215217590332,
+    "bin_right": 4.397332668304443,
+    "bin_center": 4.250273704528809,
+    "bin_width": 0.29411745071411133,
+    "count": 1
+  },
+  {
+    "feature": "worst area",
+    "bin_left": 4.397332668304443,
+    "bin_right": 4.691450119018555,
+    "bin_center": 4.544391632080078,
+    "bin_width": 0.29411745071411133,
+    "count": 1
+  },
+  {
+    "feature": "worst smoothness",
+    "bin_left": -2.570058584213257,
+    "bin_right": -2.2481303215026855,
+    "bin_center": -2.4090943336486816,
+    "bin_width": 0.3219282627105713,
+    "count": 1
+  },
+  {
+    "feature": "worst smoothness",
+    "bin_left": -2.2481303215026855,
+    "bin_right": -1.9262019395828247,
+    "bin_center": -2.0871660709381104,
+    "bin_width": 0.32192838191986084,
+    "count": 1
+  },
+  {
+    "feature": "worst smoothness",
+    "bin_left": -1.9262019395828247,
+    "bin_right": -1.6042735576629639,
+    "bin_center": -1.765237808227539,
+    "bin_width": 0.32192838191986084,
+    "count": 11
+  },
+  {
+    "feature": "worst smoothness",
+    "bin_left": -1.6042735576629639,
+    "bin_right": -1.2823452949523926,
+    "bin_center": -1.4433094263076782,
+    "bin_width": 0.3219282627105713,
+    "count": 21
+  },
+  {
+    "feature": "worst smoothness",
+    "bin_left": -1.2823452949523926,
+    "bin_right": -0.9604170322418213,
+    "bin_center": -1.121381163597107,
+    "bin_width": 0.3219282627105713,
+    "count": 26
+  },
+  {
+    "feature": "worst smoothness",
+    "bin_left": -0.9604170322418213,
+    "bin_right": -0.6384886503219604,
+    "bin_center": -0.7994528412818909,
+    "bin_width": 0.32192838191986084,
+    "count": 32
+  },
+  {
+    "feature": "worst smoothness",
+    "bin_left": -0.6384886503219604,
+    "bin_right": -0.3165602684020996,
+    "bin_center": -0.47752445936203003,
+    "bin_width": 0.32192838191986084,
+    "count": 40
+  },
+  {
+    "feature": "worst smoothness",
+    "bin_left": -0.3165602684020996,
+    "bin_right": 0.00536799430847168,
+    "bin_center": -0.15559613704681396,
+    "bin_width": 0.3219282627105713,
+    "count": 49
+  },
+  {
+    "feature": "worst smoothness",
+    "bin_left": 0.00536799430847168,
+    "bin_right": 0.32729625701904297,
+    "bin_center": 0.16633212566375732,
+    "bin_width": 0.3219282627105713,
+    "count": 37
+  },
+  {
+    "feature": "worst smoothness",
+    "bin_left": 0.32729625701904297,
+    "bin_right": 0.6492245197296143,
+    "bin_center": 0.4882603883743286,
+    "bin_width": 0.3219282627105713,
+    "count": 43
+  },
+  {
+    "feature": "worst smoothness",
+    "bin_left": 0.6492245197296143,
+    "bin_right": 0.9711530208587646,
+    "bin_center": 0.8101887702941895,
+    "bin_width": 0.3219285011291504,
+    "count": 27
+  },
+  {
+    "feature": "worst smoothness",
+    "bin_left": 0.9711530208587646,
+    "bin_right": 1.293081283569336,
+    "bin_center": 1.1321171522140503,
+    "bin_width": 0.3219282627105713,
+    "count": 18
+  },
+  {
+    "feature": "worst smoothness",
+    "bin_left": 1.293081283569336,
+    "bin_right": 1.6150095462799072,
+    "bin_center": 1.4540454149246216,
+    "bin_width": 0.3219282627105713,
+    "count": 15
+  },
+  {
+    "feature": "worst smoothness",
+    "bin_left": 1.6150095462799072,
+    "bin_right": 1.9369380474090576,
+    "bin_center": 1.7759737968444824,
+    "bin_width": 0.3219285011291504,
+    "count": 8
+  },
+  {
+    "feature": "worst smoothness",
+    "bin_left": 1.9369380474090576,
+    "bin_right": 2.25886607170105,
+    "bin_center": 2.0979020595550537,
+    "bin_width": 0.3219280242919922,
+    "count": 3
+  },
+  {
+    "feature": "worst smoothness",
+    "bin_left": 2.25886607170105,
+    "bin_right": 2.5807945728302,
+    "bin_center": 2.419830322265625,
+    "bin_width": 0.3219285011291504,
+    "count": 6
+  },
+  {
+    "feature": "worst smoothness",
+    "bin_left": 2.5807945728302,
+    "bin_right": 2.9027230739593506,
+    "bin_center": 2.7417588233947754,
+    "bin_width": 0.3219285011291504,
+    "count": 0
+  },
+  {
+    "feature": "worst smoothness",
+    "bin_left": 2.9027230739593506,
+    "bin_right": 3.2246510982513428,
+    "bin_center": 3.0636870861053467,
+    "bin_width": 0.3219280242919922,
+    "count": 0
+  },
+  {
+    "feature": "worst smoothness",
+    "bin_left": 3.2246510982513428,
+    "bin_right": 3.546579599380493,
+    "bin_center": 3.385615348815918,
+    "bin_width": 0.3219285011291504,
+    "count": 1
+  },
+  {
+    "feature": "worst smoothness",
+    "bin_left": 3.546579599380493,
+    "bin_right": 3.8685081005096436,
+    "bin_center": 3.7075438499450684,
+    "bin_width": 0.3219285011291504,
+    "count": 2
+  },
+  {
+    "feature": "worst compactness",
+    "bin_left": -1.4240363836288452,
+    "bin_right": -1.089791178703308,
+    "bin_center": -1.2569137811660767,
+    "bin_width": 0.3342452049255371,
+    "count": 24
+  },
+  {
+    "feature": "worst compactness",
+    "bin_left": -1.089791178703308,
+    "bin_right": -0.7555459141731262,
+    "bin_center": -0.9226685762405396,
+    "bin_width": 0.3342452645301819,
+    "count": 48
+  },
+  {
+    "feature": "worst compactness",
+    "bin_left": -0.7555459141731262,
+    "bin_right": -0.42130064964294434,
+    "bin_center": -0.5884232521057129,
+    "bin_width": 0.3342452645301819,
+    "count": 68
+  },
+  {
+    "feature": "worst compactness",
+    "bin_left": -0.42130064964294434,
+    "bin_right": -0.08705544471740723,
+    "bin_center": -0.2541780471801758,
+    "bin_width": 0.3342452049255371,
+    "count": 56
+  },
+  {
+    "feature": "worst compactness",
+    "bin_left": -0.08705544471740723,
+    "bin_right": 0.24718976020812988,
+    "bin_center": 0.08006715774536133,
+    "bin_width": 0.3342452049255371,
+    "count": 38
+  },
+  {
+    "feature": "worst compactness",
+    "bin_left": 0.24718976020812988,
+    "bin_right": 0.5814350843429565,
+    "bin_center": 0.4143124222755432,
+    "bin_width": 0.33424532413482666,
+    "count": 26
+  },
+  {
+    "feature": "worst compactness",
+    "bin_left": 0.5814350843429565,
+    "bin_right": 0.9156802892684937,
+    "bin_center": 0.7485576868057251,
+    "bin_width": 0.3342452049255371,
+    "count": 28
+  },
+  {
+    "feature": "worst compactness",
+    "bin_left": 0.9156802892684937,
+    "bin_right": 1.2499254941940308,
+    "bin_center": 1.0828028917312622,
+    "bin_width": 0.3342452049255371,
+    "count": 23
+  },
+  {
+    "feature": "worst compactness",
+    "bin_left": 1.2499254941940308,
+    "bin_right": 1.5841706991195679,
+    "bin_center": 1.4170480966567993,
+    "bin_width": 0.3342452049255371,
+    "count": 7
+  },
+  {
+    "feature": "worst compactness",
+    "bin_left": 1.5841706991195679,
+    "bin_right": 1.918415904045105,
+    "bin_center": 1.7512933015823364,
+    "bin_width": 0.3342452049255371,
+    "count": 7
+  },
+  {
+    "feature": "worst compactness",
+    "bin_left": 1.918415904045105,
+    "bin_right": 2.2526612281799316,
+    "bin_center": 2.085538625717163,
+    "bin_width": 0.33424532413482666,
+    "count": 5
+  },
+  {
+    "feature": "worst compactness",
+    "bin_left": 2.2526612281799316,
+    "bin_right": 2.5869064331054688,
+    "bin_center": 2.4197838306427,
+    "bin_width": 0.3342452049255371,
+    "count": 2
+  },
+  {
+    "feature": "worst compactness",
+    "bin_left": 2.5869064331054688,
+    "bin_right": 2.921151638031006,
+    "bin_center": 2.7540290355682373,
+    "bin_width": 0.3342452049255371,
+    "count": 2
+  },
+  {
+    "feature": "worst compactness",
+    "bin_left": 2.921151638031006,
+    "bin_right": 3.255396842956543,
+    "bin_center": 3.0882742404937744,
+    "bin_width": 0.3342452049255371,
+    "count": 3
+  },
+  {
+    "feature": "worst compactness",
+    "bin_left": 3.255396842956543,
+    "bin_right": 3.58964204788208,
+    "bin_center": 3.4225194454193115,
+    "bin_width": 0.3342452049255371,
+    "count": 0
+  },
+  {
+    "feature": "worst compactness",
+    "bin_left": 3.58964204788208,
+    "bin_right": 3.923887252807617,
+    "bin_center": 3.7567646503448486,
+    "bin_width": 0.3342452049255371,
+    "count": 0
+  },
+  {
+    "feature": "worst compactness",
+    "bin_left": 3.923887252807617,
+    "bin_right": 4.258132457733154,
+    "bin_center": 4.091010093688965,
+    "bin_width": 0.3342452049255371,
+    "count": 2
+  },
+  {
+    "feature": "worst compactness",
+    "bin_left": 4.258132457733154,
+    "bin_right": 4.592377662658691,
+    "bin_center": 4.425254821777344,
+    "bin_width": 0.3342452049255371,
+    "count": 1
+  },
+  {
+    "feature": "worst compactness",
+    "bin_left": 4.592377662658691,
+    "bin_right": 4.9266228675842285,
+    "bin_center": 4.759500503540039,
+    "bin_width": 0.3342452049255371,
+    "count": 0
+  },
+  {
+    "feature": "worst compactness",
+    "bin_left": 4.9266228675842285,
+    "bin_right": 5.260868072509766,
+    "bin_center": 5.093745231628418,
+    "bin_width": 0.3342452049255371,
+    "count": 1
+  },
+  {
+    "feature": "worst concavity",
+    "bin_left": -1.2837661504745483,
+    "bin_right": -0.9810114502906799,
+    "bin_center": -1.1323888301849365,
+    "bin_width": 0.3027547001838684,
+    "count": 48
+  },
+  {
+    "feature": "worst concavity",
+    "bin_left": -0.9810114502906799,
+    "bin_right": -0.6782567501068115,
+    "bin_center": -0.8296340703964233,
+    "bin_width": 0.3027547001838684,
+    "count": 47
+  },
+  {
+    "feature": "worst concavity",
+    "bin_left": -0.6782567501068115,
+    "bin_right": -0.3755020499229431,
+    "bin_center": -0.5268794298171997,
+    "bin_width": 0.3027547001838684,
+    "count": 60
+  },
+  {
+    "feature": "worst concavity",
+    "bin_left": -0.3755020499229431,
+    "bin_right": -0.07274734973907471,
+    "bin_center": -0.2241246998310089,
+    "bin_width": 0.3027547001838684,
+    "count": 35
+  },
+  {
+    "feature": "worst concavity",
+    "bin_left": -0.07274734973907471,
+    "bin_right": 0.23000729084014893,
+    "bin_center": 0.07862997055053711,
+    "bin_width": 0.30275464057922363,
+    "count": 27
+  },
+  {
+    "feature": "worst concavity",
+    "bin_left": 0.23000729084014893,
+    "bin_right": 0.5327620506286621,
+    "bin_center": 0.3813846707344055,
+    "bin_width": 0.3027547597885132,
+    "count": 36
+  },
+  {
+    "feature": "worst concavity",
+    "bin_left": 0.5327620506286621,
+    "bin_right": 0.8355168104171753,
+    "bin_center": 0.6841394305229187,
+    "bin_width": 0.3027547597885132,
+    "count": 30
+  },
+  {
+    "feature": "worst concavity",
+    "bin_left": 0.8355168104171753,
+    "bin_right": 1.138271450996399,
+    "bin_center": 0.9868941307067871,
+    "bin_width": 0.30275464057922363,
+    "count": 18
+  },
+  {
+    "feature": "worst concavity",
+    "bin_left": 1.138271450996399,
+    "bin_right": 1.4410260915756226,
+    "bin_center": 1.2896487712860107,
+    "bin_width": 0.30275464057922363,
+    "count": 10
+  },
+  {
+    "feature": "worst concavity",
+    "bin_left": 1.4410260915756226,
+    "bin_right": 1.7437807321548462,
+    "bin_center": 1.5924034118652344,
+    "bin_width": 0.30275464057922363,
+    "count": 10
+  },
+  {
+    "feature": "worst concavity",
+    "bin_left": 1.7437807321548462,
+    "bin_right": 2.0465354919433594,
+    "bin_center": 1.895158052444458,
+    "bin_width": 0.3027547597885132,
+    "count": 6
+  },
+  {
+    "feature": "worst concavity",
+    "bin_left": 2.0465354919433594,
+    "bin_right": 2.349290370941162,
+    "bin_center": 2.1979129314422607,
+    "bin_width": 0.30275487899780273,
+    "count": 5
+  },
+  {
+    "feature": "worst concavity",
+    "bin_left": 2.349290370941162,
+    "bin_right": 2.6520447731018066,
+    "bin_center": 2.5006675720214844,
+    "bin_width": 0.30275440216064453,
+    "count": 1
+  },
+  {
+    "feature": "worst concavity",
+    "bin_left": 2.6520447731018066,
+    "bin_right": 2.9547996520996094,
+    "bin_center": 2.803422212600708,
+    "bin_width": 0.30275487899780273,
+    "count": 2
+  },
+  {
+    "feature": "worst concavity",
+    "bin_left": 2.9547996520996094,
+    "bin_right": 3.257554054260254,
+    "bin_center": 3.1061768531799316,
+    "bin_width": 0.30275440216064453,
+    "count": 3
+  },
+  {
+    "feature": "worst concavity",
+    "bin_left": 3.257554054260254,
+    "bin_right": 3.5603089332580566,
+    "bin_center": 3.4089314937591553,
+    "bin_width": 0.30275487899780273,
+    "count": 1
+  },
+  {
+    "feature": "worst concavity",
+    "bin_left": 3.5603089332580566,
+    "bin_right": 3.8630638122558594,
+    "bin_center": 3.711686372756958,
+    "bin_width": 0.30275487899780273,
+    "count": 0
+  },
+  {
+    "feature": "worst concavity",
+    "bin_left": 3.8630638122558594,
+    "bin_right": 4.165818214416504,
+    "bin_center": 4.014441013336182,
+    "bin_width": 0.30275440216064453,
+    "count": 1
+  },
+  {
+    "feature": "worst concavity",
+    "bin_left": 4.165818214416504,
+    "bin_right": 4.468573093414307,
+    "bin_center": 4.317195892333984,
+    "bin_width": 0.30275487899780273,
+    "count": 0
+  },
+  {
+    "feature": "worst concavity",
+    "bin_left": 4.468573093414307,
+    "bin_right": 4.771327972412109,
+    "bin_center": 4.619950294494629,
+    "bin_width": 0.30275487899780273,
+    "count": 1
+  },
+  {
+    "feature": "worst concave points",
+    "bin_left": -1.7363355159759521,
+    "bin_right": -1.5141631364822388,
+    "bin_center": -1.6252493858337402,
+    "bin_width": 0.22217237949371338,
+    "count": 13
+  },
+  {
+    "feature": "worst concave points",
+    "bin_left": -1.5141631364822388,
+    "bin_right": -1.2919907569885254,
+    "bin_center": -1.4030768871307373,
+    "bin_width": 0.22217237949371338,
+    "count": 14
+  },
+  {
+    "feature": "worst concave points",
+    "bin_left": -1.2919907569885254,
+    "bin_right": -1.0698184967041016,
+    "bin_center": -1.1809046268463135,
+    "bin_width": 0.22217226028442383,
+    "count": 14
+  },
+  {
+    "feature": "worst concave points",
+    "bin_left": -1.0698184967041016,
+    "bin_right": -0.8476461172103882,
+    "bin_center": -0.9587323069572449,
+    "bin_width": 0.22217237949371338,
+    "count": 24
+  },
+  {
+    "feature": "worst concave points",
+    "bin_left": -0.8476461172103882,
+    "bin_right": -0.6254737377166748,
+    "bin_center": -0.7365599274635315,
+    "bin_width": 0.22217237949371338,
+    "count": 44
+  },
+  {
+    "feature": "worst concave points",
+    "bin_left": -0.6254737377166748,
+    "bin_right": -0.403301477432251,
+    "bin_center": -0.5143876075744629,
+    "bin_width": 0.22217226028442383,
+    "count": 41
+  },
+  {
+    "feature": "worst concave points",
+    "bin_left": -0.403301477432251,
+    "bin_right": -0.1811290979385376,
+    "bin_center": -0.2922152876853943,
+    "bin_width": 0.22217237949371338,
+    "count": 26
+  },
+  {
+    "feature": "worst concave points",
+    "bin_left": -0.1811290979385376,
+    "bin_right": 0.04104328155517578,
+    "bin_center": -0.07004290819168091,
+    "bin_width": 0.22217237949371338,
+    "count": 24
+  },
+  {
+    "feature": "worst concave points",
+    "bin_left": 0.04104328155517578,
+    "bin_right": 0.26321566104888916,
+    "bin_center": 0.15212947130203247,
+    "bin_width": 0.22217237949371338,
+    "count": 12
+  },
+  {
+    "feature": "worst concave points",
+    "bin_left": 0.26321566104888916,
+    "bin_right": 0.48538804054260254,
+    "bin_center": 0.37430185079574585,
+    "bin_width": 0.22217237949371338,
+    "count": 20
+  },
+  {
+    "feature": "worst concave points",
+    "bin_left": 0.48538804054260254,
+    "bin_right": 0.7075603008270264,
+    "bin_center": 0.5964741706848145,
+    "bin_width": 0.22217226028442383,
+    "count": 22
+  },
+  {
+    "feature": "worst concave points",
+    "bin_left": 0.7075603008270264,
+    "bin_right": 0.9297325611114502,
+    "bin_center": 0.8186464309692383,
+    "bin_width": 0.22217226028442383,
+    "count": 13
+  },
+  {
+    "feature": "worst concave points",
+    "bin_left": 0.9297325611114502,
+    "bin_right": 1.1519050598144531,
+    "bin_center": 1.0408188104629517,
+    "bin_width": 0.22217249870300293,
+    "count": 18
+  },
+  {
+    "feature": "worst concave points",
+    "bin_left": 1.1519050598144531,
+    "bin_right": 1.374077320098877,
+    "bin_center": 1.262991189956665,
+    "bin_width": 0.22217226028442383,
+    "count": 17
+  },
+  {
+    "feature": "worst concave points",
+    "bin_left": 1.374077320098877,
+    "bin_right": 1.5962498188018799,
+    "bin_center": 1.4851635694503784,
+    "bin_width": 0.22217249870300293,
+    "count": 16
+  },
+  {
+    "feature": "worst concave points",
+    "bin_left": 1.5962498188018799,
+    "bin_right": 1.8184220790863037,
+    "bin_center": 1.7073359489440918,
+    "bin_width": 0.22217226028442383,
+    "count": 6
+  },
+  {
+    "feature": "worst concave points",
+    "bin_left": 1.8184220790863037,
+    "bin_right": 2.0405943393707275,
+    "bin_center": 1.9295082092285156,
+    "bin_width": 0.22217226028442383,
+    "count": 5
+  },
+  {
+    "feature": "worst concave points",
+    "bin_left": 2.0405943393707275,
+    "bin_right": 2.2627668380737305,
+    "bin_center": 2.1516804695129395,
+    "bin_width": 0.22217249870300293,
+    "count": 8
+  },
+  {
+    "feature": "worst concave points",
+    "bin_left": 2.2627668380737305,
+    "bin_right": 2.4849393367767334,
+    "bin_center": 2.3738532066345215,
+    "bin_width": 0.22217249870300293,
+    "count": 2
+  },
+  {
+    "feature": "worst concave points",
+    "bin_left": 2.4849393367767334,
+    "bin_right": 2.7071115970611572,
+    "bin_center": 2.5960254669189453,
+    "bin_width": 0.22217226028442383,
+    "count": 2
+  },
+  {
+    "feature": "worst symmetry",
+    "bin_left": -2.0733063220977783,
+    "bin_right": -1.679274320602417,
+    "bin_center": -1.8762903213500977,
+    "bin_width": 0.39403200149536133,
+    "count": 6
+  },
+  {
+    "feature": "worst symmetry",
+    "bin_left": -1.679274320602417,
+    "bin_right": -1.2852421998977661,
+    "bin_center": -1.4822583198547363,
+    "bin_width": 0.3940321207046509,
+    "count": 11
+  },
+  {
+    "feature": "worst symmetry",
+    "bin_left": -1.2852421998977661,
+    "bin_right": -0.8912100791931152,
+    "bin_center": -1.088226079940796,
+    "bin_width": 0.3940321207046509,
+    "count": 26
+  },
+  {
+    "feature": "worst symmetry",
+    "bin_left": -0.8912100791931152,
+    "bin_right": -0.4971780776977539,
+    "bin_center": -0.6941940784454346,
+    "bin_width": 0.39403200149536133,
+    "count": 62
+  },
+  {
+    "feature": "worst symmetry",
+    "bin_left": -0.4971780776977539,
+    "bin_right": -0.10314607620239258,
+    "bin_center": -0.30016207695007324,
+    "bin_width": 0.39403200149536133,
+    "count": 77
+  },
+  {
+    "feature": "worst symmetry",
+    "bin_left": -0.10314607620239258,
+    "bin_right": 0.29088616371154785,
+    "bin_center": 0.09387004375457764,
+    "bin_width": 0.39403223991394043,
+    "count": 58
+  },
+  {
+    "feature": "worst symmetry",
+    "bin_left": 0.29088616371154785,
+    "bin_right": 0.6849181652069092,
+    "bin_center": 0.4879021644592285,
+    "bin_width": 0.39403200149536133,
+    "count": 47
+  },
+  {
+    "feature": "worst symmetry",
+    "bin_left": 0.6849181652069092,
+    "bin_right": 1.0789501667022705,
+    "bin_center": 0.8819341659545898,
+    "bin_width": 0.39403200149536133,
+    "count": 19
+  },
+  {
+    "feature": "worst symmetry",
+    "bin_left": 1.0789501667022705,
+    "bin_right": 1.4729821681976318,
+    "bin_center": 1.2759661674499512,
+    "bin_width": 0.39403200149536133,
+    "count": 13
+  },
+  {
+    "feature": "worst symmetry",
+    "bin_left": 1.4729821681976318,
+    "bin_right": 1.8670141696929932,
+    "bin_center": 1.6699981689453125,
+    "bin_width": 0.39403200149536133,
+    "count": 4
+  },
+  {
+    "feature": "worst symmetry",
+    "bin_left": 1.8670141696929932,
+    "bin_right": 2.2610461711883545,
+    "bin_center": 2.064030170440674,
+    "bin_width": 0.39403200149536133,
+    "count": 4
+  },
+  {
+    "feature": "worst symmetry",
+    "bin_left": 2.2610461711883545,
+    "bin_right": 2.655078649520874,
+    "bin_center": 2.4580624103546143,
+    "bin_width": 0.39403247833251953,
+    "count": 3
+  },
+  {
+    "feature": "worst symmetry",
+    "bin_left": 2.655078649520874,
+    "bin_right": 3.0491106510162354,
+    "bin_center": 2.8520946502685547,
+    "bin_width": 0.39403200149536133,
+    "count": 6
+  },
+  {
+    "feature": "worst symmetry",
+    "bin_left": 3.0491106510162354,
+    "bin_right": 3.4431426525115967,
+    "bin_center": 3.246126651763916,
+    "bin_width": 0.39403200149536133,
+    "count": 2
+  },
+  {
+    "feature": "worst symmetry",
+    "bin_left": 3.4431426525115967,
+    "bin_right": 3.837174654006958,
+    "bin_center": 3.6401586532592773,
+    "bin_width": 0.39403200149536133,
+    "count": 0
+  },
+  {
+    "feature": "worst symmetry",
+    "bin_left": 3.837174654006958,
+    "bin_right": 4.231206893920898,
+    "bin_center": 4.034190654754639,
+    "bin_width": 0.39403223991394043,
+    "count": 1
+  },
+  {
+    "feature": "worst symmetry",
+    "bin_left": 4.231206893920898,
+    "bin_right": 4.625238418579102,
+    "bin_center": 4.42822265625,
+    "bin_width": 0.3940315246582031,
+    "count": 1
+  },
+  {
+    "feature": "worst symmetry",
+    "bin_left": 4.625238418579102,
+    "bin_right": 5.019270896911621,
+    "bin_center": 4.822254657745361,
+    "bin_width": 0.39403247833251953,
+    "count": 0
+  },
+  {
+    "feature": "worst symmetry",
+    "bin_left": 5.019270896911621,
+    "bin_right": 5.413302421569824,
+    "bin_center": 5.216286659240723,
+    "bin_width": 0.3940315246582031,
+    "count": 0
+  },
+  {
+    "feature": "worst symmetry",
+    "bin_left": 5.413302421569824,
+    "bin_right": 5.807334899902344,
+    "bin_center": 5.610318660736084,
+    "bin_width": 0.39403247833251953,
+    "count": 1
+  },
+  {
+    "feature": "worst fractal dimension",
+    "bin_left": -1.5512808561325073,
+    "bin_right": -1.134427785873413,
+    "bin_center": -1.3428542613983154,
+    "bin_width": 0.41685307025909424,
+    "count": 19
+  },
+  {
+    "feature": "worst fractal dimension",
+    "bin_left": -1.134427785873413,
+    "bin_right": -0.7175746560096741,
+    "bin_center": -0.9260011911392212,
+    "bin_width": 0.416853129863739,
+    "count": 59
+  },
+  {
+    "feature": "worst fractal dimension",
+    "bin_left": -0.7175746560096741,
+    "bin_right": -0.30072152614593506,
+    "bin_center": -0.509148120880127,
+    "bin_width": 0.416853129863739,
+    "count": 71
+  },
+  {
+    "feature": "worst fractal dimension",
+    "bin_left": -0.30072152614593506,
+    "bin_right": 0.11613154411315918,
+    "bin_center": -0.09229499101638794,
+    "bin_width": 0.41685307025909424,
+    "count": 76
+  },
+  {
+    "feature": "worst fractal dimension",
+    "bin_left": 0.11613154411315918,
+    "bin_right": 0.5329846143722534,
+    "bin_center": 0.3245580792427063,
+    "bin_width": 0.41685307025909424,
+    "count": 41
+  },
+  {
+    "feature": "worst fractal dimension",
+    "bin_left": 0.5329846143722534,
+    "bin_right": 0.9498378038406372,
+    "bin_center": 0.7414112091064453,
+    "bin_width": 0.4168531894683838,
+    "count": 24
+  },
+  {
+    "feature": "worst fractal dimension",
+    "bin_left": 0.9498378038406372,
+    "bin_right": 1.366690754890442,
+    "bin_center": 1.1582642793655396,
+    "bin_width": 0.4168529510498047,
+    "count": 26
+  },
+  {
+    "feature": "worst fractal dimension",
+    "bin_left": 1.366690754890442,
+    "bin_right": 1.7835439443588257,
+    "bin_center": 1.5751173496246338,
+    "bin_width": 0.4168531894683838,
+    "count": 5
+  },
+  {
+    "feature": "worst fractal dimension",
+    "bin_left": 1.7835439443588257,
+    "bin_right": 2.20039701461792,
+    "bin_center": 1.9919705390930176,
+    "bin_width": 0.41685307025909424,
+    "count": 8
+  },
+  {
+    "feature": "worst fractal dimension",
+    "bin_left": 2.20039701461792,
+    "bin_right": 2.6172499656677246,
+    "bin_center": 2.4088234901428223,
+    "bin_width": 0.4168529510498047,
+    "count": 6
+  },
+  {
+    "feature": "worst fractal dimension",
+    "bin_left": 2.6172499656677246,
+    "bin_right": 3.0341029167175293,
+    "bin_center": 2.825676441192627,
+    "bin_width": 0.4168529510498047,
+    "count": 0
+  },
+  {
+    "feature": "worst fractal dimension",
+    "bin_left": 3.0341029167175293,
+    "bin_right": 3.450956344604492,
+    "bin_center": 3.2425296306610107,
+    "bin_width": 0.4168534278869629,
+    "count": 3
+  },
+  {
+    "feature": "worst fractal dimension",
+    "bin_left": 3.450956344604492,
+    "bin_right": 3.867809295654297,
+    "bin_center": 3.6593828201293945,
+    "bin_width": 0.4168529510498047,
+    "count": 1
+  },
+  {
+    "feature": "worst fractal dimension",
+    "bin_left": 3.867809295654297,
+    "bin_right": 4.284662246704102,
+    "bin_center": 4.076235771179199,
+    "bin_width": 0.4168529510498047,
+    "count": 0
+  },
+  {
+    "feature": "worst fractal dimension",
+    "bin_left": 4.284662246704102,
+    "bin_right": 4.7015156745910645,
+    "bin_center": 4.493088722229004,
+    "bin_width": 0.4168534278869629,
+    "count": 0
+  },
+  {
+    "feature": "worst fractal dimension",
+    "bin_left": 4.7015156745910645,
+    "bin_right": 5.118368625640869,
+    "bin_center": 4.909942150115967,
+    "bin_width": 0.4168529510498047,
+    "count": 1
+  },
+  {
+    "feature": "worst fractal dimension",
+    "bin_left": 5.118368625640869,
+    "bin_right": 5.535221576690674,
+    "bin_center": 5.3267951011657715,
+    "bin_width": 0.4168529510498047,
+    "count": 0
+  },
+  {
+    "feature": "worst fractal dimension",
+    "bin_left": 5.535221576690674,
+    "bin_right": 5.952075004577637,
+    "bin_center": 5.743648529052734,
+    "bin_width": 0.4168534278869629,
+    "count": 0
+  },
+  {
+    "feature": "worst fractal dimension",
+    "bin_left": 5.952075004577637,
+    "bin_right": 6.368927955627441,
+    "bin_center": 6.160501480102539,
+    "bin_width": 0.4168529510498047,
+    "count": 0
+  },
+  {
+    "feature": "worst fractal dimension",
+    "bin_left": 6.368927955627441,
+    "bin_right": 6.785781383514404,
+    "bin_center": 6.577354431152344,
+    "bin_width": 0.4168534278869629,
+    "count": 1
+  }
+]

@@ -1,0 +1,25 @@
+horizon,model,model_label,n_test_episodes,episodes_detected,episode_recall,median_maximum_lead_weeks,false_warning_weeks,false_warning_weeks_per_year
+4,logistic_regression,Regressão logística,2,1,0.5,4.0,20,10.034134615384616
+4,random_forest,Random Forest,2,1,0.5,4.0,41,20.569975961538464
+4,seasonal_baseline,Baseline sazonal,2,2,1.0,4.0,96,48.16384615384616
+4,persistence_baseline,Baseline persistência,2,2,1.0,4.0,96,48.16384615384616
+4,lstm_numpy,LSTM NumPy (BPTT),2,1,0.5,4.0,15,7.525600961538462
+4,lstm_pytorch,LSTM PyTorch,2,1,0.5,4.0,67,33.61435096153846
+8,logistic_regression,Regressão logística,2,1,0.5,8.0,21,10.535841346153846
+8,random_forest,Random Forest,2,1,0.5,8.0,61,30.604110576923077
+8,seasonal_baseline,Baseline sazonal,2,2,1.0,8.0,88,44.15019230769231
+8,persistence_baseline,Baseline persistência,2,2,1.0,8.0,88,44.15019230769231
+8,lstm_numpy,LSTM NumPy (BPTT),2,1,0.5,8.0,34,17.058028846153846
+8,lstm_pytorch,LSTM PyTorch,2,2,1.0,8.0,61,30.604110576923077
+12,logistic_regression,Regressão logística,2,1,0.5,12.0,17,8.529014423076923
+12,random_forest,Random Forest,2,1,0.5,12.0,20,10.034134615384616
+12,seasonal_baseline,Baseline sazonal,2,2,1.0,12.0,80,40.136538461538464
+12,persistence_baseline,Baseline persistência,2,2,1.0,12.0,80,40.136538461538464
+12,lstm_numpy,LSTM NumPy (BPTT),2,1,0.5,12.0,30,15.051201923076924
+12,lstm_pytorch,LSTM PyTorch,2,2,1.0,12.0,54,27.092163461538462
+16,logistic_regression,Regressão logística,2,2,1.0,16.0,16,8.027307692307692
+16,random_forest,Random Forest,2,2,1.0,16.0,18,9.030721153846155
+16,seasonal_baseline,Baseline sazonal,2,2,1.0,16.0,72,36.12288461538462
+16,persistence_baseline,Baseline persistência,2,2,1.0,16.0,72,36.12288461538462
+16,lstm_numpy,LSTM NumPy (BPTT),2,2,1.0,16.0,43,21.573389423076925
+16,lstm_pytorch,LSTM PyTorch,2,2,1.0,16.0,44,22.075096153846154

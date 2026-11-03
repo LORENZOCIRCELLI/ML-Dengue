@@ -1,0 +1,4928 @@
+{
+  "config": {
+    "data_path": "/media/lorenzo/SSD/Projetos/ML-Dengue/data/dataset/processado/base_modelagem_dengue_dataset.xlsx",
+    "output_dir": "/media/lorenzo/SSD/Projetos/ML-Dengue/outputs/revisao_epidemiologica",
+    "horizons": [
+      4,
+      8,
+      12,
+      16
+    ],
+    "target_kinds": [
+      "exact",
+      "window"
+    ],
+    "case_column": "n dengue",
+    "date_column": "dt_pri_sem",
+    "train_end": "2021-12-26",
+    "validation_start": "2022-01-02",
+    "validation_end": "2023-12-31",
+    "test_start": "2024-01-07",
+    "test_end": "2025-12-28",
+    "endemic_quantile": 0.75,
+    "endemic_week_radius": 2,
+    "endemic_lookback_years": 7,
+    "endemic_min_years": 3,
+    "persistence_weeks": 4,
+    "persistence_factor": 1.1,
+    "sequence_length": 12,
+    "target_recall": 0.8,
+    "seed": 42,
+    "numpy_hidden_size": 16,
+    "numpy_epochs": 120,
+    "pytorch_hidden_size": 32,
+    "pytorch_epochs": 150,
+    "early_stopping_patience": 20,
+    "population_column": "dem",
+    "upper_method": "mean_plus_1_96_sd",
+    "upper_z": 1.96
+  },
+  "data_audit": {
+    "n_rows": 784,
+    "n_columns": 73,
+    "start": "2010-12-26",
+    "end": "2025-12-28",
+    "frequency": "W-SUN",
+    "duplicated_dates": 0,
+    "missing_values": 0,
+    "infinite_numeric_values": 0,
+    "case_min": 6.0,
+    "case_median": 126.5,
+    "case_mean": 476.7563775510204,
+    "case_max": 6013.0,
+    "spatial_columns": [
+      "N dengue N1N_jar",
+      "N dengue N1NE_BRO",
+      "N dengue N1E_SERR",
+      "N dengue N1SE_CRAV",
+      "N dengue N1S_GUAT",
+      "N dengue N1SW_PRAD",
+      "N dengue N1W_DUM",
+      "N dengue N1NO_SERT",
+      "N dengue N2N_FRA",
+      "N dengue N2E_MOC",
+      "N dengue N2S_ARA",
+      "N dengue N2SE_SCAR",
+      "N dengue N2W_RIOPRETO"
+    ],
+    "spatial_sum_equals_target_fraction": 0.0,
+    "excluded_pending_provenance": [
+      "N dengue N1N_jar",
+      "N dengue N1NE_BRO",
+      "N dengue N1E_SERR",
+      "N dengue N1SE_CRAV",
+      "N dengue N1S_GUAT",
+      "N dengue N1SW_PRAD",
+      "N dengue N1W_DUM",
+      "N dengue N1NO_SERT",
+      "N dengue N2N_FRA",
+      "N dengue N2E_MOC",
+      "N dengue N2S_ARA",
+      "N dengue N2SE_SCAR",
+      "N dengue N2W_RIOPRETO",
+      "Trend SP"
+    ]
+  },
+  "population_audit": {
+    "column": "dem",
+    "interpretation_status": "hipótese operacional de população residente; confirmar no dicionário e na fonte da base",
+    "missing": 0,
+    "non_positive": 0,
+    "minimum": 702739.0,
+    "maximum": 711825.0,
+    "n_unique": 2,
+    "changes": [
+      {
+        "date": "2010-12-26",
+        "value": 711825.0
+      },
+      {
+        "date": "2023-02-05",
+        "value": 702739.0
+      }
+    ]
+  },
+  "definition": {
+    "incidence_scale": "casos por 100.000 habitantes",
+    "primary_target": "estado de alerta em t+h",
+    "secondary_target": "início de episódio de alerta entre t+1 e t+h",
+    "state_codes": {
+      "0": "rotina",
+      "1": "mobilização",
+      "2": "alerta"
+    },
+    "terminology_note": "alerta pelo canal endêmico; não equivale sozinho à declaração oficial de epidemia"
+  },
+  "episode_summary": {
+    "n_episodes": 6,
+    "n_alert_weeks": 63,
+    "episodes": [
+      {
+        "episode_id": 1,
+        "start": "2015-11-29",
+        "end": "2016-02-21",
+        "duration_weeks": 13,
+        "peak_incidence_per_100k": 844.7300951778877,
+        "mean_incidence_per_100k": 425.666420819724
+      },
+      {
+        "episode_id": 2,
+        "start": "2019-05-26",
+        "end": "2019-07-14",
+        "duration_weeks": 8,
+        "peak_incidence_per_100k": 149.7559091068732,
+        "mean_incidence_per_100k": 67.55522775963193
+      },
+      {
+        "episode_id": 3,
+        "start": "2022-08-14",
+        "end": "2022-11-06",
+        "duration_weeks": 13,
+        "peak_incidence_per_100k": 33.997120078671024,
+        "mean_incidence_per_100k": 24.973726796506273
+      },
+      {
+        "episode_id": 4,
+        "start": "2023-10-15",
+        "end": "2023-12-17",
+        "duration_weeks": 10,
+        "peak_incidence_per_100k": 50.94352241728437,
+        "mean_incidence_per_100k": 36.84155853026515
+      },
+      {
+        "episode_id": 5,
+        "start": "2024-01-21",
+        "end": "2024-01-28",
+        "duration_weeks": 2,
+        "peak_incidence_per_100k": 243.61818541449955,
+        "mean_incidence_per_100k": 221.2058815577334
+      },
+      {
+        "episode_id": 6,
+        "start": "2024-09-01",
+        "end": "2024-12-22",
+        "duration_weeks": 17,
+        "peak_incidence_per_100k": 110.99426671922292,
+        "mean_incidence_per_100k": 69.35049017863966
+      }
+    ]
+  },
+  "sensitivity_summary": {
+    "n_specifications": 24,
+    "jaccard_min": 0.4846153846153846,
+    "jaccard_median": 0.5688552188552188,
+    "jaccard_max": 1.0
+  },
+  "experiments": {
+    "exact": {
+      "4": {
+        "horizon_weeks": 4,
+        "target_kind": "exact",
+        "splits": {
+          "train": {
+            "n": 417,
+            "positive": 21,
+            "prevalence": 0.050359712230215826,
+            "first_issue_date": "2013-12-08",
+            "last_issue_date": "2021-11-28",
+            "first_target_date": "2014-01-05",
+            "last_target_date": "2021-12-26"
+          },
+          "validation": {
+            "n": 105,
+            "positive": 23,
+            "prevalence": 0.21904761904761905,
+            "first_issue_date": "2021-12-05",
+            "last_issue_date": "2023-12-03",
+            "first_target_date": "2022-01-02",
+            "last_target_date": "2023-12-31"
+          },
+          "test": {
+            "n": 104,
+            "positive": 19,
+            "prevalence": 0.18269230769230768,
+            "first_issue_date": "2023-12-10",
+            "last_issue_date": "2025-11-30",
+            "first_target_date": "2024-01-07",
+            "last_target_date": "2025-12-28"
+          }
+        },
+        "selection": {
+          "random_forest": {
+            "best_params": {
+              "n_estimators": 300,
+              "max_depth": 4,
+              "min_samples_leaf": 8,
+              "max_features": "sqrt"
+            },
+            "walk_forward_search": [
+              {
+                "max_depth": 4.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.6083982738394503,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 8.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.6083982738394503,
+                "n_folds": 1
+              },
+              {
+                "max_depth": NaN,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.6083982738394503,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 4.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.2637445887445887,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 8.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.2637445887445887,
+                "n_folds": 1
+              },
+              {
+                "max_depth": NaN,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.2637445887445887,
+                "n_folds": 1
+              }
+            ],
+            "threshold": 0.1808750154502743,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.6571428571428571,
+            "validation_recall": 1.0
+          },
+          "logistic_regression": {
+            "threshold": 0.0009761065213893232,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.3230769230769231,
+            "validation_recall": 0.9130434782608695
+          },
+          "seasonal_baseline": {
+            "threshold": 0.0,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.21904761904761905,
+            "validation_recall": 1.0
+          },
+          "persistence_baseline": {
+            "threshold": 0.0,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.21904761904761905,
+            "validation_recall": 1.0
+          },
+          "lstm_numpy": {
+            "threshold": 0.5858166451022145,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.48717948717948717,
+            "validation_recall": 0.8260869565217391
+          },
+          "lstm_pytorch": {
+            "threshold": 0.4253940284252167,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.25274725274725274,
+            "validation_recall": 1.0
+          }
+        },
+        "metrics": {
+          "logistic_regression": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.0009761065213893232,
+              "accuracy": 0.5619047619047619,
+              "balanced_accuracy": 0.6882290562036055,
+              "precision": 0.3230769230769231,
+              "recall_sensitivity": 0.9130434782608695,
+              "specificity": 0.4634146341463415,
+              "f1": 0.4772727272727273,
+              "f2": 0.6687898089171974,
+              "pr_auc": 0.5072376794437571,
+              "roc_auc": 0.7545068928950159,
+              "brier": 0.1545794758835585,
+              "tn": 38,
+              "fp": 44,
+              "fn": 2,
+              "tp": 21,
+              "false_alarms_per_year": 21.864857142857144
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.0009761065213893232,
+              "accuracy": 0.625,
+              "balanced_accuracy": 0.504953560371517,
+              "precision": 0.1875,
+              "recall_sensitivity": 0.3157894736842105,
+              "specificity": 0.6941176470588235,
+              "f1": 0.23529411764705882,
+              "f2": 0.2777777777777778,
+              "pr_auc": 0.2483363296982987,
+              "roc_auc": 0.6681114551083591,
+              "brier": 0.2110130097915378,
+              "tn": 59,
+              "fp": 26,
+              "fn": 13,
+              "tp": 6,
+              "false_alarms_per_year": 13.044375,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.06147644795672153,
+                  "upper_95": 0.6571179569859114
+                },
+                "roc_auc": {
+                  "lower_95": 0.41697092630155513,
+                  "upper_95": 0.9018703087408552
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.6666666666666666
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.625
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.48356913364522836
+                }
+              }
+            }
+          },
+          "random_forest": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.1808750154502743,
+              "accuracy": 0.8857142857142857,
+              "balanced_accuracy": 0.9268292682926829,
+              "precision": 0.6571428571428571,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.8536585365853658,
+              "f1": 0.7931034482758621,
+              "f2": 0.905511811023622,
+              "pr_auc": 0.6803248466705683,
+              "roc_auc": 0.9236479321314952,
+              "brier": 0.11917454737047711,
+              "tn": 70,
+              "fp": 12,
+              "fn": 0,
+              "tp": 23,
+              "false_alarms_per_year": 5.9631428571428575
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.1808750154502743,
+              "accuracy": 0.6923076923076923,
+              "balanced_accuracy": 0.5869969040247678,
+              "precision": 0.27586206896551724,
+              "recall_sensitivity": 0.42105263157894735,
+              "specificity": 0.7529411764705882,
+              "f1": 0.3333333333333333,
+              "f2": 0.38095238095238093,
+              "pr_auc": 0.26398056801681735,
+              "roc_auc": 0.6811145510835913,
+              "brier": 0.15949467812786114,
+              "tn": 64,
+              "fp": 21,
+              "fn": 11,
+              "tp": 8,
+              "false_alarms_per_year": 10.535841346153846,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.09472581992434227,
+                  "upper_95": 0.6531776133683085
+                },
+                "roc_auc": {
+                  "lower_95": 0.4345235272988505,
+                  "upper_95": 0.9212317348239678
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.6765151515151511
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.7008856682769724
+                }
+              }
+            }
+          },
+          "seasonal_baseline": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.0,
+              "accuracy": 0.21904761904761905,
+              "balanced_accuracy": 0.5,
+              "precision": 0.21904761904761905,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.359375,
+              "f2": 0.583756345177665,
+              "pr_auc": 0.20002019895975356,
+              "roc_auc": 0.3311240721102863,
+              "brier": 0.21814261418853254,
+              "tn": 0,
+              "fp": 82,
+              "fn": 0,
+              "tp": 23,
+              "false_alarms_per_year": 40.74814285714286
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.0,
+              "accuracy": 0.18269230769230768,
+              "balanced_accuracy": 0.5,
+              "precision": 0.18269230769230768,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.3089430894308943,
+              "f2": 0.5277777777777778,
+              "pr_auc": 0.17236842105263156,
+              "roc_auc": 0.4541795665634675,
+              "brier": 0.17437083006279433,
+              "tn": 0,
+              "fp": 85,
+              "fn": 0,
+              "tp": 19,
+              "false_alarms_per_year": 42.645072115384615,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.05396424117928678,
+                  "upper_95": 0.3720003088110191
+                },
+                "roc_auc": {
+                  "lower_95": 0.28475317693059626,
+                  "upper_95": 0.800631067961165
+                },
+                "recall_sensitivity": {
+                  "lower_95": 1.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.028846153846153848,
+                  "upper_95": 0.3942307692307692
+                },
+                "f2": {
+                  "lower_95": 0.12931034482758622,
+                  "upper_95": 0.7649253731343284
+                }
+              }
+            }
+          },
+          "persistence_baseline": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.0,
+              "accuracy": 0.21904761904761905,
+              "balanced_accuracy": 0.5,
+              "precision": 0.21904761904761905,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.359375,
+              "f2": 0.583756345177665,
+              "pr_auc": 0.4626293995859213,
+              "roc_auc": 0.7399257688229056,
+              "brier": 0.1619047619047619,
+              "tn": 0,
+              "fp": 82,
+              "fn": 0,
+              "tp": 23,
+              "false_alarms_per_year": 40.74814285714286
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.0,
+              "accuracy": 0.18269230769230768,
+              "balanced_accuracy": 0.5,
+              "precision": 0.18269230769230768,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.3089430894308943,
+              "f2": 0.5277777777777778,
+              "pr_auc": 0.46199852778800155,
+              "roc_auc": 0.7891640866873065,
+              "brier": 0.14423076923076922,
+              "tn": 0,
+              "fp": 85,
+              "fn": 0,
+              "tp": 19,
+              "false_alarms_per_year": 42.645072115384615,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.06629079254079256,
+                  "upper_95": 0.818530568607782
+                },
+                "roc_auc": {
+                  "lower_95": 0.5666762291816081,
+                  "upper_95": 0.9744712752525252
+                },
+                "recall_sensitivity": {
+                  "lower_95": 1.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.028846153846153848,
+                  "upper_95": 0.3942307692307692
+                },
+                "f2": {
+                  "lower_95": 0.12931034482758622,
+                  "upper_95": 0.7649253731343284
+                }
+              }
+            }
+          },
+          "lstm_numpy": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.5858166451022145,
+              "accuracy": 0.7714285714285715,
+              "balanced_accuracy": 0.7910922587486744,
+              "precision": 0.48717948717948717,
+              "recall_sensitivity": 0.8260869565217391,
+              "specificity": 0.7560975609756098,
+              "f1": 0.6129032258064516,
+              "f2": 0.7251908396946565,
+              "pr_auc": 0.5945820223049714,
+              "roc_auc": 0.8727465535524921,
+              "brier": 0.22302968717175986,
+              "tn": 62,
+              "fp": 20,
+              "fn": 4,
+              "tp": 19,
+              "false_alarms_per_year": 9.93857142857143
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.5858166451022145,
+              "accuracy": 0.6730769230769231,
+              "balanced_accuracy": 0.5752321981424149,
+              "precision": 0.25806451612903225,
+              "recall_sensitivity": 0.42105263157894735,
+              "specificity": 0.7294117647058823,
+              "f1": 0.32,
+              "f2": 0.37383177570093457,
+              "pr_auc": 0.34192417705701156,
+              "roc_auc": 0.6198142414860681,
+              "brier": 0.2795470537863215,
+              "tn": 62,
+              "fp": 23,
+              "fn": 11,
+              "tp": 8,
+              "false_alarms_per_year": 11.539254807692307,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.08866674999603578,
+                  "upper_95": 0.7544408849314906
+                },
+                "roc_auc": {
+                  "lower_95": 0.27967194570135745,
+                  "upper_95": 0.94103851010101
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.6086956521739131
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.6778586839266451
+                }
+              }
+            }
+          },
+          "lstm_pytorch": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.4253940284252167,
+              "accuracy": 0.3523809523809524,
+              "balanced_accuracy": 0.5853658536585366,
+              "precision": 0.25274725274725274,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.17073170731707318,
+              "f1": 0.40350877192982454,
+              "f2": 0.6284153005464481,
+              "pr_auc": 0.23113648748706433,
+              "roc_auc": 0.5169671261930011,
+              "brier": 0.24068327248096466,
+              "tn": 14,
+              "fp": 68,
+              "fn": 0,
+              "tp": 23,
+              "false_alarms_per_year": 33.79114285714286
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.4253940284252167,
+              "accuracy": 0.3173076923076923,
+              "balanced_accuracy": 0.48018575851393186,
+              "precision": 0.175,
+              "recall_sensitivity": 0.7368421052631579,
+              "specificity": 0.2235294117647059,
+              "f1": 0.2828282828282828,
+              "f2": 0.44871794871794873,
+              "pr_auc": 0.13461668713833824,
+              "roc_auc": 0.32136222910216716,
+              "brier": 0.28011786937713623,
+              "tn": 19,
+              "fp": 66,
+              "fn": 5,
+              "tp": 14,
+              "false_alarms_per_year": 33.112644230769234,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.03758352980516581,
+                  "upper_95": 0.2958128449774466
+                },
+                "roc_auc": {
+                  "lower_95": 0.0708741577282728,
+                  "upper_95": 0.624278449243775
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.4583333333333333,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.03336038961038961,
+                  "upper_95": 0.36722255310700797
+                },
+                "f2": {
+                  "lower_95": 0.13724747474747476,
+                  "upper_95": 0.6256766917293232
+                }
+              }
+            }
+          }
+        }
+      },
+      "8": {
+        "horizon_weeks": 8,
+        "target_kind": "exact",
+        "splits": {
+          "train": {
+            "n": 413,
+            "positive": 21,
+            "prevalence": 0.05084745762711865,
+            "first_issue_date": "2013-12-08",
+            "last_issue_date": "2021-10-31",
+            "first_target_date": "2014-02-02",
+            "last_target_date": "2021-12-26"
+          },
+          "validation": {
+            "n": 105,
+            "positive": 23,
+            "prevalence": 0.21904761904761905,
+            "first_issue_date": "2021-11-07",
+            "last_issue_date": "2023-11-05",
+            "first_target_date": "2022-01-02",
+            "last_target_date": "2023-12-31"
+          },
+          "test": {
+            "n": 104,
+            "positive": 19,
+            "prevalence": 0.18269230769230768,
+            "first_issue_date": "2023-11-12",
+            "last_issue_date": "2025-11-02",
+            "first_target_date": "2024-01-07",
+            "last_target_date": "2025-12-28"
+          }
+        },
+        "selection": {
+          "random_forest": {
+            "best_params": {
+              "n_estimators": 300,
+              "max_depth": 4,
+              "min_samples_leaf": 3,
+              "max_features": "sqrt"
+            },
+            "walk_forward_search": [
+              {
+                "max_depth": 4.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.16302712881660247,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 8.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.16302712881660247,
+                "n_folds": 1
+              },
+              {
+                "max_depth": NaN,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.16302712881660247,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 4.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.1603556621354174,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 8.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.1603556621354174,
+                "n_folds": 1
+              },
+              {
+                "max_depth": NaN,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.1603556621354174,
+                "n_folds": 1
+              }
+            ],
+            "threshold": 0.05589666557254927,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.34545454545454546,
+            "validation_recall": 0.8260869565217391
+          },
+          "logistic_regression": {
+            "threshold": 0.00016845207441144118,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.3064516129032258,
+            "validation_recall": 0.8260869565217391
+          },
+          "seasonal_baseline": {
+            "threshold": 0.0,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.21904761904761905,
+            "validation_recall": 1.0
+          },
+          "persistence_baseline": {
+            "threshold": 0.0,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.21904761904761905,
+            "validation_recall": 1.0
+          },
+          "lstm_numpy": {
+            "threshold": 0.5312130702188003,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.41509433962264153,
+            "validation_recall": 0.9565217391304348
+          },
+          "lstm_pytorch": {
+            "threshold": 0.4291934370994568,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.22115384615384615,
+            "validation_recall": 1.0
+          }
+        },
+        "metrics": {
+          "logistic_regression": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.00016845207441144118,
+              "accuracy": 0.5523809523809524,
+              "balanced_accuracy": 0.6508483563096501,
+              "precision": 0.3064516129032258,
+              "recall_sensitivity": 0.8260869565217391,
+              "specificity": 0.47560975609756095,
+              "f1": 0.4470588235294118,
+              "f2": 0.6168831168831169,
+              "pr_auc": 0.4872685449846827,
+              "roc_auc": 0.7067868504772004,
+              "brier": 0.14774373571886637,
+              "tn": 39,
+              "fp": 43,
+              "fn": 4,
+              "tp": 19,
+              "false_alarms_per_year": 21.367928571428575
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.00016845207441144118,
+              "accuracy": 0.5865384615384616,
+              "balanced_accuracy": 0.39969040247678017,
+              "precision": 0.07142857142857142,
+              "recall_sensitivity": 0.10526315789473684,
+              "specificity": 0.6941176470588235,
+              "f1": 0.0851063829787234,
+              "f2": 0.09615384615384616,
+              "pr_auc": 0.2664984242262254,
+              "roc_auc": 0.6365325077399381,
+              "brier": 0.20858997876691004,
+              "tn": 59,
+              "fp": 26,
+              "fn": 17,
+              "tp": 2,
+              "false_alarms_per_year": 13.044375,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.06709287423982878,
+                  "upper_95": 0.6322724138140263
+                },
+                "roc_auc": {
+                  "lower_95": 0.40040178571428575,
+                  "upper_95": 0.8974948671497585
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.35681818181818115
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.15298076923076914
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.2299825174825174
+                }
+              }
+            }
+          },
+          "random_forest": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.05589666557254927,
+              "accuracy": 0.6190476190476191,
+              "balanced_accuracy": 0.6935312831389184,
+              "precision": 0.34545454545454546,
+              "recall_sensitivity": 0.8260869565217391,
+              "specificity": 0.5609756097560976,
+              "f1": 0.48717948717948717,
+              "f2": 0.6462585034013606,
+              "pr_auc": 0.4189598137484281,
+              "roc_auc": 0.6998939554612937,
+              "brier": 0.16168639530945952,
+              "tn": 46,
+              "fp": 36,
+              "fn": 4,
+              "tp": 19,
+              "false_alarms_per_year": 17.889428571428574
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.05589666557254927,
+              "accuracy": 0.4326923076923077,
+              "balanced_accuracy": 0.40773993808049536,
+              "precision": 0.12962962962962962,
+              "recall_sensitivity": 0.3684210526315789,
+              "specificity": 0.4470588235294118,
+              "f1": 0.1917808219178082,
+              "f2": 0.2692307692307692,
+              "pr_auc": 0.17365370669988767,
+              "roc_auc": 0.3563467492260062,
+              "brier": 0.18684318027931895,
+              "tn": 38,
+              "fp": 47,
+              "fn": 12,
+              "tp": 7,
+              "false_alarms_per_year": 23.580216346153847,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.03345097646778673,
+                  "upper_95": 0.33620723508099676
+                },
+                "roc_auc": {
+                  "lower_95": 0.11226158645276292,
+                  "upper_95": 0.663185539909059
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.3181818181818182
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.5152933596118859
+                }
+              }
+            }
+          },
+          "seasonal_baseline": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.0,
+              "accuracy": 0.21904761904761905,
+              "balanced_accuracy": 0.5,
+              "precision": 0.21904761904761905,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.359375,
+              "f2": 0.583756345177665,
+              "pr_auc": 0.20002019895975356,
+              "roc_auc": 0.32476139978791096,
+              "brier": 0.218507045675413,
+              "tn": 0,
+              "fp": 82,
+              "fn": 0,
+              "tp": 23,
+              "false_alarms_per_year": 40.74814285714286
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.0,
+              "accuracy": 0.18269230769230768,
+              "balanced_accuracy": 0.5,
+              "precision": 0.18269230769230768,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.3089430894308943,
+              "f2": 0.5277777777777778,
+              "pr_auc": 0.17763157894736842,
+              "roc_auc": 0.46408668730650154,
+              "brier": 0.1740519525117739,
+              "tn": 0,
+              "fp": 85,
+              "fn": 0,
+              "tp": 19,
+              "false_alarms_per_year": 42.645072115384615,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.04807692307692308,
+                  "upper_95": 0.38979269505004793
+                },
+                "roc_auc": {
+                  "lower_95": 0.2988442627159987,
+                  "upper_95": 0.7912907330883504
+                },
+                "recall_sensitivity": {
+                  "lower_95": 1.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.028846153846153848,
+                  "upper_95": 0.38461538461538464
+                },
+                "f2": {
+                  "lower_95": 0.12931034482758622,
+                  "upper_95": 0.7575757575757576
+                }
+              }
+            }
+          },
+          "persistence_baseline": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.0,
+              "accuracy": 0.21904761904761905,
+              "balanced_accuracy": 0.5,
+              "precision": 0.21904761904761905,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.359375,
+              "f2": 0.583756345177665,
+              "pr_auc": 0.23936335403726708,
+              "roc_auc": 0.5416224814422058,
+              "brier": 0.2761904761904762,
+              "tn": 0,
+              "fp": 82,
+              "fn": 0,
+              "tp": 23,
+              "false_alarms_per_year": 40.74814285714286
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.0,
+              "accuracy": 0.18269230769230768,
+              "balanced_accuracy": 0.5,
+              "precision": 0.18269230769230768,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.3089430894308943,
+              "f2": 0.5277777777777778,
+              "pr_auc": 0.2889676113360324,
+              "roc_auc": 0.6690402476780185,
+              "brier": 0.2403846153846154,
+              "tn": 0,
+              "fp": 85,
+              "fn": 0,
+              "tp": 19,
+              "false_alarms_per_year": 42.645072115384615,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.04807692307692308,
+                  "upper_95": 0.582241653418124
+                },
+                "roc_auc": {
+                  "lower_95": 0.43137315270935955,
+                  "upper_95": 0.9215686274509804
+                },
+                "recall_sensitivity": {
+                  "lower_95": 1.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.028846153846153848,
+                  "upper_95": 0.38461538461538464
+                },
+                "f2": {
+                  "lower_95": 0.12931034482758622,
+                  "upper_95": 0.7575757575757576
+                }
+              }
+            }
+          },
+          "lstm_numpy": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.5312130702188003,
+              "accuracy": 0.6952380952380952,
+              "balanced_accuracy": 0.7892364793213149,
+              "precision": 0.41509433962264153,
+              "recall_sensitivity": 0.9565217391304348,
+              "specificity": 0.6219512195121951,
+              "f1": 0.5789473684210527,
+              "f2": 0.7586206896551724,
+              "pr_auc": 0.4886801233186173,
+              "roc_auc": 0.7645811240721103,
+              "brier": 0.20706104296041672,
+              "tn": 51,
+              "fp": 31,
+              "fn": 1,
+              "tp": 22,
+              "false_alarms_per_year": 15.404785714285715
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.5312130702188003,
+              "accuracy": 0.5576923076923077,
+              "balanced_accuracy": 0.5250773993808049,
+              "precision": 0.2,
+              "recall_sensitivity": 0.47368421052631576,
+              "specificity": 0.5764705882352941,
+              "f1": 0.28125,
+              "f2": 0.371900826446281,
+              "pr_auc": 0.21500148745312025,
+              "roc_auc": 0.5510835913312693,
+              "brier": 0.2771584084685309,
+              "tn": 49,
+              "fp": 36,
+              "fn": 10,
+              "tp": 9,
+              "false_alarms_per_year": 18.06144230769231,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.06201493912512723,
+                  "upper_95": 0.49380290308593683
+                },
+                "roc_auc": {
+                  "lower_95": 0.23782410499114426,
+                  "upper_95": 0.8804917125160038
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.4802396616541351
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.6330039057876671
+                }
+              }
+            }
+          },
+          "lstm_pytorch": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.4291934370994568,
+              "accuracy": 0.22857142857142856,
+              "balanced_accuracy": 0.5060975609756098,
+              "precision": 0.22115384615384615,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.012195121951219513,
+              "f1": 0.36220472440944884,
+              "f2": 0.5867346938775511,
+              "pr_auc": 0.23201376467392995,
+              "roc_auc": 0.4178154825026511,
+              "brier": 0.23726969957351685,
+              "tn": 1,
+              "fp": 81,
+              "fn": 0,
+              "tp": 23,
+              "false_alarms_per_year": 40.25121428571429
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.4291934370994568,
+              "accuracy": 0.21153846153846154,
+              "balanced_accuracy": 0.33374613003095976,
+              "precision": 0.12048192771084337,
+              "recall_sensitivity": 0.5263157894736842,
+              "specificity": 0.1411764705882353,
+              "f1": 0.19607843137254902,
+              "f2": 0.31446540880503143,
+              "pr_auc": 0.13371464354550594,
+              "roc_auc": 0.23157894736842105,
+              "brier": 0.25511109828948975,
+              "tn": 12,
+              "fp": 73,
+              "fn": 9,
+              "tp": 10,
+              "false_alarms_per_year": 36.62459134615385,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.0329173735609973,
+                  "upper_95": 0.26848768835985926
+                },
+                "roc_auc": {
+                  "lower_95": 0.006842337251356236,
+                  "upper_95": 0.4532931354359925
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.13240131578947373,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.02109088827838828,
+                  "upper_95": 0.25316455696202533
+                },
+                "f2": {
+                  "lower_95": 0.06627859477124184,
+                  "upper_95": 0.4712353801169589
+                }
+              }
+            }
+          }
+        }
+      },
+      "12": {
+        "horizon_weeks": 12,
+        "target_kind": "exact",
+        "splits": {
+          "train": {
+            "n": 409,
+            "positive": 21,
+            "prevalence": 0.05134474327628362,
+            "first_issue_date": "2013-12-08",
+            "last_issue_date": "2021-10-03",
+            "first_target_date": "2014-03-02",
+            "last_target_date": "2021-12-26"
+          },
+          "validation": {
+            "n": 105,
+            "positive": 23,
+            "prevalence": 0.21904761904761905,
+            "first_issue_date": "2021-10-10",
+            "last_issue_date": "2023-10-08",
+            "first_target_date": "2022-01-02",
+            "last_target_date": "2023-12-31"
+          },
+          "test": {
+            "n": 104,
+            "positive": 19,
+            "prevalence": 0.18269230769230768,
+            "first_issue_date": "2023-10-15",
+            "last_issue_date": "2025-10-05",
+            "first_target_date": "2024-01-07",
+            "last_target_date": "2025-12-28"
+          }
+        },
+        "selection": {
+          "random_forest": {
+            "best_params": {
+              "n_estimators": 300,
+              "max_depth": 4,
+              "min_samples_leaf": 8,
+              "max_features": "sqrt"
+            },
+            "walk_forward_search": [
+              {
+                "max_depth": 4.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.16737191927182618,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 8.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.16737191927182618,
+                "n_folds": 1
+              },
+              {
+                "max_depth": NaN,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.16737191927182618,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 4.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.12728654447404447,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 8.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.12681305962555964,
+                "n_folds": 1
+              },
+              {
+                "max_depth": NaN,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.12681305962555964,
+                "n_folds": 1
+              }
+            ],
+            "threshold": 0.02599222457471003,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.27058823529411763,
+            "validation_recall": 1.0
+          },
+          "logistic_regression": {
+            "threshold": 1.5610295243691523e-05,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.23,
+            "validation_recall": 1.0
+          },
+          "seasonal_baseline": {
+            "threshold": 0.0,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.21904761904761905,
+            "validation_recall": 1.0
+          },
+          "persistence_baseline": {
+            "threshold": 0.0,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.21904761904761905,
+            "validation_recall": 1.0
+          },
+          "lstm_numpy": {
+            "threshold": 0.5182168668748885,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.44680851063829785,
+            "validation_recall": 0.9130434782608695
+          },
+          "lstm_pytorch": {
+            "threshold": 0.43419986963272095,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.22549019607843138,
+            "validation_recall": 1.0
+          }
+        },
+        "metrics": {
+          "logistic_regression": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 1.5610295243691523e-05,
+              "accuracy": 0.26666666666666666,
+              "balanced_accuracy": 0.5304878048780488,
+              "precision": 0.23,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.06097560975609756,
+              "f1": 0.37398373983739835,
+              "f2": 0.5989583333333334,
+              "pr_auc": 0.3978255089402596,
+              "roc_auc": 0.5312831389183458,
+              "brier": 0.16777763691092407,
+              "tn": 5,
+              "fp": 77,
+              "fn": 0,
+              "tp": 23,
+              "false_alarms_per_year": 38.26350000000001
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 1.5610295243691523e-05,
+              "accuracy": 0.5480769230769231,
+              "balanced_accuracy": 0.3761609907120743,
+              "precision": 0.0625,
+              "recall_sensitivity": 0.10526315789473684,
+              "specificity": 0.6470588235294118,
+              "f1": 0.0784313725490196,
+              "f2": 0.09259259259259259,
+              "pr_auc": 0.2541398172334536,
+              "roc_auc": 0.6012383900928793,
+              "brier": 0.24855231617431678,
+              "tn": 55,
+              "fp": 30,
+              "fn": 17,
+              "tp": 2,
+              "false_alarms_per_year": 15.051201923076924,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.073387491263676,
+                  "upper_95": 0.5262267577880536
+                },
+                "roc_auc": {
+                  "lower_95": 0.3321784922394679,
+                  "upper_95": 0.8784920684879769
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.4418402777777778
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.14747064137308039
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.21805037313432837
+                }
+              }
+            }
+          },
+          "random_forest": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.02599222457471003,
+              "accuracy": 0.4095238095238095,
+              "balanced_accuracy": 0.6219512195121951,
+              "precision": 0.27058823529411763,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.24390243902439024,
+              "f1": 0.42592592592592593,
+              "f2": 0.6497175141242938,
+              "pr_auc": 0.34063107103377743,
+              "roc_auc": 0.6696712619300106,
+              "brier": 0.18075485903075234,
+              "tn": 20,
+              "fp": 62,
+              "fn": 0,
+              "tp": 23,
+              "false_alarms_per_year": 30.80957142857143
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.02599222457471003,
+              "accuracy": 0.46153846153846156,
+              "balanced_accuracy": 0.32321981424148605,
+              "precision": 0.04878048780487805,
+              "recall_sensitivity": 0.10526315789473684,
+              "specificity": 0.5411764705882353,
+              "f1": 0.06666666666666667,
+              "f2": 0.08547008547008547,
+              "pr_auc": 0.16987234117106592,
+              "roc_auc": 0.36037151702786374,
+              "brier": 0.18724680422755038,
+              "tn": 46,
+              "fp": 39,
+              "fn": 17,
+              "tp": 2,
+              "false_alarms_per_year": 19.5665625,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.044321275136071515,
+                  "upper_95": 0.3333333333333333
+                },
+                "roc_auc": {
+                  "lower_95": 0.11028645833333335,
+                  "upper_95": 0.592509132067706
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.4418402777777778
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.11347555746140651
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.19547064777327935
+                }
+              }
+            }
+          },
+          "seasonal_baseline": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.0,
+              "accuracy": 0.21904761904761905,
+              "balanced_accuracy": 0.5,
+              "precision": 0.21904761904761905,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.359375,
+              "f2": 0.583756345177665,
+              "pr_auc": 0.20002019895975356,
+              "roc_auc": 0.3199893955461294,
+              "brier": 0.21878036929057332,
+              "tn": 0,
+              "fp": 82,
+              "fn": 0,
+              "tp": 23,
+              "false_alarms_per_year": 40.74814285714286
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.0,
+              "accuracy": 0.18269230769230768,
+              "balanced_accuracy": 0.5,
+              "precision": 0.18269230769230768,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.3089430894308943,
+              "f2": 0.5277777777777778,
+              "pr_auc": 0.16973684210526313,
+              "roc_auc": 0.45294117647058824,
+              "brier": 0.17432790423861852,
+              "tn": 0,
+              "fp": 85,
+              "fn": 0,
+              "tp": 19,
+              "false_alarms_per_year": 42.645072115384615,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.06597222222222221,
+                  "upper_95": 0.360549272156415
+                },
+                "roc_auc": {
+                  "lower_95": 0.2819135053021772,
+                  "upper_95": 0.7578336950623983
+                },
+                "recall_sensitivity": {
+                  "lower_95": 1.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.038461538461538464,
+                  "upper_95": 0.375
+                },
+                "f2": {
+                  "lower_95": 0.16666666666666666,
+                  "upper_95": 0.75
+                }
+              }
+            }
+          },
+          "persistence_baseline": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.0,
+              "accuracy": 0.21904761904761905,
+              "balanced_accuracy": 0.5,
+              "precision": 0.21904761904761905,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.359375,
+              "f2": 0.583756345177665,
+              "pr_auc": 0.21904761904761905,
+              "roc_auc": 0.42073170731707316,
+              "brier": 0.34285714285714286,
+              "tn": 0,
+              "fp": 82,
+              "fn": 0,
+              "tp": 23,
+              "false_alarms_per_year": 40.74814285714286
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.0,
+              "accuracy": 0.18269230769230768,
+              "balanced_accuracy": 0.5,
+              "precision": 0.18269230769230768,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.3089430894308943,
+              "f2": 0.5277777777777778,
+              "pr_auc": 0.19033575317604357,
+              "roc_auc": 0.5226006191950465,
+              "brier": 0.34615384615384615,
+              "tn": 0,
+              "fp": 85,
+              "fn": 0,
+              "tp": 19,
+              "false_alarms_per_year": 42.645072115384615,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.055154914529914535,
+                  "upper_95": 0.38125151185292694
+                },
+                "roc_auc": {
+                  "lower_95": 0.3389972637762001,
+                  "upper_95": 0.811817354368932
+                },
+                "recall_sensitivity": {
+                  "lower_95": 1.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.038461538461538464,
+                  "upper_95": 0.375
+                },
+                "f2": {
+                  "lower_95": 0.16666666666666666,
+                  "upper_95": 0.75
+                }
+              }
+            }
+          },
+          "lstm_numpy": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.5182168668748885,
+              "accuracy": 0.7333333333333333,
+              "balanced_accuracy": 0.7979851537645811,
+              "precision": 0.44680851063829785,
+              "recall_sensitivity": 0.9130434782608695,
+              "specificity": 0.6829268292682927,
+              "f1": 0.6,
+              "f2": 0.7553956834532374,
+              "pr_auc": 0.42866048289031866,
+              "roc_auc": 0.7757158006362672,
+              "brier": 0.2208279671986423,
+              "tn": 56,
+              "fp": 26,
+              "fn": 2,
+              "tp": 21,
+              "false_alarms_per_year": 12.920142857142858
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.5182168668748885,
+              "accuracy": 0.625,
+              "balanced_accuracy": 0.504953560371517,
+              "precision": 0.1875,
+              "recall_sensitivity": 0.3157894736842105,
+              "specificity": 0.6941176470588235,
+              "f1": 0.23529411764705882,
+              "f2": 0.2777777777777778,
+              "pr_auc": 0.22047748198990688,
+              "roc_auc": 0.58328173374613,
+              "brier": 0.2571081467325588,
+              "tn": 59,
+              "fp": 26,
+              "fn": 13,
+              "tp": 6,
+              "false_alarms_per_year": 13.044375,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.06859314467726838,
+                  "upper_95": 0.46104323888257903
+                },
+                "roc_auc": {
+                  "lower_95": 0.3106227961633023,
+                  "upper_95": 0.8234144411277825
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.6577380952380952
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.4479166666666667
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.47268306636155605
+                }
+              }
+            }
+          },
+          "lstm_pytorch": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.43419986963272095,
+              "accuracy": 0.24761904761904763,
+              "balanced_accuracy": 0.5182926829268293,
+              "precision": 0.22549019607843138,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.036585365853658534,
+              "f1": 0.368,
+              "f2": 0.5927835051546392,
+              "pr_auc": 0.1455254977991578,
+              "roc_auc": 0.22746553552492052,
+              "brier": 0.23659813404083252,
+              "tn": 3,
+              "fp": 79,
+              "fn": 0,
+              "tp": 23,
+              "false_alarms_per_year": 39.257357142857146
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.43419986963272095,
+              "accuracy": 0.14423076923076922,
+              "balanced_accuracy": 0.2108359133126935,
+              "precision": 0.07317073170731707,
+              "recall_sensitivity": 0.3157894736842105,
+              "specificity": 0.10588235294117647,
+              "f1": 0.1188118811881188,
+              "f2": 0.189873417721519,
+              "pr_auc": 0.11849969037362748,
+              "roc_auc": 0.15541795665634675,
+              "brier": 0.23660908639431,
+              "tn": 9,
+              "fp": 76,
+              "fn": 13,
+              "tp": 6,
+              "false_alarms_per_year": 38.12971153846154,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.03472186884797473,
+                  "upper_95": 0.2599985383252524
+                },
+                "roc_auc": {
+                  "lower_95": 0.0014727540500736325,
+                  "upper_95": 0.4699022670440599
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.165810502283105
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.37752329192546585
+                }
+              }
+            }
+          }
+        }
+      },
+      "16": {
+        "horizon_weeks": 16,
+        "target_kind": "exact",
+        "splits": {
+          "train": {
+            "n": 405,
+            "positive": 21,
+            "prevalence": 0.05185185185185185,
+            "first_issue_date": "2013-12-08",
+            "last_issue_date": "2021-09-05",
+            "first_target_date": "2014-03-30",
+            "last_target_date": "2021-12-26"
+          },
+          "validation": {
+            "n": 105,
+            "positive": 23,
+            "prevalence": 0.21904761904761905,
+            "first_issue_date": "2021-09-12",
+            "last_issue_date": "2023-09-10",
+            "first_target_date": "2022-01-02",
+            "last_target_date": "2023-12-31"
+          },
+          "test": {
+            "n": 104,
+            "positive": 19,
+            "prevalence": 0.18269230769230768,
+            "first_issue_date": "2023-09-17",
+            "last_issue_date": "2025-09-07",
+            "first_target_date": "2024-01-07",
+            "last_target_date": "2025-12-28"
+          }
+        },
+        "selection": {
+          "random_forest": {
+            "best_params": {
+              "n_estimators": 300,
+              "max_depth": 4,
+              "min_samples_leaf": 8,
+              "max_features": "sqrt"
+            },
+            "walk_forward_search": [
+              {
+                "max_depth": 4.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.16030019356282696,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 8.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.16030019356282696,
+                "n_folds": 1
+              },
+              {
+                "max_depth": NaN,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.16030019356282696,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 4.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.15768100518100517,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 8.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.15768100518100517,
+                "n_folds": 1
+              },
+              {
+                "max_depth": NaN,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.15768100518100517,
+                "n_folds": 1
+              }
+            ],
+            "threshold": 0.005884335948852079,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.24096385542168675,
+            "validation_recall": 0.8695652173913043
+          },
+          "logistic_regression": {
+            "threshold": 2.973867662755775e-05,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.24210526315789474,
+            "validation_recall": 1.0
+          },
+          "seasonal_baseline": {
+            "threshold": 0.0,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.21904761904761905,
+            "validation_recall": 1.0
+          },
+          "persistence_baseline": {
+            "threshold": 0.0,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.21904761904761905,
+            "validation_recall": 1.0
+          },
+          "lstm_numpy": {
+            "threshold": 0.457285177846917,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.296875,
+            "validation_recall": 0.8260869565217391
+          },
+          "lstm_pytorch": {
+            "threshold": 0.4524609446525574,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.23076923076923078,
+            "validation_recall": 0.9130434782608695
+          }
+        },
+        "metrics": {
+          "logistic_regression": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 2.973867662755775e-05,
+              "accuracy": 0.3142857142857143,
+              "balanced_accuracy": 0.5609756097560976,
+              "precision": 0.24210526315789474,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.12195121951219512,
+              "f1": 0.3898305084745763,
+              "f2": 0.6149732620320856,
+              "pr_auc": 0.3008840877365661,
+              "roc_auc": 0.5535524920466596,
+              "brier": 0.19853140032677377,
+              "tn": 10,
+              "fp": 72,
+              "fn": 0,
+              "tp": 23,
+              "false_alarms_per_year": 35.77885714285715
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 2.973867662755775e-05,
+              "accuracy": 0.5865384615384616,
+              "balanced_accuracy": 0.48142414860681115,
+              "precision": 0.16666666666666666,
+              "recall_sensitivity": 0.3157894736842105,
+              "specificity": 0.6470588235294118,
+              "f1": 0.21818181818181817,
+              "f2": 0.26785714285714285,
+              "pr_auc": 0.2768326621091572,
+              "roc_auc": 0.6309597523219814,
+              "brier": 0.20237126877766948,
+              "tn": 55,
+              "fp": 30,
+              "fn": 13,
+              "tp": 6,
+              "false_alarms_per_year": 15.051201923076924,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.061824288017568826,
+                  "upper_95": 0.6784225637827201
+                },
+                "roc_auc": {
+                  "lower_95": 0.38366727205264906,
+                  "upper_95": 0.8996969696969697
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.7781818181818174
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.4651282051282051
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.39139292080468546
+                }
+              }
+            }
+          },
+          "random_forest": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.005884335948852079,
+              "accuracy": 0.37142857142857144,
+              "balanced_accuracy": 0.5506362672322376,
+              "precision": 0.24096385542168675,
+              "recall_sensitivity": 0.8695652173913043,
+              "specificity": 0.23170731707317074,
+              "f1": 0.37735849056603776,
+              "f2": 0.5714285714285714,
+              "pr_auc": 0.278799406342742,
+              "roc_auc": 0.5058324496288441,
+              "brier": 0.20017687088223973,
+              "tn": 19,
+              "fp": 63,
+              "fn": 3,
+              "tp": 20,
+              "false_alarms_per_year": 31.306500000000003
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.005884335948852079,
+              "accuracy": 0.4423076923076923,
+              "balanced_accuracy": 0.5157894736842106,
+              "precision": 0.19047619047619047,
+              "recall_sensitivity": 0.631578947368421,
+              "specificity": 0.4,
+              "f1": 0.2926829268292683,
+              "f2": 0.4316546762589928,
+              "pr_auc": 0.1699714855491417,
+              "roc_auc": 0.4321981424148607,
+              "brier": 0.18485152774525504,
+              "tn": 34,
+              "fp": 51,
+              "fn": 7,
+              "tp": 12,
+              "false_alarms_per_year": 25.58704326923077,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.051988472306076665,
+                  "upper_95": 0.4042343529850747
+                },
+                "roc_auc": {
+                  "lower_95": 0.20292716408268735,
+                  "upper_95": 0.8306673509766292
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.36363636363636365,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.036565656565656565,
+                  "upper_95": 0.42749999999999994
+                },
+                "f2": {
+                  "lower_95": 0.15293560606060608,
+                  "upper_95": 0.6178606339896663
+                }
+              }
+            }
+          },
+          "seasonal_baseline": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.0,
+              "accuracy": 0.21904761904761905,
+              "balanced_accuracy": 0.5,
+              "precision": 0.21904761904761905,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.359375,
+              "f2": 0.583756345177665,
+              "pr_auc": 0.20002019895975356,
+              "roc_auc": 0.3199893955461294,
+              "brier": 0.21878036929057332,
+              "tn": 0,
+              "fp": 82,
+              "fn": 0,
+              "tp": 23,
+              "false_alarms_per_year": 40.74814285714286
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.0,
+              "accuracy": 0.18269230769230768,
+              "balanced_accuracy": 0.5,
+              "precision": 0.18269230769230768,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.3089430894308943,
+              "f2": 0.5277777777777778,
+              "pr_auc": 0.16973684210526313,
+              "roc_auc": 0.45294117647058824,
+              "brier": 0.17432790423861852,
+              "tn": 0,
+              "fp": 85,
+              "fn": 0,
+              "tp": 19,
+              "false_alarms_per_year": 42.645072115384615,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.05371794871794872,
+                  "upper_95": 0.39833333333333326
+                },
+                "roc_auc": {
+                  "lower_95": 0.2965045592705167,
+                  "upper_95": 0.8357055086951992
+                },
+                "recall_sensitivity": {
+                  "lower_95": 1.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.019230769230769232,
+                  "upper_95": 0.41057692307692295
+                },
+                "f2": {
+                  "lower_95": 0.08928571428571429,
+                  "upper_95": 0.7769075021312872
+                }
+              }
+            }
+          },
+          "persistence_baseline": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.0,
+              "accuracy": 0.21904761904761905,
+              "balanced_accuracy": 0.5,
+              "precision": 0.21904761904761905,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.359375,
+              "f2": 0.583756345177665,
+              "pr_auc": 0.21904761904761905,
+              "roc_auc": 0.42073170731707316,
+              "brier": 0.34285714285714286,
+              "tn": 0,
+              "fp": 82,
+              "fn": 0,
+              "tp": 23,
+              "false_alarms_per_year": 40.74814285714286
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.0,
+              "accuracy": 0.18269230769230768,
+              "balanced_accuracy": 0.5,
+              "precision": 0.18269230769230768,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.3089430894308943,
+              "f2": 0.5277777777777778,
+              "pr_auc": 0.18269230769230768,
+              "roc_auc": 0.32941176470588235,
+              "brier": 0.46153846153846156,
+              "tn": 0,
+              "fp": 85,
+              "fn": 0,
+              "tp": 19,
+              "false_alarms_per_year": 42.645072115384615,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.019230769230769232,
+                  "upper_95": 0.41057692307692295
+                },
+                "roc_auc": {
+                  "lower_95": 0.19050511508951407,
+                  "upper_95": 0.44285714285714284
+                },
+                "recall_sensitivity": {
+                  "lower_95": 1.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.019230769230769232,
+                  "upper_95": 0.41057692307692295
+                },
+                "f2": {
+                  "lower_95": 0.08928571428571429,
+                  "upper_95": 0.7769075021312872
+                }
+              }
+            }
+          },
+          "lstm_numpy": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.457285177846917,
+              "accuracy": 0.5333333333333333,
+              "balanced_accuracy": 0.6386532343584306,
+              "precision": 0.296875,
+              "recall_sensitivity": 0.8260869565217391,
+              "specificity": 0.45121951219512196,
+              "f1": 0.4367816091954023,
+              "f2": 0.6089743589743589,
+              "pr_auc": 0.3139469628036864,
+              "roc_auc": 0.646341463414634,
+              "brier": 0.22799690455036845,
+              "tn": 37,
+              "fp": 45,
+              "fn": 4,
+              "tp": 19,
+              "false_alarms_per_year": 22.361785714285716
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.457285177846917,
+              "accuracy": 0.375,
+              "balanced_accuracy": 0.5359133126934985,
+              "precision": 0.19736842105263158,
+              "recall_sensitivity": 0.7894736842105263,
+              "specificity": 0.2823529411764706,
+              "f1": 0.3157894736842105,
+              "f2": 0.4934210526315789,
+              "pr_auc": 0.20932174166284506,
+              "roc_auc": 0.556656346749226,
+              "brier": 0.2518659856117527,
+              "tn": 24,
+              "fp": 61,
+              "fn": 4,
+              "tp": 15,
+              "false_alarms_per_year": 30.604110576923077,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.06802281268242964,
+                  "upper_95": 0.48849400286101385
+                },
+                "roc_auc": {
+                  "lower_95": 0.34177423007246377,
+                  "upper_95": 0.9137442244224421
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.6182692307692308,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.031062271062271062,
+                  "upper_95": 0.4354166666666666
+                },
+                "f2": {
+                  "lower_95": 0.13814393208566467,
+                  "upper_95": 0.6850139367109361
+                }
+              }
+            }
+          },
+          "lstm_pytorch": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.21904761904761905,
+              "threshold": 0.4524609446525574,
+              "accuracy": 0.3142857142857143,
+              "balanced_accuracy": 0.5296924708377518,
+              "precision": 0.23076923076923078,
+              "recall_sensitivity": 0.9130434782608695,
+              "specificity": 0.14634146341463414,
+              "f1": 0.3684210526315789,
+              "f2": 0.5737704918032787,
+              "pr_auc": 0.1819473888946148,
+              "roc_auc": 0.40615058324496284,
+              "brier": 0.23312421143054962,
+              "tn": 12,
+              "fp": 70,
+              "fn": 2,
+              "tp": 21,
+              "false_alarms_per_year": 34.785000000000004
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.18269230769230768,
+              "threshold": 0.4524609446525574,
+              "accuracy": 0.36538461538461536,
+              "balanced_accuracy": 0.36656346749226004,
+              "precision": 0.11475409836065574,
+              "recall_sensitivity": 0.3684210526315789,
+              "specificity": 0.36470588235294116,
+              "f1": 0.175,
+              "f2": 0.25547445255474455,
+              "pr_auc": 0.1207018801348764,
+              "roc_auc": 0.22414860681114548,
+              "brier": 0.23116660118103027,
+              "tn": 31,
+              "fp": 54,
+              "fn": 12,
+              "tp": 7,
+              "false_alarms_per_year": 27.092163461538462,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.03064790254445427,
+                  "upper_95": 0.2900658553320766
+                },
+                "roc_auc": {
+                  "lower_95": 0.009495051319648092,
+                  "upper_95": 0.6457691129937734
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.31533834586466164
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.4784735812133072
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "window": {
+      "4": {
+        "horizon_weeks": 4,
+        "target_kind": "window",
+        "splits": {
+          "train": {
+            "n": 417,
+            "positive": 8,
+            "prevalence": 0.019184652278177457,
+            "first_issue_date": "2013-12-08",
+            "last_issue_date": "2021-11-28",
+            "first_target_date": "2014-01-05",
+            "last_target_date": "2021-12-26"
+          },
+          "validation": {
+            "n": 105,
+            "positive": 8,
+            "prevalence": 0.0761904761904762,
+            "first_issue_date": "2021-12-05",
+            "last_issue_date": "2023-12-03",
+            "first_target_date": "2022-01-02",
+            "last_target_date": "2023-12-31"
+          },
+          "test": {
+            "n": 104,
+            "positive": 8,
+            "prevalence": 0.07692307692307693,
+            "first_issue_date": "2023-12-10",
+            "last_issue_date": "2025-11-30",
+            "first_target_date": "2024-01-07",
+            "last_target_date": "2025-12-28"
+          }
+        },
+        "selection": {
+          "random_forest": {
+            "best_params": {
+              "n_estimators": 300,
+              "max_depth": 4,
+              "min_samples_leaf": 8,
+              "max_features": "sqrt"
+            },
+            "walk_forward_search": [
+              {
+                "max_depth": 4.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.06908684228958771,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 8.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.06908684228958771,
+                "n_folds": 1
+              },
+              {
+                "max_depth": NaN,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.06908684228958771,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 4.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.06530122993537628,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 8.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.06530122993537628,
+                "n_folds": 1
+              },
+              {
+                "max_depth": NaN,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.06530122993537628,
+                "n_folds": 1
+              }
+            ],
+            "threshold": 0.10814513400846126,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.22580645161290322,
+            "validation_recall": 0.875
+          },
+          "logistic_regression": {
+            "threshold": 0.0002916832793307779,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.109375,
+            "validation_recall": 0.875
+          },
+          "seasonal_baseline": {
+            "threshold": 0.0,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.0761904761904762,
+            "validation_recall": 1.0
+          },
+          "persistence_baseline": {
+            "threshold": 0.0,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.0761904761904762,
+            "validation_recall": 1.0
+          },
+          "lstm_numpy": {
+            "threshold": 0.5779041395543061,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.1794871794871795,
+            "validation_recall": 0.875
+          },
+          "lstm_pytorch": {
+            "threshold": 0.4589448571205139,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.09876543209876543,
+            "validation_recall": 1.0
+          }
+        },
+        "metrics": {
+          "logistic_regression": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.0761904761904762,
+              "threshold": 0.0002916832793307779,
+              "accuracy": 0.44761904761904764,
+              "balanced_accuracy": 0.6436855670103092,
+              "precision": 0.109375,
+              "recall_sensitivity": 0.875,
+              "specificity": 0.41237113402061853,
+              "f1": 0.19444444444444445,
+              "f2": 0.3645833333333333,
+              "pr_auc": 0.19388356146168645,
+              "roc_auc": 0.6701030927835052,
+              "brier": 0.09714793257255602,
+              "tn": 40,
+              "fp": 57,
+              "fn": 1,
+              "tp": 7,
+              "false_alarms_per_year": 28.324928571428575
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.07692307692307693,
+              "threshold": 0.0002916832793307779,
+              "accuracy": 0.7692307692307693,
+              "balanced_accuracy": 0.6458333333333333,
+              "precision": 0.16666666666666666,
+              "recall_sensitivity": 0.5,
+              "specificity": 0.7916666666666666,
+              "f1": 0.25,
+              "f2": 0.35714285714285715,
+              "pr_auc": 0.1412817482589948,
+              "roc_auc": 0.6888020833333333,
+              "brier": 0.1034973370170429,
+              "tn": 76,
+              "fp": 20,
+              "fn": 4,
+              "tp": 4,
+              "false_alarms_per_year": 10.034134615384616,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.025727250446052882,
+                  "upper_95": 0.458816844919786
+                },
+                "roc_auc": {
+                  "lower_95": 0.3296875,
+                  "upper_95": 0.9259999999999996
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.4
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.6557377049180327
+                }
+              }
+            }
+          },
+          "random_forest": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.0761904761904762,
+              "threshold": 0.10814513400846126,
+              "accuracy": 0.7619047619047619,
+              "balanced_accuracy": 0.8137886597938144,
+              "precision": 0.22580645161290322,
+              "recall_sensitivity": 0.875,
+              "specificity": 0.7525773195876289,
+              "f1": 0.358974358974359,
+              "f2": 0.5555555555555556,
+              "pr_auc": 0.22290601363182005,
+              "roc_auc": 0.8350515463917526,
+              "brier": 0.07146559632501194,
+              "tn": 73,
+              "fp": 24,
+              "fn": 1,
+              "tp": 7,
+              "false_alarms_per_year": 11.926285714285715
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.07692307692307693,
+              "threshold": 0.10814513400846126,
+              "accuracy": 0.5673076923076923,
+              "balanced_accuracy": 0.5364583333333333,
+              "precision": 0.08888888888888889,
+              "recall_sensitivity": 0.5,
+              "specificity": 0.5729166666666666,
+              "f1": 0.1509433962264151,
+              "f2": 0.2597402597402597,
+              "pr_auc": 0.234895130454341,
+              "roc_auc": 0.61328125,
+              "brier": 0.07841362574250135,
+              "tn": 55,
+              "fp": 41,
+              "fn": 4,
+              "tp": 4,
+              "false_alarms_per_year": 20.569975961538464,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.017142096437958852,
+                  "upper_95": 0.7381856909430434
+                },
+                "roc_auc": {
+                  "lower_95": 0.13827485272459503,
+                  "upper_95": 0.9860661764705881
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.2209523809523803
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.4954225352112674
+                }
+              }
+            }
+          },
+          "seasonal_baseline": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.0761904761904762,
+              "threshold": 0.0,
+              "accuracy": 0.0761904761904762,
+              "balanced_accuracy": 0.5,
+              "precision": 0.0761904761904762,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.1415929203539823,
+              "f2": 0.291970802919708,
+              "pr_auc": 0.0761904761904762,
+              "roc_auc": 0.4175257731958763,
+              "brier": 0.07857142857142857,
+              "tn": 0,
+              "fp": 97,
+              "fn": 0,
+              "tp": 8,
+              "false_alarms_per_year": 48.202071428571436
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.07692307692307693,
+              "threshold": 0.0,
+              "accuracy": 0.07692307692307693,
+              "balanced_accuracy": 0.5,
+              "precision": 0.07692307692307693,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.14285714285714285,
+              "f2": 0.29411764705882354,
+              "pr_auc": 0.07692307692307693,
+              "roc_auc": 0.4166666666666667,
+              "brier": 0.07932692307692307,
+              "tn": 0,
+              "fp": 96,
+              "fn": 0,
+              "tp": 8,
+              "false_alarms_per_year": 48.16384615384616,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.009615384615384616,
+                  "upper_95": 0.17307692307692307
+                },
+                "roc_auc": {
+                  "lower_95": 0.36604823747680887,
+                  "upper_95": 0.47938762626262627
+                },
+                "recall_sensitivity": {
+                  "lower_95": 1.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.009615384615384616,
+                  "upper_95": 0.17307692307692307
+                },
+                "f2": {
+                  "lower_95": 0.046296296296296294,
+                  "upper_95": 0.5113636363636364
+                }
+              }
+            }
+          },
+          "persistence_baseline": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.0761904761904762,
+              "threshold": 0.0,
+              "accuracy": 0.0761904761904762,
+              "balanced_accuracy": 0.5,
+              "precision": 0.0761904761904762,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.1415929203539823,
+              "f2": 0.291970802919708,
+              "pr_auc": 0.0761904761904762,
+              "roc_auc": 0.4896907216494845,
+              "brier": 0.09523809523809523,
+              "tn": 0,
+              "fp": 97,
+              "fn": 0,
+              "tp": 8,
+              "false_alarms_per_year": 48.202071428571436
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.07692307692307693,
+              "threshold": 0.0,
+              "accuracy": 0.07692307692307693,
+              "balanced_accuracy": 0.5,
+              "precision": 0.07692307692307693,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.14285714285714285,
+              "f2": 0.29411764705882354,
+              "pr_auc": 0.07692307692307693,
+              "roc_auc": 0.4895833333333333,
+              "brier": 0.09615384615384616,
+              "tn": 0,
+              "fp": 96,
+              "fn": 0,
+              "tp": 8,
+              "false_alarms_per_year": 48.16384615384616,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.009615384615384616,
+                  "upper_95": 0.17307692307692307
+                },
+                "roc_auc": {
+                  "lower_95": 0.47135967230443976,
+                  "upper_95": 0.5
+                },
+                "recall_sensitivity": {
+                  "lower_95": 1.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.009615384615384616,
+                  "upper_95": 0.17307692307692307
+                },
+                "f2": {
+                  "lower_95": 0.046296296296296294,
+                  "upper_95": 0.5113636363636364
+                }
+              }
+            }
+          },
+          "lstm_numpy": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.0761904761904762,
+              "threshold": 0.5779041395543061,
+              "accuracy": 0.6857142857142857,
+              "balanced_accuracy": 0.7725515463917525,
+              "precision": 0.1794871794871795,
+              "recall_sensitivity": 0.875,
+              "specificity": 0.6701030927835051,
+              "f1": 0.2978723404255319,
+              "f2": 0.49295774647887325,
+              "pr_auc": 0.18640491452991456,
+              "roc_auc": 0.7938144329896908,
+              "brier": 0.25546515648305673,
+              "tn": 65,
+              "fp": 32,
+              "fn": 1,
+              "tp": 7,
+              "false_alarms_per_year": 15.901714285714288
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.07692307692307693,
+              "threshold": 0.5779041395543061,
+              "accuracy": 0.8173076923076923,
+              "balanced_accuracy": 0.671875,
+              "precision": 0.21052631578947367,
+              "recall_sensitivity": 0.5,
+              "specificity": 0.84375,
+              "f1": 0.2962962962962963,
+              "f2": 0.39215686274509803,
+              "pr_auc": 0.4709925871507704,
+              "roc_auc": 0.6471354166666666,
+              "brier": 0.26975533400100066,
+              "tn": 81,
+              "fp": 15,
+              "fn": 4,
+              "tp": 4,
+              "false_alarms_per_year": 7.525600961538462,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.017902021424219858,
+                  "upper_95": 1.0
+                },
+                "roc_auc": {
+                  "lower_95": 0.12966129032258064,
+                  "upper_95": 1.0
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.4444444444444444
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.7142857142857143
+                }
+              }
+            }
+          },
+          "lstm_pytorch": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.0761904761904762,
+              "threshold": 0.4589448571205139,
+              "accuracy": 0.3047619047619048,
+              "balanced_accuracy": 0.6237113402061856,
+              "precision": 0.09876543209876543,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.24742268041237114,
+              "f1": 0.1797752808988764,
+              "f2": 0.35398230088495575,
+              "pr_auc": 0.06631124492371082,
+              "roc_auc": 0.3969072164948454,
+              "brier": 0.23371689021587372,
+              "tn": 24,
+              "fp": 73,
+              "fn": 0,
+              "tp": 8,
+              "false_alarms_per_year": 36.27578571428572
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.07692307692307693,
+              "threshold": 0.4589448571205139,
+              "accuracy": 0.3173076923076923,
+              "balanced_accuracy": 0.40104166666666663,
+              "precision": 0.056338028169014086,
+              "recall_sensitivity": 0.5,
+              "specificity": 0.3020833333333333,
+              "f1": 0.10126582278481013,
+              "f2": 0.1941747572815534,
+              "pr_auc": 0.08036168157454025,
+              "roc_auc": 0.47005208333333337,
+              "brier": 0.23915785551071167,
+              "tn": 29,
+              "fp": 67,
+              "fn": 4,
+              "tp": 4,
+              "false_alarms_per_year": 33.61435096153846,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.016126980692906807,
+                  "upper_95": 0.18990536788856022
+                },
+                "roc_auc": {
+                  "lower_95": 0.10064025610244097,
+                  "upper_95": 0.7602743399339933
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.13031722375984667
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.3891414141414141
+                }
+              }
+            }
+          }
+        },
+        "episode_metrics": {
+          "logistic_regression": {
+            "n_test_episodes": 2,
+            "episodes_detected": 1,
+            "episode_recall": 0.5,
+            "median_maximum_lead_weeks": 4.0,
+            "false_warning_weeks": 20,
+            "false_warning_weeks_per_year": 10.034134615384616,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 4,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 4
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": false,
+                "maximum_lead_weeks": null,
+                "last_warning_lead_weeks": null,
+                "n_warning_weeks": 0
+              }
+            ]
+          },
+          "random_forest": {
+            "n_test_episodes": 2,
+            "episodes_detected": 1,
+            "episode_recall": 0.5,
+            "median_maximum_lead_weeks": 4.0,
+            "false_warning_weeks": 41,
+            "false_warning_weeks_per_year": 20.569975961538464,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 4,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 4
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": false,
+                "maximum_lead_weeks": null,
+                "last_warning_lead_weeks": null,
+                "n_warning_weeks": 0
+              }
+            ]
+          },
+          "seasonal_baseline": {
+            "n_test_episodes": 2,
+            "episodes_detected": 2,
+            "episode_recall": 1.0,
+            "median_maximum_lead_weeks": 4.0,
+            "false_warning_weeks": 96,
+            "false_warning_weeks_per_year": 48.16384615384616,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 4,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 4
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": true,
+                "maximum_lead_weeks": 4,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 4
+              }
+            ]
+          },
+          "persistence_baseline": {
+            "n_test_episodes": 2,
+            "episodes_detected": 2,
+            "episode_recall": 1.0,
+            "median_maximum_lead_weeks": 4.0,
+            "false_warning_weeks": 96,
+            "false_warning_weeks_per_year": 48.16384615384616,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 4,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 4
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": true,
+                "maximum_lead_weeks": 4,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 4
+              }
+            ]
+          },
+          "lstm_numpy": {
+            "n_test_episodes": 2,
+            "episodes_detected": 1,
+            "episode_recall": 0.5,
+            "median_maximum_lead_weeks": 4.0,
+            "false_warning_weeks": 15,
+            "false_warning_weeks_per_year": 7.525600961538462,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 4,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 4
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": false,
+                "maximum_lead_weeks": null,
+                "last_warning_lead_weeks": null,
+                "n_warning_weeks": 0
+              }
+            ]
+          },
+          "lstm_pytorch": {
+            "n_test_episodes": 2,
+            "episodes_detected": 1,
+            "episode_recall": 0.5,
+            "median_maximum_lead_weeks": 4.0,
+            "false_warning_weeks": 67,
+            "false_warning_weeks_per_year": 33.61435096153846,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 4,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 4
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": false,
+                "maximum_lead_weeks": null,
+                "last_warning_lead_weeks": null,
+                "n_warning_weeks": 0
+              }
+            ]
+          }
+        }
+      },
+      "8": {
+        "horizon_weeks": 8,
+        "target_kind": "window",
+        "splits": {
+          "train": {
+            "n": 413,
+            "positive": 16,
+            "prevalence": 0.0387409200968523,
+            "first_issue_date": "2013-12-08",
+            "last_issue_date": "2021-10-31",
+            "first_target_date": "2014-02-02",
+            "last_target_date": "2021-12-26"
+          },
+          "validation": {
+            "n": 105,
+            "positive": 16,
+            "prevalence": 0.1523809523809524,
+            "first_issue_date": "2021-11-07",
+            "last_issue_date": "2023-11-05",
+            "first_target_date": "2022-01-02",
+            "last_target_date": "2023-12-31"
+          },
+          "test": {
+            "n": 104,
+            "positive": 16,
+            "prevalence": 0.15384615384615385,
+            "first_issue_date": "2023-11-12",
+            "last_issue_date": "2025-11-02",
+            "first_target_date": "2024-01-07",
+            "last_target_date": "2025-12-28"
+          }
+        },
+        "selection": {
+          "random_forest": {
+            "best_params": {
+              "n_estimators": 300,
+              "max_depth": 4,
+              "min_samples_leaf": 3,
+              "max_features": "sqrt"
+            },
+            "walk_forward_search": [
+              {
+                "max_depth": 4.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.14095395610818856,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 8.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.14095395610818856,
+                "n_folds": 1
+              },
+              {
+                "max_depth": NaN,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.14095395610818856,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 4.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.12026934797970552,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 8.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.12026934797970552,
+                "n_folds": 1
+              },
+              {
+                "max_depth": NaN,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.12026934797970552,
+                "n_folds": 1
+              }
+            ],
+            "threshold": 0.0357156084423443,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.21333333333333335,
+            "validation_recall": 1.0
+          },
+          "logistic_regression": {
+            "threshold": 0.0005035271126447586,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.2727272727272727,
+            "validation_recall": 0.9375
+          },
+          "seasonal_baseline": {
+            "threshold": 0.0,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.1523809523809524,
+            "validation_recall": 1.0
+          },
+          "persistence_baseline": {
+            "threshold": 0.0,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.1523809523809524,
+            "validation_recall": 1.0
+          },
+          "lstm_numpy": {
+            "threshold": 0.5412091530517593,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.32608695652173914,
+            "validation_recall": 0.9375
+          },
+          "lstm_pytorch": {
+            "threshold": 0.4589977562427521,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.2,
+            "validation_recall": 0.875
+          }
+        },
+        "metrics": {
+          "logistic_regression": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.1523809523809524,
+              "threshold": 0.0005035271126447586,
+              "accuracy": 0.6095238095238096,
+              "balanced_accuracy": 0.7440308988764045,
+              "precision": 0.2727272727272727,
+              "recall_sensitivity": 0.9375,
+              "specificity": 0.550561797752809,
+              "f1": 0.4225352112676056,
+              "f2": 0.6302521008403361,
+              "pr_auc": 0.36795361916172964,
+              "roc_auc": 0.752808988764045,
+              "brier": 0.1365854852662645,
+              "tn": 49,
+              "fp": 40,
+              "fn": 1,
+              "tp": 15,
+              "false_alarms_per_year": 19.87714285714286
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.15384615384615385,
+              "threshold": 0.0005035271126447586,
+              "accuracy": 0.7211538461538461,
+              "balanced_accuracy": 0.6306818181818181,
+              "precision": 0.27586206896551724,
+              "recall_sensitivity": 0.5,
+              "specificity": 0.7613636363636364,
+              "f1": 0.35555555555555557,
+              "f2": 0.43010752688172044,
+              "pr_auc": 0.4678562243967114,
+              "roc_auc": 0.7549715909090908,
+              "brier": 0.15238941874579298,
+              "tn": 67,
+              "fp": 21,
+              "fn": 8,
+              "tp": 8,
+              "false_alarms_per_year": 10.535841346153846,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.04493390805282206,
+                  "upper_95": 0.803341273001147
+                },
+                "roc_auc": {
+                  "lower_95": 0.44658203125000007,
+                  "upper_95": 0.9541208610893418
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.6824146341463415
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.75
+                }
+              }
+            }
+          },
+          "random_forest": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.1523809523809524,
+              "threshold": 0.0357156084423443,
+              "accuracy": 0.4380952380952381,
+              "balanced_accuracy": 0.6685393258426966,
+              "precision": 0.21333333333333335,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.33707865168539325,
+              "f1": 0.3516483516483517,
+              "f2": 0.5755395683453237,
+              "pr_auc": 0.3742914101088293,
+              "roc_auc": 0.6903089887640449,
+              "brier": 0.120277456769146,
+              "tn": 30,
+              "fp": 59,
+              "fn": 0,
+              "tp": 16,
+              "false_alarms_per_year": 29.318785714285717
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.15384615384615385,
+              "threshold": 0.0357156084423443,
+              "accuracy": 0.33653846153846156,
+              "balanced_accuracy": 0.40340909090909094,
+              "precision": 0.11594202898550725,
+              "recall_sensitivity": 0.5,
+              "specificity": 0.3068181818181818,
+              "f1": 0.18823529411764706,
+              "f2": 0.3007518796992481,
+              "pr_auc": 0.4133950767621795,
+              "roc_auc": 0.5511363636363638,
+              "brier": 0.11928042452240072,
+              "tn": 27,
+              "fp": 61,
+              "fn": 8,
+              "tp": 8,
+              "false_alarms_per_year": 30.604110576923077,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.021943748593039415,
+                  "upper_95": 0.8351347373188404
+                },
+                "roc_auc": {
+                  "lower_95": 0.016856508875739626,
+                  "upper_95": 0.9807123597257765
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.2998273092369477
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.5769230769230769
+                }
+              }
+            }
+          },
+          "seasonal_baseline": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.1523809523809524,
+              "threshold": 0.0,
+              "accuracy": 0.1523809523809524,
+              "balanced_accuracy": 0.5,
+              "precision": 0.1523809523809524,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.2644628099173554,
+              "f2": 0.47337278106508873,
+              "pr_auc": 0.14487327188940094,
+              "roc_auc": 0.36025280898876405,
+              "brier": 0.15493197278911564,
+              "tn": 0,
+              "fp": 89,
+              "fn": 0,
+              "tp": 16,
+              "false_alarms_per_year": 44.22664285714286
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.15384615384615385,
+              "threshold": 0.0,
+              "accuracy": 0.15384615384615385,
+              "balanced_accuracy": 0.5,
+              "precision": 0.15384615384615385,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.26666666666666666,
+              "f2": 0.47619047619047616,
+              "pr_auc": 0.15384615384615385,
+              "roc_auc": 0.3295454545454546,
+              "brier": 0.15862931711145997,
+              "tn": 0,
+              "fp": 88,
+              "fn": 0,
+              "tp": 16,
+              "false_alarms_per_year": 44.15019230769231,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.020913461538461547,
+                  "upper_95": 0.3269230769230769
+                },
+                "roc_auc": {
+                  "lower_95": 0.2433336389194475,
+                  "upper_95": 0.43074282533399305
+                },
+                "recall_sensitivity": {
+                  "lower_95": 1.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.020913461538461547,
+                  "upper_95": 0.3269230769230769
+                },
+                "f2": {
+                  "lower_95": 0.0962900246305419,
+                  "upper_95": 0.7083333333333334
+                }
+              }
+            }
+          },
+          "persistence_baseline": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.1523809523809524,
+              "threshold": 0.0,
+              "accuracy": 0.1523809523809524,
+              "balanced_accuracy": 0.5,
+              "precision": 0.1523809523809524,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.2644628099173554,
+              "f2": 0.47337278106508873,
+              "pr_auc": 0.1523809523809524,
+              "roc_auc": 0.4887640449438202,
+              "brier": 0.17142857142857143,
+              "tn": 0,
+              "fp": 89,
+              "fn": 0,
+              "tp": 16,
+              "false_alarms_per_year": 44.22664285714286
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.15384615384615385,
+              "threshold": 0.0,
+              "accuracy": 0.15384615384615385,
+              "balanced_accuracy": 0.5,
+              "precision": 0.15384615384615385,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.26666666666666666,
+              "f2": 0.47619047619047616,
+              "pr_auc": 0.15384615384615385,
+              "roc_auc": 0.48863636363636365,
+              "brier": 0.17307692307692307,
+              "tn": 0,
+              "fp": 88,
+              "fn": 0,
+              "tp": 16,
+              "false_alarms_per_year": 44.15019230769231,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.020913461538461547,
+                  "upper_95": 0.3269230769230769
+                },
+                "roc_auc": {
+                  "lower_95": 0.4680889423076923,
+                  "upper_95": 0.5
+                },
+                "recall_sensitivity": {
+                  "lower_95": 1.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.020913461538461547,
+                  "upper_95": 0.3269230769230769
+                },
+                "f2": {
+                  "lower_95": 0.0962900246305419,
+                  "upper_95": 0.7083333333333334
+                }
+              }
+            }
+          },
+          "lstm_numpy": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.1523809523809524,
+              "threshold": 0.5412091530517593,
+              "accuracy": 0.6952380952380952,
+              "balanced_accuracy": 0.7945926966292135,
+              "precision": 0.32608695652173914,
+              "recall_sensitivity": 0.9375,
+              "specificity": 0.651685393258427,
+              "f1": 0.4838709677419355,
+              "f2": 0.6818181818181818,
+              "pr_auc": 0.3032137831295394,
+              "roc_auc": 0.776685393258427,
+              "brier": 0.2259266188669889,
+              "tn": 58,
+              "fp": 31,
+              "fn": 1,
+              "tp": 15,
+              "false_alarms_per_year": 15.404785714285715
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.15384615384615385,
+              "threshold": 0.5412091530517593,
+              "accuracy": 0.5961538461538461,
+              "balanced_accuracy": 0.5568181818181819,
+              "precision": 0.19047619047619047,
+              "recall_sensitivity": 0.5,
+              "specificity": 0.6136363636363636,
+              "f1": 0.27586206896551724,
+              "f2": 0.37735849056603776,
+              "pr_auc": 0.5355447997413902,
+              "roc_auc": 0.6384943181818182,
+              "brier": 0.2633459657107332,
+              "tn": 54,
+              "fp": 34,
+              "fn": 8,
+              "tp": 8,
+              "false_alarms_per_year": 17.058028846153846,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.02714479464427683,
+                  "upper_95": 1.0
+                },
+                "roc_auc": {
+                  "lower_95": 0.1443439960848868,
+                  "upper_95": 1.0
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.44322916666666656
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.6714229133661302
+                }
+              }
+            }
+          },
+          "lstm_pytorch": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.1523809523809524,
+              "threshold": 0.4589977562427521,
+              "accuracy": 0.44761904761904764,
+              "balanced_accuracy": 0.6228932584269663,
+              "precision": 0.2,
+              "recall_sensitivity": 0.875,
+              "specificity": 0.3707865168539326,
+              "f1": 0.32558139534883723,
+              "f2": 0.5223880597014925,
+              "pr_auc": 0.15711381088920773,
+              "roc_auc": 0.5400280898876404,
+              "brier": 0.2336881160736084,
+              "tn": 33,
+              "fp": 56,
+              "fn": 2,
+              "tp": 14,
+              "false_alarms_per_year": 27.828000000000003
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.15384615384615385,
+              "threshold": 0.4589977562427521,
+              "accuracy": 0.3557692307692308,
+              "balanced_accuracy": 0.46590909090909094,
+              "precision": 0.14084507042253522,
+              "recall_sensitivity": 0.625,
+              "specificity": 0.3068181818181818,
+              "f1": 0.22988505747126436,
+              "f2": 0.37037037037037035,
+              "pr_auc": 0.18117830038445157,
+              "roc_auc": 0.5106534090909091,
+              "brier": 0.24194088578224182,
+              "tn": 27,
+              "fp": 61,
+              "fn": 6,
+              "tp": 10,
+              "false_alarms_per_year": 30.604110576923077,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.022186616075413165,
+                  "upper_95": 0.5135028698136594
+                },
+                "roc_auc": {
+                  "lower_95": 0.07527310924369748,
+                  "upper_95": 0.8153801169590643
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.30534420289855074
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.5854817708333333
+                }
+              }
+            }
+          }
+        },
+        "episode_metrics": {
+          "logistic_regression": {
+            "n_test_episodes": 2,
+            "episodes_detected": 1,
+            "episode_recall": 0.5,
+            "median_maximum_lead_weeks": 8.0,
+            "false_warning_weeks": 21,
+            "false_warning_weeks_per_year": 10.535841346153846,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 8,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 8
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": false,
+                "maximum_lead_weeks": null,
+                "last_warning_lead_weeks": null,
+                "n_warning_weeks": 0
+              }
+            ]
+          },
+          "random_forest": {
+            "n_test_episodes": 2,
+            "episodes_detected": 1,
+            "episode_recall": 0.5,
+            "median_maximum_lead_weeks": 8.0,
+            "false_warning_weeks": 61,
+            "false_warning_weeks_per_year": 30.604110576923077,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 8,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 8
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": false,
+                "maximum_lead_weeks": null,
+                "last_warning_lead_weeks": null,
+                "n_warning_weeks": 0
+              }
+            ]
+          },
+          "seasonal_baseline": {
+            "n_test_episodes": 2,
+            "episodes_detected": 2,
+            "episode_recall": 1.0,
+            "median_maximum_lead_weeks": 8.0,
+            "false_warning_weeks": 88,
+            "false_warning_weeks_per_year": 44.15019230769231,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 8,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 8
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": true,
+                "maximum_lead_weeks": 8,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 8
+              }
+            ]
+          },
+          "persistence_baseline": {
+            "n_test_episodes": 2,
+            "episodes_detected": 2,
+            "episode_recall": 1.0,
+            "median_maximum_lead_weeks": 8.0,
+            "false_warning_weeks": 88,
+            "false_warning_weeks_per_year": 44.15019230769231,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 8,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 8
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": true,
+                "maximum_lead_weeks": 8,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 8
+              }
+            ]
+          },
+          "lstm_numpy": {
+            "n_test_episodes": 2,
+            "episodes_detected": 1,
+            "episode_recall": 0.5,
+            "median_maximum_lead_weeks": 8.0,
+            "false_warning_weeks": 34,
+            "false_warning_weeks_per_year": 17.058028846153846,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 8,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 8
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": false,
+                "maximum_lead_weeks": null,
+                "last_warning_lead_weeks": null,
+                "n_warning_weeks": 0
+              }
+            ]
+          },
+          "lstm_pytorch": {
+            "n_test_episodes": 2,
+            "episodes_detected": 2,
+            "episode_recall": 1.0,
+            "median_maximum_lead_weeks": 8.0,
+            "false_warning_weeks": 61,
+            "false_warning_weeks_per_year": 30.604110576923077,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 8,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 8
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": true,
+                "maximum_lead_weeks": 8,
+                "last_warning_lead_weeks": 7,
+                "n_warning_weeks": 2
+              }
+            ]
+          }
+        }
+      },
+      "12": {
+        "horizon_weeks": 12,
+        "target_kind": "window",
+        "splits": {
+          "train": {
+            "n": 409,
+            "positive": 24,
+            "prevalence": 0.05867970660146699,
+            "first_issue_date": "2013-12-08",
+            "last_issue_date": "2021-10-03",
+            "first_target_date": "2014-03-02",
+            "last_target_date": "2021-12-26"
+          },
+          "validation": {
+            "n": 105,
+            "positive": 24,
+            "prevalence": 0.22857142857142856,
+            "first_issue_date": "2021-10-10",
+            "last_issue_date": "2023-10-08",
+            "first_target_date": "2022-01-02",
+            "last_target_date": "2023-12-31"
+          },
+          "test": {
+            "n": 104,
+            "positive": 24,
+            "prevalence": 0.23076923076923078,
+            "first_issue_date": "2023-10-15",
+            "last_issue_date": "2025-10-05",
+            "first_target_date": "2024-01-07",
+            "last_target_date": "2025-12-28"
+          }
+        },
+        "selection": {
+          "random_forest": {
+            "best_params": {
+              "n_estimators": 300,
+              "max_depth": 4,
+              "min_samples_leaf": 8,
+              "max_features": "sqrt"
+            },
+            "walk_forward_search": [
+              {
+                "max_depth": 4.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.22345610394474008,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 8.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.22345610394474008,
+                "n_folds": 1
+              },
+              {
+                "max_depth": NaN,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.22345610394474008,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 4.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.18539251071509136,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 8.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.18539251071509136,
+                "n_folds": 1
+              },
+              {
+                "max_depth": NaN,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.18539251071509136,
+                "n_folds": 1
+              }
+            ],
+            "threshold": 0.08406670354804656,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.34375,
+            "validation_recall": 0.9166666666666666
+          },
+          "logistic_regression": {
+            "threshold": 0.00021748158538901583,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.26506024096385544,
+            "validation_recall": 0.9166666666666666
+          },
+          "seasonal_baseline": {
+            "threshold": 0.0,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.22857142857142856,
+            "validation_recall": 1.0
+          },
+          "persistence_baseline": {
+            "threshold": 0.0,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.22857142857142856,
+            "validation_recall": 1.0
+          },
+          "lstm_numpy": {
+            "threshold": 0.5269028706527258,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.44680851063829785,
+            "validation_recall": 0.875
+          },
+          "lstm_pytorch": {
+            "threshold": 0.4541255533695221,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.3125,
+            "validation_recall": 0.8333333333333334
+          }
+        },
+        "metrics": {
+          "logistic_regression": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.22857142857142856,
+              "threshold": 0.00021748158538901583,
+              "accuracy": 0.4,
+              "balanced_accuracy": 0.5817901234567902,
+              "precision": 0.26506024096385544,
+              "recall_sensitivity": 0.9166666666666666,
+              "specificity": 0.24691358024691357,
+              "f1": 0.411214953271028,
+              "f2": 0.6145251396648045,
+              "pr_auc": 0.48228992396661513,
+              "roc_auc": 0.6368312757201646,
+              "brier": 0.19081299266111054,
+              "tn": 20,
+              "fp": 61,
+              "fn": 2,
+              "tp": 22,
+              "false_alarms_per_year": 30.312642857142862
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.23076923076923078,
+              "threshold": 0.00021748158538901583,
+              "accuracy": 0.7211538461538461,
+              "balanced_accuracy": 0.64375,
+              "precision": 0.41379310344827586,
+              "recall_sensitivity": 0.5,
+              "specificity": 0.7875,
+              "f1": 0.4528301886792453,
+              "f2": 0.48,
+              "pr_auc": 0.563036302752267,
+              "roc_auc": 0.7744791666666666,
+              "brier": 0.1650266776103926,
+              "tn": 63,
+              "fp": 17,
+              "fn": 12,
+              "tp": 12,
+              "false_alarms_per_year": 8.529014423076923,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.08452713133737749,
+                  "upper_95": 0.9238877905008875
+                },
+                "roc_auc": {
+                  "lower_95": 0.5161197916666667,
+                  "upper_95": 0.9678487383527171
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.904032258064516
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.8795784883720928
+                }
+              }
+            }
+          },
+          "random_forest": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.22857142857142856,
+              "threshold": 0.08406670354804656,
+              "accuracy": 0.580952380952381,
+              "balanced_accuracy": 0.6990740740740741,
+              "precision": 0.34375,
+              "recall_sensitivity": 0.9166666666666666,
+              "specificity": 0.48148148148148145,
+              "f1": 0.5,
+              "f2": 0.6875,
+              "pr_auc": 0.5956364121229868,
+              "roc_auc": 0.7818930041152263,
+              "brier": 0.15776925909013415,
+              "tn": 39,
+              "fp": 42,
+              "fn": 2,
+              "tp": 22,
+              "false_alarms_per_year": 20.871000000000002
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.23076923076923078,
+              "threshold": 0.08406670354804656,
+              "accuracy": 0.6923076923076923,
+              "balanced_accuracy": 0.625,
+              "precision": 0.375,
+              "recall_sensitivity": 0.5,
+              "specificity": 0.75,
+              "f1": 0.42857142857142855,
+              "f2": 0.46875,
+              "pr_auc": 0.5091409457616464,
+              "roc_auc": 0.5838541666666667,
+              "brier": 0.1655671577277341,
+              "tn": 60,
+              "fp": 20,
+              "fn": 12,
+              "tp": 12,
+              "false_alarms_per_year": 10.034134615384616,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.057381569983464595,
+                  "upper_95": 0.929961025964985
+                },
+                "roc_auc": {
+                  "lower_95": 0.09361793154761906,
+                  "upper_95": 0.9897987939137007
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.8379385964912278
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.8647248641304346
+                }
+              }
+            }
+          },
+          "seasonal_baseline": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.22857142857142856,
+              "threshold": 0.0,
+              "accuracy": 0.22857142857142856,
+              "balanced_accuracy": 0.5,
+              "precision": 0.22857142857142856,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.37209302325581395,
+              "f2": 0.5970149253731343,
+              "pr_auc": 0.20080209388720027,
+              "roc_auc": 0.36085390946502055,
+              "brier": 0.221622934888241,
+              "tn": 0,
+              "fp": 81,
+              "fn": 0,
+              "tp": 24,
+              "false_alarms_per_year": 40.25121428571429
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.23076923076923078,
+              "threshold": 0.0,
+              "accuracy": 0.23076923076923078,
+              "balanced_accuracy": 0.5,
+              "precision": 0.23076923076923078,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.375,
+              "f2": 0.6,
+              "pr_auc": 0.23992673992673993,
+              "roc_auc": 0.3541666666666667,
+              "brier": 0.2273351648351648,
+              "tn": 0,
+              "fp": 80,
+              "fn": 0,
+              "tp": 24,
+              "false_alarms_per_year": 40.136538461538464,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.057692307692307696,
+                  "upper_95": 0.46550088549805846
+                },
+                "roc_auc": {
+                  "lower_95": 0.1603403890160183,
+                  "upper_95": 0.5135317460317459
+                },
+                "recall_sensitivity": {
+                  "lower_95": 1.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.057692307692307696,
+                  "upper_95": 0.4230769230769231
+                },
+                "f2": {
+                  "lower_95": 0.234375,
+                  "upper_95": 0.7857142857142857
+                }
+              }
+            }
+          },
+          "persistence_baseline": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.22857142857142856,
+              "threshold": 0.0,
+              "accuracy": 0.22857142857142856,
+              "balanced_accuracy": 0.5,
+              "precision": 0.22857142857142856,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.37209302325581395,
+              "f2": 0.5970149253731343,
+              "pr_auc": 0.22857142857142856,
+              "roc_auc": 0.49382716049382713,
+              "brier": 0.23809523809523808,
+              "tn": 0,
+              "fp": 81,
+              "fn": 0,
+              "tp": 24,
+              "false_alarms_per_year": 40.25121428571429
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.23076923076923078,
+              "threshold": 0.0,
+              "accuracy": 0.23076923076923078,
+              "balanced_accuracy": 0.5,
+              "precision": 0.23076923076923078,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.375,
+              "f2": 0.6,
+              "pr_auc": 0.23076923076923078,
+              "roc_auc": 0.48125,
+              "brier": 0.25961538461538464,
+              "tn": 0,
+              "fp": 80,
+              "fn": 0,
+              "tp": 24,
+              "false_alarms_per_year": 40.136538461538464,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.057692307692307696,
+                  "upper_95": 0.4230769230769231
+                },
+                "roc_auc": {
+                  "lower_95": 0.4629472124670764,
+                  "upper_95": 0.5
+                },
+                "recall_sensitivity": {
+                  "lower_95": 1.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.057692307692307696,
+                  "upper_95": 0.4230769230769231
+                },
+                "f2": {
+                  "lower_95": 0.234375,
+                  "upper_95": 0.7857142857142857
+                }
+              }
+            }
+          },
+          "lstm_numpy": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.22857142857142856,
+              "threshold": 0.5269028706527258,
+              "accuracy": 0.7238095238095238,
+              "balanced_accuracy": 0.7770061728395061,
+              "precision": 0.44680851063829785,
+              "recall_sensitivity": 0.875,
+              "specificity": 0.6790123456790124,
+              "f1": 0.5915492957746479,
+              "f2": 0.7342657342657343,
+              "pr_auc": 0.5077012904795528,
+              "roc_auc": 0.7854938271604939,
+              "brier": 0.2031285986870702,
+              "tn": 55,
+              "fp": 26,
+              "fn": 3,
+              "tp": 21,
+              "false_alarms_per_year": 12.920142857142858
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.23076923076923078,
+              "threshold": 0.5269028706527258,
+              "accuracy": 0.5961538461538461,
+              "balanced_accuracy": 0.5625,
+              "precision": 0.2857142857142857,
+              "recall_sensitivity": 0.5,
+              "specificity": 0.625,
+              "f1": 0.36363636363636365,
+              "f2": 0.43478260869565216,
+              "pr_auc": 0.558547261531278,
+              "roc_auc": 0.6499999999999999,
+              "brier": 0.24810729036987147,
+              "tn": 50,
+              "fp": 30,
+              "fn": 12,
+              "tp": 12,
+              "false_alarms_per_year": 15.051201923076924,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.06529336496269392,
+                  "upper_95": 1.0
+                },
+                "roc_auc": {
+                  "lower_95": 0.19311470804091554,
+                  "upper_95": 1.0
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.6345714285714283
+                },
+                "f2": {
+                  "lower_95": 0.0,
+                  "upper_95": 0.7944165209790209
+                }
+              }
+            }
+          },
+          "lstm_pytorch": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.22857142857142856,
+              "threshold": 0.4541255533695221,
+              "accuracy": 0.5428571428571428,
+              "balanced_accuracy": 0.6450617283950617,
+              "precision": 0.3125,
+              "recall_sensitivity": 0.8333333333333334,
+              "specificity": 0.4567901234567901,
+              "f1": 0.45454545454545453,
+              "f2": 0.625,
+              "pr_auc": 0.24532993010211973,
+              "roc_auc": 0.5756172839506173,
+              "brier": 0.23153477907180786,
+              "tn": 37,
+              "fp": 44,
+              "fn": 4,
+              "tp": 20,
+              "false_alarms_per_year": 21.864857142857144
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.23076923076923078,
+              "threshold": 0.4541255533695221,
+              "accuracy": 0.40384615384615385,
+              "balanced_accuracy": 0.49583333333333335,
+              "precision": 0.22857142857142856,
+              "recall_sensitivity": 0.6666666666666666,
+              "specificity": 0.325,
+              "f1": 0.3404255319148936,
+              "f2": 0.4819277108433735,
+              "pr_auc": 0.3995456596841123,
+              "roc_auc": 0.5958333333333333,
+              "brier": 0.24158316850662231,
+              "tn": 26,
+              "fp": 54,
+              "fn": 8,
+              "tp": 16,
+              "false_alarms_per_year": 27.092163461538462,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.05757874402721791,
+                  "upper_95": 0.7952637319448985
+                },
+                "roc_auc": {
+                  "lower_95": 0.1065942604404143,
+                  "upper_95": 0.9384334723185198
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.1111111111111111,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.020340909090909097,
+                  "upper_95": 0.45538277511961717
+                },
+                "f2": {
+                  "lower_95": 0.06133107088989442,
+                  "upper_95": 0.7479149550031524
+                }
+              }
+            }
+          }
+        },
+        "episode_metrics": {
+          "logistic_regression": {
+            "n_test_episodes": 2,
+            "episodes_detected": 1,
+            "episode_recall": 0.5,
+            "median_maximum_lead_weeks": 12.0,
+            "false_warning_weeks": 17,
+            "false_warning_weeks_per_year": 8.529014423076923,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 12,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 12
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": false,
+                "maximum_lead_weeks": null,
+                "last_warning_lead_weeks": null,
+                "n_warning_weeks": 0
+              }
+            ]
+          },
+          "random_forest": {
+            "n_test_episodes": 2,
+            "episodes_detected": 1,
+            "episode_recall": 0.5,
+            "median_maximum_lead_weeks": 12.0,
+            "false_warning_weeks": 20,
+            "false_warning_weeks_per_year": 10.034134615384616,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 12,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 12
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": false,
+                "maximum_lead_weeks": null,
+                "last_warning_lead_weeks": null,
+                "n_warning_weeks": 0
+              }
+            ]
+          },
+          "seasonal_baseline": {
+            "n_test_episodes": 2,
+            "episodes_detected": 2,
+            "episode_recall": 1.0,
+            "median_maximum_lead_weeks": 12.0,
+            "false_warning_weeks": 80,
+            "false_warning_weeks_per_year": 40.136538461538464,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 12,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 12
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": true,
+                "maximum_lead_weeks": 12,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 12
+              }
+            ]
+          },
+          "persistence_baseline": {
+            "n_test_episodes": 2,
+            "episodes_detected": 2,
+            "episode_recall": 1.0,
+            "median_maximum_lead_weeks": 12.0,
+            "false_warning_weeks": 80,
+            "false_warning_weeks_per_year": 40.136538461538464,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 12,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 12
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": true,
+                "maximum_lead_weeks": 12,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 12
+              }
+            ]
+          },
+          "lstm_numpy": {
+            "n_test_episodes": 2,
+            "episodes_detected": 1,
+            "episode_recall": 0.5,
+            "median_maximum_lead_weeks": 12.0,
+            "false_warning_weeks": 30,
+            "false_warning_weeks_per_year": 15.051201923076924,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 12,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 12
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": false,
+                "maximum_lead_weeks": null,
+                "last_warning_lead_weeks": null,
+                "n_warning_weeks": 0
+              }
+            ]
+          },
+          "lstm_pytorch": {
+            "n_test_episodes": 2,
+            "episodes_detected": 2,
+            "episode_recall": 1.0,
+            "median_maximum_lead_weeks": 12.0,
+            "false_warning_weeks": 54,
+            "false_warning_weeks_per_year": 27.092163461538462,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 12,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 12
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": true,
+                "maximum_lead_weeks": 12,
+                "last_warning_lead_weeks": 9,
+                "n_warning_weeks": 4
+              }
+            ]
+          }
+        }
+      },
+      "16": {
+        "horizon_weeks": 16,
+        "target_kind": "window",
+        "splits": {
+          "train": {
+            "n": 405,
+            "positive": 32,
+            "prevalence": 0.07901234567901234,
+            "first_issue_date": "2013-12-08",
+            "last_issue_date": "2021-09-05",
+            "first_target_date": "2014-03-30",
+            "last_target_date": "2021-12-26"
+          },
+          "validation": {
+            "n": 105,
+            "positive": 28,
+            "prevalence": 0.26666666666666666,
+            "first_issue_date": "2021-09-12",
+            "last_issue_date": "2023-09-10",
+            "first_target_date": "2022-01-02",
+            "last_target_date": "2023-12-31"
+          },
+          "test": {
+            "n": 104,
+            "positive": 34,
+            "prevalence": 0.3269230769230769,
+            "first_issue_date": "2023-09-17",
+            "last_issue_date": "2025-09-07",
+            "first_target_date": "2024-01-07",
+            "last_target_date": "2025-12-28"
+          }
+        },
+        "selection": {
+          "random_forest": {
+            "best_params": {
+              "n_estimators": 300,
+              "max_depth": 4,
+              "min_samples_leaf": 8,
+              "max_features": "sqrt"
+            },
+            "walk_forward_search": [
+              {
+                "max_depth": 4.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.3089227786102786,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 8.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.3089227786102786,
+                "n_folds": 1
+              },
+              {
+                "max_depth": NaN,
+                "max_features": "sqrt",
+                "min_samples_leaf": 8,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.3089227786102786,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 4.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.252902523217859,
+                "n_folds": 1
+              },
+              {
+                "max_depth": 8.0,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.252902523217859,
+                "n_folds": 1
+              },
+              {
+                "max_depth": NaN,
+                "max_features": "sqrt",
+                "min_samples_leaf": 3,
+                "n_estimators": 300,
+                "mean_walk_forward_pr_auc": 0.252902523217859,
+                "n_folds": 1
+              }
+            ],
+            "threshold": 0.10577003608697572,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.48936170212765956,
+            "validation_recall": 0.8214285714285714
+          },
+          "logistic_regression": {
+            "threshold": 0.0002463399966406205,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.3466666666666667,
+            "validation_recall": 0.9285714285714286
+          },
+          "seasonal_baseline": {
+            "threshold": 0.0,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.26666666666666666,
+            "validation_recall": 1.0
+          },
+          "persistence_baseline": {
+            "threshold": 0.0,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.26666666666666666,
+            "validation_recall": 1.0
+          },
+          "lstm_numpy": {
+            "threshold": 0.4643619820811899,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.40350877192982454,
+            "validation_recall": 0.8214285714285714
+          },
+          "lstm_pytorch": {
+            "threshold": 0.4706156849861145,
+            "method": "maior precisão com recall >= 0.80",
+            "validation_precision": 0.48936170212765956,
+            "validation_recall": 0.8214285714285714
+          }
+        },
+        "metrics": {
+          "logistic_regression": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.26666666666666666,
+              "threshold": 0.0002463399966406205,
+              "accuracy": 0.5142857142857142,
+              "balanced_accuracy": 0.6461038961038961,
+              "precision": 0.3466666666666667,
+              "recall_sensitivity": 0.9285714285714286,
+              "specificity": 0.36363636363636365,
+              "f1": 0.5048543689320388,
+              "f2": 0.6951871657754011,
+              "pr_auc": 0.5129421836282732,
+              "roc_auc": 0.6785714285714286,
+              "brier": 0.20983574586645093,
+              "tn": 28,
+              "fp": 49,
+              "fn": 2,
+              "tp": 26,
+              "false_alarms_per_year": 24.349500000000003
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.3269230769230769,
+              "threshold": 0.0002463399966406205,
+              "accuracy": 0.7403846153846154,
+              "balanced_accuracy": 0.7088235294117647,
+              "precision": 0.6,
+              "recall_sensitivity": 0.6176470588235294,
+              "specificity": 0.8,
+              "f1": 0.6086956521739131,
+              "f2": 0.6140350877192983,
+              "pr_auc": 0.7784197233180512,
+              "roc_auc": 0.8710084033613446,
+              "brier": 0.18385505994692208,
+              "tn": 56,
+              "fp": 14,
+              "fn": 13,
+              "tp": 21,
+              "false_alarms_per_year": 7.023894230769231,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.24245679624827077,
+                  "upper_95": 0.9832073953445952
+                },
+                "roc_auc": {
+                  "lower_95": 0.5864417890064869,
+                  "upper_95": 0.9906180311032864
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.14537037037037037,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.1385302197802198,
+                  "upper_95": 1.0
+                },
+                "f2": {
+                  "lower_95": 0.14598742603550297,
+                  "upper_95": 0.884000061591525
+                }
+              }
+            }
+          },
+          "random_forest": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.26666666666666666,
+              "threshold": 0.10577003608697572,
+              "accuracy": 0.7238095238095238,
+              "balanced_accuracy": 0.7548701298701299,
+              "precision": 0.48936170212765956,
+              "recall_sensitivity": 0.8214285714285714,
+              "specificity": 0.6883116883116883,
+              "f1": 0.6133333333333333,
+              "f2": 0.7232704402515723,
+              "pr_auc": 0.5707006462757126,
+              "roc_auc": 0.7815398886827458,
+              "brier": 0.18942934608819517,
+              "tn": 53,
+              "fp": 24,
+              "fn": 5,
+              "tp": 23,
+              "false_alarms_per_year": 11.926285714285715
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.3269230769230769,
+              "threshold": 0.10577003608697572,
+              "accuracy": 0.7115384615384616,
+              "balanced_accuracy": 0.6798319327731093,
+              "precision": 0.5555555555555556,
+              "recall_sensitivity": 0.5882352941176471,
+              "specificity": 0.7714285714285715,
+              "f1": 0.5714285714285714,
+              "f2": 0.5813953488372093,
+              "pr_auc": 0.7139496699527199,
+              "roc_auc": 0.7071428571428572,
+              "brier": 0.19890277996572145,
+              "tn": 54,
+              "fp": 16,
+              "fn": 14,
+              "tp": 20,
+              "false_alarms_per_year": 8.027307692307692,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.1447662433020541,
+                  "upper_95": 0.958958503796826
+                },
+                "roc_auc": {
+                  "lower_95": 0.3520270194360184,
+                  "upper_95": 0.9779482886904761
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.1111111111111111,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.08333333333333333,
+                  "upper_95": 1.0
+                },
+                "f2": {
+                  "lower_95": 0.11395144493621454,
+                  "upper_95": 0.8574157523510969
+                }
+              }
+            }
+          },
+          "seasonal_baseline": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.26666666666666666,
+              "threshold": 0.0,
+              "accuracy": 0.26666666666666666,
+              "balanced_accuracy": 0.5,
+              "precision": 0.26666666666666666,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.42105263157894735,
+              "f2": 0.6451612903225806,
+              "pr_auc": 0.2240017746228926,
+              "roc_auc": 0.2956864564007421,
+              "brier": 0.2529397473275024,
+              "tn": 0,
+              "fp": 77,
+              "fn": 0,
+              "tp": 28,
+              "false_alarms_per_year": 38.26350000000001
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.3269230769230769,
+              "threshold": 0.0,
+              "accuracy": 0.3269230769230769,
+              "balanced_accuracy": 0.5,
+              "precision": 0.3269230769230769,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.4927536231884058,
+              "f2": 0.7083333333333334,
+              "pr_auc": 0.35196089489258375,
+              "roc_auc": 0.4457983193277311,
+              "brier": 0.2977580455259026,
+              "tn": 0,
+              "fp": 70,
+              "fn": 0,
+              "tp": 34,
+              "false_alarms_per_year": 35.119471153846156,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.10648076923076923,
+                  "upper_95": 0.6751680003755516
+                },
+                "roc_auc": {
+                  "lower_95": 0.17221184136229903,
+                  "upper_95": 0.6835339455215391
+                },
+                "recall_sensitivity": {
+                  "lower_95": 1.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.10576923076923077,
+                  "upper_95": 0.5627403846153844
+                },
+                "f2": {
+                  "lower_95": 0.3716216216216216,
+                  "upper_95": 0.865484943977591
+                }
+              }
+            }
+          },
+          "persistence_baseline": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.26666666666666666,
+              "threshold": 0.0,
+              "accuracy": 0.26666666666666666,
+              "balanced_accuracy": 0.5,
+              "precision": 0.26666666666666666,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.42105263157894735,
+              "f2": 0.6451612903225806,
+              "pr_auc": 0.26666666666666666,
+              "roc_auc": 0.4935064935064935,
+              "brier": 0.2761904761904762,
+              "tn": 0,
+              "fp": 77,
+              "fn": 0,
+              "tp": 28,
+              "false_alarms_per_year": 38.26350000000001
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.3269230769230769,
+              "threshold": 0.0,
+              "accuracy": 0.3269230769230769,
+              "balanced_accuracy": 0.5,
+              "precision": 0.3269230769230769,
+              "recall_sensitivity": 1.0,
+              "specificity": 0.0,
+              "f1": 0.4927536231884058,
+              "f2": 0.7083333333333334,
+              "pr_auc": 0.32711161387631976,
+              "roc_auc": 0.5004201680672269,
+              "brier": 0.33653846153846156,
+              "tn": 0,
+              "fp": 70,
+              "fn": 0,
+              "tp": 34,
+              "false_alarms_per_year": 35.119471153846156,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.10576923076923077,
+                  "upper_95": 0.5729442970822282
+                },
+                "roc_auc": {
+                  "lower_95": 0.4627254439511654,
+                  "upper_95": 0.530670002300437
+                },
+                "recall_sensitivity": {
+                  "lower_95": 1.0,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.10576923076923077,
+                  "upper_95": 0.5627403846153844
+                },
+                "f2": {
+                  "lower_95": 0.3716216216216216,
+                  "upper_95": 0.865484943977591
+                }
+              }
+            }
+          },
+          "lstm_numpy": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.26666666666666666,
+              "threshold": 0.4643619820811899,
+              "accuracy": 0.6285714285714286,
+              "balanced_accuracy": 0.6899350649350648,
+              "precision": 0.40350877192982454,
+              "recall_sensitivity": 0.8214285714285714,
+              "specificity": 0.5584415584415584,
+              "f1": 0.5411764705882353,
+              "f2": 0.6804733727810651,
+              "pr_auc": 0.5888115765280147,
+              "roc_auc": 0.7908163265306123,
+              "brier": 0.1897911063098489,
+              "tn": 43,
+              "fp": 34,
+              "fn": 5,
+              "tp": 23,
+              "false_alarms_per_year": 16.89557142857143
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.3269230769230769,
+              "threshold": 0.4643619820811899,
+              "accuracy": 0.5192307692307693,
+              "balanced_accuracy": 0.5747899159663866,
+              "precision": 0.3787878787878788,
+              "recall_sensitivity": 0.7352941176470589,
+              "specificity": 0.4142857142857143,
+              "f1": 0.5,
+              "f2": 0.6188118811881188,
+              "pr_auc": 0.720446603751812,
+              "roc_auc": 0.7365546218487395,
+              "brier": 0.21759820824706802,
+              "tn": 29,
+              "fp": 41,
+              "fn": 9,
+              "tp": 25,
+              "false_alarms_per_year": 20.569975961538464,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.14890354311884163,
+                  "upper_95": 0.9951247455957724
+                },
+                "roc_auc": {
+                  "lower_95": 0.32828837025316454,
+                  "upper_95": 0.9960160121997711
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.30593750000000003,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.09957185405807893,
+                  "upper_95": 0.625875
+                },
+                "f2": {
+                  "lower_95": 0.2180887642826915,
+                  "upper_95": 0.8198878205128204
+                }
+              }
+            }
+          },
+          "lstm_pytorch": {
+            "validation": {
+              "n": 105,
+              "prevalence": 0.26666666666666666,
+              "threshold": 0.4706156849861145,
+              "accuracy": 0.7238095238095238,
+              "balanced_accuracy": 0.7548701298701299,
+              "precision": 0.48936170212765956,
+              "recall_sensitivity": 0.8214285714285714,
+              "specificity": 0.6883116883116883,
+              "f1": 0.6133333333333333,
+              "f2": 0.7232704402515723,
+              "pr_auc": 0.35902692478459974,
+              "roc_auc": 0.7101113172541744,
+              "brier": 0.2200668752193451,
+              "tn": 53,
+              "fp": 24,
+              "fn": 5,
+              "tp": 23,
+              "false_alarms_per_year": 11.926285714285715
+            },
+            "test": {
+              "n": 104,
+              "prevalence": 0.3269230769230769,
+              "threshold": 0.4706156849861145,
+              "accuracy": 0.5,
+              "balanced_accuracy": 0.5529411764705883,
+              "precision": 0.36363636363636365,
+              "recall_sensitivity": 0.7058823529411765,
+              "specificity": 0.4,
+              "f1": 0.48,
+              "f2": 0.594059405940594,
+              "pr_auc": 0.5377658963413742,
+              "roc_auc": 0.6361344537815126,
+              "brier": 0.23946629464626312,
+              "tn": 28,
+              "fp": 42,
+              "fn": 10,
+              "tp": 24,
+              "false_alarms_per_year": 21.071682692307693,
+              "confidence_intervals": {
+                "pr_auc": {
+                  "lower_95": 0.12687740051339053,
+                  "upper_95": 0.8712942095576661
+                },
+                "roc_auc": {
+                  "lower_95": 0.2510456062291435,
+                  "upper_95": 0.9202270986519607
+                },
+                "recall_sensitivity": {
+                  "lower_95": 0.2751262626262626,
+                  "upper_95": 1.0
+                },
+                "precision": {
+                  "lower_95": 0.08357142857142857,
+                  "upper_95": 0.6351063829787232
+                },
+                "f2": {
+                  "lower_95": 0.18975468975468976,
+                  "upper_95": 0.8175561297220241
+                }
+              }
+            }
+          }
+        },
+        "episode_metrics": {
+          "logistic_regression": {
+            "n_test_episodes": 2,
+            "episodes_detected": 2,
+            "episode_recall": 1.0,
+            "median_maximum_lead_weeks": 16.0,
+            "false_warning_weeks": 16,
+            "false_warning_weeks_per_year": 8.027307692307692,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 16,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 16
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": true,
+                "maximum_lead_weeks": 16,
+                "last_warning_lead_weeks": 14,
+                "n_warning_weeks": 3
+              }
+            ]
+          },
+          "random_forest": {
+            "n_test_episodes": 2,
+            "episodes_detected": 2,
+            "episode_recall": 1.0,
+            "median_maximum_lead_weeks": 16.0,
+            "false_warning_weeks": 18,
+            "false_warning_weeks_per_year": 9.030721153846155,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 16,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 16
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": true,
+                "maximum_lead_weeks": 16,
+                "last_warning_lead_weeks": 15,
+                "n_warning_weeks": 2
+              }
+            ]
+          },
+          "seasonal_baseline": {
+            "n_test_episodes": 2,
+            "episodes_detected": 2,
+            "episode_recall": 1.0,
+            "median_maximum_lead_weeks": 16.0,
+            "false_warning_weeks": 72,
+            "false_warning_weeks_per_year": 36.12288461538462,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 16,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 16
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": true,
+                "maximum_lead_weeks": 16,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 16
+              }
+            ]
+          },
+          "persistence_baseline": {
+            "n_test_episodes": 2,
+            "episodes_detected": 2,
+            "episode_recall": 1.0,
+            "median_maximum_lead_weeks": 16.0,
+            "false_warning_weeks": 72,
+            "false_warning_weeks_per_year": 36.12288461538462,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 16,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 16
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": true,
+                "maximum_lead_weeks": 16,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 16
+              }
+            ]
+          },
+          "lstm_numpy": {
+            "n_test_episodes": 2,
+            "episodes_detected": 2,
+            "episode_recall": 1.0,
+            "median_maximum_lead_weeks": 16.0,
+            "false_warning_weeks": 43,
+            "false_warning_weeks_per_year": 21.573389423076925,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 16,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 16
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": true,
+                "maximum_lead_weeks": 16,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 7
+              }
+            ]
+          },
+          "lstm_pytorch": {
+            "n_test_episodes": 2,
+            "episodes_detected": 2,
+            "episode_recall": 1.0,
+            "median_maximum_lead_weeks": 16.0,
+            "false_warning_weeks": 44,
+            "false_warning_weeks_per_year": 22.075096153846154,
+            "episode_details": [
+              {
+                "onset_date": "2024-01-21",
+                "detected": true,
+                "maximum_lead_weeks": 16,
+                "last_warning_lead_weeks": 1,
+                "n_warning_weeks": 16
+              },
+              {
+                "onset_date": "2024-09-01",
+                "detected": true,
+                "maximum_lead_weeks": 16,
+                "last_warning_lead_weeks": 11,
+                "n_warning_weeks": 6
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "regression_incidence": {
+    "4": {
+      "validation": {
+        "n": 105,
+        "mae": 23.188069714023033,
+        "rmse": 30.988094941091756,
+        "r2": 0.6793566717824323
+      },
+      "test": {
+        "n": 104,
+        "mae": 90.55254790814583,
+        "rmse": 121.17131491022018,
+        "r2": 0.1840452301098665
+      }
+    },
+    "8": {
+      "validation": {
+        "n": 105,
+        "mae": 35.488210757071194,
+        "rmse": 52.001477537070826,
+        "r2": 0.09704975711089914
+      },
+      "test": {
+        "n": 104,
+        "mae": 84.84896871724874,
+        "rmse": 111.0291957269818,
+        "r2": 0.3149207212056414
+      }
+    },
+    "12": {
+      "validation": {
+        "n": 105,
+        "mae": 49.96717364645267,
+        "rmse": 75.291496724931,
+        "r2": -0.8928853638433532
+      },
+      "test": {
+        "n": 104,
+        "mae": 105.2835630227495,
+        "rmse": 141.92904189417118,
+        "r2": -0.11946104641703181
+      }
+    },
+    "16": {
+      "validation": {
+        "n": 105,
+        "mae": 54.48280283119385,
+        "rmse": 79.32606158731717,
+        "r2": -1.1011847377488526
+      },
+      "test": {
+        "n": 104,
+        "mae": 118.05200099402249,
+        "rmse": 159.1487619993665,
+        "r2": -0.4075796303908539
+      }
+    }
+  }
+}

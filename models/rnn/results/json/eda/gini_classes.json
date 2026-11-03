@@ -1,0 +1,17 @@
+[
+  {
+    "split": "treino",
+    "n_samples": 341,
+    "gini_impurity": 0.4674538402662516
+  },
+  {
+    "split": "validacao",
+    "n_samples": 114,
+    "gini_impurity": 0.46983687288396425
+  },
+  {
+    "split": "teste",
+    "n_samples": 114,
+    "gini_impurity": 0.46537396121883656
+  }
+]

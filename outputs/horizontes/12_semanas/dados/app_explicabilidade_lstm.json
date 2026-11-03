@@ -1,0 +1,1959 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-09T14:46:27.888310+00:00",
+  "municipio": "Ribeirão Preto",
+  "horizonteSemanas": 12,
+  "modelo": "lstm_pytorch",
+  "versaoModelo": "master-1.0.0",
+  "previsaoExplicada": {
+    "modelo": "lstm_pytorch",
+    "semanaReferencia": "2025-12-28",
+    "dataAlvo": "2026-03-22",
+    "probabilidade": 0.46074777841567993,
+    "limiar": 0.4367465376853943,
+    "alertaPrevisto": true,
+    "nivelRisco": "alto",
+    "observacao": "A explicação é da LSTM PyTorch, mesmo quando outro modelo foi selecionado pela validação para a previsão principal."
+  },
+  "resumo": {
+    "texto": "Principais fatores usados pelo modelo: Chuva total disponível, Umidade média disponível, Índice ONI disponível.",
+    "aviso": "As atribuições explicam o comportamento da LSTM em relação ao baseline; não demonstram causalidade epidemiológica."
+  },
+  "explicacaoAtual": {
+    "metodo": "integrated_gradients",
+    "baseline": "zero no espaço padronizado (média do treino)",
+    "deltaConvergencia": -1.862645149230957e-09,
+    "importanciaVariaveis": [
+      {
+        "variavel": "chuva_total_mm",
+        "nomeExibicao": "Chuva total disponível",
+        "importanciaNormalizada": 0.24967120587825775,
+        "atribuicaoAbsoluta": 0.061187874525785446,
+        "contribuicao": 0.04827626422047615,
+        "direcao": "aumentou"
+      },
+      {
+        "variavel": "media_umidade_semana",
+        "nomeExibicao": "Umidade média disponível",
+        "importanciaNormalizada": 0.18585020303726196,
+        "atribuicaoAbsoluta": 0.045547015964984894,
+        "contribuicao": -0.001045851968228817,
+        "direcao": "reduziu"
+      },
+      {
+        "variavel": "ONI",
+        "nomeExibicao": "Índice ONI disponível",
+        "importanciaNormalizada": 0.10889670997858047,
+        "atribuicaoAbsoluta": 0.026687731966376305,
+        "contribuicao": -0.026687731966376305,
+        "direcao": "reduziu"
+      },
+      {
+        "variavel": "log_incidence_lag_8",
+        "nomeExibicao": "Log incidence há 8",
+        "importanciaNormalizada": 0.10789129137992859,
+        "atribuicaoAbsoluta": 0.026441330090165138,
+        "contribuicao": -0.026441330090165138,
+        "direcao": "reduziu"
+      },
+      {
+        "variavel": "week_cos",
+        "nomeExibicao": "Sazonalidade anual (cosseno)",
+        "importanciaNormalizada": 0.06725026667118073,
+        "atribuicaoAbsoluta": 0.016481278464198112,
+        "contribuicao": 0.0034371460787951946,
+        "direcao": "aumentou"
+      },
+      {
+        "variavel": "log_incidence_lag_12",
+        "nomeExibicao": "Log incidence há 12",
+        "importanciaNormalizada": 0.06365542113780975,
+        "atribuicaoAbsoluta": 0.015600277110934258,
+        "contribuicao": -0.005094461143016815,
+        "direcao": "reduziu"
+      },
+      {
+        "variavel": "incidence_std_12",
+        "nomeExibicao": "Incidence std 12",
+        "importanciaNormalizada": 0.04193072393536568,
+        "atribuicaoAbsoluta": 0.010276122018694878,
+        "contribuicao": 0.010276122018694878,
+        "direcao": "aumentou"
+      },
+      {
+        "variavel": "log_incidence_lag_2",
+        "nomeExibicao": "Log incidence há 2",
+        "importanciaNormalizada": 0.02828042022883892,
+        "atribuicaoAbsoluta": 0.00693079037591815,
+        "contribuicao": -0.006062195636332035,
+        "direcao": "reduziu"
+      },
+      {
+        "variavel": "week_sin",
+        "nomeExibicao": "Sazonalidade anual (seno)",
+        "importanciaNormalizada": 0.02759832702577114,
+        "atribuicaoAbsoluta": 0.006763627287000418,
+        "contribuicao": -0.006763627287000418,
+        "direcao": "reduziu"
+      },
+      {
+        "variavel": "log_incidence_lag_52",
+        "nomeExibicao": "Log incidence há 52",
+        "importanciaNormalizada": 0.025712231174111366,
+        "atribuicaoAbsoluta": 0.006301394663751125,
+        "contribuicao": -0.006301394663751125,
+        "direcao": "reduziu"
+      },
+      {
+        "variavel": "media_temperatura_semana",
+        "nomeExibicao": "Temperatura média disponível",
+        "importanciaNormalizada": 0.02550930716097355,
+        "atribuicaoAbsoluta": 0.006251662969589233,
+        "contribuicao": -0.005839606747031212,
+        "direcao": "reduziu"
+      },
+      {
+        "variavel": "log_incidence_lag_4",
+        "nomeExibicao": "Log incidence há 4",
+        "importanciaNormalizada": 0.01882130093872547,
+        "atribuicaoAbsoluta": 0.004612607881426811,
+        "contribuicao": 0.0009298620279878378,
+        "direcao": "aumentou"
+      },
+      {
+        "variavel": "log_incidence_lag_1",
+        "nomeExibicao": "Log incidence há 1",
+        "importanciaNormalizada": 0.018292726948857307,
+        "atribuicaoAbsoluta": 0.004483068361878395,
+        "contribuicao": -0.004395787604153156,
+        "direcao": "reduziu"
+      },
+      {
+        "variavel": "incidence_mean_4",
+        "nomeExibicao": "Incidence média 4",
+        "importanciaNormalizada": 0.01627161353826523,
+        "atribuicaoAbsoluta": 0.003987746313214302,
+        "contribuicao": -0.003973867744207382,
+        "direcao": "reduziu"
+      },
+      {
+        "variavel": "incidence_ratio_upper_lag1",
+        "nomeExibicao": "Incidence ratio upper lag1",
+        "importanciaNormalizada": 0.008861683309078217,
+        "atribuicaoAbsoluta": 0.0021717664785683155,
+        "contribuicao": 0.0006960728205740452,
+        "direcao": "aumentou"
+      },
+      {
+        "variavel": "incidence_mean_12",
+        "nomeExibicao": "Incidence média 12",
+        "importanciaNormalizada": 0.00550657045096159,
+        "atribuicaoAbsoluta": 0.001349516212940216,
+        "contribuicao": -0.0013486758107319474,
+        "direcao": "reduziu"
+      }
+    ],
+    "importanciaTemporal": [
+      {
+        "semanaRelativa": -11,
+        "semanasAtras": 11,
+        "atribuicaoAbsoluta": 0.0010144010884687304,
+        "contribuicao": -0.0004901645588688552
+      },
+      {
+        "semanaRelativa": -10,
+        "semanasAtras": 10,
+        "atribuicaoAbsoluta": 0.0014522764831781387,
+        "contribuicao": -4.855214501731098e-05
+      },
+      {
+        "semanaRelativa": -9,
+        "semanasAtras": 9,
+        "atribuicaoAbsoluta": 0.0027042445726692677,
+        "contribuicao": -0.0013376763090491295
+      },
+      {
+        "semanaRelativa": -8,
+        "semanasAtras": 8,
+        "atribuicaoAbsoluta": 0.002722432604059577,
+        "contribuicao": -0.0011538190301507711
+      },
+      {
+        "semanaRelativa": -7,
+        "semanasAtras": 7,
+        "atribuicaoAbsoluta": 0.0065192291513085365,
+        "contribuicao": 0.0009759081876836717
+      },
+      {
+        "semanaRelativa": -6,
+        "semanasAtras": 6,
+        "atribuicaoAbsoluta": 0.008594859391450882,
+        "contribuicao": -0.005030279979109764
+      },
+      {
+        "semanaRelativa": -5,
+        "semanasAtras": 5,
+        "atribuicaoAbsoluta": 0.011596770957112312,
+        "contribuicao": -0.007583657745271921
+      },
+      {
+        "semanaRelativa": -4,
+        "semanasAtras": 4,
+        "atribuicaoAbsoluta": 0.026269134134054184,
+        "contribuicao": 0.004001417197287083
+      },
+      {
+        "semanaRelativa": -3,
+        "semanasAtras": 3,
+        "atribuicaoAbsoluta": 0.02296127937734127,
+        "contribuicao": -0.010816325433552265
+      },
+      {
+        "semanaRelativa": -2,
+        "semanasAtras": 2,
+        "atribuicaoAbsoluta": 0.053321853280067444,
+        "contribuicao": 0.016797516494989395
+      },
+      {
+        "semanaRelativa": -1,
+        "semanasAtras": 1,
+        "atribuicaoAbsoluta": 0.04915090277791023,
+        "contribuicao": 0.0123836575075984
+      },
+      {
+        "semanaRelativa": 0,
+        "semanasAtras": 0,
+        "atribuicaoAbsoluta": 0.058766428381204605,
+        "contribuicao": -0.03803708404302597
+      }
+    ],
+    "mapaCalor": [
+      {
+        "semanaRelativa": -11,
+        "semanasAtras": 11,
+        "variavel": "log_incidence_lag_1",
+        "nomeExibicao": "Log incidence há 1",
+        "contribuicao": -1.6500731362611987e-05,
+        "atribuicaoAbsoluta": 1.6500731362611987e-05
+      },
+      {
+        "semanaRelativa": -11,
+        "semanasAtras": 11,
+        "variavel": "log_incidence_lag_2",
+        "nomeExibicao": "Log incidence há 2",
+        "contribuicao": 7.848829409340397e-05,
+        "atribuicaoAbsoluta": 7.848829409340397e-05
+      },
+      {
+        "semanaRelativa": -11,
+        "semanasAtras": 11,
+        "variavel": "log_incidence_lag_4",
+        "nomeExibicao": "Log incidence há 4",
+        "contribuicao": -1.9031060219276696e-05,
+        "atribuicaoAbsoluta": 1.9031060219276696e-05
+      },
+      {
+        "semanaRelativa": -11,
+        "semanasAtras": 11,
+        "variavel": "log_incidence_lag_8",
+        "nomeExibicao": "Log incidence há 8",
+        "contribuicao": -6.0200149164302275e-05,
+        "atribuicaoAbsoluta": 6.0200149164302275e-05
+      },
+      {
+        "semanaRelativa": -11,
+        "semanasAtras": 11,
+        "variavel": "log_incidence_lag_12",
+        "nomeExibicao": "Log incidence há 12",
+        "contribuicao": -2.449048224661965e-05,
+        "atribuicaoAbsoluta": 2.449048224661965e-05
+      },
+      {
+        "semanaRelativa": -11,
+        "semanasAtras": 11,
+        "variavel": "log_incidence_lag_52",
+        "nomeExibicao": "Log incidence há 52",
+        "contribuicao": -5.5907232308527455e-05,
+        "atribuicaoAbsoluta": 5.5907232308527455e-05
+      },
+      {
+        "semanaRelativa": -11,
+        "semanasAtras": 11,
+        "variavel": "incidence_mean_4",
+        "nomeExibicao": "Incidence média 4",
+        "contribuicao": -7.84286476118723e-06,
+        "atribuicaoAbsoluta": 7.84286476118723e-06
+      },
+      {
+        "semanaRelativa": -11,
+        "semanasAtras": 11,
+        "variavel": "incidence_mean_12",
+        "nomeExibicao": "Incidence média 12",
+        "contribuicao": 4.2020386104013596e-07,
+        "atribuicaoAbsoluta": 4.2020386104013596e-07
+      },
+      {
+        "semanaRelativa": -11,
+        "semanasAtras": 11,
+        "variavel": "incidence_std_12",
+        "nomeExibicao": "Incidence std 12",
+        "contribuicao": 5.552992661250755e-05,
+        "atribuicaoAbsoluta": 5.552992661250755e-05
+      },
+      {
+        "semanaRelativa": -11,
+        "semanasAtras": 11,
+        "variavel": "incidence_ratio_upper_lag1",
+        "nomeExibicao": "Incidence ratio upper lag1",
+        "contribuicao": 6.913761171745136e-05,
+        "atribuicaoAbsoluta": 6.913761171745136e-05
+      },
+      {
+        "semanaRelativa": -11,
+        "semanasAtras": 11,
+        "variavel": "media_temperatura_semana",
+        "nomeExibicao": "Temperatura média disponível",
+        "contribuicao": -5.9132667956873775e-05,
+        "atribuicaoAbsoluta": 5.9132667956873775e-05
+      },
+      {
+        "semanaRelativa": -11,
+        "semanasAtras": 11,
+        "variavel": "media_umidade_semana",
+        "nomeExibicao": "Umidade média disponível",
+        "contribuicao": -0.0002351275907130912,
+        "atribuicaoAbsoluta": 0.0002351275907130912
+      },
+      {
+        "semanaRelativa": -11,
+        "semanasAtras": 11,
+        "variavel": "chuva_total_mm",
+        "nomeExibicao": "Chuva total disponível",
+        "contribuicao": -4.534690378932282e-05,
+        "atribuicaoAbsoluta": 4.534690378932282e-05
+      },
+      {
+        "semanaRelativa": -11,
+        "semanasAtras": 11,
+        "variavel": "ONI",
+        "nomeExibicao": "Índice ONI disponível",
+        "contribuicao": -0.00010298012057319283,
+        "atribuicaoAbsoluta": 0.00010298012057319283
+      },
+      {
+        "semanaRelativa": -11,
+        "semanasAtras": 11,
+        "variavel": "week_sin",
+        "nomeExibicao": "Sazonalidade anual (seno)",
+        "contribuicao": -0.00012572301784530282,
+        "atribuicaoAbsoluta": 0.00012572301784530282
+      },
+      {
+        "semanaRelativa": -11,
+        "semanasAtras": 11,
+        "variavel": "week_cos",
+        "nomeExibicao": "Sazonalidade anual (cosseno)",
+        "contribuicao": 5.854223854839802e-05,
+        "atribuicaoAbsoluta": 5.854223854839802e-05
+      },
+      {
+        "semanaRelativa": -10,
+        "semanasAtras": 10,
+        "variavel": "log_incidence_lag_1",
+        "nomeExibicao": "Log incidence há 1",
+        "contribuicao": -1.7501790352980606e-05,
+        "atribuicaoAbsoluta": 1.7501790352980606e-05
+      },
+      {
+        "semanaRelativa": -10,
+        "semanasAtras": 10,
+        "variavel": "log_incidence_lag_2",
+        "nomeExibicao": "Log incidence há 2",
+        "contribuicao": 7.33269625925459e-05,
+        "atribuicaoAbsoluta": 7.33269625925459e-05
+      },
+      {
+        "semanaRelativa": -10,
+        "semanasAtras": 10,
+        "variavel": "log_incidence_lag_4",
+        "nomeExibicao": "Log incidence há 4",
+        "contribuicao": -4.79432892461773e-05,
+        "atribuicaoAbsoluta": 4.79432892461773e-05
+      },
+      {
+        "semanaRelativa": -10,
+        "semanasAtras": 10,
+        "variavel": "log_incidence_lag_8",
+        "nomeExibicao": "Log incidence há 8",
+        "contribuicao": -0.00010667123569874093,
+        "atribuicaoAbsoluta": 0.00010667123569874093
+      },
+      {
+        "semanaRelativa": -10,
+        "semanasAtras": 10,
+        "variavel": "log_incidence_lag_12",
+        "nomeExibicao": "Log incidence há 12",
+        "contribuicao": -4.2585099436109886e-05,
+        "atribuicaoAbsoluta": 4.2585099436109886e-05
+      },
+      {
+        "semanaRelativa": -10,
+        "semanasAtras": 10,
+        "variavel": "log_incidence_lag_52",
+        "nomeExibicao": "Log incidence há 52",
+        "contribuicao": -5.34462378709577e-05,
+        "atribuicaoAbsoluta": 5.34462378709577e-05
+      },
+      {
+        "semanaRelativa": -10,
+        "semanasAtras": 10,
+        "variavel": "incidence_mean_4",
+        "nomeExibicao": "Incidence média 4",
+        "contribuicao": -1.0777174793474842e-05,
+        "atribuicaoAbsoluta": 1.0777174793474842e-05
+      },
+      {
+        "semanaRelativa": -10,
+        "semanasAtras": 10,
+        "variavel": "incidence_mean_12",
+        "nomeExibicao": "Incidence média 12",
+        "contribuicao": -3.7394038372440264e-06,
+        "atribuicaoAbsoluta": 3.7394038372440264e-06
+      },
+      {
+        "semanaRelativa": -10,
+        "semanasAtras": 10,
+        "variavel": "incidence_std_12",
+        "nomeExibicao": "Incidence std 12",
+        "contribuicao": 8.254790736828e-05,
+        "atribuicaoAbsoluta": 8.254790736828e-05
+      },
+      {
+        "semanaRelativa": -10,
+        "semanasAtras": 10,
+        "variavel": "incidence_ratio_upper_lag1",
+        "nomeExibicao": "Incidence ratio upper lag1",
+        "contribuicao": 9.563195635564625e-05,
+        "atribuicaoAbsoluta": 9.563195635564625e-05
+      },
+      {
+        "semanaRelativa": -10,
+        "semanasAtras": 10,
+        "variavel": "media_temperatura_semana",
+        "nomeExibicao": "Temperatura média disponível",
+        "contribuicao": -5.914729263167828e-05,
+        "atribuicaoAbsoluta": 5.914729263167828e-05
+      },
+      {
+        "semanaRelativa": -10,
+        "semanasAtras": 10,
+        "variavel": "media_umidade_semana",
+        "nomeExibicao": "Umidade média disponível",
+        "contribuicao": 6.147315616544802e-06,
+        "atribuicaoAbsoluta": 6.147315616544802e-06
+      },
+      {
+        "semanaRelativa": -10,
+        "semanasAtras": 10,
+        "variavel": "chuva_total_mm",
+        "nomeExibicao": "Chuva total disponível",
+        "contribuicao": 0.00032402764190919697,
+        "atribuicaoAbsoluta": 0.00032402764190919697
+      },
+      {
+        "semanaRelativa": -10,
+        "semanasAtras": 10,
+        "variavel": "ONI",
+        "nomeExibicao": "Índice ONI disponível",
+        "contribuicao": -0.00018046241893898696,
+        "atribuicaoAbsoluta": 0.00018046241893898696
+      },
+      {
+        "semanaRelativa": -10,
+        "semanasAtras": 10,
+        "variavel": "week_sin",
+        "nomeExibicao": "Sazonalidade anual (seno)",
+        "contribuicao": -0.00022814032854512334,
+        "atribuicaoAbsoluta": 0.00022814032854512334
+      },
+      {
+        "semanaRelativa": -10,
+        "semanasAtras": 10,
+        "variavel": "week_cos",
+        "nomeExibicao": "Sazonalidade anual (cosseno)",
+        "contribuicao": 0.0001201803534058854,
+        "atribuicaoAbsoluta": 0.0001201803534058854
+      },
+      {
+        "semanaRelativa": -9,
+        "semanasAtras": 9,
+        "variavel": "log_incidence_lag_1",
+        "nomeExibicao": "Log incidence há 1",
+        "contribuicao": -3.1075909646460786e-05,
+        "atribuicaoAbsoluta": 3.1075909646460786e-05
+      },
+      {
+        "semanaRelativa": -9,
+        "semanasAtras": 9,
+        "variavel": "log_incidence_lag_2",
+        "nomeExibicao": "Log incidence há 2",
+        "contribuicao": 9.745360148372129e-05,
+        "atribuicaoAbsoluta": 9.745360148372129e-05
+      },
+      {
+        "semanaRelativa": -9,
+        "semanasAtras": 9,
+        "variavel": "log_incidence_lag_4",
+        "nomeExibicao": "Log incidence há 4",
+        "contribuicao": -8.03638031356968e-05,
+        "atribuicaoAbsoluta": 8.03638031356968e-05
+      },
+      {
+        "semanaRelativa": -9,
+        "semanasAtras": 9,
+        "variavel": "log_incidence_lag_8",
+        "nomeExibicao": "Log incidence há 8",
+        "contribuicao": -0.00015574552526231855,
+        "atribuicaoAbsoluta": 0.00015574552526231855
+      },
+      {
+        "semanaRelativa": -9,
+        "semanasAtras": 9,
+        "variavel": "log_incidence_lag_12",
+        "nomeExibicao": "Log incidence há 12",
+        "contribuicao": -9.465414041187614e-05,
+        "atribuicaoAbsoluta": 9.465414041187614e-05
+      },
+      {
+        "semanaRelativa": -9,
+        "semanasAtras": 9,
+        "variavel": "log_incidence_lag_52",
+        "nomeExibicao": "Log incidence há 52",
+        "contribuicao": -0.00012029807840008289,
+        "atribuicaoAbsoluta": 0.00012029807840008289
+      },
+      {
+        "semanaRelativa": -9,
+        "semanasAtras": 9,
+        "variavel": "incidence_mean_4",
+        "nomeExibicao": "Incidence média 4",
+        "contribuicao": -4.515793534665136e-06,
+        "atribuicaoAbsoluta": 4.515793534665136e-06
+      },
+      {
+        "semanaRelativa": -9,
+        "semanasAtras": 9,
+        "variavel": "incidence_mean_12",
+        "nomeExibicao": "Incidence média 12",
+        "contribuicao": -8.865939662427991e-07,
+        "atribuicaoAbsoluta": 8.865939662427991e-07
+      },
+      {
+        "semanaRelativa": -9,
+        "semanasAtras": 9,
+        "variavel": "incidence_std_12",
+        "nomeExibicao": "Incidence std 12",
+        "contribuicao": 0.00012088230141671374,
+        "atribuicaoAbsoluta": 0.00012088230141671374
+      },
+      {
+        "semanaRelativa": -9,
+        "semanasAtras": 9,
+        "variavel": "incidence_ratio_upper_lag1",
+        "nomeExibicao": "Incidence ratio upper lag1",
+        "contribuicao": 0.00017574189405422658,
+        "atribuicaoAbsoluta": 0.00017574189405422658
+      },
+      {
+        "semanaRelativa": -9,
+        "semanasAtras": 9,
+        "variavel": "media_temperatura_semana",
+        "nomeExibicao": "Temperatura média disponível",
+        "contribuicao": 9.142023918684572e-05,
+        "atribuicaoAbsoluta": 9.142023918684572e-05
+      },
+      {
+        "semanaRelativa": -9,
+        "semanasAtras": 9,
+        "variavel": "media_umidade_semana",
+        "nomeExibicao": "Umidade média disponível",
+        "contribuicao": -0.0008544237352907658,
+        "atribuicaoAbsoluta": 0.0008544237352907658
+      },
+      {
+        "semanaRelativa": -9,
+        "semanasAtras": 9,
+        "variavel": "chuva_total_mm",
+        "nomeExibicao": "Chuva total disponível",
+        "contribuicao": -0.000130589643958956,
+        "atribuicaoAbsoluta": 0.000130589643958956
+      },
+      {
+        "semanaRelativa": -9,
+        "semanasAtras": 9,
+        "variavel": "ONI",
+        "nomeExibicao": "Índice ONI disponível",
+        "contribuicao": -0.000266165443463251,
+        "atribuicaoAbsoluta": 0.000266165443463251
+      },
+      {
+        "semanaRelativa": -9,
+        "semanasAtras": 9,
+        "variavel": "week_sin",
+        "nomeExibicao": "Sazonalidade anual (seno)",
+        "contribuicao": -0.00028224187553860247,
+        "atribuicaoAbsoluta": 0.00028224187553860247
+      },
+      {
+        "semanaRelativa": -9,
+        "semanasAtras": 9,
+        "variavel": "week_cos",
+        "nomeExibicao": "Sazonalidade anual (cosseno)",
+        "contribuicao": 0.00019778613932430744,
+        "atribuicaoAbsoluta": 0.00019778613932430744
+      },
+      {
+        "semanaRelativa": -8,
+        "semanasAtras": 8,
+        "variavel": "log_incidence_lag_1",
+        "nomeExibicao": "Log incidence há 1",
+        "contribuicao": -3.304919300717302e-05,
+        "atribuicaoAbsoluta": 3.304919300717302e-05
+      },
+      {
+        "semanaRelativa": -8,
+        "semanasAtras": 8,
+        "variavel": "log_incidence_lag_2",
+        "nomeExibicao": "Log incidence há 2",
+        "contribuicao": 8.547802281100303e-05,
+        "atribuicaoAbsoluta": 8.547802281100303e-05
+      },
+      {
+        "semanaRelativa": -8,
+        "semanasAtras": 8,
+        "variavel": "log_incidence_lag_4",
+        "nomeExibicao": "Log incidence há 4",
+        "contribuicao": -0.0001053286250680685,
+        "atribuicaoAbsoluta": 0.0001053286250680685
+      },
+      {
+        "semanaRelativa": -8,
+        "semanasAtras": 8,
+        "variavel": "log_incidence_lag_8",
+        "nomeExibicao": "Log incidence há 8",
+        "contribuicao": -0.0002869359159376472,
+        "atribuicaoAbsoluta": 0.0002869359159376472
+      },
+      {
+        "semanaRelativa": -8,
+        "semanasAtras": 8,
+        "variavel": "log_incidence_lag_12",
+        "nomeExibicao": "Log incidence há 12",
+        "contribuicao": -0.00018610965344123542,
+        "atribuicaoAbsoluta": 0.00018610965344123542
+      },
+      {
+        "semanaRelativa": -8,
+        "semanasAtras": 8,
+        "variavel": "log_incidence_lag_52",
+        "nomeExibicao": "Log incidence há 52",
+        "contribuicao": -9.660111390985548e-05,
+        "atribuicaoAbsoluta": 9.660111390985548e-05
+      },
+      {
+        "semanaRelativa": -8,
+        "semanasAtras": 8,
+        "variavel": "incidence_mean_4",
+        "nomeExibicao": "Incidence média 4",
+        "contribuicao": -1.3835905519954395e-05,
+        "atribuicaoAbsoluta": 1.3835905519954395e-05
+      },
+      {
+        "semanaRelativa": -8,
+        "semanasAtras": 8,
+        "variavel": "incidence_mean_12",
+        "nomeExibicao": "Incidence média 12",
+        "contribuicao": -8.475026334053837e-06,
+        "atribuicaoAbsoluta": 8.475026334053837e-06
+      },
+      {
+        "semanaRelativa": -8,
+        "semanasAtras": 8,
+        "variavel": "incidence_std_12",
+        "nomeExibicao": "Incidence std 12",
+        "contribuicao": 0.00017254968406632543,
+        "atribuicaoAbsoluta": 0.00017254968406632543
+      },
+      {
+        "semanaRelativa": -8,
+        "semanasAtras": 8,
+        "variavel": "incidence_ratio_upper_lag1",
+        "nomeExibicao": "Incidence ratio upper lag1",
+        "contribuicao": 0.00017578175175003707,
+        "atribuicaoAbsoluta": 0.00017578175175003707
+      },
+      {
+        "semanaRelativa": -8,
+        "semanasAtras": 8,
+        "variavel": "media_temperatura_semana",
+        "nomeExibicao": "Temperatura média disponível",
+        "contribuicao": -9.511903044767678e-05,
+        "atribuicaoAbsoluta": 9.511903044767678e-05
+      },
+      {
+        "semanaRelativa": -8,
+        "semanasAtras": 8,
+        "variavel": "media_umidade_semana",
+        "nomeExibicao": "Umidade média disponível",
+        "contribuicao": -1.1009136869688518e-05,
+        "atribuicaoAbsoluta": 1.1009136869688518e-05
+      },
+      {
+        "semanaRelativa": -8,
+        "semanasAtras": 8,
+        "variavel": "chuva_total_mm",
+        "nomeExibicao": "Chuva total disponível",
+        "contribuicao": -0.00018403078138362616,
+        "atribuicaoAbsoluta": 0.00018403078138362616
+      },
+      {
+        "semanaRelativa": -8,
+        "semanasAtras": 8,
+        "variavel": "ONI",
+        "nomeExibicao": "Índice ONI disponível",
+        "contribuicao": -0.00046353857032954693,
+        "atribuicaoAbsoluta": 0.00046353857032954693
+      },
+      {
+        "semanaRelativa": -8,
+        "semanasAtras": 8,
+        "variavel": "week_sin",
+        "nomeExibicao": "Sazonalidade anual (seno)",
+        "contribuicao": -0.000454092922154814,
+        "atribuicaoAbsoluta": 0.000454092922154814
+      },
+      {
+        "semanaRelativa": -8,
+        "semanasAtras": 8,
+        "variavel": "week_cos",
+        "nomeExibicao": "Sazonalidade anual (cosseno)",
+        "contribuicao": 0.0003504973428789526,
+        "atribuicaoAbsoluta": 0.0003504973428789526
+      },
+      {
+        "semanaRelativa": -7,
+        "semanasAtras": 7,
+        "variavel": "log_incidence_lag_1",
+        "nomeExibicao": "Log incidence há 1",
+        "contribuicao": -1.4500879842671566e-05,
+        "atribuicaoAbsoluta": 1.4500879842671566e-05
+      },
+      {
+        "semanaRelativa": -7,
+        "semanasAtras": 7,
+        "variavel": "log_incidence_lag_2",
+        "nomeExibicao": "Log incidence há 2",
+        "contribuicao": 5.409509321907535e-05,
+        "atribuicaoAbsoluta": 5.409509321907535e-05
+      },
+      {
+        "semanaRelativa": -7,
+        "semanasAtras": 7,
+        "variavel": "log_incidence_lag_4",
+        "nomeExibicao": "Log incidence há 4",
+        "contribuicao": -0.00017420946096535772,
+        "atribuicaoAbsoluta": 0.00017420946096535772
+      },
+      {
+        "semanaRelativa": -7,
+        "semanasAtras": 7,
+        "variavel": "log_incidence_lag_8",
+        "nomeExibicao": "Log incidence há 8",
+        "contribuicao": -0.0004852155107073486,
+        "atribuicaoAbsoluta": 0.0004852155107073486
+      },
+      {
+        "semanaRelativa": -7,
+        "semanasAtras": 7,
+        "variavel": "log_incidence_lag_12",
+        "nomeExibicao": "Log incidence há 12",
+        "contribuicao": -0.00037490305840037763,
+        "atribuicaoAbsoluta": 0.00037490305840037763
+      },
+      {
+        "semanaRelativa": -7,
+        "semanasAtras": 7,
+        "variavel": "log_incidence_lag_52",
+        "nomeExibicao": "Log incidence há 52",
+        "contribuicao": -0.00010496920731384307,
+        "atribuicaoAbsoluta": 0.00010496920731384307
+      },
+      {
+        "semanaRelativa": -7,
+        "semanasAtras": 7,
+        "variavel": "incidence_mean_4",
+        "nomeExibicao": "Incidence média 4",
+        "contribuicao": -1.2199039701954462e-05,
+        "atribuicaoAbsoluta": 1.2199039701954462e-05
+      },
+      {
+        "semanaRelativa": -7,
+        "semanasAtras": 7,
+        "variavel": "incidence_mean_12",
+        "nomeExibicao": "Incidence média 12",
+        "contribuicao": -1.638796675251797e-05,
+        "atribuicaoAbsoluta": 1.638796675251797e-05
+      },
+      {
+        "semanaRelativa": -7,
+        "semanasAtras": 7,
+        "variavel": "incidence_std_12",
+        "nomeExibicao": "Incidence std 12",
+        "contribuicao": 0.0002722289937082678,
+        "atribuicaoAbsoluta": 0.0002722289937082678
+      },
+      {
+        "semanaRelativa": -7,
+        "semanasAtras": 7,
+        "variavel": "incidence_ratio_upper_lag1",
+        "nomeExibicao": "Incidence ratio upper lag1",
+        "contribuicao": 0.0003363885043654591,
+        "atribuicaoAbsoluta": 0.0003363885043654591
+      },
+      {
+        "semanaRelativa": -7,
+        "semanasAtras": 7,
+        "variavel": "media_temperatura_semana",
+        "nomeExibicao": "Temperatura média disponível",
+        "contribuicao": -0.00013580237282440066,
+        "atribuicaoAbsoluta": 0.00013580237282440066
+      },
+      {
+        "semanaRelativa": -7,
+        "semanasAtras": 7,
+        "variavel": "media_umidade_semana",
+        "nomeExibicao": "Umidade média disponível",
+        "contribuicao": 0.0006168312393128872,
+        "atribuicaoAbsoluta": 0.0006168312393128872
+      },
+      {
+        "semanaRelativa": -7,
+        "semanasAtras": 7,
+        "variavel": "chuva_total_mm",
+        "nomeExibicao": "Chuva total disponível",
+        "contribuicao": 0.001845954335294664,
+        "atribuicaoAbsoluta": 0.001845954335294664
+      },
+      {
+        "semanaRelativa": -7,
+        "semanasAtras": 7,
+        "variavel": "ONI",
+        "nomeExibicao": "Índice ONI disponível",
+        "contribuicao": -0.0007545091793872416,
+        "atribuicaoAbsoluta": 0.0007545091793872416
+      },
+      {
+        "semanaRelativa": -7,
+        "semanasAtras": 7,
+        "variavel": "week_sin",
+        "nomeExibicao": "Sazonalidade anual (seno)",
+        "contribuicao": -0.0006989636458456516,
+        "atribuicaoAbsoluta": 0.0006989636458456516
+      },
+      {
+        "semanaRelativa": -7,
+        "semanasAtras": 7,
+        "variavel": "week_cos",
+        "nomeExibicao": "Sazonalidade anual (cosseno)",
+        "contribuicao": 0.0006220703944563866,
+        "atribuicaoAbsoluta": 0.0006220703944563866
+      },
+      {
+        "semanaRelativa": -6,
+        "semanasAtras": 6,
+        "variavel": "log_incidence_lag_1",
+        "nomeExibicao": "Log incidence há 1",
+        "contribuicao": -6.614928861381486e-05,
+        "atribuicaoAbsoluta": 6.614928861381486e-05
+      },
+      {
+        "semanaRelativa": -6,
+        "semanasAtras": 6,
+        "variavel": "log_incidence_lag_2",
+        "nomeExibicao": "Log incidence há 2",
+        "contribuicao": 4.5455315557774156e-05,
+        "atribuicaoAbsoluta": 4.5455315557774156e-05
+      },
+      {
+        "semanaRelativa": -6,
+        "semanasAtras": 6,
+        "variavel": "log_incidence_lag_4",
+        "nomeExibicao": "Log incidence há 4",
+        "contribuicao": -0.00019830914970953017,
+        "atribuicaoAbsoluta": 0.00019830914970953017
+      },
+      {
+        "semanaRelativa": -6,
+        "semanasAtras": 6,
+        "variavel": "log_incidence_lag_8",
+        "nomeExibicao": "Log incidence há 8",
+        "contribuicao": -0.000769268546719104,
+        "atribuicaoAbsoluta": 0.000769268546719104
+      },
+      {
+        "semanaRelativa": -6,
+        "semanasAtras": 6,
+        "variavel": "log_incidence_lag_12",
+        "nomeExibicao": "Log incidence há 12",
+        "contribuicao": -0.0005138764390721917,
+        "atribuicaoAbsoluta": 0.0005138764390721917
+      },
+      {
+        "semanaRelativa": -6,
+        "semanasAtras": 6,
+        "variavel": "log_incidence_lag_52",
+        "nomeExibicao": "Log incidence há 52",
+        "contribuicao": -0.0002142556186299771,
+        "atribuicaoAbsoluta": 0.0002142556186299771
+      },
+      {
+        "semanaRelativa": -6,
+        "semanasAtras": 6,
+        "variavel": "incidence_mean_4",
+        "nomeExibicao": "Incidence média 4",
+        "contribuicao": 6.939369086467195e-06,
+        "atribuicaoAbsoluta": 6.939369086467195e-06
+      },
+      {
+        "semanaRelativa": -6,
+        "semanasAtras": 6,
+        "variavel": "incidence_mean_12",
+        "nomeExibicao": "Incidence média 12",
+        "contribuicao": -1.8876531612477265e-05,
+        "atribuicaoAbsoluta": 1.8876531612477265e-05
+      },
+      {
+        "semanaRelativa": -6,
+        "semanasAtras": 6,
+        "variavel": "incidence_std_12",
+        "nomeExibicao": "Incidence std 12",
+        "contribuicao": 0.00043079463648609817,
+        "atribuicaoAbsoluta": 0.00043079463648609817
+      },
+      {
+        "semanaRelativa": -6,
+        "semanasAtras": 6,
+        "variavel": "incidence_ratio_upper_lag1",
+        "nomeExibicao": "Incidence ratio upper lag1",
+        "contribuicao": 0.00037299355608411133,
+        "atribuicaoAbsoluta": 0.00037299355608411133
+      },
+      {
+        "semanaRelativa": -6,
+        "semanasAtras": 6,
+        "variavel": "media_temperatura_semana",
+        "nomeExibicao": "Temperatura média disponível",
+        "contribuicao": -0.0004669242480304092,
+        "atribuicaoAbsoluta": 0.0004669242480304092
+      },
+      {
+        "semanaRelativa": -6,
+        "semanasAtras": 6,
+        "variavel": "media_umidade_semana",
+        "nomeExibicao": "Umidade média disponível",
+        "contribuicao": -0.0015804567374289036,
+        "atribuicaoAbsoluta": 0.0015804567374289036
+      },
+      {
+        "semanaRelativa": -6,
+        "semanasAtras": 6,
+        "variavel": "chuva_total_mm",
+        "nomeExibicao": "Chuva total disponível",
+        "contribuicao": -0.0011081462725996971,
+        "atribuicaoAbsoluta": 0.0011081462725996971
+      },
+      {
+        "semanaRelativa": -6,
+        "semanasAtras": 6,
+        "variavel": "ONI",
+        "nomeExibicao": "Índice ONI disponível",
+        "contribuicao": -0.0010674899676814675,
+        "atribuicaoAbsoluta": 0.0010674899676814675
+      },
+      {
+        "semanaRelativa": -6,
+        "semanasAtras": 6,
+        "variavel": "week_sin",
+        "nomeExibicao": "Sazonalidade anual (seno)",
+        "contribuicao": -0.0008088168688118458,
+        "atribuicaoAbsoluta": 0.0008088168688118458
+      },
+      {
+        "semanaRelativa": -6,
+        "semanasAtras": 6,
+        "variavel": "week_cos",
+        "nomeExibicao": "Sazonalidade anual (cosseno)",
+        "contribuicao": 0.0009261065861210227,
+        "atribuicaoAbsoluta": 0.0009261065861210227
+      },
+      {
+        "semanaRelativa": -5,
+        "semanasAtras": 5,
+        "variavel": "log_incidence_lag_1",
+        "nomeExibicao": "Log incidence há 1",
+        "contribuicao": -5.874721682630479e-05,
+        "atribuicaoAbsoluta": 5.874721682630479e-05
+      },
+      {
+        "semanaRelativa": -5,
+        "semanasAtras": 5,
+        "variavel": "log_incidence_lag_2",
+        "nomeExibicao": "Log incidence há 2",
+        "contribuicao": -0.00022491741401609033,
+        "atribuicaoAbsoluta": 0.00022491741401609033
+      },
+      {
+        "semanaRelativa": -5,
+        "semanasAtras": 5,
+        "variavel": "log_incidence_lag_4",
+        "nomeExibicao": "Log incidence há 4",
+        "contribuicao": -0.00020316345035098493,
+        "atribuicaoAbsoluta": 0.00020316345035098493
+      },
+      {
+        "semanaRelativa": -5,
+        "semanasAtras": 5,
+        "variavel": "log_incidence_lag_8",
+        "nomeExibicao": "Log incidence há 8",
+        "contribuicao": -0.0015590208349749446,
+        "atribuicaoAbsoluta": 0.0015590208349749446
+      },
+      {
+        "semanaRelativa": -5,
+        "semanasAtras": 5,
+        "variavel": "log_incidence_lag_12",
+        "nomeExibicao": "Log incidence há 12",
+        "contribuicao": -0.000904641579836607,
+        "atribuicaoAbsoluta": 0.000904641579836607
+      },
+      {
+        "semanaRelativa": -5,
+        "semanasAtras": 5,
+        "variavel": "log_incidence_lag_52",
+        "nomeExibicao": "Log incidence há 52",
+        "contribuicao": -0.00023614196106791496,
+        "atribuicaoAbsoluta": 0.00023614196106791496
+      },
+      {
+        "semanaRelativa": -5,
+        "semanasAtras": 5,
+        "variavel": "incidence_mean_4",
+        "nomeExibicao": "Incidence média 4",
+        "contribuicao": -7.388072117464617e-05,
+        "atribuicaoAbsoluta": 7.388072117464617e-05
+      },
+      {
+        "semanaRelativa": -5,
+        "semanasAtras": 5,
+        "variavel": "incidence_mean_12",
+        "nomeExibicao": "Incidence média 12",
+        "contribuicao": -3.9978847780730575e-05,
+        "atribuicaoAbsoluta": 3.9978847780730575e-05
+      },
+      {
+        "semanaRelativa": -5,
+        "semanasAtras": 5,
+        "variavel": "incidence_std_12",
+        "nomeExibicao": "Incidence std 12",
+        "contribuicao": 0.0006426197942346334,
+        "atribuicaoAbsoluta": 0.0006426197942346334
+      },
+      {
+        "semanaRelativa": -5,
+        "semanasAtras": 5,
+        "variavel": "incidence_ratio_upper_lag1",
+        "nomeExibicao": "Incidence ratio upper lag1",
+        "contribuicao": 8.374483877560124e-05,
+        "atribuicaoAbsoluta": 8.374483877560124e-05
+      },
+      {
+        "semanaRelativa": -5,
+        "semanasAtras": 5,
+        "variavel": "media_temperatura_semana",
+        "nomeExibicao": "Temperatura média disponível",
+        "contribuicao": -0.0005334359011612833,
+        "atribuicaoAbsoluta": 0.0005334359011612833
+      },
+      {
+        "semanaRelativa": -5,
+        "semanasAtras": 5,
+        "variavel": "media_umidade_semana",
+        "nomeExibicao": "Umidade média disponível",
+        "contribuicao": -0.0014484954299405217,
+        "atribuicaoAbsoluta": 0.0014484954299405217
+      },
+      {
+        "semanaRelativa": -5,
+        "semanasAtras": 5,
+        "variavel": "chuva_total_mm",
+        "nomeExibicao": "Chuva total disponível",
+        "contribuicao": -0.0017292043194174767,
+        "atribuicaoAbsoluta": 0.0017292043194174767
+      },
+      {
+        "semanaRelativa": -5,
+        "semanasAtras": 5,
+        "variavel": "ONI",
+        "nomeExibicao": "Índice ONI disponível",
+        "contribuicao": -0.0016350995283573866,
+        "atribuicaoAbsoluta": 0.0016350995283573866
+      },
+      {
+        "semanaRelativa": -5,
+        "semanasAtras": 5,
+        "variavel": "week_sin",
+        "nomeExibicao": "Sazonalidade anual (seno)",
+        "contribuicao": -0.0009434869280084968,
+        "atribuicaoAbsoluta": 0.0009434869280084968
+      },
+      {
+        "semanaRelativa": -5,
+        "semanasAtras": 5,
+        "variavel": "week_cos",
+        "nomeExibicao": "Sazonalidade anual (cosseno)",
+        "contribuicao": 0.0012801919365301728,
+        "atribuicaoAbsoluta": 0.0012801919365301728
+      },
+      {
+        "semanaRelativa": -4,
+        "semanasAtras": 4,
+        "variavel": "log_incidence_lag_1",
+        "nomeExibicao": "Log incidence há 1",
+        "contribuicao": 3.956697401008569e-05,
+        "atribuicaoAbsoluta": 3.956697401008569e-05
+      },
+      {
+        "semanaRelativa": -4,
+        "semanasAtras": 4,
+        "variavel": "log_incidence_lag_2",
+        "nomeExibicao": "Log incidence há 2",
+        "contribuicao": -0.00045697035966441035,
+        "atribuicaoAbsoluta": 0.00045697035966441035
+      },
+      {
+        "semanaRelativa": -4,
+        "semanasAtras": 4,
+        "variavel": "log_incidence_lag_4",
+        "nomeExibicao": "Log incidence há 4",
+        "contribuicao": -0.000491263170260936,
+        "atribuicaoAbsoluta": 0.000491263170260936
+      },
+      {
+        "semanaRelativa": -4,
+        "semanasAtras": 4,
+        "variavel": "log_incidence_lag_8",
+        "nomeExibicao": "Log incidence há 8",
+        "contribuicao": -0.0022152899764478207,
+        "atribuicaoAbsoluta": 0.0022152899764478207
+      },
+      {
+        "semanaRelativa": -4,
+        "semanasAtras": 4,
+        "variavel": "log_incidence_lag_12",
+        "nomeExibicao": "Log incidence há 12",
+        "contribuicao": -0.0016457560705021024,
+        "atribuicaoAbsoluta": 0.0016457560705021024
+      },
+      {
+        "semanaRelativa": -4,
+        "semanasAtras": 4,
+        "variavel": "log_incidence_lag_52",
+        "nomeExibicao": "Log incidence há 52",
+        "contribuicao": -0.0003457724815234542,
+        "atribuicaoAbsoluta": 0.0003457724815234542
+      },
+      {
+        "semanaRelativa": -4,
+        "semanasAtras": 4,
+        "variavel": "incidence_mean_4",
+        "nomeExibicao": "Incidence média 4",
+        "contribuicao": -0.00018692869343794882,
+        "atribuicaoAbsoluta": 0.00018692869343794882
+      },
+      {
+        "semanaRelativa": -4,
+        "semanasAtras": 4,
+        "variavel": "incidence_mean_12",
+        "nomeExibicao": "Incidence média 12",
+        "contribuicao": -7.839701720513403e-05,
+        "atribuicaoAbsoluta": 7.839701720513403e-05
+      },
+      {
+        "semanaRelativa": -4,
+        "semanasAtras": 4,
+        "variavel": "incidence_std_12",
+        "nomeExibicao": "Incidence std 12",
+        "contribuicao": 0.0009390682098455727,
+        "atribuicaoAbsoluta": 0.0009390682098455727
+      },
+      {
+        "semanaRelativa": -4,
+        "semanasAtras": 4,
+        "variavel": "incidence_ratio_upper_lag1",
+        "nomeExibicao": "Incidence ratio upper lag1",
+        "contribuicao": -1.6934711311478168e-05,
+        "atribuicaoAbsoluta": 1.6934711311478168e-05
+      },
+      {
+        "semanaRelativa": -4,
+        "semanasAtras": 4,
+        "variavel": "media_temperatura_semana",
+        "nomeExibicao": "Temperatura média disponível",
+        "contribuicao": 0.00011460750101832673,
+        "atribuicaoAbsoluta": 0.00011460750101832673
+      },
+      {
+        "semanaRelativa": -4,
+        "semanasAtras": 4,
+        "variavel": "media_umidade_semana",
+        "nomeExibicao": "Umidade média disponível",
+        "contribuicao": -0.0015023817541077733,
+        "atribuicaoAbsoluta": 0.0015023817541077733
+      },
+      {
+        "semanaRelativa": -4,
+        "semanasAtras": 4,
+        "variavel": "chuva_total_mm",
+        "nomeExibicao": "Chuva total disponível",
+        "contribuicao": 0.012102674692869186,
+        "atribuicaoAbsoluta": 0.012102674692869186
+      },
+      {
+        "semanaRelativa": -4,
+        "semanasAtras": 4,
+        "variavel": "ONI",
+        "nomeExibicao": "Índice ONI disponível",
+        "contribuicao": -0.0030337932985275984,
+        "atribuicaoAbsoluta": 0.0030337932985275984
+      },
+      {
+        "semanaRelativa": -4,
+        "semanasAtras": 4,
+        "variavel": "week_sin",
+        "nomeExibicao": "Sazonalidade anual (seno)",
+        "contribuicao": -0.0011603711172938347,
+        "atribuicaoAbsoluta": 0.0011603711172938347
+      },
+      {
+        "semanaRelativa": -4,
+        "semanasAtras": 4,
+        "variavel": "week_cos",
+        "nomeExibicao": "Sazonalidade anual (cosseno)",
+        "contribuicao": 0.0019393580732867122,
+        "atribuicaoAbsoluta": 0.0019393580732867122
+      },
+      {
+        "semanaRelativa": -3,
+        "semanasAtras": 3,
+        "variavel": "log_incidence_lag_1",
+        "nomeExibicao": "Log incidence há 1",
+        "contribuicao": 4.07357265430619e-06,
+        "atribuicaoAbsoluta": 4.07357265430619e-06
+      },
+      {
+        "semanaRelativa": -3,
+        "semanasAtras": 3,
+        "variavel": "log_incidence_lag_2",
+        "nomeExibicao": "Log incidence há 2",
+        "contribuicao": -0.0008378092898055911,
+        "atribuicaoAbsoluta": 0.0008378092898055911
+      },
+      {
+        "semanaRelativa": -3,
+        "semanasAtras": 3,
+        "variavel": "log_incidence_lag_4",
+        "nomeExibicao": "Log incidence há 4",
+        "contribuicao": -0.00021716475021094084,
+        "atribuicaoAbsoluta": 0.00021716475021094084
+      },
+      {
+        "semanaRelativa": -3,
+        "semanasAtras": 3,
+        "variavel": "log_incidence_lag_8",
+        "nomeExibicao": "Log incidence há 8",
+        "contribuicao": -0.00315806083381176,
+        "atribuicaoAbsoluta": 0.00315806083381176
+      },
+      {
+        "semanaRelativa": -3,
+        "semanasAtras": 3,
+        "variavel": "log_incidence_lag_12",
+        "nomeExibicao": "Log incidence há 12",
+        "contribuicao": -0.001964201219379902,
+        "atribuicaoAbsoluta": 0.001964201219379902
+      },
+      {
+        "semanaRelativa": -3,
+        "semanasAtras": 3,
+        "variavel": "log_incidence_lag_52",
+        "nomeExibicao": "Log incidence há 52",
+        "contribuicao": -0.00023370869166683406,
+        "atribuicaoAbsoluta": 0.00023370869166683406
+      },
+      {
+        "semanaRelativa": -3,
+        "semanasAtras": 3,
+        "variavel": "incidence_mean_4",
+        "nomeExibicao": "Incidence média 4",
+        "contribuicao": -0.00036393883056007326,
+        "atribuicaoAbsoluta": 0.00036393883056007326
+      },
+      {
+        "semanaRelativa": -3,
+        "semanasAtras": 3,
+        "variavel": "incidence_mean_12",
+        "nomeExibicao": "Incidence média 12",
+        "contribuicao": -0.00012418368714861572,
+        "atribuicaoAbsoluta": 0.00012418368714861572
+      },
+      {
+        "semanaRelativa": -3,
+        "semanasAtras": 3,
+        "variavel": "incidence_std_12",
+        "nomeExibicao": "Incidence std 12",
+        "contribuicao": 0.0013973925961181521,
+        "atribuicaoAbsoluta": 0.0013973925961181521
+      },
+      {
+        "semanaRelativa": -3,
+        "semanasAtras": 3,
+        "variavel": "incidence_ratio_upper_lag1",
+        "nomeExibicao": "Incidence ratio upper lag1",
+        "contribuicao": 0.00012449949281290174,
+        "atribuicaoAbsoluta": 0.00012449949281290174
+      },
+      {
+        "semanaRelativa": -3,
+        "semanasAtras": 3,
+        "variavel": "media_temperatura_semana",
+        "nomeExibicao": "Temperatura média disponível",
+        "contribuicao": -0.0020700423046946526,
+        "atribuicaoAbsoluta": 0.0020700423046946526
+      },
+      {
+        "semanaRelativa": -3,
+        "semanasAtras": 3,
+        "variavel": "media_umidade_semana",
+        "nomeExibicao": "Umidade média disponível",
+        "contribuicao": -0.002808107528835535,
+        "atribuicaoAbsoluta": 0.002808107528835535
+      },
+      {
+        "semanaRelativa": -3,
+        "semanasAtras": 3,
+        "variavel": "chuva_total_mm",
+        "nomeExibicao": "Chuva total disponível",
+        "contribuicao": 0.0023397605400532484,
+        "atribuicaoAbsoluta": 0.0023397605400532484
+      },
+      {
+        "semanaRelativa": -3,
+        "semanasAtras": 3,
+        "variavel": "ONI",
+        "nomeExibicao": "Índice ONI disponível",
+        "contribuicao": -0.00414402736350894,
+        "atribuicaoAbsoluta": 0.00414402736350894
+      },
+      {
+        "semanaRelativa": -3,
+        "semanasAtras": 3,
+        "variavel": "week_sin",
+        "nomeExibicao": "Sazonalidade anual (seno)",
+        "contribuicao": -0.0009675582405179739,
+        "atribuicaoAbsoluta": 0.0009675582405179739
+      },
+      {
+        "semanaRelativa": -3,
+        "semanasAtras": 3,
+        "variavel": "week_cos",
+        "nomeExibicao": "Sazonalidade anual (cosseno)",
+        "contribuicao": 0.0022067511454224586,
+        "atribuicaoAbsoluta": 0.0022067511454224586
+      },
+      {
+        "semanaRelativa": -2,
+        "semanasAtras": 2,
+        "variavel": "log_incidence_lag_1",
+        "nomeExibicao": "Log incidence há 1",
+        "contribuicao": -3.215319156879559e-05,
+        "atribuicaoAbsoluta": 3.215319156879559e-05
+      },
+      {
+        "semanaRelativa": -2,
+        "semanasAtras": 2,
+        "variavel": "log_incidence_lag_2",
+        "nomeExibicao": "Log incidence há 2",
+        "contribuicao": -0.0017345014493912458,
+        "atribuicaoAbsoluta": 0.0017345014493912458
+      },
+      {
+        "semanaRelativa": -2,
+        "semanasAtras": 2,
+        "variavel": "log_incidence_lag_4",
+        "nomeExibicao": "Log incidence há 4",
+        "contribuicao": -0.00023329374380409718,
+        "atribuicaoAbsoluta": 0.00023329374380409718
+      },
+      {
+        "semanaRelativa": -2,
+        "semanasAtras": 2,
+        "variavel": "log_incidence_lag_8",
+        "nomeExibicao": "Log incidence há 8",
+        "contribuicao": -0.0052805449813604355,
+        "atribuicaoAbsoluta": 0.0052805449813604355
+      },
+      {
+        "semanaRelativa": -2,
+        "semanasAtras": 2,
+        "variavel": "log_incidence_lag_12",
+        "nomeExibicao": "Log incidence há 12",
+        "contribuicao": -0.0027639532927423716,
+        "atribuicaoAbsoluta": 0.0027639532927423716
+      },
+      {
+        "semanaRelativa": -2,
+        "semanasAtras": 2,
+        "variavel": "log_incidence_lag_52",
+        "nomeExibicao": "Log incidence há 52",
+        "contribuicao": -8.410266309510916e-05,
+        "atribuicaoAbsoluta": 8.410266309510916e-05
+      },
+      {
+        "semanaRelativa": -2,
+        "semanasAtras": 2,
+        "variavel": "incidence_mean_4",
+        "nomeExibicao": "Incidence média 4",
+        "contribuicao": -0.0008287279051728547,
+        "atribuicaoAbsoluta": 0.0008287279051728547
+      },
+      {
+        "semanaRelativa": -2,
+        "semanasAtras": 2,
+        "variavel": "incidence_mean_12",
+        "nomeExibicao": "Incidence média 12",
+        "contribuicao": -0.00022345264733303338,
+        "atribuicaoAbsoluta": 0.00022345264733303338
+      },
+      {
+        "semanaRelativa": -2,
+        "semanasAtras": 2,
+        "variavel": "incidence_std_12",
+        "nomeExibicao": "Incidence std 12",
+        "contribuicao": 0.0017742653144523501,
+        "atribuicaoAbsoluta": 0.0017742653144523501
+      },
+      {
+        "semanaRelativa": -2,
+        "semanasAtras": 2,
+        "variavel": "incidence_ratio_upper_lag1",
+        "nomeExibicao": "Incidence ratio upper lag1",
+        "contribuicao": -0.00023606709146406502,
+        "atribuicaoAbsoluta": 0.00023606709146406502
+      },
+      {
+        "semanaRelativa": -2,
+        "semanasAtras": 2,
+        "variavel": "media_temperatura_semana",
+        "nomeExibicao": "Temperatura média disponível",
+        "contribuicao": -0.0005412262980826199,
+        "atribuicaoAbsoluta": 0.0005412262980826199
+      },
+      {
+        "semanaRelativa": -2,
+        "semanasAtras": 2,
+        "variavel": "media_umidade_semana",
+        "nomeExibicao": "Umidade média disponível",
+        "contribuicao": 0.008093398995697498,
+        "atribuicaoAbsoluta": 0.008093398995697498
+      },
+      {
+        "semanaRelativa": -2,
+        "semanasAtras": 2,
+        "variavel": "chuva_total_mm",
+        "nomeExibicao": "Chuva total disponível",
+        "contribuicao": 0.023357875645160675,
+        "atribuicaoAbsoluta": 0.023357875645160675
+      },
+      {
+        "semanaRelativa": -2,
+        "semanasAtras": 2,
+        "variavel": "ONI",
+        "nomeExibicao": "Índice ONI disponível",
+        "contribuicao": -0.005554195027798414,
+        "atribuicaoAbsoluta": 0.005554195027798414
+      },
+      {
+        "semanaRelativa": -2,
+        "semanasAtras": 2,
+        "variavel": "week_sin",
+        "nomeExibicao": "Sazonalidade anual (seno)",
+        "contribuicao": -0.0007499505882151425,
+        "atribuicaoAbsoluta": 0.0007499505882151425
+      },
+      {
+        "semanaRelativa": -2,
+        "semanasAtras": 2,
+        "variavel": "week_cos",
+        "nomeExibicao": "Sazonalidade anual (cosseno)",
+        "contribuicao": 0.0018341441173106432,
+        "atribuicaoAbsoluta": 0.0018341441173106432
+      },
+      {
+        "semanaRelativa": -1,
+        "semanasAtras": 1,
+        "variavel": "log_incidence_lag_1",
+        "nomeExibicao": "Log incidence há 1",
+        "contribuicao": -0.0007563310791738331,
+        "atribuicaoAbsoluta": 0.0007563310791738331
+      },
+      {
+        "semanaRelativa": -1,
+        "semanasAtras": 1,
+        "variavel": "log_incidence_lag_2",
+        "nomeExibicao": "Log incidence há 2",
+        "contribuicao": -0.0019318490521982312,
+        "atribuicaoAbsoluta": 0.0019318490521982312
+      },
+      {
+        "semanaRelativa": -1,
+        "semanasAtras": 1,
+        "variavel": "log_incidence_lag_4",
+        "nomeExibicao": "Log incidence há 4",
+        "contribuicao": -7.130235462682322e-05,
+        "atribuicaoAbsoluta": 7.130235462682322e-05
+      },
+      {
+        "semanaRelativa": -1,
+        "semanasAtras": 1,
+        "variavel": "log_incidence_lag_8",
+        "nomeExibicao": "Log incidence há 8",
+        "contribuicao": -0.005629073362797499,
+        "atribuicaoAbsoluta": 0.005629073362797499
+      },
+      {
+        "semanaRelativa": -1,
+        "semanasAtras": 1,
+        "variavel": "log_incidence_lag_12",
+        "nomeExibicao": "Log incidence há 12",
+        "contribuicao": -0.001832198235206306,
+        "atribuicaoAbsoluta": 0.001832198235206306
+      },
+      {
+        "semanaRelativa": -1,
+        "semanasAtras": 1,
+        "variavel": "log_incidence_lag_52",
+        "nomeExibicao": "Log incidence há 52",
+        "contribuicao": -0.00012598154717124999,
+        "atribuicaoAbsoluta": 0.00012598154717124999
+      },
+      {
+        "semanaRelativa": -1,
+        "semanasAtras": 1,
+        "variavel": "incidence_mean_4",
+        "nomeExibicao": "Incidence média 4",
+        "contribuicao": -0.0011308242101222277,
+        "atribuicaoAbsoluta": 0.0011308242101222277
+      },
+      {
+        "semanaRelativa": -1,
+        "semanasAtras": 1,
+        "variavel": "incidence_mean_12",
+        "nomeExibicao": "Incidence média 12",
+        "contribuicao": -0.0003358647518325597,
+        "atribuicaoAbsoluta": 0.0003358647518325597
+      },
+      {
+        "semanaRelativa": -1,
+        "semanasAtras": 1,
+        "variavel": "incidence_std_12",
+        "nomeExibicao": "Incidence std 12",
+        "contribuicao": 0.002047712681815028,
+        "atribuicaoAbsoluta": 0.002047712681815028
+      },
+      {
+        "semanaRelativa": -1,
+        "semanasAtras": 1,
+        "variavel": "incidence_ratio_upper_lag1",
+        "nomeExibicao": "Incidence ratio upper lag1",
+        "contribuicao": -0.00023565490846522152,
+        "atribuicaoAbsoluta": 0.00023565490846522152
+      },
+      {
+        "semanaRelativa": -1,
+        "semanasAtras": 1,
+        "variavel": "media_temperatura_semana",
+        "nomeExibicao": "Temperatura média disponível",
+        "contribuicao": -0.0007305968902073801,
+        "atribuicaoAbsoluta": 0.0007305968902073801
+      },
+      {
+        "semanaRelativa": -1,
+        "semanasAtras": 1,
+        "variavel": "media_umidade_semana",
+        "nomeExibicao": "Umidade média disponível",
+        "contribuicao": 0.013534205965697765,
+        "atribuicaoAbsoluta": 0.013534205965697765
+      },
+      {
+        "semanaRelativa": -1,
+        "semanasAtras": 1,
+        "variavel": "chuva_total_mm",
+        "nomeExibicao": "Chuva total disponível",
+        "contribuicao": 0.014761777594685555,
+        "atribuicaoAbsoluta": 0.014761777594685555
+      },
+      {
+        "semanaRelativa": -1,
+        "semanasAtras": 1,
+        "variavel": "ONI",
+        "nomeExibicao": "Índice ONI disponível",
+        "contribuicao": -0.005422795191407204,
+        "atribuicaoAbsoluta": 0.005422795191407204
+      },
+      {
+        "semanaRelativa": -1,
+        "semanasAtras": 1,
+        "variavel": "week_sin",
+        "nomeExibicao": "Sazonalidade anual (seno)",
+        "contribuicao": -0.00018115167040377855,
+        "atribuicaoAbsoluta": 0.00018115167040377855
+      },
+      {
+        "semanaRelativa": -1,
+        "semanasAtras": 1,
+        "variavel": "week_cos",
+        "nomeExibicao": "Sazonalidade anual (cosseno)",
+        "contribuicao": 0.00042358378414064646,
+        "atribuicaoAbsoluta": 0.00042358378414064646
+      },
+      {
+        "semanaRelativa": 0,
+        "semanasAtras": 0,
+        "variavel": "log_incidence_lag_1",
+        "nomeExibicao": "Log incidence há 1",
+        "contribuicao": -0.003413418773561716,
+        "atribuicaoAbsoluta": 0.003413418773561716
+      },
+      {
+        "semanaRelativa": 0,
+        "semanasAtras": 0,
+        "variavel": "log_incidence_lag_2",
+        "nomeExibicao": "Log incidence há 2",
+        "contribuicao": -0.0013104453682899475,
+        "atribuicaoAbsoluta": 0.0013104453682899475
+      },
+      {
+        "semanaRelativa": 0,
+        "semanasAtras": 0,
+        "variavel": "log_incidence_lag_4",
+        "nomeExibicao": "Log incidence há 4",
+        "contribuicao": 0.0027712348382920027,
+        "atribuicaoAbsoluta": 0.0027712348382920027
+      },
+      {
+        "semanaRelativa": 0,
+        "semanasAtras": 0,
+        "variavel": "log_incidence_lag_8",
+        "nomeExibicao": "Log incidence há 8",
+        "contribuicao": -0.00673530250787735,
+        "atribuicaoAbsoluta": 0.00673530250787735
+      },
+      {
+        "semanaRelativa": 0,
+        "semanasAtras": 0,
+        "variavel": "log_incidence_lag_12",
+        "nomeExibicao": "Log incidence há 12",
+        "contribuicao": 0.005252907983958721,
+        "atribuicaoAbsoluta": 0.005252907983958721
+      },
+      {
+        "semanaRelativa": 0,
+        "semanasAtras": 0,
+        "variavel": "log_incidence_lag_52",
+        "nomeExibicao": "Log incidence há 52",
+        "contribuicao": -0.004630209878087044,
+        "atribuicaoAbsoluta": 0.004630209878087044
+      },
+      {
+        "semanaRelativa": 0,
+        "semanasAtras": 0,
+        "variavel": "incidence_mean_4",
+        "nomeExibicao": "Incidence média 4",
+        "contribuicao": -0.0013473359867930412,
+        "atribuicaoAbsoluta": 0.0013473359867930412
+      },
+      {
+        "semanaRelativa": 0,
+        "semanasAtras": 0,
+        "variavel": "incidence_mean_12",
+        "nomeExibicao": "Incidence média 12",
+        "contribuicao": -0.0004988535074517131,
+        "atribuicaoAbsoluta": 0.0004988535074517131
+      },
+      {
+        "semanaRelativa": 0,
+        "semanasAtras": 0,
+        "variavel": "incidence_std_12",
+        "nomeExibicao": "Incidence std 12",
+        "contribuicao": 0.002340529579669237,
+        "atribuicaoAbsoluta": 0.002340529579669237
+      },
+      {
+        "semanaRelativa": 0,
+        "semanasAtras": 0,
+        "variavel": "incidence_ratio_upper_lag1",
+        "nomeExibicao": "Incidence ratio upper lag1",
+        "contribuicao": -0.00024919016868807375,
+        "atribuicaoAbsoluta": 0.00024919016868807375
+      },
+      {
+        "semanaRelativa": 0,
+        "semanasAtras": 0,
+        "variavel": "media_temperatura_semana",
+        "nomeExibicao": "Temperatura média disponível",
+        "contribuicao": -0.0013542079832404852,
+        "atribuicaoAbsoluta": 0.0013542079832404852
+      },
+      {
+        "semanaRelativa": 0,
+        "semanasAtras": 0,
+        "variavel": "media_umidade_semana",
+        "nomeExibicao": "Umidade média disponível",
+        "contribuicao": -0.014856433495879173,
+        "atribuicaoAbsoluta": 0.014856433495879173
+      },
+      {
+        "semanaRelativa": 0,
+        "semanasAtras": 0,
+        "variavel": "chuva_total_mm",
+        "nomeExibicao": "Chuva total disponível",
+        "contribuicao": -0.0032584848813712597,
+        "atribuicaoAbsoluta": 0.0032584848813712597
+      },
+      {
+        "semanaRelativa": 0,
+        "semanasAtras": 0,
+        "variavel": "ONI",
+        "nomeExibicao": "Índice ONI disponível",
+        "contribuicao": -0.004062675405293703,
+        "atribuicaoAbsoluta": 0.004062675405293703
+      },
+      {
+        "semanaRelativa": 0,
+        "semanasAtras": 0,
+        "variavel": "week_sin",
+        "nomeExibicao": "Sazonalidade anual (seno)",
+        "contribuicao": -0.00016313059313688427,
+        "atribuicaoAbsoluta": 0.00016313059313688427
+      },
+      {
+        "semanaRelativa": 0,
+        "semanasAtras": 0,
+        "variavel": "week_cos",
+        "nomeExibicao": "Sazonalidade anual (cosseno)",
+        "contribuicao": -0.006522066425532103,
+        "atribuicaoAbsoluta": 0.006522066425532103
+      }
+    ]
+  },
+  "explicacaoGlobalTeste": {
+    "importanciaVariaveis": [
+      {
+        "variavel": "log_incidence_lag_8",
+        "nomeExibicao": "Log incidence há 8",
+        "importanciaMediaAbsoluta": 0.004539843,
+        "contribuicaoMedia": -0.004539843,
+        "importanciaNormalizada": 0.1486613760619329
+      },
+      {
+        "variavel": "incidence_mean_4",
+        "nomeExibicao": "Incidence média 4",
+        "importanciaMediaAbsoluta": 0.0036282982,
+        "contribuicaoMedia": 0.0034094471,
+        "importanciaNormalizada": 0.1188119948586403
+      },
+      {
+        "variavel": "media_umidade_semana",
+        "nomeExibicao": "Umidade média disponível",
+        "importanciaMediaAbsoluta": 0.0035527803,
+        "contribuicaoMedia": -0.00060012325,
+        "importanciaNormalizada": 0.11633909107511574
+      },
+      {
+        "variavel": "chuva_total_mm",
+        "nomeExibicao": "Chuva total disponível",
+        "importanciaMediaAbsoluta": 0.0022927402,
+        "contribuicaoMedia": 0.000118863376,
+        "importanciaNormalizada": 0.07507790755858985
+      },
+      {
+        "variavel": "incidence_std_12",
+        "nomeExibicao": "Incidence std 12",
+        "importanciaMediaAbsoluta": 0.0021870364,
+        "contribuicaoMedia": -0.001509225,
+        "importanciaNormalizada": 0.07161653844010374
+      },
+      {
+        "variavel": "ONI",
+        "nomeExibicao": "Índice ONI disponível",
+        "importanciaMediaAbsoluta": 0.0019033512,
+        "contribuicaoMedia": 0.0005533821,
+        "importanciaNormalizada": 0.06232700305299792
+      },
+      {
+        "variavel": "log_incidence_lag_12",
+        "nomeExibicao": "Log incidence há 12",
+        "importanciaMediaAbsoluta": 0.0018437982,
+        "contribuicaoMedia": -0.001468534,
+        "importanciaNormalizada": 0.060376884749652124
+      },
+      {
+        "variavel": "incidence_mean_12",
+        "nomeExibicao": "Incidence média 12",
+        "importanciaMediaAbsoluta": 0.0015437137,
+        "contribuicaoMedia": 0.001431159,
+        "importanciaNormalizada": 0.05055033905085657
+      },
+      {
+        "variavel": "week_sin",
+        "nomeExibicao": "Sazonalidade anual (seno)",
+        "importanciaMediaAbsoluta": 0.0015424342,
+        "contribuicaoMedia": 0.000615487,
+        "importanciaNormalizada": 0.05050844063483838
+      },
+      {
+        "variavel": "media_temperatura_semana",
+        "nomeExibicao": "Temperatura média disponível",
+        "importanciaMediaAbsoluta": 0.0014440112,
+        "contribuicaoMedia": -0.00036560834,
+        "importanciaNormalizada": 0.047285488075434104
+      },
+      {
+        "variavel": "incidence_ratio_upper_lag1",
+        "nomeExibicao": "Incidence ratio upper lag1",
+        "importanciaMediaAbsoluta": 0.0011878085,
+        "contribuicaoMedia": 0.0010339121,
+        "importanciaNormalizada": 0.03889589267912137
+      },
+      {
+        "variavel": "log_incidence_lag_2",
+        "nomeExibicao": "Log incidence há 2",
+        "importanciaMediaAbsoluta": 0.0010847256,
+        "contribuicaoMedia": -0.00080736383,
+        "importanciaNormalizada": 0.035520347365670085
+      },
+      {
+        "variavel": "log_incidence_lag_52",
+        "nomeExibicao": "Log incidence há 52",
+        "importanciaMediaAbsoluta": 0.0010661086,
+        "contribuicaoMedia": -0.0006747513,
+        "importanciaNormalizada": 0.034910716407475055
+      },
+      {
+        "variavel": "week_cos",
+        "nomeExibicao": "Sazonalidade anual (cosseno)",
+        "importanciaMediaAbsoluta": 0.0010344383,
+        "contribuicaoMedia": 0.00051398145,
+        "importanciaNormalizada": 0.0338736430156652
+      },
+      {
+        "variavel": "log_incidence_lag_1",
+        "nomeExibicao": "Log incidence há 1",
+        "importanciaMediaAbsoluta": 0.0008709228,
+        "contribuicaoMedia": -0.00046265157,
+        "importanciaNormalizada": 0.028519176079814117
+      },
+      {
+        "variavel": "log_incidence_lag_4",
+        "nomeExibicao": "Log incidence há 4",
+        "importanciaMediaAbsoluta": 0.0008161369,
+        "contribuicaoMedia": 0.0004229976,
+        "importanciaNormalizada": 0.026725160894092614
+      }
+    ],
+    "importanciaTemporal": [
+      {
+        "semanaRelativa": -11,
+        "semanasAtras": 11,
+        "importanciaMediaAbsoluta": 0.00017977446,
+        "contribuicaoMedia": -4.054773e-06
+      },
+      {
+        "semanaRelativa": -10,
+        "semanasAtras": 10,
+        "importanciaMediaAbsoluta": 0.0002420956,
+        "contribuicaoMedia": -5.968047e-06
+      },
+      {
+        "semanaRelativa": -9,
+        "semanasAtras": 9,
+        "importanciaMediaAbsoluta": 0.00033173896,
+        "contribuicaoMedia": -9.731141e-06
+      },
+      {
+        "semanaRelativa": -8,
+        "semanasAtras": 8,
+        "importanciaMediaAbsoluta": 0.00046036157,
+        "contribuicaoMedia": -1.712945e-05
+      },
+      {
+        "semanaRelativa": -7,
+        "semanasAtras": 7,
+        "importanciaMediaAbsoluta": 0.0006467014,
+        "contribuicaoMedia": -3.0780782e-05
+      },
+      {
+        "semanaRelativa": -6,
+        "semanasAtras": 6,
+        "importanciaMediaAbsoluta": 0.000917303,
+        "contribuicaoMedia": -5.496823e-05
+      },
+      {
+        "semanaRelativa": -5,
+        "semanasAtras": 5,
+        "importanciaMediaAbsoluta": 0.001308771,
+        "contribuicaoMedia": -9.525505e-05
+      },
+      {
+        "semanaRelativa": -4,
+        "semanasAtras": 4,
+        "importanciaMediaAbsoluta": 0.0018729724,
+        "contribuicaoMedia": -0.00014949324
+      },
+      {
+        "semanaRelativa": -3,
+        "semanasAtras": 3,
+        "importanciaMediaAbsoluta": 0.0026521257,
+        "contribuicaoMedia": -0.00021075945
+      },
+      {
+        "semanaRelativa": -2,
+        "semanasAtras": 2,
+        "importanciaMediaAbsoluta": 0.0036160117,
+        "contribuicaoMedia": -0.00023974142
+      },
+      {
+        "semanaRelativa": -1,
+        "semanasAtras": 1,
+        "importanciaMediaAbsoluta": 0.004439867,
+        "contribuicaoMedia": -0.00019429608
+      },
+      {
+        "semanaRelativa": 0,
+        "semanasAtras": 0,
+        "importanciaMediaAbsoluta": 0.006235885,
+        "contribuicaoMedia": -0.00073447224
+      }
+    ]
+  }
+}

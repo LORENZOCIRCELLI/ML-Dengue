@@ -1,0 +1,3322 @@
+[
+  {
+    "path": "catalogo.json",
+    "bytes": 6473
+  },
+  {
+    "path": "comparacao/metricas_todos_modelos.csv",
+    "bytes": 4770
+  },
+  {
+    "path": "comparacao/metricas_todos_modelos.json",
+    "bytes": 12511
+  },
+  {
+    "path": "comparacao/visao_geral.png",
+    "bytes": 284190
+  },
+  {
+    "path": "comparacao/visao_geral.svg",
+    "bytes": 126680
+  },
+  {
+    "path": "configuracao.json",
+    "bytes": 1571
+  },
+  {
+    "path": "data/dataset_utilizado.csv",
+    "bytes": 56521
+  },
+  {
+    "path": "data/dataset_utilizado.json",
+    "bytes": 187213
+  },
+  {
+    "path": "horizontes/04_semanas/data/amostras_incluindo_fronteiras.csv",
+    "bytes": 36319
+  },
+  {
+    "path": "horizontes/04_semanas/data/amostras_incluindo_fronteiras.json",
+    "bytes": 168590
+  },
+  {
+    "path": "horizontes/04_semanas/data/particoes.csv",
+    "bytes": 35826
+  },
+  {
+    "path": "horizontes/04_semanas/data/particoes.json",
+    "bytes": 166713
+  },
+  {
+    "path": "horizontes/04_semanas/data/resumo_particoes.csv",
+    "bytes": 233
+  },
+  {
+    "path": "horizontes/04_semanas/data/resumo_particoes.json",
+    "bytes": 620
+  },
+  {
+    "path": "horizontes/04_semanas/data/teste_padronizado.csv",
+    "bytes": 122606
+  },
+  {
+    "path": "horizontes/04_semanas/data/teste_padronizado.json",
+    "bytes": 544911
+  },
+  {
+    "path": "horizontes/04_semanas/data/treino_padronizado.csv",
+    "bytes": 360117
+  },
+  {
+    "path": "horizontes/04_semanas/data/treino_padronizado.json",
+    "bytes": 1607575
+  },
+  {
+    "path": "horizontes/04_semanas/data/validacao_padronizado.csv",
+    "bytes": 124037
+  },
+  {
+    "path": "horizontes/04_semanas/data/validacao_padronizado.json",
+    "bytes": 545719
+  },
+  {
+    "path": "horizontes/04_semanas/eda/boxplots.csv",
+    "bytes": 1396
+  },
+  {
+    "path": "horizontes/04_semanas/eda/boxplots.json",
+    "bytes": 2537
+  },
+  {
+    "path": "horizontes/04_semanas/eda/classes_e_gini.csv",
+    "bytes": 355
+  },
+  {
+    "path": "horizontes/04_semanas/eda/classes_e_gini.json",
+    "bytes": 855
+  },
+  {
+    "path": "horizontes/04_semanas/eda/correlacoes.csv",
+    "bytes": 1602
+  },
+  {
+    "path": "horizontes/04_semanas/eda/correlacoes.json",
+    "bytes": 3965
+  },
+  {
+    "path": "horizontes/04_semanas/eda/estatisticas_treino.csv",
+    "bytes": 991
+  },
+  {
+    "path": "horizontes/04_semanas/eda/estatisticas_treino.json",
+    "bytes": 1642
+  },
+  {
+    "path": "horizontes/04_semanas/eda/figures/boxplots.png",
+    "bytes": 84226
+  },
+  {
+    "path": "horizontes/04_semanas/eda/figures/boxplots.svg",
+    "bytes": 74505
+  },
+  {
+    "path": "horizontes/04_semanas/eda/figures/correlacoes.png",
+    "bytes": 83198
+  },
+  {
+    "path": "horizontes/04_semanas/eda/figures/correlacoes.svg",
+    "bytes": 51745
+  },
+  {
+    "path": "horizontes/04_semanas/eda/figures/histogramas.png",
+    "bytes": 140359
+  },
+  {
+    "path": "horizontes/04_semanas/eda/figures/histogramas.svg",
+    "bytes": 121193
+  },
+  {
+    "path": "horizontes/04_semanas/eda/histogramas.csv",
+    "bytes": 8879
+  },
+  {
+    "path": "horizontes/04_semanas/eda/histogramas.json",
+    "bytes": 18333
+  },
+  {
+    "path": "horizontes/04_semanas/eda/outliers.csv",
+    "bytes": 3861
+  },
+  {
+    "path": "horizontes/04_semanas/eda/outliers.json",
+    "bytes": 9839
+  },
+  {
+    "path": "horizontes/04_semanas/eda/valores_ausentes_treino.csv",
+    "bytes": 113
+  },
+  {
+    "path": "horizontes/04_semanas/eda/valores_ausentes_treino.json",
+    "bytes": 382
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/artifacts/seed_123.pt",
+    "bytes": 15585
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/artifacts/seed_2025.pt",
+    "bytes": 15597
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/artifacts/seed_42.pt",
+    "bytes": 15317
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/artifacts/seed_7.pt",
+    "bytes": 15305
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/artifacts/seed_99.pt",
+    "bytes": 15317
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/conclusao.json",
+    "bytes": 1118
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/conclusao.md",
+    "bytes": 621
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/configuracao.json",
+    "bytes": 3652
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/data/previsoes_teste.csv",
+    "bytes": 17690
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/data/previsoes_teste.json",
+    "bytes": 74758
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/data/previsoes_treino.csv",
+    "bytes": 51339
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/data/previsoes_treino.json",
+    "bytes": 219943
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/data/previsoes_validacao.csv",
+    "bytes": 18043
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/data/previsoes_validacao.json",
+    "bytes": 75146
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/explainability/convergencia_IG.csv",
+    "bytes": 3540
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/explainability/convergencia_IG.json",
+    "bytes": 12731
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/explainability/integrated_gradients_atribuicoes_teste.csv",
+    "bytes": 150292
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/explainability/integrated_gradients_atribuicoes_teste.json",
+    "bytes": 541813
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/explainability/integrated_gradients_importancia.csv",
+    "bytes": 3544
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/explainability/integrated_gradients_importancia.json",
+    "bytes": 10830
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/explainability/integrated_gradients_por_variavel.csv",
+    "bytes": 281
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/explainability/integrated_gradients_por_variavel.json",
+    "bytes": 850
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/explainability/integrated_gradients_previsao.csv",
+    "bytes": 3353
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/explainability/integrated_gradients_previsao.json",
+    "bytes": 9497
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/explainability/saliency_atribuicoes_teste.csv",
+    "bytes": 149992
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/explainability/saliency_atribuicoes_teste.json",
+    "bytes": 540791
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/explainability/saliency_importancia.csv",
+    "bytes": 3533
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/explainability/saliency_importancia.json",
+    "bytes": 10853
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/explainability/saliency_por_variavel.csv",
+    "bytes": 279
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/explainability/saliency_por_variavel.json",
+    "bytes": 853
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/explainability/saliency_previsao.csv",
+    "bytes": 3393
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/explainability/saliency_previsao.json",
+    "bytes": 9527
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/explicabilidade.json",
+    "bytes": 1275033
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/figures/01_metricas.png",
+    "bytes": 185497
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/figures/01_metricas.svg",
+    "bytes": 104206
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/figures/02_treinamento.png",
+    "bytes": 257100
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/figures/02_treinamento.svg",
+    "bytes": 127269
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/figures/03_roc.png",
+    "bytes": 72267
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/figures/03_roc.svg",
+    "bytes": 45586
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/figures/04_confusao.png",
+    "bytes": 45746
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/figures/04_confusao.svg",
+    "bytes": 34963
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/figures/06_integrated_gradients.png",
+    "bytes": 93175
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/figures/06_integrated_gradients.svg",
+    "bytes": 66796
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/figures/06_saliency.png",
+    "bytes": 96943
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/figures/06_saliency.svg",
+    "bytes": 68547
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/metricas.json",
+    "bytes": 38163
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/metrics/curvas_roc.csv",
+    "bytes": 13392
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/metrics/curvas_roc.json",
+    "bytes": 32682
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/metrics/historico_treinamento.csv",
+    "bytes": 73848
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/metrics/historico_treinamento.json",
+    "bytes": 182753
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/metrics/matrizes_confusao.json",
+    "bytes": 600
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/metrics/metricas_ensemble.csv",
+    "bytes": 470
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/metrics/metricas_ensemble.json",
+    "bytes": 905
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/metrics/metricas_por_semente.csv",
+    "bytes": 2030
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/metrics/metricas_por_semente.json",
+    "bytes": 4751
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/metrics/selecao_por_semente.csv",
+    "bytes": 301
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/metrics/selecao_por_semente.json",
+    "bytes": 775
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/previsao.json",
+    "bytes": 2161
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/resultado_completo.json",
+    "bytes": 1367689
+  },
+  {
+    "path": "horizontes/04_semanas/lstm/retrospectiva.json",
+    "bytes": 58284
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/artifacts/seed_123.joblib",
+    "bytes": 817929
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/artifacts/seed_2025.joblib",
+    "bytes": 207529
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/artifacts/seed_42.joblib",
+    "bytes": 833289
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/artifacts/seed_7.joblib",
+    "bytes": 216329
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/artifacts/seed_99.joblib",
+    "bytes": 108009
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/conclusao.json",
+    "bytes": 1127
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/conclusao.md",
+    "bytes": 621
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/configuracao.json",
+    "bytes": 3661
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/data/previsoes_teste.csv",
+    "bytes": 25353
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/data/previsoes_teste.json",
+    "bytes": 74332
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/data/previsoes_treino.csv",
+    "bytes": 73910
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/data/previsoes_treino.json",
+    "bytes": 218855
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/data/previsoes_validacao.csv",
+    "bytes": 25816
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/data/previsoes_validacao.json",
+    "bytes": 74860
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/explainability/gini_importancia.csv",
+    "bytes": 4695
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/explainability/gini_importancia.json",
+    "bytes": 9307
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/explainability/shap_atribuicoes_teste.csv",
+    "bytes": 244492
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/explainability/shap_atribuicoes_teste.json",
+    "bytes": 543117
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/explainability/shap_importancia.csv",
+    "bytes": 4826
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/explainability/shap_importancia.json",
+    "bytes": 10883
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/explainability/shap_por_variavel.csv",
+    "bytes": 385
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/explainability/shap_por_variavel.json",
+    "bytes": 855
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/explainability/shap_previsao.csv",
+    "bytes": 4012
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/explainability/shap_previsao.json",
+    "bytes": 9523
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/explicabilidade.json",
+    "bytes": 652185
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/figures/01_metricas.png",
+    "bytes": 187002
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/figures/01_metricas.svg",
+    "bytes": 103889
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/figures/02_treinamento.png",
+    "bytes": 182176
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/figures/02_treinamento.svg",
+    "bytes": 122530
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/figures/03_roc.png",
+    "bytes": 71607
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/figures/03_roc.svg",
+    "bytes": 42471
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/figures/04_confusao.png",
+    "bytes": 47209
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/figures/04_confusao.svg",
+    "bytes": 36330
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/figures/05_gini.png",
+    "bytes": 107170
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/figures/05_gini.svg",
+    "bytes": 71410
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/figures/06_shap.png",
+    "bytes": 103364
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/figures/06_shap.svg",
+    "bytes": 68530
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/metricas.json",
+    "bytes": 17781
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/metrics/curvas_roc.csv",
+    "bytes": 5769
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/metrics/curvas_roc.json",
+    "bytes": 14271
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/metrics/historico_treinamento.csv",
+    "bytes": 6192
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/metrics/historico_treinamento.json",
+    "bytes": 14557
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/metrics/matrizes_confusao.json",
+    "bytes": 600
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/metrics/metricas_ensemble.csv",
+    "bytes": 455
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/metrics/metricas_ensemble.json",
+    "bytes": 890
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/metrics/metricas_por_semente.csv",
+    "bytes": 2043
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/metrics/metricas_por_semente.json",
+    "bytes": 4753
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/metrics/selecao_por_semente.csv",
+    "bytes": 133
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/metrics/selecao_por_semente.json",
+    "bytes": 422
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/previsao.json",
+    "bytes": 2178
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/resultado_completo.json",
+    "bytes": 699324
+  },
+  {
+    "path": "horizontes/04_semanas/random_forest/retrospectiva.json",
+    "bytes": 58303
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/artifacts/seed_123.pt",
+    "bytes": 6305
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/artifacts/seed_2025.pt",
+    "bytes": 6317
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/artifacts/seed_42.pt",
+    "bytes": 6165
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/artifacts/seed_7.pt",
+    "bytes": 6153
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/artifacts/seed_99.pt",
+    "bytes": 6165
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/conclusao.json",
+    "bytes": 1117
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/conclusao.md",
+    "bytes": 621
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/configuracao.json",
+    "bytes": 3651
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/data/previsoes_teste.csv",
+    "bytes": 17588
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/data/previsoes_teste.json",
+    "bytes": 74744
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/data/previsoes_treino.csv",
+    "bytes": 51191
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/data/previsoes_treino.json",
+    "bytes": 219921
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/data/previsoes_validacao.csv",
+    "bytes": 18045
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/data/previsoes_validacao.json",
+    "bytes": 75128
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/explainability/convergencia_IG.csv",
+    "bytes": 3393
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/explainability/convergencia_IG.json",
+    "bytes": 12573
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/explainability/integrated_gradients_atribuicoes_teste.csv",
+    "bytes": 152630
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/explainability/integrated_gradients_atribuicoes_teste.json",
+    "bytes": 533954
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/explainability/integrated_gradients_importancia.csv",
+    "bytes": 3540
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/explainability/integrated_gradients_importancia.json",
+    "bytes": 10810
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/explainability/integrated_gradients_por_variavel.csv",
+    "bytes": 281
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/explainability/integrated_gradients_por_variavel.json",
+    "bytes": 850
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/explainability/integrated_gradients_previsao.csv",
+    "bytes": 3362
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/explainability/integrated_gradients_previsao.json",
+    "bytes": 9500
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/explainability/saliency_atribuicoes_teste.csv",
+    "bytes": 149423
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/explainability/saliency_atribuicoes_teste.json",
+    "bytes": 533231
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/explainability/saliency_importancia.csv",
+    "bytes": 3482
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/explainability/saliency_importancia.json",
+    "bytes": 10855
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/explainability/saliency_por_variavel.csv",
+    "bytes": 274
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/explainability/saliency_por_variavel.json",
+    "bytes": 851
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/explainability/saliency_previsao.csv",
+    "bytes": 3332
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/explainability/saliency_previsao.json",
+    "bytes": 9533
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/explicabilidade.json",
+    "bytes": 1259603
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/figures/01_metricas.png",
+    "bytes": 187760
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/figures/01_metricas.svg",
+    "bytes": 103328
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/figures/02_treinamento.png",
+    "bytes": 251192
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/figures/02_treinamento.svg",
+    "bytes": 125422
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/figures/03_roc.png",
+    "bytes": 72142
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/figures/03_roc.svg",
+    "bytes": 44855
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/figures/04_confusao.png",
+    "bytes": 44657
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/figures/04_confusao.svg",
+    "bytes": 34527
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/figures/06_integrated_gradients.png",
+    "bytes": 99946
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/figures/06_integrated_gradients.svg",
+    "bytes": 71074
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/figures/06_saliency.png",
+    "bytes": 99068
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/figures/06_saliency.svg",
+    "bytes": 68823
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/metricas.json",
+    "bytes": 38168
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/metrics/curvas_roc.csv",
+    "bytes": 13395
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/metrics/curvas_roc.json",
+    "bytes": 32709
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/metrics/historico_treinamento.csv",
+    "bytes": 67517
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/metrics/historico_treinamento.json",
+    "bytes": 159049
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/metrics/matrizes_confusao.json",
+    "bytes": 601
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/metrics/metricas_ensemble.csv",
+    "bytes": 470
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/metrics/metricas_ensemble.json",
+    "bytes": 907
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/metrics/metricas_por_semente.csv",
+    "bytes": 2085
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/metrics/metricas_por_semente.json",
+    "bytes": 4792
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/metrics/selecao_por_semente.csv",
+    "bytes": 303
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/metrics/selecao_por_semente.json",
+    "bytes": 775
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/previsao.json",
+    "bytes": 2160
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/resultado_completo.json",
+    "bytes": 1352263
+  },
+  {
+    "path": "horizontes/04_semanas/rnn/retrospectiva.json",
+    "bytes": 58295
+  },
+  {
+    "path": "horizontes/04_semanas/scaler.joblib",
+    "bytes": 727
+  },
+  {
+    "path": "horizontes/08_semanas/data/amostras_incluindo_fronteiras.csv",
+    "bytes": 36230
+  },
+  {
+    "path": "horizontes/08_semanas/data/amostras_incluindo_fronteiras.json",
+    "bytes": 167809
+  },
+  {
+    "path": "horizontes/08_semanas/data/particoes.csv",
+    "bytes": 35244
+  },
+  {
+    "path": "horizontes/08_semanas/data/particoes.json",
+    "bytes": 164055
+  },
+  {
+    "path": "horizontes/08_semanas/data/resumo_particoes.csv",
+    "bytes": 233
+  },
+  {
+    "path": "horizontes/08_semanas/data/resumo_particoes.json",
+    "bytes": 619
+  },
+  {
+    "path": "horizontes/08_semanas/data/teste_padronizado.csv",
+    "bytes": 119565
+  },
+  {
+    "path": "horizontes/08_semanas/data/teste_padronizado.json",
+    "bytes": 530570
+  },
+  {
+    "path": "horizontes/08_semanas/data/treino_padronizado.csv",
+    "bytes": 356414
+  },
+  {
+    "path": "horizontes/08_semanas/data/treino_padronizado.json",
+    "bytes": 1594115
+  },
+  {
+    "path": "horizontes/08_semanas/data/validacao_padronizado.csv",
+    "bytes": 120341
+  },
+  {
+    "path": "horizontes/08_semanas/data/validacao_padronizado.json",
+    "bytes": 531565
+  },
+  {
+    "path": "horizontes/08_semanas/eda/boxplots.csv",
+    "bytes": 1402
+  },
+  {
+    "path": "horizontes/08_semanas/eda/boxplots.json",
+    "bytes": 2541
+  },
+  {
+    "path": "horizontes/08_semanas/eda/classes_e_gini.csv",
+    "bytes": 357
+  },
+  {
+    "path": "horizontes/08_semanas/eda/classes_e_gini.json",
+    "bytes": 850
+  },
+  {
+    "path": "horizontes/08_semanas/eda/correlacoes.csv",
+    "bytes": 1598
+  },
+  {
+    "path": "horizontes/08_semanas/eda/correlacoes.json",
+    "bytes": 3967
+  },
+  {
+    "path": "horizontes/08_semanas/eda/estatisticas_treino.csv",
+    "bytes": 985
+  },
+  {
+    "path": "horizontes/08_semanas/eda/estatisticas_treino.json",
+    "bytes": 1641
+  },
+  {
+    "path": "horizontes/08_semanas/eda/figures/boxplots.png",
+    "bytes": 85436
+  },
+  {
+    "path": "horizontes/08_semanas/eda/figures/boxplots.svg",
+    "bytes": 75325
+  },
+  {
+    "path": "horizontes/08_semanas/eda/figures/correlacoes.png",
+    "bytes": 83524
+  },
+  {
+    "path": "horizontes/08_semanas/eda/figures/correlacoes.svg",
+    "bytes": 52297
+  },
+  {
+    "path": "horizontes/08_semanas/eda/figures/histogramas.png",
+    "bytes": 140625
+  },
+  {
+    "path": "horizontes/08_semanas/eda/figures/histogramas.svg",
+    "bytes": 122044
+  },
+  {
+    "path": "horizontes/08_semanas/eda/histogramas.csv",
+    "bytes": 8879
+  },
+  {
+    "path": "horizontes/08_semanas/eda/histogramas.json",
+    "bytes": 18310
+  },
+  {
+    "path": "horizontes/08_semanas/eda/outliers.csv",
+    "bytes": 4120
+  },
+  {
+    "path": "horizontes/08_semanas/eda/outliers.json",
+    "bytes": 10468
+  },
+  {
+    "path": "horizontes/08_semanas/eda/valores_ausentes_treino.csv",
+    "bytes": 113
+  },
+  {
+    "path": "horizontes/08_semanas/eda/valores_ausentes_treino.json",
+    "bytes": 382
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/artifacts/seed_123.pt",
+    "bytes": 15585
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/artifacts/seed_2025.pt",
+    "bytes": 15597
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/artifacts/seed_42.pt",
+    "bytes": 15317
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/artifacts/seed_7.pt",
+    "bytes": 15305
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/artifacts/seed_99.pt",
+    "bytes": 15317
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/conclusao.json",
+    "bytes": 1118
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/conclusao.md",
+    "bytes": 621
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/configuracao.json",
+    "bytes": 3652
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/data/previsoes_teste.csv",
+    "bytes": 17149
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/data/previsoes_teste.json",
+    "bytes": 72776
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/data/previsoes_treino.csv",
+    "bytes": 50663
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/data/previsoes_treino.json",
+    "bytes": 217969
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/data/previsoes_validacao.csv",
+    "bytes": 17515
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/data/previsoes_validacao.json",
+    "bytes": 73186
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/explainability/convergencia_IG.csv",
+    "bytes": 3405
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/explainability/convergencia_IG.json",
+    "bytes": 12370
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/explainability/integrated_gradients_atribuicoes_teste.csv",
+    "bytes": 144546
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/explainability/integrated_gradients_atribuicoes_teste.json",
+    "bytes": 527945
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/explainability/integrated_gradients_importancia.csv",
+    "bytes": 3526
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/explainability/integrated_gradients_importancia.json",
+    "bytes": 10824
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/explainability/integrated_gradients_por_variavel.csv",
+    "bytes": 282
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/explainability/integrated_gradients_por_variavel.json",
+    "bytes": 851
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/explainability/integrated_gradients_previsao.csv",
+    "bytes": 3353
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/explainability/integrated_gradients_previsao.json",
+    "bytes": 9498
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/explainability/saliency_atribuicoes_teste.csv",
+    "bytes": 146495
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/explainability/saliency_atribuicoes_teste.json",
+    "bytes": 527442
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/explainability/saliency_importancia.csv",
+    "bytes": 3544
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/explainability/saliency_importancia.json",
+    "bytes": 10864
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/explainability/saliency_por_variavel.csv",
+    "bytes": 273
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/explainability/saliency_por_variavel.json",
+    "bytes": 853
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/explainability/saliency_previsao.csv",
+    "bytes": 3415
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/explainability/saliency_previsao.json",
+    "bytes": 9520
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/explicabilidade.json",
+    "bytes": 1244216
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/figures/01_metricas.png",
+    "bytes": 187034
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/figures/01_metricas.svg",
+    "bytes": 104212
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/figures/02_treinamento.png",
+    "bytes": 239968
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/figures/02_treinamento.svg",
+    "bytes": 125459
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/figures/03_roc.png",
+    "bytes": 73694
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/figures/03_roc.svg",
+    "bytes": 46508
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/figures/04_confusao.png",
+    "bytes": 48309
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/figures/04_confusao.svg",
+    "bytes": 37148
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/figures/06_integrated_gradients.png",
+    "bytes": 95288
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/figures/06_integrated_gradients.svg",
+    "bytes": 69489
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/figures/06_saliency.png",
+    "bytes": 98689
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/figures/06_saliency.svg",
+    "bytes": 69452
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/metricas.json",
+    "bytes": 44535
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/metrics/curvas_roc.csv",
+    "bytes": 15731
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/metrics/curvas_roc.json",
+    "bytes": 38558
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/metrics/historico_treinamento.csv",
+    "bytes": 67098
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/metrics/historico_treinamento.json",
+    "bytes": 164238
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/metrics/matrizes_confusao.json",
+    "bytes": 600
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/metrics/metricas_ensemble.csv",
+    "bytes": 471
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/metrics/metricas_ensemble.json",
+    "bytes": 905
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/metrics/metricas_por_semente.csv",
+    "bytes": 2106
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/metrics/metricas_por_semente.json",
+    "bytes": 4824
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/metrics/selecao_por_semente.csv",
+    "bytes": 301
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/metrics/selecao_por_semente.json",
+    "bytes": 774
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/previsao.json",
+    "bytes": 2161
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/resultado_completo.json",
+    "bytes": 1342488
+  },
+  {
+    "path": "horizontes/08_semanas/lstm/retrospectiva.json",
+    "bytes": 56736
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/artifacts/seed_123.joblib",
+    "bytes": 209737
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/artifacts/seed_2025.joblib",
+    "bytes": 104457
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/artifacts/seed_42.joblib",
+    "bytes": 206537
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/artifacts/seed_7.joblib",
+    "bytes": 417737
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/artifacts/seed_99.joblib",
+    "bytes": 803977
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/conclusao.json",
+    "bytes": 1128
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/conclusao.md",
+    "bytes": 622
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/configuracao.json",
+    "bytes": 3661
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/data/previsoes_teste.csv",
+    "bytes": 24232
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/data/previsoes_teste.json",
+    "bytes": 71945
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/data/previsoes_treino.csv",
+    "bytes": 71691
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/data/previsoes_treino.json",
+    "bytes": 215577
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/data/previsoes_validacao.csv",
+    "bytes": 24573
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/data/previsoes_validacao.json",
+    "bytes": 72366
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/explainability/gini_importancia.csv",
+    "bytes": 4702
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/explainability/gini_importancia.json",
+    "bytes": 9310
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/explainability/shap_atribuicoes_teste.csv",
+    "bytes": 238735
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/explainability/shap_atribuicoes_teste.json",
+    "bytes": 528826
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/explainability/shap_importancia.csv",
+    "bytes": 4847
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/explainability/shap_importancia.json",
+    "bytes": 10870
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/explainability/shap_por_variavel.csv",
+    "bytes": 391
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/explainability/shap_por_variavel.json",
+    "bytes": 853
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/explainability/shap_previsao.csv",
+    "bytes": 4018
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/explainability/shap_previsao.json",
+    "bytes": 9510
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/explicabilidade.json",
+    "bytes": 636071
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/figures/01_metricas.png",
+    "bytes": 188163
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/figures/01_metricas.svg",
+    "bytes": 103893
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/figures/02_treinamento.png",
+    "bytes": 187445
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/figures/02_treinamento.svg",
+    "bytes": 122528
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/figures/03_roc.png",
+    "bytes": 72033
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/figures/03_roc.svg",
+    "bytes": 42819
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/figures/04_confusao.png",
+    "bytes": 46229
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/figures/04_confusao.svg",
+    "bytes": 36863
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/figures/05_gini.png",
+    "bytes": 105824
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/figures/05_gini.svg",
+    "bytes": 68961
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/figures/06_shap.png",
+    "bytes": 99343
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/figures/06_shap.svg",
+    "bytes": 66699
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/metricas.json",
+    "bytes": 20044
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/metrics/curvas_roc.csv",
+    "bytes": 6524
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/metrics/curvas_roc.json",
+    "bytes": 16301
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/metrics/historico_treinamento.csv",
+    "bytes": 6147
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/metrics/historico_treinamento.json",
+    "bytes": 14515
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/metrics/matrizes_confusao.json",
+    "bytes": 597
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/metrics/metricas_ensemble.csv",
+    "bytes": 444
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/metrics/metricas_ensemble.json",
+    "bytes": 875
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/metrics/metricas_por_semente.csv",
+    "bytes": 1999
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/metrics/metricas_por_semente.json",
+    "bytes": 4709
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/metrics/selecao_por_semente.csv",
+    "bytes": 133
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/metrics/selecao_por_semente.json",
+    "bytes": 422
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/previsao.json",
+    "bytes": 2184
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/resultado_completo.json",
+    "bytes": 685047
+  },
+  {
+    "path": "horizontes/08_semanas/random_forest/retrospectiva.json",
+    "bytes": 56704
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/artifacts/seed_123.pt",
+    "bytes": 6305
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/artifacts/seed_2025.pt",
+    "bytes": 6317
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/artifacts/seed_42.pt",
+    "bytes": 6165
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/artifacts/seed_7.pt",
+    "bytes": 6153
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/artifacts/seed_99.pt",
+    "bytes": 6165
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/conclusao.json",
+    "bytes": 1117
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/conclusao.md",
+    "bytes": 621
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/configuracao.json",
+    "bytes": 3651
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/data/previsoes_teste.csv",
+    "bytes": 17175
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/data/previsoes_teste.json",
+    "bytes": 72763
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/data/previsoes_treino.csv",
+    "bytes": 50703
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/data/previsoes_treino.json",
+    "bytes": 217975
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/data/previsoes_validacao.csv",
+    "bytes": 17543
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/data/previsoes_validacao.json",
+    "bytes": 73177
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/explainability/convergencia_IG.csv",
+    "bytes": 3387
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/explainability/convergencia_IG.json",
+    "bytes": 12361
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/explainability/integrated_gradients_atribuicoes_teste.csv",
+    "bytes": 145939
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/explainability/integrated_gradients_atribuicoes_teste.json",
+    "bytes": 526392
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/explainability/integrated_gradients_importancia.csv",
+    "bytes": 3534
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/explainability/integrated_gradients_importancia.json",
+    "bytes": 10829
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/explainability/integrated_gradients_por_variavel.csv",
+    "bytes": 279
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/explainability/integrated_gradients_por_variavel.json",
+    "bytes": 849
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/explainability/integrated_gradients_previsao.csv",
+    "bytes": 3350
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/explainability/integrated_gradients_previsao.json",
+    "bytes": 9495
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/explainability/saliency_atribuicoes_teste.csv",
+    "bytes": 146091
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/explainability/saliency_atribuicoes_teste.json",
+    "bytes": 522903
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/explainability/saliency_importancia.csv",
+    "bytes": 3489
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/explainability/saliency_importancia.json",
+    "bytes": 10852
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/explainability/saliency_por_variavel.csv",
+    "bytes": 274
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/explainability/saliency_por_variavel.json",
+    "bytes": 853
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/explainability/saliency_previsao.csv",
+    "bytes": 3354
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/explainability/saliency_previsao.json",
+    "bytes": 9520
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/explicabilidade.json",
+    "bytes": 1238110
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/figures/01_metricas.png",
+    "bytes": 191480
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/figures/01_metricas.svg",
+    "bytes": 103332
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/figures/02_treinamento.png",
+    "bytes": 257361
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/figures/02_treinamento.svg",
+    "bytes": 132216
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/figures/03_roc.png",
+    "bytes": 73046
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/figures/03_roc.svg",
+    "bytes": 44698
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/figures/04_confusao.png",
+    "bytes": 49174
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/figures/04_confusao.svg",
+    "bytes": 37799
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/figures/06_integrated_gradients.png",
+    "bytes": 100595
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/figures/06_integrated_gradients.svg",
+    "bytes": 70751
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/figures/06_saliency.png",
+    "bytes": 105289
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/figures/06_saliency.svg",
+    "bytes": 72332
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/metricas.json",
+    "bytes": 38257
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/metrics/curvas_roc.csv",
+    "bytes": 13364
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/metrics/curvas_roc.json",
+    "bytes": 32820
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/metrics/historico_treinamento.csv",
+    "bytes": 75164
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/metrics/historico_treinamento.json",
+    "bytes": 177161
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/metrics/matrizes_confusao.json",
+    "bytes": 598
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/metrics/metricas_ensemble.csv",
+    "bytes": 485
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/metrics/metricas_ensemble.json",
+    "bytes": 921
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/metrics/metricas_por_semente.csv",
+    "bytes": 2094
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/metrics/metricas_por_semente.json",
+    "bytes": 4805
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/metrics/selecao_por_semente.csv",
+    "bytes": 301
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/metrics/selecao_por_semente.json",
+    "bytes": 775
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/previsao.json",
+    "bytes": 2174
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/resultado_completo.json",
+    "bytes": 1329685
+  },
+  {
+    "path": "horizontes/08_semanas/rnn/retrospectiva.json",
+    "bytes": 56774
+  },
+  {
+    "path": "horizontes/08_semanas/scaler.joblib",
+    "bytes": 727
+  },
+  {
+    "path": "horizontes/12_semanas/data/amostras_incluindo_fronteiras.csv",
+    "bytes": 36144
+  },
+  {
+    "path": "horizontes/12_semanas/data/amostras_incluindo_fronteiras.json",
+    "bytes": 167031
+  },
+  {
+    "path": "horizontes/12_semanas/data/particoes.csv",
+    "bytes": 34664
+  },
+  {
+    "path": "horizontes/12_semanas/data/particoes.json",
+    "bytes": 161399
+  },
+  {
+    "path": "horizontes/12_semanas/data/resumo_particoes.csv",
+    "bytes": 234
+  },
+  {
+    "path": "horizontes/12_semanas/data/resumo_particoes.json",
+    "bytes": 621
+  },
+  {
+    "path": "horizontes/12_semanas/data/teste_padronizado.csv",
+    "bytes": 115818
+  },
+  {
+    "path": "horizontes/12_semanas/data/teste_padronizado.json",
+    "bytes": 516060
+  },
+  {
+    "path": "horizontes/12_semanas/data/treino_padronizado.csv",
+    "bytes": 352305
+  },
+  {
+    "path": "horizontes/12_semanas/data/treino_padronizado.json",
+    "bytes": 1578367
+  },
+  {
+    "path": "horizontes/12_semanas/data/validacao_padronizado.csv",
+    "bytes": 116300
+  },
+  {
+    "path": "horizontes/12_semanas/data/validacao_padronizado.json",
+    "bytes": 516696
+  },
+  {
+    "path": "horizontes/12_semanas/eda/boxplots.csv",
+    "bytes": 1400
+  },
+  {
+    "path": "horizontes/12_semanas/eda/boxplots.json",
+    "bytes": 2541
+  },
+  {
+    "path": "horizontes/12_semanas/eda/classes_e_gini.csv",
+    "bytes": 352
+  },
+  {
+    "path": "horizontes/12_semanas/eda/classes_e_gini.json",
+    "bytes": 854
+  },
+  {
+    "path": "horizontes/12_semanas/eda/correlacoes.csv",
+    "bytes": 1602
+  },
+  {
+    "path": "horizontes/12_semanas/eda/correlacoes.json",
+    "bytes": 3963
+  },
+  {
+    "path": "horizontes/12_semanas/eda/estatisticas_treino.csv",
+    "bytes": 983
+  },
+  {
+    "path": "horizontes/12_semanas/eda/estatisticas_treino.json",
+    "bytes": 1641
+  },
+  {
+    "path": "horizontes/12_semanas/eda/figures/boxplots.png",
+    "bytes": 82790
+  },
+  {
+    "path": "horizontes/12_semanas/eda/figures/boxplots.svg",
+    "bytes": 73514
+  },
+  {
+    "path": "horizontes/12_semanas/eda/figures/correlacoes.png",
+    "bytes": 83287
+  },
+  {
+    "path": "horizontes/12_semanas/eda/figures/correlacoes.svg",
+    "bytes": 51518
+  },
+  {
+    "path": "horizontes/12_semanas/eda/figures/histogramas.png",
+    "bytes": 140556
+  },
+  {
+    "path": "horizontes/12_semanas/eda/figures/histogramas.svg",
+    "bytes": 121290
+  },
+  {
+    "path": "horizontes/12_semanas/eda/histogramas.csv",
+    "bytes": 8899
+  },
+  {
+    "path": "horizontes/12_semanas/eda/histogramas.json",
+    "bytes": 18320
+  },
+  {
+    "path": "horizontes/12_semanas/eda/outliers.csv",
+    "bytes": 3572
+  },
+  {
+    "path": "horizontes/12_semanas/eda/outliers.json",
+    "bytes": 9075
+  },
+  {
+    "path": "horizontes/12_semanas/eda/valores_ausentes_treino.csv",
+    "bytes": 113
+  },
+  {
+    "path": "horizontes/12_semanas/eda/valores_ausentes_treino.json",
+    "bytes": 382
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/artifacts/seed_123.pt",
+    "bytes": 15585
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/artifacts/seed_2025.pt",
+    "bytes": 15597
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/artifacts/seed_42.pt",
+    "bytes": 15317
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/artifacts/seed_7.pt",
+    "bytes": 15305
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/artifacts/seed_99.pt",
+    "bytes": 15317
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/conclusao.json",
+    "bytes": 1119
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/conclusao.md",
+    "bytes": 621
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/configuracao.json",
+    "bytes": 3653
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/data/previsoes_teste.csv",
+    "bytes": 16769
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/data/previsoes_teste.json",
+    "bytes": 70809
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/data/previsoes_treino.csv",
+    "bytes": 50170
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/data/previsoes_treino.json",
+    "bytes": 216002
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/data/previsoes_validacao.csv",
+    "bytes": 17043
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/data/previsoes_validacao.json",
+    "bytes": 71221
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/explainability/convergencia_IG.csv",
+    "bytes": 3342
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/explainability/convergencia_IG.json",
+    "bytes": 12074
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/explainability/integrated_gradients_atribuicoes_teste.csv",
+    "bytes": 140836
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/explainability/integrated_gradients_atribuicoes_teste.json",
+    "bytes": 512870
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/explainability/integrated_gradients_importancia.csv",
+    "bytes": 3514
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/explainability/integrated_gradients_importancia.json",
+    "bytes": 10831
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/explainability/integrated_gradients_por_variavel.csv",
+    "bytes": 277
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/explainability/integrated_gradients_por_variavel.json",
+    "bytes": 851
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/explainability/integrated_gradients_previsao.csv",
+    "bytes": 3353
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/explainability/integrated_gradients_previsao.json",
+    "bytes": 9504
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/explainability/saliency_atribuicoes_teste.csv",
+    "bytes": 143750
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/explainability/saliency_atribuicoes_teste.json",
+    "bytes": 513767
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/explainability/saliency_importancia.csv",
+    "bytes": 3547
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/explainability/saliency_importancia.json",
+    "bytes": 10848
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/explainability/saliency_por_variavel.csv",
+    "bytes": 282
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/explainability/saliency_por_variavel.json",
+    "bytes": 853
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/explainability/saliency_previsao.csv",
+    "bytes": 3410
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/explainability/saliency_previsao.json",
+    "bytes": 9527
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/explicabilidade.json",
+    "bytes": 1211869
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/figures/01_metricas.png",
+    "bytes": 188502
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/figures/01_metricas.svg",
+    "bytes": 104285
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/figures/02_treinamento.png",
+    "bytes": 242671
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/figures/02_treinamento.svg",
+    "bytes": 127766
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/figures/03_roc.png",
+    "bytes": 72891
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/figures/03_roc.svg",
+    "bytes": 45448
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/figures/04_confusao.png",
+    "bytes": 48427
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/figures/04_confusao.svg",
+    "bytes": 37217
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/figures/06_integrated_gradients.png",
+    "bytes": 94030
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/figures/06_integrated_gradients.svg",
+    "bytes": 68252
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/figures/06_saliency.png",
+    "bytes": 97301
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/figures/06_saliency.svg",
+    "bytes": 68753
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/metricas.json",
+    "bytes": 36596
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/metrics/curvas_roc.csv",
+    "bytes": 12692
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/metrics/curvas_roc.json",
+    "bytes": 31313
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/metrics/historico_treinamento.csv",
+    "bytes": 71664
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/metrics/historico_treinamento.json",
+    "bytes": 173403
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/metrics/matrizes_confusao.json",
+    "bytes": 599
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/metrics/metricas_ensemble.csv",
+    "bytes": 476
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/metrics/metricas_ensemble.json",
+    "bytes": 910
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/metrics/metricas_por_semente.csv",
+    "bytes": 2026
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/metrics/metricas_por_semente.json",
+    "bytes": 4752
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/metrics/selecao_por_semente.csv",
+    "bytes": 301
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/metrics/selecao_por_semente.json",
+    "bytes": 775
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/previsao.json",
+    "bytes": 2177
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/resultado_completo.json",
+    "bytes": 1300478
+  },
+  {
+    "path": "horizontes/12_semanas/lstm/retrospectiva.json",
+    "bytes": 55310
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/artifacts/seed_123.joblib",
+    "bytes": 109705
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/artifacts/seed_2025.joblib",
+    "bytes": 825225
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/artifacts/seed_42.joblib",
+    "bytes": 417065
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/artifacts/seed_7.joblib",
+    "bytes": 103465
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/artifacts/seed_99.joblib",
+    "bytes": 109385
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/conclusao.json",
+    "bytes": 1129
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/conclusao.md",
+    "bytes": 622
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/configuracao.json",
+    "bytes": 3662
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/data/previsoes_teste.csv",
+    "bytes": 24710
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/data/previsoes_teste.json",
+    "bytes": 70732
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/data/previsoes_treino.csv",
+    "bytes": 73942
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/data/previsoes_treino.json",
+    "bytes": 215582
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/data/previsoes_validacao.csv",
+    "bytes": 24980
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/data/previsoes_validacao.json",
+    "bytes": 71134
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/explainability/gini_importancia.csv",
+    "bytes": 4706
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/explainability/gini_importancia.json",
+    "bytes": 9301
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/explainability/shap_atribuicoes_teste.csv",
+    "bytes": 232671
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/explainability/shap_atribuicoes_teste.json",
+    "bytes": 514954
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/explainability/shap_importancia.csv",
+    "bytes": 4833
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/explainability/shap_importancia.json",
+    "bytes": 10867
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/explainability/shap_por_variavel.csv",
+    "bytes": 385
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/explainability/shap_por_variavel.json",
+    "bytes": 852
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/explainability/shap_previsao.csv",
+    "bytes": 4009
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/explainability/shap_previsao.json",
+    "bytes": 9525
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/explicabilidade.json",
+    "bytes": 620400
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/figures/01_metricas.png",
+    "bytes": 191062
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/figures/01_metricas.svg",
+    "bytes": 103937
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/figures/02_treinamento.png",
+    "bytes": 182420
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/figures/02_treinamento.svg",
+    "bytes": 122614
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/figures/03_roc.png",
+    "bytes": 71620
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/figures/03_roc.svg",
+    "bytes": 42631
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/figures/04_confusao.png",
+    "bytes": 48455
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/figures/04_confusao.svg",
+    "bytes": 38032
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/figures/05_gini.png",
+    "bytes": 107789
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/figures/05_gini.svg",
+    "bytes": 72063
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/figures/06_shap.png",
+    "bytes": 105484
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/figures/06_shap.svg",
+    "bytes": 70954
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/metricas.json",
+    "bytes": 16854
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/metrics/curvas_roc.csv",
+    "bytes": 5261
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/metrics/curvas_roc.json",
+    "bytes": 13379
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/metrics/historico_treinamento.csv",
+    "bytes": 6171
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/metrics/historico_treinamento.json",
+    "bytes": 14542
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/metrics/matrizes_confusao.json",
+    "bytes": 598
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/metrics/metricas_ensemble.csv",
+    "bytes": 474
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/metrics/metricas_ensemble.json",
+    "bytes": 908
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/metrics/metricas_por_semente.csv",
+    "bytes": 2044
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/metrics/metricas_por_semente.json",
+    "bytes": 4756
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/metrics/selecao_por_semente.csv",
+    "bytes": 133
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/metrics/selecao_por_semente.json",
+    "bytes": 422
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/previsao.json",
+    "bytes": 2200
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/resultado_completo.json",
+    "bytes": 665386
+  },
+  {
+    "path": "horizontes/12_semanas/random_forest/retrospectiva.json",
+    "bytes": 55263
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/artifacts/seed_123.pt",
+    "bytes": 6305
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/artifacts/seed_2025.pt",
+    "bytes": 6317
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/artifacts/seed_42.pt",
+    "bytes": 6165
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/artifacts/seed_7.pt",
+    "bytes": 6153
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/artifacts/seed_99.pt",
+    "bytes": 6165
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/conclusao.json",
+    "bytes": 1118
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/conclusao.md",
+    "bytes": 621
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/configuracao.json",
+    "bytes": 3652
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/data/previsoes_teste.csv",
+    "bytes": 16588
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/data/previsoes_teste.json",
+    "bytes": 70840
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/data/previsoes_treino.csv",
+    "bytes": 49943
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/data/previsoes_treino.json",
+    "bytes": 216051
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/data/previsoes_validacao.csv",
+    "bytes": 16930
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/data/previsoes_validacao.json",
+    "bytes": 71202
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/explainability/convergencia_IG.csv",
+    "bytes": 3358
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/explainability/convergencia_IG.json",
+    "bytes": 12091
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/explainability/integrated_gradients_atribuicoes_teste.csv",
+    "bytes": 142488
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/explainability/integrated_gradients_atribuicoes_teste.json",
+    "bytes": 511107
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/explainability/integrated_gradients_importancia.csv",
+    "bytes": 3526
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/explainability/integrated_gradients_importancia.json",
+    "bytes": 10820
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/explainability/integrated_gradients_por_variavel.csv",
+    "bytes": 281
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/explainability/integrated_gradients_por_variavel.json",
+    "bytes": 847
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/explainability/integrated_gradients_previsao.csv",
+    "bytes": 3351
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/explainability/integrated_gradients_previsao.json",
+    "bytes": 9504
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/explainability/saliency_atribuicoes_teste.csv",
+    "bytes": 144388
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/explainability/saliency_atribuicoes_teste.json",
+    "bytes": 509259
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/explainability/saliency_importancia.csv",
+    "bytes": 3553
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/explainability/saliency_importancia.json",
+    "bytes": 10857
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/explainability/saliency_por_variavel.csv",
+    "bytes": 278
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/explainability/saliency_por_variavel.json",
+    "bytes": 850
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/explainability/saliency_previsao.csv",
+    "bytes": 3429
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/explainability/saliency_previsao.json",
+    "bytes": 9521
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/explicabilidade.json",
+    "bytes": 1205584
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/figures/01_metricas.png",
+    "bytes": 188990
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/figures/01_metricas.svg",
+    "bytes": 103414
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/figures/02_treinamento.png",
+    "bytes": 209980
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/figures/02_treinamento.svg",
+    "bytes": 117794
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/figures/03_roc.png",
+    "bytes": 72872
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/figures/03_roc.svg",
+    "bytes": 44793
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/figures/04_confusao.png",
+    "bytes": 47261
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/figures/04_confusao.svg",
+    "bytes": 36798
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/figures/06_integrated_gradients.png",
+    "bytes": 94807
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/figures/06_integrated_gradients.svg",
+    "bytes": 67321
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/figures/06_saliency.png",
+    "bytes": 96948
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/figures/06_saliency.svg",
+    "bytes": 67251
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/metricas.json",
+    "bytes": 38227
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/metrics/curvas_roc.csv",
+    "bytes": 13344
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/metrics/curvas_roc.json",
+    "bytes": 32795
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/metrics/historico_treinamento.csv",
+    "bytes": 60353
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/metrics/historico_treinamento.json",
+    "bytes": 142415
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/metrics/matrizes_confusao.json",
+    "bytes": 599
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/metrics/metricas_ensemble.csv",
+    "bytes": 471
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/metrics/metricas_ensemble.json",
+    "bytes": 909
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/metrics/metricas_por_semente.csv",
+    "bytes": 2054
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/metrics/metricas_por_semente.json",
+    "bytes": 4777
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/metrics/selecao_por_semente.csv",
+    "bytes": 301
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/metrics/selecao_por_semente.json",
+    "bytes": 774
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/previsao.json",
+    "bytes": 2174
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/resultado_completo.json",
+    "bytes": 1295929
+  },
+  {
+    "path": "horizontes/12_semanas/rnn/retrospectiva.json",
+    "bytes": 55302
+  },
+  {
+    "path": "horizontes/12_semanas/scaler.joblib",
+    "bytes": 727
+  },
+  {
+    "path": "horizontes/16_semanas/data/amostras_incluindo_fronteiras.csv",
+    "bytes": 36058
+  },
+  {
+    "path": "horizontes/16_semanas/data/amostras_incluindo_fronteiras.json",
+    "bytes": 166253
+  },
+  {
+    "path": "horizontes/16_semanas/data/particoes.csv",
+    "bytes": 34084
+  },
+  {
+    "path": "horizontes/16_semanas/data/particoes.json",
+    "bytes": 158743
+  },
+  {
+    "path": "horizontes/16_semanas/data/resumo_particoes.csv",
+    "bytes": 231
+  },
+  {
+    "path": "horizontes/16_semanas/data/resumo_particoes.json",
+    "bytes": 621
+  },
+  {
+    "path": "horizontes/16_semanas/data/teste_padronizado.csv",
+    "bytes": 112845
+  },
+  {
+    "path": "horizontes/16_semanas/data/teste_padronizado.json",
+    "bytes": 501847
+  },
+  {
+    "path": "horizontes/16_semanas/data/treino_padronizado.csv",
+    "bytes": 349598
+  },
+  {
+    "path": "horizontes/16_semanas/data/treino_padronizado.json",
+    "bytes": 1564781
+  },
+  {
+    "path": "horizontes/16_semanas/data/validacao_padronizado.csv",
+    "bytes": 113633
+  },
+  {
+    "path": "horizontes/16_semanas/data/validacao_padronizado.json",
+    "bytes": 502783
+  },
+  {
+    "path": "horizontes/16_semanas/eda/boxplots.csv",
+    "bytes": 1393
+  },
+  {
+    "path": "horizontes/16_semanas/eda/boxplots.json",
+    "bytes": 2544
+  },
+  {
+    "path": "horizontes/16_semanas/eda/classes_e_gini.csv",
+    "bytes": 355
+  },
+  {
+    "path": "horizontes/16_semanas/eda/classes_e_gini.json",
+    "bytes": 855
+  },
+  {
+    "path": "horizontes/16_semanas/eda/correlacoes.csv",
+    "bytes": 1602
+  },
+  {
+    "path": "horizontes/16_semanas/eda/correlacoes.json",
+    "bytes": 3957
+  },
+  {
+    "path": "horizontes/16_semanas/eda/estatisticas_treino.csv",
+    "bytes": 985
+  },
+  {
+    "path": "horizontes/16_semanas/eda/estatisticas_treino.json",
+    "bytes": 1641
+  },
+  {
+    "path": "horizontes/16_semanas/eda/figures/boxplots.png",
+    "bytes": 82604
+  },
+  {
+    "path": "horizontes/16_semanas/eda/figures/boxplots.svg",
+    "bytes": 70863
+  },
+  {
+    "path": "horizontes/16_semanas/eda/figures/correlacoes.png",
+    "bytes": 83451
+  },
+  {
+    "path": "horizontes/16_semanas/eda/figures/correlacoes.svg",
+    "bytes": 52188
+  },
+  {
+    "path": "horizontes/16_semanas/eda/figures/histogramas.png",
+    "bytes": 140631
+  },
+  {
+    "path": "horizontes/16_semanas/eda/figures/histogramas.svg",
+    "bytes": 121286
+  },
+  {
+    "path": "horizontes/16_semanas/eda/histogramas.csv",
+    "bytes": 8869
+  },
+  {
+    "path": "horizontes/16_semanas/eda/histogramas.json",
+    "bytes": 18326
+  },
+  {
+    "path": "horizontes/16_semanas/eda/outliers.csv",
+    "bytes": 2729
+  },
+  {
+    "path": "horizontes/16_semanas/eda/outliers.json",
+    "bytes": 6969
+  },
+  {
+    "path": "horizontes/16_semanas/eda/valores_ausentes_treino.csv",
+    "bytes": 113
+  },
+  {
+    "path": "horizontes/16_semanas/eda/valores_ausentes_treino.json",
+    "bytes": 382
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/artifacts/seed_123.pt",
+    "bytes": 15585
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/artifacts/seed_2025.pt",
+    "bytes": 15597
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/artifacts/seed_42.pt",
+    "bytes": 15317
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/artifacts/seed_7.pt",
+    "bytes": 15305
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/artifacts/seed_99.pt",
+    "bytes": 15317
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/conclusao.json",
+    "bytes": 1119
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/conclusao.md",
+    "bytes": 621
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/configuracao.json",
+    "bytes": 3653
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/data/previsoes_teste.csv",
+    "bytes": 16268
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/data/previsoes_teste.json",
+    "bytes": 68889
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/data/previsoes_treino.csv",
+    "bytes": 49692
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/data/previsoes_treino.json",
+    "bytes": 214074
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/data/previsoes_validacao.csv",
+    "bytes": 16571
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/data/previsoes_validacao.json",
+    "bytes": 69239
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/explainability/convergencia_IG.csv",
+    "bytes": 3075
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/explainability/convergencia_IG.json",
+    "bytes": 11573
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/explainability/integrated_gradients_atribuicoes_teste.csv",
+    "bytes": 137360
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/explainability/integrated_gradients_atribuicoes_teste.json",
+    "bytes": 499292
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/explainability/integrated_gradients_importancia.csv",
+    "bytes": 3526
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/explainability/integrated_gradients_importancia.json",
+    "bytes": 10829
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/explainability/integrated_gradients_por_variavel.csv",
+    "bytes": 279
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/explainability/integrated_gradients_por_variavel.json",
+    "bytes": 851
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/explainability/integrated_gradients_previsao.csv",
+    "bytes": 3375
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/explainability/integrated_gradients_previsao.json",
+    "bytes": 9515
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/explainability/saliency_atribuicoes_teste.csv",
+    "bytes": 141608
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/explainability/saliency_atribuicoes_teste.json",
+    "bytes": 500355
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/explainability/saliency_importancia.csv",
+    "bytes": 3565
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/explainability/saliency_importancia.json",
+    "bytes": 10865
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/explainability/saliency_por_variavel.csv",
+    "bytes": 281
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/explainability/saliency_por_variavel.json",
+    "bytes": 853
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/explainability/saliency_previsao.csv",
+    "bytes": 3407
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/explainability/saliency_previsao.json",
+    "bytes": 9522
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/explicabilidade.json",
+    "bytes": 1181300
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/figures/01_metricas.png",
+    "bytes": 188216
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/figures/01_metricas.svg",
+    "bytes": 104305
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/figures/02_treinamento.png",
+    "bytes": 243677
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/figures/02_treinamento.svg",
+    "bytes": 126950
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/figures/03_roc.png",
+    "bytes": 72982
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/figures/03_roc.svg",
+    "bytes": 45536
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/figures/04_confusao.png",
+    "bytes": 47759
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/figures/04_confusao.svg",
+    "bytes": 36591
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/figures/06_integrated_gradients.png",
+    "bytes": 94123
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/figures/06_integrated_gradients.svg",
+    "bytes": 68994
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/figures/06_saliency.png",
+    "bytes": 98518
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/figures/06_saliency.svg",
+    "bytes": 68945
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/metricas.json",
+    "bytes": 35853
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/metrics/curvas_roc.csv",
+    "bytes": 12294
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/metrics/curvas_roc.json",
+    "bytes": 30670
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/metrics/historico_treinamento.csv",
+    "bytes": 71122
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/metrics/historico_treinamento.json",
+    "bytes": 171975
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/metrics/matrizes_confusao.json",
+    "bytes": 600
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/metrics/metricas_ensemble.csv",
+    "bytes": 455
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/metrics/metricas_ensemble.json",
+    "bytes": 891
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/metrics/metricas_por_semente.csv",
+    "bytes": 2036
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/metrics/metricas_por_semente.json",
+    "bytes": 4755
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/metrics/selecao_por_semente.csv",
+    "bytes": 300
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/metrics/selecao_por_semente.json",
+    "bytes": 775
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/previsao.json",
+    "bytes": 2161
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/resultado_completo.json",
+    "bytes": 1267914
+  },
+  {
+    "path": "horizontes/16_semanas/lstm/retrospectiva.json",
+    "bytes": 53842
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/artifacts/seed_123.joblib",
+    "bytes": 114313
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/artifacts/seed_2025.joblib",
+    "bytes": 875753
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/artifacts/seed_42.joblib",
+    "bytes": 433993
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/artifacts/seed_7.joblib",
+    "bytes": 878473
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/artifacts/seed_99.joblib",
+    "bytes": 115593
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/conclusao.json",
+    "bytes": 1129
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/conclusao.md",
+    "bytes": 622
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/configuracao.json",
+    "bytes": 3662
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/data/previsoes_teste.csv",
+    "bytes": 23540
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/data/previsoes_teste.json",
+    "bytes": 68426
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/data/previsoes_treino.csv",
+    "bytes": 72396
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/data/previsoes_treino.json",
+    "bytes": 213035
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/data/previsoes_validacao.csv",
+    "bytes": 23883
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/data/previsoes_validacao.json",
+    "bytes": 68849
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/explainability/gini_importancia.csv",
+    "bytes": 4709
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/explainability/gini_importancia.json",
+    "bytes": 9303
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/explainability/shap_atribuicoes_teste.csv",
+    "bytes": 226637
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/explainability/shap_atribuicoes_teste.json",
+    "bytes": 500943
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/explainability/shap_importancia.csv",
+    "bytes": 4848
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/explainability/shap_importancia.json",
+    "bytes": 10867
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/explainability/shap_por_variavel.csv",
+    "bytes": 388
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/explainability/shap_por_variavel.json",
+    "bytes": 854
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/explainability/shap_previsao.csv",
+    "bytes": 4012
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/explainability/shap_previsao.json",
+    "bytes": 9528
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/explicabilidade.json",
+    "bytes": 604596
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/figures/01_metricas.png",
+    "bytes": 188743
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/figures/01_metricas.svg",
+    "bytes": 103992
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/figures/02_treinamento.png",
+    "bytes": 185094
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/figures/02_treinamento.svg",
+    "bytes": 122615
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/figures/03_roc.png",
+    "bytes": 71360
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/figures/03_roc.svg",
+    "bytes": 41711
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/figures/04_confusao.png",
+    "bytes": 49798
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/figures/04_confusao.svg",
+    "bytes": 38518
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/figures/05_gini.png",
+    "bytes": 108149
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/figures/05_gini.svg",
+    "bytes": 71399
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/figures/06_shap.png",
+    "bytes": 105422
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/figures/06_shap.svg",
+    "bytes": 69982
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/metricas.json",
+    "bytes": 15276
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/metrics/curvas_roc.csv",
+    "bytes": 4785
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/metrics/curvas_roc.json",
+    "bytes": 11964
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/metrics/historico_treinamento.csv",
+    "bytes": 6172
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/metrics/historico_treinamento.json",
+    "bytes": 14541
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/metrics/matrizes_confusao.json",
+    "bytes": 598
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/metrics/metricas_ensemble.csv",
+    "bytes": 459
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/metrics/metricas_ensemble.json",
+    "bytes": 896
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/metrics/metricas_por_semente.csv",
+    "bytes": 2019
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/metrics/metricas_por_semente.json",
+    "bytes": 4728
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/metrics/selecao_por_semente.csv",
+    "bytes": 134
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/metrics/selecao_por_semente.json",
+    "bytes": 423
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/previsao.json",
+    "bytes": 2185
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/resultado_completo.json",
+    "bytes": 647269
+  },
+  {
+    "path": "horizontes/16_semanas/random_forest/retrospectiva.json",
+    "bytes": 53763
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/artifacts/seed_123.pt",
+    "bytes": 6305
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/artifacts/seed_2025.pt",
+    "bytes": 6317
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/artifacts/seed_42.pt",
+    "bytes": 6165
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/artifacts/seed_7.pt",
+    "bytes": 6153
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/artifacts/seed_99.pt",
+    "bytes": 6165
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/conclusao.json",
+    "bytes": 1118
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/conclusao.md",
+    "bytes": 621
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/configuracao.json",
+    "bytes": 3652
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/data/previsoes_teste.csv",
+    "bytes": 16122
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/data/previsoes_teste.json",
+    "bytes": 68883
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/data/previsoes_treino.csv",
+    "bytes": 49365
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/data/previsoes_treino.json",
+    "bytes": 214069
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/data/previsoes_validacao.csv",
+    "bytes": 16475
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/data/previsoes_validacao.json",
+    "bytes": 69244
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/explainability/convergencia_IG.csv",
+    "bytes": 3130
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/explainability/convergencia_IG.json",
+    "bytes": 11617
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/explainability/integrated_gradients_atribuicoes_teste.csv",
+    "bytes": 139487
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/explainability/integrated_gradients_atribuicoes_teste.json",
+    "bytes": 497622
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/explainability/integrated_gradients_importancia.csv",
+    "bytes": 3545
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/explainability/integrated_gradients_importancia.json",
+    "bytes": 10821
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/explainability/integrated_gradients_por_variavel.csv",
+    "bytes": 284
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/explainability/integrated_gradients_por_variavel.json",
+    "bytes": 852
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/explainability/integrated_gradients_previsao.csv",
+    "bytes": 3356
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/explainability/integrated_gradients_previsao.json",
+    "bytes": 9513
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/explainability/saliency_atribuicoes_teste.csv",
+    "bytes": 141594
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/explainability/saliency_atribuicoes_teste.json",
+    "bytes": 495797
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/explainability/saliency_importancia.csv",
+    "bytes": 3561
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/explainability/saliency_importancia.json",
+    "bytes": 10854
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/explainability/saliency_por_variavel.csv",
+    "bytes": 281
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/explainability/saliency_por_variavel.json",
+    "bytes": 851
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/explainability/saliency_previsao.csv",
+    "bytes": 3421
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/explainability/saliency_previsao.json",
+    "bytes": 9541
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/explicabilidade.json",
+    "bytes": 1175069
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/figures/01_metricas.png",
+    "bytes": 188264
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/figures/01_metricas.svg",
+    "bytes": 103407
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/figures/02_treinamento.png",
+    "bytes": 216582
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/figures/02_treinamento.svg",
+    "bytes": 117838
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/figures/03_roc.png",
+    "bytes": 71274
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/figures/03_roc.svg",
+    "bytes": 44502
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/figures/04_confusao.png",
+    "bytes": 46897
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/figures/04_confusao.svg",
+    "bytes": 36705
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/figures/06_integrated_gradients.png",
+    "bytes": 94050
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/figures/06_integrated_gradients.svg",
+    "bytes": 66909
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/figures/06_saliency.png",
+    "bytes": 99048
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/figures/06_saliency.svg",
+    "bytes": 68309
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/metricas.json",
+    "bytes": 35795
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/metrics/curvas_roc.csv",
+    "bytes": 12235
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/metrics/curvas_roc.json",
+    "bytes": 30595
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/metrics/historico_treinamento.csv",
+    "bytes": 61068
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/metrics/historico_treinamento.json",
+    "bytes": 143558
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/metrics/matrizes_confusao.json",
+    "bytes": 600
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/metrics/metricas_ensemble.csv",
+    "bytes": 456
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/metrics/metricas_ensemble.json",
+    "bytes": 893
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/metrics/metricas_por_semente.csv",
+    "bytes": 2111
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/metrics/metricas_por_semente.json",
+    "bytes": 4828
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/metrics/selecao_por_semente.csv",
+    "bytes": 300
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/metrics/selecao_por_semente.json",
+    "bytes": 774
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/previsao.json",
+    "bytes": 2160
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/resultado_completo.json",
+    "bytes": 1261624
+  },
+  {
+    "path": "horizontes/16_semanas/rnn/retrospectiva.json",
+    "bytes": 53846
+  },
+  {
+    "path": "horizontes/16_semanas/scaler.joblib",
+    "bytes": 727
+  },
+  {
+    "path": "relatorio_tecnico.md",
+    "bytes": 3451
+  },
+  {
+    "path": "retrospectiva/resumo.json",
+    "bytes": 2969
+  }
+]

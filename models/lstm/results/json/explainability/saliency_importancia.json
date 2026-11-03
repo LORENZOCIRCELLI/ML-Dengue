@@ -1,0 +1,152 @@
+[
+  {
+    "feature": "mean perimeter",
+    "mean_absolute_attribution": 0.052308768,
+    "mean_signed_attribution": 0.052122932
+  },
+  {
+    "feature": "mean texture",
+    "mean_absolute_attribution": 0.050749537,
+    "mean_signed_attribution": 0.05030582
+  },
+  {
+    "feature": "mean radius",
+    "mean_absolute_attribution": 0.049613215,
+    "mean_signed_attribution": 0.049320504
+  },
+  {
+    "feature": "compactness error",
+    "mean_absolute_attribution": 0.045831814,
+    "mean_signed_attribution": 0.043351755
+  },
+  {
+    "feature": "mean smoothness",
+    "mean_absolute_attribution": 0.045809597,
+    "mean_signed_attribution": 0.0457711
+  },
+  {
+    "feature": "worst perimeter",
+    "mean_absolute_attribution": 0.043222994,
+    "mean_signed_attribution": 0.041771013
+  },
+  {
+    "feature": "mean concave points",
+    "mean_absolute_attribution": 0.04293155,
+    "mean_signed_attribution": 0.04293155
+  },
+  {
+    "feature": "worst fractal dimension",
+    "mean_absolute_attribution": 0.042778946,
+    "mean_signed_attribution": 0.039052907
+  },
+  {
+    "feature": "worst symmetry",
+    "mean_absolute_attribution": 0.041407097,
+    "mean_signed_attribution": 0.04082525
+  },
+  {
+    "feature": "worst concavity",
+    "mean_absolute_attribution": 0.038004223,
+    "mean_signed_attribution": 0.03679835
+  },
+  {
+    "feature": "worst area",
+    "mean_absolute_attribution": 0.037848435,
+    "mean_signed_attribution": 0.037793733
+  },
+  {
+    "feature": "mean compactness",
+    "mean_absolute_attribution": 0.03637032,
+    "mean_signed_attribution": 0.03637032
+  },
+  {
+    "feature": "worst concave points",
+    "mean_absolute_attribution": 0.035801638,
+    "mean_signed_attribution": 0.035630733
+  },
+  {
+    "feature": "worst compactness",
+    "mean_absolute_attribution": 0.035735335,
+    "mean_signed_attribution": 0.03521378
+  },
+  {
+    "feature": "mean area",
+    "mean_absolute_attribution": 0.03564445,
+    "mean_signed_attribution": 0.035378683
+  },
+  {
+    "feature": "area error",
+    "mean_absolute_attribution": 0.035133265,
+    "mean_signed_attribution": 0.035091538
+  },
+  {
+    "feature": "concavity error",
+    "mean_absolute_attribution": 0.03327846,
+    "mean_signed_attribution": 0.031886566
+  },
+  {
+    "feature": "radius error",
+    "mean_absolute_attribution": 0.032967456,
+    "mean_signed_attribution": 0.031219296
+  },
+  {
+    "feature": "worst smoothness",
+    "mean_absolute_attribution": 0.03273576,
+    "mean_signed_attribution": 0.032248836
+  },
+  {
+    "feature": "concave points error",
+    "mean_absolute_attribution": 0.031584263,
+    "mean_signed_attribution": 0.031320207
+  },
+  {
+    "feature": "worst texture",
+    "mean_absolute_attribution": 0.030770935,
+    "mean_signed_attribution": 0.030520441
+  },
+  {
+    "feature": "fractal dimension error",
+    "mean_absolute_attribution": 0.030527636,
+    "mean_signed_attribution": 0.017283054
+  },
+  {
+    "feature": "mean symmetry",
+    "mean_absolute_attribution": 0.028754298,
+    "mean_signed_attribution": 0.02289261
+  },
+  {
+    "feature": "mean fractal dimension",
+    "mean_absolute_attribution": 0.025701696,
+    "mean_signed_attribution": -0.0048928303
+  },
+  {
+    "feature": "perimeter error",
+    "mean_absolute_attribution": 0.024188159,
+    "mean_signed_attribution": 0.023477914
+  },
+  {
+    "feature": "mean concavity",
+    "mean_absolute_attribution": 0.02417097,
+    "mean_signed_attribution": 0.023779592
+  },
+  {
+    "feature": "symmetry error",
+    "mean_absolute_attribution": 0.018782998,
+    "mean_signed_attribution": -0.0040317075
+  },
+  {
+    "feature": "smoothness error",
+    "mean_absolute_attribution": 0.018097466,
+    "mean_signed_attribution": -0.014171152
+  },
+  {
+    "feature": "worst radius",
+    "mean_absolute_attribution": 0.016741248,
+    "mean_signed_attribution": 0.016315538
+  },
+  {
+    "feature": "texture error",
+    "mean_absolute_attribution": 0.015097195,
+    "mean_signed_attribution": 0.009970965
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "feature": "casos_dengue__tmenos4",
+    "importance": 0.053067208418498,
+    "std_between_seeds": 0.015505623291756
+  },
+  {
+    "feature": "casos_dengue__tmenos5",
+    "importance": 0.050917199724197,
+    "std_between_seeds": 0.00770153360256
+  },
+  {
+    "feature": "semana_sin__tmenos4",
+    "importance": 0.049886597478661,
+    "std_between_seeds": 0.012601426036762
+  },
+  {
+    "feature": "casos_dengue__tmenos6",
+    "importance": 0.047289012480926,
+    "std_between_seeds": 0.018882398164561
+  },
+  {
+    "feature": "semana_sin__tmenos5",
+    "importance": 0.045357125028663,
+    "std_between_seeds": 0.004763374489423
+  },
+  {
+    "feature": "casos_dengue__tmenos8",
+    "importance": 0.04300168022872,
+    "std_between_seeds": 0.02119161871401
+  },
+  {
+    "feature": "casos_dengue__tmenos7",
+    "importance": 0.042185694154768,
+    "std_between_seeds": 0.006262088081315
+  },
+  {
+    "feature": "semana_sin__tmenos3",
+    "importance": 0.040339324985761,
+    "std_between_seeds": 0.011037639573842
+  },
+  {
+    "feature": "semana_sin__tmenos6",
+    "importance": 0.038530067522007,
+    "std_between_seeds": 0.011608417488425
+  },
+  {
+    "feature": "casos_dengue__tmenos3",
+    "importance": 0.029667509194534,
+    "std_between_seeds": 0.012641008105567
+  },
+  {
+    "feature": "semana_sin__tmenos2",
+    "importance": 0.027168284083332,
+    "std_between_seeds": 0.00638360444666
+  },
+  {
+    "feature": "casos_dengue__tmenos10",
+    "importance": 0.027135846420297,
+    "std_between_seeds": 0.005595034174566
+  },
+  {
+    "feature": "semana_sin__tmenos1",
+    "importance": 0.026645445833661,
+    "std_between_seeds": 0.006251432826091
+  },
+  {
+    "feature": "casos_dengue__tmenos11",
+    "importance": 0.024933011737133,
+    "std_between_seeds": 0.008366374605839
+  },
+  {
+    "feature": "semana_sin__tmenos7",
+    "importance": 0.023909748417497,
+    "std_between_seeds": 0.013005985498768
+  },
+  {
+    "feature": "casos_dengue__tmenos9",
+    "importance": 0.023007022816529,
+    "std_between_seeds": 0.008581179947753
+  },
+  {
+    "feature": "casos_dengue__tmenos2",
+    "importance": 0.020826134684107,
+    "std_between_seeds": 0.005904291813008
+  },
+  {
+    "feature": "semana_sin__tmenos8",
+    "importance": 0.019065874214217,
+    "std_between_seeds": 0.004177269494384
+  },
+  {
+    "feature": "casos_dengue__tmenos12",
+    "importance": 0.018276027941202,
+    "std_between_seeds": 0.005740026701045
+  },
+  {
+    "feature": "casos_dengue__tmenos1",
+    "importance": 0.018237586219674,
+    "std_between_seeds": 0.003709727668935
+  },
+  {
+    "feature": "umidade_media__tmenos2",
+    "importance": 0.0138869165501,
+    "std_between_seeds": 0.001690620727262
+  },
+  {
+    "feature": "temperatura_media__tmenos6",
+    "importance": 0.013286034925064,
+    "std_between_seeds": 0.002984969216729
+  },
+  {
+    "feature": "temperatura_media__tmenos12",
+    "importance": 0.012506661723223,
+    "std_between_seeds": 0.002576918655103
+  },
+  {
+    "feature": "temperatura_media__tmenos4",
+    "importance": 0.01127805487474,
+    "std_between_seeds": 0.001761307977098
+  },
+  {
+    "feature": "temperatura_media__tmenos11",
+    "importance": 0.011239508212595,
+    "std_between_seeds": 0.004658166480311
+  },
+  {
+    "feature": "temperatura_media__tmenos3",
+    "importance": 0.010921295810316,
+    "std_between_seeds": 0.002898308944475
+  },
+  {
+    "feature": "umidade_media__tmenos1",
+    "importance": 0.010590294569167,
+    "std_between_seeds": 0.003092592136569
+  },
+  {
+    "feature": "umidade_media__tmenos4",
+    "importance": 0.010431574665,
+    "std_between_seeds": 0.002668467220447
+  },
+  {
+    "feature": "semana_cos__tmenos12",
+    "importance": 0.010317598709437,
+    "std_between_seeds": 0.004336201631445
+  },
+  {
+    "feature": "temperatura_media__tmenos9",
+    "importance": 0.010213913185442,
+    "std_between_seeds": 0.002014530470132
+  },
+  {
+    "feature": "temperatura_media__tmenos10",
+    "importance": 0.008845957574079,
+    "std_between_seeds": 0.002101026122673
+  },
+  {
+    "feature": "temperatura_media__tmenos8",
+    "importance": 0.008693658862245,
+    "std_between_seeds": 0.000886830768352
+  },
+  {
+    "feature": "temperatura_media__tmenos5",
+    "importance": 0.008628785152017,
+    "std_between_seeds": 0.001062614101866
+  },
+  {
+    "feature": "temperatura_media__tmenos2",
+    "importance": 0.008137939781866,
+    "std_between_seeds": 0.002721390040721
+  },
+  {
+    "feature": "semana_sin__tmenos9",
+    "importance": 0.008089174855448,
+    "std_between_seeds": 0.003903096988949
+  },
+  {
+    "feature": "umidade_media__tmenos5",
+    "importance": 0.007788432025399,
+    "std_between_seeds": 0.00174780010945
+  },
+  {
+    "feature": "semana_sin__tmenos10",
+    "importance": 0.007252889263989,
+    "std_between_seeds": 0.002983750697089
+  },
+  {
+    "feature": "umidade_media__tmenos3",
+    "importance": 0.007193494828679,
+    "std_between_seeds": 0.001749659444688
+  },
+  {
+    "feature": "umidade_media__tmenos10",
+    "importance": 0.007138093359337,
+    "std_between_seeds": 0.00101893905787
+  },
+  {
+    "feature": "umidade_media__tmenos9",
+    "importance": 0.007078669088899,
+    "std_between_seeds": 0.001894463673653
+  },
+  {
+    "feature": "semana_cos__tmenos11",
+    "importance": 0.006965812221861,
+    "std_between_seeds": 0.002709589981188
+  },
+  {
+    "feature": "chuva_total__tmenos10",
+    "importance": 0.006404906713741,
+    "std_between_seeds": 0.001688341424613
+  },
+  {
+    "feature": "temperatura_media__tmenos1",
+    "importance": 0.006245893770964,
+    "std_between_seeds": 0.00048087021909
+  },
+  {
+    "feature": "umidade_media__tmenos7",
+    "importance": 0.005966201049908,
+    "std_between_seeds": 0.001333130670806
+  },
+  {
+    "feature": "chuva_total__tmenos11",
+    "importance": 0.005940800458479,
+    "std_between_seeds": 0.001719096105427
+  },
+  {
+    "feature": "umidade_media__tmenos8",
+    "importance": 0.0055460154757,
+    "std_between_seeds": 0.001757664509165
+  },
+  {
+    "feature": "umidade_media__tmenos6",
+    "importance": 0.005406628963485,
+    "std_between_seeds": 0.001956517676397
+  },
+  {
+    "feature": "umidade_media__tmenos11",
+    "importance": 0.005393878984627,
+    "std_between_seeds": 0.001468921770475
+  },
+  {
+    "feature": "temperatura_media__tmenos7",
+    "importance": 0.005374018033632,
+    "std_between_seeds": 0.002444465299232
+  },
+  {
+    "feature": "umidade_media__tmenos12",
+    "importance": 0.005138611809281,
+    "std_between_seeds": 0.003027327519596
+  },
+  {
+    "feature": "semana_cos__tmenos8",
+    "importance": 0.004812848239642,
+    "std_between_seeds": 0.003380467082997
+  },
+  {
+    "feature": "semana_sin__tmenos11",
+    "importance": 0.004730346780171,
+    "std_between_seeds": 0.001771863382164
+  },
+  {
+    "feature": "semana_cos__tmenos9",
+    "importance": 0.004697011771632,
+    "std_between_seeds": 0.002346327228166
+  },
+  {
+    "feature": "semana_cos__tmenos10",
+    "importance": 0.004560173515654,
+    "std_between_seeds": 0.002625968335342
+  },
+  {
+    "feature": "semana_sin__tmenos12",
+    "importance": 0.004453422234591,
+    "std_between_seeds": 0.001202368765792
+  },
+  {
+    "feature": "semana_cos__tmenos2",
+    "importance": 0.004147784818203,
+    "std_between_seeds": 0.001411964683222
+  },
+  {
+    "feature": "chuva_total__tmenos12",
+    "importance": 0.004062886027321,
+    "std_between_seeds": 0.001406264716325
+  },
+  {
+    "feature": "semana_cos__tmenos6",
+    "importance": 0.00396821379964,
+    "std_between_seeds": 0.001507119246537
+  },
+  {
+    "feature": "chuva_total__tmenos9",
+    "importance": 0.003825624725195,
+    "std_between_seeds": 0.001246524819456
+  },
+  {
+    "feature": "semana_cos__tmenos4",
+    "importance": 0.003589590811838,
+    "std_between_seeds": 0.000908825399109
+  },
+  {
+    "feature": "semana_cos__tmenos5",
+    "importance": 0.003505152842474,
+    "std_between_seeds": 0.001182420903161
+  },
+  {
+    "feature": "semana_cos__tmenos3",
+    "importance": 0.003435219770724,
+    "std_between_seeds": 0.000929919580387
+  },
+  {
+    "feature": "semana_cos__tmenos1",
+    "importance": 0.003403152256018,
+    "std_between_seeds": 0.000606472782611
+  },
+  {
+    "feature": "chuva_total__tmenos1",
+    "importance": 0.00317127033246,
+    "std_between_seeds": 0.001364357867467
+  },
+  {
+    "feature": "chuva_total__tmenos2",
+    "importance": 0.003070663335329,
+    "std_between_seeds": 0.000663113646438
+  },
+  {
+    "feature": "chuva_total__tmenos3",
+    "importance": 0.003000348281848,
+    "std_between_seeds": 0.000389952761261
+  },
+  {
+    "feature": "chuva_total__tmenos6",
+    "importance": 0.002923680637686,
+    "std_between_seeds": 0.000753842792199
+  },
+  {
+    "feature": "chuva_total__tmenos7",
+    "importance": 0.002765892622925,
+    "std_between_seeds": 0.001054890142088
+  },
+  {
+    "feature": "chuva_total__tmenos4",
+    "importance": 0.002669990558372,
+    "std_between_seeds": 0.000599191235317
+  },
+  {
+    "feature": "semana_cos__tmenos7",
+    "importance": 0.002645852176076,
+    "std_between_seeds": 0.000698865789745
+  },
+  {
+    "feature": "chuva_total__tmenos8",
+    "importance": 0.00261052230534,
+    "std_between_seeds": 0.000869552729414
+  },
+  {
+    "feature": "chuva_total__tmenos5",
+    "importance": 0.002602235073759,
+    "std_between_seeds": 0.001298024062724
+  }
+]

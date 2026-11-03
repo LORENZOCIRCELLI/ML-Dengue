@@ -1,0 +1,83 @@
+{
+  "treino": {
+    "benigno": {
+      "precision": 0.9769585253456221,
+      "recall": 0.9906542056074766,
+      "f1-score": 0.9837587006960556,
+      "support": 214.0
+    },
+    "maligno": {
+      "precision": 0.9838709677419355,
+      "recall": 0.9606299212598425,
+      "f1-score": 0.9721115537848606,
+      "support": 127.0
+    },
+    "accuracy": 0.9794721407624634,
+    "macro avg": {
+      "precision": 0.9804147465437788,
+      "recall": 0.9756420634336596,
+      "f1-score": 0.9779351272404582,
+      "support": 341.0
+    },
+    "weighted avg": {
+      "precision": 0.9795329540386772,
+      "recall": 0.9794721407624634,
+      "f1-score": 0.9794209069783966,
+      "support": 341.0
+    }
+  },
+  "validacao": {
+    "benigno": {
+      "precision": 0.9726027397260274,
+      "recall": 1.0,
+      "f1-score": 0.9861111111111112,
+      "support": 71.0
+    },
+    "maligno": {
+      "precision": 1.0,
+      "recall": 0.9534883720930233,
+      "f1-score": 0.9761904761904762,
+      "support": 43.0
+    },
+    "accuracy": 0.9824561403508771,
+    "macro avg": {
+      "precision": 0.9863013698630136,
+      "recall": 0.9767441860465116,
+      "f1-score": 0.9811507936507937,
+      "support": 114.0
+    },
+    "weighted avg": {
+      "precision": 0.9829367940398942,
+      "recall": 0.9824561403508771,
+      "f1-score": 0.9823691172375383,
+      "support": 114.0
+    }
+  },
+  "teste": {
+    "benigno": {
+      "precision": 0.96,
+      "recall": 1.0,
+      "f1-score": 0.9795918367346939,
+      "support": 72.0
+    },
+    "maligno": {
+      "precision": 1.0,
+      "recall": 0.9285714285714286,
+      "f1-score": 0.9629629629629629,
+      "support": 42.0
+    },
+    "accuracy": 0.9736842105263158,
+    "macro avg": {
+      "precision": 0.98,
+      "recall": 0.9642857142857143,
+      "f1-score": 0.9712773998488284,
+      "support": 114.0
+    },
+    "weighted avg": {
+      "precision": 0.9747368421052632,
+      "recall": 0.9736842105263158,
+      "f1-score": 0.9734654095556351,
+      "support": 114.0
+    }
+  }
+}

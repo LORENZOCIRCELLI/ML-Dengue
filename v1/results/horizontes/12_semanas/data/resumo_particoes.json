@@ -1,0 +1,26 @@
+[
+  {
+    "split": "treino",
+    "amostras": 443,
+    "positivos": 159,
+    "prevalencia": 0.358916478555305,
+    "primeiro_alvo": "2011-07-03T00:00:00.000",
+    "ultimo_alvo": "2019-12-22T00:00:00.000"
+  },
+  {
+    "split": "validacao",
+    "amostras": 145,
+    "positivos": 44,
+    "prevalencia": 0.303448275862069,
+    "primeiro_alvo": "2020-03-22T00:00:00.000",
+    "ultimo_alvo": "2022-12-25T00:00:00.000"
+  },
+  {
+    "split": "teste",
+    "amostras": 145,
+    "positivos": 56,
+    "prevalencia": 0.386206896551724,
+    "primeiro_alvo": "2023-03-26T00:00:00.000",
+    "ultimo_alvo": "2025-12-28T00:00:00.000"
+  }
+]

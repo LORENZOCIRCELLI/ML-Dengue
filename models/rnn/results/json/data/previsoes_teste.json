@@ -1,0 +1,686 @@
+[
+  {
+    "sample_id": 84,
+    "target": 0,
+    "probability_positive": 0.026439736,
+    "prediction": 0
+  },
+  {
+    "sample_id": 123,
+    "target": 0,
+    "probability_positive": 0.045893278,
+    "prediction": 0
+  },
+  {
+    "sample_id": 107,
+    "target": 0,
+    "probability_positive": 0.018611299,
+    "prediction": 0
+  },
+  {
+    "sample_id": 183,
+    "target": 0,
+    "probability_positive": 0.010284792,
+    "prediction": 0
+  },
+  {
+    "sample_id": 20,
+    "target": 0,
+    "probability_positive": 0.02251049,
+    "prediction": 0
+  },
+  {
+    "sample_id": 410,
+    "target": 0,
+    "probability_positive": 0.03625612,
+    "prediction": 0
+  },
+  {
+    "sample_id": 310,
+    "target": 0,
+    "probability_positive": 0.015629213,
+    "prediction": 0
+  },
+  {
+    "sample_id": 469,
+    "target": 0,
+    "probability_positive": 0.14269747,
+    "prediction": 0
+  },
+  {
+    "sample_id": 176,
+    "target": 0,
+    "probability_positive": 0.018094735,
+    "prediction": 0
+  },
+  {
+    "sample_id": 15,
+    "target": 1,
+    "probability_positive": 0.9858543,
+    "prediction": 1
+  },
+  {
+    "sample_id": 286,
+    "target": 0,
+    "probability_positive": 0.024668625,
+    "prediction": 0
+  },
+  {
+    "sample_id": 180,
+    "target": 1,
+    "probability_positive": 0.993415,
+    "prediction": 1
+  },
+  {
+    "sample_id": 281,
+    "target": 0,
+    "probability_positive": 0.016102482,
+    "prediction": 0
+  },
+  {
+    "sample_id": 500,
+    "target": 0,
+    "probability_positive": 0.056720633,
+    "prediction": 0
+  },
+  {
+    "sample_id": 320,
+    "target": 0,
+    "probability_positive": 0.011957633,
+    "prediction": 0
+  },
+  {
+    "sample_id": 394,
+    "target": 0,
+    "probability_positive": 0.033100635,
+    "prediction": 0
+  },
+  {
+    "sample_id": 184,
+    "target": 1,
+    "probability_positive": 0.52618873,
+    "prediction": 1
+  },
+  {
+    "sample_id": 24,
+    "target": 1,
+    "probability_positive": 0.99276465,
+    "prediction": 1
+  },
+  {
+    "sample_id": 233,
+    "target": 1,
+    "probability_positive": 0.9911773,
+    "prediction": 1
+  },
+  {
+    "sample_id": 171,
+    "target": 1,
+    "probability_positive": 0.48480377,
+    "prediction": 0
+  },
+  {
+    "sample_id": 497,
+    "target": 0,
+    "probability_positive": 0.023231866,
+    "prediction": 0
+  },
+  {
+    "sample_id": 277,
+    "target": 1,
+    "probability_positive": 0.89376265,
+    "prediction": 1
+  },
+  {
+    "sample_id": 325,
+    "target": 0,
+    "probability_positive": 0.016464483,
+    "prediction": 0
+  },
+  {
+    "sample_id": 22,
+    "target": 1,
+    "probability_positive": 0.96479946,
+    "prediction": 1
+  },
+  {
+    "sample_id": 118,
+    "target": 1,
+    "probability_positive": 0.9886043,
+    "prediction": 1
+  },
+  {
+    "sample_id": 300,
+    "target": 1,
+    "probability_positive": 0.9928276,
+    "prediction": 1
+  },
+  {
+    "sample_id": 190,
+    "target": 1,
+    "probability_positive": 0.91964066,
+    "prediction": 1
+  },
+  {
+    "sample_id": 553,
+    "target": 0,
+    "probability_positive": 0.009325682,
+    "prediction": 0
+  },
+  {
+    "sample_id": 447,
+    "target": 0,
+    "probability_positive": 0.08158649,
+    "prediction": 0
+  },
+  {
+    "sample_id": 177,
+    "target": 1,
+    "probability_positive": 0.96444225,
+    "prediction": 1
+  },
+  {
+    "sample_id": 168,
+    "target": 1,
+    "probability_positive": 0.99146795,
+    "prediction": 1
+  },
+  {
+    "sample_id": 523,
+    "target": 0,
+    "probability_positive": 0.07775205,
+    "prediction": 0
+  },
+  {
+    "sample_id": 94,
+    "target": 1,
+    "probability_positive": 0.965385,
+    "prediction": 1
+  },
+  {
+    "sample_id": 420,
+    "target": 0,
+    "probability_positive": 0.021300638,
+    "prediction": 0
+  },
+  {
+    "sample_id": 429,
+    "target": 0,
+    "probability_positive": 0.01108842,
+    "prediction": 0
+  },
+  {
+    "sample_id": 517,
+    "target": 1,
+    "probability_positive": 0.9878797,
+    "prediction": 1
+  },
+  {
+    "sample_id": 433,
+    "target": 1,
+    "probability_positive": 0.9906759,
+    "prediction": 1
+  },
+  {
+    "sample_id": 12,
+    "target": 1,
+    "probability_positive": 0.9854879,
+    "prediction": 1
+  },
+  {
+    "sample_id": 244,
+    "target": 1,
+    "probability_positive": 0.98878944,
+    "prediction": 1
+  },
+  {
+    "sample_id": 505,
+    "target": 0,
+    "probability_positive": 0.016096076,
+    "prediction": 0
+  },
+  {
+    "sample_id": 459,
+    "target": 0,
+    "probability_positive": 0.016369324,
+    "prediction": 0
+  },
+  {
+    "sample_id": 218,
+    "target": 1,
+    "probability_positive": 0.99254227,
+    "prediction": 1
+  },
+  {
+    "sample_id": 128,
+    "target": 0,
+    "probability_positive": 0.31242457,
+    "prediction": 0
+  },
+  {
+    "sample_id": 202,
+    "target": 1,
+    "probability_positive": 0.99332905,
+    "prediction": 1
+  },
+  {
+    "sample_id": 162,
+    "target": 1,
+    "probability_positive": 0.9929692,
+    "prediction": 1
+  },
+  {
+    "sample_id": 562,
+    "target": 1,
+    "probability_positive": 0.9887883,
+    "prediction": 1
+  },
+  {
+    "sample_id": 438,
+    "target": 0,
+    "probability_positive": 0.031710755,
+    "prediction": 0
+  },
+  {
+    "sample_id": 520,
+    "target": 0,
+    "probability_positive": 0.014844432,
+    "prediction": 0
+  },
+  {
+    "sample_id": 383,
+    "target": 0,
+    "probability_positive": 0.033467174,
+    "prediction": 0
+  },
+  {
+    "sample_id": 193,
+    "target": 1,
+    "probability_positive": 0.9054469,
+    "prediction": 1
+  },
+  {
+    "sample_id": 130,
+    "target": 0,
+    "probability_positive": 0.015605227,
+    "prediction": 0
+  },
+  {
+    "sample_id": 74,
+    "target": 0,
+    "probability_positive": 0.017433554,
+    "prediction": 0
+  },
+  {
+    "sample_id": 555,
+    "target": 0,
+    "probability_positive": 0.038686547,
+    "prediction": 0
+  },
+  {
+    "sample_id": 205,
+    "target": 1,
+    "probability_positive": 0.37223998,
+    "prediction": 0
+  },
+  {
+    "sample_id": 139,
+    "target": 0,
+    "probability_positive": 0.01467065,
+    "prediction": 0
+  },
+  {
+    "sample_id": 169,
+    "target": 0,
+    "probability_positive": 0.053212967,
+    "prediction": 0
+  },
+  {
+    "sample_id": 195,
+    "target": 0,
+    "probability_positive": 0.016703207,
+    "prediction": 0
+  },
+  {
+    "sample_id": 344,
+    "target": 0,
+    "probability_positive": 0.017074622,
+    "prediction": 0
+  },
+  {
+    "sample_id": 423,
+    "target": 0,
+    "probability_positive": 0.10422078,
+    "prediction": 0
+  },
+  {
+    "sample_id": 267,
+    "target": 0,
+    "probability_positive": 0.033230126,
+    "prediction": 0
+  },
+  {
+    "sample_id": 89,
+    "target": 0,
+    "probability_positive": 0.31236,
+    "prediction": 0
+  },
+  {
+    "sample_id": 198,
+    "target": 1,
+    "probability_positive": 0.98956025,
+    "prediction": 1
+  },
+  {
+    "sample_id": 196,
+    "target": 1,
+    "probability_positive": 0.95014256,
+    "prediction": 1
+  },
+  {
+    "sample_id": 59,
+    "target": 0,
+    "probability_positive": 0.008408842,
+    "prediction": 0
+  },
+  {
+    "sample_id": 4,
+    "target": 1,
+    "probability_positive": 0.9817837,
+    "prediction": 1
+  },
+  {
+    "sample_id": 73,
+    "target": 1,
+    "probability_positive": 0.09464292,
+    "prediction": 0
+  },
+  {
+    "sample_id": 347,
+    "target": 0,
+    "probability_positive": 0.06322918,
+    "prediction": 0
+  },
+  {
+    "sample_id": 332,
+    "target": 0,
+    "probability_positive": 0.015401706,
+    "prediction": 0
+  },
+  {
+    "sample_id": 407,
+    "target": 0,
+    "probability_positive": 0.019803695,
+    "prediction": 0
+  },
+  {
+    "sample_id": 411,
+    "target": 0,
+    "probability_positive": 0.016791558,
+    "prediction": 0
+  },
+  {
+    "sample_id": 295,
+    "target": 0,
+    "probability_positive": 0.012573689,
+    "prediction": 0
+  },
+  {
+    "sample_id": 179,
+    "target": 0,
+    "probability_positive": 0.009314403,
+    "prediction": 0
+  },
+  {
+    "sample_id": 71,
+    "target": 0,
+    "probability_positive": 0.009433352,
+    "prediction": 0
+  },
+  {
+    "sample_id": 207,
+    "target": 1,
+    "probability_positive": 0.9147055,
+    "prediction": 1
+  },
+  {
+    "sample_id": 36,
+    "target": 1,
+    "probability_positive": 0.8718376,
+    "prediction": 1
+  },
+  {
+    "sample_id": 488,
+    "target": 0,
+    "probability_positive": 0.026969248,
+    "prediction": 0
+  },
+  {
+    "sample_id": 148,
+    "target": 0,
+    "probability_positive": 0.11869536,
+    "prediction": 0
+  },
+  {
+    "sample_id": 560,
+    "target": 0,
+    "probability_positive": 0.24349986,
+    "prediction": 0
+  },
+  {
+    "sample_id": 442,
+    "target": 0,
+    "probability_positive": 0.0113761425,
+    "prediction": 0
+  },
+  {
+    "sample_id": 109,
+    "target": 0,
+    "probability_positive": 0.03525906,
+    "prediction": 0
+  },
+  {
+    "sample_id": 62,
+    "target": 1,
+    "probability_positive": 0.9722644,
+    "prediction": 1
+  },
+  {
+    "sample_id": 223,
+    "target": 1,
+    "probability_positive": 0.9665042,
+    "prediction": 1
+  },
+  {
+    "sample_id": 252,
+    "target": 1,
+    "probability_positive": 0.9924213,
+    "prediction": 1
+  },
+  {
+    "sample_id": 7,
+    "target": 1,
+    "probability_positive": 0.87504697,
+    "prediction": 1
+  },
+  {
+    "sample_id": 374,
+    "target": 0,
+    "probability_positive": 0.019608168,
+    "prediction": 0
+  },
+  {
+    "sample_id": 455,
+    "target": 0,
+    "probability_positive": 0.27094403,
+    "prediction": 0
+  },
+  {
+    "sample_id": 568,
+    "target": 0,
+    "probability_positive": 0.008674186,
+    "prediction": 0
+  },
+  {
+    "sample_id": 125,
+    "target": 0,
+    "probability_positive": 0.016821753,
+    "prediction": 0
+  },
+  {
+    "sample_id": 428,
+    "target": 0,
+    "probability_positive": 0.008577157,
+    "prediction": 0
+  },
+  {
+    "sample_id": 278,
+    "target": 0,
+    "probability_positive": 0.018734114,
+    "prediction": 0
+  },
+  {
+    "sample_id": 229,
+    "target": 1,
+    "probability_positive": 0.9113641,
+    "prediction": 1
+  },
+  {
+    "sample_id": 154,
+    "target": 0,
+    "probability_positive": 0.056373175,
+    "prediction": 0
+  },
+  {
+    "sample_id": 39,
+    "target": 1,
+    "probability_positive": 0.7129236,
+    "prediction": 1
+  },
+  {
+    "sample_id": 530,
+    "target": 0,
+    "probability_positive": 0.037722614,
+    "prediction": 0
+  },
+  {
+    "sample_id": 208,
+    "target": 0,
+    "probability_positive": 0.22671041,
+    "prediction": 0
+  },
+  {
+    "sample_id": 329,
+    "target": 1,
+    "probability_positive": 0.7605911,
+    "prediction": 1
+  },
+  {
+    "sample_id": 209,
+    "target": 0,
+    "probability_positive": 0.03343617,
+    "prediction": 0
+  },
+  {
+    "sample_id": 282,
+    "target": 1,
+    "probability_positive": 0.9908969,
+    "prediction": 1
+  },
+  {
+    "sample_id": 253,
+    "target": 1,
+    "probability_positive": 0.9633397,
+    "prediction": 1
+  },
+  {
+    "sample_id": 111,
+    "target": 0,
+    "probability_positive": 0.044627342,
+    "prediction": 0
+  },
+  {
+    "sample_id": 98,
+    "target": 0,
+    "probability_positive": 0.011402827,
+    "prediction": 0
+  },
+  {
+    "sample_id": 77,
+    "target": 1,
+    "probability_positive": 0.9901647,
+    "prediction": 1
+  },
+  {
+    "sample_id": 467,
+    "target": 0,
+    "probability_positive": 0.009807395,
+    "prediction": 0
+  },
+  {
+    "sample_id": 221,
+    "target": 0,
+    "probability_positive": 0.034575336,
+    "prediction": 0
+  },
+  {
+    "sample_id": 100,
+    "target": 1,
+    "probability_positive": 0.72810465,
+    "prediction": 1
+  },
+  {
+    "sample_id": 522,
+    "target": 0,
+    "probability_positive": 0.0098980125,
+    "prediction": 0
+  },
+  {
+    "sample_id": 323,
+    "target": 1,
+    "probability_positive": 0.99315685,
+    "prediction": 1
+  },
+  {
+    "sample_id": 216,
+    "target": 0,
+    "probability_positive": 0.050963752,
+    "prediction": 0
+  },
+  {
+    "sample_id": 270,
+    "target": 0,
+    "probability_positive": 0.01078992,
+    "prediction": 0
+  },
+  {
+    "sample_id": 319,
+    "target": 0,
+    "probability_positive": 0.010155206,
+    "prediction": 0
+  },
+  {
+    "sample_id": 115,
+    "target": 0,
+    "probability_positive": 0.028383315,
+    "prediction": 0
+  },
+  {
+    "sample_id": 448,
+    "target": 0,
+    "probability_positive": 0.102040835,
+    "prediction": 0
+  },
+  {
+    "sample_id": 554,
+    "target": 0,
+    "probability_positive": 0.097935244,
+    "prediction": 0
+  },
+  {
+    "sample_id": 147,
+    "target": 0,
+    "probability_positive": 0.048571896,
+    "prediction": 0
+  }
+]

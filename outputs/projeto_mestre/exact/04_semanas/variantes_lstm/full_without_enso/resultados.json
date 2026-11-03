@@ -1,0 +1,72 @@
+{
+  "selection": {
+    "threshold": 0.5845373868942261,
+    "method": "maior precisão com recall >= 0.80",
+    "validation_precision": 0.5405405405405406,
+    "validation_recall": 0.8695652173913043
+  },
+  "metrics": {
+    "validation": {
+      "n": 105,
+      "prevalence": 0.21904761904761905,
+      "threshold": 0.5845373868942261,
+      "accuracy": 0.8095238095238095,
+      "balanced_accuracy": 0.8311240721102864,
+      "precision": 0.5405405405405406,
+      "recall_sensitivity": 0.8695652173913043,
+      "specificity": 0.7926829268292683,
+      "f1": 0.6666666666666666,
+      "f2": 0.7751937984496124,
+      "pr_auc": 0.4741878867194453,
+      "roc_auc": 0.8446447507953341,
+      "brier": 0.22704558074474335,
+      "tn": 65,
+      "fp": 17,
+      "fn": 3,
+      "tp": 20,
+      "false_alarms_per_year": 8.447785714285715
+    },
+    "test": {
+      "n": 104,
+      "prevalence": 0.18269230769230768,
+      "threshold": 0.5845373868942261,
+      "accuracy": 0.6826923076923077,
+      "balanced_accuracy": 0.6424148606811146,
+      "precision": 0.3055555555555556,
+      "recall_sensitivity": 0.5789473684210527,
+      "specificity": 0.7058823529411765,
+      "f1": 0.4,
+      "f2": 0.49107142857142855,
+      "pr_auc": 0.30728185475341624,
+      "roc_auc": 0.7027863777089782,
+      "brier": 0.27867791056632996,
+      "tn": 60,
+      "fp": 25,
+      "fn": 8,
+      "tp": 11,
+      "false_alarms_per_year": 12.54266826923077,
+      "confidence_intervals": {
+        "pr_auc": {
+          "lower_95": 0.07951536639610386,
+          "upper_95": 0.7000369708952864
+        },
+        "roc_auc": {
+          "lower_95": 0.41222588556953876,
+          "upper_95": 0.9607615253712871
+        },
+        "recall_sensitivity": {
+          "lower_95": 0.0,
+          "upper_95": 1.0
+        },
+        "precision": {
+          "lower_95": 0.0,
+          "upper_95": 0.6666666666666666
+        },
+        "f2": {
+          "lower_95": 0.0,
+          "upper_95": 0.7592099519860324
+        }
+      }
+    }
+  }
+}

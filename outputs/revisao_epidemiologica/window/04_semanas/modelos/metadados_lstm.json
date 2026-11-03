@@ -1,0 +1,24 @@
+{
+  "features": [
+    "log_incidence_lag_1",
+    "log_incidence_lag_2",
+    "log_incidence_lag_4",
+    "log_incidence_lag_8",
+    "log_incidence_lag_12",
+    "log_incidence_lag_52",
+    "incidence_mean_4",
+    "incidence_mean_12",
+    "incidence_std_12",
+    "incidence_ratio_upper_lag1",
+    "media_temperatura_semana",
+    "media_umidade_semana",
+    "chuva_total_mm",
+    "ONI",
+    "week_sin",
+    "week_cos"
+  ],
+  "sequence_length": 12,
+  "pytorch_device_during_training": "cpu",
+  "numpy_hidden_size": 16,
+  "pytorch_hidden_size": 32
+}

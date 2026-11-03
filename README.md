@@ -6,6 +6,32 @@ Além dos modelos preditivos, o projeto possui um aplicativo para facilitar a vi
 
 O objetivo deste repositório é centralizar toda a produção científica, técnica e acadêmica desenvolvida ao longo da pesquisa, facilitando o acesso a documentos, códigos, experimentos, conjuntos de dados e resultados obtidos durante o doutorado.
 
+## Projeto Mestre do doutorado
+
+O estudo principal investiga se variáveis climáticas locais e indicadores de El Niño e La Niña acrescentam capacidade de antecipar alertas de dengue em Ribeirão Preto nos horizontes de 4, 8, 12 e 16 semanas.
+
+Artefatos principais:
+
+* `notebooks/Notebook_Mestre_Clima_Dengue.ipynb`: explicação completa e acessível;
+* `scripts/run_master_study.py`: execução reproduzível;
+* `src/dengue_research/master.py`: orquestração da análise;
+* `src/dengue_research/climate.py`: atributos, ENSO e associações climáticas;
+* `src/dengue_research/app_exports.py`: JSONs validados para o aplicativo;
+* `docs/GUIA_SIMPLES_PROJETO_MESTRE.md`: guia de leitura sem exigir conhecimento técnico;
+* `docs/CONTRATO_JSON_PROJETO_MESTRE.md`: campos exportados para o aplicativo.
+
+Execução completa:
+
+```bash
+MPLCONFIGDIR=/tmp/matplotlib-master PYTHONPATH=src ./.venv/bin/python scripts/run_master_study.py
+```
+
+Teste técnico rápido:
+
+```bash
+MPLCONFIGDIR=/tmp/matplotlib-master PYTHONPATH=src ./.venv/bin/python scripts/run_master_study.py --quick
+```
+
 ---
 
 ## Resumo do Projeto

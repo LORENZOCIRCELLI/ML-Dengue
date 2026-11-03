@@ -1,0 +1,72 @@
+{
+  "selection": {
+    "threshold": 0.5591018795967102,
+    "method": "maior precisão com recall >= 0.80",
+    "validation_precision": 0.3584905660377358,
+    "validation_recall": 0.8260869565217391
+  },
+  "metrics": {
+    "validation": {
+      "n": 105,
+      "prevalence": 0.21904761904761905,
+      "threshold": 0.5591018795967102,
+      "accuracy": 0.638095238095238,
+      "balanced_accuracy": 0.7057264050901378,
+      "precision": 0.3584905660377358,
+      "recall_sensitivity": 0.8260869565217391,
+      "specificity": 0.5853658536585366,
+      "f1": 0.5,
+      "f2": 0.6551724137931034,
+      "pr_auc": 0.2647240930731516,
+      "roc_auc": 0.6420996818663839,
+      "brier": 0.25851359963417053,
+      "tn": 48,
+      "fp": 34,
+      "fn": 4,
+      "tp": 19,
+      "false_alarms_per_year": 16.89557142857143
+    },
+    "test": {
+      "n": 104,
+      "prevalence": 0.18269230769230768,
+      "threshold": 0.5591018795967102,
+      "accuracy": 0.47115384615384615,
+      "balanced_accuracy": 0.43126934984520127,
+      "precision": 0.14,
+      "recall_sensitivity": 0.3684210526315789,
+      "specificity": 0.49411764705882355,
+      "f1": 0.2028985507246377,
+      "f2": 0.2777777777777778,
+      "pr_auc": 0.1371072777238551,
+      "roc_auc": 0.3256965944272446,
+      "brier": 0.29970306158065796,
+      "tn": 42,
+      "fp": 43,
+      "fn": 12,
+      "tp": 7,
+      "false_alarms_per_year": 21.573389423076925,
+      "confidence_intervals": {
+        "pr_auc": {
+          "lower_95": 0.04132566066951244,
+          "upper_95": 0.31621265918985975
+        },
+        "roc_auc": {
+          "lower_95": 0.02037294487427466,
+          "upper_95": 0.6313676856102391
+        },
+        "recall_sensitivity": {
+          "lower_95": 0.0,
+          "upper_95": 1.0
+        },
+        "precision": {
+          "lower_95": 0.0,
+          "upper_95": 0.36585365853658536
+        },
+        "f2": {
+          "lower_95": 0.0,
+          "upper_95": 0.49417635344787647
+        }
+      }
+    }
+  }
+}

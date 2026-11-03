@@ -1,0 +1,122 @@
+[
+  {
+    "modelo": "random_forest",
+    "horizonteSemanas": 4,
+    "semanasAvaliadas": 153,
+    "acuraciaPercentual": 87.58169934640523,
+    "verdadeiro_negativo": 107,
+    "falso_positivo": 0,
+    "falso_negativo": 19,
+    "verdadeiro_positivo": 27
+  },
+  {
+    "modelo": "rnn",
+    "horizonteSemanas": 4,
+    "semanasAvaliadas": 153,
+    "acuraciaPercentual": 90.84967320261438,
+    "verdadeiro_negativo": 106,
+    "falso_positivo": 1,
+    "falso_negativo": 13,
+    "verdadeiro_positivo": 33
+  },
+  {
+    "modelo": "lstm",
+    "horizonteSemanas": 4,
+    "semanasAvaliadas": 153,
+    "acuraciaPercentual": 87.58169934640523,
+    "verdadeiro_negativo": 107,
+    "falso_positivo": 0,
+    "falso_negativo": 19,
+    "verdadeiro_positivo": 27
+  },
+  {
+    "modelo": "random_forest",
+    "horizonteSemanas": 8,
+    "semanasAvaliadas": 149,
+    "acuraciaPercentual": 64.42953020134227,
+    "verdadeiro_negativo": 95,
+    "falso_positivo": 0,
+    "falso_negativo": 53,
+    "verdadeiro_positivo": 1
+  },
+  {
+    "modelo": "rnn",
+    "horizonteSemanas": 8,
+    "semanasAvaliadas": 149,
+    "acuraciaPercentual": 83.22147651006712,
+    "verdadeiro_negativo": 90,
+    "falso_positivo": 5,
+    "falso_negativo": 20,
+    "verdadeiro_positivo": 34
+  },
+  {
+    "modelo": "lstm",
+    "horizonteSemanas": 8,
+    "semanasAvaliadas": 149,
+    "acuraciaPercentual": 77.85234899328859,
+    "verdadeiro_negativo": 89,
+    "falso_positivo": 6,
+    "falso_negativo": 27,
+    "verdadeiro_positivo": 27
+  },
+  {
+    "modelo": "random_forest",
+    "horizonteSemanas": 12,
+    "semanasAvaliadas": 145,
+    "acuraciaPercentual": 68.96551724137932,
+    "verdadeiro_negativo": 88,
+    "falso_positivo": 1,
+    "falso_negativo": 44,
+    "verdadeiro_positivo": 12
+  },
+  {
+    "modelo": "rnn",
+    "horizonteSemanas": 12,
+    "semanasAvaliadas": 145,
+    "acuraciaPercentual": 84.13793103448276,
+    "verdadeiro_negativo": 81,
+    "falso_positivo": 8,
+    "falso_negativo": 15,
+    "verdadeiro_positivo": 41
+  },
+  {
+    "modelo": "lstm",
+    "horizonteSemanas": 12,
+    "semanasAvaliadas": 145,
+    "acuraciaPercentual": 84.13793103448276,
+    "verdadeiro_negativo": 83,
+    "falso_positivo": 6,
+    "falso_negativo": 17,
+    "verdadeiro_positivo": 39
+  },
+  {
+    "modelo": "random_forest",
+    "horizonteSemanas": 16,
+    "semanasAvaliadas": 141,
+    "acuraciaPercentual": 63.12056737588653,
+    "verdadeiro_negativo": 83,
+    "falso_positivo": 3,
+    "falso_negativo": 49,
+    "verdadeiro_positivo": 6
+  },
+  {
+    "modelo": "rnn",
+    "horizonteSemanas": 16,
+    "semanasAvaliadas": 141,
+    "acuraciaPercentual": 89.36170212765957,
+    "verdadeiro_negativo": 82,
+    "falso_positivo": 4,
+    "falso_negativo": 11,
+    "verdadeiro_positivo": 44
+  },
+  {
+    "modelo": "lstm",
+    "horizonteSemanas": 16,
+    "semanasAvaliadas": 141,
+    "acuraciaPercentual": 87.2340425531915,
+    "verdadeiro_negativo": 82,
+    "falso_positivo": 4,
+    "falso_negativo": 14,
+    "verdadeiro_positivo": 41
+  }
+]

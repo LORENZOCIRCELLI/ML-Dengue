@@ -1,0 +1,1662 @@
+[
+  {
+    "feature": "mean radius",
+    "class_id": 0,
+    "value": 1.0736284255981445
+  },
+  {
+    "feature": "mean texture",
+    "class_id": 0,
+    "value": 2.3879354000091553
+  },
+  {
+    "feature": "mean texture",
+    "class_id": 0,
+    "value": 1.9671989679336548
+  },
+  {
+    "feature": "mean texture",
+    "class_id": 0,
+    "value": 2.2499890327453613
+  },
+  {
+    "feature": "mean texture",
+    "class_id": 0,
+    "value": 1.9488061666488647
+  },
+  {
+    "feature": "mean texture",
+    "class_id": 0,
+    "value": 1.9074223041534424
+  },
+  {
+    "feature": "mean texture",
+    "class_id": 0,
+    "value": 2.2637836933135986
+  },
+  {
+    "feature": "mean texture",
+    "class_id": 0,
+    "value": 1.983292818069458
+  },
+  {
+    "feature": "mean texture",
+    "class_id": 0,
+    "value": 3.270792245864868
+  },
+  {
+    "feature": "mean perimeter",
+    "class_id": 0,
+    "value": 0.9561444520950317
+  },
+  {
+    "feature": "mean area",
+    "class_id": 0,
+    "value": 0.4869343340396881
+  },
+  {
+    "feature": "mean area",
+    "class_id": 0,
+    "value": 0.6624611616134644
+  },
+  {
+    "feature": "mean area",
+    "class_id": 0,
+    "value": 0.9876508116722107
+  },
+  {
+    "feature": "mean area",
+    "class_id": 0,
+    "value": 0.540115475654602
+  },
+  {
+    "feature": "mean smoothness",
+    "class_id": 0,
+    "value": 2.3001792430877686
+  },
+  {
+    "feature": "mean smoothness",
+    "class_id": 0,
+    "value": 4.674026012420654
+  },
+  {
+    "feature": "mean compactness",
+    "class_id": 0,
+    "value": 1.2236125469207764
+  },
+  {
+    "feature": "mean compactness",
+    "class_id": 0,
+    "value": 1.5580626726150513
+  },
+  {
+    "feature": "mean compactness",
+    "class_id": 0,
+    "value": 2.3238775730133057
+  },
+  {
+    "feature": "mean compactness",
+    "class_id": 0,
+    "value": 1.2540171146392822
+  },
+  {
+    "feature": "mean compactness",
+    "class_id": 0,
+    "value": 1.2255127429962158
+  },
+  {
+    "feature": "mean concavity",
+    "class_id": 0,
+    "value": 1.7929350137710571
+  },
+  {
+    "feature": "mean concavity",
+    "class_id": 0,
+    "value": 0.8681843280792236
+  },
+  {
+    "feature": "mean concavity",
+    "class_id": 0,
+    "value": 0.863131046295166
+  },
+  {
+    "feature": "mean concavity",
+    "class_id": 0,
+    "value": 0.41717880964279175
+  },
+  {
+    "feature": "mean concavity",
+    "class_id": 0,
+    "value": 0.7443788647651672
+  },
+  {
+    "feature": "mean concavity",
+    "class_id": 0,
+    "value": 0.5814105272293091
+  },
+  {
+    "feature": "mean concavity",
+    "class_id": 0,
+    "value": 0.6332066655158997
+  },
+  {
+    "feature": "mean concavity",
+    "class_id": 0,
+    "value": 4.102285385131836
+  },
+  {
+    "feature": "mean concavity",
+    "class_id": 0,
+    "value": 2.86675763130188
+  },
+  {
+    "feature": "mean concavity",
+    "class_id": 0,
+    "value": 0.38938575983047485
+  },
+  {
+    "feature": "mean concave points",
+    "class_id": 0,
+    "value": 0.30018350481987
+  },
+  {
+    "feature": "mean concave points",
+    "class_id": 0,
+    "value": 0.46126002073287964
+  },
+  {
+    "feature": "mean concave points",
+    "class_id": 0,
+    "value": 0.37090003490448
+  },
+  {
+    "feature": "mean concave points",
+    "class_id": 0,
+    "value": 0.3942102789878845
+  },
+  {
+    "feature": "mean concave points",
+    "class_id": 0,
+    "value": 0.4733080267906189
+  },
+  {
+    "feature": "mean concave points",
+    "class_id": 0,
+    "value": 0.44528332352638245
+  },
+  {
+    "feature": "mean concave points",
+    "class_id": 0,
+    "value": 0.2980881929397583
+  },
+  {
+    "feature": "mean concave points",
+    "class_id": 0,
+    "value": 0.802008867263794
+  },
+  {
+    "feature": "mean concave points",
+    "class_id": 0,
+    "value": 0.5741445422172546
+  },
+  {
+    "feature": "mean symmetry",
+    "class_id": 0,
+    "value": -2.745471954345703
+  },
+  {
+    "feature": "mean symmetry",
+    "class_id": 0,
+    "value": 2.633434534072876
+  },
+  {
+    "feature": "mean symmetry",
+    "class_id": 0,
+    "value": 2.1355221271514893
+  },
+  {
+    "feature": "mean symmetry",
+    "class_id": 0,
+    "value": 2.8333263397216797
+  },
+  {
+    "feature": "mean symmetry",
+    "class_id": 0,
+    "value": 2.6261656284332275
+  },
+  {
+    "feature": "mean symmetry",
+    "class_id": 0,
+    "value": 2.6625096797943115
+  },
+  {
+    "feature": "mean fractal dimension",
+    "class_id": 0,
+    "value": 3.0299155712127686
+  },
+  {
+    "feature": "mean fractal dimension",
+    "class_id": 0,
+    "value": 2.1860790252685547
+  },
+  {
+    "feature": "mean fractal dimension",
+    "class_id": 0,
+    "value": 2.768892526626587
+  },
+  {
+    "feature": "mean fractal dimension",
+    "class_id": 0,
+    "value": 4.482806205749512
+  },
+  {
+    "feature": "mean fractal dimension",
+    "class_id": 0,
+    "value": 2.375286340713501
+  },
+  {
+    "feature": "mean fractal dimension",
+    "class_id": 0,
+    "value": 4.198304653167725
+  },
+  {
+    "feature": "mean fractal dimension",
+    "class_id": 0,
+    "value": 2.471961498260498
+  },
+  {
+    "feature": "radius error",
+    "class_id": 0,
+    "value": 0.4577043354511261
+  },
+  {
+    "feature": "radius error",
+    "class_id": 0,
+    "value": 0.6990922689437866
+  },
+  {
+    "feature": "radius error",
+    "class_id": 0,
+    "value": 1.0199962854385376
+  },
+  {
+    "feature": "radius error",
+    "class_id": 0,
+    "value": 0.4864579141139984
+  },
+  {
+    "feature": "radius error",
+    "class_id": 0,
+    "value": 0.4555744528770447
+  },
+  {
+    "feature": "radius error",
+    "class_id": 0,
+    "value": 1.6752934455871582
+  },
+  {
+    "feature": "radius error",
+    "class_id": 0,
+    "value": 1.4743735790252686
+  },
+  {
+    "feature": "radius error",
+    "class_id": 0,
+    "value": 1.142820119857788
+  },
+  {
+    "feature": "texture error",
+    "class_id": 0,
+    "value": 4.211021900177002
+  },
+  {
+    "feature": "texture error",
+    "class_id": 0,
+    "value": 2.4548912048339844
+  },
+  {
+    "feature": "texture error",
+    "class_id": 0,
+    "value": 4.646556377410889
+  },
+  {
+    "feature": "texture error",
+    "class_id": 0,
+    "value": 2.9516453742980957
+  },
+  {
+    "feature": "texture error",
+    "class_id": 0,
+    "value": 2.8659377098083496
+  },
+  {
+    "feature": "texture error",
+    "class_id": 0,
+    "value": 2.9114153385162354
+  },
+  {
+    "feature": "texture error",
+    "class_id": 0,
+    "value": 2.4916229248046875
+  },
+  {
+    "feature": "texture error",
+    "class_id": 0,
+    "value": 6.376450538635254
+  },
+  {
+    "feature": "perimeter error",
+    "class_id": 0,
+    "value": 0.6865032911300659
+  },
+  {
+    "feature": "perimeter error",
+    "class_id": 0,
+    "value": 1.0432517528533936
+  },
+  {
+    "feature": "perimeter error",
+    "class_id": 0,
+    "value": 0.5991563200950623
+  },
+  {
+    "feature": "perimeter error",
+    "class_id": 0,
+    "value": 0.8484386205673218
+  },
+  {
+    "feature": "perimeter error",
+    "class_id": 0,
+    "value": 0.9406927227973938
+  },
+  {
+    "feature": "perimeter error",
+    "class_id": 0,
+    "value": 0.7272325158119202
+  },
+  {
+    "feature": "perimeter error",
+    "class_id": 0,
+    "value": 0.5142629742622375
+  },
+  {
+    "feature": "perimeter error",
+    "class_id": 0,
+    "value": 0.5863978266716003
+  },
+  {
+    "feature": "perimeter error",
+    "class_id": 0,
+    "value": 0.4342767000198364
+  },
+  {
+    "feature": "perimeter error",
+    "class_id": 0,
+    "value": 1.0991930961608887
+  },
+  {
+    "feature": "area error",
+    "class_id": 0,
+    "value": -0.010268998332321644
+  },
+  {
+    "feature": "area error",
+    "class_id": 0,
+    "value": 0.10323446244001389
+  },
+  {
+    "feature": "area error",
+    "class_id": 0,
+    "value": 0.07074043154716492
+  },
+  {
+    "feature": "area error",
+    "class_id": 0,
+    "value": 0.20455266535282135
+  },
+  {
+    "feature": "area error",
+    "class_id": 0,
+    "value": 0.8287088871002197
+  },
+  {
+    "feature": "area error",
+    "class_id": 0,
+    "value": 0.14046721160411835
+  },
+  {
+    "feature": "area error",
+    "class_id": 0,
+    "value": 0.21357879042625427
+  },
+  {
+    "feature": "area error",
+    "class_id": 0,
+    "value": 0.1783769130706787
+  },
+  {
+    "feature": "area error",
+    "class_id": 0,
+    "value": 0.2384006232023239
+  },
+  {
+    "feature": "area error",
+    "class_id": 0,
+    "value": 0.29932692646980286
+  },
+  {
+    "feature": "smoothness error",
+    "class_id": 0,
+    "value": 2.1880908012390137
+  },
+  {
+    "feature": "smoothness error",
+    "class_id": 0,
+    "value": 2.3406901359558105
+  },
+  {
+    "feature": "smoothness error",
+    "class_id": 0,
+    "value": 2.9816081523895264
+  },
+  {
+    "feature": "smoothness error",
+    "class_id": 0,
+    "value": 3.0087368488311768
+  },
+  {
+    "feature": "smoothness error",
+    "class_id": 0,
+    "value": 2.0761845111846924
+  },
+  {
+    "feature": "smoothness error",
+    "class_id": 0,
+    "value": 2.642498016357422
+  },
+  {
+    "feature": "smoothness error",
+    "class_id": 0,
+    "value": 2.717102289199829
+  },
+  {
+    "feature": "smoothness error",
+    "class_id": 0,
+    "value": 2.323734760284424
+  },
+  {
+    "feature": "smoothness error",
+    "class_id": 0,
+    "value": 2.8900482654571533
+  },
+  {
+    "feature": "compactness error",
+    "class_id": 0,
+    "value": 2.0017573833465576
+  },
+  {
+    "feature": "compactness error",
+    "class_id": 0,
+    "value": 2.8872179985046387
+  },
+  {
+    "feature": "compactness error",
+    "class_id": 0,
+    "value": 1.9182549715042114
+  },
+  {
+    "feature": "compactness error",
+    "class_id": 0,
+    "value": 3.234117031097412
+  },
+  {
+    "feature": "compactness error",
+    "class_id": 0,
+    "value": 2.7908260822296143
+  },
+  {
+    "feature": "compactness error",
+    "class_id": 0,
+    "value": 1.5427747964859009
+  },
+  {
+    "feature": "compactness error",
+    "class_id": 0,
+    "value": 1.6391667127609253
+  },
+  {
+    "feature": "compactness error",
+    "class_id": 0,
+    "value": 2.3346457481384277
+  },
+  {
+    "feature": "compactness error",
+    "class_id": 0,
+    "value": 4.566791534423828
+  },
+  {
+    "feature": "compactness error",
+    "class_id": 0,
+    "value": 2.3413708209991455
+  },
+  {
+    "feature": "compactness error",
+    "class_id": 0,
+    "value": 3.9761106967926025
+  },
+  {
+    "feature": "compactness error",
+    "class_id": 0,
+    "value": 3.426900863647461
+  },
+  {
+    "feature": "compactness error",
+    "class_id": 0,
+    "value": 2.222562074661255
+  },
+  {
+    "feature": "concavity error",
+    "class_id": 0,
+    "value": 1.0165355205535889
+  },
+  {
+    "feature": "concavity error",
+    "class_id": 0,
+    "value": 3.5679447650909424
+  },
+  {
+    "feature": "concavity error",
+    "class_id": 0,
+    "value": 1.6676779985427856
+  },
+  {
+    "feature": "concavity error",
+    "class_id": 0,
+    "value": 1.4382948875427246
+  },
+  {
+    "feature": "concavity error",
+    "class_id": 0,
+    "value": 2.3314497470855713
+  },
+  {
+    "feature": "concavity error",
+    "class_id": 0,
+    "value": 0.9915707111358643
+  },
+  {
+    "feature": "concavity error",
+    "class_id": 0,
+    "value": 1.3366732597351074
+  },
+  {
+    "feature": "concavity error",
+    "class_id": 0,
+    "value": 1.3161139488220215
+  },
+  {
+    "feature": "concavity error",
+    "class_id": 0,
+    "value": 1.9848785400390625
+  },
+  {
+    "feature": "concavity error",
+    "class_id": 0,
+    "value": 1.8415509462356567
+  },
+  {
+    "feature": "concavity error",
+    "class_id": 0,
+    "value": 0.9014034867286682
+  },
+  {
+    "feature": "concavity error",
+    "class_id": 0,
+    "value": 10.69027328491211
+  },
+  {
+    "feature": "concavity error",
+    "class_id": 0,
+    "value": 7.982320308685303
+  },
+  {
+    "feature": "concavity error",
+    "class_id": 0,
+    "value": 1.3877778053283691
+  },
+  {
+    "feature": "concavity error",
+    "class_id": 0,
+    "value": 1.7769359350204468
+  },
+  {
+    "feature": "concave points error",
+    "class_id": 0,
+    "value": 2.7281906604766846
+  },
+  {
+    "feature": "concave points error",
+    "class_id": 0,
+    "value": 3.6134469509124756
+  },
+  {
+    "feature": "concave points error",
+    "class_id": 0,
+    "value": 2.419597864151001
+  },
+  {
+    "feature": "concave points error",
+    "class_id": 0,
+    "value": 1.588890790939331
+  },
+  {
+    "feature": "concave points error",
+    "class_id": 0,
+    "value": 2.497525453567505
+  },
+  {
+    "feature": "concave points error",
+    "class_id": 0,
+    "value": 1.3691352605819702
+  },
+  {
+    "feature": "concave points error",
+    "class_id": 0,
+    "value": 6.406368255615234
+  },
+  {
+    "feature": "concave points error",
+    "class_id": 0,
+    "value": 3.3562862873077393
+  },
+  {
+    "feature": "symmetry error",
+    "class_id": 0,
+    "value": 1.616555094718933
+  },
+  {
+    "feature": "symmetry error",
+    "class_id": 0,
+    "value": 2.320878505706787
+  },
+  {
+    "feature": "symmetry error",
+    "class_id": 0,
+    "value": 1.7107712030410767
+  },
+  {
+    "feature": "symmetry error",
+    "class_id": 0,
+    "value": 1.6625142097473145
+  },
+  {
+    "feature": "symmetry error",
+    "class_id": 0,
+    "value": 2.4587559700012207
+  },
+  {
+    "feature": "symmetry error",
+    "class_id": 0,
+    "value": 2.4530110359191895
+  },
+  {
+    "feature": "symmetry error",
+    "class_id": 0,
+    "value": 2.001462697982788
+  },
+  {
+    "feature": "fractal dimension error",
+    "class_id": 0,
+    "value": 1.9401615858078003
+  },
+  {
+    "feature": "fractal dimension error",
+    "class_id": 0,
+    "value": 3.1655187606811523
+  },
+  {
+    "feature": "fractal dimension error",
+    "class_id": 0,
+    "value": 1.8466229438781738
+  },
+  {
+    "feature": "fractal dimension error",
+    "class_id": 0,
+    "value": 2.2028183937072754
+  },
+  {
+    "feature": "fractal dimension error",
+    "class_id": 0,
+    "value": 2.126490831375122
+  },
+  {
+    "feature": "fractal dimension error",
+    "class_id": 0,
+    "value": 3.008373737335205
+  },
+  {
+    "feature": "fractal dimension error",
+    "class_id": 0,
+    "value": 1.6438310146331787
+  },
+  {
+    "feature": "fractal dimension error",
+    "class_id": 0,
+    "value": 2.5107476711273193
+  },
+  {
+    "feature": "fractal dimension error",
+    "class_id": 0,
+    "value": 7.154009819030762
+  },
+  {
+    "feature": "fractal dimension error",
+    "class_id": 0,
+    "value": 3.2141590118408203
+  },
+  {
+    "feature": "fractal dimension error",
+    "class_id": 0,
+    "value": 1.7111788988113403
+  },
+  {
+    "feature": "fractal dimension error",
+    "class_id": 0,
+    "value": 9.765610694885254
+  },
+  {
+    "feature": "fractal dimension error",
+    "class_id": 0,
+    "value": 2.1773757934570312
+  },
+  {
+    "feature": "fractal dimension error",
+    "class_id": 0,
+    "value": 1.4260728359222412
+  },
+  {
+    "feature": "worst radius",
+    "class_id": 0,
+    "value": 0.7599534392356873
+  },
+  {
+    "feature": "worst texture",
+    "class_id": 0,
+    "value": 1.989150881767273
+  },
+  {
+    "feature": "worst texture",
+    "class_id": 0,
+    "value": 2.5547616481781006
+  },
+  {
+    "feature": "worst texture",
+    "class_id": 0,
+    "value": 2.353222131729126
+  },
+  {
+    "feature": "worst perimeter",
+    "class_id": 0,
+    "value": 0.6227393746376038
+  },
+  {
+    "feature": "worst area",
+    "class_id": 0,
+    "value": 0.2912367284297943
+  },
+  {
+    "feature": "worst area",
+    "class_id": 0,
+    "value": 0.6175858974456787
+  },
+  {
+    "feature": "worst smoothness",
+    "class_id": 0,
+    "value": 2.490910768508911
+  },
+  {
+    "feature": "worst smoothness",
+    "class_id": 0,
+    "value": 1.9211636781692505
+  },
+  {
+    "feature": "worst compactness",
+    "class_id": 0,
+    "value": 1.5432487726211548
+  },
+  {
+    "feature": "worst compactness",
+    "class_id": 0,
+    "value": 1.0328220129013062
+  },
+  {
+    "feature": "worst compactness",
+    "class_id": 0,
+    "value": 1.1943166255950928
+  },
+  {
+    "feature": "worst compactness",
+    "class_id": 0,
+    "value": 2.060809850692749
+  },
+  {
+    "feature": "worst compactness",
+    "class_id": 0,
+    "value": 1.1242707967758179
+  },
+  {
+    "feature": "worst compactness",
+    "class_id": 0,
+    "value": 1.2299882173538208
+  },
+  {
+    "feature": "worst compactness",
+    "class_id": 0,
+    "value": 1.5062801837921143
+  },
+  {
+    "feature": "worst concavity",
+    "class_id": 0,
+    "value": 1.6325452327728271
+  },
+  {
+    "feature": "worst concavity",
+    "class_id": 0,
+    "value": 2.3125343322753906
+  },
+  {
+    "feature": "worst concavity",
+    "class_id": 0,
+    "value": 1.0841045379638672
+  },
+  {
+    "feature": "worst concavity",
+    "class_id": 0,
+    "value": 0.6527032852172852
+  },
+  {
+    "feature": "worst concavity",
+    "class_id": 0,
+    "value": 1.318666934967041
+  },
+  {
+    "feature": "worst concavity",
+    "class_id": 0,
+    "value": 1.8869365453720093
+  },
+  {
+    "feature": "worst concavity",
+    "class_id": 0,
+    "value": 0.6701140999794006
+  },
+  {
+    "feature": "worst concavity",
+    "class_id": 0,
+    "value": 2.6897685527801514
+  },
+  {
+    "feature": "worst concavity",
+    "class_id": 0,
+    "value": 0.8156878352165222
+  },
+  {
+    "feature": "worst concavity",
+    "class_id": 0,
+    "value": 4.771327972412109
+  },
+  {
+    "feature": "worst concavity",
+    "class_id": 0,
+    "value": 1.0657265186309814
+  },
+  {
+    "feature": "worst concave points",
+    "class_id": 0,
+    "value": 0.9358406066894531
+  },
+  {
+    "feature": "worst concave points",
+    "class_id": 0,
+    "value": 0.8717083930969238
+  },
+  {
+    "feature": "worst symmetry",
+    "class_id": 0,
+    "value": -2.0717527866363525
+  },
+  {
+    "feature": "worst symmetry",
+    "class_id": 0,
+    "value": 2.063525438308716
+  },
+  {
+    "feature": "worst fractal dimension",
+    "class_id": 0,
+    "value": 2.0009660720825195
+  },
+  {
+    "feature": "worst fractal dimension",
+    "class_id": 0,
+    "value": 2.5313971042633057
+  },
+  {
+    "feature": "worst fractal dimension",
+    "class_id": 0,
+    "value": 3.5649173259735107
+  },
+  {
+    "feature": "worst fractal dimension",
+    "class_id": 0,
+    "value": 2.268915891647339
+  },
+  {
+    "feature": "worst fractal dimension",
+    "class_id": 0,
+    "value": 2.28532075881958
+  },
+  {
+    "feature": "worst fractal dimension",
+    "class_id": 0,
+    "value": 1.8259786367416382
+  },
+  {
+    "feature": "worst fractal dimension",
+    "class_id": 0,
+    "value": 2.323599338531494
+  },
+  {
+    "feature": "worst fractal dimension",
+    "class_id": 0,
+    "value": 1.8642570972442627
+  },
+  {
+    "feature": "mean radius",
+    "class_id": 1,
+    "value": 4.017219543457031
+  },
+  {
+    "feature": "mean texture",
+    "class_id": 1,
+    "value": -1.7688488960266113
+  },
+  {
+    "feature": "mean texture",
+    "class_id": 1,
+    "value": 4.5284037590026855
+  },
+  {
+    "feature": "mean texture",
+    "class_id": 1,
+    "value": 3.2133147716522217
+  },
+  {
+    "feature": "mean texture",
+    "class_id": 1,
+    "value": 2.6523327827453613
+  },
+  {
+    "feature": "mean perimeter",
+    "class_id": 1,
+    "value": 4.0449724197387695
+  },
+  {
+    "feature": "mean perimeter",
+    "class_id": 1,
+    "value": 3.3344168663024902
+  },
+  {
+    "feature": "mean area",
+    "class_id": 1,
+    "value": 5.366812705993652
+  },
+  {
+    "feature": "mean area",
+    "class_id": 1,
+    "value": 3.562141180038452
+  },
+  {
+    "feature": "mean smoothness",
+    "class_id": 1,
+    "value": 3.0407087802886963
+  },
+  {
+    "feature": "mean smoothness",
+    "class_id": 1,
+    "value": 3.2275712490081787
+  },
+  {
+    "feature": "mean smoothness",
+    "class_id": 1,
+    "value": 3.3798296451568604
+  },
+  {
+    "feature": "mean compactness",
+    "class_id": 1,
+    "value": 3.4640486240386963
+  },
+  {
+    "feature": "mean compactness",
+    "class_id": 1,
+    "value": 3.517256498336792
+  },
+  {
+    "feature": "mean compactness",
+    "class_id": 1,
+    "value": 3.3329288959503174
+  },
+  {
+    "feature": "mean compactness",
+    "class_id": 1,
+    "value": 4.632723808288574
+  },
+  {
+    "feature": "mean compactness",
+    "class_id": 1,
+    "value": 3.9866271018981934
+  },
+  {
+    "feature": "mean compactness",
+    "class_id": 1,
+    "value": 3.13339900970459
+  },
+  {
+    "feature": "mean compactness",
+    "class_id": 1,
+    "value": 3.3291282653808594
+  },
+  {
+    "feature": "mean concavity",
+    "class_id": 1,
+    "value": 2.956453323364258
+  },
+  {
+    "feature": "mean concavity",
+    "class_id": 1,
+    "value": 4.304416656494141
+  },
+  {
+    "feature": "mean concavity",
+    "class_id": 1,
+    "value": 3.351872682571411
+  },
+  {
+    "feature": "mean concavity",
+    "class_id": 1,
+    "value": 3.6550698280334473
+  },
+  {
+    "feature": "mean concavity",
+    "class_id": 1,
+    "value": 2.924870491027832
+  },
+  {
+    "feature": "mean concavity",
+    "class_id": 1,
+    "value": 3.130791664123535
+  },
+  {
+    "feature": "mean concavity",
+    "class_id": 1,
+    "value": 4.299363136291504
+  },
+  {
+    "feature": "mean concavity",
+    "class_id": 1,
+    "value": 2.941293478012085
+  },
+  {
+    "feature": "mean concave points",
+    "class_id": 1,
+    "value": 2.921670913696289
+  },
+  {
+    "feature": "mean concave points",
+    "class_id": 1,
+    "value": 4.013848304748535
+  },
+  {
+    "feature": "mean concave points",
+    "class_id": 1,
+    "value": 2.9452431201934814
+  },
+  {
+    "feature": "mean concave points",
+    "class_id": 1,
+    "value": 3.576453447341919
+  },
+  {
+    "feature": "mean concave points",
+    "class_id": 1,
+    "value": 3.5188326835632324
+  },
+  {
+    "feature": "mean symmetry",
+    "class_id": 1,
+    "value": 3.134981155395508
+  },
+  {
+    "feature": "mean symmetry",
+    "class_id": 1,
+    "value": 3.0513899326324463
+  },
+  {
+    "feature": "mean symmetry",
+    "class_id": 1,
+    "value": 3.963623523712158
+  },
+  {
+    "feature": "mean fractal dimension",
+    "class_id": 1,
+    "value": 2.744033098220825
+  },
+  {
+    "feature": "mean fractal dimension",
+    "class_id": 1,
+    "value": 4.817026138305664
+  },
+  {
+    "feature": "radius error",
+    "class_id": 1,
+    "value": 8.746185302734375
+  },
+  {
+    "feature": "radius error",
+    "class_id": 1,
+    "value": 3.9042270183563232
+  },
+  {
+    "feature": "radius error",
+    "class_id": 1,
+    "value": 3.1481149196624756
+  },
+  {
+    "feature": "radius error",
+    "class_id": 1,
+    "value": 3.410801649093628
+  },
+  {
+    "feature": "texture error",
+    "class_id": 1,
+    "value": 2.7924740314483643
+  },
+  {
+    "feature": "texture error",
+    "class_id": 1,
+    "value": 2.140047073364258
+  },
+  {
+    "feature": "texture error",
+    "class_id": 1,
+    "value": 3.2892282009124756
+  },
+  {
+    "feature": "texture error",
+    "class_id": 1,
+    "value": 2.12430477142334
+  },
+  {
+    "feature": "perimeter error",
+    "class_id": 1,
+    "value": 9.3735990524292
+  },
+  {
+    "feature": "perimeter error",
+    "class_id": 1,
+    "value": 2.920720338821411
+  },
+  {
+    "feature": "perimeter error",
+    "class_id": 1,
+    "value": 3.4001471996307373
+  },
+  {
+    "feature": "perimeter error",
+    "class_id": 1,
+    "value": 2.8319013118743896
+  },
+  {
+    "feature": "perimeter error",
+    "class_id": 1,
+    "value": 3.5537405014038086
+  },
+  {
+    "feature": "perimeter error",
+    "class_id": 1,
+    "value": 3.2122039794921875
+  },
+  {
+    "feature": "perimeter error",
+    "class_id": 1,
+    "value": 3.51939058303833
+  },
+  {
+    "feature": "area error",
+    "class_id": 1,
+    "value": 10.949020385742188
+  },
+  {
+    "feature": "area error",
+    "class_id": 1,
+    "value": 4.346413612365723
+  },
+  {
+    "feature": "area error",
+    "class_id": 1,
+    "value": 4.145582675933838
+  },
+  {
+    "feature": "area error",
+    "class_id": 1,
+    "value": 3.594989061355591
+  },
+  {
+    "feature": "area error",
+    "class_id": 1,
+    "value": 3.071474075317383
+  },
+  {
+    "feature": "smoothness error",
+    "class_id": 1,
+    "value": 2.2050461769104004
+  },
+  {
+    "feature": "smoothness error",
+    "class_id": 1,
+    "value": 5.555452823638916
+  },
+  {
+    "feature": "smoothness error",
+    "class_id": 1,
+    "value": 8.20051097869873
+  },
+  {
+    "feature": "smoothness error",
+    "class_id": 1,
+    "value": 1.835416316986084
+  },
+  {
+    "feature": "compactness error",
+    "class_id": 1,
+    "value": 2.64847993850708
+  },
+  {
+    "feature": "compactness error",
+    "class_id": 1,
+    "value": 4.241748809814453
+  },
+  {
+    "feature": "compactness error",
+    "class_id": 1,
+    "value": 2.783540725708008
+  },
+  {
+    "feature": "compactness error",
+    "class_id": 1,
+    "value": 4.099402904510498
+  },
+  {
+    "feature": "compactness error",
+    "class_id": 1,
+    "value": 2.4344000816345215
+  },
+  {
+    "feature": "compactness error",
+    "class_id": 1,
+    "value": 3.3983194828033447
+  },
+  {
+    "feature": "compactness error",
+    "class_id": 1,
+    "value": 3.461646795272827
+  },
+  {
+    "feature": "concavity error",
+    "class_id": 1,
+    "value": 1.9828226566314697
+  },
+  {
+    "feature": "concavity error",
+    "class_id": 1,
+    "value": 1.9152706861495972
+  },
+  {
+    "feature": "concavity error",
+    "class_id": 1,
+    "value": 2.813124656677246
+  },
+  {
+    "feature": "concavity error",
+    "class_id": 1,
+    "value": 2.263897657394409
+  },
+  {
+    "feature": "concavity error",
+    "class_id": 1,
+    "value": 3.2830514907836914
+  },
+  {
+    "feature": "concavity error",
+    "class_id": 1,
+    "value": 2.1141085624694824
+  },
+  {
+    "feature": "concave points error",
+    "class_id": 1,
+    "value": 3.5417537689208984
+  },
+  {
+    "feature": "concave points error",
+    "class_id": 1,
+    "value": 2.4881739616394043
+  },
+  {
+    "feature": "concave points error",
+    "class_id": 1,
+    "value": 2.5442819595336914
+  },
+  {
+    "feature": "concave points error",
+    "class_id": 1,
+    "value": 4.299209117889404
+  },
+  {
+    "feature": "concave points error",
+    "class_id": 1,
+    "value": 2.891838550567627
+  },
+  {
+    "feature": "concave points error",
+    "class_id": 1,
+    "value": 2.533371925354004
+  },
+  {
+    "feature": "symmetry error",
+    "class_id": 1,
+    "value": 3.132056951522827
+  },
+  {
+    "feature": "symmetry error",
+    "class_id": 1,
+    "value": 4.102943420410156
+  },
+  {
+    "feature": "symmetry error",
+    "class_id": 1,
+    "value": 4.005280494689941
+  },
+  {
+    "feature": "symmetry error",
+    "class_id": 1,
+    "value": 3.3974709510803223
+  },
+  {
+    "feature": "symmetry error",
+    "class_id": 1,
+    "value": 3.7639949321746826
+  },
+  {
+    "feature": "symmetry error",
+    "class_id": 1,
+    "value": 4.487851142883301
+  },
+  {
+    "feature": "symmetry error",
+    "class_id": 1,
+    "value": 2.86089825630188
+  },
+  {
+    "feature": "symmetry error",
+    "class_id": 1,
+    "value": 3.574413537979126
+  },
+  {
+    "feature": "symmetry error",
+    "class_id": 1,
+    "value": 6.707676410675049
+  },
+  {
+    "feature": "symmetry error",
+    "class_id": 1,
+    "value": 2.8057472705841064
+  },
+  {
+    "feature": "symmetry error",
+    "class_id": 1,
+    "value": 1.8992036581039429
+  },
+  {
+    "feature": "fractal dimension error",
+    "class_id": 1,
+    "value": 2.3723104000091553
+  },
+  {
+    "feature": "fractal dimension error",
+    "class_id": 1,
+    "value": 1.4616175889968872
+  },
+  {
+    "feature": "fractal dimension error",
+    "class_id": 1,
+    "value": 2.0460474491119385
+  },
+  {
+    "feature": "fractal dimension error",
+    "class_id": 1,
+    "value": 2.2956087589263916
+  },
+  {
+    "feature": "fractal dimension error",
+    "class_id": 1,
+    "value": 3.3002145290374756
+  },
+  {
+    "feature": "fractal dimension error",
+    "class_id": 1,
+    "value": 1.841010570526123
+  },
+  {
+    "feature": "worst radius",
+    "class_id": 1,
+    "value": 3.446437358856201
+  },
+  {
+    "feature": "worst texture",
+    "class_id": 1,
+    "value": 3.0569849014282227
+  },
+  {
+    "feature": "worst texture",
+    "class_id": 1,
+    "value": 3.8160083293914795
+  },
+  {
+    "feature": "worst texture",
+    "class_id": 1,
+    "value": 3.429182529449463
+  },
+  {
+    "feature": "worst perimeter",
+    "class_id": 1,
+    "value": 3.2880427837371826
+  },
+  {
+    "feature": "worst perimeter",
+    "class_id": 1,
+    "value": 3.2174994945526123
+  },
+  {
+    "feature": "worst area",
+    "class_id": 1,
+    "value": 3.7967402935028076
+  },
+  {
+    "feature": "worst area",
+    "class_id": 1,
+    "value": 4.161591053009033
+  },
+  {
+    "feature": "worst area",
+    "class_id": 1,
+    "value": 4.691450119018555
+  },
+  {
+    "feature": "worst area",
+    "class_id": 1,
+    "value": 3.7270700931549072
+  },
+  {
+    "feature": "worst smoothness",
+    "class_id": 1,
+    "value": 3.3242719173431396
+  },
+  {
+    "feature": "worst smoothness",
+    "class_id": 1,
+    "value": 3.8685081005096436
+  },
+  {
+    "feature": "worst smoothness",
+    "class_id": 1,
+    "value": 3.6899306774139404
+  },
+  {
+    "feature": "worst compactness",
+    "class_id": 1,
+    "value": 5.260868072509766
+  },
+  {
+    "feature": "worst compactness",
+    "class_id": 1,
+    "value": 3.2269437313079834
+  },
+  {
+    "feature": "worst compactness",
+    "class_id": 1,
+    "value": 4.017553806304932
+  },
+  {
+    "feature": "worst compactness",
+    "class_id": 1,
+    "value": 4.029228210449219
+  },
+  {
+    "feature": "worst compactness",
+    "class_id": 1,
+    "value": 4.481932163238525
+  },
+  {
+    "feature": "worst compactness",
+    "class_id": 1,
+    "value": 2.9973490238189697
+  },
+  {
+    "feature": "worst compactness",
+    "class_id": 1,
+    "value": 2.9370317459106445
+  },
+  {
+    "feature": "worst concavity",
+    "class_id": 1,
+    "value": -1.1677907705307007
+  },
+  {
+    "feature": "worst concavity",
+    "class_id": 1,
+    "value": 4.060386657714844
+  },
+  {
+    "feature": "worst concavity",
+    "class_id": 1,
+    "value": 3.256103754043579
+  },
+  {
+    "feature": "worst concavity",
+    "class_id": 1,
+    "value": 2.779724359512329
+  },
+  {
+    "feature": "worst concavity",
+    "class_id": 1,
+    "value": 3.0781264305114746
+  },
+  {
+    "feature": "worst concavity",
+    "class_id": 1,
+    "value": 3.3629868030548096
+  },
+  {
+    "feature": "worst concavity",
+    "class_id": 1,
+    "value": 3.085381031036377
+  },
+  {
+    "feature": "worst concave points",
+    "class_id": 1,
+    "value": -0.7323607802391052
+  },
+  {
+    "feature": "worst concave points",
+    "class_id": 1,
+    "value": -1.2936705350875854
+  },
+  {
+    "feature": "worst symmetry",
+    "class_id": 1,
+    "value": -2.0733063220977783
+  },
+  {
+    "feature": "worst symmetry",
+    "class_id": 1,
+    "value": 4.465155601501465
+  },
+  {
+    "feature": "worst symmetry",
+    "class_id": 1,
+    "value": 3.0794804096221924
+  },
+  {
+    "feature": "worst symmetry",
+    "class_id": 1,
+    "value": 3.0499649047851562
+  },
+  {
+    "feature": "worst symmetry",
+    "class_id": 1,
+    "value": 5.807334899902344
+  },
+  {
+    "feature": "worst symmetry",
+    "class_id": 1,
+    "value": 3.9463043212890625
+  },
+  {
+    "feature": "worst symmetry",
+    "class_id": 1,
+    "value": 2.989380359649658
+  },
+  {
+    "feature": "worst fractal dimension",
+    "class_id": 1,
+    "value": 6.785781383514404
+  },
+  {
+    "feature": "worst fractal dimension",
+    "class_id": 1,
+    "value": 3.1219799518585205
+  },
+  {
+    "feature": "worst fractal dimension",
+    "class_id": 1,
+    "value": 4.899197101593018
+  },
+  {
+    "feature": "worst fractal dimension",
+    "class_id": 1,
+    "value": 3.1110432147979736
+  },
+  {
+    "feature": "worst fractal dimension",
+    "class_id": 1,
+    "value": 3.1055748462677
+  }
+]

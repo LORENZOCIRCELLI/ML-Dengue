@@ -1,0 +1,152 @@
+[
+  {
+    "feature": "worst texture",
+    "mean_absolute_attribution": 0.39560354,
+    "mean_signed_attribution": -0.016639145
+  },
+  {
+    "feature": "mean texture",
+    "mean_absolute_attribution": 0.36188692,
+    "mean_signed_attribution": -0.026373303
+  },
+  {
+    "feature": "worst concave points",
+    "mean_absolute_attribution": 0.32034442,
+    "mean_signed_attribution": 0.04808647
+  },
+  {
+    "feature": "mean fractal dimension",
+    "mean_absolute_attribution": 0.29812354,
+    "mean_signed_attribution": -0.050978027
+  },
+  {
+    "feature": "worst symmetry",
+    "mean_absolute_attribution": 0.29666358,
+    "mean_signed_attribution": 0.043332808
+  },
+  {
+    "feature": "worst smoothness",
+    "mean_absolute_attribution": 0.29338485,
+    "mean_signed_attribution": 0.07224996
+  },
+  {
+    "feature": "mean perimeter",
+    "mean_absolute_attribution": 0.28284657,
+    "mean_signed_attribution": 0.0017946581
+  },
+  {
+    "feature": "worst concavity",
+    "mean_absolute_attribution": 0.24290755,
+    "mean_signed_attribution": 0.047474902
+  },
+  {
+    "feature": "worst area",
+    "mean_absolute_attribution": 0.23897393,
+    "mean_signed_attribution": -0.026231062
+  },
+  {
+    "feature": "mean concave points",
+    "mean_absolute_attribution": 0.23032883,
+    "mean_signed_attribution": 0.006131214
+  },
+  {
+    "feature": "mean radius",
+    "mean_absolute_attribution": 0.22145693,
+    "mean_signed_attribution": 0.00071456906
+  },
+  {
+    "feature": "mean area",
+    "mean_absolute_attribution": 0.2121237,
+    "mean_signed_attribution": -0.024885004
+  },
+  {
+    "feature": "area error",
+    "mean_absolute_attribution": 0.19776563,
+    "mean_signed_attribution": -0.049869422
+  },
+  {
+    "feature": "worst radius",
+    "mean_absolute_attribution": 0.19291791,
+    "mean_signed_attribution": -0.002157472
+  },
+  {
+    "feature": "fractal dimension error",
+    "mean_absolute_attribution": 0.17993155,
+    "mean_signed_attribution": -0.0176993
+  },
+  {
+    "feature": "radius error",
+    "mean_absolute_attribution": 0.17247497,
+    "mean_signed_attribution": -0.035427857
+  },
+  {
+    "feature": "mean smoothness",
+    "mean_absolute_attribution": 0.16681463,
+    "mean_signed_attribution": 0.0322047
+  },
+  {
+    "feature": "perimeter error",
+    "mean_absolute_attribution": 0.15919168,
+    "mean_signed_attribution": -0.03632917
+  },
+  {
+    "feature": "worst perimeter",
+    "mean_absolute_attribution": 0.15516788,
+    "mean_signed_attribution": -0.0010717306
+  },
+  {
+    "feature": "mean compactness",
+    "mean_absolute_attribution": 0.14357711,
+    "mean_signed_attribution": 0.026585694
+  },
+  {
+    "feature": "mean concavity",
+    "mean_absolute_attribution": 0.1369835,
+    "mean_signed_attribution": 0.00027459319
+  },
+  {
+    "feature": "symmetry error",
+    "mean_absolute_attribution": 0.12887657,
+    "mean_signed_attribution": 0.012691661
+  },
+  {
+    "feature": "concave points error",
+    "mean_absolute_attribution": 0.1107832,
+    "mean_signed_attribution": 0.0097468635
+  },
+  {
+    "feature": "mean symmetry",
+    "mean_absolute_attribution": 0.101072304,
+    "mean_signed_attribution": -0.0049243276
+  },
+  {
+    "feature": "worst fractal dimension",
+    "mean_absolute_attribution": 0.087192,
+    "mean_signed_attribution": 0.021018328
+  },
+  {
+    "feature": "compactness error",
+    "mean_absolute_attribution": 0.050541442,
+    "mean_signed_attribution": -0.008496162
+  },
+  {
+    "feature": "worst compactness",
+    "mean_absolute_attribution": 0.027328597,
+    "mean_signed_attribution": 0.01204522
+  },
+  {
+    "feature": "concavity error",
+    "mean_absolute_attribution": 0.01813127,
+    "mean_signed_attribution": -0.0005599446
+  },
+  {
+    "feature": "smoothness error",
+    "mean_absolute_attribution": 0.016520897,
+    "mean_signed_attribution": 0.0040838984
+  },
+  {
+    "feature": "texture error",
+    "mean_absolute_attribution": 0.016505327,
+    "mean_signed_attribution": -0.0026910186
+  }
+]

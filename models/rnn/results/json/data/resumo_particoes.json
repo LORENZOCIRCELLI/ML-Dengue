@@ -1,0 +1,20 @@
+[
+  {
+    "split": "treino",
+    "amostras": 341,
+    "positivos": 127,
+    "prevalencia": 0.3724340175953079
+  },
+  {
+    "split": "validacao",
+    "amostras": 114,
+    "positivos": 43,
+    "prevalencia": 0.37719298245614036
+  },
+  {
+    "split": "teste",
+    "amostras": 114,
+    "positivos": 42,
+    "prevalencia": 0.3684210526315789
+  }
+]

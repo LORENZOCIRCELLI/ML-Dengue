@@ -1,0 +1,931 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-10-09T14:46:27.888310+00:00",
+  "municipio": "Ribeirão Preto",
+  "horizonteSemanas": 12,
+  "modeloSelecionado": "lstm_numpy",
+  "versaoModelo": "master-1.0.0",
+  "fonteNotebook": "notebooks/Notebook_Mestre_Clima_Dengue.ipynb",
+  "treinamento": {
+    "ultimaDataAlvoTreino": "2021-12-26",
+    "periodoValidacao": {
+      "inicio": "2022-01-02",
+      "fim": "2023-12-31"
+    },
+    "reajustadoComTeste": false,
+    "observacao": "O teste retrospectivo não foi incorporado ao ajuste deste artefato de pesquisa."
+  },
+  "previsaoAtual": {
+    "modelo": "lstm_numpy",
+    "probabilidade": 0.4001771704652153,
+    "limiar": 0.5111739797610135,
+    "alertaPrevisto": false,
+    "nivelRisco": "moderado",
+    "prAucValidacao": 0.36349942005672176,
+    "prAucTesteRetrospectivo": 0.19684077118184942,
+    "semanaReferencia": "2025-12-28",
+    "dataAlvo": "2026-03-22",
+    "regraSelecaoModelo": "maior PR AUC na validação",
+    "regraNivelRisco": "baixo < 50% do limiar; moderado < limiar; alto >= limiar"
+  },
+  "previsoesAtuais": [
+    {
+      "modelo": "lstm_numpy",
+      "probabilidade": 0.4001771704652153,
+      "limiar": 0.5111739797610135,
+      "alertaPrevisto": false,
+      "nivelRisco": "moderado",
+      "prAucValidacao": 0.36349942005672176,
+      "prAucTesteRetrospectivo": 0.19684077118184942
+    },
+    {
+      "modelo": "random_forest",
+      "probabilidade": 0.03268281540236115,
+      "limiar": 0.003194390840087482,
+      "alertaPrevisto": true,
+      "nivelRisco": "alto",
+      "prAucValidacao": 0.34941762468111204,
+      "prAucTesteRetrospectivo": 0.21562237818395844
+    },
+    {
+      "modelo": "logistic_regression",
+      "probabilidade": 8.442485302252602e-06,
+      "limiar": 7.599784213224907e-09,
+      "alertaPrevisto": true,
+      "nivelRisco": "alto",
+      "prAucValidacao": 0.2681904550842585,
+      "prAucTesteRetrospectivo": 0.21178780179932055
+    },
+    {
+      "modelo": "persistence_baseline",
+      "probabilidade": 0.0,
+      "limiar": 0.0,
+      "alertaPrevisto": true,
+      "nivelRisco": "indeterminado",
+      "prAucValidacao": 0.21904761904761905,
+      "prAucTesteRetrospectivo": 0.19033575317604357
+    },
+    {
+      "modelo": "seasonal_baseline",
+      "probabilidade": 0.0,
+      "limiar": 0.0,
+      "alertaPrevisto": true,
+      "nivelRisco": "indeterminado",
+      "prAucValidacao": 0.20002019895975356,
+      "prAucTesteRetrospectivo": 0.16973684210526313
+    },
+    {
+      "modelo": "lstm_pytorch",
+      "probabilidade": 0.46074777841567993,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "nivelRisco": "alto",
+      "prAucValidacao": 0.15014208694536493,
+      "prAucTesteRetrospectivo": 0.11598883098218146
+    }
+  ],
+  "situacaoClimaticaDisponivel": {
+    "faseEnsoOperacional": "la_nina",
+    "oniComAtrasoDeQuatroSemanas": -0.6
+  },
+  "linhaTempoPrevisoes": [
+    {
+      "dataEmissao": "2023-10-15",
+      "dataAlvo": "2024-01-07",
+      "probabilidade": 0.4742152690887451,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2023-10-22",
+      "dataAlvo": "2024-01-14",
+      "probabilidade": 0.47673115134239197,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2023-10-29",
+      "dataAlvo": "2024-01-21",
+      "probabilidade": 0.483012318611145,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": true
+    },
+    {
+      "dataEmissao": "2023-11-05",
+      "dataAlvo": "2024-01-28",
+      "probabilidade": 0.48971179127693176,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": true
+    },
+    {
+      "dataEmissao": "2023-11-12",
+      "dataAlvo": "2024-02-04",
+      "probabilidade": 0.48783865571022034,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2023-11-19",
+      "dataAlvo": "2024-02-11",
+      "probabilidade": 0.4786446690559387,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2023-11-26",
+      "dataAlvo": "2024-02-18",
+      "probabilidade": 0.48104074597358704,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2023-12-03",
+      "dataAlvo": "2024-02-25",
+      "probabilidade": 0.4854258894920349,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2023-12-10",
+      "dataAlvo": "2024-03-03",
+      "probabilidade": 0.48820826411247253,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2023-12-17",
+      "dataAlvo": "2024-03-10",
+      "probabilidade": 0.49002760648727417,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2023-12-24",
+      "dataAlvo": "2024-03-17",
+      "probabilidade": 0.49086689949035645,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2023-12-31",
+      "dataAlvo": "2024-03-24",
+      "probabilidade": 0.4899483323097229,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-01-07",
+      "dataAlvo": "2024-03-31",
+      "probabilidade": 0.4905458092689514,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-01-14",
+      "dataAlvo": "2024-04-07",
+      "probabilidade": 0.49028679728507996,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-01-21",
+      "dataAlvo": "2024-04-14",
+      "probabilidade": 0.49050793051719666,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-01-28",
+      "dataAlvo": "2024-04-21",
+      "probabilidade": 0.4923561215400696,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-02-04",
+      "dataAlvo": "2024-04-28",
+      "probabilidade": 0.4927302300930023,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-02-11",
+      "dataAlvo": "2024-05-05",
+      "probabilidade": 0.48993727564811707,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-02-18",
+      "dataAlvo": "2024-05-12",
+      "probabilidade": 0.4875091016292572,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-02-25",
+      "dataAlvo": "2024-05-19",
+      "probabilidade": 0.48979973793029785,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-03-03",
+      "dataAlvo": "2024-05-26",
+      "probabilidade": 0.48235073685646057,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-03-10",
+      "dataAlvo": "2024-06-02",
+      "probabilidade": 0.4814375936985016,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-03-17",
+      "dataAlvo": "2024-06-09",
+      "probabilidade": 0.47625213861465454,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-03-24",
+      "dataAlvo": "2024-06-16",
+      "probabilidade": 0.4766883850097656,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-03-31",
+      "dataAlvo": "2024-06-23",
+      "probabilidade": 0.487378865480423,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-04-07",
+      "dataAlvo": "2024-06-30",
+      "probabilidade": 0.4830021858215332,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-04-14",
+      "dataAlvo": "2024-07-07",
+      "probabilidade": 0.4809921979904175,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-04-21",
+      "dataAlvo": "2024-07-14",
+      "probabilidade": 0.4803021550178528,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-04-28",
+      "dataAlvo": "2024-07-21",
+      "probabilidade": 0.4773041903972626,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-05-05",
+      "dataAlvo": "2024-07-28",
+      "probabilidade": 0.47246626019477844,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-05-12",
+      "dataAlvo": "2024-08-04",
+      "probabilidade": 0.47007423639297485,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-05-19",
+      "dataAlvo": "2024-08-11",
+      "probabilidade": 0.4710146486759186,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-05-26",
+      "dataAlvo": "2024-08-18",
+      "probabilidade": 0.47130677103996277,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-06-02",
+      "dataAlvo": "2024-08-25",
+      "probabilidade": 0.47697949409484863,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-06-09",
+      "dataAlvo": "2024-09-01",
+      "probabilidade": 0.47184380888938904,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": true
+    },
+    {
+      "dataEmissao": "2024-06-16",
+      "dataAlvo": "2024-09-08",
+      "probabilidade": 0.4636632204055786,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": true
+    },
+    {
+      "dataEmissao": "2024-06-23",
+      "dataAlvo": "2024-09-15",
+      "probabilidade": 0.45306700468063354,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": true
+    },
+    {
+      "dataEmissao": "2024-06-30",
+      "dataAlvo": "2024-09-22",
+      "probabilidade": 0.44245627522468567,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": true
+    },
+    {
+      "dataEmissao": "2024-07-07",
+      "dataAlvo": "2024-09-29",
+      "probabilidade": 0.43565452098846436,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": false,
+      "alertaObservado": true
+    },
+    {
+      "dataEmissao": "2024-07-14",
+      "dataAlvo": "2024-10-06",
+      "probabilidade": 0.4293465316295624,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": false,
+      "alertaObservado": true
+    },
+    {
+      "dataEmissao": "2024-07-21",
+      "dataAlvo": "2024-10-13",
+      "probabilidade": 0.425082802772522,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": false,
+      "alertaObservado": true
+    },
+    {
+      "dataEmissao": "2024-07-28",
+      "dataAlvo": "2024-10-20",
+      "probabilidade": 0.4213443994522095,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": false,
+      "alertaObservado": true
+    },
+    {
+      "dataEmissao": "2024-08-04",
+      "dataAlvo": "2024-10-27",
+      "probabilidade": 0.4197252690792084,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": false,
+      "alertaObservado": true
+    },
+    {
+      "dataEmissao": "2024-08-11",
+      "dataAlvo": "2024-11-03",
+      "probabilidade": 0.4196714460849762,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": false,
+      "alertaObservado": true
+    },
+    {
+      "dataEmissao": "2024-08-18",
+      "dataAlvo": "2024-11-10",
+      "probabilidade": 0.42038851976394653,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": false,
+      "alertaObservado": true
+    },
+    {
+      "dataEmissao": "2024-08-25",
+      "dataAlvo": "2024-11-17",
+      "probabilidade": 0.42291826009750366,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": false,
+      "alertaObservado": true
+    },
+    {
+      "dataEmissao": "2024-09-01",
+      "dataAlvo": "2024-11-24",
+      "probabilidade": 0.4223842918872833,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": false,
+      "alertaObservado": true
+    },
+    {
+      "dataEmissao": "2024-09-08",
+      "dataAlvo": "2024-12-01",
+      "probabilidade": 0.4243878424167633,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": false,
+      "alertaObservado": true
+    },
+    {
+      "dataEmissao": "2024-09-15",
+      "dataAlvo": "2024-12-08",
+      "probabilidade": 0.42409244179725647,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": false,
+      "alertaObservado": true
+    },
+    {
+      "dataEmissao": "2024-09-22",
+      "dataAlvo": "2024-12-15",
+      "probabilidade": 0.4241175651550293,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": false,
+      "alertaObservado": true
+    },
+    {
+      "dataEmissao": "2024-09-29",
+      "dataAlvo": "2024-12-22",
+      "probabilidade": 0.42425304651260376,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": false,
+      "alertaObservado": true
+    },
+    {
+      "dataEmissao": "2024-10-06",
+      "dataAlvo": "2024-12-29",
+      "probabilidade": 0.4235506057739258,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": false,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-10-13",
+      "dataAlvo": "2025-01-05",
+      "probabilidade": 0.42481717467308044,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": false,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-10-20",
+      "dataAlvo": "2025-01-12",
+      "probabilidade": 0.4258868396282196,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": false,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-10-27",
+      "dataAlvo": "2025-01-19",
+      "probabilidade": 0.4369039237499237,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-11-03",
+      "dataAlvo": "2025-01-26",
+      "probabilidade": 0.4500826895236969,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-11-10",
+      "dataAlvo": "2025-02-02",
+      "probabilidade": 0.4609485864639282,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-11-17",
+      "dataAlvo": "2025-02-09",
+      "probabilidade": 0.47102537751197815,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-11-24",
+      "dataAlvo": "2025-02-16",
+      "probabilidade": 0.4763071537017822,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-12-01",
+      "dataAlvo": "2025-02-23",
+      "probabilidade": 0.47091802954673767,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-12-08",
+      "dataAlvo": "2025-03-02",
+      "probabilidade": 0.47209984064102173,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-12-15",
+      "dataAlvo": "2025-03-09",
+      "probabilidade": 0.4747609496116638,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-12-22",
+      "dataAlvo": "2025-03-16",
+      "probabilidade": 0.4800581932067871,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2024-12-29",
+      "dataAlvo": "2025-03-23",
+      "probabilidade": 0.4862237870693207,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-01-05",
+      "dataAlvo": "2025-03-30",
+      "probabilidade": 0.4880549907684326,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-01-12",
+      "dataAlvo": "2025-04-06",
+      "probabilidade": 0.4847137928009033,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-01-19",
+      "dataAlvo": "2025-04-13",
+      "probabilidade": 0.4804858863353729,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-01-26",
+      "dataAlvo": "2025-04-20",
+      "probabilidade": 0.4741199016571045,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-02-02",
+      "dataAlvo": "2025-04-27",
+      "probabilidade": 0.4770034849643707,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-02-09",
+      "dataAlvo": "2025-05-04",
+      "probabilidade": 0.48240065574645996,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-02-16",
+      "dataAlvo": "2025-05-11",
+      "probabilidade": 0.47981157898902893,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-02-23",
+      "dataAlvo": "2025-05-18",
+      "probabilidade": 0.47367793321609497,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-03-02",
+      "dataAlvo": "2025-05-25",
+      "probabilidade": 0.4666711390018463,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-03-09",
+      "dataAlvo": "2025-06-01",
+      "probabilidade": 0.4576666057109833,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-03-16",
+      "dataAlvo": "2025-06-08",
+      "probabilidade": 0.4552478492259979,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-03-23",
+      "dataAlvo": "2025-06-15",
+      "probabilidade": 0.4596465229988098,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-03-30",
+      "dataAlvo": "2025-06-22",
+      "probabilidade": 0.46062925457954407,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-04-06",
+      "dataAlvo": "2025-06-29",
+      "probabilidade": 0.46580594778060913,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-04-13",
+      "dataAlvo": "2025-07-06",
+      "probabilidade": 0.46090853214263916,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-04-20",
+      "dataAlvo": "2025-07-13",
+      "probabilidade": 0.46394115686416626,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-04-27",
+      "dataAlvo": "2025-07-20",
+      "probabilidade": 0.46567583084106445,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-05-04",
+      "dataAlvo": "2025-07-27",
+      "probabilidade": 0.46429523825645447,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-05-11",
+      "dataAlvo": "2025-08-03",
+      "probabilidade": 0.4564395248889923,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-05-18",
+      "dataAlvo": "2025-08-10",
+      "probabilidade": 0.45442140102386475,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-05-25",
+      "dataAlvo": "2025-08-17",
+      "probabilidade": 0.4510001540184021,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-06-01",
+      "dataAlvo": "2025-08-24",
+      "probabilidade": 0.4499436318874359,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-06-08",
+      "dataAlvo": "2025-08-31",
+      "probabilidade": 0.4537472724914551,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-06-15",
+      "dataAlvo": "2025-09-07",
+      "probabilidade": 0.4536600410938263,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-06-22",
+      "dataAlvo": "2025-09-14",
+      "probabilidade": 0.4519428014755249,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-06-29",
+      "dataAlvo": "2025-09-21",
+      "probabilidade": 0.4508386254310608,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-07-06",
+      "dataAlvo": "2025-09-28",
+      "probabilidade": 0.4509274661540985,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-07-13",
+      "dataAlvo": "2025-10-05",
+      "probabilidade": 0.45028480887413025,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-07-20",
+      "dataAlvo": "2025-10-12",
+      "probabilidade": 0.4489131271839142,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-07-27",
+      "dataAlvo": "2025-10-19",
+      "probabilidade": 0.4481753706932068,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-08-03",
+      "dataAlvo": "2025-10-26",
+      "probabilidade": 0.44654011726379395,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-08-10",
+      "dataAlvo": "2025-11-02",
+      "probabilidade": 0.4456563889980316,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-08-17",
+      "dataAlvo": "2025-11-09",
+      "probabilidade": 0.4423920512199402,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-08-24",
+      "dataAlvo": "2025-11-16",
+      "probabilidade": 0.44074204564094543,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-08-31",
+      "dataAlvo": "2025-11-23",
+      "probabilidade": 0.43783989548683167,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": true,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-09-07",
+      "dataAlvo": "2025-11-30",
+      "probabilidade": 0.43604546785354614,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": false,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-09-14",
+      "dataAlvo": "2025-12-07",
+      "probabilidade": 0.43343836069107056,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": false,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-09-21",
+      "dataAlvo": "2025-12-14",
+      "probabilidade": 0.4333919584751129,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": false,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-09-28",
+      "dataAlvo": "2025-12-21",
+      "probabilidade": 0.43409213423728943,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": false,
+      "alertaObservado": false
+    },
+    {
+      "dataEmissao": "2025-10-05",
+      "dataAlvo": "2025-12-28",
+      "probabilidade": 0.432435005903244,
+      "limiar": 0.4367465376853943,
+      "alertaPrevisto": false,
+      "alertaObservado": false
+    }
+  ],
+  "statusCientifico": {
+    "code": "acima_da_referencia_de_prevalencia",
+    "researchOnly": true,
+    "publicHealthDecisionReady": false,
+    "message": "Resultado destinado à pesquisa. Não deve ser usado isoladamente para decisões de saúde pública."
+  }
+}

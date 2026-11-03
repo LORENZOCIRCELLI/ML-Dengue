@@ -1,0 +1,82 @@
+[
+  {
+    "sample_id": 466,
+    "data_emissao": "2019-12-01",
+    "data_alvo": "2019-12-29",
+    "data_ultimo_caso": "2019-11-24",
+    "media_casos_referencia": 84.25,
+    "casos_futuros": 251.0,
+    "target": 1,
+    "split": "descartado_fronteira"
+  },
+  {
+    "sample_id": 467,
+    "data_emissao": "2019-12-08",
+    "data_alvo": "2020-01-05",
+    "data_ultimo_caso": "2019-12-01",
+    "media_casos_referencia": 108.25,
+    "casos_futuros": 624.0,
+    "target": 1,
+    "split": "descartado_fronteira"
+  },
+  {
+    "sample_id": 468,
+    "data_emissao": "2019-12-15",
+    "data_alvo": "2020-01-12",
+    "data_ultimo_caso": "2019-12-08",
+    "media_casos_referencia": 134.75,
+    "casos_futuros": 948.0,
+    "target": 1,
+    "split": "descartado_fronteira"
+  },
+  {
+    "sample_id": 469,
+    "data_emissao": "2019-12-22",
+    "data_alvo": "2020-01-19",
+    "data_ultimo_caso": "2019-12-15",
+    "media_casos_referencia": 148.5,
+    "casos_futuros": 1212.0,
+    "target": 1,
+    "split": "descartado_fronteira"
+  },
+  {
+    "sample_id": 623,
+    "data_emissao": "2022-12-04",
+    "data_alvo": "2023-01-01",
+    "data_ultimo_caso": "2022-11-27",
+    "media_casos_referencia": 161.0,
+    "casos_futuros": 220.0,
+    "target": 0,
+    "split": "descartado_fronteira"
+  },
+  {
+    "sample_id": 624,
+    "data_emissao": "2022-12-11",
+    "data_alvo": "2023-01-08",
+    "data_ultimo_caso": "2022-12-04",
+    "media_casos_referencia": 142.75,
+    "casos_futuros": 281.0,
+    "target": 1,
+    "split": "descartado_fronteira"
+  },
+  {
+    "sample_id": 625,
+    "data_emissao": "2022-12-18",
+    "data_alvo": "2023-01-15",
+    "data_ultimo_caso": "2022-12-11",
+    "media_casos_referencia": 116.75,
+    "casos_futuros": 259.0,
+    "target": 1,
+    "split": "descartado_fronteira"
+  },
+  {
+    "sample_id": 626,
+    "data_emissao": "2022-12-25",
+    "data_alvo": "2023-01-22",
+    "data_ultimo_caso": "2022-12-18",
+    "media_casos_referencia": 79.75,
+    "casos_futuros": 375.0,
+    "target": 1,
+    "split": "descartado_fronteira"
+  }
+]

@@ -25,17 +25,7 @@
     "moderate": 0.33,
     "high": 0.66
   },
-  "availableHorizonsWeeks": [
-    4,
-    8,
-    12,
-    16
-  ],
-  "plannedHorizonsWeeks": [
-    4,
-    8,
-    12,
-    16
-  ],
+  "availableHorizonsWeeks": [4, 8, 12, 16],
+  "plannedHorizonsWeeks": [4, 8, 12, 16],
   "notes": "O notebook original (Notebook_Dengue_Atualizado.ipynb) só produziu resultado real treinado para o horizonte de 16 semanas. Os horizontes de 4, 8 e 12 semanas exibidos neste app usam dados MOCK/fictícios para validar a interface antes que o retraining por horizonte e os endpoints AWS existam — ver README, seção 'Horizontes de previsão'."
 }

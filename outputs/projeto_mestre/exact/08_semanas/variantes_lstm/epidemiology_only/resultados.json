@@ -1,0 +1,72 @@
+{
+  "selection": {
+    "threshold": 0.6288195848464966,
+    "method": "maior precisão com recall >= 0.80",
+    "validation_precision": 0.47619047619047616,
+    "validation_recall": 0.8695652173913043
+  },
+  "metrics": {
+    "validation": {
+      "n": 105,
+      "prevalence": 0.21904761904761905,
+      "threshold": 0.6288195848464966,
+      "accuracy": 0.7619047619047619,
+      "balanced_accuracy": 0.8006362672322376,
+      "precision": 0.47619047619047616,
+      "recall_sensitivity": 0.8695652173913043,
+      "specificity": 0.7317073170731707,
+      "f1": 0.6153846153846154,
+      "f2": 0.746268656716418,
+      "pr_auc": 0.32867994158097097,
+      "roc_auc": 0.7423117709437964,
+      "brier": 0.21855364739894867,
+      "tn": 60,
+      "fp": 22,
+      "fn": 3,
+      "tp": 20,
+      "false_alarms_per_year": 10.932428571428572
+    },
+    "test": {
+      "n": 104,
+      "prevalence": 0.18269230769230768,
+      "threshold": 0.6288195848464966,
+      "accuracy": 0.5673076923076923,
+      "balanced_accuracy": 0.5309597523219814,
+      "precision": 0.20454545454545456,
+      "recall_sensitivity": 0.47368421052631576,
+      "specificity": 0.5882352941176471,
+      "f1": 0.2857142857142857,
+      "f2": 0.375,
+      "pr_auc": 0.21448505842939497,
+      "roc_auc": 0.5814241486068111,
+      "brier": 0.31242847442626953,
+      "tn": 50,
+      "fp": 35,
+      "fn": 10,
+      "tp": 9,
+      "false_alarms_per_year": 17.559735576923078,
+      "confidence_intervals": {
+        "pr_auc": {
+          "lower_95": 0.05505067809490065,
+          "upper_95": 0.4719736585534952
+        },
+        "roc_auc": {
+          "lower_95": 0.33299198561905474,
+          "upper_95": 0.8361217473649538
+        },
+        "recall_sensitivity": {
+          "lower_95": 0.0,
+          "upper_95": 1.0
+        },
+        "precision": {
+          "lower_95": 0.0,
+          "upper_95": 0.5
+        },
+        "f2": {
+          "lower_95": 0.0,
+          "upper_95": 0.6753972075108328
+        }
+      }
+    }
+  }
+}

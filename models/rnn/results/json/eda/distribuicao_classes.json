@@ -1,0 +1,44 @@
+[
+  {
+    "split": "treino",
+    "class_id": 0,
+    "class_label": "Benigno",
+    "count": 214,
+    "proportion": 0.6275659824046921
+  },
+  {
+    "split": "treino",
+    "class_id": 1,
+    "class_label": "Maligno",
+    "count": 127,
+    "proportion": 0.3724340175953079
+  },
+  {
+    "split": "validacao",
+    "class_id": 0,
+    "class_label": "Benigno",
+    "count": 71,
+    "proportion": 0.6228070175438597
+  },
+  {
+    "split": "validacao",
+    "class_id": 1,
+    "class_label": "Maligno",
+    "count": 43,
+    "proportion": 0.37719298245614036
+  },
+  {
+    "split": "teste",
+    "class_id": 0,
+    "class_label": "Benigno",
+    "count": 72,
+    "proportion": 0.631578947368421
+  },
+  {
+    "split": "teste",
+    "class_id": 1,
+    "class_label": "Maligno",
+    "count": 42,
+    "proportion": 0.3684210526315789
+  }
+]

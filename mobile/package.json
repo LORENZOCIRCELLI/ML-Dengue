@@ -8,7 +8,11 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "build:web": "expo export -p web",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write App.tsx src tests metro.config.js",
+    "format:check": "prettier --check App.tsx src tests metro.config.js",
+    "export:data": "python3 ../scripts/export_app_json.py",
+    "test": "node --test --test-isolation=none tests/*.test.cjs"
   },
   "dependencies": {
     "@expo/metro-runtime": "~57.0.13",
@@ -30,6 +34,7 @@
   "devDependencies": {
     "@babel/core": "^7.24.0",
     "@types/react": "~19.2.4",
+    "prettier": "^3.9.10",
     "typescript": "~6.0.3"
   },
   "private": true
