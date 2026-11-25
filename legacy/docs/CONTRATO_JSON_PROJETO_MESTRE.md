@@ -4,6 +4,10 @@
 
 `app_dados_dengue.json` permanece inalterado. O Projeto Mestre acrescenta arquivos; não remove campos existentes.
 
+Nota de arquivamento (25/11/2026): os arquivos antigos foram movidos, sem alteração
+de conteúdo, para `legacy/notebooks/` e `legacy/outputs/horizontes/`. Este contrato
+descreve o Projeto Mestre; o aplicativo atual utiliza os JSONs de `export/` da v1.
+
 ## `app_previsoes.json`
 
 Campos principais:

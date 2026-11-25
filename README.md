@@ -1,149 +1,113 @@
 # Machine Learning para Predição de Surtos de Arboviroses
 
-Repositório oficial do projeto de doutorado de **Prof. Me. Fernando Perez**, dedicado à aplicação de técnicas de Machine Learning, Inteligência Artificial e Ciência de Dados para análise epidemiológica da dengue.
+Repositório do projeto de doutorado de **Prof. Me. Fernando Perez**, dedicado à
+aplicação de Machine Learning e Ciência de Dados à análise da dengue em Ribeirão
+Preto. O aplicativo AlphaDengue permite consultar as previsões e os resultados.
 
-Além dos modelos preditivos, o projeto possui um aplicativo para facilitar a visualização pelos gestores da saúde e deploy do código em nuvem.
+## Estudo atual
 
-O objetivo deste repositório é centralizar toda a produção científica, técnica e acadêmica desenvolvida ao longo da pesquisa, facilitando o acesso a documentos, códigos, experimentos, conjuntos de dados e resultados obtidos durante o doutorado.
+O estudo em [`v1/`](./v1/README.md) compara Random Forest, RNN e LSTM nos horizontes
+de **4, 8, 12 e 16 semanas**. O alvo é o aumento de pelo menos 50% dos casos da
+semana-alvo em relação à média das quatro semanas anteriores à emissão. Esse
+critério de crescimento não representa confirmação epidemiológica de surto.
 
-## Projeto Mestre do doutorado
+Cada modelo combina cinco sementes fixas. As partições são cronológicas, com
+remoção de amostras nas fronteiras. O desempenho é retrospectivo e exploratório;
+o teste histórico já foi examinado durante o desenvolvimento.
 
-O estudo principal investiga se variáveis climáticas locais e indicadores de El Niño e La Niña acrescentam capacidade de antecipar alertas de dengue em Ribeirão Preto nos horizontes de 4, 8, 12 e 16 semanas.
+A comparação em [`comparacao_ENSO/`](./comparacao_ENSO/README.md) avalia o valor
+incremental de ONI contínuo e ENSO binário nas mesmas arquiteturas e horizontes.
+Seus resultados permanecem separados dos JSONs do aplicativo.
 
-Artefatos principais:
+Os estudos intermediários `experimento_sem_ONI/`, `experimento_com_ONI/`,
+`experimento_ONI_continuo/` e `experimento_ONI_resumido/` complementam a resposta
+à pergunta da tese e permanecem fora de `legacy/`.
 
-* `notebooks/Notebook_Mestre_Clima_Dengue.ipynb`: explicação completa e acessível;
-* `scripts/run_master_study.py`: execução reproduzível;
-* `src/dengue_research/master.py`: orquestração da análise;
-* `src/dengue_research/climate.py`: atributos, ENSO e associações climáticas;
-* `src/dengue_research/app_exports.py`: JSONs validados para o aplicativo;
-* `docs/GUIA_SIMPLES_PROJETO_MESTRE.md`: guia de leitura sem exigir conhecimento técnico;
-* `docs/CONTRATO_JSON_PROJETO_MESTRE.md`: campos exportados para o aplicativo.
+**Para consultar os resultados, comece pelo [índice central em results/](./results/README.md).**
 
-Execução completa:
+## Organização atual
+
+| Caminho | Conteúdo |
+|---|---|
+| [`v1/`](./v1/README.md) | Estudo atual, notebook, modelos e resultados |
+| [`comparacao_ENSO/`](./comparacao_ENSO/README.md) | Comparação consolidada ONI/ENSO |
+| [`results/`](./results/README.md) | Cópias organizadas dos resultados principais e complementares |
+| `experimento_*/` | Estudos complementares de representação e estabilidade de ENSO |
+| `models/` | Código auxiliar dos estudos ENSO intermediários |
+| `data/` | Dataset bruto e processado compartilhado |
+| `export/` | Catálogo e JSONs publicados para o aplicativo |
+| [`mobile/`](./mobile/README.md) | Aplicativo AlphaDengue em React Native/Expo |
+| `website/` | Site em React/Vite |
+| `scripts/` | Pipeline atual, exportador e validador de JSONs |
+| `tests/` | Testes do exportador e do pipeline atual |
+| `docs/` | Documentação geral e execução na AWS |
+| [`legacy/`](./legacy/README.md) | Experimentos, código e resultados descontinuados |
+
+## Execução
+
+Com as dependências de `v1/requirements.txt` instaladas no ambiente Python:
 
 ```bash
-MPLCONFIGDIR=/tmp/matplotlib-master PYTHONPATH=src ./.venv/bin/python scripts/run_master_study.py
+.venv/bin/python v1/estudo.py
+.venv/bin/python comparacao_ENSO/estudo.py
+.venv/bin/python scripts/export_app_json.py
 ```
 
-Teste técnico rápido:
+A exportação copia os JSONs de `v1/results/` para `export/` e atualiza o índice de
+imports locais do aplicativo. Ela não treina modelos.
+
+O pipeline completo, incluindo as retrospectivas, pode ser executado com
+`./Script_Run.sh`. A publicação é uma
+etapa separada, com `./upload_to_s3.sh`. Configuração, logs, bloqueio de concorrência
+e agendamento estão em [`docs/AWS_AGENDAMENTO.md`](./docs/AWS_AGENDAMENTO.md).
+O pipeline usa o dataset local; não atualiza a base em serviços externos.
+
+## Verificação
 
 ```bash
-MPLCONFIGDIR=/tmp/matplotlib-master PYTHONPATH=src ./.venv/bin/python scripts/run_master_study.py --quick
+python3 -m unittest discover -s tests -v
+python3 scripts/validate_app_export.py export
 ```
 
----
+Para as verificações científicas, após a execução dos estudos:
 
-## Resumo do Projeto
-
-A dengue é uma das principais doenças infeocontagiosas presentes em regiões tropicais e subtropicais, impactando milhões de pessoas todos os anos.
-
-Este projeto investiga a utilização de técnicas modernas de Machine Learning para:
-
-* Predição de surtos epidemiológicos;
-* Análise temporal e espacial de casos;
-* Identificação de padrões em dados de saúde pública;
-* Apoio à tomada de decisão por órgãos de saúde;
-* Desenvolvimento de modelos preditivos e sistemas inteligentes.
-
-Além disso utiliza tecnologias modernas como React Native para construção de um aplicativo moderno e AWS para deploy, para que gestores da saúde possam ter acesso rápido e multiplataforma aos resultados dos modelos preditivos.
-
----
-
-## Estrutura do Repositório
-
-```text
-ML-Dengue-Global-Repository/
-│
-├── docs/                  # Documentação geral
-├── datasets/              # Bases de dados
-├── notebooks/             # Análises exploratórias
-├── models/                # Modelos treinados
-├── src/                   # Código-fonte principal
-├── experiments/           # Experimentos realizados
-├── website/               # Site oficial do projeto
-├── mobile/                # Código-fonte do aplicativo
-├── scripts/               # Scripts para Nuvem
-└── README.md
+```bash
+.venv/bin/python v1/validar_resultados.py
+.venv/bin/python comparacao_ENSO/validar_resultados.py
 ```
 
----
+Os comandos do aplicativo estão em [`mobile/README.md`](./mobile/README.md).
 
-## Navegação Rápida
+Para atualizar e verificar as cópias de consulta:
 
-### Documentação
+```bash
+python3 scripts/collect_results.py
+python3 scripts/collect_results.py --check
+```
 
-* [Documentação Geral](./docs/)
-* [Metodologia](./docs/methodology.md)
-* [Cronograma](./docs/timeline.md)
+## Experimentos descontinuados
 
-### Produção Científica
+Todo o material científico substituído pelo fluxo atual foi reunido em
+[`legacy/`](./legacy/README.md), incluindo `outputs/`, `reports/`, notebooks,
+modelos de exemplo, Projeto Mestre e seus
+scripts e testes. Os conteúdos foram preservados com inventário e hashes em
+[`legacy/manifesto.json`](./legacy/manifesto.json).
 
-* [Relatórios Técnicos](./reports/)
+Os resultados antigos desconsiderados por problemas metodológicos não devem
+orientar as conclusões atuais nem os dados exibidos pelo aplicativo.
 
-### Dados
-
-* [Datasets](./datasets/)
-* [Descrição das Bases](./datasets/README.md)
-
-### Desenvolvimento
-
-* [Código-Fonte](./src/)
-* [Experimentos](./experiments/)
-* [Modelos](./models/)
-* [App Mobile](./mobile/)
-* [Scripts](./scripts/)
-
-### Site do Projeto
-
-* <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4778105T4">Website</a>
-
----
-
-## Tecnologias Utilizadas no Projeto
-
-### Tratamento de Dados e Machine Learning
-* Python
-* Jupyter Notebook
-* Scikit-Learn
-* Pandas
-* NumPy
-* Matplotlib
-
-### App Mobile
-
-* Typescript
-* React
-
-### Deploy em Nuvem e Versionamento
-
-* Git & GitHub
-* AWS
-
----
-
-## Website
-
-O site foi desenvolvido usando React e TailwindCSS
-
----
+O estado anterior à reorganização pode ser recuperado pela tag
+`checkpoint/pre-legacy-2026-11-25` (commit `4d68f41`). O procedimento está no
+[guia do arquivo histórico](./legacy/README.md).
 
 ## Equipe
 
-### Pesquisador
-
-Prof. Me. Fernando Perez
-
-### Orientador
-
-Prof. Dr. Rene Beleboni
-
-### Instituição
-
-Universidade de Ribeirão Preto
-
----
+- **Pesquisador:** Prof. Me. Fernando Perez.
+- **Orientador:** Prof. Dr. Rene Beleboni.
+- **Instituição:** Universidade de Ribeirão Preto.
 
 ## Licença
 
-Este repositório é destinado ao armazenamento e organização da produção científica do projeto de doutorado. Consulte os autores antes de reutilizar dados ou materiais protegidos por direitos autorais.
+Este repositório centraliza a produção científica do projeto de doutorado.
+Consulte os autores antes de reutilizar dados ou materiais protegidos por direitos
+autorais.

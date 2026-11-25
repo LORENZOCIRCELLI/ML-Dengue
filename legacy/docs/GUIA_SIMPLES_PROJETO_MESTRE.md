@@ -90,6 +90,10 @@ figuras/captum_importancia_temporal.png
 
 O arquivo existente `app_dados_dengue.json` não é modificado.
 
+Após o arquivamento de 25/11/2026, os JSONs antigos `app_dados_dengue.json`
+estão em `legacy/notebooks/` e `legacy/outputs/horizontes/`. Seu conteúdo foi
+preservado para consulta histórica; o aplicativo atual utiliza `export/` da v1.
+
 ## Como executar
 
 No diretório principal do projeto:
