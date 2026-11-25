@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.0.0",
+  "versao": "v1.0.0",
+  "resultados": [
+    {
+      "modelo": "random_forest",
+      "horizonteSemanas": 4,
+      "dataAlvo": "2026-01-25",
+      "previsao": "horizontes/04_semanas/random_forest/previsao.json",
+      "metricas": "horizontes/04_semanas/random_forest/metricas.json",
+      "explicabilidade": "horizontes/04_semanas/random_forest/explicabilidade.json",
+      "conclusao": "horizontes/04_semanas/random_forest/conclusao.json",
+      "resultadoCompleto": "horizontes/04_semanas/random_forest/resultado_completo.json",
+      "retrospectiva": "horizontes/04_semanas/random_forest/retrospectiva.json"
+    },
+    {
+      "modelo": "rnn",
+      "horizonteSemanas": 4,
+      "dataAlvo": "2026-01-25",
+      "previsao": "horizontes/04_semanas/rnn/previsao.json",
+      "metricas": "horizontes/04_semanas/rnn/metricas.json",
+      "explicabilidade": "horizontes/04_semanas/rnn/explicabilidade.json",
+      "conclusao": "horizontes/04_semanas/rnn/conclusao.json",
+      "resultadoCompleto": "horizontes/04_semanas/rnn/resultado_completo.json",
+      "retrospectiva": "horizontes/04_semanas/rnn/retrospectiva.json"
+    },
+    {
+      "modelo": "lstm",
+      "horizonteSemanas": 4,
+      "dataAlvo": "2026-01-25",
+      "previsao": "horizontes/04_semanas/lstm/previsao.json",
+      "metricas": "horizontes/04_semanas/lstm/metricas.json",
+      "explicabilidade": "horizontes/04_semanas/lstm/explicabilidade.json",
+      "conclusao": "horizontes/04_semanas/lstm/conclusao.json",
+      "resultadoCompleto": "horizontes/04_semanas/lstm/resultado_completo.json",
+      "retrospectiva": "horizontes/04_semanas/lstm/retrospectiva.json"
+    },
+    {
+      "modelo": "random_forest",
+      "horizonteSemanas": 8,
+      "dataAlvo": "2026-02-22",
+      "previsao": "horizontes/08_semanas/random_forest/previsao.json",
+      "metricas": "horizontes/08_semanas/random_forest/metricas.json",
+      "explicabilidade": "horizontes/08_semanas/random_forest/explicabilidade.json",
+      "conclusao": "horizontes/08_semanas/random_forest/conclusao.json",
+      "resultadoCompleto": "horizontes/08_semanas/random_forest/resultado_completo.json",
+      "retrospectiva": "horizontes/08_semanas/random_forest/retrospectiva.json"
+    },
+    {
+      "modelo": "rnn",
+      "horizonteSemanas": 8,
+      "dataAlvo": "2026-02-22",
+      "previsao": "horizontes/08_semanas/rnn/previsao.json",
+      "metricas": "horizontes/08_semanas/rnn/metricas.json",
+      "explicabilidade": "horizontes/08_semanas/rnn/explicabilidade.json",
+      "conclusao": "horizontes/08_semanas/rnn/conclusao.json",
+      "resultadoCompleto": "horizontes/08_semanas/rnn/resultado_completo.json",
+      "retrospectiva": "horizontes/08_semanas/rnn/retrospectiva.json"
+    },
+    {
+      "modelo": "lstm",
+      "horizonteSemanas": 8,
+      "dataAlvo": "2026-02-22",
+      "previsao": "horizontes/08_semanas/lstm/previsao.json",
+      "metricas": "horizontes/08_semanas/lstm/metricas.json",
+      "explicabilidade": "horizontes/08_semanas/lstm/explicabilidade.json",
+      "conclusao": "horizontes/08_semanas/lstm/conclusao.json",
+      "resultadoCompleto": "horizontes/08_semanas/lstm/resultado_completo.json",
+      "retrospectiva": "horizontes/08_semanas/lstm/retrospectiva.json"
+    },
+    {
+      "modelo": "random_forest",
+      "horizonteSemanas": 12,
+      "dataAlvo": "2026-03-22",
+      "previsao": "horizontes/12_semanas/random_forest/previsao.json",
+      "metricas": "horizontes/12_semanas/random_forest/metricas.json",
+      "explicabilidade": "horizontes/12_semanas/random_forest/explicabilidade.json",
+      "conclusao": "horizontes/12_semanas/random_forest/conclusao.json",
+      "resultadoCompleto": "horizontes/12_semanas/random_forest/resultado_completo.json",
+      "retrospectiva": "horizontes/12_semanas/random_forest/retrospectiva.json"
+    },
+    {
+      "modelo": "rnn",
+      "horizonteSemanas": 12,
+      "dataAlvo": "2026-03-22",
+      "previsao": "horizontes/12_semanas/rnn/previsao.json",
+      "metricas": "horizontes/12_semanas/rnn/metricas.json",
+      "explicabilidade": "horizontes/12_semanas/rnn/explicabilidade.json",
+      "conclusao": "horizontes/12_semanas/rnn/conclusao.json",
+      "resultadoCompleto": "horizontes/12_semanas/rnn/resultado_completo.json",
+      "retrospectiva": "horizontes/12_semanas/rnn/retrospectiva.json"
+    },
+    {
+      "modelo": "lstm",
+      "horizonteSemanas": 12,
+      "dataAlvo": "2026-03-22",
+      "previsao": "horizontes/12_semanas/lstm/previsao.json",
+      "metricas": "horizontes/12_semanas/lstm/metricas.json",
+      "explicabilidade": "horizontes/12_semanas/lstm/explicabilidade.json",
+      "conclusao": "horizontes/12_semanas/lstm/conclusao.json",
+      "resultadoCompleto": "horizontes/12_semanas/lstm/resultado_completo.json",
+      "retrospectiva": "horizontes/12_semanas/lstm/retrospectiva.json"
+    },
+    {
+      "modelo": "random_forest",
+      "horizonteSemanas": 16,
+      "dataAlvo": "2026-04-19",
+      "previsao": "horizontes/16_semanas/random_forest/previsao.json",
+      "metricas": "horizontes/16_semanas/random_forest/metricas.json",
+      "explicabilidade": "horizontes/16_semanas/random_forest/explicabilidade.json",
+      "conclusao": "horizontes/16_semanas/random_forest/conclusao.json",
+      "resultadoCompleto": "horizontes/16_semanas/random_forest/resultado_completo.json",
+      "retrospectiva": "horizontes/16_semanas/random_forest/retrospectiva.json"
+    },
+    {
+      "modelo": "rnn",
+      "horizonteSemanas": 16,
+      "dataAlvo": "2026-04-19",
+      "previsao": "horizontes/16_semanas/rnn/previsao.json",
+      "metricas": "horizontes/16_semanas/rnn/metricas.json",
+      "explicabilidade": "horizontes/16_semanas/rnn/explicabilidade.json",
+      "conclusao": "horizontes/16_semanas/rnn/conclusao.json",
+      "resultadoCompleto": "horizontes/16_semanas/rnn/resultado_completo.json",
+      "retrospectiva": "horizontes/16_semanas/rnn/retrospectiva.json"
+    },
+    {
+      "modelo": "lstm",
+      "horizonteSemanas": 16,
+      "dataAlvo": "2026-04-19",
+      "previsao": "horizontes/16_semanas/lstm/previsao.json",
+      "metricas": "horizontes/16_semanas/lstm/metricas.json",
+      "explicabilidade": "horizontes/16_semanas/lstm/explicabilidade.json",
+      "conclusao": "horizontes/16_semanas/lstm/conclusao.json",
+      "resultadoCompleto": "horizontes/16_semanas/lstm/resultado_completo.json",
+      "retrospectiva": "horizontes/16_semanas/lstm/retrospectiva.json"
+    }
+  ]
+}

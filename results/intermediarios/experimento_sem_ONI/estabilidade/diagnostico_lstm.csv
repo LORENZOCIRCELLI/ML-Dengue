@@ -1,0 +1,2 @@
+model,seed,selected_epoch,stopped_epoch,initial_validation_loss,stopped_validation_loss,stopped_validation_f1,stopped_predicted_positive,last_diagnostic_epoch,last_diagnostic_validation_loss,last_diagnostic_validation_f1,best_later_validation_f1,diagnostic_changes_primary_model
+lstm,42,1,21,0.6537322402000427,0.4478733241558075,0.0,0,150,0.6655919551849365,0.5833333333333334,0.6666666666666666,False

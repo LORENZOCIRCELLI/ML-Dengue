@@ -1,0 +1,17 @@
+[
+  {
+    "model": "lstm",
+    "seed": 42,
+    "selected_epoch": 1,
+    "stopped_epoch": 21,
+    "initial_validation_loss": 0.653732240200043,
+    "stopped_validation_loss": 0.447873324155808,
+    "stopped_validation_f1": 0.0,
+    "stopped_predicted_positive": 0,
+    "last_diagnostic_epoch": 150,
+    "last_diagnostic_validation_loss": 0.665591955184936,
+    "last_diagnostic_validation_f1": 0.583333333333333,
+    "best_later_validation_f1": 0.666666666666667,
+    "diagnostic_changes_primary_model": false
+  }
+]

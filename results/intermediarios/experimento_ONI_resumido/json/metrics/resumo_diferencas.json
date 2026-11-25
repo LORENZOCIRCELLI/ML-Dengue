@@ -1,0 +1,110 @@
+[
+  {
+    "variant": "ONI_recente",
+    "metric": "f1",
+    "n_pairs": 5,
+    "mean_delta": -0.109290421964712,
+    "std_delta": 0.03365049964828,
+    "positive_deltas": 0,
+    "negative_deltas": 5
+  },
+  {
+    "variant": "ONI_recente",
+    "metric": "pr_auc",
+    "n_pairs": 5,
+    "mean_delta": -0.03047600891917,
+    "std_delta": 0.02239161103486,
+    "positive_deltas": 1,
+    "negative_deltas": 4
+  },
+  {
+    "variant": "ONI_recente",
+    "metric": "precision",
+    "n_pairs": 5,
+    "mean_delta": 0.071775293486461,
+    "std_delta": 0.057764940993276,
+    "positive_deltas": 4,
+    "negative_deltas": 1
+  },
+  {
+    "variant": "ONI_recente",
+    "metric": "recall",
+    "n_pairs": 5,
+    "mean_delta": -0.263157894736842,
+    "std_delta": 0.032230128194515,
+    "positive_deltas": 0,
+    "negative_deltas": 5
+  },
+  {
+    "variant": "ONI_recente",
+    "metric": "roc_auc",
+    "n_pairs": 5,
+    "mean_delta": -0.014736842105263,
+    "std_delta": 0.009451105651638,
+    "positive_deltas": 0,
+    "negative_deltas": 5
+  },
+  {
+    "variant": "ONI_recente",
+    "metric": "accuracy",
+    "n_pairs": 5,
+    "mean_delta": -0.013071895424836,
+    "std_delta": 0.017899429983829,
+    "positive_deltas": 1,
+    "negative_deltas": 3
+  },
+  {
+    "variant": "ONI_media12",
+    "metric": "f1",
+    "n_pairs": 5,
+    "mean_delta": -0.106176455143976,
+    "std_delta": 0.04131552866643,
+    "positive_deltas": 0,
+    "negative_deltas": 5
+  },
+  {
+    "variant": "ONI_media12",
+    "metric": "pr_auc",
+    "n_pairs": 5,
+    "mean_delta": -0.036392984731575,
+    "std_delta": 0.025771493944822,
+    "positive_deltas": 1,
+    "negative_deltas": 4
+  },
+  {
+    "variant": "ONI_media12",
+    "metric": "precision",
+    "n_pairs": 5,
+    "mean_delta": 0.081169535433588,
+    "std_delta": 0.05134301356289,
+    "positive_deltas": 5,
+    "negative_deltas": 0
+  },
+  {
+    "variant": "ONI_media12",
+    "metric": "recall",
+    "n_pairs": 5,
+    "mean_delta": -0.263157894736842,
+    "std_delta": 0.052631578947368,
+    "positive_deltas": 0,
+    "negative_deltas": 5
+  },
+  {
+    "variant": "ONI_media12",
+    "metric": "roc_auc",
+    "n_pairs": 5,
+    "mean_delta": -0.015057208237986,
+    "std_delta": 0.00486074802649,
+    "positive_deltas": 0,
+    "negative_deltas": 5
+  },
+  {
+    "variant": "ONI_media12",
+    "metric": "accuracy",
+    "n_pairs": 5,
+    "mean_delta": -0.010457516339869,
+    "std_delta": 0.017659158282492,
+    "positive_deltas": 1,
+    "negative_deltas": 2
+  }
+]

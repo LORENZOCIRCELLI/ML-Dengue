@@ -1,0 +1,7572 @@
+[
+  {
+    "sample_id": 15,
+    "data_emissao": "2011-04-10",
+    "data_alvo": "2011-05-08",
+    "data_ultimo_caso": "2011-04-03",
+    "media_casos_referencia": 2869.0,
+    "casos_futuros": 2409.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 16,
+    "data_emissao": "2011-04-17",
+    "data_alvo": "2011-05-15",
+    "data_ultimo_caso": "2011-04-10",
+    "media_casos_referencia": 3048.0,
+    "casos_futuros": 2005.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 17,
+    "data_emissao": "2011-04-24",
+    "data_alvo": "2011-05-22",
+    "data_ultimo_caso": "2011-04-17",
+    "media_casos_referencia": 3095.75,
+    "casos_futuros": 1374.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 18,
+    "data_emissao": "2011-05-01",
+    "data_alvo": "2011-05-29",
+    "data_ultimo_caso": "2011-04-24",
+    "media_casos_referencia": 3313.25,
+    "casos_futuros": 946.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 19,
+    "data_emissao": "2011-05-08",
+    "data_alvo": "2011-06-05",
+    "data_ultimo_caso": "2011-05-01",
+    "media_casos_referencia": 3104.0,
+    "casos_futuros": 583.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 20,
+    "data_emissao": "2011-05-15",
+    "data_alvo": "2011-06-12",
+    "data_ultimo_caso": "2011-05-08",
+    "media_casos_referencia": 2872.25,
+    "casos_futuros": 412.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 21,
+    "data_emissao": "2011-05-22",
+    "data_alvo": "2011-06-19",
+    "data_ultimo_caso": "2011-05-15",
+    "media_casos_referencia": 2632.0,
+    "casos_futuros": 268.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 22,
+    "data_emissao": "2011-05-29",
+    "data_alvo": "2011-06-26",
+    "data_ultimo_caso": "2011-05-22",
+    "media_casos_referencia": 2119.0,
+    "casos_futuros": 192.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 23,
+    "data_emissao": "2011-06-05",
+    "data_alvo": "2011-07-03",
+    "data_ultimo_caso": "2011-05-29",
+    "media_casos_referencia": 1683.5,
+    "casos_futuros": 158.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 24,
+    "data_emissao": "2011-06-12",
+    "data_alvo": "2011-07-10",
+    "data_ultimo_caso": "2011-06-05",
+    "media_casos_referencia": 1227.0,
+    "casos_futuros": 114.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 25,
+    "data_emissao": "2011-06-19",
+    "data_alvo": "2011-07-17",
+    "data_ultimo_caso": "2011-06-12",
+    "media_casos_referencia": 828.75,
+    "casos_futuros": 110.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 26,
+    "data_emissao": "2011-06-26",
+    "data_alvo": "2011-07-24",
+    "data_ultimo_caso": "2011-06-19",
+    "media_casos_referencia": 552.25,
+    "casos_futuros": 106.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 27,
+    "data_emissao": "2011-07-03",
+    "data_alvo": "2011-07-31",
+    "data_ultimo_caso": "2011-06-26",
+    "media_casos_referencia": 363.75,
+    "casos_futuros": 96.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 28,
+    "data_emissao": "2011-07-10",
+    "data_alvo": "2011-08-07",
+    "data_ultimo_caso": "2011-07-03",
+    "media_casos_referencia": 257.5,
+    "casos_futuros": 110.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 29,
+    "data_emissao": "2011-07-17",
+    "data_alvo": "2011-08-14",
+    "data_ultimo_caso": "2011-07-10",
+    "media_casos_referencia": 183.0,
+    "casos_futuros": 99.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 30,
+    "data_emissao": "2011-07-24",
+    "data_alvo": "2011-08-21",
+    "data_ultimo_caso": "2011-07-17",
+    "media_casos_referencia": 143.5,
+    "casos_futuros": 107.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 31,
+    "data_emissao": "2011-07-31",
+    "data_alvo": "2011-08-28",
+    "data_ultimo_caso": "2011-07-24",
+    "media_casos_referencia": 122.0,
+    "casos_futuros": 91.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 32,
+    "data_emissao": "2011-08-07",
+    "data_alvo": "2011-09-04",
+    "data_ultimo_caso": "2011-07-31",
+    "media_casos_referencia": 106.5,
+    "casos_futuros": 101.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 33,
+    "data_emissao": "2011-08-14",
+    "data_alvo": "2011-09-11",
+    "data_ultimo_caso": "2011-08-07",
+    "media_casos_referencia": 105.5,
+    "casos_futuros": 167.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 34,
+    "data_emissao": "2011-08-21",
+    "data_alvo": "2011-09-18",
+    "data_ultimo_caso": "2011-08-14",
+    "media_casos_referencia": 102.75,
+    "casos_futuros": 194.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 35,
+    "data_emissao": "2011-08-28",
+    "data_alvo": "2011-09-25",
+    "data_ultimo_caso": "2011-08-21",
+    "media_casos_referencia": 103.0,
+    "casos_futuros": 249.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 36,
+    "data_emissao": "2011-09-04",
+    "data_alvo": "2011-10-02",
+    "data_ultimo_caso": "2011-08-28",
+    "media_casos_referencia": 101.75,
+    "casos_futuros": 218.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 37,
+    "data_emissao": "2011-09-11",
+    "data_alvo": "2011-10-09",
+    "data_ultimo_caso": "2011-09-04",
+    "media_casos_referencia": 99.5,
+    "casos_futuros": 198.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 38,
+    "data_emissao": "2011-09-18",
+    "data_alvo": "2011-10-16",
+    "data_ultimo_caso": "2011-09-11",
+    "media_casos_referencia": 116.5,
+    "casos_futuros": 174.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 39,
+    "data_emissao": "2011-09-25",
+    "data_alvo": "2011-10-23",
+    "data_ultimo_caso": "2011-09-18",
+    "media_casos_referencia": 138.25,
+    "casos_futuros": 157.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 40,
+    "data_emissao": "2011-10-02",
+    "data_alvo": "2011-10-30",
+    "data_ultimo_caso": "2011-09-25",
+    "media_casos_referencia": 177.75,
+    "casos_futuros": 143.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 41,
+    "data_emissao": "2011-10-09",
+    "data_alvo": "2011-11-06",
+    "data_ultimo_caso": "2011-10-02",
+    "media_casos_referencia": 207.0,
+    "casos_futuros": 98.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 42,
+    "data_emissao": "2011-10-16",
+    "data_alvo": "2011-11-13",
+    "data_ultimo_caso": "2011-10-09",
+    "media_casos_referencia": 214.75,
+    "casos_futuros": 92.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 43,
+    "data_emissao": "2011-10-23",
+    "data_alvo": "2011-11-20",
+    "data_ultimo_caso": "2011-10-16",
+    "media_casos_referencia": 209.75,
+    "casos_futuros": 101.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 44,
+    "data_emissao": "2011-10-30",
+    "data_alvo": "2011-11-27",
+    "data_ultimo_caso": "2011-10-23",
+    "media_casos_referencia": 186.75,
+    "casos_futuros": 79.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 45,
+    "data_emissao": "2011-11-06",
+    "data_alvo": "2011-12-04",
+    "data_ultimo_caso": "2011-10-30",
+    "media_casos_referencia": 168.0,
+    "casos_futuros": 86.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 46,
+    "data_emissao": "2011-11-13",
+    "data_alvo": "2011-12-11",
+    "data_ultimo_caso": "2011-11-06",
+    "media_casos_referencia": 143.0,
+    "casos_futuros": 108.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 47,
+    "data_emissao": "2011-11-20",
+    "data_alvo": "2011-12-18",
+    "data_ultimo_caso": "2011-11-13",
+    "media_casos_referencia": 122.5,
+    "casos_futuros": 78.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 48,
+    "data_emissao": "2011-11-27",
+    "data_alvo": "2011-12-25",
+    "data_ultimo_caso": "2011-11-20",
+    "media_casos_referencia": 108.5,
+    "casos_futuros": 118.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 49,
+    "data_emissao": "2011-12-04",
+    "data_alvo": "2012-01-01",
+    "data_ultimo_caso": "2011-11-27",
+    "media_casos_referencia": 92.5,
+    "casos_futuros": 137.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 50,
+    "data_emissao": "2011-12-11",
+    "data_alvo": "2012-01-08",
+    "data_ultimo_caso": "2011-12-04",
+    "media_casos_referencia": 89.5,
+    "casos_futuros": 116.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 51,
+    "data_emissao": "2011-12-18",
+    "data_alvo": "2012-01-15",
+    "data_ultimo_caso": "2011-12-11",
+    "media_casos_referencia": 93.5,
+    "casos_futuros": 114.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 52,
+    "data_emissao": "2011-12-25",
+    "data_alvo": "2012-01-22",
+    "data_ultimo_caso": "2011-12-18",
+    "media_casos_referencia": 87.75,
+    "casos_futuros": 150.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 53,
+    "data_emissao": "2012-01-01",
+    "data_alvo": "2012-01-29",
+    "data_ultimo_caso": "2011-12-25",
+    "media_casos_referencia": 97.5,
+    "casos_futuros": 133.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 54,
+    "data_emissao": "2012-01-08",
+    "data_alvo": "2012-02-05",
+    "data_ultimo_caso": "2012-01-01",
+    "media_casos_referencia": 110.25,
+    "casos_futuros": 106.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 55,
+    "data_emissao": "2012-01-15",
+    "data_alvo": "2012-02-12",
+    "data_ultimo_caso": "2012-01-08",
+    "media_casos_referencia": 112.25,
+    "casos_futuros": 90.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 56,
+    "data_emissao": "2012-01-22",
+    "data_alvo": "2012-02-19",
+    "data_ultimo_caso": "2012-01-15",
+    "media_casos_referencia": 121.25,
+    "casos_futuros": 98.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 57,
+    "data_emissao": "2012-01-29",
+    "data_alvo": "2012-02-26",
+    "data_ultimo_caso": "2012-01-22",
+    "media_casos_referencia": 129.25,
+    "casos_futuros": 141.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 58,
+    "data_emissao": "2012-02-05",
+    "data_alvo": "2012-03-04",
+    "data_ultimo_caso": "2012-01-29",
+    "media_casos_referencia": 128.25,
+    "casos_futuros": 135.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 59,
+    "data_emissao": "2012-02-12",
+    "data_alvo": "2012-03-11",
+    "data_ultimo_caso": "2012-02-05",
+    "media_casos_referencia": 125.75,
+    "casos_futuros": 153.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 60,
+    "data_emissao": "2012-02-19",
+    "data_alvo": "2012-03-18",
+    "data_ultimo_caso": "2012-02-12",
+    "media_casos_referencia": 119.75,
+    "casos_futuros": 139.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 61,
+    "data_emissao": "2012-02-26",
+    "data_alvo": "2012-03-25",
+    "data_ultimo_caso": "2012-02-19",
+    "media_casos_referencia": 106.75,
+    "casos_futuros": 124.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 62,
+    "data_emissao": "2012-03-04",
+    "data_alvo": "2012-04-01",
+    "data_ultimo_caso": "2012-02-26",
+    "media_casos_referencia": 108.75,
+    "casos_futuros": 122.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 63,
+    "data_emissao": "2012-03-11",
+    "data_alvo": "2012-04-08",
+    "data_ultimo_caso": "2012-03-04",
+    "media_casos_referencia": 116.0,
+    "casos_futuros": 146.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 64,
+    "data_emissao": "2012-03-18",
+    "data_alvo": "2012-04-15",
+    "data_ultimo_caso": "2012-03-11",
+    "media_casos_referencia": 131.75,
+    "casos_futuros": 130.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 65,
+    "data_emissao": "2012-03-25",
+    "data_alvo": "2012-04-22",
+    "data_ultimo_caso": "2012-03-18",
+    "media_casos_referencia": 142.0,
+    "casos_futuros": 114.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 66,
+    "data_emissao": "2012-04-01",
+    "data_alvo": "2012-04-29",
+    "data_ultimo_caso": "2012-03-25",
+    "media_casos_referencia": 137.75,
+    "casos_futuros": 90.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 67,
+    "data_emissao": "2012-04-08",
+    "data_alvo": "2012-05-06",
+    "data_ultimo_caso": "2012-04-01",
+    "media_casos_referencia": 134.5,
+    "casos_futuros": 87.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 68,
+    "data_emissao": "2012-04-15",
+    "data_alvo": "2012-05-13",
+    "data_ultimo_caso": "2012-04-08",
+    "media_casos_referencia": 132.75,
+    "casos_futuros": 91.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 69,
+    "data_emissao": "2012-04-22",
+    "data_alvo": "2012-05-20",
+    "data_ultimo_caso": "2012-04-15",
+    "media_casos_referencia": 130.5,
+    "casos_futuros": 94.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 70,
+    "data_emissao": "2012-04-29",
+    "data_alvo": "2012-05-27",
+    "data_ultimo_caso": "2012-04-22",
+    "media_casos_referencia": 128.0,
+    "casos_futuros": 104.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 71,
+    "data_emissao": "2012-05-06",
+    "data_alvo": "2012-06-03",
+    "data_ultimo_caso": "2012-04-29",
+    "media_casos_referencia": 120.0,
+    "casos_futuros": 69.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 72,
+    "data_emissao": "2012-05-13",
+    "data_alvo": "2012-06-10",
+    "data_ultimo_caso": "2012-05-06",
+    "media_casos_referencia": 105.25,
+    "casos_futuros": 66.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 73,
+    "data_emissao": "2012-05-20",
+    "data_alvo": "2012-06-17",
+    "data_ultimo_caso": "2012-05-13",
+    "media_casos_referencia": 95.5,
+    "casos_futuros": 65.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 74,
+    "data_emissao": "2012-05-27",
+    "data_alvo": "2012-06-24",
+    "data_ultimo_caso": "2012-05-20",
+    "media_casos_referencia": 90.5,
+    "casos_futuros": 65.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 75,
+    "data_emissao": "2012-06-03",
+    "data_alvo": "2012-07-01",
+    "data_ultimo_caso": "2012-05-27",
+    "media_casos_referencia": 94.0,
+    "casos_futuros": 41.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 76,
+    "data_emissao": "2012-06-10",
+    "data_alvo": "2012-07-08",
+    "data_ultimo_caso": "2012-06-03",
+    "media_casos_referencia": 89.5,
+    "casos_futuros": 34.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 77,
+    "data_emissao": "2012-06-17",
+    "data_alvo": "2012-07-15",
+    "data_ultimo_caso": "2012-06-10",
+    "media_casos_referencia": 83.25,
+    "casos_futuros": 28.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 78,
+    "data_emissao": "2012-06-24",
+    "data_alvo": "2012-07-22",
+    "data_ultimo_caso": "2012-06-17",
+    "media_casos_referencia": 76.0,
+    "casos_futuros": 55.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 79,
+    "data_emissao": "2012-07-01",
+    "data_alvo": "2012-07-29",
+    "data_ultimo_caso": "2012-06-24",
+    "media_casos_referencia": 66.25,
+    "casos_futuros": 44.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 80,
+    "data_emissao": "2012-07-08",
+    "data_alvo": "2012-08-05",
+    "data_ultimo_caso": "2012-07-01",
+    "media_casos_referencia": 59.25,
+    "casos_futuros": 34.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 81,
+    "data_emissao": "2012-07-15",
+    "data_alvo": "2012-08-12",
+    "data_ultimo_caso": "2012-07-08",
+    "media_casos_referencia": 51.25,
+    "casos_futuros": 35.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 82,
+    "data_emissao": "2012-07-22",
+    "data_alvo": "2012-08-19",
+    "data_ultimo_caso": "2012-07-15",
+    "media_casos_referencia": 42.0,
+    "casos_futuros": 27.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 83,
+    "data_emissao": "2012-07-29",
+    "data_alvo": "2012-08-26",
+    "data_ultimo_caso": "2012-07-22",
+    "media_casos_referencia": 39.5,
+    "casos_futuros": 37.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 84,
+    "data_emissao": "2012-08-05",
+    "data_alvo": "2012-09-02",
+    "data_ultimo_caso": "2012-07-29",
+    "media_casos_referencia": 40.25,
+    "casos_futuros": 30.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 85,
+    "data_emissao": "2012-08-12",
+    "data_alvo": "2012-09-09",
+    "data_ultimo_caso": "2012-08-05",
+    "media_casos_referencia": 40.25,
+    "casos_futuros": 41.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 86,
+    "data_emissao": "2012-08-19",
+    "data_alvo": "2012-09-16",
+    "data_ultimo_caso": "2012-08-12",
+    "media_casos_referencia": 42.0,
+    "casos_futuros": 31.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 87,
+    "data_emissao": "2012-08-26",
+    "data_alvo": "2012-09-23",
+    "data_ultimo_caso": "2012-08-19",
+    "media_casos_referencia": 35.0,
+    "casos_futuros": 28.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 88,
+    "data_emissao": "2012-09-02",
+    "data_alvo": "2012-09-30",
+    "data_ultimo_caso": "2012-08-26",
+    "media_casos_referencia": 33.25,
+    "casos_futuros": 45.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 89,
+    "data_emissao": "2012-09-09",
+    "data_alvo": "2012-10-07",
+    "data_ultimo_caso": "2012-09-02",
+    "media_casos_referencia": 32.25,
+    "casos_futuros": 32.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 90,
+    "data_emissao": "2012-09-16",
+    "data_alvo": "2012-10-14",
+    "data_ultimo_caso": "2012-09-09",
+    "media_casos_referencia": 33.75,
+    "casos_futuros": 49.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 91,
+    "data_emissao": "2012-09-23",
+    "data_alvo": "2012-10-21",
+    "data_ultimo_caso": "2012-09-16",
+    "media_casos_referencia": 34.75,
+    "casos_futuros": 47.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 92,
+    "data_emissao": "2012-09-30",
+    "data_alvo": "2012-10-28",
+    "data_ultimo_caso": "2012-09-23",
+    "media_casos_referencia": 32.5,
+    "casos_futuros": 51.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 93,
+    "data_emissao": "2012-10-07",
+    "data_alvo": "2012-11-04",
+    "data_ultimo_caso": "2012-09-30",
+    "media_casos_referencia": 36.25,
+    "casos_futuros": 29.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 94,
+    "data_emissao": "2012-10-14",
+    "data_alvo": "2012-11-11",
+    "data_ultimo_caso": "2012-10-07",
+    "media_casos_referencia": 34.0,
+    "casos_futuros": 36.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 95,
+    "data_emissao": "2012-10-21",
+    "data_alvo": "2012-11-18",
+    "data_ultimo_caso": "2012-10-14",
+    "media_casos_referencia": 38.5,
+    "casos_futuros": 52.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 96,
+    "data_emissao": "2012-10-28",
+    "data_alvo": "2012-11-25",
+    "data_ultimo_caso": "2012-10-21",
+    "media_casos_referencia": 43.25,
+    "casos_futuros": 51.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 97,
+    "data_emissao": "2012-11-04",
+    "data_alvo": "2012-12-02",
+    "data_ultimo_caso": "2012-10-28",
+    "media_casos_referencia": 44.75,
+    "casos_futuros": 46.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 98,
+    "data_emissao": "2012-11-11",
+    "data_alvo": "2012-12-09",
+    "data_ultimo_caso": "2012-11-04",
+    "media_casos_referencia": 44.0,
+    "casos_futuros": 70.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 99,
+    "data_emissao": "2012-11-18",
+    "data_alvo": "2012-12-16",
+    "data_ultimo_caso": "2012-11-11",
+    "media_casos_referencia": 40.75,
+    "casos_futuros": 59.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 100,
+    "data_emissao": "2012-11-25",
+    "data_alvo": "2012-12-23",
+    "data_ultimo_caso": "2012-11-18",
+    "media_casos_referencia": 42.0,
+    "casos_futuros": 75.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 101,
+    "data_emissao": "2012-12-02",
+    "data_alvo": "2012-12-30",
+    "data_ultimo_caso": "2012-11-25",
+    "media_casos_referencia": 42.0,
+    "casos_futuros": 107.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 102,
+    "data_emissao": "2012-12-09",
+    "data_alvo": "2013-01-06",
+    "data_ultimo_caso": "2012-12-02",
+    "media_casos_referencia": 46.25,
+    "casos_futuros": 139.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 103,
+    "data_emissao": "2012-12-16",
+    "data_alvo": "2013-01-13",
+    "data_ultimo_caso": "2012-12-09",
+    "media_casos_referencia": 54.75,
+    "casos_futuros": 219.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 104,
+    "data_emissao": "2012-12-23",
+    "data_alvo": "2013-01-20",
+    "data_ultimo_caso": "2012-12-16",
+    "media_casos_referencia": 56.5,
+    "casos_futuros": 327.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 105,
+    "data_emissao": "2012-12-30",
+    "data_alvo": "2013-01-27",
+    "data_ultimo_caso": "2012-12-23",
+    "media_casos_referencia": 62.5,
+    "casos_futuros": 510.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 106,
+    "data_emissao": "2013-01-06",
+    "data_alvo": "2013-02-03",
+    "data_ultimo_caso": "2012-12-30",
+    "media_casos_referencia": 77.75,
+    "casos_futuros": 659.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 107,
+    "data_emissao": "2013-01-13",
+    "data_alvo": "2013-02-10",
+    "data_ultimo_caso": "2013-01-06",
+    "media_casos_referencia": 95.0,
+    "casos_futuros": 755.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 108,
+    "data_emissao": "2013-01-20",
+    "data_alvo": "2013-02-17",
+    "data_ultimo_caso": "2013-01-13",
+    "media_casos_referencia": 135.0,
+    "casos_futuros": 1182.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 109,
+    "data_emissao": "2013-01-27",
+    "data_alvo": "2013-02-24",
+    "data_ultimo_caso": "2013-01-20",
+    "media_casos_referencia": 198.0,
+    "casos_futuros": 1809.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 110,
+    "data_emissao": "2013-02-03",
+    "data_alvo": "2013-03-03",
+    "data_ultimo_caso": "2013-01-27",
+    "media_casos_referencia": 298.75,
+    "casos_futuros": 2130.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 111,
+    "data_emissao": "2013-02-10",
+    "data_alvo": "2013-03-10",
+    "data_ultimo_caso": "2013-02-03",
+    "media_casos_referencia": 428.75,
+    "casos_futuros": 2996.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 112,
+    "data_emissao": "2013-02-17",
+    "data_alvo": "2013-03-17",
+    "data_ultimo_caso": "2013-02-10",
+    "media_casos_referencia": 562.75,
+    "casos_futuros": 3070.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 113,
+    "data_emissao": "2013-02-24",
+    "data_alvo": "2013-03-24",
+    "data_ultimo_caso": "2013-02-17",
+    "media_casos_referencia": 776.5,
+    "casos_futuros": 2411.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 114,
+    "data_emissao": "2013-03-03",
+    "data_alvo": "2013-03-31",
+    "data_ultimo_caso": "2013-02-24",
+    "media_casos_referencia": 1101.25,
+    "casos_futuros": 2601.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 115,
+    "data_emissao": "2013-03-10",
+    "data_alvo": "2013-04-07",
+    "data_ultimo_caso": "2013-03-03",
+    "media_casos_referencia": 1469.0,
+    "casos_futuros": 2570.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 116,
+    "data_emissao": "2013-03-17",
+    "data_alvo": "2013-04-14",
+    "data_ultimo_caso": "2013-03-10",
+    "media_casos_referencia": 2029.25,
+    "casos_futuros": 2183.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 117,
+    "data_emissao": "2013-03-24",
+    "data_alvo": "2013-04-21",
+    "data_ultimo_caso": "2013-03-17",
+    "media_casos_referencia": 2501.25,
+    "casos_futuros": 1147.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 118,
+    "data_emissao": "2013-03-31",
+    "data_alvo": "2013-04-28",
+    "data_ultimo_caso": "2013-03-24",
+    "media_casos_referencia": 2651.75,
+    "casos_futuros": 889.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 119,
+    "data_emissao": "2013-04-07",
+    "data_alvo": "2013-05-05",
+    "data_ultimo_caso": "2013-03-31",
+    "media_casos_referencia": 2769.5,
+    "casos_futuros": 882.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 120,
+    "data_emissao": "2013-04-14",
+    "data_alvo": "2013-05-12",
+    "data_ultimo_caso": "2013-04-07",
+    "media_casos_referencia": 2663.0,
+    "casos_futuros": 789.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 121,
+    "data_emissao": "2013-04-21",
+    "data_alvo": "2013-05-19",
+    "data_ultimo_caso": "2013-04-14",
+    "media_casos_referencia": 2441.25,
+    "casos_futuros": 364.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 122,
+    "data_emissao": "2013-04-28",
+    "data_alvo": "2013-05-26",
+    "data_ultimo_caso": "2013-04-21",
+    "media_casos_referencia": 2125.25,
+    "casos_futuros": 188.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 123,
+    "data_emissao": "2013-05-05",
+    "data_alvo": "2013-06-02",
+    "data_ultimo_caso": "2013-04-28",
+    "media_casos_referencia": 1697.25,
+    "casos_futuros": 182.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 124,
+    "data_emissao": "2013-05-12",
+    "data_alvo": "2013-06-09",
+    "data_ultimo_caso": "2013-05-05",
+    "media_casos_referencia": 1275.25,
+    "casos_futuros": 165.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 125,
+    "data_emissao": "2013-05-19",
+    "data_alvo": "2013-06-16",
+    "data_ultimo_caso": "2013-05-12",
+    "media_casos_referencia": 926.75,
+    "casos_futuros": 119.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 126,
+    "data_emissao": "2013-05-26",
+    "data_alvo": "2013-06-23",
+    "data_ultimo_caso": "2013-05-19",
+    "media_casos_referencia": 731.0,
+    "casos_futuros": 99.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 127,
+    "data_emissao": "2013-06-02",
+    "data_alvo": "2013-06-30",
+    "data_ultimo_caso": "2013-05-26",
+    "media_casos_referencia": 555.75,
+    "casos_futuros": 76.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 128,
+    "data_emissao": "2013-06-09",
+    "data_alvo": "2013-07-07",
+    "data_ultimo_caso": "2013-06-02",
+    "media_casos_referencia": 380.75,
+    "casos_futuros": 51.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 129,
+    "data_emissao": "2013-06-16",
+    "data_alvo": "2013-07-14",
+    "data_ultimo_caso": "2013-06-09",
+    "media_casos_referencia": 224.75,
+    "casos_futuros": 32.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 130,
+    "data_emissao": "2013-06-23",
+    "data_alvo": "2013-07-21",
+    "data_ultimo_caso": "2013-06-16",
+    "media_casos_referencia": 163.5,
+    "casos_futuros": 18.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 131,
+    "data_emissao": "2013-06-30",
+    "data_alvo": "2013-07-28",
+    "data_ultimo_caso": "2013-06-23",
+    "media_casos_referencia": 141.25,
+    "casos_futuros": 27.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 132,
+    "data_emissao": "2013-07-07",
+    "data_alvo": "2013-08-04",
+    "data_ultimo_caso": "2013-06-30",
+    "media_casos_referencia": 114.75,
+    "casos_futuros": 21.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 133,
+    "data_emissao": "2013-07-14",
+    "data_alvo": "2013-08-11",
+    "data_ultimo_caso": "2013-07-07",
+    "media_casos_referencia": 86.25,
+    "casos_futuros": 28.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 134,
+    "data_emissao": "2013-07-21",
+    "data_alvo": "2013-08-18",
+    "data_ultimo_caso": "2013-07-14",
+    "media_casos_referencia": 64.5,
+    "casos_futuros": 35.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 135,
+    "data_emissao": "2013-07-28",
+    "data_alvo": "2013-08-25",
+    "data_ultimo_caso": "2013-07-21",
+    "media_casos_referencia": 44.25,
+    "casos_futuros": 29.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 136,
+    "data_emissao": "2013-08-04",
+    "data_alvo": "2013-09-01",
+    "data_ultimo_caso": "2013-07-28",
+    "media_casos_referencia": 32.0,
+    "casos_futuros": 32.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 137,
+    "data_emissao": "2013-08-11",
+    "data_alvo": "2013-09-08",
+    "data_ultimo_caso": "2013-08-04",
+    "media_casos_referencia": 24.5,
+    "casos_futuros": 35.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 138,
+    "data_emissao": "2013-08-18",
+    "data_alvo": "2013-09-15",
+    "data_ultimo_caso": "2013-08-11",
+    "media_casos_referencia": 23.5,
+    "casos_futuros": 39.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 139,
+    "data_emissao": "2013-08-25",
+    "data_alvo": "2013-09-22",
+    "data_ultimo_caso": "2013-08-18",
+    "media_casos_referencia": 27.75,
+    "casos_futuros": 33.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 140,
+    "data_emissao": "2013-09-01",
+    "data_alvo": "2013-09-29",
+    "data_ultimo_caso": "2013-08-25",
+    "media_casos_referencia": 28.25,
+    "casos_futuros": 36.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 141,
+    "data_emissao": "2013-09-08",
+    "data_alvo": "2013-10-06",
+    "data_ultimo_caso": "2013-09-01",
+    "media_casos_referencia": 31.0,
+    "casos_futuros": 23.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 142,
+    "data_emissao": "2013-09-15",
+    "data_alvo": "2013-10-13",
+    "data_ultimo_caso": "2013-09-08",
+    "media_casos_referencia": 32.75,
+    "casos_futuros": 29.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 143,
+    "data_emissao": "2013-09-22",
+    "data_alvo": "2013-10-20",
+    "data_ultimo_caso": "2013-09-15",
+    "media_casos_referencia": 33.75,
+    "casos_futuros": 25.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 144,
+    "data_emissao": "2013-09-29",
+    "data_alvo": "2013-10-27",
+    "data_ultimo_caso": "2013-09-22",
+    "media_casos_referencia": 34.75,
+    "casos_futuros": 28.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 145,
+    "data_emissao": "2013-10-06",
+    "data_alvo": "2013-11-03",
+    "data_ultimo_caso": "2013-09-29",
+    "media_casos_referencia": 35.75,
+    "casos_futuros": 31.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 146,
+    "data_emissao": "2013-10-13",
+    "data_alvo": "2013-11-10",
+    "data_ultimo_caso": "2013-10-06",
+    "media_casos_referencia": 32.75,
+    "casos_futuros": 36.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 147,
+    "data_emissao": "2013-10-20",
+    "data_alvo": "2013-11-17",
+    "data_ultimo_caso": "2013-10-13",
+    "media_casos_referencia": 30.25,
+    "casos_futuros": 32.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 148,
+    "data_emissao": "2013-10-27",
+    "data_alvo": "2013-11-24",
+    "data_ultimo_caso": "2013-10-20",
+    "media_casos_referencia": 28.25,
+    "casos_futuros": 37.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 149,
+    "data_emissao": "2013-11-03",
+    "data_alvo": "2013-12-01",
+    "data_ultimo_caso": "2013-10-27",
+    "media_casos_referencia": 26.25,
+    "casos_futuros": 37.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 150,
+    "data_emissao": "2013-11-10",
+    "data_alvo": "2013-12-08",
+    "data_ultimo_caso": "2013-11-03",
+    "media_casos_referencia": 28.25,
+    "casos_futuros": 51.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 151,
+    "data_emissao": "2013-11-17",
+    "data_alvo": "2013-12-15",
+    "data_ultimo_caso": "2013-11-10",
+    "media_casos_referencia": 30.0,
+    "casos_futuros": 54.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 152,
+    "data_emissao": "2013-11-24",
+    "data_alvo": "2013-12-22",
+    "data_ultimo_caso": "2013-11-17",
+    "media_casos_referencia": 31.75,
+    "casos_futuros": 27.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 153,
+    "data_emissao": "2013-12-01",
+    "data_alvo": "2013-12-29",
+    "data_ultimo_caso": "2013-11-24",
+    "media_casos_referencia": 34.0,
+    "casos_futuros": 13.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 154,
+    "data_emissao": "2013-12-08",
+    "data_alvo": "2014-01-05",
+    "data_ultimo_caso": "2013-12-01",
+    "media_casos_referencia": 35.5,
+    "casos_futuros": 27.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 155,
+    "data_emissao": "2013-12-15",
+    "data_alvo": "2014-01-12",
+    "data_ultimo_caso": "2013-12-08",
+    "media_casos_referencia": 39.25,
+    "casos_futuros": 36.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 156,
+    "data_emissao": "2013-12-22",
+    "data_alvo": "2014-01-19",
+    "data_ultimo_caso": "2013-12-15",
+    "media_casos_referencia": 44.75,
+    "casos_futuros": 53.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 157,
+    "data_emissao": "2013-12-29",
+    "data_alvo": "2014-01-26",
+    "data_ultimo_caso": "2013-12-22",
+    "media_casos_referencia": 42.25,
+    "casos_futuros": 42.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 158,
+    "data_emissao": "2014-01-05",
+    "data_alvo": "2014-02-02",
+    "data_ultimo_caso": "2013-12-29",
+    "media_casos_referencia": 36.25,
+    "casos_futuros": 42.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 159,
+    "data_emissao": "2014-01-12",
+    "data_alvo": "2014-02-09",
+    "data_ultimo_caso": "2014-01-05",
+    "media_casos_referencia": 30.25,
+    "casos_futuros": 50.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 160,
+    "data_emissao": "2014-01-19",
+    "data_alvo": "2014-02-16",
+    "data_ultimo_caso": "2014-01-12",
+    "media_casos_referencia": 25.75,
+    "casos_futuros": 68.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 161,
+    "data_emissao": "2014-01-26",
+    "data_alvo": "2014-02-23",
+    "data_ultimo_caso": "2014-01-19",
+    "media_casos_referencia": 32.25,
+    "casos_futuros": 63.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 162,
+    "data_emissao": "2014-02-02",
+    "data_alvo": "2014-03-02",
+    "data_ultimo_caso": "2014-01-26",
+    "media_casos_referencia": 39.5,
+    "casos_futuros": 66.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 163,
+    "data_emissao": "2014-02-09",
+    "data_alvo": "2014-03-09",
+    "data_ultimo_caso": "2014-02-02",
+    "media_casos_referencia": 43.25,
+    "casos_futuros": 108.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 164,
+    "data_emissao": "2014-02-16",
+    "data_alvo": "2014-03-16",
+    "data_ultimo_caso": "2014-02-09",
+    "media_casos_referencia": 46.75,
+    "casos_futuros": 89.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 165,
+    "data_emissao": "2014-02-23",
+    "data_alvo": "2014-03-23",
+    "data_ultimo_caso": "2014-02-16",
+    "media_casos_referencia": 50.5,
+    "casos_futuros": 100.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 166,
+    "data_emissao": "2014-03-02",
+    "data_alvo": "2014-03-30",
+    "data_ultimo_caso": "2014-02-23",
+    "media_casos_referencia": 55.75,
+    "casos_futuros": 110.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 167,
+    "data_emissao": "2014-03-09",
+    "data_alvo": "2014-04-06",
+    "data_ultimo_caso": "2014-03-02",
+    "media_casos_referencia": 61.75,
+    "casos_futuros": 135.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 168,
+    "data_emissao": "2014-03-16",
+    "data_alvo": "2014-04-13",
+    "data_ultimo_caso": "2014-03-09",
+    "media_casos_referencia": 76.25,
+    "casos_futuros": 121.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 169,
+    "data_emissao": "2014-03-23",
+    "data_alvo": "2014-04-20",
+    "data_ultimo_caso": "2014-03-16",
+    "media_casos_referencia": 81.5,
+    "casos_futuros": 134.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 170,
+    "data_emissao": "2014-03-30",
+    "data_alvo": "2014-04-27",
+    "data_ultimo_caso": "2014-03-23",
+    "media_casos_referencia": 90.75,
+    "casos_futuros": 127.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 171,
+    "data_emissao": "2014-04-06",
+    "data_alvo": "2014-05-04",
+    "data_ultimo_caso": "2014-03-30",
+    "media_casos_referencia": 101.75,
+    "casos_futuros": 152.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 172,
+    "data_emissao": "2014-04-13",
+    "data_alvo": "2014-05-11",
+    "data_ultimo_caso": "2014-04-06",
+    "media_casos_referencia": 108.5,
+    "casos_futuros": 131.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 173,
+    "data_emissao": "2014-04-20",
+    "data_alvo": "2014-05-18",
+    "data_ultimo_caso": "2014-04-13",
+    "media_casos_referencia": 116.5,
+    "casos_futuros": 125.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 174,
+    "data_emissao": "2014-04-27",
+    "data_alvo": "2014-05-25",
+    "data_ultimo_caso": "2014-04-20",
+    "media_casos_referencia": 125.0,
+    "casos_futuros": 93.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 175,
+    "data_emissao": "2014-05-04",
+    "data_alvo": "2014-06-01",
+    "data_ultimo_caso": "2014-04-27",
+    "media_casos_referencia": 129.25,
+    "casos_futuros": 94.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 176,
+    "data_emissao": "2014-05-11",
+    "data_alvo": "2014-06-08",
+    "data_ultimo_caso": "2014-05-04",
+    "media_casos_referencia": 133.5,
+    "casos_futuros": 104.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 177,
+    "data_emissao": "2014-05-18",
+    "data_alvo": "2014-06-15",
+    "data_ultimo_caso": "2014-05-11",
+    "media_casos_referencia": 136.0,
+    "casos_futuros": 75.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 178,
+    "data_emissao": "2014-05-25",
+    "data_alvo": "2014-06-22",
+    "data_ultimo_caso": "2014-05-18",
+    "media_casos_referencia": 133.75,
+    "casos_futuros": 54.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 179,
+    "data_emissao": "2014-06-01",
+    "data_alvo": "2014-06-29",
+    "data_ultimo_caso": "2014-05-25",
+    "media_casos_referencia": 125.25,
+    "casos_futuros": 57.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 180,
+    "data_emissao": "2014-06-08",
+    "data_alvo": "2014-07-06",
+    "data_ultimo_caso": "2014-06-01",
+    "media_casos_referencia": 110.75,
+    "casos_futuros": 49.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 181,
+    "data_emissao": "2014-06-15",
+    "data_alvo": "2014-07-13",
+    "data_ultimo_caso": "2014-06-08",
+    "media_casos_referencia": 104.0,
+    "casos_futuros": 49.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 182,
+    "data_emissao": "2014-06-22",
+    "data_alvo": "2014-07-20",
+    "data_ultimo_caso": "2014-06-15",
+    "media_casos_referencia": 91.5,
+    "casos_futuros": 35.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 183,
+    "data_emissao": "2014-06-29",
+    "data_alvo": "2014-07-27",
+    "data_ultimo_caso": "2014-06-22",
+    "media_casos_referencia": 81.75,
+    "casos_futuros": 37.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 184,
+    "data_emissao": "2014-07-06",
+    "data_alvo": "2014-08-03",
+    "data_ultimo_caso": "2014-06-29",
+    "media_casos_referencia": 72.5,
+    "casos_futuros": 50.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 185,
+    "data_emissao": "2014-07-13",
+    "data_alvo": "2014-08-10",
+    "data_ultimo_caso": "2014-07-06",
+    "media_casos_referencia": 58.75,
+    "casos_futuros": 52.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 186,
+    "data_emissao": "2014-07-20",
+    "data_alvo": "2014-08-17",
+    "data_ultimo_caso": "2014-07-13",
+    "media_casos_referencia": 52.25,
+    "casos_futuros": 42.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 187,
+    "data_emissao": "2014-07-27",
+    "data_alvo": "2014-08-24",
+    "data_ultimo_caso": "2014-07-20",
+    "media_casos_referencia": 47.5,
+    "casos_futuros": 37.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 188,
+    "data_emissao": "2014-08-03",
+    "data_alvo": "2014-08-31",
+    "data_ultimo_caso": "2014-07-27",
+    "media_casos_referencia": 42.5,
+    "casos_futuros": 47.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 189,
+    "data_emissao": "2014-08-10",
+    "data_alvo": "2014-09-07",
+    "data_ultimo_caso": "2014-08-03",
+    "media_casos_referencia": 42.75,
+    "casos_futuros": 48.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 190,
+    "data_emissao": "2014-08-17",
+    "data_alvo": "2014-09-14",
+    "data_ultimo_caso": "2014-08-10",
+    "media_casos_referencia": 43.5,
+    "casos_futuros": 36.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 191,
+    "data_emissao": "2014-08-24",
+    "data_alvo": "2014-09-21",
+    "data_ultimo_caso": "2014-08-17",
+    "media_casos_referencia": 45.25,
+    "casos_futuros": 33.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 192,
+    "data_emissao": "2014-08-31",
+    "data_alvo": "2014-09-28",
+    "data_ultimo_caso": "2014-08-24",
+    "media_casos_referencia": 45.25,
+    "casos_futuros": 43.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 193,
+    "data_emissao": "2014-09-07",
+    "data_alvo": "2014-10-05",
+    "data_ultimo_caso": "2014-08-31",
+    "media_casos_referencia": 44.5,
+    "casos_futuros": 49.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 194,
+    "data_emissao": "2014-09-14",
+    "data_alvo": "2014-10-12",
+    "data_ultimo_caso": "2014-09-07",
+    "media_casos_referencia": 43.5,
+    "casos_futuros": 38.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 195,
+    "data_emissao": "2014-09-21",
+    "data_alvo": "2014-10-19",
+    "data_ultimo_caso": "2014-09-14",
+    "media_casos_referencia": 42.0,
+    "casos_futuros": 50.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 196,
+    "data_emissao": "2014-09-28",
+    "data_alvo": "2014-10-26",
+    "data_ultimo_caso": "2014-09-21",
+    "media_casos_referencia": 41.0,
+    "casos_futuros": 36.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 197,
+    "data_emissao": "2014-10-05",
+    "data_alvo": "2014-11-02",
+    "data_ultimo_caso": "2014-09-28",
+    "media_casos_referencia": 40.0,
+    "casos_futuros": 27.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 198,
+    "data_emissao": "2014-10-12",
+    "data_alvo": "2014-11-09",
+    "data_ultimo_caso": "2014-10-05",
+    "media_casos_referencia": 40.25,
+    "casos_futuros": 47.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 199,
+    "data_emissao": "2014-10-19",
+    "data_alvo": "2014-11-16",
+    "data_ultimo_caso": "2014-10-12",
+    "media_casos_referencia": 40.75,
+    "casos_futuros": 33.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 200,
+    "data_emissao": "2014-10-26",
+    "data_alvo": "2014-11-23",
+    "data_ultimo_caso": "2014-10-19",
+    "media_casos_referencia": 45.0,
+    "casos_futuros": 40.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 201,
+    "data_emissao": "2014-11-02",
+    "data_alvo": "2014-11-30",
+    "data_ultimo_caso": "2014-10-26",
+    "media_casos_referencia": 43.25,
+    "casos_futuros": 39.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 202,
+    "data_emissao": "2014-11-09",
+    "data_alvo": "2014-12-07",
+    "data_ultimo_caso": "2014-11-02",
+    "media_casos_referencia": 37.75,
+    "casos_futuros": 25.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 203,
+    "data_emissao": "2014-11-16",
+    "data_alvo": "2014-12-14",
+    "data_ultimo_caso": "2014-11-09",
+    "media_casos_referencia": 40.0,
+    "casos_futuros": 35.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 204,
+    "data_emissao": "2014-11-23",
+    "data_alvo": "2014-12-21",
+    "data_ultimo_caso": "2014-11-16",
+    "media_casos_referencia": 35.75,
+    "casos_futuros": 24.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 205,
+    "data_emissao": "2014-11-30",
+    "data_alvo": "2014-12-28",
+    "data_ultimo_caso": "2014-11-23",
+    "media_casos_referencia": 36.75,
+    "casos_futuros": 16.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 206,
+    "data_emissao": "2014-12-07",
+    "data_alvo": "2015-01-04",
+    "data_ultimo_caso": "2014-11-30",
+    "media_casos_referencia": 39.75,
+    "casos_futuros": 50.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 207,
+    "data_emissao": "2014-12-14",
+    "data_alvo": "2015-01-11",
+    "data_ultimo_caso": "2014-12-07",
+    "media_casos_referencia": 34.25,
+    "casos_futuros": 40.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 208,
+    "data_emissao": "2014-12-21",
+    "data_alvo": "2015-01-18",
+    "data_ultimo_caso": "2014-12-14",
+    "media_casos_referencia": 34.75,
+    "casos_futuros": 44.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 209,
+    "data_emissao": "2014-12-28",
+    "data_alvo": "2015-01-25",
+    "data_ultimo_caso": "2014-12-21",
+    "media_casos_referencia": 30.75,
+    "casos_futuros": 86.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 210,
+    "data_emissao": "2015-01-04",
+    "data_alvo": "2015-02-01",
+    "data_ultimo_caso": "2014-12-28",
+    "media_casos_referencia": 25.0,
+    "casos_futuros": 97.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 211,
+    "data_emissao": "2015-01-11",
+    "data_alvo": "2015-02-08",
+    "data_ultimo_caso": "2015-01-04",
+    "media_casos_referencia": 31.25,
+    "casos_futuros": 131.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 212,
+    "data_emissao": "2015-01-18",
+    "data_alvo": "2015-02-15",
+    "data_ultimo_caso": "2015-01-11",
+    "media_casos_referencia": 32.5,
+    "casos_futuros": 159.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 213,
+    "data_emissao": "2015-01-25",
+    "data_alvo": "2015-02-22",
+    "data_ultimo_caso": "2015-01-18",
+    "media_casos_referencia": 37.5,
+    "casos_futuros": 241.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 214,
+    "data_emissao": "2015-02-01",
+    "data_alvo": "2015-03-01",
+    "data_ultimo_caso": "2015-01-25",
+    "media_casos_referencia": 55.0,
+    "casos_futuros": 293.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 215,
+    "data_emissao": "2015-02-08",
+    "data_alvo": "2015-03-08",
+    "data_ultimo_caso": "2015-02-01",
+    "media_casos_referencia": 66.75,
+    "casos_futuros": 373.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 216,
+    "data_emissao": "2015-02-15",
+    "data_alvo": "2015-03-15",
+    "data_ultimo_caso": "2015-02-08",
+    "media_casos_referencia": 89.5,
+    "casos_futuros": 409.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 217,
+    "data_emissao": "2015-02-22",
+    "data_alvo": "2015-03-22",
+    "data_ultimo_caso": "2015-02-15",
+    "media_casos_referencia": 118.25,
+    "casos_futuros": 330.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 218,
+    "data_emissao": "2015-03-01",
+    "data_alvo": "2015-03-29",
+    "data_ultimo_caso": "2015-02-22",
+    "media_casos_referencia": 157.0,
+    "casos_futuros": 410.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 219,
+    "data_emissao": "2015-03-08",
+    "data_alvo": "2015-04-05",
+    "data_ultimo_caso": "2015-03-01",
+    "media_casos_referencia": 206.0,
+    "casos_futuros": 585.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 220,
+    "data_emissao": "2015-03-15",
+    "data_alvo": "2015-04-12",
+    "data_ultimo_caso": "2015-03-08",
+    "media_casos_referencia": 266.5,
+    "casos_futuros": 573.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 221,
+    "data_emissao": "2015-03-22",
+    "data_alvo": "2015-04-19",
+    "data_ultimo_caso": "2015-03-15",
+    "media_casos_referencia": 329.0,
+    "casos_futuros": 542.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 222,
+    "data_emissao": "2015-03-29",
+    "data_alvo": "2015-04-26",
+    "data_ultimo_caso": "2015-03-22",
+    "media_casos_referencia": 351.25,
+    "casos_futuros": 663.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 223,
+    "data_emissao": "2015-04-05",
+    "data_alvo": "2015-05-03",
+    "data_ultimo_caso": "2015-03-29",
+    "media_casos_referencia": 380.5,
+    "casos_futuros": 527.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 224,
+    "data_emissao": "2015-04-12",
+    "data_alvo": "2015-05-10",
+    "data_ultimo_caso": "2015-04-05",
+    "media_casos_referencia": 433.5,
+    "casos_futuros": 533.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 225,
+    "data_emissao": "2015-04-19",
+    "data_alvo": "2015-05-17",
+    "data_ultimo_caso": "2015-04-12",
+    "media_casos_referencia": 474.5,
+    "casos_futuros": 499.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 226,
+    "data_emissao": "2015-04-26",
+    "data_alvo": "2015-05-24",
+    "data_ultimo_caso": "2015-04-19",
+    "media_casos_referencia": 527.5,
+    "casos_futuros": 384.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 227,
+    "data_emissao": "2015-05-03",
+    "data_alvo": "2015-05-31",
+    "data_ultimo_caso": "2015-04-26",
+    "media_casos_referencia": 590.75,
+    "casos_futuros": 293.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 228,
+    "data_emissao": "2015-05-10",
+    "data_alvo": "2015-06-07",
+    "data_ultimo_caso": "2015-05-03",
+    "media_casos_referencia": 576.25,
+    "casos_futuros": 257.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 229,
+    "data_emissao": "2015-05-17",
+    "data_alvo": "2015-06-14",
+    "data_ultimo_caso": "2015-05-10",
+    "media_casos_referencia": 566.25,
+    "casos_futuros": 250.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 230,
+    "data_emissao": "2015-05-24",
+    "data_alvo": "2015-06-21",
+    "data_ultimo_caso": "2015-05-17",
+    "media_casos_referencia": 555.5,
+    "casos_futuros": 176.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 231,
+    "data_emissao": "2015-05-31",
+    "data_alvo": "2015-06-28",
+    "data_ultimo_caso": "2015-05-24",
+    "media_casos_referencia": 485.75,
+    "casos_futuros": 140.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 232,
+    "data_emissao": "2015-06-07",
+    "data_alvo": "2015-07-05",
+    "data_ultimo_caso": "2015-05-31",
+    "media_casos_referencia": 427.25,
+    "casos_futuros": 117.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 233,
+    "data_emissao": "2015-06-14",
+    "data_alvo": "2015-07-12",
+    "data_ultimo_caso": "2015-06-07",
+    "media_casos_referencia": 358.25,
+    "casos_futuros": 113.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 234,
+    "data_emissao": "2015-06-21",
+    "data_alvo": "2015-07-19",
+    "data_ultimo_caso": "2015-06-14",
+    "media_casos_referencia": 296.0,
+    "casos_futuros": 111.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 235,
+    "data_emissao": "2015-06-28",
+    "data_alvo": "2015-07-26",
+    "data_ultimo_caso": "2015-06-21",
+    "media_casos_referencia": 244.0,
+    "casos_futuros": 107.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 236,
+    "data_emissao": "2015-07-05",
+    "data_alvo": "2015-08-02",
+    "data_ultimo_caso": "2015-06-28",
+    "media_casos_referencia": 205.75,
+    "casos_futuros": 88.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 237,
+    "data_emissao": "2015-07-12",
+    "data_alvo": "2015-08-09",
+    "data_ultimo_caso": "2015-07-05",
+    "media_casos_referencia": 170.75,
+    "casos_futuros": 101.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 238,
+    "data_emissao": "2015-07-19",
+    "data_alvo": "2015-08-16",
+    "data_ultimo_caso": "2015-07-12",
+    "media_casos_referencia": 136.5,
+    "casos_futuros": 101.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 239,
+    "data_emissao": "2015-07-26",
+    "data_alvo": "2015-08-23",
+    "data_ultimo_caso": "2015-07-19",
+    "media_casos_referencia": 120.25,
+    "casos_futuros": 88.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 240,
+    "data_emissao": "2015-08-02",
+    "data_alvo": "2015-08-30",
+    "data_ultimo_caso": "2015-07-26",
+    "media_casos_referencia": 112.0,
+    "casos_futuros": 64.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 241,
+    "data_emissao": "2015-08-09",
+    "data_alvo": "2015-09-06",
+    "data_ultimo_caso": "2015-08-02",
+    "media_casos_referencia": 104.75,
+    "casos_futuros": 60.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 242,
+    "data_emissao": "2015-08-16",
+    "data_alvo": "2015-09-13",
+    "data_ultimo_caso": "2015-08-09",
+    "media_casos_referencia": 101.75,
+    "casos_futuros": 93.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 243,
+    "data_emissao": "2015-08-23",
+    "data_alvo": "2015-09-20",
+    "data_ultimo_caso": "2015-08-16",
+    "media_casos_referencia": 99.25,
+    "casos_futuros": 75.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 244,
+    "data_emissao": "2015-08-30",
+    "data_alvo": "2015-09-27",
+    "data_ultimo_caso": "2015-08-23",
+    "media_casos_referencia": 94.5,
+    "casos_futuros": 95.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 245,
+    "data_emissao": "2015-09-06",
+    "data_alvo": "2015-10-04",
+    "data_ultimo_caso": "2015-08-30",
+    "media_casos_referencia": 88.5,
+    "casos_futuros": 134.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 246,
+    "data_emissao": "2015-09-13",
+    "data_alvo": "2015-10-11",
+    "data_ultimo_caso": "2015-09-06",
+    "media_casos_referencia": 78.25,
+    "casos_futuros": 100.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 247,
+    "data_emissao": "2015-09-20",
+    "data_alvo": "2015-10-18",
+    "data_ultimo_caso": "2015-09-13",
+    "media_casos_referencia": 76.25,
+    "casos_futuros": 102.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 248,
+    "data_emissao": "2015-09-27",
+    "data_alvo": "2015-10-25",
+    "data_ultimo_caso": "2015-09-20",
+    "media_casos_referencia": 73.0,
+    "casos_futuros": 88.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 249,
+    "data_emissao": "2015-10-04",
+    "data_alvo": "2015-11-01",
+    "data_ultimo_caso": "2015-09-27",
+    "media_casos_referencia": 80.75,
+    "casos_futuros": 114.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 250,
+    "data_emissao": "2015-10-11",
+    "data_alvo": "2015-11-08",
+    "data_ultimo_caso": "2015-10-04",
+    "media_casos_referencia": 99.25,
+    "casos_futuros": 169.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 251,
+    "data_emissao": "2015-10-18",
+    "data_alvo": "2015-11-15",
+    "data_ultimo_caso": "2015-10-11",
+    "media_casos_referencia": 101.0,
+    "casos_futuros": 171.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 252,
+    "data_emissao": "2015-10-25",
+    "data_alvo": "2015-11-22",
+    "data_ultimo_caso": "2015-10-18",
+    "media_casos_referencia": 107.75,
+    "casos_futuros": 253.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 253,
+    "data_emissao": "2015-11-01",
+    "data_alvo": "2015-11-29",
+    "data_ultimo_caso": "2015-10-25",
+    "media_casos_referencia": 106.0,
+    "casos_futuros": 309.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 254,
+    "data_emissao": "2015-11-08",
+    "data_alvo": "2015-12-06",
+    "data_ultimo_caso": "2015-11-01",
+    "media_casos_referencia": 101.0,
+    "casos_futuros": 506.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 255,
+    "data_emissao": "2015-11-15",
+    "data_alvo": "2015-12-13",
+    "data_ultimo_caso": "2015-11-08",
+    "media_casos_referencia": 118.25,
+    "casos_futuros": 651.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 256,
+    "data_emissao": "2015-11-22",
+    "data_alvo": "2015-12-20",
+    "data_ultimo_caso": "2015-11-15",
+    "media_casos_referencia": 135.5,
+    "casos_futuros": 769.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 257,
+    "data_emissao": "2015-11-29",
+    "data_alvo": "2015-12-27",
+    "data_ultimo_caso": "2015-11-22",
+    "media_casos_referencia": 176.75,
+    "casos_futuros": 799.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 258,
+    "data_emissao": "2015-12-06",
+    "data_alvo": "2016-01-03",
+    "data_ultimo_caso": "2015-11-29",
+    "media_casos_referencia": 225.5,
+    "casos_futuros": 2711.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 259,
+    "data_emissao": "2015-12-13",
+    "data_alvo": "2016-01-10",
+    "data_ultimo_caso": "2015-12-06",
+    "media_casos_referencia": 309.75,
+    "casos_futuros": 3699.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 260,
+    "data_emissao": "2015-12-20",
+    "data_alvo": "2016-01-17",
+    "data_ultimo_caso": "2015-12-13",
+    "media_casos_referencia": 429.75,
+    "casos_futuros": 4125.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 261,
+    "data_emissao": "2015-12-27",
+    "data_alvo": "2016-01-24",
+    "data_ultimo_caso": "2015-12-20",
+    "media_casos_referencia": 558.75,
+    "casos_futuros": 4785.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 262,
+    "data_emissao": "2016-01-03",
+    "data_alvo": "2016-01-31",
+    "data_ultimo_caso": "2015-12-27",
+    "media_casos_referencia": 681.25,
+    "casos_futuros": 5151.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 263,
+    "data_emissao": "2016-01-10",
+    "data_alvo": "2016-02-07",
+    "data_ultimo_caso": "2016-01-03",
+    "media_casos_referencia": 1232.5,
+    "casos_futuros": 6013.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 264,
+    "data_emissao": "2016-01-17",
+    "data_alvo": "2016-02-14",
+    "data_ultimo_caso": "2016-01-10",
+    "media_casos_referencia": 1994.5,
+    "casos_futuros": 5488.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 265,
+    "data_emissao": "2016-01-24",
+    "data_alvo": "2016-02-21",
+    "data_ultimo_caso": "2016-01-17",
+    "media_casos_referencia": 2833.5,
+    "casos_futuros": 4384.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 266,
+    "data_emissao": "2016-01-31",
+    "data_alvo": "2016-02-28",
+    "data_ultimo_caso": "2016-01-24",
+    "media_casos_referencia": 3830.0,
+    "casos_futuros": 3612.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 267,
+    "data_emissao": "2016-02-07",
+    "data_alvo": "2016-03-06",
+    "data_ultimo_caso": "2016-01-31",
+    "media_casos_referencia": 4440.0,
+    "casos_futuros": 3085.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 268,
+    "data_emissao": "2016-02-14",
+    "data_alvo": "2016-03-13",
+    "data_ultimo_caso": "2016-02-07",
+    "media_casos_referencia": 5018.5,
+    "casos_futuros": 2995.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 269,
+    "data_emissao": "2016-02-21",
+    "data_alvo": "2016-03-20",
+    "data_ultimo_caso": "2016-02-14",
+    "media_casos_referencia": 5359.25,
+    "casos_futuros": 2480.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 270,
+    "data_emissao": "2016-02-28",
+    "data_alvo": "2016-03-27",
+    "data_ultimo_caso": "2016-02-21",
+    "media_casos_referencia": 5259.0,
+    "casos_futuros": 2158.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 271,
+    "data_emissao": "2016-03-06",
+    "data_alvo": "2016-04-03",
+    "data_ultimo_caso": "2016-02-28",
+    "media_casos_referencia": 4874.25,
+    "casos_futuros": 1696.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 272,
+    "data_emissao": "2016-03-13",
+    "data_alvo": "2016-04-10",
+    "data_ultimo_caso": "2016-03-06",
+    "media_casos_referencia": 4142.25,
+    "casos_futuros": 1406.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 273,
+    "data_emissao": "2016-03-20",
+    "data_alvo": "2016-04-17",
+    "data_ultimo_caso": "2016-03-13",
+    "media_casos_referencia": 3519.0,
+    "casos_futuros": 1053.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 274,
+    "data_emissao": "2016-03-27",
+    "data_alvo": "2016-04-24",
+    "data_ultimo_caso": "2016-03-20",
+    "media_casos_referencia": 3043.0,
+    "casos_futuros": 683.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 275,
+    "data_emissao": "2016-04-03",
+    "data_alvo": "2016-05-01",
+    "data_ultimo_caso": "2016-03-27",
+    "media_casos_referencia": 2679.5,
+    "casos_futuros": 363.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 276,
+    "data_emissao": "2016-04-10",
+    "data_alvo": "2016-05-08",
+    "data_ultimo_caso": "2016-04-03",
+    "media_casos_referencia": 2332.25,
+    "casos_futuros": 251.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 277,
+    "data_emissao": "2016-04-17",
+    "data_alvo": "2016-05-15",
+    "data_ultimo_caso": "2016-04-10",
+    "media_casos_referencia": 1935.0,
+    "casos_futuros": 184.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 278,
+    "data_emissao": "2016-04-24",
+    "data_alvo": "2016-05-22",
+    "data_ultimo_caso": "2016-04-17",
+    "media_casos_referencia": 1578.25,
+    "casos_futuros": 90.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 279,
+    "data_emissao": "2016-05-01",
+    "data_alvo": "2016-05-29",
+    "data_ultimo_caso": "2016-04-24",
+    "media_casos_referencia": 1209.5,
+    "casos_futuros": 46.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 280,
+    "data_emissao": "2016-05-08",
+    "data_alvo": "2016-06-05",
+    "data_ultimo_caso": "2016-05-01",
+    "media_casos_referencia": 876.25,
+    "casos_futuros": 20.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 281,
+    "data_emissao": "2016-05-15",
+    "data_alvo": "2016-06-12",
+    "data_ultimo_caso": "2016-05-08",
+    "media_casos_referencia": 587.5,
+    "casos_futuros": 28.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 282,
+    "data_emissao": "2016-05-22",
+    "data_alvo": "2016-06-19",
+    "data_ultimo_caso": "2016-05-15",
+    "media_casos_referencia": 370.25,
+    "casos_futuros": 30.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 283,
+    "data_emissao": "2016-05-29",
+    "data_alvo": "2016-06-26",
+    "data_ultimo_caso": "2016-05-22",
+    "media_casos_referencia": 222.0,
+    "casos_futuros": 27.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 284,
+    "data_emissao": "2016-06-05",
+    "data_alvo": "2016-07-03",
+    "data_ultimo_caso": "2016-05-29",
+    "media_casos_referencia": 142.75,
+    "casos_futuros": 27.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 285,
+    "data_emissao": "2016-06-12",
+    "data_alvo": "2016-07-10",
+    "data_ultimo_caso": "2016-06-05",
+    "media_casos_referencia": 85.0,
+    "casos_futuros": 21.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 286,
+    "data_emissao": "2016-06-19",
+    "data_alvo": "2016-07-17",
+    "data_ultimo_caso": "2016-06-12",
+    "media_casos_referencia": 46.0,
+    "casos_futuros": 16.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 287,
+    "data_emissao": "2016-06-26",
+    "data_alvo": "2016-07-24",
+    "data_ultimo_caso": "2016-06-19",
+    "media_casos_referencia": 31.0,
+    "casos_futuros": 15.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 288,
+    "data_emissao": "2016-07-03",
+    "data_alvo": "2016-07-31",
+    "data_ultimo_caso": "2016-06-26",
+    "media_casos_referencia": 26.25,
+    "casos_futuros": 19.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 289,
+    "data_emissao": "2016-07-10",
+    "data_alvo": "2016-08-07",
+    "data_ultimo_caso": "2016-07-03",
+    "media_casos_referencia": 28.0,
+    "casos_futuros": 26.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 290,
+    "data_emissao": "2016-07-17",
+    "data_alvo": "2016-08-14",
+    "data_ultimo_caso": "2016-07-10",
+    "media_casos_referencia": 26.25,
+    "casos_futuros": 29.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 291,
+    "data_emissao": "2016-07-24",
+    "data_alvo": "2016-08-21",
+    "data_ultimo_caso": "2016-07-17",
+    "media_casos_referencia": 22.75,
+    "casos_futuros": 23.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 292,
+    "data_emissao": "2016-07-31",
+    "data_alvo": "2016-08-28",
+    "data_ultimo_caso": "2016-07-24",
+    "media_casos_referencia": 19.75,
+    "casos_futuros": 22.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 293,
+    "data_emissao": "2016-08-07",
+    "data_alvo": "2016-09-04",
+    "data_ultimo_caso": "2016-07-31",
+    "media_casos_referencia": 17.75,
+    "casos_futuros": 29.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 294,
+    "data_emissao": "2016-08-14",
+    "data_alvo": "2016-09-11",
+    "data_ultimo_caso": "2016-08-07",
+    "media_casos_referencia": 19.0,
+    "casos_futuros": 23.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 295,
+    "data_emissao": "2016-08-21",
+    "data_alvo": "2016-09-18",
+    "data_ultimo_caso": "2016-08-14",
+    "media_casos_referencia": 22.25,
+    "casos_futuros": 28.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 296,
+    "data_emissao": "2016-08-28",
+    "data_alvo": "2016-09-25",
+    "data_ultimo_caso": "2016-08-21",
+    "media_casos_referencia": 24.25,
+    "casos_futuros": 35.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 297,
+    "data_emissao": "2016-09-04",
+    "data_alvo": "2016-10-02",
+    "data_ultimo_caso": "2016-08-28",
+    "media_casos_referencia": 25.0,
+    "casos_futuros": 20.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 298,
+    "data_emissao": "2016-09-11",
+    "data_alvo": "2016-10-09",
+    "data_ultimo_caso": "2016-09-04",
+    "media_casos_referencia": 25.75,
+    "casos_futuros": 45.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 299,
+    "data_emissao": "2016-09-18",
+    "data_alvo": "2016-10-16",
+    "data_ultimo_caso": "2016-09-11",
+    "media_casos_referencia": 24.25,
+    "casos_futuros": 54.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 300,
+    "data_emissao": "2016-09-25",
+    "data_alvo": "2016-10-23",
+    "data_ultimo_caso": "2016-09-18",
+    "media_casos_referencia": 25.5,
+    "casos_futuros": 60.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 301,
+    "data_emissao": "2016-10-02",
+    "data_alvo": "2016-10-30",
+    "data_ultimo_caso": "2016-09-25",
+    "media_casos_referencia": 28.75,
+    "casos_futuros": 64.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 302,
+    "data_emissao": "2016-10-09",
+    "data_alvo": "2016-11-06",
+    "data_ultimo_caso": "2016-10-02",
+    "media_casos_referencia": 26.5,
+    "casos_futuros": 69.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 303,
+    "data_emissao": "2016-10-16",
+    "data_alvo": "2016-11-13",
+    "data_ultimo_caso": "2016-10-09",
+    "media_casos_referencia": 32.0,
+    "casos_futuros": 60.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 304,
+    "data_emissao": "2016-10-23",
+    "data_alvo": "2016-11-20",
+    "data_ultimo_caso": "2016-10-16",
+    "media_casos_referencia": 38.5,
+    "casos_futuros": 52.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 305,
+    "data_emissao": "2016-10-30",
+    "data_alvo": "2016-11-27",
+    "data_ultimo_caso": "2016-10-23",
+    "media_casos_referencia": 44.75,
+    "casos_futuros": 54.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 306,
+    "data_emissao": "2016-11-06",
+    "data_alvo": "2016-12-04",
+    "data_ultimo_caso": "2016-10-30",
+    "media_casos_referencia": 55.75,
+    "casos_futuros": 52.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 307,
+    "data_emissao": "2016-11-13",
+    "data_alvo": "2016-12-11",
+    "data_ultimo_caso": "2016-11-06",
+    "media_casos_referencia": 61.75,
+    "casos_futuros": 61.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 308,
+    "data_emissao": "2016-11-20",
+    "data_alvo": "2016-12-18",
+    "data_ultimo_caso": "2016-11-13",
+    "media_casos_referencia": 63.25,
+    "casos_futuros": 61.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 309,
+    "data_emissao": "2016-11-27",
+    "data_alvo": "2016-12-25",
+    "data_ultimo_caso": "2016-11-20",
+    "media_casos_referencia": 61.25,
+    "casos_futuros": 541.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 310,
+    "data_emissao": "2016-12-04",
+    "data_alvo": "2017-01-01",
+    "data_ultimo_caso": "2016-11-27",
+    "media_casos_referencia": 58.75,
+    "casos_futuros": 59.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 311,
+    "data_emissao": "2016-12-11",
+    "data_alvo": "2017-01-08",
+    "data_ultimo_caso": "2016-12-04",
+    "media_casos_referencia": 54.5,
+    "casos_futuros": 82.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 312,
+    "data_emissao": "2016-12-18",
+    "data_alvo": "2017-01-15",
+    "data_ultimo_caso": "2016-12-11",
+    "media_casos_referencia": 54.75,
+    "casos_futuros": 90.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 313,
+    "data_emissao": "2016-12-25",
+    "data_alvo": "2017-01-22",
+    "data_ultimo_caso": "2016-12-18",
+    "media_casos_referencia": 57.0,
+    "casos_futuros": 106.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 314,
+    "data_emissao": "2017-01-01",
+    "data_alvo": "2017-01-29",
+    "data_ultimo_caso": "2016-12-25",
+    "media_casos_referencia": 178.75,
+    "casos_futuros": 96.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 315,
+    "data_emissao": "2017-01-08",
+    "data_alvo": "2017-02-05",
+    "data_ultimo_caso": "2017-01-01",
+    "media_casos_referencia": 180.5,
+    "casos_futuros": 123.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 316,
+    "data_emissao": "2017-01-15",
+    "data_alvo": "2017-02-12",
+    "data_ultimo_caso": "2017-01-08",
+    "media_casos_referencia": 185.75,
+    "casos_futuros": 105.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 317,
+    "data_emissao": "2017-01-22",
+    "data_alvo": "2017-02-19",
+    "data_ultimo_caso": "2017-01-15",
+    "media_casos_referencia": 193.0,
+    "casos_futuros": 96.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 318,
+    "data_emissao": "2017-01-29",
+    "data_alvo": "2017-02-26",
+    "data_ultimo_caso": "2017-01-22",
+    "media_casos_referencia": 84.25,
+    "casos_futuros": 99.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 319,
+    "data_emissao": "2017-02-05",
+    "data_alvo": "2017-03-05",
+    "data_ultimo_caso": "2017-01-29",
+    "media_casos_referencia": 93.5,
+    "casos_futuros": 89.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 320,
+    "data_emissao": "2017-02-12",
+    "data_alvo": "2017-03-12",
+    "data_ultimo_caso": "2017-02-05",
+    "media_casos_referencia": 103.75,
+    "casos_futuros": 59.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 321,
+    "data_emissao": "2017-02-19",
+    "data_alvo": "2017-03-19",
+    "data_ultimo_caso": "2017-02-12",
+    "media_casos_referencia": 107.5,
+    "casos_futuros": 82.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 322,
+    "data_emissao": "2017-02-26",
+    "data_alvo": "2017-03-26",
+    "data_ultimo_caso": "2017-02-19",
+    "media_casos_referencia": 105.0,
+    "casos_futuros": 64.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 323,
+    "data_emissao": "2017-03-05",
+    "data_alvo": "2017-04-02",
+    "data_ultimo_caso": "2017-02-26",
+    "media_casos_referencia": 105.75,
+    "casos_futuros": 38.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 324,
+    "data_emissao": "2017-03-12",
+    "data_alvo": "2017-04-09",
+    "data_ultimo_caso": "2017-03-05",
+    "media_casos_referencia": 97.25,
+    "casos_futuros": 32.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 325,
+    "data_emissao": "2017-03-19",
+    "data_alvo": "2017-04-16",
+    "data_ultimo_caso": "2017-03-12",
+    "media_casos_referencia": 85.75,
+    "casos_futuros": 44.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 326,
+    "data_emissao": "2017-03-26",
+    "data_alvo": "2017-04-23",
+    "data_ultimo_caso": "2017-03-19",
+    "media_casos_referencia": 82.25,
+    "casos_futuros": 41.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 327,
+    "data_emissao": "2017-04-02",
+    "data_alvo": "2017-04-30",
+    "data_ultimo_caso": "2017-03-26",
+    "media_casos_referencia": 73.5,
+    "casos_futuros": 46.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 328,
+    "data_emissao": "2017-04-09",
+    "data_alvo": "2017-05-07",
+    "data_ultimo_caso": "2017-04-02",
+    "media_casos_referencia": 60.75,
+    "casos_futuros": 49.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 329,
+    "data_emissao": "2017-04-16",
+    "data_alvo": "2017-05-14",
+    "data_ultimo_caso": "2017-04-09",
+    "media_casos_referencia": 54.0,
+    "casos_futuros": 47.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 330,
+    "data_emissao": "2017-04-23",
+    "data_alvo": "2017-05-21",
+    "data_ultimo_caso": "2017-04-16",
+    "media_casos_referencia": 44.5,
+    "casos_futuros": 35.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 331,
+    "data_emissao": "2017-04-30",
+    "data_alvo": "2017-05-28",
+    "data_ultimo_caso": "2017-04-23",
+    "media_casos_referencia": 38.75,
+    "casos_futuros": 25.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 332,
+    "data_emissao": "2017-05-07",
+    "data_alvo": "2017-06-04",
+    "data_ultimo_caso": "2017-04-30",
+    "media_casos_referencia": 40.75,
+    "casos_futuros": 32.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 333,
+    "data_emissao": "2017-05-14",
+    "data_alvo": "2017-06-11",
+    "data_ultimo_caso": "2017-05-07",
+    "media_casos_referencia": 45.0,
+    "casos_futuros": 20.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 334,
+    "data_emissao": "2017-05-21",
+    "data_alvo": "2017-06-18",
+    "data_ultimo_caso": "2017-05-14",
+    "media_casos_referencia": 45.75,
+    "casos_futuros": 20.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 335,
+    "data_emissao": "2017-05-28",
+    "data_alvo": "2017-06-25",
+    "data_ultimo_caso": "2017-05-21",
+    "media_casos_referencia": 44.25,
+    "casos_futuros": 11.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 336,
+    "data_emissao": "2017-06-04",
+    "data_alvo": "2017-07-02",
+    "data_ultimo_caso": "2017-05-28",
+    "media_casos_referencia": 39.0,
+    "casos_futuros": 16.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 337,
+    "data_emissao": "2017-06-11",
+    "data_alvo": "2017-07-09",
+    "data_ultimo_caso": "2017-06-04",
+    "media_casos_referencia": 34.75,
+    "casos_futuros": 14.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 338,
+    "data_emissao": "2017-06-18",
+    "data_alvo": "2017-07-16",
+    "data_ultimo_caso": "2017-06-11",
+    "media_casos_referencia": 28.0,
+    "casos_futuros": 12.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 339,
+    "data_emissao": "2017-06-25",
+    "data_alvo": "2017-07-23",
+    "data_ultimo_caso": "2017-06-18",
+    "media_casos_referencia": 24.25,
+    "casos_futuros": 10.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 340,
+    "data_emissao": "2017-07-02",
+    "data_alvo": "2017-07-30",
+    "data_ultimo_caso": "2017-06-25",
+    "media_casos_referencia": 20.75,
+    "casos_futuros": 16.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 341,
+    "data_emissao": "2017-07-09",
+    "data_alvo": "2017-08-06",
+    "data_ultimo_caso": "2017-07-02",
+    "media_casos_referencia": 16.75,
+    "casos_futuros": 24.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 342,
+    "data_emissao": "2017-07-16",
+    "data_alvo": "2017-08-13",
+    "data_ultimo_caso": "2017-07-09",
+    "media_casos_referencia": 15.25,
+    "casos_futuros": 26.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 343,
+    "data_emissao": "2017-07-23",
+    "data_alvo": "2017-08-20",
+    "data_ultimo_caso": "2017-07-16",
+    "media_casos_referencia": 13.25,
+    "casos_futuros": 23.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 344,
+    "data_emissao": "2017-07-30",
+    "data_alvo": "2017-08-27",
+    "data_ultimo_caso": "2017-07-23",
+    "media_casos_referencia": 13.0,
+    "casos_futuros": 30.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 345,
+    "data_emissao": "2017-08-06",
+    "data_alvo": "2017-09-03",
+    "data_ultimo_caso": "2017-07-30",
+    "media_casos_referencia": 13.0,
+    "casos_futuros": 37.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 346,
+    "data_emissao": "2017-08-13",
+    "data_alvo": "2017-09-10",
+    "data_ultimo_caso": "2017-08-06",
+    "media_casos_referencia": 15.5,
+    "casos_futuros": 49.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 347,
+    "data_emissao": "2017-08-20",
+    "data_alvo": "2017-09-17",
+    "data_ultimo_caso": "2017-08-13",
+    "media_casos_referencia": 19.0,
+    "casos_futuros": 74.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 348,
+    "data_emissao": "2017-08-27",
+    "data_alvo": "2017-09-24",
+    "data_ultimo_caso": "2017-08-20",
+    "media_casos_referencia": 22.25,
+    "casos_futuros": 85.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 349,
+    "data_emissao": "2017-09-03",
+    "data_alvo": "2017-10-01",
+    "data_ultimo_caso": "2017-08-27",
+    "media_casos_referencia": 25.75,
+    "casos_futuros": 81.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 350,
+    "data_emissao": "2017-09-10",
+    "data_alvo": "2017-10-08",
+    "data_ultimo_caso": "2017-09-03",
+    "media_casos_referencia": 29.0,
+    "casos_futuros": 67.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 351,
+    "data_emissao": "2017-09-17",
+    "data_alvo": "2017-10-15",
+    "data_ultimo_caso": "2017-09-10",
+    "media_casos_referencia": 34.75,
+    "casos_futuros": 50.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 352,
+    "data_emissao": "2017-09-24",
+    "data_alvo": "2017-10-22",
+    "data_ultimo_caso": "2017-09-17",
+    "media_casos_referencia": 47.5,
+    "casos_futuros": 67.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 353,
+    "data_emissao": "2017-10-01",
+    "data_alvo": "2017-10-29",
+    "data_ultimo_caso": "2017-09-24",
+    "media_casos_referencia": 61.25,
+    "casos_futuros": 53.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 354,
+    "data_emissao": "2017-10-08",
+    "data_alvo": "2017-11-05",
+    "data_ultimo_caso": "2017-10-01",
+    "media_casos_referencia": 72.25,
+    "casos_futuros": 52.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 355,
+    "data_emissao": "2017-10-15",
+    "data_alvo": "2017-11-12",
+    "data_ultimo_caso": "2017-10-08",
+    "media_casos_referencia": 76.75,
+    "casos_futuros": 44.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 356,
+    "data_emissao": "2017-10-22",
+    "data_alvo": "2017-11-19",
+    "data_ultimo_caso": "2017-10-15",
+    "media_casos_referencia": 70.75,
+    "casos_futuros": 42.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 357,
+    "data_emissao": "2017-10-29",
+    "data_alvo": "2017-11-26",
+    "data_ultimo_caso": "2017-10-22",
+    "media_casos_referencia": 66.25,
+    "casos_futuros": 41.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 358,
+    "data_emissao": "2017-11-05",
+    "data_alvo": "2017-12-03",
+    "data_ultimo_caso": "2017-10-29",
+    "media_casos_referencia": 59.25,
+    "casos_futuros": 48.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 359,
+    "data_emissao": "2017-11-12",
+    "data_alvo": "2017-12-10",
+    "data_ultimo_caso": "2017-11-05",
+    "media_casos_referencia": 55.5,
+    "casos_futuros": 37.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 360,
+    "data_emissao": "2017-11-19",
+    "data_alvo": "2017-12-17",
+    "data_ultimo_caso": "2017-11-12",
+    "media_casos_referencia": 54.0,
+    "casos_futuros": 32.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 361,
+    "data_emissao": "2017-11-26",
+    "data_alvo": "2017-12-24",
+    "data_ultimo_caso": "2017-11-19",
+    "media_casos_referencia": 47.75,
+    "casos_futuros": 17.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 362,
+    "data_emissao": "2017-12-03",
+    "data_alvo": "2017-12-31",
+    "data_ultimo_caso": "2017-11-26",
+    "media_casos_referencia": 44.75,
+    "casos_futuros": 39.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 363,
+    "data_emissao": "2017-12-10",
+    "data_alvo": "2018-01-07",
+    "data_ultimo_caso": "2017-12-03",
+    "media_casos_referencia": 43.75,
+    "casos_futuros": 45.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 364,
+    "data_emissao": "2017-12-17",
+    "data_alvo": "2018-01-14",
+    "data_ultimo_caso": "2017-12-10",
+    "media_casos_referencia": 42.0,
+    "casos_futuros": 47.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 365,
+    "data_emissao": "2017-12-24",
+    "data_alvo": "2018-01-21",
+    "data_ultimo_caso": "2017-12-17",
+    "media_casos_referencia": 39.5,
+    "casos_futuros": 55.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 366,
+    "data_emissao": "2017-12-31",
+    "data_alvo": "2018-01-28",
+    "data_ultimo_caso": "2017-12-24",
+    "media_casos_referencia": 33.5,
+    "casos_futuros": 46.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 367,
+    "data_emissao": "2018-01-07",
+    "data_alvo": "2018-02-04",
+    "data_ultimo_caso": "2017-12-31",
+    "media_casos_referencia": 31.25,
+    "casos_futuros": 45.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 368,
+    "data_emissao": "2018-01-14",
+    "data_alvo": "2018-02-11",
+    "data_ultimo_caso": "2018-01-07",
+    "media_casos_referencia": 33.25,
+    "casos_futuros": 60.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 369,
+    "data_emissao": "2018-01-21",
+    "data_alvo": "2018-02-18",
+    "data_ultimo_caso": "2018-01-14",
+    "media_casos_referencia": 37.0,
+    "casos_futuros": 47.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 370,
+    "data_emissao": "2018-01-28",
+    "data_alvo": "2018-02-25",
+    "data_ultimo_caso": "2018-01-21",
+    "media_casos_referencia": 46.5,
+    "casos_futuros": 47.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 371,
+    "data_emissao": "2018-02-04",
+    "data_alvo": "2018-03-04",
+    "data_ultimo_caso": "2018-01-28",
+    "media_casos_referencia": 48.25,
+    "casos_futuros": 41.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 372,
+    "data_emissao": "2018-02-11",
+    "data_alvo": "2018-03-11",
+    "data_ultimo_caso": "2018-02-04",
+    "media_casos_referencia": 48.25,
+    "casos_futuros": 42.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 373,
+    "data_emissao": "2018-02-18",
+    "data_alvo": "2018-03-18",
+    "data_ultimo_caso": "2018-02-11",
+    "media_casos_referencia": 51.5,
+    "casos_futuros": 43.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 374,
+    "data_emissao": "2018-02-25",
+    "data_alvo": "2018-03-25",
+    "data_ultimo_caso": "2018-02-18",
+    "media_casos_referencia": 49.5,
+    "casos_futuros": 35.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 375,
+    "data_emissao": "2018-03-04",
+    "data_alvo": "2018-04-01",
+    "data_ultimo_caso": "2018-02-25",
+    "media_casos_referencia": 49.75,
+    "casos_futuros": 35.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 376,
+    "data_emissao": "2018-03-11",
+    "data_alvo": "2018-04-08",
+    "data_ultimo_caso": "2018-03-04",
+    "media_casos_referencia": 48.75,
+    "casos_futuros": 37.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 377,
+    "data_emissao": "2018-03-18",
+    "data_alvo": "2018-04-15",
+    "data_ultimo_caso": "2018-03-11",
+    "media_casos_referencia": 44.25,
+    "casos_futuros": 28.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 378,
+    "data_emissao": "2018-03-25",
+    "data_alvo": "2018-04-22",
+    "data_ultimo_caso": "2018-03-18",
+    "media_casos_referencia": 43.25,
+    "casos_futuros": 27.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 379,
+    "data_emissao": "2018-04-01",
+    "data_alvo": "2018-04-29",
+    "data_ultimo_caso": "2018-03-25",
+    "media_casos_referencia": 40.25,
+    "casos_futuros": 30.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 380,
+    "data_emissao": "2018-04-08",
+    "data_alvo": "2018-05-06",
+    "data_ultimo_caso": "2018-04-01",
+    "media_casos_referencia": 38.75,
+    "casos_futuros": 30.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 381,
+    "data_emissao": "2018-04-15",
+    "data_alvo": "2018-05-13",
+    "data_ultimo_caso": "2018-04-08",
+    "media_casos_referencia": 37.5,
+    "casos_futuros": 32.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 382,
+    "data_emissao": "2018-04-22",
+    "data_alvo": "2018-05-20",
+    "data_ultimo_caso": "2018-04-15",
+    "media_casos_referencia": 33.75,
+    "casos_futuros": 26.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 383,
+    "data_emissao": "2018-04-29",
+    "data_alvo": "2018-05-27",
+    "data_ultimo_caso": "2018-04-22",
+    "media_casos_referencia": 31.75,
+    "casos_futuros": 24.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 384,
+    "data_emissao": "2018-05-06",
+    "data_alvo": "2018-06-03",
+    "data_ultimo_caso": "2018-04-29",
+    "media_casos_referencia": 30.5,
+    "casos_futuros": 13.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 385,
+    "data_emissao": "2018-05-13",
+    "data_alvo": "2018-06-10",
+    "data_ultimo_caso": "2018-05-06",
+    "media_casos_referencia": 28.75,
+    "casos_futuros": 23.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 386,
+    "data_emissao": "2018-05-20",
+    "data_alvo": "2018-06-17",
+    "data_ultimo_caso": "2018-05-13",
+    "media_casos_referencia": 29.75,
+    "casos_futuros": 17.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 387,
+    "data_emissao": "2018-05-27",
+    "data_alvo": "2018-06-24",
+    "data_ultimo_caso": "2018-05-20",
+    "media_casos_referencia": 29.5,
+    "casos_futuros": 14.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 388,
+    "data_emissao": "2018-06-03",
+    "data_alvo": "2018-07-01",
+    "data_ultimo_caso": "2018-05-27",
+    "media_casos_referencia": 28.0,
+    "casos_futuros": 9.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 389,
+    "data_emissao": "2018-06-10",
+    "data_alvo": "2018-07-08",
+    "data_ultimo_caso": "2018-06-03",
+    "media_casos_referencia": 23.75,
+    "casos_futuros": 19.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 390,
+    "data_emissao": "2018-06-17",
+    "data_alvo": "2018-07-15",
+    "data_ultimo_caso": "2018-06-10",
+    "media_casos_referencia": 21.5,
+    "casos_futuros": 19.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 391,
+    "data_emissao": "2018-06-24",
+    "data_alvo": "2018-07-22",
+    "data_ultimo_caso": "2018-06-17",
+    "media_casos_referencia": 19.25,
+    "casos_futuros": 9.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 392,
+    "data_emissao": "2018-07-01",
+    "data_alvo": "2018-07-29",
+    "data_ultimo_caso": "2018-06-24",
+    "media_casos_referencia": 16.75,
+    "casos_futuros": 13.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 393,
+    "data_emissao": "2018-07-08",
+    "data_alvo": "2018-08-05",
+    "data_ultimo_caso": "2018-07-01",
+    "media_casos_referencia": 15.75,
+    "casos_futuros": 16.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 394,
+    "data_emissao": "2018-07-15",
+    "data_alvo": "2018-08-12",
+    "data_ultimo_caso": "2018-07-08",
+    "media_casos_referencia": 14.75,
+    "casos_futuros": 13.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 395,
+    "data_emissao": "2018-07-22",
+    "data_alvo": "2018-08-19",
+    "data_ultimo_caso": "2018-07-15",
+    "media_casos_referencia": 15.25,
+    "casos_futuros": 9.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 396,
+    "data_emissao": "2018-07-29",
+    "data_alvo": "2018-08-26",
+    "data_ultimo_caso": "2018-07-22",
+    "media_casos_referencia": 14.0,
+    "casos_futuros": 20.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 397,
+    "data_emissao": "2018-08-05",
+    "data_alvo": "2018-09-02",
+    "data_ultimo_caso": "2018-07-29",
+    "media_casos_referencia": 15.0,
+    "casos_futuros": 6.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 398,
+    "data_emissao": "2018-08-12",
+    "data_alvo": "2018-09-09",
+    "data_ultimo_caso": "2018-08-05",
+    "media_casos_referencia": 14.25,
+    "casos_futuros": 10.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 399,
+    "data_emissao": "2018-08-19",
+    "data_alvo": "2018-09-16",
+    "data_ultimo_caso": "2018-08-12",
+    "media_casos_referencia": 12.75,
+    "casos_futuros": 13.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 400,
+    "data_emissao": "2018-08-26",
+    "data_alvo": "2018-09-23",
+    "data_ultimo_caso": "2018-08-19",
+    "media_casos_referencia": 12.75,
+    "casos_futuros": 12.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 401,
+    "data_emissao": "2018-09-02",
+    "data_alvo": "2018-09-30",
+    "data_ultimo_caso": "2018-08-26",
+    "media_casos_referencia": 14.5,
+    "casos_futuros": 23.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 402,
+    "data_emissao": "2018-09-09",
+    "data_alvo": "2018-10-07",
+    "data_ultimo_caso": "2018-09-02",
+    "media_casos_referencia": 12.0,
+    "casos_futuros": 22.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 403,
+    "data_emissao": "2018-09-16",
+    "data_alvo": "2018-10-14",
+    "data_ultimo_caso": "2018-09-09",
+    "media_casos_referencia": 11.25,
+    "casos_futuros": 30.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 404,
+    "data_emissao": "2018-09-23",
+    "data_alvo": "2018-10-21",
+    "data_ultimo_caso": "2018-09-16",
+    "media_casos_referencia": 12.25,
+    "casos_futuros": 20.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 405,
+    "data_emissao": "2018-09-30",
+    "data_alvo": "2018-10-28",
+    "data_ultimo_caso": "2018-09-23",
+    "media_casos_referencia": 10.25,
+    "casos_futuros": 23.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 406,
+    "data_emissao": "2018-10-07",
+    "data_alvo": "2018-11-04",
+    "data_ultimo_caso": "2018-09-30",
+    "media_casos_referencia": 14.5,
+    "casos_futuros": 25.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 407,
+    "data_emissao": "2018-10-14",
+    "data_alvo": "2018-11-11",
+    "data_ultimo_caso": "2018-10-07",
+    "media_casos_referencia": 17.5,
+    "casos_futuros": 22.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 408,
+    "data_emissao": "2018-10-21",
+    "data_alvo": "2018-11-18",
+    "data_ultimo_caso": "2018-10-14",
+    "media_casos_referencia": 21.75,
+    "casos_futuros": 30.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 409,
+    "data_emissao": "2018-10-28",
+    "data_alvo": "2018-11-25",
+    "data_ultimo_caso": "2018-10-21",
+    "media_casos_referencia": 23.75,
+    "casos_futuros": 47.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 410,
+    "data_emissao": "2018-11-04",
+    "data_alvo": "2018-12-02",
+    "data_ultimo_caso": "2018-10-28",
+    "media_casos_referencia": 23.75,
+    "casos_futuros": 65.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 411,
+    "data_emissao": "2018-11-11",
+    "data_alvo": "2018-12-09",
+    "data_ultimo_caso": "2018-11-04",
+    "media_casos_referencia": 24.5,
+    "casos_futuros": 52.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 412,
+    "data_emissao": "2018-11-18",
+    "data_alvo": "2018-12-16",
+    "data_ultimo_caso": "2018-11-11",
+    "media_casos_referencia": 22.5,
+    "casos_futuros": 58.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 413,
+    "data_emissao": "2018-11-25",
+    "data_alvo": "2018-12-23",
+    "data_ultimo_caso": "2018-11-18",
+    "media_casos_referencia": 25.0,
+    "casos_futuros": 58.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 414,
+    "data_emissao": "2018-12-02",
+    "data_alvo": "2018-12-30",
+    "data_ultimo_caso": "2018-11-25",
+    "media_casos_referencia": 31.0,
+    "casos_futuros": 169.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 415,
+    "data_emissao": "2018-12-09",
+    "data_alvo": "2019-01-06",
+    "data_ultimo_caso": "2018-12-02",
+    "media_casos_referencia": 41.0,
+    "casos_futuros": 78.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 416,
+    "data_emissao": "2018-12-16",
+    "data_alvo": "2019-01-13",
+    "data_ultimo_caso": "2018-12-09",
+    "media_casos_referencia": 48.5,
+    "casos_futuros": 128.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 417,
+    "data_emissao": "2018-12-23",
+    "data_alvo": "2019-01-20",
+    "data_ultimo_caso": "2018-12-16",
+    "media_casos_referencia": 55.5,
+    "casos_futuros": 213.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 418,
+    "data_emissao": "2018-12-30",
+    "data_alvo": "2019-01-27",
+    "data_ultimo_caso": "2018-12-23",
+    "media_casos_referencia": 58.25,
+    "casos_futuros": 352.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 419,
+    "data_emissao": "2019-01-06",
+    "data_alvo": "2019-02-03",
+    "data_ultimo_caso": "2018-12-30",
+    "media_casos_referencia": 84.25,
+    "casos_futuros": 502.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 420,
+    "data_emissao": "2019-01-13",
+    "data_alvo": "2019-02-10",
+    "data_ultimo_caso": "2019-01-06",
+    "media_casos_referencia": 90.75,
+    "casos_futuros": 464.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 421,
+    "data_emissao": "2019-01-20",
+    "data_alvo": "2019-02-17",
+    "data_ultimo_caso": "2019-01-13",
+    "media_casos_referencia": 108.25,
+    "casos_futuros": 568.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 422,
+    "data_emissao": "2019-01-27",
+    "data_alvo": "2019-02-24",
+    "data_ultimo_caso": "2019-01-20",
+    "media_casos_referencia": 147.0,
+    "casos_futuros": 615.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 423,
+    "data_emissao": "2019-02-03",
+    "data_alvo": "2019-03-03",
+    "data_ultimo_caso": "2019-01-27",
+    "media_casos_referencia": 192.75,
+    "casos_futuros": 652.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 424,
+    "data_emissao": "2019-02-10",
+    "data_alvo": "2019-03-10",
+    "data_ultimo_caso": "2019-02-03",
+    "media_casos_referencia": 298.75,
+    "casos_futuros": 705.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 425,
+    "data_emissao": "2019-02-17",
+    "data_alvo": "2019-03-17",
+    "data_ultimo_caso": "2019-02-10",
+    "media_casos_referencia": 382.75,
+    "casos_futuros": 904.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 426,
+    "data_emissao": "2019-02-24",
+    "data_alvo": "2019-03-24",
+    "data_ultimo_caso": "2019-02-17",
+    "media_casos_referencia": 471.5,
+    "casos_futuros": 1026.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 427,
+    "data_emissao": "2019-03-03",
+    "data_alvo": "2019-03-31",
+    "data_ultimo_caso": "2019-02-24",
+    "media_casos_referencia": 537.25,
+    "casos_futuros": 1142.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 428,
+    "data_emissao": "2019-03-10",
+    "data_alvo": "2019-04-07",
+    "data_ultimo_caso": "2019-03-03",
+    "media_casos_referencia": 574.75,
+    "casos_futuros": 1309.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 429,
+    "data_emissao": "2019-03-17",
+    "data_alvo": "2019-04-14",
+    "data_ultimo_caso": "2019-03-10",
+    "media_casos_referencia": 635.0,
+    "casos_futuros": 1401.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 430,
+    "data_emissao": "2019-03-24",
+    "data_alvo": "2019-04-21",
+    "data_ultimo_caso": "2019-03-17",
+    "media_casos_referencia": 719.0,
+    "casos_futuros": 1728.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 431,
+    "data_emissao": "2019-03-31",
+    "data_alvo": "2019-04-28",
+    "data_ultimo_caso": "2019-03-24",
+    "media_casos_referencia": 821.75,
+    "casos_futuros": 1521.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 432,
+    "data_emissao": "2019-04-07",
+    "data_alvo": "2019-05-05",
+    "data_ultimo_caso": "2019-03-31",
+    "media_casos_referencia": 944.25,
+    "casos_futuros": 1831.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 433,
+    "data_emissao": "2019-04-14",
+    "data_alvo": "2019-05-12",
+    "data_ultimo_caso": "2019-04-07",
+    "media_casos_referencia": 1095.25,
+    "casos_futuros": 1852.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 434,
+    "data_emissao": "2019-04-21",
+    "data_alvo": "2019-05-19",
+    "data_ultimo_caso": "2019-04-14",
+    "media_casos_referencia": 1219.5,
+    "casos_futuros": 1386.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 435,
+    "data_emissao": "2019-04-28",
+    "data_alvo": "2019-05-26",
+    "data_ultimo_caso": "2019-04-21",
+    "media_casos_referencia": 1395.0,
+    "casos_futuros": 1066.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 436,
+    "data_emissao": "2019-05-05",
+    "data_alvo": "2019-06-02",
+    "data_ultimo_caso": "2019-04-28",
+    "media_casos_referencia": 1489.75,
+    "casos_futuros": 756.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 437,
+    "data_emissao": "2019-05-12",
+    "data_alvo": "2019-06-09",
+    "data_ultimo_caso": "2019-05-05",
+    "media_casos_referencia": 1620.25,
+    "casos_futuros": 594.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 438,
+    "data_emissao": "2019-05-19",
+    "data_alvo": "2019-06-16",
+    "data_ultimo_caso": "2019-05-12",
+    "media_casos_referencia": 1733.0,
+    "casos_futuros": 432.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 439,
+    "data_emissao": "2019-05-26",
+    "data_alvo": "2019-06-23",
+    "data_ultimo_caso": "2019-05-19",
+    "media_casos_referencia": 1647.5,
+    "casos_futuros": 394.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 440,
+    "data_emissao": "2019-06-02",
+    "data_alvo": "2019-06-30",
+    "data_ultimo_caso": "2019-05-26",
+    "media_casos_referencia": 1533.75,
+    "casos_futuros": 277.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 441,
+    "data_emissao": "2019-06-09",
+    "data_alvo": "2019-07-07",
+    "data_ultimo_caso": "2019-06-02",
+    "media_casos_referencia": 1265.0,
+    "casos_futuros": 197.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 442,
+    "data_emissao": "2019-06-16",
+    "data_alvo": "2019-07-14",
+    "data_ultimo_caso": "2019-06-09",
+    "media_casos_referencia": 950.5,
+    "casos_futuros": 131.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 443,
+    "data_emissao": "2019-06-23",
+    "data_alvo": "2019-07-21",
+    "data_ultimo_caso": "2019-06-16",
+    "media_casos_referencia": 712.0,
+    "casos_futuros": 104.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 444,
+    "data_emissao": "2019-06-30",
+    "data_alvo": "2019-07-28",
+    "data_ultimo_caso": "2019-06-23",
+    "media_casos_referencia": 544.0,
+    "casos_futuros": 66.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 445,
+    "data_emissao": "2019-07-07",
+    "data_alvo": "2019-08-04",
+    "data_ultimo_caso": "2019-06-30",
+    "media_casos_referencia": 424.25,
+    "casos_futuros": 76.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 446,
+    "data_emissao": "2019-07-14",
+    "data_alvo": "2019-08-11",
+    "data_ultimo_caso": "2019-07-07",
+    "media_casos_referencia": 325.0,
+    "casos_futuros": 98.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 447,
+    "data_emissao": "2019-07-21",
+    "data_alvo": "2019-08-18",
+    "data_ultimo_caso": "2019-07-14",
+    "media_casos_referencia": 249.75,
+    "casos_futuros": 79.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 448,
+    "data_emissao": "2019-07-28",
+    "data_alvo": "2019-08-25",
+    "data_ultimo_caso": "2019-07-21",
+    "media_casos_referencia": 177.25,
+    "casos_futuros": 75.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 449,
+    "data_emissao": "2019-08-04",
+    "data_alvo": "2019-09-01",
+    "data_ultimo_caso": "2019-07-28",
+    "media_casos_referencia": 124.5,
+    "casos_futuros": 65.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 450,
+    "data_emissao": "2019-08-11",
+    "data_alvo": "2019-09-08",
+    "data_ultimo_caso": "2019-08-04",
+    "media_casos_referencia": 94.25,
+    "casos_futuros": 50.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 451,
+    "data_emissao": "2019-08-18",
+    "data_alvo": "2019-09-15",
+    "data_ultimo_caso": "2019-08-11",
+    "media_casos_referencia": 86.0,
+    "casos_futuros": 61.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 452,
+    "data_emissao": "2019-08-25",
+    "data_alvo": "2019-09-22",
+    "data_ultimo_caso": "2019-08-18",
+    "media_casos_referencia": 79.75,
+    "casos_futuros": 39.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 453,
+    "data_emissao": "2019-09-01",
+    "data_alvo": "2019-09-29",
+    "data_ultimo_caso": "2019-08-25",
+    "media_casos_referencia": 82.0,
+    "casos_futuros": 63.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 454,
+    "data_emissao": "2019-09-08",
+    "data_alvo": "2019-10-06",
+    "data_ultimo_caso": "2019-09-01",
+    "media_casos_referencia": 79.25,
+    "casos_futuros": 49.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 455,
+    "data_emissao": "2019-09-15",
+    "data_alvo": "2019-10-13",
+    "data_ultimo_caso": "2019-09-08",
+    "media_casos_referencia": 67.25,
+    "casos_futuros": 56.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 456,
+    "data_emissao": "2019-09-22",
+    "data_alvo": "2019-10-20",
+    "data_ultimo_caso": "2019-09-15",
+    "media_casos_referencia": 62.75,
+    "casos_futuros": 61.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 457,
+    "data_emissao": "2019-09-29",
+    "data_alvo": "2019-10-27",
+    "data_ultimo_caso": "2019-09-22",
+    "media_casos_referencia": 53.75,
+    "casos_futuros": 49.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 458,
+    "data_emissao": "2019-10-06",
+    "data_alvo": "2019-11-03",
+    "data_ultimo_caso": "2019-09-29",
+    "media_casos_referencia": 53.25,
+    "casos_futuros": 56.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 459,
+    "data_emissao": "2019-10-13",
+    "data_alvo": "2019-11-10",
+    "data_ultimo_caso": "2019-10-06",
+    "media_casos_referencia": 53.0,
+    "casos_futuros": 67.0,
+    "target": 0,
+    "split": "treino"
+  },
+  {
+    "sample_id": 460,
+    "data_emissao": "2019-10-20",
+    "data_alvo": "2019-11-17",
+    "data_ultimo_caso": "2019-10-13",
+    "media_casos_referencia": 51.75,
+    "casos_futuros": 105.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 461,
+    "data_emissao": "2019-10-27",
+    "data_alvo": "2019-11-24",
+    "data_ultimo_caso": "2019-10-20",
+    "media_casos_referencia": 57.25,
+    "casos_futuros": 109.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 462,
+    "data_emissao": "2019-11-03",
+    "data_alvo": "2019-12-01",
+    "data_ultimo_caso": "2019-10-27",
+    "media_casos_referencia": 53.75,
+    "casos_futuros": 152.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 463,
+    "data_emissao": "2019-11-10",
+    "data_alvo": "2019-12-08",
+    "data_ultimo_caso": "2019-11-03",
+    "media_casos_referencia": 55.5,
+    "casos_futuros": 173.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 464,
+    "data_emissao": "2019-11-17",
+    "data_alvo": "2019-12-15",
+    "data_ultimo_caso": "2019-11-10",
+    "media_casos_referencia": 58.25,
+    "casos_futuros": 160.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 465,
+    "data_emissao": "2019-11-24",
+    "data_alvo": "2019-12-22",
+    "data_ultimo_caso": "2019-11-17",
+    "media_casos_referencia": 69.25,
+    "casos_futuros": 175.0,
+    "target": 1,
+    "split": "treino"
+  },
+  {
+    "sample_id": 470,
+    "data_emissao": "2019-12-29",
+    "data_alvo": "2020-01-26",
+    "data_ultimo_caso": "2019-12-22",
+    "media_casos_referencia": 165.0,
+    "casos_futuros": 1575.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 471,
+    "data_emissao": "2020-01-05",
+    "data_alvo": "2020-02-02",
+    "data_ultimo_caso": "2019-12-29",
+    "media_casos_referencia": 189.75,
+    "casos_futuros": 2146.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 472,
+    "data_emissao": "2020-01-12",
+    "data_alvo": "2020-02-09",
+    "data_ultimo_caso": "2020-01-05",
+    "media_casos_referencia": 302.5,
+    "casos_futuros": 2338.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 473,
+    "data_emissao": "2020-01-19",
+    "data_alvo": "2020-02-16",
+    "data_ultimo_caso": "2020-01-12",
+    "media_casos_referencia": 499.5,
+    "casos_futuros": 2319.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 474,
+    "data_emissao": "2020-01-26",
+    "data_alvo": "2020-02-23",
+    "data_ultimo_caso": "2020-01-19",
+    "media_casos_referencia": 758.75,
+    "casos_futuros": 2118.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 475,
+    "data_emissao": "2020-02-02",
+    "data_alvo": "2020-03-01",
+    "data_ultimo_caso": "2020-01-26",
+    "media_casos_referencia": 1089.75,
+    "casos_futuros": 2266.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 476,
+    "data_emissao": "2020-02-09",
+    "data_alvo": "2020-03-08",
+    "data_ultimo_caso": "2020-02-02",
+    "media_casos_referencia": 1470.25,
+    "casos_futuros": 2119.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 477,
+    "data_emissao": "2020-02-16",
+    "data_alvo": "2020-03-15",
+    "data_ultimo_caso": "2020-02-09",
+    "media_casos_referencia": 1817.75,
+    "casos_futuros": 1333.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 478,
+    "data_emissao": "2020-02-23",
+    "data_alvo": "2020-03-22",
+    "data_ultimo_caso": "2020-02-16",
+    "media_casos_referencia": 2094.5,
+    "casos_futuros": 917.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 479,
+    "data_emissao": "2020-03-01",
+    "data_alvo": "2020-03-29",
+    "data_ultimo_caso": "2020-02-23",
+    "media_casos_referencia": 2230.25,
+    "casos_futuros": 742.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 480,
+    "data_emissao": "2020-03-08",
+    "data_alvo": "2020-04-05",
+    "data_ultimo_caso": "2020-03-01",
+    "media_casos_referencia": 2260.25,
+    "casos_futuros": 708.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 481,
+    "data_emissao": "2020-03-15",
+    "data_alvo": "2020-04-12",
+    "data_ultimo_caso": "2020-03-08",
+    "media_casos_referencia": 2205.5,
+    "casos_futuros": 680.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 482,
+    "data_emissao": "2020-03-22",
+    "data_alvo": "2020-04-19",
+    "data_ultimo_caso": "2020-03-15",
+    "media_casos_referencia": 1959.0,
+    "casos_futuros": 521.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 483,
+    "data_emissao": "2020-03-29",
+    "data_alvo": "2020-04-26",
+    "data_ultimo_caso": "2020-03-22",
+    "media_casos_referencia": 1658.75,
+    "casos_futuros": 545.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 484,
+    "data_emissao": "2020-04-05",
+    "data_alvo": "2020-05-03",
+    "data_ultimo_caso": "2020-03-29",
+    "media_casos_referencia": 1277.75,
+    "casos_futuros": 488.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 485,
+    "data_emissao": "2020-04-12",
+    "data_alvo": "2020-05-10",
+    "data_ultimo_caso": "2020-04-05",
+    "media_casos_referencia": 925.0,
+    "casos_futuros": 442.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 486,
+    "data_emissao": "2020-04-19",
+    "data_alvo": "2020-05-17",
+    "data_ultimo_caso": "2020-04-12",
+    "media_casos_referencia": 761.75,
+    "casos_futuros": 288.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 487,
+    "data_emissao": "2020-04-26",
+    "data_alvo": "2020-05-24",
+    "data_ultimo_caso": "2020-04-19",
+    "media_casos_referencia": 662.75,
+    "casos_futuros": 227.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 488,
+    "data_emissao": "2020-05-03",
+    "data_alvo": "2020-05-31",
+    "data_ultimo_caso": "2020-04-26",
+    "media_casos_referencia": 613.5,
+    "casos_futuros": 277.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 489,
+    "data_emissao": "2020-05-10",
+    "data_alvo": "2020-06-07",
+    "data_ultimo_caso": "2020-05-03",
+    "media_casos_referencia": 558.5,
+    "casos_futuros": 236.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 490,
+    "data_emissao": "2020-05-17",
+    "data_alvo": "2020-06-14",
+    "data_ultimo_caso": "2020-05-10",
+    "media_casos_referencia": 499.0,
+    "casos_futuros": 268.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 491,
+    "data_emissao": "2020-05-24",
+    "data_alvo": "2020-06-21",
+    "data_ultimo_caso": "2020-05-17",
+    "media_casos_referencia": 440.75,
+    "casos_futuros": 198.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 492,
+    "data_emissao": "2020-05-31",
+    "data_alvo": "2020-06-28",
+    "data_ultimo_caso": "2020-05-24",
+    "media_casos_referencia": 361.25,
+    "casos_futuros": 137.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 493,
+    "data_emissao": "2020-06-07",
+    "data_alvo": "2020-07-05",
+    "data_ultimo_caso": "2020-05-31",
+    "media_casos_referencia": 308.5,
+    "casos_futuros": 179.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 494,
+    "data_emissao": "2020-06-14",
+    "data_alvo": "2020-07-12",
+    "data_ultimo_caso": "2020-06-07",
+    "media_casos_referencia": 257.0,
+    "casos_futuros": 142.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 495,
+    "data_emissao": "2020-06-21",
+    "data_alvo": "2020-07-19",
+    "data_ultimo_caso": "2020-06-14",
+    "media_casos_referencia": 252.0,
+    "casos_futuros": 105.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 496,
+    "data_emissao": "2020-06-28",
+    "data_alvo": "2020-07-26",
+    "data_ultimo_caso": "2020-06-21",
+    "media_casos_referencia": 244.75,
+    "casos_futuros": 93.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 497,
+    "data_emissao": "2020-07-05",
+    "data_alvo": "2020-08-02",
+    "data_ultimo_caso": "2020-06-28",
+    "media_casos_referencia": 209.75,
+    "casos_futuros": 93.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 498,
+    "data_emissao": "2020-07-12",
+    "data_alvo": "2020-08-09",
+    "data_ultimo_caso": "2020-07-05",
+    "media_casos_referencia": 195.5,
+    "casos_futuros": 89.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 499,
+    "data_emissao": "2020-07-19",
+    "data_alvo": "2020-08-16",
+    "data_ultimo_caso": "2020-07-12",
+    "media_casos_referencia": 164.0,
+    "casos_futuros": 60.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 500,
+    "data_emissao": "2020-07-26",
+    "data_alvo": "2020-08-23",
+    "data_ultimo_caso": "2020-07-19",
+    "media_casos_referencia": 140.75,
+    "casos_futuros": 50.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 501,
+    "data_emissao": "2020-08-02",
+    "data_alvo": "2020-08-30",
+    "data_ultimo_caso": "2020-07-26",
+    "media_casos_referencia": 129.75,
+    "casos_futuros": 60.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 502,
+    "data_emissao": "2020-08-09",
+    "data_alvo": "2020-09-06",
+    "data_ultimo_caso": "2020-08-02",
+    "media_casos_referencia": 108.25,
+    "casos_futuros": 58.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 503,
+    "data_emissao": "2020-08-16",
+    "data_alvo": "2020-09-13",
+    "data_ultimo_caso": "2020-08-09",
+    "media_casos_referencia": 95.0,
+    "casos_futuros": 56.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 504,
+    "data_emissao": "2020-08-23",
+    "data_alvo": "2020-09-20",
+    "data_ultimo_caso": "2020-08-16",
+    "media_casos_referencia": 83.75,
+    "casos_futuros": 48.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 505,
+    "data_emissao": "2020-08-30",
+    "data_alvo": "2020-09-27",
+    "data_ultimo_caso": "2020-08-23",
+    "media_casos_referencia": 73.0,
+    "casos_futuros": 54.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 506,
+    "data_emissao": "2020-09-06",
+    "data_alvo": "2020-10-04",
+    "data_ultimo_caso": "2020-08-30",
+    "media_casos_referencia": 64.75,
+    "casos_futuros": 63.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 507,
+    "data_emissao": "2020-09-13",
+    "data_alvo": "2020-10-11",
+    "data_ultimo_caso": "2020-09-06",
+    "media_casos_referencia": 57.0,
+    "casos_futuros": 41.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 508,
+    "data_emissao": "2020-09-20",
+    "data_alvo": "2020-10-18",
+    "data_ultimo_caso": "2020-09-13",
+    "media_casos_referencia": 56.0,
+    "casos_futuros": 45.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 509,
+    "data_emissao": "2020-09-27",
+    "data_alvo": "2020-10-25",
+    "data_ultimo_caso": "2020-09-20",
+    "media_casos_referencia": 55.5,
+    "casos_futuros": 34.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 510,
+    "data_emissao": "2020-10-04",
+    "data_alvo": "2020-11-01",
+    "data_ultimo_caso": "2020-09-27",
+    "media_casos_referencia": 54.0,
+    "casos_futuros": 47.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 511,
+    "data_emissao": "2020-10-11",
+    "data_alvo": "2020-11-08",
+    "data_ultimo_caso": "2020-10-04",
+    "media_casos_referencia": 55.25,
+    "casos_futuros": 42.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 512,
+    "data_emissao": "2020-10-18",
+    "data_alvo": "2020-11-15",
+    "data_ultimo_caso": "2020-10-11",
+    "media_casos_referencia": 51.5,
+    "casos_futuros": 65.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 513,
+    "data_emissao": "2020-10-25",
+    "data_alvo": "2020-11-22",
+    "data_ultimo_caso": "2020-10-18",
+    "media_casos_referencia": 50.75,
+    "casos_futuros": 59.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 514,
+    "data_emissao": "2020-11-01",
+    "data_alvo": "2020-11-29",
+    "data_ultimo_caso": "2020-10-25",
+    "media_casos_referencia": 45.75,
+    "casos_futuros": 74.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 515,
+    "data_emissao": "2020-11-08",
+    "data_alvo": "2020-12-06",
+    "data_ultimo_caso": "2020-11-01",
+    "media_casos_referencia": 41.75,
+    "casos_futuros": 69.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 516,
+    "data_emissao": "2020-11-15",
+    "data_alvo": "2020-12-13",
+    "data_ultimo_caso": "2020-11-08",
+    "media_casos_referencia": 42.0,
+    "casos_futuros": 84.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 517,
+    "data_emissao": "2020-11-22",
+    "data_alvo": "2020-12-20",
+    "data_ultimo_caso": "2020-11-15",
+    "media_casos_referencia": 47.0,
+    "casos_futuros": 56.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 518,
+    "data_emissao": "2020-11-29",
+    "data_alvo": "2020-12-27",
+    "data_ultimo_caso": "2020-11-22",
+    "media_casos_referencia": 53.25,
+    "casos_futuros": 47.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 519,
+    "data_emissao": "2020-12-06",
+    "data_alvo": "2021-01-03",
+    "data_ultimo_caso": "2020-11-29",
+    "media_casos_referencia": 60.0,
+    "casos_futuros": 131.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 520,
+    "data_emissao": "2020-12-13",
+    "data_alvo": "2021-01-10",
+    "data_ultimo_caso": "2020-12-06",
+    "media_casos_referencia": 66.75,
+    "casos_futuros": 120.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 521,
+    "data_emissao": "2020-12-20",
+    "data_alvo": "2021-01-17",
+    "data_ultimo_caso": "2020-12-13",
+    "media_casos_referencia": 71.5,
+    "casos_futuros": 147.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 522,
+    "data_emissao": "2020-12-27",
+    "data_alvo": "2021-01-24",
+    "data_ultimo_caso": "2020-12-20",
+    "media_casos_referencia": 70.75,
+    "casos_futuros": 142.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 523,
+    "data_emissao": "2021-01-03",
+    "data_alvo": "2021-01-31",
+    "data_ultimo_caso": "2020-12-27",
+    "media_casos_referencia": 64.0,
+    "casos_futuros": 155.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 524,
+    "data_emissao": "2021-01-10",
+    "data_alvo": "2021-02-07",
+    "data_ultimo_caso": "2021-01-03",
+    "media_casos_referencia": 79.5,
+    "casos_futuros": 120.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 525,
+    "data_emissao": "2021-01-17",
+    "data_alvo": "2021-02-14",
+    "data_ultimo_caso": "2021-01-10",
+    "media_casos_referencia": 88.5,
+    "casos_futuros": 137.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 526,
+    "data_emissao": "2021-01-24",
+    "data_alvo": "2021-02-21",
+    "data_ultimo_caso": "2021-01-17",
+    "media_casos_referencia": 111.25,
+    "casos_futuros": 141.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 527,
+    "data_emissao": "2021-01-31",
+    "data_alvo": "2021-02-28",
+    "data_ultimo_caso": "2021-01-24",
+    "media_casos_referencia": 135.0,
+    "casos_futuros": 126.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 528,
+    "data_emissao": "2021-02-07",
+    "data_alvo": "2021-03-07",
+    "data_ultimo_caso": "2021-01-31",
+    "media_casos_referencia": 141.0,
+    "casos_futuros": 121.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 529,
+    "data_emissao": "2021-02-14",
+    "data_alvo": "2021-03-14",
+    "data_ultimo_caso": "2021-02-07",
+    "media_casos_referencia": 141.0,
+    "casos_futuros": 106.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 530,
+    "data_emissao": "2021-02-21",
+    "data_alvo": "2021-03-21",
+    "data_ultimo_caso": "2021-02-14",
+    "media_casos_referencia": 138.5,
+    "casos_futuros": 126.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 531,
+    "data_emissao": "2021-02-28",
+    "data_alvo": "2021-03-28",
+    "data_ultimo_caso": "2021-02-21",
+    "media_casos_referencia": 138.25,
+    "casos_futuros": 103.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 532,
+    "data_emissao": "2021-03-07",
+    "data_alvo": "2021-04-04",
+    "data_ultimo_caso": "2021-02-28",
+    "media_casos_referencia": 131.0,
+    "casos_futuros": 115.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 533,
+    "data_emissao": "2021-03-14",
+    "data_alvo": "2021-04-11",
+    "data_ultimo_caso": "2021-03-07",
+    "media_casos_referencia": 131.25,
+    "casos_futuros": 111.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 534,
+    "data_emissao": "2021-03-21",
+    "data_alvo": "2021-04-18",
+    "data_ultimo_caso": "2021-03-14",
+    "media_casos_referencia": 123.5,
+    "casos_futuros": 98.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 535,
+    "data_emissao": "2021-03-28",
+    "data_alvo": "2021-04-25",
+    "data_ultimo_caso": "2021-03-21",
+    "media_casos_referencia": 119.75,
+    "casos_futuros": 110.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 536,
+    "data_emissao": "2021-04-04",
+    "data_alvo": "2021-05-02",
+    "data_ultimo_caso": "2021-03-28",
+    "media_casos_referencia": 114.0,
+    "casos_futuros": 106.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 537,
+    "data_emissao": "2021-04-11",
+    "data_alvo": "2021-05-09",
+    "data_ultimo_caso": "2021-04-04",
+    "media_casos_referencia": 112.5,
+    "casos_futuros": 107.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 538,
+    "data_emissao": "2021-04-18",
+    "data_alvo": "2021-05-16",
+    "data_ultimo_caso": "2021-04-11",
+    "media_casos_referencia": 113.75,
+    "casos_futuros": 83.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 539,
+    "data_emissao": "2021-04-25",
+    "data_alvo": "2021-05-23",
+    "data_ultimo_caso": "2021-04-18",
+    "media_casos_referencia": 106.75,
+    "casos_futuros": 63.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 540,
+    "data_emissao": "2021-05-02",
+    "data_alvo": "2021-05-30",
+    "data_ultimo_caso": "2021-04-25",
+    "media_casos_referencia": 108.5,
+    "casos_futuros": 73.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 541,
+    "data_emissao": "2021-05-09",
+    "data_alvo": "2021-06-06",
+    "data_ultimo_caso": "2021-05-02",
+    "media_casos_referencia": 106.25,
+    "casos_futuros": 55.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 542,
+    "data_emissao": "2021-05-16",
+    "data_alvo": "2021-06-13",
+    "data_ultimo_caso": "2021-05-09",
+    "media_casos_referencia": 105.25,
+    "casos_futuros": 63.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 543,
+    "data_emissao": "2021-05-23",
+    "data_alvo": "2021-06-20",
+    "data_ultimo_caso": "2021-05-16",
+    "media_casos_referencia": 101.5,
+    "casos_futuros": 67.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 544,
+    "data_emissao": "2021-05-30",
+    "data_alvo": "2021-06-27",
+    "data_ultimo_caso": "2021-05-23",
+    "media_casos_referencia": 89.75,
+    "casos_futuros": 32.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 545,
+    "data_emissao": "2021-06-06",
+    "data_alvo": "2021-07-04",
+    "data_ultimo_caso": "2021-05-30",
+    "media_casos_referencia": 81.5,
+    "casos_futuros": 46.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 546,
+    "data_emissao": "2021-06-13",
+    "data_alvo": "2021-07-11",
+    "data_ultimo_caso": "2021-06-06",
+    "media_casos_referencia": 68.5,
+    "casos_futuros": 47.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 547,
+    "data_emissao": "2021-06-20",
+    "data_alvo": "2021-07-18",
+    "data_ultimo_caso": "2021-06-13",
+    "media_casos_referencia": 63.5,
+    "casos_futuros": 43.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 548,
+    "data_emissao": "2021-06-27",
+    "data_alvo": "2021-07-25",
+    "data_ultimo_caso": "2021-06-20",
+    "media_casos_referencia": 64.5,
+    "casos_futuros": 25.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 549,
+    "data_emissao": "2021-07-04",
+    "data_alvo": "2021-08-01",
+    "data_ultimo_caso": "2021-06-27",
+    "media_casos_referencia": 54.25,
+    "casos_futuros": 30.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 550,
+    "data_emissao": "2021-07-11",
+    "data_alvo": "2021-08-08",
+    "data_ultimo_caso": "2021-07-04",
+    "media_casos_referencia": 52.0,
+    "casos_futuros": 36.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 551,
+    "data_emissao": "2021-07-18",
+    "data_alvo": "2021-08-15",
+    "data_ultimo_caso": "2021-07-11",
+    "media_casos_referencia": 48.0,
+    "casos_futuros": 42.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 552,
+    "data_emissao": "2021-07-25",
+    "data_alvo": "2021-08-22",
+    "data_ultimo_caso": "2021-07-18",
+    "media_casos_referencia": 42.0,
+    "casos_futuros": 37.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 553,
+    "data_emissao": "2021-08-01",
+    "data_alvo": "2021-08-29",
+    "data_ultimo_caso": "2021-07-25",
+    "media_casos_referencia": 40.25,
+    "casos_futuros": 39.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 554,
+    "data_emissao": "2021-08-08",
+    "data_alvo": "2021-09-05",
+    "data_ultimo_caso": "2021-08-01",
+    "media_casos_referencia": 36.25,
+    "casos_futuros": 37.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 555,
+    "data_emissao": "2021-08-15",
+    "data_alvo": "2021-09-12",
+    "data_ultimo_caso": "2021-08-08",
+    "media_casos_referencia": 33.5,
+    "casos_futuros": 50.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 556,
+    "data_emissao": "2021-08-22",
+    "data_alvo": "2021-09-19",
+    "data_ultimo_caso": "2021-08-15",
+    "media_casos_referencia": 33.25,
+    "casos_futuros": 47.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 557,
+    "data_emissao": "2021-08-29",
+    "data_alvo": "2021-09-26",
+    "data_ultimo_caso": "2021-08-22",
+    "media_casos_referencia": 36.25,
+    "casos_futuros": 56.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 558,
+    "data_emissao": "2021-09-05",
+    "data_alvo": "2021-10-03",
+    "data_ultimo_caso": "2021-08-29",
+    "media_casos_referencia": 38.5,
+    "casos_futuros": 33.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 559,
+    "data_emissao": "2021-09-12",
+    "data_alvo": "2021-10-10",
+    "data_ultimo_caso": "2021-09-05",
+    "media_casos_referencia": 38.75,
+    "casos_futuros": 33.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 560,
+    "data_emissao": "2021-09-19",
+    "data_alvo": "2021-10-17",
+    "data_ultimo_caso": "2021-09-12",
+    "media_casos_referencia": 40.75,
+    "casos_futuros": 33.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 561,
+    "data_emissao": "2021-09-26",
+    "data_alvo": "2021-10-24",
+    "data_ultimo_caso": "2021-09-19",
+    "media_casos_referencia": 43.25,
+    "casos_futuros": 44.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 562,
+    "data_emissao": "2021-10-03",
+    "data_alvo": "2021-10-31",
+    "data_ultimo_caso": "2021-09-26",
+    "media_casos_referencia": 47.5,
+    "casos_futuros": 52.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 563,
+    "data_emissao": "2021-10-10",
+    "data_alvo": "2021-11-07",
+    "data_ultimo_caso": "2021-10-03",
+    "media_casos_referencia": 46.5,
+    "casos_futuros": 43.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 564,
+    "data_emissao": "2021-10-17",
+    "data_alvo": "2021-11-14",
+    "data_ultimo_caso": "2021-10-10",
+    "media_casos_referencia": 42.25,
+    "casos_futuros": 58.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 565,
+    "data_emissao": "2021-10-24",
+    "data_alvo": "2021-11-21",
+    "data_ultimo_caso": "2021-10-17",
+    "media_casos_referencia": 38.75,
+    "casos_futuros": 47.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 566,
+    "data_emissao": "2021-10-31",
+    "data_alvo": "2021-11-28",
+    "data_ultimo_caso": "2021-10-24",
+    "media_casos_referencia": 35.75,
+    "casos_futuros": 64.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 567,
+    "data_emissao": "2021-11-07",
+    "data_alvo": "2021-12-05",
+    "data_ultimo_caso": "2021-10-31",
+    "media_casos_referencia": 40.5,
+    "casos_futuros": 69.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 568,
+    "data_emissao": "2021-11-14",
+    "data_alvo": "2021-12-12",
+    "data_ultimo_caso": "2021-11-07",
+    "media_casos_referencia": 43.0,
+    "casos_futuros": 71.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 569,
+    "data_emissao": "2021-11-21",
+    "data_alvo": "2021-12-19",
+    "data_ultimo_caso": "2021-11-14",
+    "media_casos_referencia": 49.25,
+    "casos_futuros": 91.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 570,
+    "data_emissao": "2021-11-28",
+    "data_alvo": "2021-12-26",
+    "data_ultimo_caso": "2021-11-21",
+    "media_casos_referencia": 50.0,
+    "casos_futuros": 59.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 571,
+    "data_emissao": "2021-12-05",
+    "data_alvo": "2022-01-02",
+    "data_ultimo_caso": "2021-11-28",
+    "media_casos_referencia": 53.0,
+    "casos_futuros": 148.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 572,
+    "data_emissao": "2021-12-12",
+    "data_alvo": "2022-01-09",
+    "data_ultimo_caso": "2021-12-05",
+    "media_casos_referencia": 59.5,
+    "casos_futuros": 158.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 573,
+    "data_emissao": "2021-12-19",
+    "data_alvo": "2022-01-16",
+    "data_ultimo_caso": "2021-12-12",
+    "media_casos_referencia": 62.75,
+    "casos_futuros": 92.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 574,
+    "data_emissao": "2021-12-26",
+    "data_alvo": "2022-01-23",
+    "data_ultimo_caso": "2021-12-19",
+    "media_casos_referencia": 73.75,
+    "casos_futuros": 120.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 575,
+    "data_emissao": "2022-01-02",
+    "data_alvo": "2022-01-30",
+    "data_ultimo_caso": "2021-12-26",
+    "media_casos_referencia": 72.5,
+    "casos_futuros": 111.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 576,
+    "data_emissao": "2022-01-09",
+    "data_alvo": "2022-02-06",
+    "data_ultimo_caso": "2022-01-02",
+    "media_casos_referencia": 92.25,
+    "casos_futuros": 161.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 577,
+    "data_emissao": "2022-01-16",
+    "data_alvo": "2022-02-13",
+    "data_ultimo_caso": "2022-01-09",
+    "media_casos_referencia": 114.0,
+    "casos_futuros": 156.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 578,
+    "data_emissao": "2022-01-23",
+    "data_alvo": "2022-02-20",
+    "data_ultimo_caso": "2022-01-16",
+    "media_casos_referencia": 114.25,
+    "casos_futuros": 182.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 579,
+    "data_emissao": "2022-01-30",
+    "data_alvo": "2022-02-27",
+    "data_ultimo_caso": "2022-01-23",
+    "media_casos_referencia": 129.5,
+    "casos_futuros": 257.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 580,
+    "data_emissao": "2022-02-06",
+    "data_alvo": "2022-03-06",
+    "data_ultimo_caso": "2022-01-30",
+    "media_casos_referencia": 120.25,
+    "casos_futuros": 362.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 581,
+    "data_emissao": "2022-02-13",
+    "data_alvo": "2022-03-13",
+    "data_ultimo_caso": "2022-02-06",
+    "media_casos_referencia": 121.0,
+    "casos_futuros": 452.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 582,
+    "data_emissao": "2022-02-20",
+    "data_alvo": "2022-03-20",
+    "data_ultimo_caso": "2022-02-13",
+    "media_casos_referencia": 137.0,
+    "casos_futuros": 653.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 583,
+    "data_emissao": "2022-02-27",
+    "data_alvo": "2022-03-27",
+    "data_ultimo_caso": "2022-02-20",
+    "media_casos_referencia": 152.5,
+    "casos_futuros": 720.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 584,
+    "data_emissao": "2022-03-06",
+    "data_alvo": "2022-04-03",
+    "data_ultimo_caso": "2022-02-27",
+    "media_casos_referencia": 189.0,
+    "casos_futuros": 932.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 585,
+    "data_emissao": "2022-03-13",
+    "data_alvo": "2022-04-10",
+    "data_ultimo_caso": "2022-03-06",
+    "media_casos_referencia": 239.25,
+    "casos_futuros": 954.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 586,
+    "data_emissao": "2022-03-20",
+    "data_alvo": "2022-04-17",
+    "data_ultimo_caso": "2022-03-13",
+    "media_casos_referencia": 313.25,
+    "casos_futuros": 980.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 587,
+    "data_emissao": "2022-03-27",
+    "data_alvo": "2022-04-24",
+    "data_ultimo_caso": "2022-03-20",
+    "media_casos_referencia": 431.0,
+    "casos_futuros": 1192.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 588,
+    "data_emissao": "2022-04-03",
+    "data_alvo": "2022-05-01",
+    "data_ultimo_caso": "2022-03-27",
+    "media_casos_referencia": 546.75,
+    "casos_futuros": 1167.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 589,
+    "data_emissao": "2022-04-10",
+    "data_alvo": "2022-05-08",
+    "data_ultimo_caso": "2022-04-03",
+    "media_casos_referencia": 689.25,
+    "casos_futuros": 1196.0,
+    "target": 1,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 590,
+    "data_emissao": "2022-04-17",
+    "data_alvo": "2022-05-15",
+    "data_ultimo_caso": "2022-04-10",
+    "media_casos_referencia": 814.75,
+    "casos_futuros": 802.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 591,
+    "data_emissao": "2022-04-24",
+    "data_alvo": "2022-05-22",
+    "data_ultimo_caso": "2022-04-17",
+    "media_casos_referencia": 896.5,
+    "casos_futuros": 710.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 592,
+    "data_emissao": "2022-05-01",
+    "data_alvo": "2022-05-29",
+    "data_ultimo_caso": "2022-04-24",
+    "media_casos_referencia": 1014.5,
+    "casos_futuros": 628.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 593,
+    "data_emissao": "2022-05-08",
+    "data_alvo": "2022-06-05",
+    "data_ultimo_caso": "2022-05-01",
+    "media_casos_referencia": 1073.25,
+    "casos_futuros": 569.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 594,
+    "data_emissao": "2022-05-15",
+    "data_alvo": "2022-06-12",
+    "data_ultimo_caso": "2022-05-08",
+    "media_casos_referencia": 1133.75,
+    "casos_futuros": 389.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 595,
+    "data_emissao": "2022-05-22",
+    "data_alvo": "2022-06-19",
+    "data_ultimo_caso": "2022-05-15",
+    "media_casos_referencia": 1089.25,
+    "casos_futuros": 487.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 596,
+    "data_emissao": "2022-05-29",
+    "data_alvo": "2022-06-26",
+    "data_ultimo_caso": "2022-05-22",
+    "media_casos_referencia": 968.75,
+    "casos_futuros": 493.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 597,
+    "data_emissao": "2022-06-05",
+    "data_alvo": "2022-07-03",
+    "data_ultimo_caso": "2022-05-29",
+    "media_casos_referencia": 834.0,
+    "casos_futuros": 388.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 598,
+    "data_emissao": "2022-06-12",
+    "data_alvo": "2022-07-10",
+    "data_ultimo_caso": "2022-06-05",
+    "media_casos_referencia": 677.25,
+    "casos_futuros": 334.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 599,
+    "data_emissao": "2022-06-19",
+    "data_alvo": "2022-07-17",
+    "data_ultimo_caso": "2022-06-12",
+    "media_casos_referencia": 574.0,
+    "casos_futuros": 274.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 600,
+    "data_emissao": "2022-06-26",
+    "data_alvo": "2022-07-24",
+    "data_ultimo_caso": "2022-06-19",
+    "media_casos_referencia": 518.25,
+    "casos_futuros": 301.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 601,
+    "data_emissao": "2022-07-03",
+    "data_alvo": "2022-07-31",
+    "data_ultimo_caso": "2022-06-26",
+    "media_casos_referencia": 484.5,
+    "casos_futuros": 235.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 602,
+    "data_emissao": "2022-07-10",
+    "data_alvo": "2022-08-07",
+    "data_ultimo_caso": "2022-07-03",
+    "media_casos_referencia": 439.25,
+    "casos_futuros": 265.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 603,
+    "data_emissao": "2022-07-17",
+    "data_alvo": "2022-08-14",
+    "data_ultimo_caso": "2022-07-10",
+    "media_casos_referencia": 425.5,
+    "casos_futuros": 217.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 604,
+    "data_emissao": "2022-07-24",
+    "data_alvo": "2022-08-21",
+    "data_ultimo_caso": "2022-07-17",
+    "media_casos_referencia": 372.25,
+    "casos_futuros": 208.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 605,
+    "data_emissao": "2022-07-31",
+    "data_alvo": "2022-08-28",
+    "data_ultimo_caso": "2022-07-24",
+    "media_casos_referencia": 324.25,
+    "casos_futuros": 199.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 606,
+    "data_emissao": "2022-08-07",
+    "data_alvo": "2022-09-04",
+    "data_ultimo_caso": "2022-07-31",
+    "media_casos_referencia": 286.0,
+    "casos_futuros": 242.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 607,
+    "data_emissao": "2022-08-14",
+    "data_alvo": "2022-09-11",
+    "data_ultimo_caso": "2022-08-07",
+    "media_casos_referencia": 268.75,
+    "casos_futuros": 184.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 608,
+    "data_emissao": "2022-08-21",
+    "data_alvo": "2022-09-18",
+    "data_ultimo_caso": "2022-08-14",
+    "media_casos_referencia": 254.5,
+    "casos_futuros": 168.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 609,
+    "data_emissao": "2022-08-28",
+    "data_alvo": "2022-09-25",
+    "data_ultimo_caso": "2022-08-21",
+    "media_casos_referencia": 231.25,
+    "casos_futuros": 178.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 610,
+    "data_emissao": "2022-09-04",
+    "data_alvo": "2022-10-02",
+    "data_ultimo_caso": "2022-08-28",
+    "media_casos_referencia": 222.25,
+    "casos_futuros": 136.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 611,
+    "data_emissao": "2022-09-11",
+    "data_alvo": "2022-10-09",
+    "data_ultimo_caso": "2022-09-04",
+    "media_casos_referencia": 216.5,
+    "casos_futuros": 159.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 612,
+    "data_emissao": "2022-09-18",
+    "data_alvo": "2022-10-16",
+    "data_ultimo_caso": "2022-09-11",
+    "media_casos_referencia": 208.25,
+    "casos_futuros": 151.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 613,
+    "data_emissao": "2022-09-25",
+    "data_alvo": "2022-10-23",
+    "data_ultimo_caso": "2022-09-18",
+    "media_casos_referencia": 198.25,
+    "casos_futuros": 125.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 614,
+    "data_emissao": "2022-10-02",
+    "data_alvo": "2022-10-30",
+    "data_ultimo_caso": "2022-09-25",
+    "media_casos_referencia": 193.0,
+    "casos_futuros": 133.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 615,
+    "data_emissao": "2022-10-09",
+    "data_alvo": "2022-11-06",
+    "data_ultimo_caso": "2022-10-02",
+    "media_casos_referencia": 166.5,
+    "casos_futuros": 211.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 616,
+    "data_emissao": "2022-10-16",
+    "data_alvo": "2022-11-13",
+    "data_ultimo_caso": "2022-10-09",
+    "media_casos_referencia": 160.25,
+    "casos_futuros": 158.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 617,
+    "data_emissao": "2022-10-23",
+    "data_alvo": "2022-11-20",
+    "data_ultimo_caso": "2022-10-16",
+    "media_casos_referencia": 156.0,
+    "casos_futuros": 155.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 618,
+    "data_emissao": "2022-10-30",
+    "data_alvo": "2022-11-27",
+    "data_ultimo_caso": "2022-10-23",
+    "media_casos_referencia": 142.75,
+    "casos_futuros": 120.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 619,
+    "data_emissao": "2022-11-06",
+    "data_alvo": "2022-12-04",
+    "data_ultimo_caso": "2022-10-30",
+    "media_casos_referencia": 142.0,
+    "casos_futuros": 138.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 620,
+    "data_emissao": "2022-11-13",
+    "data_alvo": "2022-12-11",
+    "data_ultimo_caso": "2022-11-06",
+    "media_casos_referencia": 155.0,
+    "casos_futuros": 54.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 621,
+    "data_emissao": "2022-11-20",
+    "data_alvo": "2022-12-18",
+    "data_ultimo_caso": "2022-11-13",
+    "media_casos_referencia": 156.75,
+    "casos_futuros": 7.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 622,
+    "data_emissao": "2022-11-27",
+    "data_alvo": "2022-12-25",
+    "data_ultimo_caso": "2022-11-20",
+    "media_casos_referencia": 164.25,
+    "casos_futuros": 71.0,
+    "target": 0,
+    "split": "validacao"
+  },
+  {
+    "sample_id": 627,
+    "data_emissao": "2023-01-01",
+    "data_alvo": "2023-01-29",
+    "data_ultimo_caso": "2022-12-25",
+    "media_casos_referencia": 67.5,
+    "casos_futuros": 401.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 628,
+    "data_emissao": "2023-01-08",
+    "data_alvo": "2023-02-05",
+    "data_ultimo_caso": "2023-01-01",
+    "media_casos_referencia": 88.0,
+    "casos_futuros": 526.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 629,
+    "data_emissao": "2023-01-15",
+    "data_alvo": "2023-02-12",
+    "data_ultimo_caso": "2023-01-08",
+    "media_casos_referencia": 144.75,
+    "casos_futuros": 521.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 630,
+    "data_emissao": "2023-01-22",
+    "data_alvo": "2023-02-19",
+    "data_ultimo_caso": "2023-01-15",
+    "media_casos_referencia": 207.75,
+    "casos_futuros": 574.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 631,
+    "data_emissao": "2023-01-29",
+    "data_alvo": "2023-02-26",
+    "data_ultimo_caso": "2023-01-22",
+    "media_casos_referencia": 283.75,
+    "casos_futuros": 700.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 632,
+    "data_emissao": "2023-02-05",
+    "data_alvo": "2023-03-05",
+    "data_ultimo_caso": "2023-01-29",
+    "media_casos_referencia": 329.0,
+    "casos_futuros": 856.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 633,
+    "data_emissao": "2023-02-12",
+    "data_alvo": "2023-03-12",
+    "data_ultimo_caso": "2023-02-05",
+    "media_casos_referencia": 390.25,
+    "casos_futuros": 936.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 634,
+    "data_emissao": "2023-02-19",
+    "data_alvo": "2023-03-19",
+    "data_ultimo_caso": "2023-02-12",
+    "media_casos_referencia": 455.75,
+    "casos_futuros": 1235.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 635,
+    "data_emissao": "2023-02-26",
+    "data_alvo": "2023-03-26",
+    "data_ultimo_caso": "2023-02-19",
+    "media_casos_referencia": 505.5,
+    "casos_futuros": 1334.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 636,
+    "data_emissao": "2023-03-05",
+    "data_alvo": "2023-04-02",
+    "data_ultimo_caso": "2023-02-26",
+    "media_casos_referencia": 580.25,
+    "casos_futuros": 1346.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 637,
+    "data_emissao": "2023-03-12",
+    "data_alvo": "2023-04-09",
+    "data_ultimo_caso": "2023-03-05",
+    "media_casos_referencia": 662.75,
+    "casos_futuros": 1556.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 638,
+    "data_emissao": "2023-03-19",
+    "data_alvo": "2023-04-16",
+    "data_ultimo_caso": "2023-03-12",
+    "media_casos_referencia": 766.5,
+    "casos_futuros": 1374.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 639,
+    "data_emissao": "2023-03-26",
+    "data_alvo": "2023-04-23",
+    "data_ultimo_caso": "2023-03-19",
+    "media_casos_referencia": 931.75,
+    "casos_futuros": 1509.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 640,
+    "data_emissao": "2023-04-02",
+    "data_alvo": "2023-04-30",
+    "data_ultimo_caso": "2023-03-26",
+    "media_casos_referencia": 1090.25,
+    "casos_futuros": 1529.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 641,
+    "data_emissao": "2023-04-09",
+    "data_alvo": "2023-05-07",
+    "data_ultimo_caso": "2023-04-02",
+    "media_casos_referencia": 1212.75,
+    "casos_futuros": 1275.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 642,
+    "data_emissao": "2023-04-16",
+    "data_alvo": "2023-05-14",
+    "data_ultimo_caso": "2023-04-09",
+    "media_casos_referencia": 1367.75,
+    "casos_futuros": 1139.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 643,
+    "data_emissao": "2023-04-23",
+    "data_alvo": "2023-05-21",
+    "data_ultimo_caso": "2023-04-16",
+    "media_casos_referencia": 1402.5,
+    "casos_futuros": 775.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 644,
+    "data_emissao": "2023-04-30",
+    "data_alvo": "2023-05-28",
+    "data_ultimo_caso": "2023-04-23",
+    "media_casos_referencia": 1446.25,
+    "casos_futuros": 639.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 645,
+    "data_emissao": "2023-05-07",
+    "data_alvo": "2023-06-04",
+    "data_ultimo_caso": "2023-04-30",
+    "media_casos_referencia": 1492.0,
+    "casos_futuros": 501.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 646,
+    "data_emissao": "2023-05-14",
+    "data_alvo": "2023-06-11",
+    "data_ultimo_caso": "2023-05-07",
+    "media_casos_referencia": 1421.75,
+    "casos_futuros": 344.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 647,
+    "data_emissao": "2023-05-21",
+    "data_alvo": "2023-06-18",
+    "data_ultimo_caso": "2023-05-14",
+    "media_casos_referencia": 1363.0,
+    "casos_futuros": 304.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 648,
+    "data_emissao": "2023-05-28",
+    "data_alvo": "2023-06-25",
+    "data_ultimo_caso": "2023-05-21",
+    "media_casos_referencia": 1179.5,
+    "casos_futuros": 290.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 649,
+    "data_emissao": "2023-06-04",
+    "data_alvo": "2023-07-02",
+    "data_ultimo_caso": "2023-05-28",
+    "media_casos_referencia": 957.0,
+    "casos_futuros": 212.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 650,
+    "data_emissao": "2023-06-11",
+    "data_alvo": "2023-07-09",
+    "data_ultimo_caso": "2023-06-04",
+    "media_casos_referencia": 763.5,
+    "casos_futuros": 217.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 651,
+    "data_emissao": "2023-06-18",
+    "data_alvo": "2023-07-16",
+    "data_ultimo_caso": "2023-06-11",
+    "media_casos_referencia": 564.75,
+    "casos_futuros": 179.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 652,
+    "data_emissao": "2023-06-25",
+    "data_alvo": "2023-07-23",
+    "data_ultimo_caso": "2023-06-18",
+    "media_casos_referencia": 447.0,
+    "casos_futuros": 183.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 653,
+    "data_emissao": "2023-07-02",
+    "data_alvo": "2023-07-30",
+    "data_ultimo_caso": "2023-06-25",
+    "media_casos_referencia": 359.75,
+    "casos_futuros": 180.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 654,
+    "data_emissao": "2023-07-09",
+    "data_alvo": "2023-08-06",
+    "data_ultimo_caso": "2023-07-02",
+    "media_casos_referencia": 287.5,
+    "casos_futuros": 180.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 655,
+    "data_emissao": "2023-07-16",
+    "data_alvo": "2023-08-13",
+    "data_ultimo_caso": "2023-07-09",
+    "media_casos_referencia": 255.75,
+    "casos_futuros": 155.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 656,
+    "data_emissao": "2023-07-23",
+    "data_alvo": "2023-08-20",
+    "data_ultimo_caso": "2023-07-16",
+    "media_casos_referencia": 224.5,
+    "casos_futuros": 192.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 657,
+    "data_emissao": "2023-07-30",
+    "data_alvo": "2023-08-27",
+    "data_ultimo_caso": "2023-07-23",
+    "media_casos_referencia": 197.75,
+    "casos_futuros": 130.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 658,
+    "data_emissao": "2023-08-06",
+    "data_alvo": "2023-09-03",
+    "data_ultimo_caso": "2023-07-30",
+    "media_casos_referencia": 189.75,
+    "casos_futuros": 163.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 659,
+    "data_emissao": "2023-08-13",
+    "data_alvo": "2023-09-10",
+    "data_ultimo_caso": "2023-08-06",
+    "media_casos_referencia": 180.5,
+    "casos_futuros": 237.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 660,
+    "data_emissao": "2023-08-20",
+    "data_alvo": "2023-09-17",
+    "data_ultimo_caso": "2023-08-13",
+    "media_casos_referencia": 174.5,
+    "casos_futuros": 201.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 661,
+    "data_emissao": "2023-08-27",
+    "data_alvo": "2023-09-24",
+    "data_ultimo_caso": "2023-08-20",
+    "media_casos_referencia": 176.75,
+    "casos_futuros": 201.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 662,
+    "data_emissao": "2023-09-03",
+    "data_alvo": "2023-10-01",
+    "data_ultimo_caso": "2023-08-27",
+    "media_casos_referencia": 164.25,
+    "casos_futuros": 190.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 663,
+    "data_emissao": "2023-09-10",
+    "data_alvo": "2023-10-08",
+    "data_ultimo_caso": "2023-09-03",
+    "media_casos_referencia": 160.0,
+    "casos_futuros": 164.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 664,
+    "data_emissao": "2023-09-17",
+    "data_alvo": "2023-10-15",
+    "data_ultimo_caso": "2023-09-10",
+    "media_casos_referencia": 180.5,
+    "casos_futuros": 192.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 665,
+    "data_emissao": "2023-09-24",
+    "data_alvo": "2023-10-22",
+    "data_ultimo_caso": "2023-09-17",
+    "media_casos_referencia": 182.75,
+    "casos_futuros": 212.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 666,
+    "data_emissao": "2023-10-01",
+    "data_alvo": "2023-10-29",
+    "data_ultimo_caso": "2023-09-24",
+    "media_casos_referencia": 200.5,
+    "casos_futuros": 204.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 667,
+    "data_emissao": "2023-10-08",
+    "data_alvo": "2023-11-05",
+    "data_ultimo_caso": "2023-10-01",
+    "media_casos_referencia": 207.25,
+    "casos_futuros": 225.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 668,
+    "data_emissao": "2023-10-15",
+    "data_alvo": "2023-11-12",
+    "data_ultimo_caso": "2023-10-08",
+    "media_casos_referencia": 189.0,
+    "casos_futuros": 206.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 669,
+    "data_emissao": "2023-10-22",
+    "data_alvo": "2023-11-19",
+    "data_ultimo_caso": "2023-10-15",
+    "media_casos_referencia": 186.75,
+    "casos_futuros": 228.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 670,
+    "data_emissao": "2023-10-29",
+    "data_alvo": "2023-11-26",
+    "data_ultimo_caso": "2023-10-22",
+    "media_casos_referencia": 189.5,
+    "casos_futuros": 292.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 671,
+    "data_emissao": "2023-11-05",
+    "data_alvo": "2023-12-03",
+    "data_ultimo_caso": "2023-10-29",
+    "media_casos_referencia": 193.0,
+    "casos_futuros": 318.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 672,
+    "data_emissao": "2023-11-12",
+    "data_alvo": "2023-12-10",
+    "data_ultimo_caso": "2023-11-05",
+    "media_casos_referencia": 208.25,
+    "casos_futuros": 354.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 673,
+    "data_emissao": "2023-11-19",
+    "data_alvo": "2023-12-17",
+    "data_ultimo_caso": "2023-11-12",
+    "media_casos_referencia": 211.75,
+    "casos_futuros": 358.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 674,
+    "data_emissao": "2023-11-26",
+    "data_alvo": "2023-12-24",
+    "data_ultimo_caso": "2023-11-19",
+    "media_casos_referencia": 215.75,
+    "casos_futuros": 327.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 675,
+    "data_emissao": "2023-12-03",
+    "data_alvo": "2023-12-31",
+    "data_ultimo_caso": "2023-11-26",
+    "media_casos_referencia": 237.75,
+    "casos_futuros": 677.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 676,
+    "data_emissao": "2023-12-10",
+    "data_alvo": "2024-01-07",
+    "data_ultimo_caso": "2023-12-03",
+    "media_casos_referencia": 261.0,
+    "casos_futuros": 932.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 677,
+    "data_emissao": "2023-12-17",
+    "data_alvo": "2024-01-14",
+    "data_ultimo_caso": "2023-12-10",
+    "media_casos_referencia": 298.0,
+    "casos_futuros": 1104.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 678,
+    "data_emissao": "2023-12-24",
+    "data_alvo": "2024-01-21",
+    "data_ultimo_caso": "2023-12-17",
+    "media_casos_referencia": 330.5,
+    "casos_futuros": 1397.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 679,
+    "data_emissao": "2023-12-31",
+    "data_alvo": "2024-01-28",
+    "data_ultimo_caso": "2023-12-24",
+    "media_casos_referencia": 339.25,
+    "casos_futuros": 1712.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 680,
+    "data_emissao": "2024-01-07",
+    "data_alvo": "2024-02-04",
+    "data_ultimo_caso": "2023-12-31",
+    "media_casos_referencia": 429.0,
+    "casos_futuros": 1984.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 681,
+    "data_emissao": "2024-01-14",
+    "data_alvo": "2024-02-11",
+    "data_ultimo_caso": "2024-01-07",
+    "media_casos_referencia": 573.5,
+    "casos_futuros": 2623.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 682,
+    "data_emissao": "2024-01-21",
+    "data_alvo": "2024-02-18",
+    "data_ultimo_caso": "2024-01-14",
+    "media_casos_referencia": 760.0,
+    "casos_futuros": 2646.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 683,
+    "data_emissao": "2024-01-28",
+    "data_alvo": "2024-02-25",
+    "data_ultimo_caso": "2024-01-21",
+    "media_casos_referencia": 1027.5,
+    "casos_futuros": 2810.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 684,
+    "data_emissao": "2024-02-04",
+    "data_alvo": "2024-03-03",
+    "data_ultimo_caso": "2024-01-28",
+    "media_casos_referencia": 1286.25,
+    "casos_futuros": 2996.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 685,
+    "data_emissao": "2024-02-11",
+    "data_alvo": "2024-03-10",
+    "data_ultimo_caso": "2024-02-04",
+    "media_casos_referencia": 1549.25,
+    "casos_futuros": 2937.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 686,
+    "data_emissao": "2024-02-18",
+    "data_alvo": "2024-03-17",
+    "data_ultimo_caso": "2024-02-11",
+    "media_casos_referencia": 1929.0,
+    "casos_futuros": 2759.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 687,
+    "data_emissao": "2024-02-25",
+    "data_alvo": "2024-03-24",
+    "data_ultimo_caso": "2024-02-18",
+    "media_casos_referencia": 2241.25,
+    "casos_futuros": 2164.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 688,
+    "data_emissao": "2024-03-03",
+    "data_alvo": "2024-03-31",
+    "data_ultimo_caso": "2024-02-25",
+    "media_casos_referencia": 2515.75,
+    "casos_futuros": 3152.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 689,
+    "data_emissao": "2024-03-10",
+    "data_alvo": "2024-04-07",
+    "data_ultimo_caso": "2024-03-03",
+    "media_casos_referencia": 2768.75,
+    "casos_futuros": 2987.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 690,
+    "data_emissao": "2024-03-17",
+    "data_alvo": "2024-04-14",
+    "data_ultimo_caso": "2024-03-10",
+    "media_casos_referencia": 2847.25,
+    "casos_futuros": 2995.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 691,
+    "data_emissao": "2024-03-24",
+    "data_alvo": "2024-04-21",
+    "data_ultimo_caso": "2024-03-17",
+    "media_casos_referencia": 2875.5,
+    "casos_futuros": 3124.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 692,
+    "data_emissao": "2024-03-31",
+    "data_alvo": "2024-04-28",
+    "data_ultimo_caso": "2024-03-24",
+    "media_casos_referencia": 2714.0,
+    "casos_futuros": 2995.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 693,
+    "data_emissao": "2024-04-07",
+    "data_alvo": "2024-05-05",
+    "data_ultimo_caso": "2024-03-31",
+    "media_casos_referencia": 2753.0,
+    "casos_futuros": 2868.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 694,
+    "data_emissao": "2024-04-14",
+    "data_alvo": "2024-05-12",
+    "data_ultimo_caso": "2024-04-07",
+    "media_casos_referencia": 2765.5,
+    "casos_futuros": 2961.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 695,
+    "data_emissao": "2024-04-21",
+    "data_alvo": "2024-05-19",
+    "data_ultimo_caso": "2024-04-14",
+    "media_casos_referencia": 2824.5,
+    "casos_futuros": 2475.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 696,
+    "data_emissao": "2024-04-28",
+    "data_alvo": "2024-05-26",
+    "data_ultimo_caso": "2024-04-21",
+    "media_casos_referencia": 3064.5,
+    "casos_futuros": 1573.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 697,
+    "data_emissao": "2024-05-05",
+    "data_alvo": "2024-06-02",
+    "data_ultimo_caso": "2024-04-28",
+    "media_casos_referencia": 3025.25,
+    "casos_futuros": 1303.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 698,
+    "data_emissao": "2024-05-12",
+    "data_alvo": "2024-06-09",
+    "data_ultimo_caso": "2024-05-05",
+    "media_casos_referencia": 2995.5,
+    "casos_futuros": 1276.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 699,
+    "data_emissao": "2024-05-19",
+    "data_alvo": "2024-06-16",
+    "data_ultimo_caso": "2024-05-12",
+    "media_casos_referencia": 2987.0,
+    "casos_futuros": 1114.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 700,
+    "data_emissao": "2024-05-26",
+    "data_alvo": "2024-06-23",
+    "data_ultimo_caso": "2024-05-19",
+    "media_casos_referencia": 2824.75,
+    "casos_futuros": 849.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 701,
+    "data_emissao": "2024-06-02",
+    "data_alvo": "2024-06-30",
+    "data_ultimo_caso": "2024-05-26",
+    "media_casos_referencia": 2469.25,
+    "casos_futuros": 713.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 702,
+    "data_emissao": "2024-06-09",
+    "data_alvo": "2024-07-07",
+    "data_ultimo_caso": "2024-06-02",
+    "media_casos_referencia": 2078.0,
+    "casos_futuros": 629.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 703,
+    "data_emissao": "2024-06-16",
+    "data_alvo": "2024-07-14",
+    "data_ultimo_caso": "2024-06-09",
+    "media_casos_referencia": 1656.75,
+    "casos_futuros": 502.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 704,
+    "data_emissao": "2024-06-23",
+    "data_alvo": "2024-07-21",
+    "data_ultimo_caso": "2024-06-16",
+    "media_casos_referencia": 1316.5,
+    "casos_futuros": 452.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 705,
+    "data_emissao": "2024-06-30",
+    "data_alvo": "2024-07-28",
+    "data_ultimo_caso": "2024-06-23",
+    "media_casos_referencia": 1135.5,
+    "casos_futuros": 474.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 706,
+    "data_emissao": "2024-07-07",
+    "data_alvo": "2024-08-04",
+    "data_ultimo_caso": "2024-06-30",
+    "media_casos_referencia": 988.0,
+    "casos_futuros": 416.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 707,
+    "data_emissao": "2024-07-14",
+    "data_alvo": "2024-08-11",
+    "data_ultimo_caso": "2024-07-07",
+    "media_casos_referencia": 826.25,
+    "casos_futuros": 381.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 708,
+    "data_emissao": "2024-07-21",
+    "data_alvo": "2024-08-18",
+    "data_ultimo_caso": "2024-07-14",
+    "media_casos_referencia": 673.25,
+    "casos_futuros": 425.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 709,
+    "data_emissao": "2024-07-28",
+    "data_alvo": "2024-08-25",
+    "data_ultimo_caso": "2024-07-21",
+    "media_casos_referencia": 574.0,
+    "casos_futuros": 367.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 710,
+    "data_emissao": "2024-08-04",
+    "data_alvo": "2024-09-01",
+    "data_ultimo_caso": "2024-07-28",
+    "media_casos_referencia": 514.25,
+    "casos_futuros": 402.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 711,
+    "data_emissao": "2024-08-11",
+    "data_alvo": "2024-09-08",
+    "data_ultimo_caso": "2024-08-04",
+    "media_casos_referencia": 461.0,
+    "casos_futuros": 431.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 712,
+    "data_emissao": "2024-08-18",
+    "data_alvo": "2024-09-15",
+    "data_ultimo_caso": "2024-08-11",
+    "media_casos_referencia": 430.75,
+    "casos_futuros": 400.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 713,
+    "data_emissao": "2024-08-25",
+    "data_alvo": "2024-09-22",
+    "data_ultimo_caso": "2024-08-18",
+    "media_casos_referencia": 424.0,
+    "casos_futuros": 448.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 714,
+    "data_emissao": "2024-09-01",
+    "data_alvo": "2024-09-29",
+    "data_ultimo_caso": "2024-08-25",
+    "media_casos_referencia": 397.25,
+    "casos_futuros": 433.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 715,
+    "data_emissao": "2024-09-08",
+    "data_alvo": "2024-10-06",
+    "data_ultimo_caso": "2024-09-01",
+    "media_casos_referencia": 393.75,
+    "casos_futuros": 366.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 716,
+    "data_emissao": "2024-09-15",
+    "data_alvo": "2024-10-13",
+    "data_ultimo_caso": "2024-09-08",
+    "media_casos_referencia": 406.25,
+    "casos_futuros": 432.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 717,
+    "data_emissao": "2024-09-22",
+    "data_alvo": "2024-10-20",
+    "data_ultimo_caso": "2024-09-15",
+    "media_casos_referencia": 400.0,
+    "casos_futuros": 388.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 718,
+    "data_emissao": "2024-09-29",
+    "data_alvo": "2024-10-27",
+    "data_ultimo_caso": "2024-09-22",
+    "media_casos_referencia": 420.25,
+    "casos_futuros": 441.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 719,
+    "data_emissao": "2024-10-06",
+    "data_alvo": "2024-11-03",
+    "data_ultimo_caso": "2024-09-29",
+    "media_casos_referencia": 428.0,
+    "casos_futuros": 374.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 720,
+    "data_emissao": "2024-10-13",
+    "data_alvo": "2024-11-10",
+    "data_ultimo_caso": "2024-10-06",
+    "media_casos_referencia": 411.75,
+    "casos_futuros": 390.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 721,
+    "data_emissao": "2024-10-20",
+    "data_alvo": "2024-11-17",
+    "data_ultimo_caso": "2024-10-13",
+    "media_casos_referencia": 419.75,
+    "casos_futuros": 489.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 722,
+    "data_emissao": "2024-10-27",
+    "data_alvo": "2024-11-24",
+    "data_ultimo_caso": "2024-10-20",
+    "media_casos_referencia": 404.75,
+    "casos_futuros": 497.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 723,
+    "data_emissao": "2024-11-03",
+    "data_alvo": "2024-12-01",
+    "data_ultimo_caso": "2024-10-27",
+    "media_casos_referencia": 406.75,
+    "casos_futuros": 581.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 724,
+    "data_emissao": "2024-11-10",
+    "data_alvo": "2024-12-08",
+    "data_ultimo_caso": "2024-11-03",
+    "media_casos_referencia": 408.75,
+    "casos_futuros": 663.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 725,
+    "data_emissao": "2024-11-17",
+    "data_alvo": "2024-12-15",
+    "data_ultimo_caso": "2024-11-10",
+    "media_casos_referencia": 398.25,
+    "casos_futuros": 780.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 726,
+    "data_emissao": "2024-11-24",
+    "data_alvo": "2024-12-22",
+    "data_ultimo_caso": "2024-11-17",
+    "media_casos_referencia": 423.5,
+    "casos_futuros": 770.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 727,
+    "data_emissao": "2024-12-01",
+    "data_alvo": "2024-12-29",
+    "data_ultimo_caso": "2024-11-24",
+    "media_casos_referencia": 437.5,
+    "casos_futuros": 1039.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 728,
+    "data_emissao": "2024-12-08",
+    "data_alvo": "2025-01-05",
+    "data_ultimo_caso": "2024-12-01",
+    "media_casos_referencia": 489.25,
+    "casos_futuros": 1081.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 729,
+    "data_emissao": "2024-12-15",
+    "data_alvo": "2025-01-12",
+    "data_ultimo_caso": "2024-12-08",
+    "media_casos_referencia": 557.5,
+    "casos_futuros": 1359.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 730,
+    "data_emissao": "2024-12-22",
+    "data_alvo": "2025-01-19",
+    "data_ultimo_caso": "2024-12-15",
+    "media_casos_referencia": 630.25,
+    "casos_futuros": 1556.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 731,
+    "data_emissao": "2024-12-29",
+    "data_alvo": "2025-01-26",
+    "data_ultimo_caso": "2024-12-22",
+    "media_casos_referencia": 698.5,
+    "casos_futuros": 1785.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 732,
+    "data_emissao": "2025-01-05",
+    "data_alvo": "2025-02-02",
+    "data_ultimo_caso": "2024-12-29",
+    "media_casos_referencia": 813.0,
+    "casos_futuros": 1943.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 733,
+    "data_emissao": "2025-01-12",
+    "data_alvo": "2025-02-09",
+    "data_ultimo_caso": "2025-01-05",
+    "media_casos_referencia": 917.5,
+    "casos_futuros": 2354.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 734,
+    "data_emissao": "2025-01-19",
+    "data_alvo": "2025-02-16",
+    "data_ultimo_caso": "2025-01-12",
+    "media_casos_referencia": 1062.25,
+    "casos_futuros": 2416.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 735,
+    "data_emissao": "2025-01-26",
+    "data_alvo": "2025-02-23",
+    "data_ultimo_caso": "2025-01-19",
+    "media_casos_referencia": 1258.75,
+    "casos_futuros": 2465.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 736,
+    "data_emissao": "2025-02-02",
+    "data_alvo": "2025-03-02",
+    "data_ultimo_caso": "2025-01-26",
+    "media_casos_referencia": 1445.25,
+    "casos_futuros": 2236.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 737,
+    "data_emissao": "2025-02-09",
+    "data_alvo": "2025-03-09",
+    "data_ultimo_caso": "2025-02-02",
+    "media_casos_referencia": 1660.75,
+    "casos_futuros": 2334.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 738,
+    "data_emissao": "2025-02-16",
+    "data_alvo": "2025-03-16",
+    "data_ultimo_caso": "2025-02-09",
+    "media_casos_referencia": 1909.5,
+    "casos_futuros": 2201.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 739,
+    "data_emissao": "2025-02-23",
+    "data_alvo": "2025-03-23",
+    "data_ultimo_caso": "2025-02-16",
+    "media_casos_referencia": 2124.5,
+    "casos_futuros": 1883.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 740,
+    "data_emissao": "2025-03-02",
+    "data_alvo": "2025-03-30",
+    "data_ultimo_caso": "2025-02-23",
+    "media_casos_referencia": 2294.5,
+    "casos_futuros": 1690.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 741,
+    "data_emissao": "2025-03-09",
+    "data_alvo": "2025-04-06",
+    "data_ultimo_caso": "2025-03-02",
+    "media_casos_referencia": 2367.75,
+    "casos_futuros": 1637.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 742,
+    "data_emissao": "2025-03-16",
+    "data_alvo": "2025-04-13",
+    "data_ultimo_caso": "2025-03-09",
+    "media_casos_referencia": 2362.75,
+    "casos_futuros": 1234.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 743,
+    "data_emissao": "2025-03-23",
+    "data_alvo": "2025-04-20",
+    "data_ultimo_caso": "2025-03-16",
+    "media_casos_referencia": 2309.0,
+    "casos_futuros": 1429.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 744,
+    "data_emissao": "2025-03-30",
+    "data_alvo": "2025-04-27",
+    "data_ultimo_caso": "2025-03-23",
+    "media_casos_referencia": 2163.5,
+    "casos_futuros": 1194.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 745,
+    "data_emissao": "2025-04-06",
+    "data_alvo": "2025-05-04",
+    "data_ultimo_caso": "2025-03-30",
+    "media_casos_referencia": 2027.0,
+    "casos_futuros": 1127.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 746,
+    "data_emissao": "2025-04-13",
+    "data_alvo": "2025-05-11",
+    "data_ultimo_caso": "2025-04-06",
+    "media_casos_referencia": 1852.75,
+    "casos_futuros": 904.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 747,
+    "data_emissao": "2025-04-20",
+    "data_alvo": "2025-05-18",
+    "data_ultimo_caso": "2025-04-13",
+    "media_casos_referencia": 1611.0,
+    "casos_futuros": 797.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 748,
+    "data_emissao": "2025-04-27",
+    "data_alvo": "2025-05-25",
+    "data_ultimo_caso": "2025-04-20",
+    "media_casos_referencia": 1497.5,
+    "casos_futuros": 579.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 749,
+    "data_emissao": "2025-05-04",
+    "data_alvo": "2025-06-01",
+    "data_ultimo_caso": "2025-04-27",
+    "media_casos_referencia": 1373.5,
+    "casos_futuros": 437.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 750,
+    "data_emissao": "2025-05-11",
+    "data_alvo": "2025-06-08",
+    "data_ultimo_caso": "2025-05-04",
+    "media_casos_referencia": 1246.0,
+    "casos_futuros": 324.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 751,
+    "data_emissao": "2025-05-18",
+    "data_alvo": "2025-06-15",
+    "data_ultimo_caso": "2025-05-11",
+    "media_casos_referencia": 1163.5,
+    "casos_futuros": 384.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 752,
+    "data_emissao": "2025-05-25",
+    "data_alvo": "2025-06-22",
+    "data_ultimo_caso": "2025-05-18",
+    "media_casos_referencia": 1005.5,
+    "casos_futuros": 275.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 753,
+    "data_emissao": "2025-06-01",
+    "data_alvo": "2025-06-29",
+    "data_ultimo_caso": "2025-05-25",
+    "media_casos_referencia": 851.75,
+    "casos_futuros": 213.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 754,
+    "data_emissao": "2025-06-08",
+    "data_alvo": "2025-07-06",
+    "data_ultimo_caso": "2025-06-01",
+    "media_casos_referencia": 679.25,
+    "casos_futuros": 159.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 755,
+    "data_emissao": "2025-06-15",
+    "data_alvo": "2025-07-13",
+    "data_ultimo_caso": "2025-06-08",
+    "media_casos_referencia": 534.25,
+    "casos_futuros": 156.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 756,
+    "data_emissao": "2025-06-22",
+    "data_alvo": "2025-07-20",
+    "data_ultimo_caso": "2025-06-15",
+    "media_casos_referencia": 431.0,
+    "casos_futuros": 146.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 757,
+    "data_emissao": "2025-06-29",
+    "data_alvo": "2025-07-27",
+    "data_ultimo_caso": "2025-06-22",
+    "media_casos_referencia": 355.0,
+    "casos_futuros": 137.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 758,
+    "data_emissao": "2025-07-06",
+    "data_alvo": "2025-08-03",
+    "data_ultimo_caso": "2025-06-29",
+    "media_casos_referencia": 299.0,
+    "casos_futuros": 177.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 759,
+    "data_emissao": "2025-07-13",
+    "data_alvo": "2025-08-10",
+    "data_ultimo_caso": "2025-07-06",
+    "media_casos_referencia": 257.75,
+    "casos_futuros": 187.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 760,
+    "data_emissao": "2025-07-20",
+    "data_alvo": "2025-08-17",
+    "data_ultimo_caso": "2025-07-13",
+    "media_casos_referencia": 200.75,
+    "casos_futuros": 202.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 761,
+    "data_emissao": "2025-07-27",
+    "data_alvo": "2025-08-24",
+    "data_ultimo_caso": "2025-07-20",
+    "media_casos_referencia": 168.5,
+    "casos_futuros": 210.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 762,
+    "data_emissao": "2025-08-03",
+    "data_alvo": "2025-08-31",
+    "data_ultimo_caso": "2025-07-27",
+    "media_casos_referencia": 149.5,
+    "casos_futuros": 231.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 763,
+    "data_emissao": "2025-08-10",
+    "data_alvo": "2025-09-07",
+    "data_ultimo_caso": "2025-08-03",
+    "media_casos_referencia": 154.0,
+    "casos_futuros": 245.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 764,
+    "data_emissao": "2025-08-17",
+    "data_alvo": "2025-09-14",
+    "data_ultimo_caso": "2025-08-10",
+    "media_casos_referencia": 161.75,
+    "casos_futuros": 250.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 765,
+    "data_emissao": "2025-08-24",
+    "data_alvo": "2025-09-21",
+    "data_ultimo_caso": "2025-08-17",
+    "media_casos_referencia": 175.75,
+    "casos_futuros": 263.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 766,
+    "data_emissao": "2025-08-31",
+    "data_alvo": "2025-09-28",
+    "data_ultimo_caso": "2025-08-24",
+    "media_casos_referencia": 194.0,
+    "casos_futuros": 329.0,
+    "target": 1,
+    "split": "teste"
+  },
+  {
+    "sample_id": 767,
+    "data_emissao": "2025-09-07",
+    "data_alvo": "2025-10-05",
+    "data_ultimo_caso": "2025-08-31",
+    "media_casos_referencia": 207.5,
+    "casos_futuros": 297.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 768,
+    "data_emissao": "2025-09-14",
+    "data_alvo": "2025-10-12",
+    "data_ultimo_caso": "2025-09-07",
+    "media_casos_referencia": 222.0,
+    "casos_futuros": 283.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 769,
+    "data_emissao": "2025-09-21",
+    "data_alvo": "2025-10-19",
+    "data_ultimo_caso": "2025-09-14",
+    "media_casos_referencia": 234.0,
+    "casos_futuros": 347.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 770,
+    "data_emissao": "2025-09-28",
+    "data_alvo": "2025-10-26",
+    "data_ultimo_caso": "2025-09-21",
+    "media_casos_referencia": 247.25,
+    "casos_futuros": 298.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 771,
+    "data_emissao": "2025-10-05",
+    "data_alvo": "2025-11-02",
+    "data_ultimo_caso": "2025-09-28",
+    "media_casos_referencia": 271.75,
+    "casos_futuros": 331.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 772,
+    "data_emissao": "2025-10-12",
+    "data_alvo": "2025-11-09",
+    "data_ultimo_caso": "2025-10-05",
+    "media_casos_referencia": 284.75,
+    "casos_futuros": 336.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 773,
+    "data_emissao": "2025-10-19",
+    "data_alvo": "2025-11-16",
+    "data_ultimo_caso": "2025-10-12",
+    "media_casos_referencia": 293.0,
+    "casos_futuros": 231.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 774,
+    "data_emissao": "2025-10-26",
+    "data_alvo": "2025-11-23",
+    "data_ultimo_caso": "2025-10-19",
+    "media_casos_referencia": 314.0,
+    "casos_futuros": 245.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 775,
+    "data_emissao": "2025-11-02",
+    "data_alvo": "2025-11-30",
+    "data_ultimo_caso": "2025-10-26",
+    "media_casos_referencia": 306.25,
+    "casos_futuros": 290.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 776,
+    "data_emissao": "2025-11-09",
+    "data_alvo": "2025-12-07",
+    "data_ultimo_caso": "2025-11-02",
+    "media_casos_referencia": 314.75,
+    "casos_futuros": 241.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 777,
+    "data_emissao": "2025-11-16",
+    "data_alvo": "2025-12-14",
+    "data_ultimo_caso": "2025-11-09",
+    "media_casos_referencia": 328.0,
+    "casos_futuros": 253.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 778,
+    "data_emissao": "2025-11-23",
+    "data_alvo": "2025-12-21",
+    "data_ultimo_caso": "2025-11-16",
+    "media_casos_referencia": 299.0,
+    "casos_futuros": 264.0,
+    "target": 0,
+    "split": "teste"
+  },
+  {
+    "sample_id": 779,
+    "data_emissao": "2025-11-30",
+    "data_alvo": "2025-12-28",
+    "data_ultimo_caso": "2025-11-23",
+    "media_casos_referencia": 285.75,
+    "casos_futuros": 200.0,
+    "target": 0,
+    "split": "teste"
+  }
+]

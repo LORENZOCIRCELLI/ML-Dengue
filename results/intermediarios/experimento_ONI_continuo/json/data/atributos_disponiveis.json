@@ -1,0 +1,6272 @@
+[
+  {
+    "sample_id": 0,
+    "casos_dengue": null,
+    "temperatura_media": null,
+    "umidade_media": null,
+    "chuva_total": null,
+    "semana_sin": null,
+    "semana_cos": null,
+    "ONI": null
+  },
+  {
+    "sample_id": 1,
+    "casos_dengue": 235.0,
+    "temperatura_media": 26.21,
+    "umidade_media": 79.71,
+    "chuva_total": 37.8,
+    "semana_sin": 6.43249059870655e-16,
+    "semana_cos": 1.0,
+    "ONI": null
+  },
+  {
+    "sample_id": 2,
+    "casos_dengue": 357.0,
+    "temperatura_media": 24.85,
+    "umidade_media": 90.28,
+    "chuva_total": 80.3,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": 0.992708874098054,
+    "ONI": null
+  },
+  {
+    "sample_id": 3,
+    "casos_dengue": 468.0,
+    "temperatura_media": 25.56,
+    "umidade_media": 88.05,
+    "chuva_total": 85.0,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": null
+  },
+  {
+    "sample_id": 4,
+    "casos_dengue": 782.0,
+    "temperatura_media": 26.68,
+    "umidade_media": 82.34,
+    "chuva_total": 16.3,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": -1.571
+  },
+  {
+    "sample_id": 5,
+    "casos_dengue": 833.0,
+    "temperatura_media": 28.65,
+    "umidade_media": 70.24,
+    "chuva_total": 6.699999999999999,
+    "semana_sin": 0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": -1.4
+  },
+  {
+    "sample_id": 6,
+    "casos_dengue": 1234.0,
+    "temperatura_media": 26.91,
+    "umidade_media": 75.9,
+    "chuva_total": 30.3,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": -1.4
+  },
+  {
+    "sample_id": 7,
+    "casos_dengue": 1530.0,
+    "temperatura_media": 27.28,
+    "umidade_media": 74.04,
+    "chuva_total": 39.3,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": 0.748510748171101,
+    "ONI": -1.4
+  },
+  {
+    "sample_id": 8,
+    "casos_dengue": 1496.0,
+    "temperatura_media": 25.65,
+    "umidade_media": 81.45,
+    "chuva_total": 59.9,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": -1.4
+  },
+  {
+    "sample_id": 9,
+    "casos_dengue": 1729.0,
+    "temperatura_media": 27.07,
+    "umidade_media": 76.03,
+    "chuva_total": 68.8,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": 0.568064746731156,
+    "ONI": -1.257
+  },
+  {
+    "sample_id": 10,
+    "casos_dengue": 1826.0,
+    "temperatura_media": 23.59,
+    "umidade_media": 93.55,
+    "chuva_total": 92.875,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": 0.464723172043769,
+    "ONI": -1.2
+  },
+  {
+    "sample_id": 11,
+    "casos_dengue": 1719.0,
+    "temperatura_media": 24.1,
+    "umidade_media": 93.18,
+    "chuva_total": 92.875,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": -1.2
+  },
+  {
+    "sample_id": 12,
+    "casos_dengue": 2620.0,
+    "temperatura_media": 25.95,
+    "umidade_media": 85.72,
+    "chuva_total": 30.8,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": 0.239315664287558,
+    "ONI": -1.2
+  },
+  {
+    "sample_id": 13,
+    "casos_dengue": 2775.0,
+    "temperatura_media": 24.56,
+    "umidade_media": 84.32,
+    "chuva_total": 40.6,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": -0.986
+  },
+  {
+    "sample_id": 14,
+    "casos_dengue": 2556.0,
+    "temperatura_media": 26.57,
+    "umidade_media": 80.81,
+    "chuva_total": 37.9,
+    "semana_sin": 1.0,
+    "semana_cos": -1.60812264967664e-16,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 15,
+    "casos_dengue": 3525.0,
+    "temperatura_media": 24.16,
+    "umidade_media": 81.84,
+    "chuva_total": 11.0,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": -0.120536680255323,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 16,
+    "casos_dengue": 3336.0,
+    "temperatura_media": 24.87,
+    "umidade_media": 80.07,
+    "chuva_total": 92.875,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 17,
+    "casos_dengue": 2966.0,
+    "temperatura_media": 25.76,
+    "umidade_media": 72.46,
+    "chuva_total": 0.0,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": -0.354604887042535,
+    "ONI": -0.843
+  },
+  {
+    "sample_id": 18,
+    "casos_dengue": 3426.0,
+    "temperatura_media": 23.3,
+    "umidade_media": 78.37,
+    "chuva_total": 19.2,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": -0.464723172043768,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 19,
+    "casos_dengue": 2688.0,
+    "temperatura_media": 22.8,
+    "umidade_media": 75.69,
+    "chuva_total": 1.2,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 20,
+    "casos_dengue": 2409.0,
+    "temperatura_media": 23.39,
+    "umidade_media": 74.34,
+    "chuva_total": 0.0,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 21,
+    "casos_dengue": 2005.0,
+    "temperatura_media": 20.24,
+    "umidade_media": 74.01,
+    "chuva_total": 5.9,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 22,
+    "casos_dengue": 1374.0,
+    "temperatura_media": 20.67,
+    "umidade_media": 68.97,
+    "chuva_total": 0.0,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 23,
+    "casos_dengue": 946.0,
+    "temperatura_media": 20.36,
+    "umidade_media": 68.47,
+    "chuva_total": 0.0,
+    "semana_sin": 0.464723172043769,
+    "semana_cos": -0.88545602565321,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 24,
+    "casos_dengue": 583.0,
+    "temperatura_media": 18.57,
+    "umidade_media": 76.73,
+    "chuva_total": 36.7,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 25,
+    "casos_dengue": 412.0,
+    "temperatura_media": 19.49,
+    "umidade_media": 71.32,
+    "chuva_total": 0.0,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": -0.970941817426052,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 26,
+    "casos_dengue": 268.0,
+    "temperatura_media": 21.48,
+    "umidade_media": 70.4,
+    "chuva_total": 0.0,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": -0.486
+  },
+  {
+    "sample_id": 27,
+    "casos_dengue": 192.0,
+    "temperatura_media": 18.64,
+    "umidade_media": 72.58,
+    "chuva_total": 0.0,
+    "semana_sin": -3.21624529935327e-16,
+    "semana_cos": -1.0,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 28,
+    "casos_dengue": 158.0,
+    "temperatura_media": 19.29,
+    "umidade_media": 73.73,
+    "chuva_total": 0.0,
+    "semana_sin": -0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 29,
+    "casos_dengue": 114.0,
+    "temperatura_media": 21.54,
+    "umidade_media": 60.17,
+    "chuva_total": 0.0,
+    "semana_sin": -0.239315664287557,
+    "semana_cos": -0.970941817426052,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 30,
+    "casos_dengue": 110.0,
+    "temperatura_media": 24.01,
+    "umidade_media": 61.95,
+    "chuva_total": 0.0,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": -0.429
+  },
+  {
+    "sample_id": 31,
+    "casos_dengue": 106.0,
+    "temperatura_media": 22.44,
+    "umidade_media": 60.53,
+    "chuva_total": 0.0,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": -0.88545602565321,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 32,
+    "casos_dengue": 96.0,
+    "temperatura_media": 19.74,
+    "umidade_media": 66.23,
+    "chuva_total": 16.1,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 33,
+    "casos_dengue": 110.0,
+    "temperatura_media": 24.65,
+    "umidade_media": 61.28,
+    "chuva_total": 0.3,
+    "semana_sin": -0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 34,
+    "casos_dengue": 99.0,
+    "temperatura_media": 25.5,
+    "umidade_media": 46.49,
+    "chuva_total": 0.0,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 35,
+    "casos_dengue": 107.0,
+    "temperatura_media": 24.44,
+    "umidade_media": 61.26,
+    "chuva_total": 0.0,
+    "semana_sin": -0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": -0.586
+  },
+  {
+    "sample_id": 36,
+    "casos_dengue": 91.0,
+    "temperatura_media": 23.82,
+    "umidade_media": 55.84,
+    "chuva_total": 8.0,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": -0.464723172043769,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 37,
+    "casos_dengue": 101.0,
+    "temperatura_media": 25.69,
+    "umidade_media": 41.38,
+    "chuva_total": 0.0,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": -0.354604887042536,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 38,
+    "casos_dengue": 167.0,
+    "temperatura_media": 25.36,
+    "umidade_media": 60.13,
+    "chuva_total": 0.4,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 39,
+    "casos_dengue": 194.0,
+    "temperatura_media": 26.21,
+    "umidade_media": 46.64,
+    "chuva_total": 0.0,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": -0.120536680255324,
+    "ONI": -0.686
+  },
+  {
+    "sample_id": 40,
+    "casos_dengue": 249.0,
+    "temperatura_media": 27.79,
+    "umidade_media": 46.94,
+    "chuva_total": 0.0,
+    "semana_sin": -1.0,
+    "semana_cos": -1.83697019872103e-16,
+    "ONI": -0.8
+  },
+  {
+    "sample_id": 41,
+    "casos_dengue": 218.0,
+    "temperatura_media": 26.38,
+    "umidade_media": 61.81,
+    "chuva_total": 16.8,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": -0.8
+  },
+  {
+    "sample_id": 42,
+    "casos_dengue": 198.0,
+    "temperatura_media": 26.12,
+    "umidade_media": 79.05,
+    "chuva_total": 92.875,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": 0.239315664287557,
+    "ONI": -0.8
+  },
+  {
+    "sample_id": 43,
+    "casos_dengue": 174.0,
+    "temperatura_media": 23.8,
+    "umidade_media": 69.03,
+    "chuva_total": 19.7,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": -0.829
+  },
+  {
+    "sample_id": 44,
+    "casos_dengue": 157.0,
+    "temperatura_media": 25.89,
+    "umidade_media": 72.28,
+    "chuva_total": 33.7,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": 0.464723172043768,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 45,
+    "casos_dengue": 143.0,
+    "temperatura_media": 23.45,
+    "umidade_media": 65.46,
+    "chuva_total": 1.5,
+    "semana_sin": -0.822983865893657,
+    "semana_cos": 0.568064746731155,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 46,
+    "casos_dengue": 98.0,
+    "temperatura_media": 26.61,
+    "umidade_media": 64.15,
+    "chuva_total": 13.5,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 47,
+    "casos_dengue": 92.0,
+    "temperatura_media": 23.98,
+    "umidade_media": 78.5,
+    "chuva_total": 74.60000000000001,
+    "semana_sin": -0.663122658240796,
+    "semana_cos": 0.748510748171101,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 48,
+    "casos_dengue": 101.0,
+    "temperatura_media": 26.13,
+    "umidade_media": 70.32,
+    "chuva_total": 64.3,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": -1.071
+  },
+  {
+    "sample_id": 49,
+    "casos_dengue": 79.0,
+    "temperatura_media": 25.82,
+    "umidade_media": 75.08,
+    "chuva_total": 43.5,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": -1.1
+  },
+  {
+    "sample_id": 50,
+    "casos_dengue": 86.0,
+    "temperatura_media": 25.92,
+    "umidade_media": 81.13,
+    "chuva_total": 56.4,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": -1.1
+  },
+  {
+    "sample_id": 51,
+    "casos_dengue": 108.0,
+    "temperatura_media": 26.02,
+    "umidade_media": 74.24,
+    "chuva_total": 7.5,
+    "semana_sin": -0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": -1.1
+  },
+  {
+    "sample_id": 52,
+    "casos_dengue": 78.0,
+    "temperatura_media": 26.78,
+    "umidade_media": 72.73,
+    "chuva_total": 16.6,
+    "semana_sin": -0.120536680255324,
+    "semana_cos": 0.992708874098054,
+    "ONI": -1.057
+  },
+  {
+    "sample_id": 53,
+    "casos_dengue": 118.0,
+    "temperatura_media": 26.0,
+    "umidade_media": 82.53,
+    "chuva_total": 76.8,
+    "semana_sin": 6.43249059870655e-16,
+    "semana_cos": 1.0,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 54,
+    "casos_dengue": 137.0,
+    "temperatura_media": 25.03,
+    "umidade_media": 83.16,
+    "chuva_total": 73.2,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": 0.992708874098054,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 55,
+    "casos_dengue": 116.0,
+    "temperatura_media": 23.18,
+    "umidade_media": 89.39,
+    "chuva_total": 92.875,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 56,
+    "casos_dengue": 114.0,
+    "temperatura_media": 24.31,
+    "umidade_media": 87.22,
+    "chuva_total": 92.875,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 57,
+    "casos_dengue": 150.0,
+    "temperatura_media": 25.03,
+    "umidade_media": 84.88,
+    "chuva_total": 92.875,
+    "semana_sin": 0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 58,
+    "casos_dengue": 133.0,
+    "temperatura_media": 25.97,
+    "umidade_media": 71.46,
+    "chuva_total": 5.6,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 59,
+    "casos_dengue": 106.0,
+    "temperatura_media": 28.12,
+    "umidade_media": 68.04,
+    "chuva_total": 37.0,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": 0.748510748171101,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 60,
+    "casos_dengue": 90.0,
+    "temperatura_media": 26.92,
+    "umidade_media": 73.78,
+    "chuva_total": 0.4,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 61,
+    "casos_dengue": 98.0,
+    "temperatura_media": 26.32,
+    "umidade_media": 80.28,
+    "chuva_total": 65.3,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": 0.568064746731156,
+    "ONI": -0.786
+  },
+  {
+    "sample_id": 62,
+    "casos_dengue": 141.0,
+    "temperatura_media": 28.25,
+    "umidade_media": 70.86,
+    "chuva_total": 6.8,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": 0.464723172043769,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 63,
+    "casos_dengue": 135.0,
+    "temperatura_media": 27.29,
+    "umidade_media": 65.41,
+    "chuva_total": 0.0,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 64,
+    "casos_dengue": 153.0,
+    "temperatura_media": 26.24,
+    "umidade_media": 76.21,
+    "chuva_total": 41.3,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": 0.239315664287558,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 65,
+    "casos_dengue": 139.0,
+    "temperatura_media": 26.2,
+    "umidade_media": 74.11,
+    "chuva_total": 25.6,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": -0.657
+  },
+  {
+    "sample_id": 66,
+    "casos_dengue": 124.0,
+    "temperatura_media": 25.88,
+    "umidade_media": 78.67,
+    "chuva_total": 34.5,
+    "semana_sin": 1.0,
+    "semana_cos": -1.60812264967664e-16,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 67,
+    "casos_dengue": 122.0,
+    "temperatura_media": 26.67,
+    "umidade_media": 71.89,
+    "chuva_total": 0.4,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": -0.120536680255323,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 68,
+    "casos_dengue": 146.0,
+    "temperatura_media": 25.97,
+    "umidade_media": 76.75,
+    "chuva_total": 11.2,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 69,
+    "casos_dengue": 130.0,
+    "temperatura_media": 25.65,
+    "umidade_media": 77.26,
+    "chuva_total": 27.8,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": -0.354604887042535,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 70,
+    "casos_dengue": 114.0,
+    "temperatura_media": 24.3,
+    "umidade_media": 79.66,
+    "chuva_total": 9.4,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": -0.464723172043768,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 71,
+    "casos_dengue": 90.0,
+    "temperatura_media": 20.17,
+    "umidade_media": 81.16,
+    "chuva_total": 62.3,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 72,
+    "casos_dengue": 87.0,
+    "temperatura_media": 21.82,
+    "umidade_media": 73.45,
+    "chuva_total": 23.7,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 73,
+    "casos_dengue": 91.0,
+    "temperatura_media": 20.06,
+    "umidade_media": 85.6,
+    "chuva_total": 19.3,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 74,
+    "casos_dengue": 94.0,
+    "temperatura_media": 21.15,
+    "umidade_media": 78.08,
+    "chuva_total": 11.6,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": -0.357
+  },
+  {
+    "sample_id": 75,
+    "casos_dengue": 104.0,
+    "temperatura_media": 22.25,
+    "umidade_media": 82.6,
+    "chuva_total": 0.1,
+    "semana_sin": 0.464723172043769,
+    "semana_cos": -0.88545602565321,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 76,
+    "casos_dengue": 69.0,
+    "temperatura_media": 21.29,
+    "umidade_media": 89.14,
+    "chuva_total": 56.8,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 77,
+    "casos_dengue": 66.0,
+    "temperatura_media": 22.34,
+    "umidade_media": 80.15,
+    "chuva_total": 0.6,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": -0.970941817426052,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 78,
+    "casos_dengue": 65.0,
+    "temperatura_media": 20.96,
+    "umidade_media": 83.79,
+    "chuva_total": 74.5,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": -0.214
+  },
+  {
+    "sample_id": 79,
+    "casos_dengue": 65.0,
+    "temperatura_media": 20.95,
+    "umidade_media": 77.05,
+    "chuva_total": 0.0,
+    "semana_sin": -3.21624529935327e-16,
+    "semana_cos": -1.0,
+    "ONI": 0.0
+  },
+  {
+    "sample_id": 80,
+    "casos_dengue": 41.0,
+    "temperatura_media": 21.8,
+    "umidade_media": 69.84,
+    "chuva_total": 0.0,
+    "semana_sin": -0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": 0.0
+  },
+  {
+    "sample_id": 81,
+    "casos_dengue": 34.0,
+    "temperatura_media": 19.26,
+    "umidade_media": 75.09,
+    "chuva_total": 9.6,
+    "semana_sin": -0.239315664287557,
+    "semana_cos": -0.970941817426052,
+    "ONI": 0.0
+  },
+  {
+    "sample_id": 82,
+    "casos_dengue": 28.0,
+    "temperatura_media": 17.25,
+    "umidade_media": 75.85,
+    "chuva_total": 5.9,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": 0.0
+  },
+  {
+    "sample_id": 83,
+    "casos_dengue": 55.0,
+    "temperatura_media": 23.36,
+    "umidade_media": 63.71,
+    "chuva_total": 0.0,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": -0.88545602565321,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 84,
+    "casos_dengue": 44.0,
+    "temperatura_media": 22.05,
+    "umidade_media": 63.49,
+    "chuva_total": 0.0,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 85,
+    "casos_dengue": 34.0,
+    "temperatura_media": 22.09,
+    "umidade_media": 61.53,
+    "chuva_total": 0.0,
+    "semana_sin": -0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 86,
+    "casos_dengue": 35.0,
+    "temperatura_media": 23.17,
+    "umidade_media": 58.02,
+    "chuva_total": 0.0,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 87,
+    "casos_dengue": 27.0,
+    "temperatura_media": 23.42,
+    "umidade_media": 53.11,
+    "chuva_total": 0.0,
+    "semana_sin": -0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": 0.314
+  },
+  {
+    "sample_id": 88,
+    "casos_dengue": 37.0,
+    "temperatura_media": 23.24,
+    "umidade_media": 54.18,
+    "chuva_total": 0.0,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": -0.464723172043769,
+    "ONI": 0.4
+  },
+  {
+    "sample_id": 89,
+    "casos_dengue": 30.0,
+    "temperatura_media": 25.89,
+    "umidade_media": 49.89,
+    "chuva_total": 0.0,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": -0.354604887042536,
+    "ONI": 0.4
+  },
+  {
+    "sample_id": 90,
+    "casos_dengue": 41.0,
+    "temperatura_media": 27.59,
+    "umidade_media": 49.97,
+    "chuva_total": 0.0,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": 0.4
+  },
+  {
+    "sample_id": 91,
+    "casos_dengue": 31.0,
+    "temperatura_media": 26.94,
+    "umidade_media": 62.22,
+    "chuva_total": 29.6,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": -0.120536680255324,
+    "ONI": 0.4
+  },
+  {
+    "sample_id": 92,
+    "casos_dengue": 28.0,
+    "temperatura_media": 21.1,
+    "umidade_media": 71.53,
+    "chuva_total": 33.2,
+    "semana_sin": -1.0,
+    "semana_cos": -1.83697019872103e-16,
+    "ONI": 0.4
+  },
+  {
+    "sample_id": 93,
+    "casos_dengue": 45.0,
+    "temperatura_media": 27.9,
+    "umidade_media": 49.64,
+    "chuva_total": 0.0,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": 0.4
+  },
+  {
+    "sample_id": 94,
+    "casos_dengue": 32.0,
+    "temperatura_media": 26.88,
+    "umidade_media": 58.35,
+    "chuva_total": 20.4,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": 0.239315664287557,
+    "ONI": 0.4
+  },
+  {
+    "sample_id": 95,
+    "casos_dengue": 49.0,
+    "temperatura_media": 26.2,
+    "umidade_media": 66.52,
+    "chuva_total": 7.5,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": 0.4
+  },
+  {
+    "sample_id": 96,
+    "casos_dengue": 47.0,
+    "temperatura_media": 28.42,
+    "umidade_media": 70.27,
+    "chuva_total": 42.0,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": 0.464723172043768,
+    "ONI": 0.314
+  },
+  {
+    "sample_id": 97,
+    "casos_dengue": 51.0,
+    "temperatura_media": 29.57,
+    "umidade_media": 64.07,
+    "chuva_total": 12.9,
+    "semana_sin": -0.822983865893657,
+    "semana_cos": 0.568064746731155,
+    "ONI": 0.3
+  },
+  {
+    "sample_id": 98,
+    "casos_dengue": 29.0,
+    "temperatura_media": 25.27,
+    "umidade_media": 75.74,
+    "chuva_total": 73.2,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": 0.3
+  },
+  {
+    "sample_id": 99,
+    "casos_dengue": 36.0,
+    "temperatura_media": 23.95,
+    "umidade_media": 74.46,
+    "chuva_total": 9.7,
+    "semana_sin": -0.663122658240796,
+    "semana_cos": 0.748510748171101,
+    "ONI": 0.3
+  },
+  {
+    "sample_id": 100,
+    "casos_dengue": 52.0,
+    "temperatura_media": 25.38,
+    "umidade_media": 64.65,
+    "chuva_total": 23.8,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": 0.214
+  },
+  {
+    "sample_id": 101,
+    "casos_dengue": 51.0,
+    "temperatura_media": 26.17,
+    "umidade_media": 70.92,
+    "chuva_total": 15.5,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 102,
+    "casos_dengue": 46.0,
+    "temperatura_media": 27.0,
+    "umidade_media": 69.89,
+    "chuva_total": 20.0,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 103,
+    "casos_dengue": 70.0,
+    "temperatura_media": 25.46,
+    "umidade_media": 80.43,
+    "chuva_total": 37.6,
+    "semana_sin": -0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 104,
+    "casos_dengue": 59.0,
+    "temperatura_media": 25.69,
+    "umidade_media": 76.49,
+    "chuva_total": 27.1,
+    "semana_sin": -0.120536680255324,
+    "semana_cos": 0.992708874098054,
+    "ONI": 0.057
+  },
+  {
+    "sample_id": 105,
+    "casos_dengue": 75.0,
+    "temperatura_media": 25.6,
+    "umidade_media": 77.99,
+    "chuva_total": 15.0,
+    "semana_sin": 6.43249059870655e-16,
+    "semana_cos": 1.0,
+    "ONI": -0.2
+  },
+  {
+    "sample_id": 106,
+    "casos_dengue": 107.0,
+    "temperatura_media": 24.76,
+    "umidade_media": 80.42,
+    "chuva_total": 53.0,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": 0.992708874098054,
+    "ONI": -0.2
+  },
+  {
+    "sample_id": 107,
+    "casos_dengue": 139.0,
+    "temperatura_media": 24.07,
+    "umidade_media": 80.72,
+    "chuva_total": 56.2,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": -0.2
+  },
+  {
+    "sample_id": 108,
+    "casos_dengue": 219.0,
+    "temperatura_media": 22.75,
+    "umidade_media": 85.3,
+    "chuva_total": 56.2,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": -0.2
+  },
+  {
+    "sample_id": 109,
+    "casos_dengue": 327.0,
+    "temperatura_media": 24.91,
+    "umidade_media": 75.96,
+    "chuva_total": 26.6,
+    "semana_sin": 0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": -0.343
+  },
+  {
+    "sample_id": 110,
+    "casos_dengue": 510.0,
+    "temperatura_media": 24.66,
+    "umidade_media": 86.82,
+    "chuva_total": 51.4,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 111,
+    "casos_dengue": 659.0,
+    "temperatura_media": 22.7,
+    "umidade_media": 87.74,
+    "chuva_total": 92.875,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": 0.748510748171101,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 112,
+    "casos_dengue": 755.0,
+    "temperatura_media": 25.52,
+    "umidade_media": 79.17,
+    "chuva_total": 20.8,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 113,
+    "casos_dengue": 1182.0,
+    "temperatura_media": 24.79,
+    "umidade_media": 76.05,
+    "chuva_total": 30.2,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": 0.568064746731156,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 114,
+    "casos_dengue": 1809.0,
+    "temperatura_media": 23.99,
+    "umidade_media": 83.06,
+    "chuva_total": 21.9,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": 0.464723172043769,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 115,
+    "casos_dengue": 2130.0,
+    "temperatura_media": 26.51,
+    "umidade_media": 75.46,
+    "chuva_total": 18.5,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 116,
+    "casos_dengue": 2996.0,
+    "temperatura_media": 25.5,
+    "umidade_media": 80.31,
+    "chuva_total": 11.5,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": 0.239315664287558,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 117,
+    "casos_dengue": 3070.0,
+    "temperatura_media": 22.82,
+    "umidade_media": 83.52,
+    "chuva_total": 61.6,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": -0.371
+  },
+  {
+    "sample_id": 118,
+    "casos_dengue": 2411.0,
+    "temperatura_media": 22.75,
+    "umidade_media": 79.77,
+    "chuva_total": 29.9,
+    "semana_sin": 1.0,
+    "semana_cos": -1.60812264967664e-16,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 119,
+    "casos_dengue": 2601.0,
+    "temperatura_media": 24.12,
+    "umidade_media": 81.38,
+    "chuva_total": 20.3,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": -0.120536680255323,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 120,
+    "casos_dengue": 2570.0,
+    "temperatura_media": 23.41,
+    "umidade_media": 86.72,
+    "chuva_total": 29.2,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 121,
+    "casos_dengue": 2183.0,
+    "temperatura_media": 20.97,
+    "umidade_media": 75.88,
+    "chuva_total": 0.3,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": -0.354604887042535,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 122,
+    "casos_dengue": 1147.0,
+    "temperatura_media": 20.96,
+    "umidade_media": 70.08,
+    "chuva_total": 0.0,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": -0.464723172043768,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 123,
+    "casos_dengue": 889.0,
+    "temperatura_media": 22.53,
+    "umidade_media": 72.38,
+    "chuva_total": 0.0,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 124,
+    "casos_dengue": 882.0,
+    "temperatura_media": 20.0,
+    "umidade_media": 67.49,
+    "chuva_total": 0.0,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 125,
+    "casos_dengue": 789.0,
+    "temperatura_media": 22.24,
+    "umidade_media": 71.9,
+    "chuva_total": 0.0,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 126,
+    "casos_dengue": 364.0,
+    "temperatura_media": 21.73,
+    "umidade_media": 76.88,
+    "chuva_total": 2.2,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": -0.357
+  },
+  {
+    "sample_id": 127,
+    "casos_dengue": 188.0,
+    "temperatura_media": 18.42,
+    "umidade_media": 89.31,
+    "chuva_total": 90.1,
+    "semana_sin": 0.464723172043769,
+    "semana_cos": -0.88545602565321,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 128,
+    "casos_dengue": 182.0,
+    "temperatura_media": 19.08,
+    "umidade_media": 84.22,
+    "chuva_total": 6.0,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 129,
+    "casos_dengue": 165.0,
+    "temperatura_media": 20.76,
+    "umidade_media": 76.63,
+    "chuva_total": 0.0,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": -0.970941817426052,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 130,
+    "casos_dengue": 119.0,
+    "temperatura_media": 20.26,
+    "umidade_media": 78.93,
+    "chuva_total": 23.3,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 131,
+    "casos_dengue": 99.0,
+    "temperatura_media": 20.41,
+    "umidade_media": 88.43,
+    "chuva_total": 4.3,
+    "semana_sin": -3.21624529935327e-16,
+    "semana_cos": -1.0,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 132,
+    "casos_dengue": 76.0,
+    "temperatura_media": 20.23,
+    "umidade_media": 77.8,
+    "chuva_total": 0.0,
+    "semana_sin": -0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 133,
+    "casos_dengue": 51.0,
+    "temperatura_media": 18.98,
+    "umidade_media": 71.9,
+    "chuva_total": 0.0,
+    "semana_sin": -0.239315664287557,
+    "semana_cos": -0.970941817426052,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 134,
+    "casos_dengue": 32.0,
+    "temperatura_media": 20.0,
+    "umidade_media": 74.52,
+    "chuva_total": 6.6,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 135,
+    "casos_dengue": 18.0,
+    "temperatura_media": 16.4875,
+    "umidade_media": 82.41,
+    "chuva_total": 37.7,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": -0.88545602565321,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 136,
+    "casos_dengue": 27.0,
+    "temperatura_media": 18.59,
+    "umidade_media": 56.1,
+    "chuva_total": 0.0,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 137,
+    "casos_dengue": 21.0,
+    "temperatura_media": 22.1,
+    "umidade_media": 51.75,
+    "chuva_total": 0.0,
+    "semana_sin": -0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 138,
+    "casos_dengue": 28.0,
+    "temperatura_media": 18.53,
+    "umidade_media": 57.11,
+    "chuva_total": 0.2,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 139,
+    "casos_dengue": 35.0,
+    "temperatura_media": 22.3,
+    "umidade_media": 53.23,
+    "chuva_total": 0.0,
+    "semana_sin": -0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": -0.357
+  },
+  {
+    "sample_id": 140,
+    "casos_dengue": 29.0,
+    "temperatura_media": 19.17,
+    "umidade_media": 51.78,
+    "chuva_total": 0.9,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": -0.464723172043769,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 141,
+    "casos_dengue": 32.0,
+    "temperatura_media": 21.67,
+    "umidade_media": 54.68,
+    "chuva_total": 7.3,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": -0.354604887042536,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 142,
+    "casos_dengue": 35.0,
+    "temperatura_media": 24.11,
+    "umidade_media": 40.72,
+    "chuva_total": 0.0,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 143,
+    "casos_dengue": 39.0,
+    "temperatura_media": 24.63,
+    "umidade_media": 59.2,
+    "chuva_total": 22.8,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": -0.120536680255324,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 144,
+    "casos_dengue": 33.0,
+    "temperatura_media": 23.57,
+    "umidade_media": 48.62,
+    "chuva_total": 0.2,
+    "semana_sin": -1.0,
+    "semana_cos": -1.83697019872103e-16,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 145,
+    "casos_dengue": 36.0,
+    "temperatura_media": 21.34,
+    "umidade_media": 79.16,
+    "chuva_total": 79.5,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 146,
+    "casos_dengue": 23.0,
+    "temperatura_media": 21.47,
+    "umidade_media": 55.36,
+    "chuva_total": 2.7,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": 0.239315664287557,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 147,
+    "casos_dengue": 29.0,
+    "temperatura_media": 23.79,
+    "umidade_media": 63.03,
+    "chuva_total": 22.3,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 148,
+    "casos_dengue": 25.0,
+    "temperatura_media": 26.06,
+    "umidade_media": 58.25,
+    "chuva_total": 16.3,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": 0.464723172043768,
+    "ONI": -0.229
+  },
+  {
+    "sample_id": 149,
+    "casos_dengue": 28.0,
+    "temperatura_media": 24.72,
+    "umidade_media": 58.34,
+    "chuva_total": 25.1,
+    "semana_sin": -0.822983865893657,
+    "semana_cos": 0.568064746731155,
+    "ONI": -0.2
+  },
+  {
+    "sample_id": 150,
+    "casos_dengue": 31.0,
+    "temperatura_media": 22.17,
+    "umidade_media": 75.21,
+    "chuva_total": 88.2,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": -0.2
+  },
+  {
+    "sample_id": 151,
+    "casos_dengue": 36.0,
+    "temperatura_media": 26.45,
+    "umidade_media": 58.55,
+    "chuva_total": 69.9,
+    "semana_sin": -0.663122658240796,
+    "semana_cos": 0.748510748171101,
+    "ONI": -0.2
+  },
+  {
+    "sample_id": 152,
+    "casos_dengue": 32.0,
+    "temperatura_media": 24.79,
+    "umidade_media": 69.35,
+    "chuva_total": 28.7,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": -0.2
+  },
+  {
+    "sample_id": 153,
+    "casos_dengue": 37.0,
+    "temperatura_media": 24.34,
+    "umidade_media": 74.39,
+    "chuva_total": 36.2,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": -0.2
+  },
+  {
+    "sample_id": 154,
+    "casos_dengue": 37.0,
+    "temperatura_media": 25.66,
+    "umidade_media": 72.66,
+    "chuva_total": 73.60000000000001,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": -0.2
+  },
+  {
+    "sample_id": 155,
+    "casos_dengue": 51.0,
+    "temperatura_media": 24.94,
+    "umidade_media": 74.54,
+    "chuva_total": 92.875,
+    "semana_sin": -0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": -0.2
+  },
+  {
+    "sample_id": 156,
+    "casos_dengue": 54.0,
+    "temperatura_media": 25.27,
+    "umidade_media": 64.9,
+    "chuva_total": 11.4,
+    "semana_sin": -0.120536680255324,
+    "semana_cos": 0.992708874098054,
+    "ONI": -0.2
+  },
+  {
+    "sample_id": 157,
+    "casos_dengue": 27.0,
+    "temperatura_media": 25.49,
+    "umidade_media": 72.21,
+    "chuva_total": 77.2,
+    "semana_sin": 6.43249059870655e-16,
+    "semana_cos": 1.0,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 158,
+    "casos_dengue": 13.0,
+    "temperatura_media": 26.2,
+    "umidade_media": 72.66,
+    "chuva_total": 86.8,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": 0.992708874098054,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 159,
+    "casos_dengue": 27.0,
+    "temperatura_media": 27.05,
+    "umidade_media": 56.83,
+    "chuva_total": 1.0,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 160,
+    "casos_dengue": 36.0,
+    "temperatura_media": 25.22,
+    "umidade_media": 68.88,
+    "chuva_total": 15.8,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 161,
+    "casos_dengue": 53.0,
+    "temperatura_media": 25.71,
+    "umidade_media": 68.04,
+    "chuva_total": 49.1,
+    "semana_sin": 0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": -0.357
+  },
+  {
+    "sample_id": 162,
+    "casos_dengue": 42.0,
+    "temperatura_media": 27.22,
+    "umidade_media": 53.41,
+    "chuva_total": 0.0,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 163,
+    "casos_dengue": 42.0,
+    "temperatura_media": 28.22,
+    "umidade_media": 46.03,
+    "chuva_total": 9.5,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": 0.748510748171101,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 164,
+    "casos_dengue": 50.0,
+    "temperatura_media": 26.39,
+    "umidade_media": 59.37,
+    "chuva_total": 29.2,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 165,
+    "casos_dengue": 68.0,
+    "temperatura_media": 25.05,
+    "umidade_media": 66.94,
+    "chuva_total": 18.9,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": 0.568064746731156,
+    "ONI": -0.414
+  },
+  {
+    "sample_id": 166,
+    "casos_dengue": 63.0,
+    "temperatura_media": 25.24,
+    "umidade_media": 68.66,
+    "chuva_total": 50.7,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": 0.464723172043769,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 167,
+    "casos_dengue": 66.0,
+    "temperatura_media": 24.67,
+    "umidade_media": 72.78,
+    "chuva_total": 38.0,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 168,
+    "casos_dengue": 108.0,
+    "temperatura_media": 25.78,
+    "umidade_media": 66.23,
+    "chuva_total": 7.8,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": 0.239315664287558,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 169,
+    "casos_dengue": 89.0,
+    "temperatura_media": 25.74,
+    "umidade_media": 64.32,
+    "chuva_total": 23.1,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": -0.471
+  },
+  {
+    "sample_id": 170,
+    "casos_dengue": 100.0,
+    "temperatura_media": 24.48,
+    "umidade_media": 67.84,
+    "chuva_total": 11.9,
+    "semana_sin": 1.0,
+    "semana_cos": -1.60812264967664e-16,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 171,
+    "casos_dengue": 110.0,
+    "temperatura_media": 25.04,
+    "umidade_media": 71.49,
+    "chuva_total": 11.1,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": -0.120536680255323,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 172,
+    "casos_dengue": 135.0,
+    "temperatura_media": 25.68,
+    "umidade_media": 63.41,
+    "chuva_total": 13.4,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 173,
+    "casos_dengue": 121.0,
+    "temperatura_media": 23.47,
+    "umidade_media": 76.41,
+    "chuva_total": 48.9,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": -0.354604887042535,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 174,
+    "casos_dengue": 134.0,
+    "temperatura_media": 22.74,
+    "umidade_media": 72.43,
+    "chuva_total": 10.2,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": -0.464723172043768,
+    "ONI": -0.086
+  },
+  {
+    "sample_id": 175,
+    "casos_dengue": 127.0,
+    "temperatura_media": 20.48,
+    "umidade_media": 60.53,
+    "chuva_total": 0.0,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": 0.0
+  },
+  {
+    "sample_id": 176,
+    "casos_dengue": 152.0,
+    "temperatura_media": 22.12,
+    "umidade_media": 61.78,
+    "chuva_total": 0.0,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": 0.0
+  },
+  {
+    "sample_id": 177,
+    "casos_dengue": 131.0,
+    "temperatura_media": 20.55,
+    "umidade_media": 59.06,
+    "chuva_total": 0.0,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": 0.0
+  },
+  {
+    "sample_id": 178,
+    "casos_dengue": 125.0,
+    "temperatura_media": 21.89,
+    "umidade_media": 67.13,
+    "chuva_total": 2.7,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": 0.086
+  },
+  {
+    "sample_id": 179,
+    "casos_dengue": 93.0,
+    "temperatura_media": 19.19,
+    "umidade_media": 69.63,
+    "chuva_total": 0.0,
+    "semana_sin": 0.464723172043769,
+    "semana_cos": -0.88545602565321,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 180,
+    "casos_dengue": 94.0,
+    "temperatura_media": 20.11,
+    "umidade_media": 64.44,
+    "chuva_total": 2.0,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 181,
+    "casos_dengue": 104.0,
+    "temperatura_media": 22.07,
+    "umidade_media": 58.56,
+    "chuva_total": 0.0,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": -0.970941817426052,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 182,
+    "casos_dengue": 75.0,
+    "temperatura_media": 20.58,
+    "umidade_media": 61.31,
+    "chuva_total": 0.2,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 183,
+    "casos_dengue": 54.0,
+    "temperatura_media": 20.65,
+    "umidade_media": 58.48,
+    "chuva_total": 0.0,
+    "semana_sin": -3.21624529935327e-16,
+    "semana_cos": -1.0,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 184,
+    "casos_dengue": 57.0,
+    "temperatura_media": 20.77,
+    "umidade_media": 57.53,
+    "chuva_total": 0.0,
+    "semana_sin": -0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 185,
+    "casos_dengue": 49.0,
+    "temperatura_media": 20.43,
+    "umidade_media": 60.8,
+    "chuva_total": 8.3,
+    "semana_sin": -0.239315664287557,
+    "semana_cos": -0.970941817426052,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 186,
+    "casos_dengue": 49.0,
+    "temperatura_media": 20.13,
+    "umidade_media": 55.2,
+    "chuva_total": 0.2,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 187,
+    "casos_dengue": 35.0,
+    "temperatura_media": 18.64,
+    "umidade_media": 64.04,
+    "chuva_total": 17.8,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": -0.88545602565321,
+    "ONI": 0.057
+  },
+  {
+    "sample_id": 188,
+    "casos_dengue": 37.0,
+    "temperatura_media": 19.56,
+    "umidade_media": 66.51,
+    "chuva_total": 5.3,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": 0.0
+  },
+  {
+    "sample_id": 189,
+    "casos_dengue": 50.0,
+    "temperatura_media": 21.54,
+    "umidade_media": 51.83,
+    "chuva_total": 0.0,
+    "semana_sin": -0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": 0.0
+  },
+  {
+    "sample_id": 190,
+    "casos_dengue": 52.0,
+    "temperatura_media": 21.55,
+    "umidade_media": 48.39,
+    "chuva_total": 0.0,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": 0.0
+  },
+  {
+    "sample_id": 191,
+    "casos_dengue": 42.0,
+    "temperatura_media": 23.02,
+    "umidade_media": 45.14,
+    "chuva_total": 0.0,
+    "semana_sin": -0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": 0.029
+  },
+  {
+    "sample_id": 192,
+    "casos_dengue": 37.0,
+    "temperatura_media": 23.96,
+    "umidade_media": 40.37,
+    "chuva_total": 0.0,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": -0.464723172043769,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 193,
+    "casos_dengue": 47.0,
+    "temperatura_media": 23.63,
+    "umidade_media": 50.61,
+    "chuva_total": 13.7,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": -0.354604887042536,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 194,
+    "casos_dengue": 48.0,
+    "temperatura_media": 25.2,
+    "umidade_media": 36.23000000000002,
+    "chuva_total": 0.0,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 195,
+    "casos_dengue": 36.0,
+    "temperatura_media": 25.92,
+    "umidade_media": 46.32,
+    "chuva_total": 17.7,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": -0.120536680255324,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 196,
+    "casos_dengue": 33.0,
+    "temperatura_media": 23.75,
+    "umidade_media": 61.14,
+    "chuva_total": 22.5,
+    "semana_sin": -1.0,
+    "semana_cos": -1.83697019872103e-16,
+    "ONI": 0.186
+  },
+  {
+    "sample_id": 197,
+    "casos_dengue": 43.0,
+    "temperatura_media": 25.17,
+    "umidade_media": 52.33,
+    "chuva_total": 0.8,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 198,
+    "casos_dengue": 49.0,
+    "temperatura_media": 24.97,
+    "umidade_media": 36.23000000000002,
+    "chuva_total": 0.0,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": 0.239315664287557,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 199,
+    "casos_dengue": 38.0,
+    "temperatura_media": 30.79,
+    "umidade_media": 36.23000000000002,
+    "chuva_total": 0.0,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 200,
+    "casos_dengue": 50.0,
+    "temperatura_media": 25.95,
+    "umidade_media": 55.27,
+    "chuva_total": 65.0,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": 0.464723172043768,
+    "ONI": 0.371
+  },
+  {
+    "sample_id": 201,
+    "casos_dengue": 36.0,
+    "temperatura_media": 25.84,
+    "umidade_media": 53.58,
+    "chuva_total": 1.3,
+    "semana_sin": -0.822983865893657,
+    "semana_cos": 0.568064746731155,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 202,
+    "casos_dengue": 27.0,
+    "temperatura_media": 24.9,
+    "umidade_media": 70.81,
+    "chuva_total": 68.8,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 203,
+    "casos_dengue": 47.0,
+    "temperatura_media": 25.49,
+    "umidade_media": 58.77,
+    "chuva_total": 0.2,
+    "semana_sin": -0.663122658240796,
+    "semana_cos": 0.748510748171101,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 204,
+    "casos_dengue": 33.0,
+    "temperatura_media": 26.2,
+    "umidade_media": 48.58,
+    "chuva_total": 24.0,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": 0.514
+  },
+  {
+    "sample_id": 205,
+    "casos_dengue": 40.0,
+    "temperatura_media": 23.87,
+    "umidade_media": 80.26,
+    "chuva_total": 92.875,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": 0.6
+  },
+  {
+    "sample_id": 206,
+    "casos_dengue": 39.0,
+    "temperatura_media": 23.69,
+    "umidade_media": 71.61,
+    "chuva_total": 53.6,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": 0.6
+  },
+  {
+    "sample_id": 207,
+    "casos_dengue": 25.0,
+    "temperatura_media": 23.53,
+    "umidade_media": 75.24,
+    "chuva_total": 73.1,
+    "semana_sin": -0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": 0.6
+  },
+  {
+    "sample_id": 208,
+    "casos_dengue": 35.0,
+    "temperatura_media": 25.98,
+    "umidade_media": 63.61,
+    "chuva_total": 0.1,
+    "semana_sin": -0.120536680255324,
+    "semana_cos": 0.992708874098054,
+    "ONI": 0.6
+  },
+  {
+    "sample_id": 209,
+    "casos_dengue": 24.0,
+    "temperatura_media": 25.64,
+    "umidade_media": 70.44,
+    "chuva_total": 90.1,
+    "semana_sin": 6.43249059870655e-16,
+    "semana_cos": 1.0,
+    "ONI": 0.686
+  },
+  {
+    "sample_id": 210,
+    "casos_dengue": 16.0,
+    "temperatura_media": 27.66,
+    "umidade_media": 59.68,
+    "chuva_total": 8.6,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": 0.992708874098054,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 211,
+    "casos_dengue": 50.0,
+    "temperatura_media": 26.06,
+    "umidade_media": 65.37,
+    "chuva_total": 24.7,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": 0.992708874098054,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 212,
+    "casos_dengue": 40.0,
+    "temperatura_media": 28.76,
+    "umidade_media": 53.09,
+    "chuva_total": 30.7,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 213,
+    "casos_dengue": 44.0,
+    "temperatura_media": 27.4,
+    "umidade_media": 55.75,
+    "chuva_total": 51.4,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": 0.614
+  },
+  {
+    "sample_id": 214,
+    "casos_dengue": 86.0,
+    "temperatura_media": 25.72,
+    "umidade_media": 67.47,
+    "chuva_total": 18.0,
+    "semana_sin": 0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 215,
+    "casos_dengue": 97.0,
+    "temperatura_media": 24.73,
+    "umidade_media": 68.92,
+    "chuva_total": 32.2,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 216,
+    "casos_dengue": 131.0,
+    "temperatura_media": 25.13,
+    "umidade_media": 74.45,
+    "chuva_total": 77.0,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": 0.748510748171101,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 217,
+    "casos_dengue": 159.0,
+    "temperatura_media": 24.48,
+    "umidade_media": 74.29,
+    "chuva_total": 59.1,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 218,
+    "casos_dengue": 241.0,
+    "temperatura_media": 25.38,
+    "umidade_media": 68.34,
+    "chuva_total": 92.875,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": 0.568064746731156,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 219,
+    "casos_dengue": 293.0,
+    "temperatura_media": 25.34,
+    "umidade_media": 68.87,
+    "chuva_total": 18.9,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": 0.464723172043769,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 220,
+    "casos_dengue": 373.0,
+    "temperatura_media": 23.57,
+    "umidade_media": 79.06,
+    "chuva_total": 37.6,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 221,
+    "casos_dengue": 409.0,
+    "temperatura_media": 22.06,
+    "umidade_media": 83.05,
+    "chuva_total": 48.1,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": 0.239315664287558,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 222,
+    "casos_dengue": 330.0,
+    "temperatura_media": 23.89,
+    "umidade_media": 75.54,
+    "chuva_total": 29.9,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 223,
+    "casos_dengue": 410.0,
+    "temperatura_media": 24.02,
+    "umidade_media": 75.75,
+    "chuva_total": 31.5,
+    "semana_sin": 1.0,
+    "semana_cos": -1.60812264967664e-16,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 224,
+    "casos_dengue": 585.0,
+    "temperatura_media": 22.9,
+    "umidade_media": 71.54,
+    "chuva_total": 14.4,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": -0.120536680255323,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 225,
+    "casos_dengue": 573.0,
+    "temperatura_media": 24.38,
+    "umidade_media": 68.52,
+    "chuva_total": 1.7,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 226,
+    "casos_dengue": 542.0,
+    "temperatura_media": 25.07,
+    "umidade_media": 71.96,
+    "chuva_total": 9.0,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": -0.354604887042535,
+    "ONI": 0.614
+  },
+  {
+    "sample_id": 227,
+    "casos_dengue": 663.0,
+    "temperatura_media": 22.23,
+    "umidade_media": 62.38,
+    "chuva_total": 0.0,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": -0.464723172043768,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 228,
+    "casos_dengue": 527.0,
+    "temperatura_media": 21.48,
+    "umidade_media": 73.04,
+    "chuva_total": 41.0,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 229,
+    "casos_dengue": 533.0,
+    "temperatura_media": 19.91,
+    "umidade_media": 74.36,
+    "chuva_total": 31.4,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 230,
+    "casos_dengue": 499.0,
+    "temperatura_media": 20.65,
+    "umidade_media": 73.12,
+    "chuva_total": 4.8,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": 0.757
+  },
+  {
+    "sample_id": 231,
+    "casos_dengue": 384.0,
+    "temperatura_media": 20.86,
+    "umidade_media": 72.16,
+    "chuva_total": 2.0,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": 0.9
+  },
+  {
+    "sample_id": 232,
+    "casos_dengue": 293.0,
+    "temperatura_media": 20.22,
+    "umidade_media": 75.32,
+    "chuva_total": 14.8,
+    "semana_sin": 0.464723172043769,
+    "semana_cos": -0.88545602565321,
+    "ONI": 0.9
+  },
+  {
+    "sample_id": 233,
+    "casos_dengue": 257.0,
+    "temperatura_media": 21.36,
+    "umidade_media": 62.95,
+    "chuva_total": 0.0,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": 0.9
+  },
+  {
+    "sample_id": 234,
+    "casos_dengue": 250.0,
+    "temperatura_media": 21.1,
+    "umidade_media": 69.1,
+    "chuva_total": 1.7,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": -0.970941817426052,
+    "ONI": 0.9
+  },
+  {
+    "sample_id": 235,
+    "casos_dengue": 176.0,
+    "temperatura_media": 19.15,
+    "umidade_media": 63.62,
+    "chuva_total": 0.0,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": 1.157
+  },
+  {
+    "sample_id": 236,
+    "casos_dengue": 140.0,
+    "temperatura_media": 19.91,
+    "umidade_media": 66.52,
+    "chuva_total": 3.5,
+    "semana_sin": -3.21624529935327e-16,
+    "semana_cos": -1.0,
+    "ONI": 1.2
+  },
+  {
+    "sample_id": 237,
+    "casos_dengue": 117.0,
+    "temperatura_media": 18.99,
+    "umidade_media": 79.18,
+    "chuva_total": 7.9,
+    "semana_sin": -0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": 1.2
+  },
+  {
+    "sample_id": 238,
+    "casos_dengue": 113.0,
+    "temperatura_media": 22.38,
+    "umidade_media": 62.68,
+    "chuva_total": 0.0,
+    "semana_sin": -0.239315664287557,
+    "semana_cos": -0.970941817426052,
+    "ONI": 1.2
+  },
+  {
+    "sample_id": 239,
+    "casos_dengue": 111.0,
+    "temperatura_media": 21.15,
+    "umidade_media": 64.09,
+    "chuva_total": 0.2,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": 1.371
+  },
+  {
+    "sample_id": 240,
+    "casos_dengue": 107.0,
+    "temperatura_media": 20.71,
+    "umidade_media": 60.78,
+    "chuva_total": 1.3,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": -0.88545602565321,
+    "ONI": 1.5
+  },
+  {
+    "sample_id": 241,
+    "casos_dengue": 88.0,
+    "temperatura_media": 22.08,
+    "umidade_media": 49.69,
+    "chuva_total": 0.0,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": 1.5
+  },
+  {
+    "sample_id": 242,
+    "casos_dengue": 101.0,
+    "temperatura_media": 22.13,
+    "umidade_media": 49.84,
+    "chuva_total": 0.0,
+    "semana_sin": -0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": 1.5
+  },
+  {
+    "sample_id": 243,
+    "casos_dengue": 101.0,
+    "temperatura_media": 22.39,
+    "umidade_media": 49.06,
+    "chuva_total": 0.0,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": 1.557
+  },
+  {
+    "sample_id": 244,
+    "casos_dengue": 88.0,
+    "temperatura_media": 21.65,
+    "umidade_media": 60.72,
+    "chuva_total": 4.8,
+    "semana_sin": -0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": 1.9
+  },
+  {
+    "sample_id": 245,
+    "casos_dengue": 64.0,
+    "temperatura_media": 24.79,
+    "umidade_media": 49.86,
+    "chuva_total": 0.7,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": -0.464723172043769,
+    "ONI": 1.9
+  },
+  {
+    "sample_id": 246,
+    "casos_dengue": 60.0,
+    "temperatura_media": 21.0,
+    "umidade_media": 83.37,
+    "chuva_total": 83.5,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": -0.354604887042536,
+    "ONI": 1.9
+  },
+  {
+    "sample_id": 247,
+    "casos_dengue": 93.0,
+    "temperatura_media": 25.52,
+    "umidade_media": 56.49,
+    "chuva_total": 3.9,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": 1.9
+  },
+  {
+    "sample_id": 248,
+    "casos_dengue": 75.0,
+    "temperatura_media": 26.65,
+    "umidade_media": 44.62,
+    "chuva_total": 3.2,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": -0.120536680255324,
+    "ONI": 2.114
+  },
+  {
+    "sample_id": 249,
+    "casos_dengue": 95.0,
+    "temperatura_media": 24.93,
+    "umidade_media": 67.59,
+    "chuva_total": 6.300000000000001,
+    "semana_sin": -1.0,
+    "semana_cos": -1.83697019872103e-16,
+    "ONI": 2.2
+  },
+  {
+    "sample_id": 250,
+    "casos_dengue": 134.0,
+    "temperatura_media": 26.88,
+    "umidade_media": 54.31,
+    "chuva_total": 0.2,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": 2.2
+  },
+  {
+    "sample_id": 251,
+    "casos_dengue": 100.0,
+    "temperatura_media": 29.18,
+    "umidade_media": 42.54,
+    "chuva_total": 0.0,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": 0.239315664287557,
+    "ONI": 2.2
+  },
+  {
+    "sample_id": 252,
+    "casos_dengue": 102.0,
+    "temperatura_media": 28.15,
+    "umidade_media": 55.86,
+    "chuva_total": 27.1,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": 2.286
+  },
+  {
+    "sample_id": 253,
+    "casos_dengue": 88.0,
+    "temperatura_media": 25.12,
+    "umidade_media": 72.13,
+    "chuva_total": 78.2,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": 0.464723172043768,
+    "ONI": 2.4
+  },
+  {
+    "sample_id": 254,
+    "casos_dengue": 114.0,
+    "temperatura_media": 24.85,
+    "umidade_media": 79.54,
+    "chuva_total": 50.2,
+    "semana_sin": -0.822983865893657,
+    "semana_cos": 0.568064746731155,
+    "ONI": 2.4
+  },
+  {
+    "sample_id": 255,
+    "casos_dengue": 169.0,
+    "temperatura_media": 26.47,
+    "umidade_media": 67.89,
+    "chuva_total": 37.5,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": 2.4
+  },
+  {
+    "sample_id": 256,
+    "casos_dengue": 171.0,
+    "temperatura_media": 25.26,
+    "umidade_media": 76.38,
+    "chuva_total": 31.1,
+    "semana_sin": -0.663122658240796,
+    "semana_cos": 0.748510748171101,
+    "ONI": 2.4
+  },
+  {
+    "sample_id": 257,
+    "casos_dengue": 253.0,
+    "temperatura_media": 24.22,
+    "umidade_media": 78.58,
+    "chuva_total": 67.19999999999999,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": 2.6
+  },
+  {
+    "sample_id": 258,
+    "casos_dengue": 309.0,
+    "temperatura_media": 25.22,
+    "umidade_media": 80.4,
+    "chuva_total": 62.4,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": 2.6
+  },
+  {
+    "sample_id": 259,
+    "casos_dengue": 506.0,
+    "temperatura_media": 24.85,
+    "umidade_media": 80.28,
+    "chuva_total": 52.7,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": 2.6
+  },
+  {
+    "sample_id": 260,
+    "casos_dengue": 651.0,
+    "temperatura_media": 25.86,
+    "umidade_media": 71.06,
+    "chuva_total": 17.8,
+    "semana_sin": -0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": 2.6
+  },
+  {
+    "sample_id": 261,
+    "casos_dengue": 769.0,
+    "temperatura_media": 26.4,
+    "umidade_media": 70.78,
+    "chuva_total": 21.8,
+    "semana_sin": -0.120536680255324,
+    "semana_cos": 0.992708874098054,
+    "ONI": 2.6
+  },
+  {
+    "sample_id": 262,
+    "casos_dengue": 799.0,
+    "temperatura_media": 24.0,
+    "umidade_media": 83.35,
+    "chuva_total": 56.8,
+    "semana_sin": 6.43249059870655e-16,
+    "semana_cos": 1.0,
+    "ONI": 2.6
+  },
+  {
+    "sample_id": 263,
+    "casos_dengue": 2711.0,
+    "temperatura_media": 24.98,
+    "umidade_media": 81.45,
+    "chuva_total": 53.0,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": 0.992708874098054,
+    "ONI": 2.6
+  },
+  {
+    "sample_id": 264,
+    "casos_dengue": 3699.0,
+    "temperatura_media": 23.7,
+    "umidade_media": 90.8,
+    "chuva_total": 92.875,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": 2.6
+  },
+  {
+    "sample_id": 265,
+    "casos_dengue": 4125.0,
+    "temperatura_media": 25.08,
+    "umidade_media": 71.09,
+    "chuva_total": 16.5,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": 2.571
+  },
+  {
+    "sample_id": 266,
+    "casos_dengue": 4785.0,
+    "temperatura_media": 25.55,
+    "umidade_media": 77.29,
+    "chuva_total": 52.5,
+    "semana_sin": 0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": 2.5
+  },
+  {
+    "sample_id": 267,
+    "casos_dengue": 5151.0,
+    "temperatura_media": 27.18,
+    "umidade_media": 65.26,
+    "chuva_total": 2.3,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": 2.5
+  },
+  {
+    "sample_id": 268,
+    "casos_dengue": 6013.0,
+    "temperatura_media": 25.9,
+    "umidade_media": 76.25,
+    "chuva_total": 37.4,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": 0.748510748171101,
+    "ONI": 2.5
+  },
+  {
+    "sample_id": 269,
+    "casos_dengue": 5488.0,
+    "temperatura_media": 25.75,
+    "umidade_media": 78.74,
+    "chuva_total": 92.875,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": 2.5
+  },
+  {
+    "sample_id": 270,
+    "casos_dengue": 4384.0,
+    "temperatura_media": 24.57,
+    "umidade_media": 80.52,
+    "chuva_total": 47.2,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": 0.568064746731156,
+    "ONI": 2.157
+  },
+  {
+    "sample_id": 271,
+    "casos_dengue": 3612.0,
+    "temperatura_media": 24.31,
+    "umidade_media": 82.68,
+    "chuva_total": 75.5,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": 0.464723172043769,
+    "ONI": 2.1
+  },
+  {
+    "sample_id": 272,
+    "casos_dengue": 3085.0,
+    "temperatura_media": 25.35,
+    "umidade_media": 79.14,
+    "chuva_total": 71.1,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": 2.1
+  },
+  {
+    "sample_id": 273,
+    "casos_dengue": 2995.0,
+    "temperatura_media": 25.24,
+    "umidade_media": 75.7,
+    "chuva_total": 12.0,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": 0.239315664287558,
+    "ONI": 2.1
+  },
+  {
+    "sample_id": 274,
+    "casos_dengue": 2480.0,
+    "temperatura_media": 25.02,
+    "umidade_media": 75.24,
+    "chuva_total": 15.8,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": 1.743
+  },
+  {
+    "sample_id": 275,
+    "casos_dengue": 2158.0,
+    "temperatura_media": 25.89,
+    "umidade_media": 74.14,
+    "chuva_total": 7.4,
+    "semana_sin": 1.0,
+    "semana_cos": -1.60812264967664e-16,
+    "ONI": 1.6
+  },
+  {
+    "sample_id": 276,
+    "casos_dengue": 1696.0,
+    "temperatura_media": 26.24,
+    "umidade_media": 64.19,
+    "chuva_total": 0.0,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": -0.120536680255323,
+    "ONI": 1.6
+  },
+  {
+    "sample_id": 277,
+    "casos_dengue": 1406.0,
+    "temperatura_media": 26.63,
+    "umidade_media": 58.19,
+    "chuva_total": 0.0,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": 1.6
+  },
+  {
+    "sample_id": 278,
+    "casos_dengue": 1053.0,
+    "temperatura_media": 26.02,
+    "umidade_media": 56.79,
+    "chuva_total": 0.0,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": -0.354604887042535,
+    "ONI": 1.4
+  },
+  {
+    "sample_id": 279,
+    "casos_dengue": 683.0,
+    "temperatura_media": 20.68,
+    "umidade_media": 71.87,
+    "chuva_total": 2.9,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": -0.464723172043768,
+    "ONI": 0.9
+  },
+  {
+    "sample_id": 280,
+    "casos_dengue": 363.0,
+    "temperatura_media": 20.39,
+    "umidade_media": 59.64,
+    "chuva_total": 0.0,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": 0.9
+  },
+  {
+    "sample_id": 281,
+    "casos_dengue": 251.0,
+    "temperatura_media": 22.71,
+    "umidade_media": 68.55,
+    "chuva_total": 5.7,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": 0.9
+  },
+  {
+    "sample_id": 282,
+    "casos_dengue": 184.0,
+    "temperatura_media": 22.3,
+    "umidade_media": 79.13,
+    "chuva_total": 40.5,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": 0.9
+  },
+  {
+    "sample_id": 283,
+    "casos_dengue": 90.0,
+    "temperatura_media": 20.14,
+    "umidade_media": 72.68,
+    "chuva_total": 4.1,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": 0.4
+  },
+  {
+    "sample_id": 284,
+    "casos_dengue": 46.0,
+    "temperatura_media": 19.05,
+    "umidade_media": 91.47,
+    "chuva_total": 92.875,
+    "semana_sin": 0.464723172043769,
+    "semana_cos": -0.88545602565321,
+    "ONI": 0.4
+  },
+  {
+    "sample_id": 285,
+    "casos_dengue": 20.0,
+    "temperatura_media": 19.0,
+    "umidade_media": 79.04,
+    "chuva_total": 24.6,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": 0.4
+  },
+  {
+    "sample_id": 286,
+    "casos_dengue": 28.0,
+    "temperatura_media": 17.02,
+    "umidade_media": 67.59,
+    "chuva_total": 0.0,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": -0.970941817426052,
+    "ONI": 0.4
+  },
+  {
+    "sample_id": 287,
+    "casos_dengue": 30.0,
+    "temperatura_media": 19.71,
+    "umidade_media": 71.87,
+    "chuva_total": 0.0,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": 0.114
+  },
+  {
+    "sample_id": 288,
+    "casos_dengue": 27.0,
+    "temperatura_media": 19.61,
+    "umidade_media": 63.72,
+    "chuva_total": 0.0,
+    "semana_sin": -3.21624529935327e-16,
+    "semana_cos": -1.0,
+    "ONI": -0.1
+  },
+  {
+    "sample_id": 289,
+    "casos_dengue": 27.0,
+    "temperatura_media": 20.08,
+    "umidade_media": 58.33,
+    "chuva_total": 0.0,
+    "semana_sin": -0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": -0.1
+  },
+  {
+    "sample_id": 290,
+    "casos_dengue": 21.0,
+    "temperatura_media": 21.4,
+    "umidade_media": 59.82,
+    "chuva_total": 0.0,
+    "semana_sin": -0.239315664287557,
+    "semana_cos": -0.970941817426052,
+    "ONI": -0.1
+  },
+  {
+    "sample_id": 291,
+    "casos_dengue": 16.0,
+    "temperatura_media": 17.08,
+    "umidade_media": 59.7,
+    "chuva_total": 0.0,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": -0.186
+  },
+  {
+    "sample_id": 292,
+    "casos_dengue": 15.0,
+    "temperatura_media": 21.79,
+    "umidade_media": 55.22,
+    "chuva_total": 0.0,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": -0.88545602565321,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 293,
+    "casos_dengue": 19.0,
+    "temperatura_media": 21.85,
+    "umidade_media": 53.29,
+    "chuva_total": 0.0,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 294,
+    "casos_dengue": 26.0,
+    "temperatura_media": 20.12,
+    "umidade_media": 57.71,
+    "chuva_total": 2.3,
+    "semana_sin": -0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 295,
+    "casos_dengue": 29.0,
+    "temperatura_media": 22.77,
+    "umidade_media": 62.48,
+    "chuva_total": 24.7,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 296,
+    "casos_dengue": 23.0,
+    "temperatura_media": 20.1,
+    "umidade_media": 63.74,
+    "chuva_total": 18.6,
+    "semana_sin": -0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": -0.486
+  },
+  {
+    "sample_id": 297,
+    "casos_dengue": 22.0,
+    "temperatura_media": 23.19,
+    "umidade_media": 61.24,
+    "chuva_total": 8.3,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": -0.464723172043769,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 298,
+    "casos_dengue": 29.0,
+    "temperatura_media": 21.98,
+    "umidade_media": 64.71,
+    "chuva_total": 6.100000000000001,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": -0.354604887042536,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 299,
+    "casos_dengue": 23.0,
+    "temperatura_media": 25.92,
+    "umidade_media": 43.31,
+    "chuva_total": 0.0,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 300,
+    "casos_dengue": 28.0,
+    "temperatura_media": 24.22,
+    "umidade_media": 51.92,
+    "chuva_total": 1.2,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": -0.120536680255324,
+    "ONI": -0.543
+  },
+  {
+    "sample_id": 301,
+    "casos_dengue": 35.0,
+    "temperatura_media": 23.69,
+    "umidade_media": 48.47,
+    "chuva_total": 0.0,
+    "semana_sin": -1.0,
+    "semana_cos": -1.83697019872103e-16,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 302,
+    "casos_dengue": 20.0,
+    "temperatura_media": 22.71,
+    "umidade_media": 60.67,
+    "chuva_total": 5.8,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 303,
+    "casos_dengue": 45.0,
+    "temperatura_media": 24.8,
+    "umidade_media": 64.85,
+    "chuva_total": 50.6,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": 0.239315664287557,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 304,
+    "casos_dengue": 54.0,
+    "temperatura_media": 26.99,
+    "umidade_media": 65.84,
+    "chuva_total": 41.6,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": -0.614
+  },
+  {
+    "sample_id": 305,
+    "casos_dengue": 60.0,
+    "temperatura_media": 24.45,
+    "umidade_media": 69.05,
+    "chuva_total": 16.2,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": 0.464723172043768,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 306,
+    "casos_dengue": 64.0,
+    "temperatura_media": 23.96,
+    "umidade_media": 72.62,
+    "chuva_total": 43.3,
+    "semana_sin": -0.822983865893657,
+    "semana_cos": 0.568064746731155,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 307,
+    "casos_dengue": 69.0,
+    "temperatura_media": 24.71,
+    "umidade_media": 69.07,
+    "chuva_total": 61.0,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 308,
+    "casos_dengue": 60.0,
+    "temperatura_media": 22.99,
+    "umidade_media": 75.14,
+    "chuva_total": 51.4,
+    "semana_sin": -0.663122658240796,
+    "semana_cos": 0.748510748171101,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 309,
+    "casos_dengue": 52.0,
+    "temperatura_media": 24.81,
+    "umidade_media": 65.63,
+    "chuva_total": 28.1,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 310,
+    "casos_dengue": 54.0,
+    "temperatura_media": 25.29,
+    "umidade_media": 73.83,
+    "chuva_total": 47.2,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 311,
+    "casos_dengue": 52.0,
+    "temperatura_media": 24.93,
+    "umidade_media": 77.72,
+    "chuva_total": 70.7,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 312,
+    "casos_dengue": 61.0,
+    "temperatura_media": 24.39,
+    "umidade_media": 78.43,
+    "chuva_total": 35.6,
+    "semana_sin": -0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 313,
+    "casos_dengue": 61.0,
+    "temperatura_media": 24.69,
+    "umidade_media": 71.93,
+    "chuva_total": 71.0,
+    "semana_sin": -0.120536680255324,
+    "semana_cos": 0.992708874098054,
+    "ONI": -0.657
+  },
+  {
+    "sample_id": 314,
+    "casos_dengue": 541.0,
+    "temperatura_media": 26.84,
+    "umidade_media": 66.3,
+    "chuva_total": 16.1,
+    "semana_sin": 6.43249059870655e-16,
+    "semana_cos": 1.0,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 315,
+    "casos_dengue": 59.0,
+    "temperatura_media": 26.61,
+    "umidade_media": 68.95,
+    "chuva_total": 21.7,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": 0.992708874098054,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 316,
+    "casos_dengue": 82.0,
+    "temperatura_media": 24.64,
+    "umidade_media": 79.97,
+    "chuva_total": 39.7,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 317,
+    "casos_dengue": 90.0,
+    "temperatura_media": 23.55,
+    "umidade_media": 84.85,
+    "chuva_total": 92.875,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 318,
+    "casos_dengue": 106.0,
+    "temperatura_media": 23.61,
+    "umidade_media": 83.32,
+    "chuva_total": 78.1,
+    "semana_sin": 0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 319,
+    "casos_dengue": 96.0,
+    "temperatura_media": 24.99,
+    "umidade_media": 73.95,
+    "chuva_total": 56.8,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 320,
+    "casos_dengue": 123.0,
+    "temperatura_media": 26.4,
+    "umidade_media": 69.48,
+    "chuva_total": 14.7,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": 0.748510748171101,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 321,
+    "casos_dengue": 105.0,
+    "temperatura_media": 26.69,
+    "umidade_media": 63.68,
+    "chuva_total": 18.0,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 322,
+    "casos_dengue": 96.0,
+    "temperatura_media": 26.0,
+    "umidade_media": 66.65,
+    "chuva_total": 23.4,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": 0.568064746731156,
+    "ONI": -0.243
+  },
+  {
+    "sample_id": 323,
+    "casos_dengue": 99.0,
+    "temperatura_media": 24.75,
+    "umidade_media": 78.6,
+    "chuva_total": 67.1,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": 0.464723172043769,
+    "ONI": -0.2
+  },
+  {
+    "sample_id": 324,
+    "casos_dengue": 89.0,
+    "temperatura_media": 26.02,
+    "umidade_media": 75.85,
+    "chuva_total": 24.1,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": -0.2
+  },
+  {
+    "sample_id": 325,
+    "casos_dengue": 59.0,
+    "temperatura_media": 25.74,
+    "umidade_media": 69.72,
+    "chuva_total": 58.2,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": 0.239315664287558,
+    "ONI": -0.2
+  },
+  {
+    "sample_id": 326,
+    "casos_dengue": 82.0,
+    "temperatura_media": 24.0,
+    "umidade_media": 69.87,
+    "chuva_total": 0.7,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": -0.029
+  },
+  {
+    "sample_id": 327,
+    "casos_dengue": 64.0,
+    "temperatura_media": 23.2,
+    "umidade_media": 67.03,
+    "chuva_total": 8.899999999999999,
+    "semana_sin": 1.0,
+    "semana_cos": -1.60812264967664e-16,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 328,
+    "casos_dengue": 38.0,
+    "temperatura_media": 23.93,
+    "umidade_media": 70.99,
+    "chuva_total": 29.5,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": -0.120536680255323,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 329,
+    "casos_dengue": 32.0,
+    "temperatura_media": 25.37,
+    "umidade_media": 70.99,
+    "chuva_total": 0.2,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 330,
+    "casos_dengue": 44.0,
+    "temperatura_media": 23.4,
+    "umidade_media": 72.68,
+    "chuva_total": 28.8,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": -0.354604887042535,
+    "ONI": 0.114
+  },
+  {
+    "sample_id": 331,
+    "casos_dengue": 41.0,
+    "temperatura_media": 22.35,
+    "umidade_media": 78.28,
+    "chuva_total": 12.6,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": -0.464723172043768,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 332,
+    "casos_dengue": 46.0,
+    "temperatura_media": 21.98,
+    "umidade_media": 73.72,
+    "chuva_total": 4.699999999999999,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 333,
+    "casos_dengue": 49.0,
+    "temperatura_media": 21.38,
+    "umidade_media": 68.16,
+    "chuva_total": 0.0,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 334,
+    "casos_dengue": 47.0,
+    "temperatura_media": 21.38,
+    "umidade_media": 83.25,
+    "chuva_total": 58.0,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 335,
+    "casos_dengue": 35.0,
+    "temperatura_media": 22.64,
+    "umidade_media": 78.54,
+    "chuva_total": 49.3,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": 0.286
+  },
+  {
+    "sample_id": 336,
+    "casos_dengue": 25.0,
+    "temperatura_media": 20.0,
+    "umidade_media": 74.57,
+    "chuva_total": 0.0,
+    "semana_sin": 0.464723172043769,
+    "semana_cos": -0.88545602565321,
+    "ONI": 0.3
+  },
+  {
+    "sample_id": 337,
+    "casos_dengue": 32.0,
+    "temperatura_media": 21.64,
+    "umidade_media": 71.23,
+    "chuva_total": 1.8,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": 0.3
+  },
+  {
+    "sample_id": 338,
+    "casos_dengue": 20.0,
+    "temperatura_media": 18.63,
+    "umidade_media": 73.31,
+    "chuva_total": 1.1,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": -0.970941817426052,
+    "ONI": 0.3
+  },
+  {
+    "sample_id": 339,
+    "casos_dengue": 20.0,
+    "temperatura_media": 19.95,
+    "umidade_media": 64.55,
+    "chuva_total": 0.0,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": 0.3
+  },
+  {
+    "sample_id": 340,
+    "casos_dengue": 11.0,
+    "temperatura_media": 19.64,
+    "umidade_media": 63.83,
+    "chuva_total": 0.0,
+    "semana_sin": -3.21624529935327e-16,
+    "semana_cos": -1.0,
+    "ONI": 0.3
+  },
+  {
+    "sample_id": 341,
+    "casos_dengue": 16.0,
+    "temperatura_media": 17.1,
+    "umidade_media": 61.43,
+    "chuva_total": 0.0,
+    "semana_sin": -0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": 0.3
+  },
+  {
+    "sample_id": 342,
+    "casos_dengue": 14.0,
+    "temperatura_media": 19.76,
+    "umidade_media": 58.73,
+    "chuva_total": 0.0,
+    "semana_sin": -0.239315664287557,
+    "semana_cos": -0.970941817426052,
+    "ONI": 0.3
+  },
+  {
+    "sample_id": 343,
+    "casos_dengue": 12.0,
+    "temperatura_media": 18.56,
+    "umidade_media": 61.56,
+    "chuva_total": 0.0,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": 0.271
+  },
+  {
+    "sample_id": 344,
+    "casos_dengue": 10.0,
+    "temperatura_media": 19.37,
+    "umidade_media": 53.66,
+    "chuva_total": 0.0,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": -0.88545602565321,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 345,
+    "casos_dengue": 16.0,
+    "temperatura_media": 18.61,
+    "umidade_media": 57.02,
+    "chuva_total": 0.0,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 346,
+    "casos_dengue": 24.0,
+    "temperatura_media": 22.43,
+    "umidade_media": 50.22,
+    "chuva_total": 0.0,
+    "semana_sin": -0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 347,
+    "casos_dengue": 26.0,
+    "temperatura_media": 21.68,
+    "umidade_media": 71.15,
+    "chuva_total": 7.5,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 348,
+    "casos_dengue": 23.0,
+    "temperatura_media": 21.82,
+    "umidade_media": 59.38,
+    "chuva_total": 7.2,
+    "semana_sin": -0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": -0.043
+  },
+  {
+    "sample_id": 349,
+    "casos_dengue": 30.0,
+    "temperatura_media": 23.62,
+    "umidade_media": 43.52,
+    "chuva_total": 0.0,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": -0.464723172043769,
+    "ONI": -0.1
+  },
+  {
+    "sample_id": 350,
+    "casos_dengue": 37.0,
+    "temperatura_media": 23.75,
+    "umidade_media": 36.23000000000002,
+    "chuva_total": 0.0,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": -0.354604887042536,
+    "ONI": -0.1
+  },
+  {
+    "sample_id": 351,
+    "casos_dengue": 49.0,
+    "temperatura_media": 26.49,
+    "umidade_media": 36.23000000000002,
+    "chuva_total": 0.0,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": -0.1
+  },
+  {
+    "sample_id": 352,
+    "casos_dengue": 74.0,
+    "temperatura_media": 25.79,
+    "umidade_media": 36.23000000000002,
+    "chuva_total": 0.0,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": -0.120536680255324,
+    "ONI": -0.186
+  },
+  {
+    "sample_id": 353,
+    "casos_dengue": 85.0,
+    "temperatura_media": 24.84,
+    "umidade_media": 50.09,
+    "chuva_total": 30.7,
+    "semana_sin": -1.0,
+    "semana_cos": -1.83697019872103e-16,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 354,
+    "casos_dengue": 81.0,
+    "temperatura_media": 23.66,
+    "umidade_media": 64.91,
+    "chuva_total": 6.899999999999999,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 355,
+    "casos_dengue": 67.0,
+    "temperatura_media": 28.69,
+    "umidade_media": 43.04,
+    "chuva_total": 0.3,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": 0.239315664287557,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 356,
+    "casos_dengue": 50.0,
+    "temperatura_media": 28.02,
+    "umidade_media": 43.48,
+    "chuva_total": 0.0,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 357,
+    "casos_dengue": 67.0,
+    "temperatura_media": 24.51,
+    "umidade_media": 68.11,
+    "chuva_total": 38.3,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": 0.464723172043768,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 358,
+    "casos_dengue": 53.0,
+    "temperatura_media": 24.72,
+    "umidade_media": 66.32,
+    "chuva_total": 21.3,
+    "semana_sin": -0.822983865893657,
+    "semana_cos": 0.568064746731155,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 359,
+    "casos_dengue": 52.0,
+    "temperatura_media": 24.33,
+    "umidade_media": 71.74,
+    "chuva_total": 28.1,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 360,
+    "casos_dengue": 44.0,
+    "temperatura_media": 24.92,
+    "umidade_media": 60.09,
+    "chuva_total": 10.1,
+    "semana_sin": -0.663122658240796,
+    "semana_cos": 0.748510748171101,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 361,
+    "casos_dengue": 42.0,
+    "temperatura_media": 24.62,
+    "umidade_media": 75.84,
+    "chuva_total": 69.4,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": -0.757
+  },
+  {
+    "sample_id": 362,
+    "casos_dengue": 41.0,
+    "temperatura_media": 22.91,
+    "umidade_media": 79.91,
+    "chuva_total": 72.0,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": -0.8
+  },
+  {
+    "sample_id": 363,
+    "casos_dengue": 48.0,
+    "temperatura_media": 25.52,
+    "umidade_media": 75.84,
+    "chuva_total": 35.7,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": -0.8
+  },
+  {
+    "sample_id": 364,
+    "casos_dengue": 37.0,
+    "temperatura_media": 26.06,
+    "umidade_media": 63.17,
+    "chuva_total": 2.7,
+    "semana_sin": -0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": -0.8
+  },
+  {
+    "sample_id": 365,
+    "casos_dengue": 32.0,
+    "temperatura_media": 25.33,
+    "umidade_media": 69.17,
+    "chuva_total": 7.2,
+    "semana_sin": -0.120536680255324,
+    "semana_cos": 0.992708874098054,
+    "ONI": -0.857
+  },
+  {
+    "sample_id": 366,
+    "casos_dengue": 17.0,
+    "temperatura_media": 25.56,
+    "umidade_media": 71.84,
+    "chuva_total": 22.3,
+    "semana_sin": 6.43249059870655e-16,
+    "semana_cos": 1.0,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 367,
+    "casos_dengue": 39.0,
+    "temperatura_media": 23.41,
+    "umidade_media": 85.23,
+    "chuva_total": 36.1,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": 0.992708874098054,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 368,
+    "casos_dengue": 45.0,
+    "temperatura_media": 23.27,
+    "umidade_media": 81.67,
+    "chuva_total": 68.89999999999999,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 369,
+    "casos_dengue": 47.0,
+    "temperatura_media": 26.06,
+    "umidade_media": 68.17,
+    "chuva_total": 9.2,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 370,
+    "casos_dengue": 55.0,
+    "temperatura_media": 26.7,
+    "umidade_media": 65.58,
+    "chuva_total": 2.3,
+    "semana_sin": 0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": -0.914
+  },
+  {
+    "sample_id": 371,
+    "casos_dengue": 46.0,
+    "temperatura_media": 24.78,
+    "umidade_media": 74.88,
+    "chuva_total": 43.2,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 372,
+    "casos_dengue": 45.0,
+    "temperatura_media": 24.23,
+    "umidade_media": 72.81,
+    "chuva_total": 26.8,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": 0.748510748171101,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 373,
+    "casos_dengue": 60.0,
+    "temperatura_media": 24.9,
+    "umidade_media": 74.94,
+    "chuva_total": 79.9,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 374,
+    "casos_dengue": 47.0,
+    "temperatura_media": 24.64,
+    "umidade_media": 76.87,
+    "chuva_total": 71.3,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": 0.568064746731156,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 375,
+    "casos_dengue": 47.0,
+    "temperatura_media": 24.72,
+    "umidade_media": 79.04,
+    "chuva_total": 43.4,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": 0.464723172043769,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 376,
+    "casos_dengue": 41.0,
+    "temperatura_media": 26.2,
+    "umidade_media": 74.03,
+    "chuva_total": 24.9,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 377,
+    "casos_dengue": 42.0,
+    "temperatura_media": 26.95,
+    "umidade_media": 69.78,
+    "chuva_total": 4.2,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": 0.239315664287558,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 378,
+    "casos_dengue": 43.0,
+    "temperatura_media": 25.83,
+    "umidade_media": 73.68,
+    "chuva_total": 53.3,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": -0.814
+  },
+  {
+    "sample_id": 379,
+    "casos_dengue": 35.0,
+    "temperatura_media": 25.15,
+    "umidade_media": 67.55,
+    "chuva_total": 4.600000000000001,
+    "semana_sin": 1.0,
+    "semana_cos": -1.60812264967664e-16,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 380,
+    "casos_dengue": 35.0,
+    "temperatura_media": 24.36,
+    "umidade_media": 79.28,
+    "chuva_total": 22.5,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": -0.120536680255323,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 381,
+    "casos_dengue": 37.0,
+    "temperatura_media": 24.28,
+    "umidade_media": 66.9,
+    "chuva_total": 0.0,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 382,
+    "casos_dengue": 28.0,
+    "temperatura_media": 22.35,
+    "umidade_media": 63.35,
+    "chuva_total": 0.0,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": -0.354604887042535,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 383,
+    "casos_dengue": 27.0,
+    "temperatura_media": 23.08,
+    "umidade_media": 62.45,
+    "chuva_total": 0.0,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": -0.464723172043768,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 384,
+    "casos_dengue": 30.0,
+    "temperatura_media": 23.68,
+    "umidade_media": 57.65,
+    "chuva_total": 0.0,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 385,
+    "casos_dengue": 30.0,
+    "temperatura_media": 22.96,
+    "umidade_media": 61.98,
+    "chuva_total": 0.2,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 386,
+    "casos_dengue": 32.0,
+    "temperatura_media": 22.26,
+    "umidade_media": 73.31,
+    "chuva_total": 13.0,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 387,
+    "casos_dengue": 26.0,
+    "temperatura_media": 17.33,
+    "umidade_media": 65.6,
+    "chuva_total": 0.0,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": -0.286
+  },
+  {
+    "sample_id": 388,
+    "casos_dengue": 24.0,
+    "temperatura_media": 19.42,
+    "umidade_media": 58.78,
+    "chuva_total": 0.0,
+    "semana_sin": 0.464723172043769,
+    "semana_cos": -0.88545602565321,
+    "ONI": -0.2
+  },
+  {
+    "sample_id": 389,
+    "casos_dengue": 13.0,
+    "temperatura_media": 20.7,
+    "umidade_media": 71.34,
+    "chuva_total": 2.8,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": -0.2
+  },
+  {
+    "sample_id": 390,
+    "casos_dengue": 23.0,
+    "temperatura_media": 22.83,
+    "umidade_media": 68.67,
+    "chuva_total": 0.0,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": -0.970941817426052,
+    "ONI": -0.2
+  },
+  {
+    "sample_id": 391,
+    "casos_dengue": 17.0,
+    "temperatura_media": 20.95,
+    "umidade_media": 62.57,
+    "chuva_total": 0.0,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": -0.143
+  },
+  {
+    "sample_id": 392,
+    "casos_dengue": 14.0,
+    "temperatura_media": 21.51,
+    "umidade_media": 52.85,
+    "chuva_total": 0.0,
+    "semana_sin": -3.21624529935327e-16,
+    "semana_cos": -1.0,
+    "ONI": 0.0
+  },
+  {
+    "sample_id": 393,
+    "casos_dengue": 9.0,
+    "temperatura_media": 21.18,
+    "umidade_media": 55.48,
+    "chuva_total": 0.0,
+    "semana_sin": -0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": 0.0
+  },
+  {
+    "sample_id": 394,
+    "casos_dengue": 19.0,
+    "temperatura_media": 17.55,
+    "umidade_media": 60.18,
+    "chuva_total": 3.1,
+    "semana_sin": -0.239315664287557,
+    "semana_cos": -0.970941817426052,
+    "ONI": 0.0
+  },
+  {
+    "sample_id": 395,
+    "casos_dengue": 19.0,
+    "temperatura_media": 21.39,
+    "umidade_media": 52.72,
+    "chuva_total": 0.0,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": 0.0
+  },
+  {
+    "sample_id": 396,
+    "casos_dengue": 9.0,
+    "temperatura_media": 21.15,
+    "umidade_media": 51.13,
+    "chuva_total": 0.0,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": -0.88545602565321,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 397,
+    "casos_dengue": 13.0,
+    "temperatura_media": 20.83,
+    "umidade_media": 64.96,
+    "chuva_total": 14.0,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 398,
+    "casos_dengue": 16.0,
+    "temperatura_media": 19.64,
+    "umidade_media": 66.48,
+    "chuva_total": 1.9,
+    "semana_sin": -0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 399,
+    "casos_dengue": 13.0,
+    "temperatura_media": 20.15,
+    "umidade_media": 55.04,
+    "chuva_total": 1.3,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 400,
+    "casos_dengue": 9.0,
+    "temperatura_media": 23.28,
+    "umidade_media": 49.2,
+    "chuva_total": 4.4,
+    "semana_sin": -0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": 0.157
+  },
+  {
+    "sample_id": 401,
+    "casos_dengue": 20.0,
+    "temperatura_media": 23.6,
+    "umidade_media": 51.59,
+    "chuva_total": 0.0,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": -0.464723172043769,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 402,
+    "casos_dengue": 6.0,
+    "temperatura_media": 21.26,
+    "umidade_media": 52.04,
+    "chuva_total": 0.4,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": -0.354604887042536,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 403,
+    "casos_dengue": 10.0,
+    "temperatura_media": 23.58,
+    "umidade_media": 51.61,
+    "chuva_total": 18.9,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 404,
+    "casos_dengue": 13.0,
+    "temperatura_media": 22.57,
+    "umidade_media": 74.5,
+    "chuva_total": 52.3,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": -0.120536680255324,
+    "ONI": 0.243
+  },
+  {
+    "sample_id": 405,
+    "casos_dengue": 12.0,
+    "temperatura_media": 26.85,
+    "umidade_media": 53.06,
+    "chuva_total": 1.3,
+    "semana_sin": -1.0,
+    "semana_cos": -1.83697019872103e-16,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 406,
+    "casos_dengue": 23.0,
+    "temperatura_media": 24.97,
+    "umidade_media": 68.95,
+    "chuva_total": 92.875,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 407,
+    "casos_dengue": 22.0,
+    "temperatura_media": 25.17,
+    "umidade_media": 73.26,
+    "chuva_total": 31.2,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": 0.239315664287557,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 408,
+    "casos_dengue": 30.0,
+    "temperatura_media": 24.9,
+    "umidade_media": 74.08,
+    "chuva_total": 92.875,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 409,
+    "casos_dengue": 20.0,
+    "temperatura_media": 23.85,
+    "umidade_media": 73.38,
+    "chuva_total": 88.5,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": 0.464723172043768,
+    "ONI": 0.757
+  },
+  {
+    "sample_id": 410,
+    "casos_dengue": 23.0,
+    "temperatura_media": 25.67,
+    "umidade_media": 65.0,
+    "chuva_total": 23.7,
+    "semana_sin": -0.822983865893657,
+    "semana_cos": 0.568064746731155,
+    "ONI": 0.8
+  },
+  {
+    "sample_id": 411,
+    "casos_dengue": 25.0,
+    "temperatura_media": 22.21,
+    "umidade_media": 81.93,
+    "chuva_total": 67.10000000000001,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": 0.8
+  },
+  {
+    "sample_id": 412,
+    "casos_dengue": 22.0,
+    "temperatura_media": 26.06,
+    "umidade_media": 69.24,
+    "chuva_total": 19.0,
+    "semana_sin": -0.663122658240796,
+    "semana_cos": 0.748510748171101,
+    "ONI": 0.8
+  },
+  {
+    "sample_id": 413,
+    "casos_dengue": 30.0,
+    "temperatura_media": 22.99,
+    "umidade_media": 82.02,
+    "chuva_total": 85.2,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": 0.843
+  },
+  {
+    "sample_id": 414,
+    "casos_dengue": 47.0,
+    "temperatura_media": 24.49,
+    "umidade_media": 71.65,
+    "chuva_total": 20.7,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": 0.9
+  },
+  {
+    "sample_id": 415,
+    "casos_dengue": 65.0,
+    "temperatura_media": 26.05,
+    "umidade_media": 64.1,
+    "chuva_total": 0.2,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": 0.9
+  },
+  {
+    "sample_id": 416,
+    "casos_dengue": 52.0,
+    "temperatura_media": 26.1,
+    "umidade_media": 56.09,
+    "chuva_total": 0.0,
+    "semana_sin": -0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": 0.9
+  },
+  {
+    "sample_id": 417,
+    "casos_dengue": 58.0,
+    "temperatura_media": 27.57,
+    "umidade_media": 62.81,
+    "chuva_total": 38.8,
+    "semana_sin": -0.120536680255324,
+    "semana_cos": 0.992708874098054,
+    "ONI": 0.886
+  },
+  {
+    "sample_id": 418,
+    "casos_dengue": 58.0,
+    "temperatura_media": 24.54,
+    "umidade_media": 78.88,
+    "chuva_total": 62.0,
+    "semana_sin": 6.43249059870655e-16,
+    "semana_cos": 1.0,
+    "ONI": 0.8
+  },
+  {
+    "sample_id": 419,
+    "casos_dengue": 169.0,
+    "temperatura_media": 25.26,
+    "umidade_media": 77.93,
+    "chuva_total": 75.9,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": 0.992708874098054,
+    "ONI": 0.8
+  },
+  {
+    "sample_id": 420,
+    "casos_dengue": 78.0,
+    "temperatura_media": 26.8,
+    "umidade_media": 64.99,
+    "chuva_total": 22.2,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": 0.8
+  },
+  {
+    "sample_id": 421,
+    "casos_dengue": 128.0,
+    "temperatura_media": 26.91,
+    "umidade_media": 66.33,
+    "chuva_total": 16.3,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": 0.8
+  },
+  {
+    "sample_id": 422,
+    "casos_dengue": 213.0,
+    "temperatura_media": 26.8,
+    "umidade_media": 67.72,
+    "chuva_total": 37.3,
+    "semana_sin": 0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": 0.729
+  },
+  {
+    "sample_id": 423,
+    "casos_dengue": 352.0,
+    "temperatura_media": 27.38,
+    "umidade_media": 60.07,
+    "chuva_total": 6.0,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 424,
+    "casos_dengue": 502.0,
+    "temperatura_media": 25.95,
+    "umidade_media": 65.39,
+    "chuva_total": 8.2,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": 0.748510748171101,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 425,
+    "casos_dengue": 464.0,
+    "temperatura_media": 24.78,
+    "umidade_media": 78.25,
+    "chuva_total": 92.875,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 426,
+    "casos_dengue": 568.0,
+    "temperatura_media": 24.04,
+    "umidade_media": 82.25,
+    "chuva_total": 46.7,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": 0.568064746731156,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 427,
+    "casos_dengue": 615.0,
+    "temperatura_media": 24.61,
+    "umidade_media": 79.37,
+    "chuva_total": 92.875,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": 0.464723172043769,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 428,
+    "casos_dengue": 652.0,
+    "temperatura_media": 24.26,
+    "umidade_media": 79.91,
+    "chuva_total": 14.7,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 429,
+    "casos_dengue": 705.0,
+    "temperatura_media": 24.58,
+    "umidade_media": 80.09,
+    "chuva_total": 65.6,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": 0.239315664287558,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 430,
+    "casos_dengue": 904.0,
+    "temperatura_media": 24.78,
+    "umidade_media": 77.45,
+    "chuva_total": 22.0,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 431,
+    "casos_dengue": 1026.0,
+    "temperatura_media": 25.34,
+    "umidade_media": 65.57,
+    "chuva_total": 0.0,
+    "semana_sin": 1.0,
+    "semana_cos": -1.60812264967664e-16,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 432,
+    "casos_dengue": 1142.0,
+    "temperatura_media": 25.72,
+    "umidade_media": 64.76,
+    "chuva_total": 2.3,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": -0.120536680255323,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 433,
+    "casos_dengue": 1309.0,
+    "temperatura_media": 24.1,
+    "umidade_media": 77.73,
+    "chuva_total": 85.6,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 434,
+    "casos_dengue": 1401.0,
+    "temperatura_media": 23.25,
+    "umidade_media": 77.02,
+    "chuva_total": 52.8,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": -0.354604887042535,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 435,
+    "casos_dengue": 1728.0,
+    "temperatura_media": 24.48,
+    "umidade_media": 69.0,
+    "chuva_total": 0.7,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": -0.464723172043768,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 436,
+    "casos_dengue": 1521.0,
+    "temperatura_media": 24.43,
+    "umidade_media": 67.62,
+    "chuva_total": 0.1,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 437,
+    "casos_dengue": 1831.0,
+    "temperatura_media": 24.3,
+    "umidade_media": 74.0,
+    "chuva_total": 10.8,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 438,
+    "casos_dengue": 1852.0,
+    "temperatura_media": 22.54,
+    "umidade_media": 78.12,
+    "chuva_total": 16.0,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": 0.7
+  },
+  {
+    "sample_id": 439,
+    "casos_dengue": 1386.0,
+    "temperatura_media": 19.47,
+    "umidade_media": 72.17,
+    "chuva_total": 0.1,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": 0.586
+  },
+  {
+    "sample_id": 440,
+    "casos_dengue": 1066.0,
+    "temperatura_media": 21.05,
+    "umidade_media": 67.5,
+    "chuva_total": 0.0,
+    "semana_sin": 0.464723172043769,
+    "semana_cos": -0.88545602565321,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 441,
+    "casos_dengue": 756.0,
+    "temperatura_media": 18.57,
+    "umidade_media": 70.62,
+    "chuva_total": 6.399999999999999,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 442,
+    "casos_dengue": 594.0,
+    "temperatura_media": 20.63,
+    "umidade_media": 61.66,
+    "chuva_total": 0.0,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": -0.970941817426052,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 443,
+    "casos_dengue": 432.0,
+    "temperatura_media": 20.59,
+    "umidade_media": 63.82,
+    "chuva_total": 0.0,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 444,
+    "casos_dengue": 394.0,
+    "temperatura_media": 21.4,
+    "umidade_media": 60.76,
+    "chuva_total": 0.0,
+    "semana_sin": -3.21624529935327e-16,
+    "semana_cos": -1.0,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 445,
+    "casos_dengue": 277.0,
+    "temperatura_media": 19.75,
+    "umidade_media": 66.7,
+    "chuva_total": 14.1,
+    "semana_sin": -0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 446,
+    "casos_dengue": 197.0,
+    "temperatura_media": 16.54,
+    "umidade_media": 59.97,
+    "chuva_total": 0.0,
+    "semana_sin": -0.239315664287557,
+    "semana_cos": -0.970941817426052,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 447,
+    "casos_dengue": 131.0,
+    "temperatura_media": 19.23,
+    "umidade_media": 57.16,
+    "chuva_total": 0.4,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 448,
+    "casos_dengue": 104.0,
+    "temperatura_media": 21.24,
+    "umidade_media": 53.84,
+    "chuva_total": 0.0,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": -0.88545602565321,
+    "ONI": 0.329
+  },
+  {
+    "sample_id": 449,
+    "casos_dengue": 66.0,
+    "temperatura_media": 21.22,
+    "umidade_media": 54.15,
+    "chuva_total": 0.2,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": 0.3
+  },
+  {
+    "sample_id": 450,
+    "casos_dengue": 76.0,
+    "temperatura_media": 19.82,
+    "umidade_media": 68.31,
+    "chuva_total": 15.2,
+    "semana_sin": -0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": 0.3
+  },
+  {
+    "sample_id": 451,
+    "casos_dengue": 98.0,
+    "temperatura_media": 22.18,
+    "umidade_media": 52.55,
+    "chuva_total": 0.0,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": 0.3
+  },
+  {
+    "sample_id": 452,
+    "casos_dengue": 79.0,
+    "temperatura_media": 21.08,
+    "umidade_media": 60.59,
+    "chuva_total": 1.2,
+    "semana_sin": -0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": 0.214
+  },
+  {
+    "sample_id": 453,
+    "casos_dengue": 75.0,
+    "temperatura_media": 23.33,
+    "umidade_media": 47.04,
+    "chuva_total": 0.0,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": -0.464723172043769,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 454,
+    "casos_dengue": 65.0,
+    "temperatura_media": 24.08,
+    "umidade_media": 64.52,
+    "chuva_total": 15.1,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": -0.354604887042536,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 455,
+    "casos_dengue": 50.0,
+    "temperatura_media": 27.97,
+    "umidade_media": 41.41,
+    "chuva_total": 0.0,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 456,
+    "casos_dengue": 61.0,
+    "temperatura_media": 28.12,
+    "umidade_media": 40.15,
+    "chuva_total": 0.0,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": -0.120536680255324,
+    "ONI": 0.1
+  },
+  {
+    "sample_id": 457,
+    "casos_dengue": 39.0,
+    "temperatura_media": 22.21,
+    "umidade_media": 68.36,
+    "chuva_total": 39.7,
+    "semana_sin": -1.0,
+    "semana_cos": -1.83697019872103e-16,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 458,
+    "casos_dengue": 63.0,
+    "temperatura_media": 26.88,
+    "umidade_media": 43.9,
+    "chuva_total": 0.0,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 459,
+    "casos_dengue": 49.0,
+    "temperatura_media": 24.68,
+    "umidade_media": 68.15,
+    "chuva_total": 52.2,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": 0.239315664287557,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 460,
+    "casos_dengue": 56.0,
+    "temperatura_media": 28.2,
+    "umidade_media": 47.51,
+    "chuva_total": 0.3,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 461,
+    "casos_dengue": 61.0,
+    "temperatura_media": 25.99,
+    "umidade_media": 58.12,
+    "chuva_total": 20.2,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": 0.464723172043768,
+    "ONI": 0.271
+  },
+  {
+    "sample_id": 462,
+    "casos_dengue": 49.0,
+    "temperatura_media": 26.41,
+    "umidade_media": 60.38,
+    "chuva_total": 16.3,
+    "semana_sin": -0.822983865893657,
+    "semana_cos": 0.568064746731155,
+    "ONI": 0.3
+  },
+  {
+    "sample_id": 463,
+    "casos_dengue": 56.0,
+    "temperatura_media": 26.55,
+    "umidade_media": 66.03,
+    "chuva_total": 45.7,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": 0.3
+  },
+  {
+    "sample_id": 464,
+    "casos_dengue": 67.0,
+    "temperatura_media": 24.61,
+    "umidade_media": 75.44,
+    "chuva_total": 68.2,
+    "semana_sin": -0.663122658240796,
+    "semana_cos": 0.748510748171101,
+    "ONI": 0.3
+  },
+  {
+    "sample_id": 465,
+    "casos_dengue": 105.0,
+    "temperatura_media": 25.57,
+    "umidade_media": 65.25,
+    "chuva_total": 24.8,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": 0.357
+  },
+  {
+    "sample_id": 466,
+    "casos_dengue": 109.0,
+    "temperatura_media": 24.56,
+    "umidade_media": 75.89,
+    "chuva_total": 42.9,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 467,
+    "casos_dengue": 152.0,
+    "temperatura_media": 24.87,
+    "umidade_media": 77.44,
+    "chuva_total": 23.2,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 468,
+    "casos_dengue": 173.0,
+    "temperatura_media": 24.17,
+    "umidade_media": 80.11,
+    "chuva_total": 42.6,
+    "semana_sin": -0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 469,
+    "casos_dengue": 160.0,
+    "temperatura_media": 25.56,
+    "umidade_media": 69.69,
+    "chuva_total": 28.8,
+    "semana_sin": -0.120536680255324,
+    "semana_cos": 0.992708874098054,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 470,
+    "casos_dengue": 175.0,
+    "temperatura_media": 25.57,
+    "umidade_media": 70.16,
+    "chuva_total": 14.5,
+    "semana_sin": 6.43249059870655e-16,
+    "semana_cos": 1.0,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 471,
+    "casos_dengue": 251.0,
+    "temperatura_media": 25.81,
+    "umidade_media": 72.37,
+    "chuva_total": 92.875,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": 0.992708874098054,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 472,
+    "casos_dengue": 624.0,
+    "temperatura_media": 25.02,
+    "umidade_media": 79.98,
+    "chuva_total": 76.1,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 473,
+    "casos_dengue": 948.0,
+    "temperatura_media": 26.69,
+    "umidade_media": 71.87,
+    "chuva_total": 5.6,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 474,
+    "casos_dengue": 1212.0,
+    "temperatura_media": 24.34,
+    "umidade_media": 81.11,
+    "chuva_total": 92.875,
+    "semana_sin": 0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 475,
+    "casos_dengue": 1575.0,
+    "temperatura_media": 25.34,
+    "umidade_media": 73.13,
+    "chuva_total": 26.8,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 476,
+    "casos_dengue": 2146.0,
+    "temperatura_media": 24.39,
+    "umidade_media": 80.7,
+    "chuva_total": 71.1,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": 0.748510748171101,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 477,
+    "casos_dengue": 2338.0,
+    "temperatura_media": 24.36,
+    "umidade_media": 79.32,
+    "chuva_total": 35.0,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 478,
+    "casos_dengue": 2319.0,
+    "temperatura_media": 25.54,
+    "umidade_media": 77.62,
+    "chuva_total": 38.3,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": 0.568064746731156,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 479,
+    "casos_dengue": 2118.0,
+    "temperatura_media": 23.89,
+    "umidade_media": 83.27,
+    "chuva_total": 44.7,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": 0.464723172043769,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 480,
+    "casos_dengue": 2266.0,
+    "temperatura_media": 23.75,
+    "umidade_media": 69.42,
+    "chuva_total": 13.6,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 481,
+    "casos_dengue": 2119.0,
+    "temperatura_media": 25.62,
+    "umidade_media": 63.48,
+    "chuva_total": 0.0,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": 0.239315664287558,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 482,
+    "casos_dengue": 1333.0,
+    "temperatura_media": 25.64,
+    "umidade_media": 72.9,
+    "chuva_total": 32.3,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": 0.5
+  },
+  {
+    "sample_id": 483,
+    "casos_dengue": 917.0,
+    "temperatura_media": 23.76,
+    "umidade_media": 63.39,
+    "chuva_total": 0.0,
+    "semana_sin": 1.0,
+    "semana_cos": -1.60812264967664e-16,
+    "ONI": 0.4
+  },
+  {
+    "sample_id": 484,
+    "casos_dengue": 742.0,
+    "temperatura_media": 24.77,
+    "umidade_media": 75.42,
+    "chuva_total": 81.1,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": -0.120536680255323,
+    "ONI": 0.4
+  },
+  {
+    "sample_id": 485,
+    "casos_dengue": 708.0,
+    "temperatura_media": 23.51,
+    "umidade_media": 64.8,
+    "chuva_total": 0.0,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": 0.4
+  },
+  {
+    "sample_id": 486,
+    "casos_dengue": 680.0,
+    "temperatura_media": 22.25,
+    "umidade_media": 72.89,
+    "chuva_total": 16.4,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": -0.354604887042535,
+    "ONI": 0.4
+  },
+  {
+    "sample_id": 487,
+    "casos_dengue": 521.0,
+    "temperatura_media": 22.79,
+    "umidade_media": 65.8,
+    "chuva_total": 0.0,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": -0.464723172043768,
+    "ONI": 0.286
+  },
+  {
+    "sample_id": 488,
+    "casos_dengue": 545.0,
+    "temperatura_media": 21.72,
+    "umidade_media": 62.78,
+    "chuva_total": 0.0,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 489,
+    "casos_dengue": 488.0,
+    "temperatura_media": 20.57,
+    "umidade_media": 64.22,
+    "chuva_total": 0.0,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 490,
+    "casos_dengue": 442.0,
+    "temperatura_media": 21.01,
+    "umidade_media": 64.44,
+    "chuva_total": 0.0,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": 0.2
+  },
+  {
+    "sample_id": 491,
+    "casos_dengue": 288.0,
+    "temperatura_media": 21.53,
+    "umidade_media": 63.66,
+    "chuva_total": 10.1,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": 0.114
+  },
+  {
+    "sample_id": 492,
+    "casos_dengue": 227.0,
+    "temperatura_media": 16.4875,
+    "umidade_media": 67.36,
+    "chuva_total": 1.5,
+    "semana_sin": 0.464723172043769,
+    "semana_cos": -0.88545602565321,
+    "ONI": -0.1
+  },
+  {
+    "sample_id": 493,
+    "casos_dengue": 277.0,
+    "temperatura_media": 21.16,
+    "umidade_media": 63.18,
+    "chuva_total": 0.6,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": -0.1
+  },
+  {
+    "sample_id": 494,
+    "casos_dengue": 236.0,
+    "temperatura_media": 24.26,
+    "umidade_media": 64.21,
+    "chuva_total": 8.5,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": -0.970941817426052,
+    "ONI": -0.1
+  },
+  {
+    "sample_id": 495,
+    "casos_dengue": 268.0,
+    "temperatura_media": 22.55,
+    "umidade_media": 58.22,
+    "chuva_total": 0.0,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": -0.1
+  },
+  {
+    "sample_id": 496,
+    "casos_dengue": 198.0,
+    "temperatura_media": 22.5,
+    "umidade_media": 56.36,
+    "chuva_total": 1.2,
+    "semana_sin": -3.21624529935327e-16,
+    "semana_cos": -1.0,
+    "ONI": -0.271
+  },
+  {
+    "sample_id": 497,
+    "casos_dengue": 137.0,
+    "temperatura_media": 19.44,
+    "umidade_media": 56.58,
+    "chuva_total": 0.3,
+    "semana_sin": -0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 498,
+    "casos_dengue": 179.0,
+    "temperatura_media": 22.73,
+    "umidade_media": 52.7,
+    "chuva_total": 0.0,
+    "semana_sin": -0.239315664287557,
+    "semana_cos": -0.970941817426052,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 499,
+    "casos_dengue": 142.0,
+    "temperatura_media": 23.16,
+    "umidade_media": 54.57,
+    "chuva_total": 0.0,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": -0.3
+  },
+  {
+    "sample_id": 500,
+    "casos_dengue": 105.0,
+    "temperatura_media": 22.12,
+    "umidade_media": 47.95,
+    "chuva_total": 0.0,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": -0.88545602565321,
+    "ONI": -0.357
+  },
+  {
+    "sample_id": 501,
+    "casos_dengue": 93.0,
+    "temperatura_media": 22.99,
+    "umidade_media": 50.39,
+    "chuva_total": 0.0,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 502,
+    "casos_dengue": 93.0,
+    "temperatura_media": 20.8,
+    "umidade_media": 43.51,
+    "chuva_total": 0.0,
+    "semana_sin": -0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 503,
+    "casos_dengue": 89.0,
+    "temperatura_media": 25.1,
+    "umidade_media": 37.51,
+    "chuva_total": 0.0,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 504,
+    "casos_dengue": 60.0,
+    "temperatura_media": 22.41,
+    "umidade_media": 57.02,
+    "chuva_total": 0.7,
+    "semana_sin": -0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": -0.429
+  },
+  {
+    "sample_id": 505,
+    "casos_dengue": 50.0,
+    "temperatura_media": 22.14,
+    "umidade_media": 40.44,
+    "chuva_total": 0.0,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": -0.464723172043769,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 506,
+    "casos_dengue": 60.0,
+    "temperatura_media": 26.16,
+    "umidade_media": 37.79,
+    "chuva_total": 0.0,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": -0.354604887042536,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 507,
+    "casos_dengue": 58.0,
+    "temperatura_media": 26.8,
+    "umidade_media": 36.23000000000002,
+    "chuva_total": 0.0,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 508,
+    "casos_dengue": 56.0,
+    "temperatura_media": 27.14,
+    "umidade_media": 36.23000000000002,
+    "chuva_total": 0.0,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": -0.120536680255324,
+    "ONI": -0.6
+  },
+  {
+    "sample_id": 509,
+    "casos_dengue": 48.0,
+    "temperatura_media": 23.11,
+    "umidade_media": 62.93,
+    "chuva_total": 31.9,
+    "semana_sin": -1.0,
+    "semana_cos": -1.83697019872103e-16,
+    "ONI": -0.814
+  },
+  {
+    "sample_id": 510,
+    "casos_dengue": 54.0,
+    "temperatura_media": 30.38,
+    "umidade_media": 36.23000000000002,
+    "chuva_total": 2.5,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 511,
+    "casos_dengue": 63.0,
+    "temperatura_media": 29.26,
+    "umidade_media": 45.45,
+    "chuva_total": 4.600000000000001,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": 0.239315664287557,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 512,
+    "casos_dengue": 41.0,
+    "temperatura_media": 25.76,
+    "umidade_media": 50.83,
+    "chuva_total": 0.7,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 513,
+    "casos_dengue": 45.0,
+    "temperatura_media": 24.37,
+    "umidade_media": 67.98,
+    "chuva_total": 92.875,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": 0.464723172043768,
+    "ONI": -1.029
+  },
+  {
+    "sample_id": 514,
+    "casos_dengue": 34.0,
+    "temperatura_media": 24.83,
+    "umidade_media": 66.46,
+    "chuva_total": 17.8,
+    "semana_sin": -0.822983865893657,
+    "semana_cos": 0.568064746731155,
+    "ONI": -1.2
+  },
+  {
+    "sample_id": 515,
+    "casos_dengue": 47.0,
+    "temperatura_media": 23.78,
+    "umidade_media": 46.95,
+    "chuva_total": 0.0,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": -1.2
+  },
+  {
+    "sample_id": 516,
+    "casos_dengue": 42.0,
+    "temperatura_media": 26.13,
+    "umidade_media": 60.27,
+    "chuva_total": 30.4,
+    "semana_sin": -0.663122658240796,
+    "semana_cos": 0.748510748171101,
+    "ONI": -1.2
+  },
+  {
+    "sample_id": 517,
+    "casos_dengue": 65.0,
+    "temperatura_media": 24.24,
+    "umidade_media": 70.5,
+    "chuva_total": 36.2,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": -1.2
+  },
+  {
+    "sample_id": 518,
+    "casos_dengue": 59.0,
+    "temperatura_media": 26.14,
+    "umidade_media": 57.54,
+    "chuva_total": 18.5,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": -1.3
+  },
+  {
+    "sample_id": 519,
+    "casos_dengue": 74.0,
+    "temperatura_media": 26.22,
+    "umidade_media": 64.31,
+    "chuva_total": 38.3,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": -1.3
+  },
+  {
+    "sample_id": 520,
+    "casos_dengue": 69.0,
+    "temperatura_media": 23.82,
+    "umidade_media": 78.63,
+    "chuva_total": 49.9,
+    "semana_sin": -0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": -1.3
+  },
+  {
+    "sample_id": 521,
+    "casos_dengue": 84.0,
+    "temperatura_media": 25.41,
+    "umidade_media": 74.41,
+    "chuva_total": 54.3,
+    "semana_sin": -0.120536680255324,
+    "semana_cos": 0.992708874098054,
+    "ONI": -1.3
+  },
+  {
+    "sample_id": 522,
+    "casos_dengue": 56.0,
+    "temperatura_media": 25.35,
+    "umidade_media": 75.36,
+    "chuva_total": 76.9,
+    "semana_sin": 6.43249059870655e-16,
+    "semana_cos": 1.0,
+    "ONI": -1.229
+  },
+  {
+    "sample_id": 523,
+    "casos_dengue": 47.0,
+    "temperatura_media": 22.96,
+    "umidade_media": 83.95,
+    "chuva_total": 92.875,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": 0.992708874098054,
+    "ONI": -1.2
+  },
+  {
+    "sample_id": 524,
+    "casos_dengue": 131.0,
+    "temperatura_media": 25.3,
+    "umidade_media": 74.51,
+    "chuva_total": 42.3,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": 0.992708874098054,
+    "ONI": -1.2
+  },
+  {
+    "sample_id": 525,
+    "casos_dengue": 120.0,
+    "temperatura_media": 24.06,
+    "umidade_media": 84.72,
+    "chuva_total": 61.6,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": -1.2
+  },
+  {
+    "sample_id": 526,
+    "casos_dengue": 147.0,
+    "temperatura_media": 26.48,
+    "umidade_media": 64.58,
+    "chuva_total": 25.5,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": -1.143
+  },
+  {
+    "sample_id": 527,
+    "casos_dengue": 142.0,
+    "temperatura_media": 26.69,
+    "umidade_media": 63.79,
+    "chuva_total": 36.2,
+    "semana_sin": 0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 528,
+    "casos_dengue": 155.0,
+    "temperatura_media": 25.91,
+    "umidade_media": 72.02,
+    "chuva_total": 48.7,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 529,
+    "casos_dengue": 120.0,
+    "temperatura_media": 23.84,
+    "umidade_media": 72.6,
+    "chuva_total": 59.2,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": 0.748510748171101,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 530,
+    "casos_dengue": 137.0,
+    "temperatura_media": 25.5,
+    "umidade_media": 71.54,
+    "chuva_total": 2.5,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 531,
+    "casos_dengue": 141.0,
+    "temperatura_media": 24.74,
+    "umidade_media": 73.57,
+    "chuva_total": 65.39999999999999,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": 0.568064746731156,
+    "ONI": -0.914
+  },
+  {
+    "sample_id": 532,
+    "casos_dengue": 126.0,
+    "temperatura_media": 24.56,
+    "umidade_media": 73.53,
+    "chuva_total": 45.6,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": 0.464723172043769,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 533,
+    "casos_dengue": 121.0,
+    "temperatura_media": 24.3,
+    "umidade_media": 74.56,
+    "chuva_total": 20.6,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 534,
+    "casos_dengue": 106.0,
+    "temperatura_media": 25.06,
+    "umidade_media": 73.09,
+    "chuva_total": 31.0,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": 0.239315664287558,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 535,
+    "casos_dengue": 126.0,
+    "temperatura_media": 26.84,
+    "umidade_media": 61.23,
+    "chuva_total": 0.0,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": -0.814
+  },
+  {
+    "sample_id": 536,
+    "casos_dengue": 103.0,
+    "temperatura_media": 25.13,
+    "umidade_media": 61.02,
+    "chuva_total": 1.4,
+    "semana_sin": 1.0,
+    "semana_cos": -1.60812264967664e-16,
+    "ONI": -0.8
+  },
+  {
+    "sample_id": 537,
+    "casos_dengue": 115.0,
+    "temperatura_media": 23.62,
+    "umidade_media": 63.86,
+    "chuva_total": 7.199999999999999,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": -0.120536680255323,
+    "ONI": -0.8
+  },
+  {
+    "sample_id": 538,
+    "casos_dengue": 111.0,
+    "temperatura_media": 23.52,
+    "umidade_media": 60.96,
+    "chuva_total": 0.2,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": -0.8
+  },
+  {
+    "sample_id": 539,
+    "casos_dengue": 98.0,
+    "temperatura_media": 21.05,
+    "umidade_media": 69.35,
+    "chuva_total": 0.0,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": -0.354604887042535,
+    "ONI": -0.757
+  },
+  {
+    "sample_id": 540,
+    "casos_dengue": 110.0,
+    "temperatura_media": 22.59,
+    "umidade_media": 60.49,
+    "chuva_total": 0.0,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": -0.464723172043768,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 541,
+    "casos_dengue": 106.0,
+    "temperatura_media": 21.62,
+    "umidade_media": 58.99,
+    "chuva_total": 0.0,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 542,
+    "casos_dengue": 107.0,
+    "temperatura_media": 21.66,
+    "umidade_media": 63.69,
+    "chuva_total": 0.2,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 543,
+    "casos_dengue": 83.0,
+    "temperatura_media": 20.23,
+    "umidade_media": 64.27,
+    "chuva_total": 0.7,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": -0.671
+  },
+  {
+    "sample_id": 544,
+    "casos_dengue": 63.0,
+    "temperatura_media": 20.88,
+    "umidade_media": 61.47,
+    "chuva_total": 0.1,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 545,
+    "casos_dengue": 73.0,
+    "temperatura_media": 22.1,
+    "umidade_media": 60.55,
+    "chuva_total": 0.2,
+    "semana_sin": 0.464723172043769,
+    "semana_cos": -0.88545602565321,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 546,
+    "casos_dengue": 55.0,
+    "temperatura_media": 21.02,
+    "umidade_media": 71.77,
+    "chuva_total": 20.6,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 547,
+    "casos_dengue": 63.0,
+    "temperatura_media": 19.02,
+    "umidade_media": 62.31,
+    "chuva_total": 0.0,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": -0.970941817426052,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 548,
+    "casos_dengue": 67.0,
+    "temperatura_media": 21.28,
+    "umidade_media": 62.3,
+    "chuva_total": 0.0,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": -0.429
+  },
+  {
+    "sample_id": 549,
+    "casos_dengue": 32.0,
+    "temperatura_media": 16.77,
+    "umidade_media": 57.36,
+    "chuva_total": 0.0,
+    "semana_sin": -3.21624529935327e-16,
+    "semana_cos": -1.0,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 550,
+    "casos_dengue": 46.0,
+    "temperatura_media": 18.12,
+    "umidade_media": 50.58,
+    "chuva_total": 0.0,
+    "semana_sin": -0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 551,
+    "casos_dengue": 47.0,
+    "temperatura_media": 20.3,
+    "umidade_media": 48.38,
+    "chuva_total": 0.0,
+    "semana_sin": -0.239315664287557,
+    "semana_cos": -0.970941817426052,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 552,
+    "casos_dengue": 43.0,
+    "temperatura_media": 18.08,
+    "umidade_media": 41.25,
+    "chuva_total": 0.0,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 553,
+    "casos_dengue": 25.0,
+    "temperatura_media": 16.6,
+    "umidade_media": 55.13,
+    "chuva_total": 7.0,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": -0.88545602565321,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 554,
+    "casos_dengue": 30.0,
+    "temperatura_media": 19.88,
+    "umidade_media": 50.48,
+    "chuva_total": 0.0,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 555,
+    "casos_dengue": 36.0,
+    "temperatura_media": 22.12,
+    "umidade_media": 46.59,
+    "chuva_total": 0.0,
+    "semana_sin": -0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 556,
+    "casos_dengue": 42.0,
+    "temperatura_media": 24.49,
+    "umidade_media": 41.24,
+    "chuva_total": 0.0,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": -0.4
+  },
+  {
+    "sample_id": 557,
+    "casos_dengue": 37.0,
+    "temperatura_media": 25.08,
+    "umidade_media": 38.99,
+    "chuva_total": 0.0,
+    "semana_sin": -0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 558,
+    "casos_dengue": 39.0,
+    "temperatura_media": 23.68,
+    "umidade_media": 46.35,
+    "chuva_total": 0.0,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": -0.464723172043769,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 559,
+    "casos_dengue": 37.0,
+    "temperatura_media": 27.58,
+    "umidade_media": 40.59,
+    "chuva_total": 0.0,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": -0.354604887042536,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 560,
+    "casos_dengue": 50.0,
+    "temperatura_media": 28.23,
+    "umidade_media": 42.92,
+    "chuva_total": 5.699999999999999,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": -0.5
+  },
+  {
+    "sample_id": 561,
+    "casos_dengue": 47.0,
+    "temperatura_media": 27.65,
+    "umidade_media": 39.15,
+    "chuva_total": 0.0,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": -0.120536680255324,
+    "ONI": -0.614
+  },
+  {
+    "sample_id": 562,
+    "casos_dengue": 56.0,
+    "temperatura_media": 25.91,
+    "umidade_media": 54.15,
+    "chuva_total": 39.4,
+    "semana_sin": -1.0,
+    "semana_cos": -1.83697019872103e-16,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 563,
+    "casos_dengue": 33.0,
+    "temperatura_media": 24.79,
+    "umidade_media": 71.68,
+    "chuva_total": 59.4,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 564,
+    "casos_dengue": 33.0,
+    "temperatura_media": 23.78,
+    "umidade_media": 72.08,
+    "chuva_total": 66.0,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": 0.239315664287557,
+    "ONI": -0.7
+  },
+  {
+    "sample_id": 565,
+    "casos_dengue": 33.0,
+    "temperatura_media": 23.56,
+    "umidade_media": 65.6,
+    "chuva_total": 0.7,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": -0.729
+  },
+  {
+    "sample_id": 566,
+    "casos_dengue": 44.0,
+    "temperatura_media": 24.89,
+    "umidade_media": 68.33,
+    "chuva_total": 21.7,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": 0.464723172043768,
+    "ONI": -0.8
+  },
+  {
+    "sample_id": 567,
+    "casos_dengue": 52.0,
+    "temperatura_media": 24.97,
+    "umidade_media": 63.54,
+    "chuva_total": 51.1,
+    "semana_sin": -0.822983865893657,
+    "semana_cos": 0.568064746731155,
+    "ONI": -0.8
+  },
+  {
+    "sample_id": 568,
+    "casos_dengue": 43.0,
+    "temperatura_media": 24.97,
+    "umidade_media": 62.99,
+    "chuva_total": 29.9,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": -0.8
+  },
+  {
+    "sample_id": 569,
+    "casos_dengue": 58.0,
+    "temperatura_media": 24.67,
+    "umidade_media": 64.97,
+    "chuva_total": 56.2,
+    "semana_sin": -0.663122658240796,
+    "semana_cos": 0.748510748171101,
+    "ONI": -0.8
+  },
+  {
+    "sample_id": 570,
+    "casos_dengue": 47.0,
+    "temperatura_media": 25.88,
+    "umidade_media": 58.53,
+    "chuva_total": 53.1,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": -0.971
+  },
+  {
+    "sample_id": 571,
+    "casos_dengue": 64.0,
+    "temperatura_media": 26.0,
+    "umidade_media": 65.08,
+    "chuva_total": 4.2,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 572,
+    "casos_dengue": 69.0,
+    "temperatura_media": 24.13,
+    "umidade_media": 62.38,
+    "chuva_total": 17.4,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 573,
+    "casos_dengue": 71.0,
+    "temperatura_media": 24.58,
+    "umidade_media": 81.76,
+    "chuva_total": 92.875,
+    "semana_sin": -0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 574,
+    "casos_dengue": 91.0,
+    "temperatura_media": 25.14,
+    "umidade_media": 62.1,
+    "chuva_total": 8.2,
+    "semana_sin": -0.120536680255324,
+    "semana_cos": 0.992708874098054,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 575,
+    "casos_dengue": 59.0,
+    "temperatura_media": 23.63,
+    "umidade_media": 77.05,
+    "chuva_total": 92.875,
+    "semana_sin": 6.43249059870655e-16,
+    "semana_cos": 1.0,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 576,
+    "casos_dengue": 148.0,
+    "temperatura_media": 23.73,
+    "umidade_media": 83.88,
+    "chuva_total": 73.5,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": 0.992708874098054,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 577,
+    "casos_dengue": 158.0,
+    "temperatura_media": 24.07,
+    "umidade_media": 77.84,
+    "chuva_total": 35.5,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 578,
+    "casos_dengue": 92.0,
+    "temperatura_media": 25.4,
+    "umidade_media": 72.14,
+    "chuva_total": 23.2,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 579,
+    "casos_dengue": 120.0,
+    "temperatura_media": 25.73,
+    "umidade_media": 74.4,
+    "chuva_total": 66.3,
+    "semana_sin": 0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 580,
+    "casos_dengue": 111.0,
+    "temperatura_media": 23.74,
+    "umidade_media": 85.42,
+    "chuva_total": 92.875,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 581,
+    "casos_dengue": 161.0,
+    "temperatura_media": 23.76,
+    "umidade_media": 81.59,
+    "chuva_total": 60.1,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": 0.748510748171101,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 582,
+    "casos_dengue": 156.0,
+    "temperatura_media": 24.98,
+    "umidade_media": 71.92,
+    "chuva_total": 2.5,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 583,
+    "casos_dengue": 182.0,
+    "temperatura_media": 26.31,
+    "umidade_media": 68.24,
+    "chuva_total": 8.399999999999999,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": 0.568064746731156,
+    "ONI": -0.929
+  },
+  {
+    "sample_id": 584,
+    "casos_dengue": 257.0,
+    "temperatura_media": 27.04,
+    "umidade_media": 62.45,
+    "chuva_total": 4.8,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": 0.464723172043769,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 585,
+    "casos_dengue": 362.0,
+    "temperatura_media": 26.88,
+    "umidade_media": 64.28,
+    "chuva_total": 25.6,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 586,
+    "casos_dengue": 452.0,
+    "temperatura_media": 25.51,
+    "umidade_media": 75.66,
+    "chuva_total": 19.2,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": 0.239315664287558,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 587,
+    "casos_dengue": 653.0,
+    "temperatura_media": 25.51,
+    "umidade_media": 63.95,
+    "chuva_total": 11.9,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": -0.971
+  },
+  {
+    "sample_id": 588,
+    "casos_dengue": 720.0,
+    "temperatura_media": 24.6,
+    "umidade_media": 75.31,
+    "chuva_total": 52.7,
+    "semana_sin": 1.0,
+    "semana_cos": -1.60812264967664e-16,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 589,
+    "casos_dengue": 932.0,
+    "temperatura_media": 25.87,
+    "umidade_media": 69.28,
+    "chuva_total": 4.9,
+    "semana_sin": 0.992708874098054,
+    "semana_cos": -0.120536680255323,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 590,
+    "casos_dengue": 954.0,
+    "temperatura_media": 23.4,
+    "umidade_media": 72.35,
+    "chuva_total": 13.2,
+    "semana_sin": 0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 591,
+    "casos_dengue": 980.0,
+    "temperatura_media": 22.8,
+    "umidade_media": 61.4,
+    "chuva_total": 0.0,
+    "semana_sin": 0.935016242685415,
+    "semana_cos": -0.354604887042535,
+    "ONI": -1.029
+  },
+  {
+    "sample_id": 592,
+    "casos_dengue": 1192.0,
+    "temperatura_media": 24.44,
+    "umidade_media": 63.61,
+    "chuva_total": 0.9,
+    "semana_sin": 0.88545602565321,
+    "semana_cos": -0.464723172043768,
+    "ONI": -1.1
+  },
+  {
+    "sample_id": 593,
+    "casos_dengue": 1167.0,
+    "temperatura_media": 21.49,
+    "umidade_media": 68.29,
+    "chuva_total": 19.2,
+    "semana_sin": 0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": -1.1
+  },
+  {
+    "sample_id": 594,
+    "casos_dengue": 1196.0,
+    "temperatura_media": 21.81,
+    "umidade_media": 69.2,
+    "chuva_total": 4.0,
+    "semana_sin": 0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": -1.1
+  },
+  {
+    "sample_id": 595,
+    "casos_dengue": 802.0,
+    "temperatura_media": 16.4875,
+    "umidade_media": 72.14,
+    "chuva_total": 36.2,
+    "semana_sin": 0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": -1.1
+  },
+  {
+    "sample_id": 596,
+    "casos_dengue": 710.0,
+    "temperatura_media": 19.08,
+    "umidade_media": 59.85,
+    "chuva_total": 0.0,
+    "semana_sin": 0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 597,
+    "casos_dengue": 628.0,
+    "temperatura_media": 22.07,
+    "umidade_media": 66.32,
+    "chuva_total": 1.7,
+    "semana_sin": 0.464723172043769,
+    "semana_cos": -0.88545602565321,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 598,
+    "casos_dengue": 569.0,
+    "temperatura_media": 20.54,
+    "umidade_media": 73.75,
+    "chuva_total": 5.0,
+    "semana_sin": 0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 599,
+    "casos_dengue": 389.0,
+    "temperatura_media": 18.23,
+    "umidade_media": 60.44,
+    "chuva_total": 1.8,
+    "semana_sin": 0.239315664287558,
+    "semana_cos": -0.970941817426052,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 600,
+    "casos_dengue": 487.0,
+    "temperatura_media": 19.87,
+    "umidade_media": 64.97,
+    "chuva_total": 0.0,
+    "semana_sin": 0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": -0.943
+  },
+  {
+    "sample_id": 601,
+    "casos_dengue": 493.0,
+    "temperatura_media": 19.88,
+    "umidade_media": 61.71,
+    "chuva_total": 0.0,
+    "semana_sin": -3.21624529935327e-16,
+    "semana_cos": -1.0,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 602,
+    "casos_dengue": 388.0,
+    "temperatura_media": 20.45,
+    "umidade_media": 54.45,
+    "chuva_total": 0.0,
+    "semana_sin": -0.120536680255323,
+    "semana_cos": -0.992708874098054,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 603,
+    "casos_dengue": 334.0,
+    "temperatura_media": 21.96,
+    "umidade_media": 51.09,
+    "chuva_total": 0.0,
+    "semana_sin": -0.239315664287557,
+    "semana_cos": -0.970941817426052,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 604,
+    "casos_dengue": 274.0,
+    "temperatura_media": 22.27,
+    "umidade_media": 51.51,
+    "chuva_total": 0.0,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": -0.935016242685415,
+    "ONI": -0.871
+  },
+  {
+    "sample_id": 605,
+    "casos_dengue": 301.0,
+    "temperatura_media": 21.24,
+    "umidade_media": 51.35,
+    "chuva_total": 0.0,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": -0.88545602565321,
+    "ONI": -0.8
+  },
+  {
+    "sample_id": 606,
+    "casos_dengue": 235.0,
+    "temperatura_media": 22.93,
+    "umidade_media": 43.85,
+    "chuva_total": 0.0,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": -0.822983865893656,
+    "ONI": -0.8
+  },
+  {
+    "sample_id": 607,
+    "casos_dengue": 265.0,
+    "temperatura_media": 19.3,
+    "umidade_media": 64.69,
+    "chuva_total": 15.2,
+    "semana_sin": -0.663122658240795,
+    "semana_cos": -0.748510748171101,
+    "ONI": -0.8
+  },
+  {
+    "sample_id": 608,
+    "casos_dengue": 217.0,
+    "temperatura_media": 22.11,
+    "umidade_media": 48.98,
+    "chuva_total": 0.0,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": -0.663122658240795,
+    "ONI": -0.8
+  },
+  {
+    "sample_id": 609,
+    "casos_dengue": 208.0,
+    "temperatura_media": 22.62,
+    "umidade_media": 44.79,
+    "chuva_total": 0.0,
+    "semana_sin": -0.822983865893656,
+    "semana_cos": -0.568064746731156,
+    "ONI": -0.886
+  },
+  {
+    "sample_id": 610,
+    "casos_dengue": 199.0,
+    "temperatura_media": 22.32,
+    "umidade_media": 42.46,
+    "chuva_total": 0.0,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": -0.464723172043769,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 611,
+    "casos_dengue": 242.0,
+    "temperatura_media": 24.32,
+    "umidade_media": 49.68,
+    "chuva_total": 12.3,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": -0.354604887042536,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 612,
+    "casos_dengue": 184.0,
+    "temperatura_media": 23.54,
+    "umidade_media": 57.27,
+    "chuva_total": 5.6,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": -0.239315664287558,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 613,
+    "casos_dengue": 168.0,
+    "temperatura_media": 22.73,
+    "umidade_media": 62.94,
+    "chuva_total": 24.5,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": -0.120536680255324,
+    "ONI": -0.943
+  },
+  {
+    "sample_id": 614,
+    "casos_dengue": 178.0,
+    "temperatura_media": 22.39,
+    "umidade_media": 69.81,
+    "chuva_total": 17.6,
+    "semana_sin": -1.0,
+    "semana_cos": -1.83697019872103e-16,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 615,
+    "casos_dengue": 136.0,
+    "temperatura_media": 24.97,
+    "umidade_media": 61.87,
+    "chuva_total": 35.6,
+    "semana_sin": -0.992708874098054,
+    "semana_cos": 0.120536680255323,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 616,
+    "casos_dengue": 159.0,
+    "temperatura_media": 24.74,
+    "umidade_media": 63.27,
+    "chuva_total": 17.9,
+    "semana_sin": -0.970941817426052,
+    "semana_cos": 0.239315664287557,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 617,
+    "casos_dengue": 151.0,
+    "temperatura_media": 24.52,
+    "umidade_media": 65.66,
+    "chuva_total": 2.5,
+    "semana_sin": -0.935016242685415,
+    "semana_cos": 0.354604887042536,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 618,
+    "casos_dengue": 125.0,
+    "temperatura_media": 26.04,
+    "umidade_media": 57.03,
+    "chuva_total": 39.5,
+    "semana_sin": -0.88545602565321,
+    "semana_cos": 0.464723172043768,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 619,
+    "casos_dengue": 133.0,
+    "temperatura_media": 21.34,
+    "umidade_media": 69.37,
+    "chuva_total": 47.1,
+    "semana_sin": -0.822983865893657,
+    "semana_cos": 0.568064746731155,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 620,
+    "casos_dengue": 211.0,
+    "temperatura_media": 23.48,
+    "umidade_media": 60.23,
+    "chuva_total": 5.3,
+    "semana_sin": -0.748510748171101,
+    "semana_cos": 0.663122658240795,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 621,
+    "casos_dengue": 158.0,
+    "temperatura_media": 25.9,
+    "umidade_media": 57.84,
+    "chuva_total": 20.1,
+    "semana_sin": -0.663122658240796,
+    "semana_cos": 0.748510748171101,
+    "ONI": -1.0
+  },
+  {
+    "sample_id": 622,
+    "casos_dengue": 155.0,
+    "temperatura_media": 23.85,
+    "umidade_media": 68.84,
+    "chuva_total": 51.7,
+    "semana_sin": -0.568064746731156,
+    "semana_cos": 0.822983865893656,
+    "ONI": -0.929
+  },
+  {
+    "sample_id": 623,
+    "casos_dengue": 120.0,
+    "temperatura_media": 23.77,
+    "umidade_media": 73.12,
+    "chuva_total": 57.1,
+    "semana_sin": -0.464723172043768,
+    "semana_cos": 0.88545602565321,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 624,
+    "casos_dengue": 138.0,
+    "temperatura_media": 24.65,
+    "umidade_media": 75.79,
+    "chuva_total": 76.7,
+    "semana_sin": -0.354604887042536,
+    "semana_cos": 0.935016242685415,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 625,
+    "casos_dengue": 54.0,
+    "temperatura_media": 24.91,
+    "umidade_media": 72.2,
+    "chuva_total": 23.1,
+    "semana_sin": -0.239315664287558,
+    "semana_cos": 0.970941817426052,
+    "ONI": -0.9
+  },
+  {
+    "sample_id": 626,
+    "casos_dengue": 7.0,
+    "temperatura_media": 23.7,
+    "umidade_media": 73.16,
+    "chuva_total": 56.1,
+    "semana_sin": -0.120536680255324,
+    "semana_cos": 0.992708874098054,
+    "ONI": -0.857
+  }
+]

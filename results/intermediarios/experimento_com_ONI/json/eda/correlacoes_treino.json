@@ -1,0 +1,322 @@
+[
+  {
+    "feature_x": "casos_dengue",
+    "feature_y": "casos_dengue",
+    "correlation": 1.0
+  },
+  {
+    "feature_x": "temperatura_media",
+    "feature_y": "casos_dengue",
+    "correlation": 0.083517105502873
+  },
+  {
+    "feature_x": "umidade_media",
+    "feature_y": "casos_dengue",
+    "correlation": 0.28110131057706
+  },
+  {
+    "feature_x": "chuva_total",
+    "feature_y": "casos_dengue",
+    "correlation": 0.099857231856639
+  },
+  {
+    "feature_x": "semana_sin",
+    "feature_y": "casos_dengue",
+    "correlation": 0.387606495096128
+  },
+  {
+    "feature_x": "semana_cos",
+    "feature_y": "casos_dengue",
+    "correlation": 0.07118461833732
+  },
+  {
+    "feature_x": "el_nino",
+    "feature_y": "casos_dengue",
+    "correlation": 0.281552624118375
+  },
+  {
+    "feature_x": "la_nina",
+    "feature_y": "casos_dengue",
+    "correlation": -0.043702518873742
+  },
+  {
+    "feature_x": "casos_dengue",
+    "feature_y": "temperatura_media",
+    "correlation": 0.083517105502873
+  },
+  {
+    "feature_x": "temperatura_media",
+    "feature_y": "temperatura_media",
+    "correlation": 1.0
+  },
+  {
+    "feature_x": "umidade_media",
+    "feature_y": "temperatura_media",
+    "correlation": -0.126141873681221
+  },
+  {
+    "feature_x": "chuva_total",
+    "feature_y": "temperatura_media",
+    "correlation": 0.211803996336468
+  },
+  {
+    "feature_x": "semana_sin",
+    "feature_y": "temperatura_media",
+    "correlation": -0.037015670239988
+  },
+  {
+    "feature_x": "semana_cos",
+    "feature_y": "temperatura_media",
+    "correlation": 0.740283965452762
+  },
+  {
+    "feature_x": "el_nino",
+    "feature_y": "temperatura_media",
+    "correlation": 0.111058481875177
+  },
+  {
+    "feature_x": "la_nina",
+    "feature_y": "temperatura_media",
+    "correlation": 0.205740975678899
+  },
+  {
+    "feature_x": "casos_dengue",
+    "feature_y": "umidade_media",
+    "correlation": 0.28110131057706
+  },
+  {
+    "feature_x": "temperatura_media",
+    "feature_y": "umidade_media",
+    "correlation": -0.126141873681221
+  },
+  {
+    "feature_x": "umidade_media",
+    "feature_y": "umidade_media",
+    "correlation": 1.0
+  },
+  {
+    "feature_x": "chuva_total",
+    "feature_y": "umidade_media",
+    "correlation": 0.583115617374125
+  },
+  {
+    "feature_x": "semana_sin",
+    "feature_y": "umidade_media",
+    "correlation": 0.528085721986171
+  },
+  {
+    "feature_x": "semana_cos",
+    "feature_y": "umidade_media",
+    "correlation": 0.233854045381905
+  },
+  {
+    "feature_x": "el_nino",
+    "feature_y": "umidade_media",
+    "correlation": 0.09727467891785
+  },
+  {
+    "feature_x": "la_nina",
+    "feature_y": "umidade_media",
+    "correlation": 0.162095430428173
+  },
+  {
+    "feature_x": "casos_dengue",
+    "feature_y": "chuva_total",
+    "correlation": 0.099857231856639
+  },
+  {
+    "feature_x": "temperatura_media",
+    "feature_y": "chuva_total",
+    "correlation": 0.211803996336468
+  },
+  {
+    "feature_x": "umidade_media",
+    "feature_y": "chuva_total",
+    "correlation": 0.583115617374125
+  },
+  {
+    "feature_x": "chuva_total",
+    "feature_y": "chuva_total",
+    "correlation": 1.0
+  },
+  {
+    "feature_x": "semana_sin",
+    "feature_y": "chuva_total",
+    "correlation": 0.086395901293919
+  },
+  {
+    "feature_x": "semana_cos",
+    "feature_y": "chuva_total",
+    "correlation": 0.542072251843518
+  },
+  {
+    "feature_x": "el_nino",
+    "feature_y": "chuva_total",
+    "correlation": 0.143454837288424
+  },
+  {
+    "feature_x": "la_nina",
+    "feature_y": "chuva_total",
+    "correlation": 0.11123854504125
+  },
+  {
+    "feature_x": "casos_dengue",
+    "feature_y": "semana_sin",
+    "correlation": 0.387606495096128
+  },
+  {
+    "feature_x": "temperatura_media",
+    "feature_y": "semana_sin",
+    "correlation": -0.037015670239988
+  },
+  {
+    "feature_x": "umidade_media",
+    "feature_y": "semana_sin",
+    "correlation": 0.528085721986171
+  },
+  {
+    "feature_x": "chuva_total",
+    "feature_y": "semana_sin",
+    "correlation": 0.086395901293919
+  },
+  {
+    "feature_x": "semana_sin",
+    "feature_y": "semana_sin",
+    "correlation": 1.0
+  },
+  {
+    "feature_x": "semana_cos",
+    "feature_y": "semana_sin",
+    "correlation": -0.013735688077534
+  },
+  {
+    "feature_x": "el_nino",
+    "feature_y": "semana_sin",
+    "correlation": 0.140120847821667
+  },
+  {
+    "feature_x": "la_nina",
+    "feature_y": "semana_sin",
+    "correlation": 0.067994351945715
+  },
+  {
+    "feature_x": "casos_dengue",
+    "feature_y": "semana_cos",
+    "correlation": 0.07118461833732
+  },
+  {
+    "feature_x": "temperatura_media",
+    "feature_y": "semana_cos",
+    "correlation": 0.740283965452762
+  },
+  {
+    "feature_x": "umidade_media",
+    "feature_y": "semana_cos",
+    "correlation": 0.233854045381905
+  },
+  {
+    "feature_x": "chuva_total",
+    "feature_y": "semana_cos",
+    "correlation": 0.542072251843518
+  },
+  {
+    "feature_x": "semana_sin",
+    "feature_y": "semana_cos",
+    "correlation": -0.013735688077534
+  },
+  {
+    "feature_x": "semana_cos",
+    "feature_y": "semana_cos",
+    "correlation": 1.0
+  },
+  {
+    "feature_x": "el_nino",
+    "feature_y": "semana_cos",
+    "correlation": 0.149385025087784
+  },
+  {
+    "feature_x": "la_nina",
+    "feature_y": "semana_cos",
+    "correlation": 0.211558782011161
+  },
+  {
+    "feature_x": "casos_dengue",
+    "feature_y": "el_nino",
+    "correlation": 0.281552624118375
+  },
+  {
+    "feature_x": "temperatura_media",
+    "feature_y": "el_nino",
+    "correlation": 0.111058481875177
+  },
+  {
+    "feature_x": "umidade_media",
+    "feature_y": "el_nino",
+    "correlation": 0.09727467891785
+  },
+  {
+    "feature_x": "chuva_total",
+    "feature_y": "el_nino",
+    "correlation": 0.143454837288424
+  },
+  {
+    "feature_x": "semana_sin",
+    "feature_y": "el_nino",
+    "correlation": 0.140120847821667
+  },
+  {
+    "feature_x": "semana_cos",
+    "feature_y": "el_nino",
+    "correlation": 0.149385025087784
+  },
+  {
+    "feature_x": "el_nino",
+    "feature_y": "el_nino",
+    "correlation": 1.0
+  },
+  {
+    "feature_x": "la_nina",
+    "feature_y": "el_nino",
+    "correlation": -0.347464967484654
+  },
+  {
+    "feature_x": "casos_dengue",
+    "feature_y": "la_nina",
+    "correlation": -0.043702518873742
+  },
+  {
+    "feature_x": "temperatura_media",
+    "feature_y": "la_nina",
+    "correlation": 0.205740975678899
+  },
+  {
+    "feature_x": "umidade_media",
+    "feature_y": "la_nina",
+    "correlation": 0.162095430428173
+  },
+  {
+    "feature_x": "chuva_total",
+    "feature_y": "la_nina",
+    "correlation": 0.11123854504125
+  },
+  {
+    "feature_x": "semana_sin",
+    "feature_y": "la_nina",
+    "correlation": 0.067994351945715
+  },
+  {
+    "feature_x": "semana_cos",
+    "feature_y": "la_nina",
+    "correlation": 0.211558782011161
+  },
+  {
+    "feature_x": "el_nino",
+    "feature_y": "la_nina",
+    "correlation": -0.347464967484654
+  },
+  {
+    "feature_x": "la_nina",
+    "feature_y": "la_nina",
+    "correlation": 1.0
+  }
+]

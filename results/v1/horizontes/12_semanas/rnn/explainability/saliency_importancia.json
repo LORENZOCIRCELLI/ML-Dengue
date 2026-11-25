@@ -1,0 +1,362 @@
+[
+  {
+    "feature": "semana_sin__tmenos2",
+    "mean_absolute_attribution": 0.022350357845426,
+    "mean_signed_attribution": -0.022350357845426
+  },
+  {
+    "feature": "temperatura_media__tmenos1",
+    "mean_absolute_attribution": 0.018059555441141,
+    "mean_signed_attribution": 0.018059555441141
+  },
+  {
+    "feature": "chuva_total__tmenos1",
+    "mean_absolute_attribution": 0.017788760364056,
+    "mean_signed_attribution": 0.017788760364056
+  },
+  {
+    "feature": "semana_sin__tmenos3",
+    "mean_absolute_attribution": 0.0169059317559,
+    "mean_signed_attribution": -0.0169059317559
+  },
+  {
+    "feature": "umidade_media__tmenos2",
+    "mean_absolute_attribution": 0.016401657834649,
+    "mean_signed_attribution": -0.016401657834649
+  },
+  {
+    "feature": "semana_cos__tmenos1",
+    "mean_absolute_attribution": 0.015842355787754,
+    "mean_signed_attribution": 0.015842355787754
+  },
+  {
+    "feature": "semana_sin__tmenos1",
+    "mean_absolute_attribution": 0.015560457482934,
+    "mean_signed_attribution": -0.015560457482934
+  },
+  {
+    "feature": "semana_cos__tmenos2",
+    "mean_absolute_attribution": 0.015288090333343,
+    "mean_signed_attribution": 0.015288090333343
+  },
+  {
+    "feature": "umidade_media__tmenos3",
+    "mean_absolute_attribution": 0.011830827221274,
+    "mean_signed_attribution": -0.011830827221274
+  },
+  {
+    "feature": "semana_sin__tmenos4",
+    "mean_absolute_attribution": 0.011478260159492,
+    "mean_signed_attribution": -0.011478260159492
+  },
+  {
+    "feature": "umidade_media__tmenos1",
+    "mean_absolute_attribution": 0.010370959527791,
+    "mean_signed_attribution": -0.010370959527791
+  },
+  {
+    "feature": "casos_dengue__tmenos1",
+    "mean_absolute_attribution": 0.010350747033954,
+    "mean_signed_attribution": -0.010249891318381
+  },
+  {
+    "feature": "casos_dengue__tmenos2",
+    "mean_absolute_attribution": 0.010106363333762,
+    "mean_signed_attribution": -0.010076932609081
+  },
+  {
+    "feature": "semana_sin__tmenos5",
+    "mean_absolute_attribution": 0.008520479314029,
+    "mean_signed_attribution": -0.008520479314029
+  },
+  {
+    "feature": "umidade_media__tmenos4",
+    "mean_absolute_attribution": 0.008291741833091,
+    "mean_signed_attribution": -0.008291741833091
+  },
+  {
+    "feature": "chuva_total__tmenos2",
+    "mean_absolute_attribution": 0.007610547821969,
+    "mean_signed_attribution": 0.007610547821969
+  },
+  {
+    "feature": "semana_cos__tmenos3",
+    "mean_absolute_attribution": 0.007073137909174,
+    "mean_signed_attribution": 0.007067038211972
+  },
+  {
+    "feature": "temperatura_media__tmenos2",
+    "mean_absolute_attribution": 0.006787716876715,
+    "mean_signed_attribution": 0.00671433005482
+  },
+  {
+    "feature": "casos_dengue__tmenos3",
+    "mean_absolute_attribution": 0.006665306631476,
+    "mean_signed_attribution": -0.006554819177836
+  },
+  {
+    "feature": "semana_sin__tmenos6",
+    "mean_absolute_attribution": 0.006063932087272,
+    "mean_signed_attribution": -0.006063932087272
+  },
+  {
+    "feature": "umidade_media__tmenos5",
+    "mean_absolute_attribution": 0.005920104682446,
+    "mean_signed_attribution": -0.005920104682446
+  },
+  {
+    "feature": "casos_dengue__tmenos4",
+    "mean_absolute_attribution": 0.005770197603852,
+    "mean_signed_attribution": -0.005770197603852
+  },
+  {
+    "feature": "chuva_total__tmenos3",
+    "mean_absolute_attribution": 0.004601655527949,
+    "mean_signed_attribution": 0.004554555751383
+  },
+  {
+    "feature": "semana_cos__tmenos4",
+    "mean_absolute_attribution": 0.004581625107676,
+    "mean_signed_attribution": 0.004573993384838
+  },
+  {
+    "feature": "casos_dengue__tmenos5",
+    "mean_absolute_attribution": 0.004199522081763,
+    "mean_signed_attribution": -0.004183977842331
+  },
+  {
+    "feature": "semana_sin__tmenos7",
+    "mean_absolute_attribution": 0.004197363276035,
+    "mean_signed_attribution": -0.004197363276035
+  },
+  {
+    "feature": "umidade_media__tmenos6",
+    "mean_absolute_attribution": 0.004175023175776,
+    "mean_signed_attribution": -0.004175023175776
+  },
+  {
+    "feature": "temperatura_media__tmenos3",
+    "mean_absolute_attribution": 0.003879262134433,
+    "mean_signed_attribution": 0.003817877266556
+  },
+  {
+    "feature": "casos_dengue__tmenos6",
+    "mean_absolute_attribution": 0.002975414972752,
+    "mean_signed_attribution": -0.002967352280393
+  },
+  {
+    "feature": "umidade_media__tmenos7",
+    "mean_absolute_attribution": 0.002967487089336,
+    "mean_signed_attribution": -0.002967487089336
+  },
+  {
+    "feature": "semana_sin__tmenos8",
+    "mean_absolute_attribution": 0.002866643248126,
+    "mean_signed_attribution": -0.002866643248126
+  },
+  {
+    "feature": "chuva_total__tmenos4",
+    "mean_absolute_attribution": 0.002722028177232,
+    "mean_signed_attribution": 0.002648903988302
+  },
+  {
+    "feature": "semana_cos__tmenos5",
+    "mean_absolute_attribution": 0.002540268702433,
+    "mean_signed_attribution": 0.002466809237376
+  },
+  {
+    "feature": "temperatura_media__tmenos4",
+    "mean_absolute_attribution": 0.00249027996324,
+    "mean_signed_attribution": 0.002393118804321
+  },
+  {
+    "feature": "casos_dengue__tmenos7",
+    "mean_absolute_attribution": 0.002113001421094,
+    "mean_signed_attribution": -0.00211030524224
+  },
+  {
+    "feature": "umidade_media__tmenos8",
+    "mean_absolute_attribution": 0.002055421704426,
+    "mean_signed_attribution": -0.002055398421362
+  },
+  {
+    "feature": "chuva_total__tmenos5",
+    "mean_absolute_attribution": 0.001979228341952,
+    "mean_signed_attribution": 0.001972020603716
+  },
+  {
+    "feature": "semana_sin__tmenos9",
+    "mean_absolute_attribution": 0.001978769199923,
+    "mean_signed_attribution": -0.001978721935302
+  },
+  {
+    "feature": "temperatura_media__tmenos5",
+    "mean_absolute_attribution": 0.001806241110899,
+    "mean_signed_attribution": 0.001778465113603
+  },
+  {
+    "feature": "semana_cos__tmenos6",
+    "mean_absolute_attribution": 0.001535332063213,
+    "mean_signed_attribution": 0.001471210736781
+  },
+  {
+    "feature": "casos_dengue__tmenos8",
+    "mean_absolute_attribution": 0.001464951783419,
+    "mean_signed_attribution": -0.001460169558413
+  },
+  {
+    "feature": "umidade_media__tmenos9",
+    "mean_absolute_attribution": 0.001451690099202,
+    "mean_signed_attribution": -0.001451391493902
+  },
+  {
+    "feature": "semana_sin__tmenos10",
+    "mean_absolute_attribution": 0.001421445049345,
+    "mean_signed_attribution": -0.001420450746082
+  },
+  {
+    "feature": "chuva_total__tmenos6",
+    "mean_absolute_attribution": 0.001238170312718,
+    "mean_signed_attribution": 0.001234584371559
+  },
+  {
+    "feature": "semana_sin__tmenos11",
+    "mean_absolute_attribution": 0.001089393743314,
+    "mean_signed_attribution": -0.001087405486032
+  },
+  {
+    "feature": "temperatura_media__tmenos6",
+    "mean_absolute_attribution": 0.00107216311153,
+    "mean_signed_attribution": 0.00100747088436
+  },
+  {
+    "feature": "umidade_media__tmenos10",
+    "mean_absolute_attribution": 0.001060287584551,
+    "mean_signed_attribution": -0.00105972320307
+  },
+  {
+    "feature": "casos_dengue__tmenos9",
+    "mean_absolute_attribution": 0.001045793644153,
+    "mean_signed_attribution": -0.001045121112838
+  },
+  {
+    "feature": "semana_cos__tmenos7",
+    "mean_absolute_attribution": 0.001033831620589,
+    "mean_signed_attribution": 0.000987162813544
+  },
+  {
+    "feature": "semana_sin__tmenos12",
+    "mean_absolute_attribution": 0.000913433963433,
+    "mean_signed_attribution": -0.000910640286747
+  },
+  {
+    "feature": "umidade_media__tmenos11",
+    "mean_absolute_attribution": 0.000819809094537,
+    "mean_signed_attribution": -0.000818540749606
+  },
+  {
+    "feature": "chuva_total__tmenos7",
+    "mean_absolute_attribution": 0.000811486330349,
+    "mean_signed_attribution": 0.000809170946013
+  },
+  {
+    "feature": "casos_dengue__tmenos10",
+    "mean_absolute_attribution": 0.000754154112656,
+    "mean_signed_attribution": -0.000752544088755
+  },
+  {
+    "feature": "umidade_media__tmenos12",
+    "mean_absolute_attribution": 0.000699587748386,
+    "mean_signed_attribution": -0.000698271323927
+  },
+  {
+    "feature": "temperatura_media__tmenos7",
+    "mean_absolute_attribution": 0.00066796579631,
+    "mean_signed_attribution": 0.000586730777286
+  },
+  {
+    "feature": "semana_cos__tmenos8",
+    "mean_absolute_attribution": 0.000666342908517,
+    "mean_signed_attribution": 0.00063915719511
+  },
+  {
+    "feature": "casos_dengue__tmenos11",
+    "mean_absolute_attribution": 0.000569067487959,
+    "mean_signed_attribution": -0.000566848262679
+  },
+  {
+    "feature": "chuva_total__tmenos8",
+    "mean_absolute_attribution": 0.000500531983562,
+    "mean_signed_attribution": 0.000493497296702
+  },
+  {
+    "feature": "casos_dengue__tmenos12",
+    "mean_absolute_attribution": 0.000458246096969,
+    "mean_signed_attribution": -0.000455248926301
+  },
+  {
+    "feature": "semana_cos__tmenos9",
+    "mean_absolute_attribution": 0.000449072133051,
+    "mean_signed_attribution": 0.000427340331953
+  },
+  {
+    "feature": "temperatura_media__tmenos8",
+    "mean_absolute_attribution": 0.000433182780398,
+    "mean_signed_attribution": 0.000362606282579
+  },
+  {
+    "feature": "chuva_total__tmenos9",
+    "mean_absolute_attribution": 0.000358327757567,
+    "mean_signed_attribution": 0.000353341165464
+  },
+  {
+    "feature": "semana_cos__tmenos10",
+    "mean_absolute_attribution": 0.000325570319546,
+    "mean_signed_attribution": 0.000308624323225
+  },
+  {
+    "feature": "temperatura_media__tmenos9",
+    "mean_absolute_attribution": 0.000301727821352,
+    "mean_signed_attribution": 0.000244171707891
+  },
+  {
+    "feature": "chuva_total__tmenos10",
+    "mean_absolute_attribution": 0.000263721536612,
+    "mean_signed_attribution": 0.000259642576566
+  },
+  {
+    "feature": "semana_cos__tmenos11",
+    "mean_absolute_attribution": 0.000250716693699,
+    "mean_signed_attribution": 0.000239580534981
+  },
+  {
+    "feature": "semana_cos__tmenos12",
+    "mean_absolute_attribution": 0.000232243022765,
+    "mean_signed_attribution": 0.000228093005717
+  },
+  {
+    "feature": "temperatura_media__tmenos10",
+    "mean_absolute_attribution": 0.000230458579608,
+    "mean_signed_attribution": 0.000191165614524
+  },
+  {
+    "feature": "chuva_total__tmenos11",
+    "mean_absolute_attribution": 0.000218918939936,
+    "mean_signed_attribution": 0.000216236832784
+  },
+  {
+    "feature": "temperatura_media__tmenos11",
+    "mean_absolute_attribution": 0.000199693080503,
+    "mean_signed_attribution": 0.000179127891897
+  },
+  {
+    "feature": "chuva_total__tmenos12",
+    "mean_absolute_attribution": 0.000182557516382,
+    "mean_signed_attribution": 0.000180986782652
+  },
+  {
+    "feature": "temperatura_media__tmenos12",
+    "mean_absolute_attribution": 0.000171965759364,
+    "mean_signed_attribution": 0.000157108472195
+  }
+]

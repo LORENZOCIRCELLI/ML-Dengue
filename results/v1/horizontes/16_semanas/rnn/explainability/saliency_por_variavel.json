@@ -1,0 +1,32 @@
+[
+  {
+    "feature": "semana_sin",
+    "mean_absolute_attribution": 0.10468253493309,
+    "mean_signed_attribution": -0.10468253493309
+  },
+  {
+    "feature": "umidade_media",
+    "mean_absolute_attribution": 0.069044306874275,
+    "mean_signed_attribution": -0.069044306874275
+  },
+  {
+    "feature": "casos_dengue",
+    "mean_absolute_attribution": 0.057477220892906,
+    "mean_signed_attribution": -0.057433295994997
+  },
+  {
+    "feature": "semana_cos",
+    "mean_absolute_attribution": 0.034860994666815,
+    "mean_signed_attribution": 0.034860994666815
+  },
+  {
+    "feature": "chuva_total",
+    "mean_absolute_attribution": 0.016033407300711,
+    "mean_signed_attribution": 0.016033407300711
+  },
+  {
+    "feature": "temperatura_media",
+    "mean_absolute_attribution": 0.011753653176129,
+    "mean_signed_attribution": 0.011228300631046
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "1.0.0",
+  "versao": "v1.0.0",
+  "modelo": "random_forest",
+  "nomeModelo": "Random Forest",
+  "dataReferencia": "2025-12-28",
+  "dataAlvo": "2026-03-22",
+  "mediaCasosReferencia": 262.0,
+  "limiteCasosAumento": 393.0,
+  "horizonteSemanas": 12,
+  "aumentoCasosPrevisto": false,
+  "resposta": "não",
+  "criterio": "Aumento de pelo menos 50% em relação à média das quatro semanas anteriores à emissão da previsão.",
+  "escoreAumentoNaoCalibrado": 0.3499076591617909,
+  "limiarDecisao": 0.5,
+  "desempenhoHistorico": {
+    "acuracia": 0.6896551724137931,
+    "acuraciaPercentual": 68.96551724137932,
+    "semanasAvaliadas": 145,
+    "semanasComAumento": 56,
+    "f1": 0.34782608695652173,
+    "precision": 0.9230769230769231,
+    "recall": 0.21428571428571427,
+    "rocAuc": 0.9227528089887641,
+    "prAuc": 0.8585105273183158,
+    "tipoAvaliacao": "retrospectiva exploratória",
+    "matrizConfusao": {
+      "rotulos": [
+        "Sem aumento ≥ 50%",
+        "Aumento ≥ 50%"
+      ],
+      "valores": [
+        [
+          88,
+          1
+        ],
+        [
+          44,
+          12
+        ]
+      ]
+    }
+  },
+  "experimental": true,
+  "aviso": "As previsões podem errar devido a particularidades locais, mudanças na transmissão, no clima e nos registros de casos. Não devem ser tomadas como verdade absoluta nem como confirmação de surto.",
+  "notaTaxaAcerto": "A taxa de acerto descreve o desempenho histórico no conjunto avaliado; não é a probabilidade de esta previsão individual estar correta.",
+  "textoConclusao": "Previsão para a semana de 22/03/2026\nAumento de casos previsto: não\nCritério: Aumento de pelo menos 50% em relação à média das quatro semanas anteriores à emissão da previsão.\nDesempenho histórico do modelo: 69,0% de acerto em 145 semanas avaliadas.\nModelo experimental.\nAs previsões podem errar devido a particularidades locais, mudanças na transmissão, no clima e nos registros de casos. Não devem ser tomadas como verdade absoluta nem como confirmação de surto.\nA taxa de acerto descreve o desempenho histórico no conjunto avaliado; não é a probabilidade de esta previsão individual estar correta."
+}

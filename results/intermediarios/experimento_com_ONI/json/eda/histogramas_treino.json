@@ -1,0 +1,1122 @@
+[
+  {
+    "feature": "casos_dengue",
+    "bin_left": -0.442439198493958,
+    "bin_right": -0.093552231788635,
+    "bin_center": -0.267995715141296,
+    "count": 364
+  },
+  {
+    "feature": "casos_dengue",
+    "bin_left": -0.093552231788635,
+    "bin_right": 0.255334734916687,
+    "bin_center": 0.080891251564026,
+    "count": 27
+  },
+  {
+    "feature": "casos_dengue",
+    "bin_left": 0.255334734916687,
+    "bin_right": 0.604221701622009,
+    "bin_center": 0.429778218269348,
+    "count": 15
+  },
+  {
+    "feature": "casos_dengue",
+    "bin_left": 0.604221701622009,
+    "bin_right": 0.953108668327332,
+    "bin_center": 0.77866518497467,
+    "count": 7
+  },
+  {
+    "feature": "casos_dengue",
+    "bin_left": 0.953108668327332,
+    "bin_right": 1.301995635032654,
+    "bin_center": 1.127552151679993,
+    "count": 5
+  },
+  {
+    "feature": "casos_dengue",
+    "bin_left": 1.301995635032654,
+    "bin_right": 1.650882601737976,
+    "bin_center": 1.476439118385315,
+    "count": 3
+  },
+  {
+    "feature": "casos_dengue",
+    "bin_left": 1.650882601737976,
+    "bin_right": 1.999769568443298,
+    "bin_center": 1.825326085090637,
+    "count": 4
+  },
+  {
+    "feature": "casos_dengue",
+    "bin_left": 1.999769568443298,
+    "bin_right": 2.34865665435791,
+    "bin_center": 2.174213171005249,
+    "count": 3
+  },
+  {
+    "feature": "casos_dengue",
+    "bin_left": 2.34865665435791,
+    "bin_right": 2.697543621063232,
+    "bin_center": 2.523100137710572,
+    "count": 6
+  },
+  {
+    "feature": "casos_dengue",
+    "bin_left": 2.697543621063232,
+    "bin_right": 3.046430587768555,
+    "bin_center": 2.871987104415894,
+    "count": 4
+  },
+  {
+    "feature": "casos_dengue",
+    "bin_left": 3.046430587768555,
+    "bin_right": 3.395317554473877,
+    "bin_center": 3.220874071121216,
+    "count": 2
+  },
+  {
+    "feature": "casos_dengue",
+    "bin_left": 3.395317554473877,
+    "bin_right": 3.744204521179199,
+    "bin_center": 3.569761037826538,
+    "count": 3
+  },
+  {
+    "feature": "casos_dengue",
+    "bin_left": 3.744204521179199,
+    "bin_right": 4.093091487884521,
+    "bin_center": 3.918648004531861,
+    "count": 2
+  },
+  {
+    "feature": "casos_dengue",
+    "bin_left": 4.093091487884521,
+    "bin_right": 4.441978454589844,
+    "bin_center": 4.267535209655762,
+    "count": 1
+  },
+  {
+    "feature": "casos_dengue",
+    "bin_left": 4.441978454589844,
+    "bin_right": 4.790865421295166,
+    "bin_center": 4.616421699523926,
+    "count": 1
+  },
+  {
+    "feature": "casos_dengue",
+    "bin_left": 4.790865421295166,
+    "bin_right": 5.139752388000488,
+    "bin_center": 4.965309143066406,
+    "count": 1
+  },
+  {
+    "feature": "casos_dengue",
+    "bin_left": 5.139752388000488,
+    "bin_right": 5.488639354705811,
+    "bin_center": 5.31419563293457,
+    "count": 0
+  },
+  {
+    "feature": "casos_dengue",
+    "bin_left": 5.488639354705811,
+    "bin_right": 5.837526321411133,
+    "bin_center": 5.663083076477051,
+    "count": 1
+  },
+  {
+    "feature": "casos_dengue",
+    "bin_left": 5.837526321411133,
+    "bin_right": 6.186413288116455,
+    "bin_center": 6.011969566345215,
+    "count": 1
+  },
+  {
+    "feature": "casos_dengue",
+    "bin_left": 6.186413288116455,
+    "bin_right": 6.535300254821777,
+    "bin_center": 6.360857009887695,
+    "count": 1
+  },
+  {
+    "feature": "temperatura_media",
+    "bin_left": -2.74563193321228,
+    "bin_right": -2.470536947250366,
+    "bin_center": -2.608084440231323,
+    "count": 5
+  },
+  {
+    "feature": "temperatura_media",
+    "bin_left": -2.470536947250366,
+    "bin_right": -2.195441722869873,
+    "bin_center": -2.33298921585083,
+    "count": 3
+  },
+  {
+    "feature": "temperatura_media",
+    "bin_left": -2.195441722869873,
+    "bin_right": -1.920346736907959,
+    "bin_center": -2.057894229888916,
+    "count": 8
+  },
+  {
+    "feature": "temperatura_media",
+    "bin_left": -1.920346736907959,
+    "bin_right": -1.645251750946045,
+    "bin_center": -1.782799243927002,
+    "count": 13
+  },
+  {
+    "feature": "temperatura_media",
+    "bin_left": -1.645251750946045,
+    "bin_right": -1.370156764984131,
+    "bin_center": -1.507704257965088,
+    "count": 20
+  },
+  {
+    "feature": "temperatura_media",
+    "bin_left": -1.370156764984131,
+    "bin_right": -1.095061659812927,
+    "bin_center": -1.232609272003174,
+    "count": 29
+  },
+  {
+    "feature": "temperatura_media",
+    "bin_left": -1.095061659812927,
+    "bin_right": -0.819966554641724,
+    "bin_center": -0.957514107227326,
+    "count": 30
+  },
+  {
+    "feature": "temperatura_media",
+    "bin_left": -0.819966554641724,
+    "bin_right": -0.54487156867981,
+    "bin_center": -0.682419061660767,
+    "count": 27
+  },
+  {
+    "feature": "temperatura_media",
+    "bin_left": -0.54487156867981,
+    "bin_right": -0.269776582717896,
+    "bin_center": -0.407324075698852,
+    "count": 31
+  },
+  {
+    "feature": "temperatura_media",
+    "bin_left": -0.269776582717896,
+    "bin_right": 0.005318403244018,
+    "bin_center": -0.132229089736938,
+    "count": 32
+  },
+  {
+    "feature": "temperatura_media",
+    "bin_left": 0.005318403244018,
+    "bin_right": 0.280413627624512,
+    "bin_center": 0.142866015434265,
+    "count": 41
+  },
+  {
+    "feature": "temperatura_media",
+    "bin_left": 0.280413627624512,
+    "bin_right": 0.555508613586426,
+    "bin_center": 0.417961120605469,
+    "count": 61
+  },
+  {
+    "feature": "temperatura_media",
+    "bin_left": 0.555508613586426,
+    "bin_right": 0.83060359954834,
+    "bin_center": 0.693056106567383,
+    "count": 52
+  },
+  {
+    "feature": "temperatura_media",
+    "bin_left": 0.83060359954834,
+    "bin_right": 1.105698823928833,
+    "bin_center": 0.968151211738586,
+    "count": 51
+  },
+  {
+    "feature": "temperatura_media",
+    "bin_left": 1.105698823928833,
+    "bin_right": 1.380793809890747,
+    "bin_center": 1.24324631690979,
+    "count": 25
+  },
+  {
+    "feature": "temperatura_media",
+    "bin_left": 1.380793809890747,
+    "bin_right": 1.655888795852661,
+    "bin_center": 1.518341302871704,
+    "count": 9
+  },
+  {
+    "feature": "temperatura_media",
+    "bin_left": 1.655888795852661,
+    "bin_right": 1.930983781814575,
+    "bin_center": 1.793436288833618,
+    "count": 9
+  },
+  {
+    "feature": "temperatura_media",
+    "bin_left": 1.930983781814575,
+    "bin_right": 2.206078767776489,
+    "bin_center": 2.068531274795532,
+    "count": 3
+  },
+  {
+    "feature": "temperatura_media",
+    "bin_left": 2.206078767776489,
+    "bin_right": 2.481173753738404,
+    "bin_center": 2.343626260757446,
+    "count": 1
+  },
+  {
+    "feature": "temperatura_media",
+    "bin_left": 2.481173753738404,
+    "bin_right": 2.756268978118896,
+    "bin_center": 2.61872148513794,
+    "count": 1
+  },
+  {
+    "feature": "umidade_media",
+    "bin_left": -2.786283493041992,
+    "bin_right": -2.540785789489746,
+    "bin_center": -2.663534641265869,
+    "count": 6
+  },
+  {
+    "feature": "umidade_media",
+    "bin_left": -2.540785789489746,
+    "bin_right": -2.295288324356079,
+    "bin_center": -2.418036937713623,
+    "count": 5
+  },
+  {
+    "feature": "umidade_media",
+    "bin_left": -2.295288324356079,
+    "bin_right": -2.049790620803833,
+    "bin_center": -2.172539472579956,
+    "count": 6
+  },
+  {
+    "feature": "umidade_media",
+    "bin_left": -2.049790620803833,
+    "bin_right": -1.804293036460876,
+    "bin_center": -1.92704176902771,
+    "count": 8
+  },
+  {
+    "feature": "umidade_media",
+    "bin_left": -1.804293036460876,
+    "bin_right": -1.55879545211792,
+    "bin_center": -1.681544303894043,
+    "count": 13
+  },
+  {
+    "feature": "umidade_media",
+    "bin_left": -1.55879545211792,
+    "bin_right": -1.313297748565674,
+    "bin_center": -1.436046600341797,
+    "count": 14
+  },
+  {
+    "feature": "umidade_media",
+    "bin_left": -1.313297748565674,
+    "bin_right": -1.067800164222717,
+    "bin_center": -1.190548896789551,
+    "count": 20
+  },
+  {
+    "feature": "umidade_media",
+    "bin_left": -1.067800164222717,
+    "bin_right": -0.822302579879761,
+    "bin_center": -0.945051372051239,
+    "count": 18
+  },
+  {
+    "feature": "umidade_media",
+    "bin_left": -0.822302579879761,
+    "bin_right": -0.576804876327515,
+    "bin_center": -0.699553728103638,
+    "count": 32
+  },
+  {
+    "feature": "umidade_media",
+    "bin_left": -0.576804876327515,
+    "bin_right": -0.331307411193848,
+    "bin_center": -0.454056143760681,
+    "count": 34
+  },
+  {
+    "feature": "umidade_media",
+    "bin_left": -0.331307411193848,
+    "bin_right": -0.085809707641602,
+    "bin_center": -0.208558559417725,
+    "count": 40
+  },
+  {
+    "feature": "umidade_media",
+    "bin_left": -0.085809707641602,
+    "bin_right": 0.159687995910644,
+    "bin_center": 0.036939144134521,
+    "count": 44
+  },
+  {
+    "feature": "umidade_media",
+    "bin_left": 0.159687995910644,
+    "bin_right": 0.405185461044312,
+    "bin_center": 0.282436728477478,
+    "count": 41
+  },
+  {
+    "feature": "umidade_media",
+    "bin_left": 0.405185461044312,
+    "bin_right": 0.650683164596558,
+    "bin_center": 0.527934312820435,
+    "count": 47
+  },
+  {
+    "feature": "umidade_media",
+    "bin_left": 0.650683164596558,
+    "bin_right": 0.896180629730225,
+    "bin_center": 0.773431897163391,
+    "count": 37
+  },
+  {
+    "feature": "umidade_media",
+    "bin_left": 0.896180629730225,
+    "bin_right": 1.141678333282471,
+    "bin_center": 1.018929481506348,
+    "count": 45
+  },
+  {
+    "feature": "umidade_media",
+    "bin_left": 1.141678333282471,
+    "bin_right": 1.387176036834717,
+    "bin_center": 1.264427185058594,
+    "count": 19
+  },
+  {
+    "feature": "umidade_media",
+    "bin_left": 1.387176036834717,
+    "bin_right": 1.632673740386963,
+    "bin_center": 1.50992488861084,
+    "count": 12
+  },
+  {
+    "feature": "umidade_media",
+    "bin_left": 1.632673740386963,
+    "bin_right": 1.878170967102051,
+    "bin_center": 1.755422353744507,
+    "count": 5
+  },
+  {
+    "feature": "umidade_media",
+    "bin_left": 1.878170967102051,
+    "bin_right": 2.123668432235718,
+    "bin_center": 2.000919818878174,
+    "count": 5
+  },
+  {
+    "feature": "chuva_total",
+    "bin_left": -0.828744947910309,
+    "bin_right": -0.661598980426788,
+    "bin_center": -0.745171964168549,
+    "count": 182
+  },
+  {
+    "feature": "chuva_total",
+    "bin_left": -0.661598980426788,
+    "bin_right": -0.494453012943268,
+    "bin_center": -0.578025996685028,
+    "count": 34
+  },
+  {
+    "feature": "chuva_total",
+    "bin_left": -0.494453012943268,
+    "bin_right": -0.327307045459747,
+    "bin_center": -0.410880029201508,
+    "count": 21
+  },
+  {
+    "feature": "chuva_total",
+    "bin_left": -0.327307045459747,
+    "bin_right": -0.160161077976227,
+    "bin_center": -0.243734061717987,
+    "count": 28
+  },
+  {
+    "feature": "chuva_total",
+    "bin_left": -0.160161077976227,
+    "bin_right": 0.006984889507294,
+    "bin_center": -0.076588094234466,
+    "count": 26
+  },
+  {
+    "feature": "chuva_total",
+    "bin_left": 0.006984889507294,
+    "bin_right": 0.174130856990814,
+    "bin_center": 0.090557873249054,
+    "count": 19
+  },
+  {
+    "feature": "chuva_total",
+    "bin_left": 0.174130856990814,
+    "bin_right": 0.341276824474335,
+    "bin_center": 0.257703840732574,
+    "count": 18
+  },
+  {
+    "feature": "chuva_total",
+    "bin_left": 0.341276824474335,
+    "bin_right": 0.508422791957855,
+    "bin_center": 0.424849808216095,
+    "count": 9
+  },
+  {
+    "feature": "chuva_total",
+    "bin_left": 0.508422791957855,
+    "bin_right": 0.675568759441376,
+    "bin_center": 0.591995775699616,
+    "count": 15
+  },
+  {
+    "feature": "chuva_total",
+    "bin_left": 0.675568759441376,
+    "bin_right": 0.842714726924896,
+    "bin_center": 0.759141743183136,
+    "count": 6
+  },
+  {
+    "feature": "chuva_total",
+    "bin_left": 0.842714726924896,
+    "bin_right": 1.009860754013062,
+    "bin_center": 0.926287770271301,
+    "count": 10
+  },
+  {
+    "feature": "chuva_total",
+    "bin_left": 1.009860754013062,
+    "bin_right": 1.177006721496582,
+    "bin_center": 1.093433737754822,
+    "count": 12
+  },
+  {
+    "feature": "chuva_total",
+    "bin_left": 1.177006721496582,
+    "bin_right": 1.344152688980102,
+    "bin_center": 1.260579705238342,
+    "count": 9
+  },
+  {
+    "feature": "chuva_total",
+    "bin_left": 1.344152688980102,
+    "bin_right": 1.511298656463623,
+    "bin_center": 1.427725672721863,
+    "count": 7
+  },
+  {
+    "feature": "chuva_total",
+    "bin_left": 1.511298656463623,
+    "bin_right": 1.678444623947144,
+    "bin_center": 1.594871640205383,
+    "count": 9
+  },
+  {
+    "feature": "chuva_total",
+    "bin_left": 1.678444623947144,
+    "bin_right": 1.845590591430664,
+    "bin_center": 1.762017607688904,
+    "count": 10
+  },
+  {
+    "feature": "chuva_total",
+    "bin_left": 1.845590591430664,
+    "bin_right": 2.012736558914185,
+    "bin_center": 1.929163575172424,
+    "count": 9
+  },
+  {
+    "feature": "chuva_total",
+    "bin_left": 2.012736558914185,
+    "bin_right": 2.179882526397705,
+    "bin_center": 2.096309661865234,
+    "count": 3
+  },
+  {
+    "feature": "chuva_total",
+    "bin_left": 2.179882526397705,
+    "bin_right": 2.347028493881226,
+    "bin_center": 2.263455390930176,
+    "count": 4
+  },
+  {
+    "feature": "chuva_total",
+    "bin_left": 2.347028493881226,
+    "bin_right": 2.514174461364746,
+    "bin_center": 2.430601596832275,
+    "count": 20
+  },
+  {
+    "feature": "semana_sin",
+    "bin_left": -1.414086103439331,
+    "bin_right": -1.273220419883728,
+    "bin_center": -1.343653202056885,
+    "count": 63
+  },
+  {
+    "feature": "semana_sin",
+    "bin_left": -1.273220419883728,
+    "bin_right": -1.132354855537415,
+    "bin_center": -1.202787637710571,
+    "count": 36
+  },
+  {
+    "feature": "semana_sin",
+    "bin_left": -1.132354855537415,
+    "bin_right": -0.991489171981812,
+    "bin_center": -1.061922073364258,
+    "count": 18
+  },
+  {
+    "feature": "semana_sin",
+    "bin_left": -0.991489171981812,
+    "bin_right": -0.850623548030853,
+    "bin_center": -0.921056389808655,
+    "count": 18
+  },
+  {
+    "feature": "semana_sin",
+    "bin_left": -0.850623548030853,
+    "bin_right": -0.709757924079895,
+    "bin_center": -0.780190706253052,
+    "count": 18
+  },
+  {
+    "feature": "semana_sin",
+    "bin_left": -0.709757924079895,
+    "bin_right": -0.568892240524292,
+    "bin_center": -0.639325082302094,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "bin_left": -0.568892240524292,
+    "bin_right": -0.428026616573334,
+    "bin_center": -0.498459428548813,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "bin_left": -0.428026616573334,
+    "bin_right": -0.287160992622376,
+    "bin_center": -0.357593804597855,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "bin_left": -0.287160992622376,
+    "bin_right": -0.146295309066772,
+    "bin_center": -0.216728150844574,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "bin_left": -0.146295309066772,
+    "bin_right": -0.005429744720459,
+    "bin_center": -0.075862526893616,
+    "count": 0
+  },
+  {
+    "feature": "semana_sin",
+    "bin_left": -0.005429744720459,
+    "bin_right": 0.135435938835144,
+    "bin_center": 0.065003097057342,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "bin_left": 0.135435938835144,
+    "bin_right": 0.276301622390747,
+    "bin_center": 0.205868780612946,
+    "count": 18
+  },
+  {
+    "feature": "semana_sin",
+    "bin_left": 0.276301622390747,
+    "bin_right": 0.41716718673706,
+    "bin_center": 0.346734404563904,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "bin_left": 0.41716718673706,
+    "bin_right": 0.558032870292664,
+    "bin_center": 0.487600028514862,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "bin_left": 0.558032870292664,
+    "bin_right": 0.698898553848267,
+    "bin_center": 0.628465712070465,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "bin_left": 0.698898553848267,
+    "bin_right": 0.83976411819458,
+    "bin_center": 0.769331336021423,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "bin_left": 0.83976411819458,
+    "bin_right": 0.980629682540894,
+    "bin_center": 0.910196900367737,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "bin_left": 0.980629682540894,
+    "bin_right": 1.121495485305786,
+    "bin_center": 1.05106258392334,
+    "count": 17
+  },
+  {
+    "feature": "semana_sin",
+    "bin_left": 1.121495485305786,
+    "bin_right": 1.2623610496521,
+    "bin_center": 1.191928267478943,
+    "count": 34
+  },
+  {
+    "feature": "semana_sin",
+    "bin_left": 1.2623610496521,
+    "bin_right": 1.403226733207703,
+    "bin_center": 1.332793951034546,
+    "count": 59
+  },
+  {
+    "feature": "semana_cos",
+    "bin_left": -1.382078051567078,
+    "bin_right": -1.239985108375549,
+    "bin_center": -1.311031579971314,
+    "count": 63
+  },
+  {
+    "feature": "semana_cos",
+    "bin_left": -1.239985108375549,
+    "bin_right": -1.097892165184021,
+    "bin_center": -1.168938636779785,
+    "count": 36
+  },
+  {
+    "feature": "semana_cos",
+    "bin_left": -1.097892165184021,
+    "bin_right": -0.955799221992493,
+    "bin_center": -1.026845693588257,
+    "count": 18
+  },
+  {
+    "feature": "semana_cos",
+    "bin_left": -0.955799221992493,
+    "bin_right": -0.813706278800964,
+    "bin_center": -0.884752750396728,
+    "count": 18
+  },
+  {
+    "feature": "semana_cos",
+    "bin_left": -0.813706278800964,
+    "bin_right": -0.671613335609436,
+    "bin_center": -0.7426598072052,
+    "count": 18
+  },
+  {
+    "feature": "semana_cos",
+    "bin_left": -0.671613335609436,
+    "bin_right": -0.529520392417908,
+    "bin_center": -0.600566864013672,
+    "count": 18
+  },
+  {
+    "feature": "semana_cos",
+    "bin_left": -0.529520392417908,
+    "bin_right": -0.387427449226379,
+    "bin_center": -0.458473920822144,
+    "count": 18
+  },
+  {
+    "feature": "semana_cos",
+    "bin_left": -0.387427449226379,
+    "bin_right": -0.245334506034851,
+    "bin_center": -0.316380977630615,
+    "count": 18
+  },
+  {
+    "feature": "semana_cos",
+    "bin_left": -0.245334506034851,
+    "bin_right": -0.103241562843323,
+    "bin_center": -0.174288034439087,
+    "count": 18
+  },
+  {
+    "feature": "semana_cos",
+    "bin_left": -0.103241562843323,
+    "bin_right": 0.038851380348206,
+    "bin_center": -0.032195091247558,
+    "count": 0
+  },
+  {
+    "feature": "semana_cos",
+    "bin_left": 0.038851380348206,
+    "bin_right": 0.180944323539734,
+    "bin_center": 0.10989785194397,
+    "count": 17
+  },
+  {
+    "feature": "semana_cos",
+    "bin_left": 0.180944323539734,
+    "bin_right": 0.323037266731262,
+    "bin_center": 0.251990795135498,
+    "count": 17
+  },
+  {
+    "feature": "semana_cos",
+    "bin_left": 0.323037266731262,
+    "bin_right": 0.46513020992279,
+    "bin_center": 0.394083738327026,
+    "count": 17
+  },
+  {
+    "feature": "semana_cos",
+    "bin_left": 0.46513020992279,
+    "bin_right": 0.607223153114319,
+    "bin_center": 0.536176681518555,
+    "count": 17
+  },
+  {
+    "feature": "semana_cos",
+    "bin_left": 0.607223153114319,
+    "bin_right": 0.749316096305847,
+    "bin_center": 0.678269624710083,
+    "count": 17
+  },
+  {
+    "feature": "semana_cos",
+    "bin_left": 0.749316096305847,
+    "bin_right": 0.891409039497376,
+    "bin_center": 0.820362567901611,
+    "count": 17
+  },
+  {
+    "feature": "semana_cos",
+    "bin_left": 0.891409039497376,
+    "bin_right": 1.033501982688904,
+    "bin_center": 0.96245551109314,
+    "count": 17
+  },
+  {
+    "feature": "semana_cos",
+    "bin_left": 1.033501982688904,
+    "bin_right": 1.175594925880432,
+    "bin_center": 1.104548454284668,
+    "count": 17
+  },
+  {
+    "feature": "semana_cos",
+    "bin_left": 1.175594925880432,
+    "bin_right": 1.31768786907196,
+    "bin_center": 1.246641397476196,
+    "count": 33
+  },
+  {
+    "feature": "semana_cos",
+    "bin_left": 1.31768786907196,
+    "bin_right": 1.459780812263489,
+    "bin_center": 1.388734340667725,
+    "count": 57
+  },
+  {
+    "feature": "el_nino",
+    "bin_left": -0.619221746921539,
+    "bin_right": -0.507514119148254,
+    "bin_center": -0.563367962837219,
+    "count": 326
+  },
+  {
+    "feature": "el_nino",
+    "bin_left": -0.507514119148254,
+    "bin_right": -0.395806550979614,
+    "bin_center": -0.451660335063934,
+    "count": 0
+  },
+  {
+    "feature": "el_nino",
+    "bin_left": -0.395806550979614,
+    "bin_right": -0.284098923206329,
+    "bin_center": -0.339952737092972,
+    "count": 0
+  },
+  {
+    "feature": "el_nino",
+    "bin_left": -0.284098923206329,
+    "bin_right": -0.172391325235367,
+    "bin_center": -0.228245124220848,
+    "count": 0
+  },
+  {
+    "feature": "el_nino",
+    "bin_left": -0.172391325235367,
+    "bin_right": -0.060683727264404,
+    "bin_center": -0.116537526249886,
+    "count": 0
+  },
+  {
+    "feature": "el_nino",
+    "bin_left": -0.060683727264404,
+    "bin_right": 0.051023900508881,
+    "bin_center": -0.004829913377762,
+    "count": 0
+  },
+  {
+    "feature": "el_nino",
+    "bin_left": 0.051023900508881,
+    "bin_right": 0.162731468677521,
+    "bin_center": 0.106877684593201,
+    "count": 0
+  },
+  {
+    "feature": "el_nino",
+    "bin_left": 0.162731468677521,
+    "bin_right": 0.274439096450806,
+    "bin_center": 0.218585282564163,
+    "count": 0
+  },
+  {
+    "feature": "el_nino",
+    "bin_left": 0.274439096450806,
+    "bin_right": 0.386146724224091,
+    "bin_center": 0.330292910337448,
+    "count": 0
+  },
+  {
+    "feature": "el_nino",
+    "bin_left": 0.386146724224091,
+    "bin_right": 0.497854292392731,
+    "bin_center": 0.442000508308411,
+    "count": 0
+  },
+  {
+    "feature": "el_nino",
+    "bin_left": 0.497854292392731,
+    "bin_right": 0.609561860561371,
+    "bin_center": 0.553708076477051,
+    "count": 0
+  },
+  {
+    "feature": "el_nino",
+    "bin_left": 0.609561860561371,
+    "bin_right": 0.7212695479393,
+    "bin_center": 0.665415704250336,
+    "count": 0
+  },
+  {
+    "feature": "el_nino",
+    "bin_left": 0.7212695479393,
+    "bin_right": 0.832977116107941,
+    "bin_center": 0.777123332023621,
+    "count": 0
+  },
+  {
+    "feature": "el_nino",
+    "bin_left": 0.832977116107941,
+    "bin_right": 0.944684684276581,
+    "bin_center": 0.888830900192261,
+    "count": 0
+  },
+  {
+    "feature": "el_nino",
+    "bin_left": 0.944684684276581,
+    "bin_right": 1.056392431259155,
+    "bin_center": 1.00053858757019,
+    "count": 0
+  },
+  {
+    "feature": "el_nino",
+    "bin_left": 1.056392431259155,
+    "bin_right": 1.168099880218506,
+    "bin_center": 1.112246155738831,
+    "count": 0
+  },
+  {
+    "feature": "el_nino",
+    "bin_left": 1.168099880218506,
+    "bin_right": 1.279807567596436,
+    "bin_center": 1.223953723907471,
+    "count": 0
+  },
+  {
+    "feature": "el_nino",
+    "bin_left": 1.279807567596436,
+    "bin_right": 1.391515254974365,
+    "bin_center": 1.3356614112854,
+    "count": 0
+  },
+  {
+    "feature": "el_nino",
+    "bin_left": 1.391515254974365,
+    "bin_right": 1.503222703933716,
+    "bin_center": 1.44736897945404,
+    "count": 0
+  },
+  {
+    "feature": "el_nino",
+    "bin_left": 1.503222703933716,
+    "bin_right": 1.614930391311646,
+    "bin_center": 1.559076547622681,
+    "count": 125
+  },
+  {
+    "feature": "la_nina",
+    "bin_left": -0.579910576343536,
+    "bin_right": -0.464694857597351,
+    "bin_center": -0.522302746772766,
+    "count": 343
+  },
+  {
+    "feature": "la_nina",
+    "bin_left": -0.464694857597351,
+    "bin_right": -0.349479138851166,
+    "bin_center": -0.407086998224258,
+    "count": 0
+  },
+  {
+    "feature": "la_nina",
+    "bin_left": -0.349479138851166,
+    "bin_right": -0.23426342010498,
+    "bin_center": -0.291871279478073,
+    "count": 0
+  },
+  {
+    "feature": "la_nina",
+    "bin_left": -0.23426342010498,
+    "bin_right": -0.119047701358795,
+    "bin_center": -0.176655560731888,
+    "count": 0
+  },
+  {
+    "feature": "la_nina",
+    "bin_left": -0.119047701358795,
+    "bin_right": -0.00383198261261,
+    "bin_center": -0.061439841985702,
+    "count": 0
+  },
+  {
+    "feature": "la_nina",
+    "bin_left": -0.00383198261261,
+    "bin_right": 0.111383736133575,
+    "bin_center": 0.053775876760483,
+    "count": 0
+  },
+  {
+    "feature": "la_nina",
+    "bin_left": 0.111383736133575,
+    "bin_right": 0.226599454879761,
+    "bin_center": 0.168991595506668,
+    "count": 0
+  },
+  {
+    "feature": "la_nina",
+    "bin_left": 0.226599454879761,
+    "bin_right": 0.341815173625946,
+    "bin_center": 0.284207314252853,
+    "count": 0
+  },
+  {
+    "feature": "la_nina",
+    "bin_left": 0.341815173625946,
+    "bin_right": 0.457030951976776,
+    "bin_center": 0.399423062801361,
+    "count": 0
+  },
+  {
+    "feature": "la_nina",
+    "bin_left": 0.457030951976776,
+    "bin_right": 0.572246611118317,
+    "bin_center": 0.514638781547546,
+    "count": 0
+  },
+  {
+    "feature": "la_nina",
+    "bin_left": 0.572246611118317,
+    "bin_right": 0.687462270259857,
+    "bin_center": 0.629854440689087,
+    "count": 0
+  },
+  {
+    "feature": "la_nina",
+    "bin_left": 0.687462270259857,
+    "bin_right": 0.802678048610687,
+    "bin_center": 0.745070159435272,
+    "count": 0
+  },
+  {
+    "feature": "la_nina",
+    "bin_left": 0.802678048610687,
+    "bin_right": 0.917893826961517,
+    "bin_center": 0.860285937786102,
+    "count": 0
+  },
+  {
+    "feature": "la_nina",
+    "bin_left": 0.917893826961517,
+    "bin_right": 1.033109426498413,
+    "bin_center": 0.975501656532288,
+    "count": 0
+  },
+  {
+    "feature": "la_nina",
+    "bin_left": 1.033109426498413,
+    "bin_right": 1.148325204849243,
+    "bin_center": 1.090717315673828,
+    "count": 0
+  },
+  {
+    "feature": "la_nina",
+    "bin_left": 1.148325204849243,
+    "bin_right": 1.263540983200073,
+    "bin_center": 1.205933094024658,
+    "count": 0
+  },
+  {
+    "feature": "la_nina",
+    "bin_left": 1.263540983200073,
+    "bin_right": 1.378756761550903,
+    "bin_center": 1.321148872375488,
+    "count": 0
+  },
+  {
+    "feature": "la_nina",
+    "bin_left": 1.378756761550903,
+    "bin_right": 1.493972539901733,
+    "bin_center": 1.436364650726318,
+    "count": 0
+  },
+  {
+    "feature": "la_nina",
+    "bin_left": 1.493972539901733,
+    "bin_right": 1.609188079833984,
+    "bin_center": 1.551580309867859,
+    "count": 0
+  },
+  {
+    "feature": "la_nina",
+    "bin_left": 1.609188079833984,
+    "bin_right": 1.724403738975525,
+    "bin_center": 1.666795969009399,
+    "count": 108
+  }
+]

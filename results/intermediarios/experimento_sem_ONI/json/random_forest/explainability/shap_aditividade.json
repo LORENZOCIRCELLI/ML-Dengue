@@ -1,0 +1,1073 @@
+[
+  {
+    "sample_id": 627,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.0198648401597,
+    "reconstructed_probability": 0.482662876026553,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 628,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.002889889699414,
+    "reconstructed_probability": 0.505417605885667,
+    "absolute_error": 2.22044604925031e-16
+  },
+  {
+    "sample_id": 629,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.020425745440557,
+    "reconstructed_probability": 0.522953461626809,
+    "absolute_error": 2.22044604925031e-16
+  },
+  {
+    "sample_id": 630,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.045544148045389,
+    "reconstructed_probability": 0.548071864231642,
+    "absolute_error": 3.33066907387547e-16
+  },
+  {
+    "sample_id": 631,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.029405311923638,
+    "reconstructed_probability": 0.531933028109891,
+    "absolute_error": 2.22044604925031e-16
+  },
+  {
+    "sample_id": 632,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.025828547375883,
+    "reconstructed_probability": 0.528356263562136,
+    "absolute_error": 2.22044604925031e-16
+  },
+  {
+    "sample_id": 633,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.016385452112101,
+    "reconstructed_probability": 0.518913168298354,
+    "absolute_error": 3.33066907387547e-16
+  },
+  {
+    "sample_id": 634,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.048781483585642,
+    "reconstructed_probability": 0.551309199771895,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 635,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.071459561472778,
+    "reconstructed_probability": 0.57398727765903,
+    "absolute_error": 0.0
+  },
+  {
+    "sample_id": 636,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.140746800596724,
+    "reconstructed_probability": 0.643274516782977,
+    "absolute_error": 2.22044604925031e-16
+  },
+  {
+    "sample_id": 637,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.031630355425554,
+    "reconstructed_probability": 0.534158071611807,
+    "absolute_error": 0.0
+  },
+  {
+    "sample_id": 638,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.09591208027677,
+    "reconstructed_probability": 0.406615635909482,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 639,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.189103881725924,
+    "reconstructed_probability": 0.313423834460329,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 640,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.297988573641359,
+    "reconstructed_probability": 0.204539142544893,
+    "absolute_error": 2.22044604925031e-16
+  },
+  {
+    "sample_id": 641,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.36285204783258,
+    "reconstructed_probability": 0.139675668353673,
+    "absolute_error": 2.22044604925031e-16
+  },
+  {
+    "sample_id": 642,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.404016094915404,
+    "reconstructed_probability": 0.098511621270849,
+    "absolute_error": 1.52655665885959e-16
+  },
+  {
+    "sample_id": 643,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.49646997818334,
+    "reconstructed_probability": 0.006057738002913,
+    "absolute_error": 2.28983498828938e-16
+  },
+  {
+    "sample_id": 644,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.496469978183339,
+    "reconstructed_probability": 0.006057738002913,
+    "absolute_error": 1.17961196366423e-16
+  },
+  {
+    "sample_id": 645,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.50146997818334,
+    "reconstructed_probability": 0.001057738002913,
+    "absolute_error": 2.33103467084383e-16
+  },
+  {
+    "sample_id": 646,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.494233136078076,
+    "reconstructed_probability": 0.008294580108176,
+    "absolute_error": 1.82145964977565e-16
+  },
+  {
+    "sample_id": 647,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.490483136078076,
+    "reconstructed_probability": 0.012044580108176,
+    "absolute_error": 3.98986399474666e-17
+  },
+  {
+    "sample_id": 648,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.50006646941141,
+    "reconstructed_probability": 0.002461246774843,
+    "absolute_error": 9.58434720477186e-17
+  },
+  {
+    "sample_id": 649,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.488449307695238,
+    "reconstructed_probability": 0.014078408491015,
+    "absolute_error": 1.57859836313889e-16
+  },
+  {
+    "sample_id": 650,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.498733136078076,
+    "reconstructed_probability": 0.003794580108176,
+    "absolute_error": 1.30971622436249e-16
+  },
+  {
+    "sample_id": 651,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.489149802744743,
+    "reconstructed_probability": 0.01337791344151,
+    "absolute_error": 7.63278329429795e-17
+  },
+  {
+    "sample_id": 652,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.490983136078076,
+    "reconstructed_probability": 0.011544580108176,
+    "absolute_error": 3.98986399474666e-17
+  },
+  {
+    "sample_id": 653,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.467471508171099,
+    "reconstructed_probability": 0.035056208015153,
+    "absolute_error": 3.46944695195361e-17
+  },
+  {
+    "sample_id": 654,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.466688755268944,
+    "reconstructed_probability": 0.035838960917309,
+    "absolute_error": 1.38777878078145e-17
+  },
+  {
+    "sample_id": 655,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.447884209218234,
+    "reconstructed_probability": 0.054643506968019,
+    "absolute_error": 9.71445146547012e-17
+  },
+  {
+    "sample_id": 656,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.405543405489042,
+    "reconstructed_probability": 0.096984310697211,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 657,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.367493886888128,
+    "reconstructed_probability": 0.135033829298124,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 658,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.276518131465412,
+    "reconstructed_probability": 0.226009584720841,
+    "absolute_error": 2.77555756156289e-17
+  },
+  {
+    "sample_id": 659,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.096824758008872,
+    "reconstructed_probability": 0.405702958177381,
+    "absolute_error": 1.66533453693773e-16
+  },
+  {
+    "sample_id": 660,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.06832277965868,
+    "reconstructed_probability": 0.434204936527572,
+    "absolute_error": 2.22044604925031e-16
+  },
+  {
+    "sample_id": 661,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.065482931410895,
+    "reconstructed_probability": 0.437044784775358,
+    "absolute_error": 1.66533453693773e-16
+  },
+  {
+    "sample_id": 662,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.070010556871642,
+    "reconstructed_probability": 0.43251715931461,
+    "absolute_error": 0.0
+  },
+  {
+    "sample_id": 663,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.073410650292252,
+    "reconstructed_probability": 0.429117065894,
+    "absolute_error": 2.77555756156289e-16
+  },
+  {
+    "sample_id": 664,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.10904742649625,
+    "reconstructed_probability": 0.393480289690003,
+    "absolute_error": 0.0
+  },
+  {
+    "sample_id": 665,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.081035309539903,
+    "reconstructed_probability": 0.42149240664635,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 666,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.02243811795271,
+    "reconstructed_probability": 0.480089598233542,
+    "absolute_error": 2.22044604925031e-16
+  },
+  {
+    "sample_id": 667,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.026959502902506,
+    "reconstructed_probability": 0.475568213283746,
+    "absolute_error": 3.33066907387547e-16
+  },
+  {
+    "sample_id": 668,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.02843428292243,
+    "reconstructed_probability": 0.474093433263822,
+    "absolute_error": 3.33066907387547e-16
+  },
+  {
+    "sample_id": 669,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.050434263027683,
+    "reconstructed_probability": 0.45209345315857,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 670,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.03470572987125,
+    "reconstructed_probability": 0.537233446057503,
+    "absolute_error": 3.33066907387547e-16
+  },
+  {
+    "sample_id": 671,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.049709871349661,
+    "reconstructed_probability": 0.552237587535914,
+    "absolute_error": 3.33066907387547e-16
+  },
+  {
+    "sample_id": 672,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.07666922787548,
+    "reconstructed_probability": 0.579196944061733,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 673,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.039654383296609,
+    "reconstructed_probability": 0.542182099482861,
+    "absolute_error": 3.33066907387547e-16
+  },
+  {
+    "sample_id": 674,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.070034213285113,
+    "reconstructed_probability": 0.572561929471366,
+    "absolute_error": 0.0
+  },
+  {
+    "sample_id": 675,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.078193322263329,
+    "reconstructed_probability": 0.580721038449582,
+    "absolute_error": 0.0
+  },
+  {
+    "sample_id": 676,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.054523021165127,
+    "reconstructed_probability": 0.55705073735138,
+    "absolute_error": 0.0
+  },
+  {
+    "sample_id": 677,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.133514269584939,
+    "reconstructed_probability": 0.636041985771191,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 678,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.134477893246934,
+    "reconstructed_probability": 0.637005609433186,
+    "absolute_error": 2.22044604925031e-16
+  },
+  {
+    "sample_id": 679,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.071446452559217,
+    "reconstructed_probability": 0.57397416874547,
+    "absolute_error": 0.0
+  },
+  {
+    "sample_id": 680,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.092056493054984,
+    "reconstructed_probability": 0.594584209241236,
+    "absolute_error": 0.0
+  },
+  {
+    "sample_id": 681,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.107404060510909,
+    "reconstructed_probability": 0.609931776697162,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 682,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.100930701104197,
+    "reconstructed_probability": 0.60345841729045,
+    "absolute_error": 0.0
+  },
+  {
+    "sample_id": 683,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.077954413767015,
+    "reconstructed_probability": 0.580482129953267,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 684,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": 0.004576657797457,
+    "reconstructed_probability": 0.507104373983709,
+    "absolute_error": 0.0
+  },
+  {
+    "sample_id": 685,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.076581127759039,
+    "reconstructed_probability": 0.425946588427214,
+    "absolute_error": 2.22044604925031e-16
+  },
+  {
+    "sample_id": 686,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.158000847349113,
+    "reconstructed_probability": 0.34452686883714,
+    "absolute_error": 1.66533453693773e-16
+  },
+  {
+    "sample_id": 687,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.242892210438657,
+    "reconstructed_probability": 0.259635505747596,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 688,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.279570799445348,
+    "reconstructed_probability": 0.222956916740905,
+    "absolute_error": 2.77555756156289e-17
+  },
+  {
+    "sample_id": 689,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.295876754815326,
+    "reconstructed_probability": 0.206650961370926,
+    "absolute_error": 2.77555756156289e-17
+  },
+  {
+    "sample_id": 690,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.32463979499915,
+    "reconstructed_probability": 0.177887921187103,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 691,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.326569838904665,
+    "reconstructed_probability": 0.175957877281587,
+    "absolute_error": 1.38777878078145e-16
+  },
+  {
+    "sample_id": 692,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.366756194300253,
+    "reconstructed_probability": 0.135771521886,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 693,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.409460140771942,
+    "reconstructed_probability": 0.093067575414311,
+    "absolute_error": 1.38777878078145e-16
+  },
+  {
+    "sample_id": 694,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.407171873037711,
+    "reconstructed_probability": 0.095355843148542,
+    "absolute_error": 1.80411241501588e-16
+  },
+  {
+    "sample_id": 695,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.487706637919999,
+    "reconstructed_probability": 0.014821078266254,
+    "absolute_error": 2.42861286636753e-17
+  },
+  {
+    "sample_id": 696,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.481261582974944,
+    "reconstructed_probability": 0.021266133211309,
+    "absolute_error": 3.81639164714898e-17
+  },
+  {
+    "sample_id": 697,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.451780628210033,
+    "reconstructed_probability": 0.050747087976219,
+    "absolute_error": 3.46944695195361e-17
+  },
+  {
+    "sample_id": 698,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.446809202022563,
+    "reconstructed_probability": 0.05571851416369,
+    "absolute_error": 9.0205620750794e-17
+  },
+  {
+    "sample_id": 699,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.453317963531325,
+    "reconstructed_probability": 0.049209752654928,
+    "absolute_error": 1.45716771982052e-16
+  },
+  {
+    "sample_id": 700,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.480136644850006,
+    "reconstructed_probability": 0.022391071336247,
+    "absolute_error": 8.67361737988403e-17
+  },
+  {
+    "sample_id": 701,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.490233136078076,
+    "reconstructed_probability": 0.012294580108176,
+    "absolute_error": 6.59194920871187e-17
+  },
+  {
+    "sample_id": 702,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.493711578806519,
+    "reconstructed_probability": 0.008816137379734,
+    "absolute_error": 1.16226472890446e-16
+  },
+  {
+    "sample_id": 703,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.486959326554267,
+    "reconstructed_probability": 0.015568389631986,
+    "absolute_error": 2.42861286636753e-17
+  },
+  {
+    "sample_id": 704,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.482895928278955,
+    "reconstructed_probability": 0.019631787907298,
+    "absolute_error": 1.04083408558608e-17
+  },
+  {
+    "sample_id": 705,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.495879608179786,
+    "reconstructed_probability": 0.006648108006466,
+    "absolute_error": 2.86229373536173e-17
+  },
+  {
+    "sample_id": 706,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.487559341979597,
+    "reconstructed_probability": 0.014968374206655,
+    "absolute_error": 2.08166817117217e-17
+  },
+  {
+    "sample_id": 707,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.455662451383347,
+    "reconstructed_probability": 0.046865264802906,
+    "absolute_error": 4.16333634234434e-17
+  },
+  {
+    "sample_id": 708,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.436549445436802,
+    "reconstructed_probability": 0.065978270749451,
+    "absolute_error": 1.38777878078145e-17
+  },
+  {
+    "sample_id": 709,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.386435891451706,
+    "reconstructed_probability": 0.116091824734547,
+    "absolute_error": 1.66533453693773e-16
+  },
+  {
+    "sample_id": 710,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.36356664401084,
+    "reconstructed_probability": 0.138961072175413,
+    "absolute_error": 8.32667268468867e-17
+  },
+  {
+    "sample_id": 711,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.286483851623473,
+    "reconstructed_probability": 0.216043864562779,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 712,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.229549028967388,
+    "reconstructed_probability": 0.272978687218865,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 713,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.128983548225573,
+    "reconstructed_probability": 0.37354416796068,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 714,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.190663104381288,
+    "reconstructed_probability": 0.311864611804965,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 715,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.16975562330262,
+    "reconstructed_probability": 0.332772092883632,
+    "absolute_error": 1.66533453693773e-16
+  },
+  {
+    "sample_id": 716,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.160388566517638,
+    "reconstructed_probability": 0.342139149668615,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 717,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.180093973559218,
+    "reconstructed_probability": 0.322433742627035,
+    "absolute_error": 1.66533453693773e-16
+  },
+  {
+    "sample_id": 718,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.127752263902864,
+    "reconstructed_probability": 0.374775452283389,
+    "absolute_error": 0.0
+  },
+  {
+    "sample_id": 719,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.150199857959943,
+    "reconstructed_probability": 0.35232785822631,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 720,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.120090713043967,
+    "reconstructed_probability": 0.382437003142286,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 721,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.122368770652903,
+    "reconstructed_probability": 0.38015894553335,
+    "absolute_error": 1.66533453693773e-16
+  },
+  {
+    "sample_id": 722,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.100728049377433,
+    "reconstructed_probability": 0.401799666808819,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 723,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.090130173553553,
+    "reconstructed_probability": 0.4123975426327,
+    "absolute_error": 1.66533453693773e-16
+  },
+  {
+    "sample_id": 724,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.108221287105738,
+    "reconstructed_probability": 0.394306429080514,
+    "absolute_error": 1.66533453693773e-16
+  },
+  {
+    "sample_id": 725,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.074806290895337,
+    "reconstructed_probability": 0.427721425290916,
+    "absolute_error": 2.22044604925031e-16
+  },
+  {
+    "sample_id": 726,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.057447953692764,
+    "reconstructed_probability": 0.445079762493489,
+    "absolute_error": 1.66533453693773e-16
+  },
+  {
+    "sample_id": 727,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.00504662583082,
+    "reconstructed_probability": 0.497481090355432,
+    "absolute_error": 2.77555756156289e-16
+  },
+  {
+    "sample_id": 728,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.00932059924886,
+    "reconstructed_probability": 0.493207116937392,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 729,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.009790820156574,
+    "reconstructed_probability": 0.492736896029679,
+    "absolute_error": 1.66533453693773e-16
+  },
+  {
+    "sample_id": 730,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.014548396918736,
+    "reconstructed_probability": 0.487979319267517,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 731,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.02138157843231,
+    "reconstructed_probability": 0.481146137753943,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 732,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.01517236103488,
+    "reconstructed_probability": 0.487355355151372,
+    "absolute_error": 0.0
+  },
+  {
+    "sample_id": 733,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.040916565247216,
+    "reconstructed_probability": 0.461611150939036,
+    "absolute_error": 1.66533453693773e-16
+  },
+  {
+    "sample_id": 734,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.084858072968169,
+    "reconstructed_probability": 0.417669643218084,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 735,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.21487008696598,
+    "reconstructed_probability": 0.287657629220272,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 736,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.244864904020399,
+    "reconstructed_probability": 0.257662812165853,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 737,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.283853467471175,
+    "reconstructed_probability": 0.218674248715078,
+    "absolute_error": 8.32667268468867e-17
+  },
+  {
+    "sample_id": 738,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.309404190187369,
+    "reconstructed_probability": 0.193123525998883,
+    "absolute_error": 1.66533453693773e-16
+  },
+  {
+    "sample_id": 739,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.341268277450153,
+    "reconstructed_probability": 0.1612594387361,
+    "absolute_error": 1.38777878078145e-16
+  },
+  {
+    "sample_id": 740,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.346897291172781,
+    "reconstructed_probability": 0.155630425013472,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 741,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.340352374120819,
+    "reconstructed_probability": 0.162175342065434,
+    "absolute_error": 1.38777878078145e-16
+  },
+  {
+    "sample_id": 742,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.306432963932589,
+    "reconstructed_probability": 0.196094752253664,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 743,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.346311496191406,
+    "reconstructed_probability": 0.156216219994846,
+    "absolute_error": 0.0
+  },
+  {
+    "sample_id": 744,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.356831787553408,
+    "reconstructed_probability": 0.145695928632845,
+    "absolute_error": 1.66533453693773e-16
+  },
+  {
+    "sample_id": 745,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.381702606004202,
+    "reconstructed_probability": 0.12082511018205,
+    "absolute_error": 1.38777878078145e-16
+  },
+  {
+    "sample_id": 746,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.410926922425887,
+    "reconstructed_probability": 0.091600793760365,
+    "absolute_error": 2.77555756156289e-17
+  },
+  {
+    "sample_id": 747,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.459618154718613,
+    "reconstructed_probability": 0.04290956146764,
+    "absolute_error": 1.45716771982052e-16
+  },
+  {
+    "sample_id": 748,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.435411823564262,
+    "reconstructed_probability": 0.067115892621991,
+    "absolute_error": 1.52655665885959e-16
+  },
+  {
+    "sample_id": 749,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.419235504387943,
+    "reconstructed_probability": 0.08329221179831,
+    "absolute_error": 1.80411241501588e-16
+  },
+  {
+    "sample_id": 750,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.403630871183309,
+    "reconstructed_probability": 0.098896845002943,
+    "absolute_error": 4.16333634234434e-17
+  },
+  {
+    "sample_id": 751,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.414171806855824,
+    "reconstructed_probability": 0.088355909330429,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 752,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.445708157208615,
+    "reconstructed_probability": 0.056819558977638,
+    "absolute_error": 6.24500451351651e-17
+  },
+  {
+    "sample_id": 753,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.478966340711281,
+    "reconstructed_probability": 0.023561375474972,
+    "absolute_error": 1.2490009027033e-16
+  },
+  {
+    "sample_id": 754,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.499282641028571,
+    "reconstructed_probability": 0.003245075157681,
+    "absolute_error": 7.67615138119737e-17
+  },
+  {
+    "sample_id": 755,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.491092455074492,
+    "reconstructed_probability": 0.011435261111761,
+    "absolute_error": 7.80625564189563e-17
+  },
+  {
+    "sample_id": 756,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.498483136078076,
+    "reconstructed_probability": 0.004044580108176,
+    "absolute_error": 7.80625564189563e-18
+  },
+  {
+    "sample_id": 757,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.492092341504433,
+    "reconstructed_probability": 0.01043537468182,
+    "absolute_error": 1.38777878078145e-17
+  },
+  {
+    "sample_id": 758,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.493577644157832,
+    "reconstructed_probability": 0.00895007202842,
+    "absolute_error": 2.08166817117217e-17
+  },
+  {
+    "sample_id": 759,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.457465317464147,
+    "reconstructed_probability": 0.045062398722106,
+    "absolute_error": 9.0205620750794e-17
+  },
+  {
+    "sample_id": 760,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.436138481063337,
+    "reconstructed_probability": 0.066389235122916,
+    "absolute_error": 0.0
+  },
+  {
+    "sample_id": 761,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.410991549633298,
+    "reconstructed_probability": 0.091536166552954,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 762,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.327590290952096,
+    "reconstructed_probability": 0.174937425234156,
+    "absolute_error": 8.32667268468867e-17
+  },
+  {
+    "sample_id": 763,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.24298379228821,
+    "reconstructed_probability": 0.259543923898042,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 764,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.19088373868978,
+    "reconstructed_probability": 0.311643977496473,
+    "absolute_error": 1.66533453693773e-16
+  },
+  {
+    "sample_id": 765,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.084405939383732,
+    "reconstructed_probability": 0.41812177680252,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 766,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.06947254615601,
+    "reconstructed_probability": 0.433055170030243,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 767,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.088592073537032,
+    "reconstructed_probability": 0.41393564264922,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 768,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.135124242902171,
+    "reconstructed_probability": 0.367403473284081,
+    "absolute_error": 1.66533453693773e-16
+  },
+  {
+    "sample_id": 769,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.15430967334142,
+    "reconstructed_probability": 0.348218042844833,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 770,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.164246083205328,
+    "reconstructed_probability": 0.338281632980925,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 771,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.09342126649161,
+    "reconstructed_probability": 0.409106449694642,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 772,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.101653244436451,
+    "reconstructed_probability": 0.400874471749802,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 773,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.094854659118218,
+    "reconstructed_probability": 0.407673057068035,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 774,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.057683765996936,
+    "reconstructed_probability": 0.444843950189316,
+    "absolute_error": 2.22044604925031e-16
+  },
+  {
+    "sample_id": 775,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.108385139926153,
+    "reconstructed_probability": 0.3941425762601,
+    "absolute_error": 1.11022302462516e-16
+  },
+  {
+    "sample_id": 776,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.037957740174566,
+    "reconstructed_probability": 0.464569976011687,
+    "absolute_error": 2.77555756156289e-16
+  },
+  {
+    "sample_id": 777,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.056701336361865,
+    "reconstructed_probability": 0.445826379824387,
+    "absolute_error": 1.66533453693773e-16
+  },
+  {
+    "sample_id": 778,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.038686266705843,
+    "reconstructed_probability": 0.46384144948041,
+    "absolute_error": 5.55111512312578e-17
+  },
+  {
+    "sample_id": 779,
+    "base_probability": 0.502527716186253,
+    "sum_attributions": -0.043702245782701,
+    "reconstructed_probability": 0.458825470403552,
+    "absolute_error": 1.66533453693773e-16
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "split": "treino",
+    "gini_impurity": 0.404599780728708
+  },
+  {
+    "split": "validacao",
+    "gini_impurity": 0.373360673245333
+  },
+  {
+    "split": "teste",
+    "gini_impurity": 0.420522021444744
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "modelo": "lstm",
+  "horizonteSemanas": 4,
+  "dataAlvo": "2026-01-25",
+  "texto": "Previsão para a semana de 25/01/2026\nAumento de casos previsto: sim\nCritério: Aumento de pelo menos 50% em relação à média das quatro semanas anteriores à emissão da previsão.\nDesempenho histórico do modelo: 87,6% de acerto em 153 semanas avaliadas.\nModelo experimental.\nAs previsões podem errar devido a particularidades locais, mudanças na transmissão, no clima e nos registros de casos. Não devem ser tomadas como verdade absoluta nem como confirmação de surto.\nA taxa de acerto descreve o desempenho histórico no conjunto avaliado; não é a probabilidade de esta previsão individual estar correta.",
+  "experimental": true,
+  "aviso": "As previsões podem errar devido a particularidades locais, mudanças na transmissão, no clima e nos registros de casos. Não devem ser tomadas como verdade absoluta nem como confirmação de surto.",
+  "notaTaxaAcerto": "A taxa de acerto descreve o desempenho histórico no conjunto avaliado; não é a probabilidade de esta previsão individual estar correta."
+}

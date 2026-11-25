@@ -1,0 +1,222 @@
+{
+  "models_checked": 36,
+  "checks": [
+    {
+      "horizon": 4,
+      "variant": "sem_ENSO",
+      "model": "random_forest",
+      "status": "ok"
+    },
+    {
+      "horizon": 4,
+      "variant": "sem_ENSO",
+      "model": "rnn",
+      "status": "ok"
+    },
+    {
+      "horizon": 4,
+      "variant": "sem_ENSO",
+      "model": "lstm",
+      "status": "ok"
+    },
+    {
+      "horizon": 4,
+      "variant": "ONI_continuo",
+      "model": "random_forest",
+      "status": "ok"
+    },
+    {
+      "horizon": 4,
+      "variant": "ONI_continuo",
+      "model": "rnn",
+      "status": "ok"
+    },
+    {
+      "horizon": 4,
+      "variant": "ONI_continuo",
+      "model": "lstm",
+      "status": "ok"
+    },
+    {
+      "horizon": 4,
+      "variant": "ENSO_binario",
+      "model": "random_forest",
+      "status": "ok"
+    },
+    {
+      "horizon": 4,
+      "variant": "ENSO_binario",
+      "model": "rnn",
+      "status": "ok"
+    },
+    {
+      "horizon": 4,
+      "variant": "ENSO_binario",
+      "model": "lstm",
+      "status": "ok"
+    },
+    {
+      "horizon": 8,
+      "variant": "sem_ENSO",
+      "model": "random_forest",
+      "status": "ok"
+    },
+    {
+      "horizon": 8,
+      "variant": "sem_ENSO",
+      "model": "rnn",
+      "status": "ok"
+    },
+    {
+      "horizon": 8,
+      "variant": "sem_ENSO",
+      "model": "lstm",
+      "status": "ok"
+    },
+    {
+      "horizon": 8,
+      "variant": "ONI_continuo",
+      "model": "random_forest",
+      "status": "ok"
+    },
+    {
+      "horizon": 8,
+      "variant": "ONI_continuo",
+      "model": "rnn",
+      "status": "ok"
+    },
+    {
+      "horizon": 8,
+      "variant": "ONI_continuo",
+      "model": "lstm",
+      "status": "ok"
+    },
+    {
+      "horizon": 8,
+      "variant": "ENSO_binario",
+      "model": "random_forest",
+      "status": "ok"
+    },
+    {
+      "horizon": 8,
+      "variant": "ENSO_binario",
+      "model": "rnn",
+      "status": "ok"
+    },
+    {
+      "horizon": 8,
+      "variant": "ENSO_binario",
+      "model": "lstm",
+      "status": "ok"
+    },
+    {
+      "horizon": 12,
+      "variant": "sem_ENSO",
+      "model": "random_forest",
+      "status": "ok"
+    },
+    {
+      "horizon": 12,
+      "variant": "sem_ENSO",
+      "model": "rnn",
+      "status": "ok"
+    },
+    {
+      "horizon": 12,
+      "variant": "sem_ENSO",
+      "model": "lstm",
+      "status": "ok"
+    },
+    {
+      "horizon": 12,
+      "variant": "ONI_continuo",
+      "model": "random_forest",
+      "status": "ok"
+    },
+    {
+      "horizon": 12,
+      "variant": "ONI_continuo",
+      "model": "rnn",
+      "status": "ok"
+    },
+    {
+      "horizon": 12,
+      "variant": "ONI_continuo",
+      "model": "lstm",
+      "status": "ok"
+    },
+    {
+      "horizon": 12,
+      "variant": "ENSO_binario",
+      "model": "random_forest",
+      "status": "ok"
+    },
+    {
+      "horizon": 12,
+      "variant": "ENSO_binario",
+      "model": "rnn",
+      "status": "ok"
+    },
+    {
+      "horizon": 12,
+      "variant": "ENSO_binario",
+      "model": "lstm",
+      "status": "ok"
+    },
+    {
+      "horizon": 16,
+      "variant": "sem_ENSO",
+      "model": "random_forest",
+      "status": "ok"
+    },
+    {
+      "horizon": 16,
+      "variant": "sem_ENSO",
+      "model": "rnn",
+      "status": "ok"
+    },
+    {
+      "horizon": 16,
+      "variant": "sem_ENSO",
+      "model": "lstm",
+      "status": "ok"
+    },
+    {
+      "horizon": 16,
+      "variant": "ONI_continuo",
+      "model": "random_forest",
+      "status": "ok"
+    },
+    {
+      "horizon": 16,
+      "variant": "ONI_continuo",
+      "model": "rnn",
+      "status": "ok"
+    },
+    {
+      "horizon": 16,
+      "variant": "ONI_continuo",
+      "model": "lstm",
+      "status": "ok"
+    },
+    {
+      "horizon": 16,
+      "variant": "ENSO_binario",
+      "model": "random_forest",
+      "status": "ok"
+    },
+    {
+      "horizon": 16,
+      "variant": "ENSO_binario",
+      "model": "rnn",
+      "status": "ok"
+    },
+    {
+      "horizon": 16,
+      "variant": "ENSO_binario",
+      "model": "lstm",
+      "status": "ok"
+    }
+  ],
+  "data_splits_scalers_predictions_metrics_selection_verified": true
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "feature": "casos_dengue__tmenos12",
+    "attribution": 0.000976650160737,
+    "standardized_input": -0.112708613276482
+  },
+  {
+    "feature": "temperatura_media__tmenos12",
+    "attribution": -0.001418241183273,
+    "standardized_input": 0.923402965068817
+  },
+  {
+    "feature": "umidade_media__tmenos12",
+    "attribution": 0.014072196558118,
+    "standardized_input": -1.452961802482605
+  },
+  {
+    "feature": "chuva_total__tmenos12",
+    "attribution": -0.000152210050146,
+    "standardized_input": -0.390399992465973
+  },
+  {
+    "feature": "semana_sin__tmenos12",
+    "attribution": 0.018722575157881,
+    "standardized_input": -1.410953283309936
+  },
+  {
+    "feature": "semana_cos__tmenos12",
+    "attribution": 0.000703701574821,
+    "standardized_input": 0.366559714078903
+  },
+  {
+    "feature": "casos_dengue__tmenos11",
+    "attribution": 0.001250312896445,
+    "standardized_input": -0.128781616687775
+  },
+  {
+    "feature": "temperatura_media__tmenos11",
+    "attribution": -0.000950348039623,
+    "standardized_input": 0.594561457633972
+  },
+  {
+    "feature": "umidade_media__tmenos11",
+    "attribution": 0.002801285590976,
+    "standardized_input": -0.253121256828308
+  },
+  {
+    "feature": "chuva_total__tmenos11",
+    "attribution": 0.000480564835016,
+    "standardized_input": 1.108874082565308
+  },
+  {
+    "feature": "semana_sin__tmenos11",
+    "attribution": 0.020570496097207,
+    "standardized_input": -1.360076189041138
+  },
+  {
+    "feature": "semana_cos__tmenos11",
+    "attribution": 0.001127777155489,
+    "standardized_input": 0.529547274112701
+  },
+  {
+    "feature": "casos_dengue__tmenos10",
+    "attribution": 0.000564882182516,
+    "standardized_input": -0.055305071175098
+  },
+  {
+    "feature": "temperatura_media__tmenos10",
+    "attribution": 0.000929157307837,
+    "standardized_input": -0.612480342388153
+  },
+  {
+    "feature": "umidade_media__tmenos10",
+    "attribution": 0.024041131138802,
+    "standardized_input": -2.132031917572021
+  },
+  {
+    "feature": "chuva_total__tmenos10",
+    "attribution": -0.000236535037402,
+    "standardized_input": -0.399703800678253
+  },
+  {
+    "feature": "semana_sin__tmenos10",
+    "attribution": 0.020952481776476,
+    "standardized_input": -1.289890170097351
+  },
+  {
+    "feature": "semana_cos__tmenos10",
+    "attribution": 0.001525378902443,
+    "standardized_input": 0.685224533081055
+  },
+  {
+    "feature": "casos_dengue__tmenos9",
+    "attribution": 0.001282809535041,
+    "standardized_input": -0.111560545861721
+  },
+  {
+    "feature": "temperatura_media__tmenos9",
+    "attribution": -0.000636377721094,
+    "standardized_input": 0.412731438875198
+  },
+  {
+    "feature": "umidade_media__tmenos9",
+    "attribution": 0.003715658327565,
+    "standardized_input": -0.286400198936462
+  },
+  {
+    "feature": "chuva_total__tmenos9",
+    "attribution": -0.000191335566342,
+    "standardized_input": -0.317901790142059
+  },
+  {
+    "feature": "semana_sin__tmenos9",
+    "attribution": 0.021754456683993,
+    "standardized_input": -1.201418399810791
+  },
+  {
+    "feature": "semana_cos__tmenos9",
+    "attribution": 0.002176286652684,
+    "standardized_input": 0.83132141828537
+  },
+  {
+    "feature": "casos_dengue__tmenos8",
+    "attribution": 0.000911430281121,
+    "standardized_input": -0.073674201965332
+  },
+  {
+    "feature": "temperatura_media__tmenos8",
+    "attribution": -0.000604894536082,
+    "standardized_input": 0.377912908792496
+  },
+  {
+    "feature": "umidade_media__tmenos8",
+    "attribution": -0.003669365542009,
+    "standardized_input": 0.263151943683624
+  },
+  {
+    "feature": "chuva_total__tmenos8",
+    "attribution": 0.000435427646153,
+    "standardized_input": 1.436368346214294
+  },
+  {
+    "feature": "semana_sin__tmenos8",
+    "attribution": 0.021436711773276,
+    "standardized_input": -1.095951199531555
+  },
+  {
+    "feature": "semana_cos__tmenos8",
+    "attribution": 0.002647205255926,
+    "standardized_input": 0.965707361698151
+  },
+  {
+    "feature": "casos_dengue__tmenos7",
+    "attribution": 0.000877302838489,
+    "standardized_input": -0.067933849990368
+  },
+  {
+    "feature": "temperatura_media__tmenos7",
+    "attribution": -0.001140182139352,
+    "standardized_input": 0.811209976673126
+  },
+  {
+    "feature": "umidade_media__tmenos7",
+    "attribution": 0.018270410597324,
+    "standardized_input": -1.308153510093689
+  },
+  {
+    "feature": "chuva_total__tmenos7",
+    "attribution": -0.000402274745284,
+    "standardized_input": -0.699572920799255
+  },
+  {
+    "feature": "semana_sin__tmenos7",
+    "attribution": 0.020041590556502,
+    "standardized_input": -0.975026547908783
+  },
+  {
+    "feature": "semana_cos__tmenos7",
+    "attribution": 0.003299718722701,
+    "standardized_input": 1.086422920227051
+  },
+  {
+    "feature": "casos_dengue__tmenos6",
+    "attribution": 0.002671675058082,
+    "standardized_input": -0.18848130106926
+  },
+  {
+    "feature": "temperatura_media__tmenos6",
+    "attribution": -0.000613241514657,
+    "standardized_input": 0.617773771286011
+  },
+  {
+    "feature": "umidade_media__tmenos6",
+    "attribution": 0.013650989159942,
+    "standardized_input": -0.898912489414215
+  },
+  {
+    "feature": "chuva_total__tmenos6",
+    "attribution": -0.000440562696895,
+    "standardized_input": -0.699572920799255
+  },
+  {
+    "feature": "semana_sin__tmenos6",
+    "attribution": 0.018617456778884,
+    "standardized_input": -0.840407609939575
+  },
+  {
+    "feature": "semana_cos__tmenos6",
+    "attribution": 0.004282922483981,
+    "standardized_input": 1.191707611083984
+  },
+  {
+    "feature": "casos_dengue__tmenos5",
+    "attribution": 0.002659947378561,
+    "standardized_input": -0.172408312559128
+  },
+  {
+    "feature": "temperatura_media__tmenos5",
+    "attribution": 3.9166927309e-05,
+    "standardized_input": -0.070859037339687
+  },
+  {
+    "feature": "umidade_media__tmenos5",
+    "attribution": 0.011307262815535,
+    "standardized_input": -0.691143989562988
+  },
+  {
+    "feature": "chuva_total__tmenos5",
+    "attribution": -0.000712617591489,
+    "standardized_input": 2.487520694732666
+  },
+  {
+    "feature": "semana_sin__tmenos5",
+    "attribution": 0.016537304967642,
+    "standardized_input": -0.694057524204254
+  },
+  {
+    "feature": "semana_cos__tmenos5",
+    "attribution": 0.005082399584353,
+    "standardized_input": 1.280026197433472
+  },
+  {
+    "feature": "casos_dengue__tmenos4",
+    "attribution": 0.00205783941783,
+    "standardized_input": -0.120745114982128
+  },
+  {
+    "feature": "temperatura_media__tmenos4",
+    "attribution": -0.000138396644616,
+    "standardized_input": 1.10910165309906
+  },
+  {
+    "feature": "umidade_media__tmenos4",
+    "attribution": 0.014579484239221,
+    "standardized_input": -0.835052907466888
+  },
+  {
+    "feature": "chuva_total__tmenos4",
+    "attribution": 3.3938002161e-05,
+    "standardized_input": 0.318479180335999
+  },
+  {
+    "feature": "semana_sin__tmenos4",
+    "attribution": 0.013738973066211,
+    "standardized_input": -0.538110435009003
+  },
+  {
+    "feature": "semana_cos__tmenos4",
+    "attribution": 0.00683738803491,
+    "standardized_input": 1.350090861320496
+  },
+  {
+    "feature": "casos_dengue__tmenos3",
+    "attribution": 0.003396301763132,
+    "standardized_input": -0.17700058221817
+  },
+  {
+    "feature": "temperatura_media__tmenos3",
+    "attribution": 0.000197110421141,
+    "standardized_input": 0.254113763570786
+  },
+  {
+    "feature": "umidade_media__tmenos3",
+    "attribution": -0.016611732542515,
+    "standardized_input": 0.835189819335938
+  },
+  {
+    "feature": "chuva_total__tmenos3",
+    "attribution": -0.001408854499459,
+    "standardized_input": 2.487520694732666
+  },
+  {
+    "feature": "semana_sin__tmenos3",
+    "attribution": 0.010252796113491,
+    "standardized_input": -0.374840378761292
+  },
+  {
+    "feature": "semana_cos__tmenos3",
+    "attribution": 0.008714835159481,
+    "standardized_input": 1.400879859924316
+  },
+  {
+    "feature": "casos_dengue__tmenos2",
+    "attribution": 0.003302238415927,
+    "standardized_input": -0.163223743438721
+  },
+  {
+    "feature": "temperatura_media__tmenos2",
+    "attribution": 0.000600406725425,
+    "standardized_input": 0.29280099272728
+  },
+  {
+    "feature": "umidade_media__tmenos2",
+    "attribution": -0.019874854013324,
+    "standardized_input": 0.967406153678894
+  },
+  {
+    "feature": "chuva_total__tmenos2",
+    "attribution": -0.000141531607369,
+    "standardized_input": 1.472796440124512
+  },
+  {
+    "feature": "semana_sin__tmenos2",
+    "attribution": 0.005730386823416,
+    "standardized_input": -0.206628203392029
+  },
+  {
+    "feature": "semana_cos__tmenos2",
+    "attribution": 0.01149747800082,
+    "standardized_input": 1.431652545928955
+  },
+  {
+    "feature": "casos_dengue__tmenos1",
+    "attribution": 0.003121843794361,
+    "standardized_input": -0.150594964623451
+  },
+  {
+    "feature": "temperatura_media__tmenos1",
+    "attribution": 0.009071243926883,
+    "standardized_input": 1.701016426086426
+  },
+  {
+    "feature": "umidade_media__tmenos1",
+    "attribution": 0.020028103142977,
+    "standardized_input": -1.009542465209961
+  },
+  {
+    "feature": "chuva_total__tmenos1",
+    "attribution": -0.002242595888674,
+    "standardized_input": -0.799767851829529
+  },
+  {
+    "feature": "semana_sin__tmenos1",
+    "attribution": 0.000949714973103,
+    "standardized_input": -0.035926807671785
+  },
+  {
+    "feature": "semana_cos__tmenos1",
+    "attribution": 0.016553463414311,
+    "standardized_input": 1.441960215568542
+  }
+]
