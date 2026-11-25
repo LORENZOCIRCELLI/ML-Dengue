@@ -1,4 +1,28 @@
-import { ResultsCatalog } from '../types/results';
+import { MetricsResult, ResultEntry, ResultsCatalog } from '../types/results';
+
+export function bestModelsByHorizon(
+  candidates: { entry: ResultEntry; metrics: MetricsResult }[],
+) {
+  const ranked = candidates.map(({ entry, metrics }) => {
+    const validation = metrics.metricas.find((row) => row.split === 'validacao');
+    if (validation?.f1 == null || !Number.isFinite(validation.f1)) {
+      throw new Error('F1 de validação indisponível para selecionar o melhor modelo.');
+    }
+    return { entry, f1: validation.f1, prAuc: validation.pr_auc ?? -1 };
+  });
+  ranked.sort(
+    (a, b) =>
+      a.entry.horizonteSemanas - b.entry.horizonteSemanas ||
+      b.f1 - a.f1 ||
+      b.prAuc - a.prAuc ||
+      a.entry.modelo.localeCompare(b.entry.modelo),
+  );
+  return ranked.filter(
+    (candidate, index) =>
+      index === 0 ||
+      candidate.entry.horizonteSemanas !== ranked[index - 1].entry.horizonteSemanas,
+  );
+}
 
 export const modelNames: Record<string, string> = {
   random_forest: 'Random Forest',

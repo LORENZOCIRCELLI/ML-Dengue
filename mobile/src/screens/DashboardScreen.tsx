@@ -7,7 +7,7 @@ import TrendSparkline from '../components/TrendSparkline';
 import ScreenHeader from '../components/ScreenHeader';
 import { useAsyncResource } from '../hooks/useAsyncResource';
 import { results } from '../services/results';
-import { displayDate, percent } from '../utils/results';
+import { bestModelsByHorizon, displayDate, percent } from '../utils/results';
 import { colors, radii, typography } from '../theme/colors';
 import { screenContent } from '../theme/layout';
 
@@ -16,12 +16,20 @@ async function loadDashboard() {
     results.getCatalog(),
     results.getDataset(),
   ]);
-  const horizon = Math.min(...catalog.resultados.map((entry) => entry.horizonteSemanas));
-  const entries = catalog.resultados.filter(
-    (entry) => entry.horizonteSemanas === horizon,
+  const candidates = await Promise.all(
+    catalog.resultados.map(async (entry) => ({
+      entry,
+      metrics: await results.getMetrics(entry),
+    })),
   );
-  const forecasts = await Promise.all(entries.map((entry) => results.getForecast(entry)));
-  return { dataset, forecasts, horizon };
+  const selected = bestModelsByHorizon(candidates);
+  const forecasts = await Promise.all(
+    selected.map(async ({ entry, f1 }) => ({
+      forecast: await results.getForecast(entry),
+      validationF1: f1,
+    })),
+  );
+  return { dataset, forecasts };
 }
 
 export default function DashboardScreen() {
@@ -31,9 +39,9 @@ export default function DashboardScreen() {
     return <ErrorState message={resource.error} onRetry={resource.reload} />;
   if (!resource.data) return <LoadingState />;
 
-  const { dataset, forecasts, horizon } = resource.data;
+  const { dataset, forecasts } = resource.data;
   const last = dataset[dataset.length - 1];
-  const reference = forecasts[0];
+  const reference = forecasts[0].forecast;
 
   return (
     <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
@@ -71,13 +79,24 @@ export default function DashboardScreen() {
           tone={colors.lavender}
         />
       </View>
-      <Text style={styles.section}>Daqui a {horizon} semanas.</Text>
-      {forecasts.map((forecast) => (
-        <View style={styles.modelCard} key={forecast.modelo}>
-          <Text style={styles.kicker}>
-            {forecast.nomeModelo} · {displayDate(forecast.dataAlvo)}
+      <Text style={styles.section}>O melhor modelo para cada horizonte.</Text>
+      <Text style={styles.note}>
+        Seleção pelo maior F1 na validação; em caso de empate, maior PR-AUC na validação.
+      </Text>
+      {forecasts.map(({ forecast, validationF1 }) => (
+        <View style={styles.modelCard} key={forecast.horizonteSemanas}>
+          <Text style={styles.kicker}>DAQUI A {forecast.horizonteSemanas} SEMANAS</Text>
+          <Text style={styles.modelName}>{forecast.nomeModelo}</Text>
+          <Text style={styles.note}>
+            Semana de {displayDate(forecast.dataAlvo)} · F1 de validação:{' '}
+            {validationF1.toLocaleString('pt-BR', { maximumFractionDigits: 3 })}
           </Text>
-          <Text style={styles.modelName}>
+          <Text
+            style={[
+              styles.prediction,
+              { color: forecast.aumentoCasosPrevisto ? colors.danger : colors.success },
+            ]}
+          >
             Aumento previsto: {forecast.aumentoCasosPrevisto ? 'sim' : 'não'}
           </Text>
           <Text style={styles.modelScore}>
@@ -224,6 +243,10 @@ const styles = StyleSheet.create({
     letterSpacing: -1,
     marginTop: 20,
     color: colors.textPrimary,
+  },
+  prediction: {
+    ...typography.h3,
+    marginTop: 16,
   },
   scoreLabel: {
     ...typography.caption,

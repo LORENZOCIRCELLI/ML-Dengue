@@ -19,7 +19,7 @@ require.extensions['.ts'] = (module, filename) => {
 
 const { results } = require('../src/services/results.ts');
 const { RESULTS_CONFIG } = require('../src/config/results.config.ts');
-const { displayDate } = require('../src/utils/results.ts');
+const { bestModelsByHorizon, displayDate } = require('../src/utils/results.ts');
 const originalFetch = global.fetch;
 const originalUrl = RESULTS_CONFIG.baseUrl;
 const exported = path.resolve(__dirname, '../../export');
@@ -118,6 +118,39 @@ test('rejeita versões incompatíveis e caminhos externos no catálogo', async (
 test('datas de semanas não mudam com o fuso horário', () => {
   assert.equal(displayDate('2026-01-25'), '25/01/2026');
   assert.equal(displayDate('2025-12-28T00:00:00.000'), '28/12/2025');
+});
+
+test('painel seleciona um modelo por horizonte pela validação, sem usar o teste', async () => {
+  RESULTS_CONFIG.baseUrl = undefined;
+  const catalog = await results.getCatalog();
+  const candidates = await Promise.all(
+    catalog.resultados.map(async (entry) => ({
+      entry,
+      metrics: await results.getMetrics(entry),
+    })),
+  );
+  const selected = bestModelsByHorizon(candidates);
+  assert.deepEqual(
+    selected.map(({ entry }) => [entry.horizonteSemanas, entry.modelo]),
+    [
+      [4, 'random_forest'],
+      [8, 'random_forest'],
+      [12, 'lstm'],
+      [16, 'lstm'],
+    ],
+  );
+  const changed = structuredClone(candidates);
+  for (const candidate of changed) {
+    candidate.metrics.metricas.find((row) => row.split === 'teste').f1 = 1;
+  }
+  assert.deepEqual(bestModelsByHorizon(changed.reverse()), selected);
+});
+
+test('painel rejeita seleção sem F1 de validação', () => {
+  const entry = localJson('catalogo.json').resultados[0];
+  const metrics = localJson(entry.metricas);
+  metrics.metricas.find((row) => row.split === 'validacao').f1 = null;
+  assert.throws(() => bestModelsByHorizon([{ entry, metrics }]), /F1 de validação/);
 });
 
 test('rejeita arquivos incompletos antes de renderizar métricas ou explicabilidade', async () => {
